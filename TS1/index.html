@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capuno Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        .resume-container {
+            width: 80%;
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 20px;
+            justify-content: space-between;
+            border-bottom: 2px solid #333;
+        }
+
+        .profile-pic img {
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+            
+        }
+
+        .info {
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #004085;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #004085;
+            border-bottom: 2px solid #004085;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 5px;
+        }
+
+        .section {
+            margin-top: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }   
+
+        .skills-list li {
+            background: #004085;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            list-style: none;
+        }
+
+        .color-button {
+            display: block;
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #004085;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .color-button:hover {
+            background: color #002b5c;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="color-button" id="colorButton" onclick="changeColor()">Change Color</button>
+
+    <div class="resume-container" id="resume">
+        <div class="header" id="bottomBorder">
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="info">
+                <h1 id="name">Rome Gabriel P. Capuno</h1>
+                <p>661 E. Quintos Sr</p>
+                <p>(+63) 993-201-6721</p>
+                <p>romecapuno@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 id="summary">PROFESSIONAL SUMMARY</h2>
+            <p>Results-driven professional with expertise in web development, software engineering, and project management. Adept at designing scalable applications, improving system efficiency, and implementing innovative solutions to enhance business performance.</p>
+        </div>
+
+        <div class="section">
+            <h2 id="work">WORK EXPERIENCE</h2>
+            <p><strong>Software Developer</strong> – Amazon Forest (2027 - 2028)</p>
+            <ul>
+                <li>Develop and maintain web applications using HTML, CSS, JavaScript</li>
+                <li>Optimize website performance, increasing load speed by 99%.</li>
+                <li>Collaborate with cross-functional teams to develop new features and resolve system issues.</li>
+            </ul>
+
+            <p><strong>IT Supervisor</strong> – Toktik (2028 - 2029)</p>
+            <ul>
+                <li>Managed technical assistance and troubleshooting for software and hardware issues.</li>
+                <li>Implemented security measures, reducing cyber threats by 99%.</li>
+                <li>Conducted training sessions to improve employees' technical skills.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 id="skills">SKILLS</h2>
+            <ul class="skills-list">
+                <li id="skillsList1">Web Development (HTML, CSS, JavaScript)</li>
+                <li id="skillsList2">Java, C++, and Python Programming</li>
+                <li id="skillsList3">Database Management</li>
+                <li id="skillsList4">Networking (Cisco Packet Tracer)</li>
+                <li id="skillsList5">Cloud Computing</li>
+                <li id="skillsList6">Data Analysis</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 id="education">EDUCATION</h2>
+            <p><strong>Bachelor of Science in Information Technology with Specialization in Web and Mobile Application</strong></p>
+            <p>FEU Institute of Technology (2023 - 2027)</p>
+        </div>
+
+        <div class="section">
+            <h2 id="certifications">CERTIFICATIONS</h2>
+            <ul>
+                <li>Cisco Certified Network Associate (CCNA)</li>
+                <li>Amazon Web Services (AWS) Cloud Practitioner</li>
+                <li>Google Cloud Digital Leader</li>
+                <li>Apple certified support professional(ACSP)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function changeColor() {
+            let resume =  document.getElementById("resume");
+            resume.style.backgroundColor = "#333";
+            resume.style.color = "white";
+            resume.style.borderColor = "white";
+
+            document.getElementById("name").style.color = "#4ee44e"; 
+            document.getElementById("summary").style.color = "#4ee44e"; 
+            document.getElementById("work").style.color = "#4ee44e"; 
+            document.getElementById("skills").style.color = "#4ee44e"; 
+            document.getElementById("education").style.color = "#4ee44e"; 
+            document.getElementById("certifications").style.color = "#4ee44e";
+
+            document.getElementById("summary").style.borderBottomColor = "#4ee44e"; 
+            document.getElementById("work").style.borderBottomColor = "#4ee44e"; 
+            document.getElementById("skills").style.borderBottomColor = "#4ee44e"; 
+            document.getElementById("education").style.borderBottomColor = "#4ee44e"; 
+            document.getElementById("certifications").style.borderBottomColor = "#4ee44e";
+            
+            let header = document.getElementById("bottomBorder");
+            header.style.borderBottomColor = "#4ee44e"; 
+
+            let button = document.getElementById("colorButton");
+            button.style.backgroundColor = "#4ee44e"; 
+            button.style.color = "white";
+
+            document.getElementById("skillsList1").style.background = "#4ee44e";
+            document.getElementById("skillsList2").style.background = "#4ee44e";
+            document.getElementById("skillsList3").style.background = "#4ee44e";
+            document.getElementById("skillsList4").style.background = "#4ee44e";
+            document.getElementById("skillsList5").style.background = "#4ee44e";
+            document.getElementById("skillsList6").style.background = "#4ee44e";
+        }
+    </script>
+</body>
+</html>
