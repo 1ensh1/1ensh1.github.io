@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Week Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center; 
+            position: relative; 
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            margin-right: 750px; 
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: 2px solid black;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.9s ease; 
+            width: 120px;
+            text-align: center;
+        }
+        .buttons button:hover {
+            transform: scale(1.2); 
+        }
+        .buttons button:nth-child(1) { background-color: purple; color: white; }
+        .buttons button:nth-child(2) { background-color: pink; }
+        .buttons button:nth-child(3) { background-color: blue; color: white; }
+        .buttons button:nth-child(4) { background-color: green; color: white; }
+        .buttons button:nth-child(5) { background-color: yellow; }
+        .buttons button:nth-child(6) { background-color: orange; }
+        .buttons button:nth-child(7) { background-color: red; color: white; }
+        .box {
+            width: 250px;
+            height: 250px;
+            border: 8px solid;
+            position: absolute;
+            top: -220px; 
+            left: 60%; 
+            transform: translateX(-50%);
+            transition: top 0.5s ease-in-out, background-color 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button onclick="createBox('purple', 'lavender')">Monday</button>
+            <button onclick="createBox('pink', 'mistyrose')">Tuesday</button>
+            <button onclick="createBox('blue', 'lightblue')">Wednesday</button>
+            <button onclick="createBox('green', 'lightgreen')">Thursday</button>
+            <button onclick="createBox('yellow', 'lightyellow')">Friday</button>
+            <button onclick="createBox('orange', 'lightsalmon')">Saturday</button>
+            <button onclick="createBox('red', 'lightcoral')">Sunday</button>
+        </div>
+        <div id="box-container"></div>
+    </div>
+    <script>
+        function createBox(borderColor, bgColor) {
+            let container = document.getElementById("box-container");
+            let existingBox = container.querySelector(".box");
+            
+            if (existingBox) {
+                existingBox.style.top = "-500px"; 
+                setTimeout(() => existingBox.remove(), 500); 
+            }
+            
+            let box = document.createElement("div");
+            box.className = "box";
+            box.style.borderColor = borderColor;
+            box.style.backgroundColor = bgColor;
+            
+            container.appendChild(box);
+            
+            setTimeout(() => {
+                box.style.top = "50px"; 
+            }, 50);
+            
+            setTimeout(() => {
+                box.style.backgroundColor = "transparent";
+            }, 500); 
+        }
+    </script>
+</body>
+</html>
