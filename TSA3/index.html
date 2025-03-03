@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capuno TSA3</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #76e2a7, #00aaff);
+            transition: background 2s ease-in-out;
+        }
+        .calculator {
+            width: 250px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .display {
+            width: 100%;
+            height: 50px;
+            background: #707c7c;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; 
+            padding: 10px;
+            box-sizing: border-box;
+            color: white; 
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        button {
+            width: 50px;
+            height: 50px;
+            font-size: 1.2em;
+            border: none;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            color: black; 
+            transition: background 0.3s, color 0.3s; 
+        }
+        button:hover {
+            background: black; 
+            color: white; 
+            border-radius: 50%; 
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display"></div> 
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()"><</button>
+            <button onclick="appendOperation('/')">/</button>
+            <button onclick="appendOperation('*')">x</button>
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="appendOperation('-')">-</button>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="appendOperation('+')">+</button>
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="appendNumber('.')">.</button>
+        </div>
+    </div>
+
+    <script>
+        let displayValue = '';
+
+        function updateDisplay() {
+            document.getElementById('display').innerText = displayValue;
+        }
+
+        function appendNumber(number) {
+            if (/[+\-*/]$/.test(displayValue)) {
+                displayValue += number;
+            } else {
+                displayValue += number;
+            }
+            updateDisplay();
+        }
+
+        function appendOperation(operation) {
+            if (/[+\-*/]$/.test(displayValue)) {
+                displayValue = displayValue.slice(0, -1) + operation;
+            } else {
+                displayValue += operation;
+            }
+            updateDisplay();
+        }
+
+        function clearDisplay() {
+            displayValue = ''; 
+            updateDisplay();
+        }
+
+        function deleteLast() {
+            if (displayValue.length > 0) {
+                displayValue = displayValue.slice(0, -1); 
+            }
+            updateDisplay();
+        }
+
+        function calculate() {
+            try {
+                const expression = displayValue.replace(/x/g, '*'); 
+                const result = eval(expression); 
+                displayValue = result.toString(); 
+            } catch (error) {
+                displayValue = 'Error'; 
+            }
+            updateDisplay();
+        }
+
+        const directions = [
+            'to bottom',    
+            'to top',       
+            'to left',       
+            'to right',      
+            'to bottom right', 
+            'to bottom left',  
+            'to top right',    
+            'to top left'     
+        ];
+        let currentDirectionIndex = 0;
+
+        function changeBackground() {
+            document.body.style.background = `linear-gradient(${directions[currentDirectionIndex]}, #76e2a7, #00aaff)`;
+            currentDirectionIndex = (currentDirectionIndex + 1) % directions.length;
+        }
+
+        setInterval(changeBackground, 5000); 
+    </script>
+</body>
+</html>
