@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSA 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            overflow: hidden; 
+            height: 100%; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        body {
+            background: url('bgimg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .header-text {
+            text-align: left;
+            margin-left: 20px;
+            font-family: 'Georgia', serif;
+        }
+
+        .header-text h1 {
+            font-size: 48px; 
+            font-weight: bold;
+            color: #ffcc00; 
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            font-style: italic;
+        }
+
+        .header-text h2 {
+            font-size: 36px; 
+            font-weight: normal;
+            color: #ffffff; 
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            font-style: italic;
+        }
+
+        .header-text p {
+            font-size: 18px; 
+            color: #fff;
+            font-style: italic; 
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .restaurant-card {
+            position: relative;
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            border: 3px solid white;
+            overflow: hidden;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            height: 500px; 
+            cursor: pointer; 
+        }
+
+        .restaurant-card:hover {
+            transform: scale(1.05);
+        }
+
+        .restaurant-card h5 {
+            background: yellow;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .restaurant-card img {
+            width: 100%;
+            height: calc(100% - 10px);
+            object-fit: cover;
+        }
+
+        .card-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .restaurant-card:hover .card-overlay {
+            opacity: 1;
+        }
+
+        .menu-btn {
+            position: absolute;
+            top: 30%;
+            left: 80%;
+            transform: translateX(-50%);
+            background: yellow;
+            color: black;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: block; 
+        }
+
+        .menu-btn:hover {
+            background: darkgreen;
+        }
+
+        .detail-card {
+            opacity: 0; 
+            visibility: hidden; 
+            position: fixed;
+            top: 69%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        .detail-card .card {
+            display: flex;
+            width: 1300px;
+            height: 550px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            flex-direction: row; 
+        }
+
+        .detail-card .vertical-title {
+            writing-mode: vertical-lr;
+            text-orientation: mixed;
+            background: yellow;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 18px;
+            color: black;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(180deg);
+        }
+
+        .detail-card .image-section {
+            width: 40%;
+            background: #ddd;
+            margin-left: 40px; 
+            display: flex;
+            align-items: flex-end; 
+            height: 100%;
+        }
+
+        .detail-card .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .detail-card .content-section {
+            padding: 20px;
+            width: 60%;
+        }
+
+        .detail-card .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+
+        .detail-card .details {
+            font-size: 14px;
+            margin: 10px 0;
+            color: #444;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .detail-card .detail-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        .detail-card .detail-row span {
+            flex: 1;
+            text-align: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .detail-card .detail-row span:nth-child(2) {
+            border-left: 2px solid #444;
+            padding-left: 15px;
+            min-height: 100%;
+        }
+
+        .detail-card .description {
+            font-size: 16px;
+            color: #000000;
+            line-height: 1.8;
+            font-family: 'Georgia', serif;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                visibility: hidden;
+            }
+            to {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+                visibility: visible;
+            }
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        .detail-card.visible {
+            animation: fadeIn 0.5s ease-in-out forwards;
+        }
+
+        .detail-card.hidden {
+            animation: fadeOut 0.5s ease-in-out forwards;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#" class="menu-btn">MAIN MENU</a>
+
+    <div class="header-text">
+        <h1 class="mt-4">Rommel and Grace Bistro</h1>
+        <h2 class="mb-4">Restaurant Guide</h2>
+        <p>Produced by: Rome Capuno</p>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="restaurant-card" data-food="Lomi">
+                    <h5>Lomi</h5>
+                    <img src="lomi.jpg" alt="Lomi">
+                    <div class="card-overlay">
+                        <hr>A delicious noodle soup topped with crispy pork.<hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="restaurant-card" data-food="Carbonara">
+                    <h5>Carbonara</h5>
+                    <img src="carbonara.jpg" alt="Carbonara">
+                    <div class="card-overlay">
+                        <hr>Creamy pasta with bacon and cheese.<hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="restaurant-card" data-food="Mais Con Quezo">
+                    <h5>Mais Con Quezo</h5>
+                    <img src="mais.jpg" alt="Mais Con Quezo">
+                    <div class="card-overlay">
+                        <hr>A sweet blend of corn, cheese, and milk.<hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="restaurant-card" data-food="Chicken Wings">
+                    <h5>Chicken Wings</h5>
+                    <img src="wings.jpg" alt="Chicken Wings">
+                    <div class="card-overlay">
+                        <hr>Crispy wings with a spicy and savory glaze.<hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-card" id="detailCard">
+        <div class="card">
+            <div class="vertical-title" id="detailTitle"></div>
+            <div class="image-section">
+                <img src="lomi.jpg" alt="Restaurant Image" id="detailImage">
+            </div>
+            <div class="content-section">
+                <div class="title" id="detailTitle2"></div>
+                <div class="details">
+                    <div class="details">
+                        <div class="detail-row">
+                            <span>661 Quintos Sr, Sampaloc Manila</span>
+                            <span>Category:
+                            <span id="detailCategory">Filipino</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>T: 0921 829 0102</span>
+                            <span>Open: 4PM to 10PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>W: SMDC.RES</span>
+                            <span>Price: ₱₱</span>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <hr id="detailDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                         <br>
+                         <br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const restaurantCards = document.querySelectorAll('.restaurant-card');
+        const detailCard = document.getElementById('detailCard');
+        const menuBtn = document.querySelector('.menu-btn');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailTitle2 = document.getElementById('detailTitle2');
+        const detailImage = document.getElementById('detailImage');
+        const detailCategory = document.getElementById('detailCategory');
+        const detailDescription = document.getElementById('detailDescription');
+
+        restaurantCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const food = card.dataset.food;
+                detailCard.classList.remove('hidden'); 
+                detailCard.classList.add('visible'); 
+                menuBtn.style.display = 'block'; 
+
+                switch (food) {
+                    case 'Lomi':
+                        detailTitle.textContent = 'Lomi';
+                        detailTitle2.textContent = 'Lomi';
+                        detailImage.src = 'lomi.jpg';
+                        break;
+                    case 'Carbonara':
+                        detailTitle.textContent = 'Carbonara';
+                        detailTitle2.textContent = 'Carbonara';
+                        detailImage.src = 'carbonara.jpg';
+                        break;
+                    case 'Mais Con Quezo':
+                        detailTitle.textContent = 'Mais Con Quezo';
+                        detailTitle2.textContent = 'Mais Con Quezo';
+                        detailImage.src = 'mais.jpg';
+                        break;
+                    case 'Chicken Wings':
+                        detailTitle.textContent = 'Chicken Wings';
+                        detailTitle2.textContent = 'Chicken Wings';
+                        detailImage.src = 'wings.jpg';
+                        break;
+                    default:
+                        break;
+                }
+            });
+        });
+
+        menuBtn.addEventListener('click', () => {
+            detailCard.classList.remove('visible'); 
+            detailCard.classList.add('hidden'); 
+        });
+    </script>
+</body>
+</html>
