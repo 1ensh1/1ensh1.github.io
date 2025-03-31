@@ -41,6 +41,11 @@ function addToCart(e) {
 }
 
 function updateCart(cart) {
+    const cartItemsContainer = document.getElementById('cartItems');
+    const cartTotalElement = document.getElementById('cartTotal');
+    const cartCountElement = document.getElementById('cartCount');
+    
+    // Clear cart items
     cartItemsContainer.innerHTML = '';
     
     if (cart.length === 0) {
@@ -50,11 +55,12 @@ function updateCart(cart) {
         return;
     }
     
+    // Add each item to cart
     let total = 0;
     let totalItems = 0;
     
     cart.forEach(item => {
-        const itemTotal = item.price * item.quantity;
+        const itemTotal = item.isRealMoney ? item.price * item.quantity : item.price * item.quantity;
         total += itemTotal;
         totalItems += item.quantity;
         
@@ -79,6 +85,7 @@ function updateCart(cart) {
         cartItemsContainer.appendChild(cartItemElement);
     });
     
+    // Update total and count
     const hasRealMoneyItems = cart.some(item => item.isRealMoney);
     const hasPokeCoinItems = cart.some(item => !item.isRealMoney);
     
@@ -94,6 +101,7 @@ function updateCart(cart) {
     
     cartCountElement.textContent = totalItems;
     
+    // Add event listeners to quantity buttons
     document.querySelectorAll('.quantity-btn.minus').forEach(button => {
         button.addEventListener('click', decreaseQuantity);
     });
@@ -163,53 +171,56 @@ function checkout() {
         return;
     }
     
+    // Create transaction with proper structure
     const transaction = {
         id: Date.now(),
-        date: new Date().toLocaleDateString('en-US', { 
-            year: 'numeric', month: 'long', day: 'numeric',
-            hour: '2-digit', minute: '2-digit'
-        }),
+        date: new Date().toISOString(),
+        userId: user.playerId, // Link to user
         items: cart.map(item => ({
             name: item.name,
             quantity: item.quantity,
-            price: item.isRealMoney ? '$' + item.price.toFixed(2) : item.price + ' PokéCoins'
+            price: item.isRealMoney ? '$' + item.price.toFixed(2) : item.price + ' PokéCoins',
+            isRealMoney: item.isRealMoney
         })),
-        total: document.getElementById('cartTotal').textContent,
-        userId: user.playerId // Link to user
+        total: document.getElementById('cartTotal').textContent
     };
     
+    // Get existing transactions or initialize array
     let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
+    
+    // Add new transaction
     transactions.push(transaction);
+    
+    // Save back to localStorage
     localStorage.setItem('transactions', JSON.stringify(transactions));
     
+    // Update user stats
     user.stats.itemsPurchased += cart.reduce((sum, item) => sum + item.quantity, 0);
     user.stats.totalSpent += cart
         .filter(item => !item.isRealMoney)
         .reduce((sum, item) => sum + (item.price * item.quantity), 0);
     
+    // Save user data
     localStorage.setItem('currentUser', JSON.stringify(user));
     
+    // Update users list
     let users = JSON.parse(localStorage.getItem('users')) || [];
-    const userIndex = users.findIndex(u => u.ign === user.ign);
+    const userIndex = users.findIndex(u => u.playerId === user.playerId);
     if (userIndex !== -1) {
         users[userIndex] = user;
         localStorage.setItem('users', JSON.stringify(users));
     }
     
+    // Clear cart
     localStorage.removeItem('cart');
     updateCart([]);
-    alert('Purchase successful!');
+    
+    // Redirect to transactions page
+    alert('Purchase successful! Team Rocket blasts off at the speed of light!');
     window.location.href = 'transactions.html';
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    updateCart(JSON.parse(localStorage.getItem('cart')) || []);
-    
-    document.querySelectorAll('button[data-id]').forEach(button => {
-        button.classList.add('add-to-cart-btn');
-    });
-});
-
+// Initialize cart functionality
 document.addEventListener('DOMContentLoaded', function() {
     updateCart(JSON.parse(localStorage.getItem('cart')) || []);
     
