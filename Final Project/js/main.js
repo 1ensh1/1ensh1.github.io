@@ -1,22 +1,26 @@
 // Shared functionality across all pages
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Check authentication status
     checkAuth();
-    
+
     // Highlight current page in navbar
     highlightCurrentPage();
-    
+
     // Initialize page-specific functionality
     if (document.querySelector('.hero-carousel')) initCarousel();
     if (document.getElementById('registrationForm')) initRegistration();
     if (document.getElementById('loginForm')) initLogin();
     if (document.getElementById('logoutBtn')) initLogout();
     if (document.querySelector('.items-grid')) initStore();
+    if (document.querySelector('.store-container')) initStore();
     if (document.getElementById('editAvatarBtn')) initProfile();
     if (document.getElementById('transactionsList')) initTransactions();
-    
+
     // Set current year in footer
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    const currentYearElement = document.getElementById('currentYear');
+    if (currentYearElement) {
+        currentYearElement.textContent = new Date().getFullYear();
+    }
 });
 
 // Authentication Functions
@@ -24,7 +28,7 @@ function checkAuth() {
     const user = JSON.parse(localStorage.getItem('currentUser'));
     const protectedPages = ['profile.html', 'transactions.html'];
     const currentPage = window.location.pathname.split('/').pop();
-    
+
     if (protectedPages.includes(currentPage)) {
         if (!user) {
             window.location.href = 'login.html';
@@ -39,7 +43,7 @@ function checkAuth() {
 function highlightCurrentPage() {
     const currentPage = window.location.pathname.split('/').pop();
     const navLinks = document.querySelectorAll('.nav-links a');
-    
+
     navLinks.forEach(link => {
         const linkPage = link.getAttribute('href');
         if (linkPage === currentPage) {
@@ -57,82 +61,56 @@ function initCarousel() {
     const prevBtn = document.querySelector('.carousel-btn.prev');
     const nextBtn = document.querySelector('.carousel-btn.next');
     let currentSlide = 0;
-    
+
     function showSlide(index) {
         slides.forEach((slide, i) => {
             slide.classList.toggle('active', i === index);
         });
     }
-    
+
     function nextSlide() {
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
     }
-    
+
     function prevSlide() {
         currentSlide = (currentSlide - 1 + slides.length) % slides.length;
         showSlide(currentSlide);
     }
-    
+
     // Auto-advance slides every 5 seconds
     let slideInterval = setInterval(nextSlide, 5000);
-    
+
     // Pause on hover
     carousel.addEventListener('mouseenter', () => clearInterval(slideInterval));
     carousel.addEventListener('mouseleave', () => {
         slideInterval = setInterval(nextSlide, 5000);
     });
-    
+
     // Button controls
     nextBtn.addEventListener('click', () => {
         clearInterval(slideInterval);
         nextSlide();
         slideInterval = setInterval(nextSlide, 5000);
     });
-    
+
     prevBtn.addEventListener('click', () => {
         clearInterval(slideInterval);
         prevSlide();
         slideInterval = setInterval(nextSlide, 5000);
     });
-    
+
     // Show first slide initially
     showSlide(currentSlide);
 }
 
-// Store Data - Add this at the top of main.js
+// Store Data
 const storeItems = {
     featured: [
-        { 
-            id: 'ultra-ball-100', 
-            name: 'Ultra Ball (100)', 
-            price: 800, 
-            description: 'The best performance with a high catch rate!', 
-            image: 'images/ultra-balls.png',
-            badge: 'BEST SELLER'
-        },
-        { 
-            id: 'super-incubator-3', 
-            name: 'Super Incubator (3)', 
-            price: 1500, 
-            description: 'Hatches Eggs 1.5× faster than a standard Incubator', 
-            image: 'images/super-incubator.png',
-            badge: 'POPULAR'
-        },
-        { 
-            id: 'star-piece-8', 
-            name: 'Star Piece (8)', 
-            price: 1000, 
-            description: 'Increases Stardust earned by 50% for 30 minutes', 
-            image: 'images/star-piece.png'
-        },
-        { 
-            id: 'premium-raid-pass-3', 
-            name: 'Premium Raid Pass (3)', 
-            price: 250, 
-            description: 'Join a Raid Battle at a Gym', 
-            image: 'images/raid-pass.png'
-        }
+        { id: 'ultra-ball-100', name: 'Ultra Ball (100)', price: 800, description: 'The best performance with a high catch rate!', image: 'images/ultra-balls.png', badge: 'BEST SELLER' },
+        { id: 'super-incubator-3', name: 'Super Incubator (3)', price: 1500, description: 'Hatches Eggs 1.5× faster than a standard Incubator', image: 'images/super-incubator.png', badge: 'POPULAR' },
+        { id: 'star-piece-8', name: 'Star Piece (8)', price: 1000, description: 'Increases Stardust earned by 50% for 30 minutes', image: 'images/star-piece.png' },
+        { id: 'premium-raid-pass-3', name: 'Premium Raid Pass (3)', price: 250, description: 'Join a Raid Battle at a Gym', image: 'images/raid-pass.png' }
     ],
     boxes: [
         { 
@@ -235,56 +213,48 @@ const storeItems = {
     ]
 };
 
-// Initialize Store - Add this to the init functions
+// Initialize Store
 function initStore() {
-    // Load all store items
     loadStoreItems('featured', 'featuredItems');
     loadStoreItems('boxes', 'itemBoxes');
     loadStoreItems('coins', 'pokeCoins');
     loadStoreItems('bundles', 'dailyBundles');
-    
-    // Initialize cart
+
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     updateCart(cart);
-    
-    // Tab functionality
+
     const tabs = document.querySelectorAll('.store-tab');
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            // Remove active class from all tabs and sections
             tabs.forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.store-section').forEach(s => s.classList.remove('active'));
-            
-            // Add active class to clicked tab and corresponding section
+
             tab.classList.add('active');
             const target = tab.getAttribute('data-target');
             document.getElementById(target).classList.add('active');
         });
     });
-    
-    // Cart toggle
+
     document.getElementById('cartToggle').addEventListener('click', showCart);
     document.querySelector('.close-cart').addEventListener('click', hideCart);
-    
-    // Checkout button
     document.getElementById('checkoutBtn').addEventListener('click', checkout);
 }
 
 function loadStoreItems(category, elementId) {
     const container = document.getElementById(elementId);
     if (!container) return;
-    
+
     container.innerHTML = '';
-    
+
     storeItems[category].forEach(item => {
         const itemCard = document.createElement('div');
         itemCard.className = 'item-card';
-        
+
         let badge = '';
         if (item.badge) {
             badge = `<div class="item-badge">${item.badge}</div>`;
         }
-        
+
         itemCard.innerHTML = `
             ${badge}
             <div class="item-image">
@@ -297,18 +267,17 @@ function loadStoreItems(category, elementId) {
                 <button class="add-to-cart" data-id="${item.id}" data-category="${category}">Add to Cart</button>
             </div>
         `;
-        
+
         container.appendChild(itemCard);
     });
-    
-    // Add event listeners to all add-to-cart buttons
+
     document.querySelectorAll('.add-to-cart').forEach(button => {
         button.addEventListener('click', addToCart);
     });
 }
 
-// Add initStore to the DOMContentLoaded event listener
-document.addEventListener('DOMContentLoaded', function() {
-    // ... existing code ...
-    if (document.querySelector('.store-container')) initStore();
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', addToCart);
 });
+
+document.getElementById('currentYear').textContent = new Date().getFullYear();

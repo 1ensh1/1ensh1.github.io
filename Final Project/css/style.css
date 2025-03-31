@@ -141,6 +141,24 @@ body {
     background-color: #45a049; /* Darker green on hover */
 }
 
+/* Center the checkout button */
+.checkout-btn {
+    display: block;
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px 20px;
+    background-color: #f44336; /* Match "Add to Cart" button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.checkout-btn:hover {
+    background-color: #d32f2f; /* Darker shade on hover */
+}
+
 /* Footer Styles */
 .footer {
     background-color: white;

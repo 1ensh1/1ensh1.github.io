@@ -66,10 +66,7 @@ function initRegistration() {
 function initLogin() {
     const loginForm = document.getElementById('loginForm');
     
-    // Remove any existing listeners to prevent duplicates
     loginForm.removeEventListener('submit', loginForm._submitHandler);
-    
-    // Create new handler
     loginForm._submitHandler = function(e) {
         e.preventDefault();
         
@@ -102,25 +99,18 @@ function initLogin() {
             alert(`Welcome back, ${user.ign}! Prepare for trouble!`);
             window.location.href = redirectUrl;
         } else {
-            alert('Invalid IGN or password! Make it double!');
+            alert('Invalid IGN or password!');
         }
     };
-    
-    // Add the new listener
     loginForm.addEventListener('submit', loginForm._submitHandler);
 }
-
 
 // Logout Functionality
 function initLogout() {
     const logoutBtn = document.getElementById('logoutBtn');
     
     if (logoutBtn) {
-        // Remove any existing listeners to prevent duplicates
-        logoutBtn.removeEventListener('click', logoutBtn._clickHandler);
-        
-        // Create new handler
-        logoutBtn._clickHandler = function(e) {
+        logoutBtn.addEventListener('click', function(e) {
             e.preventDefault();
             
             if (confirm('Are you sure you want to log out?')) {
@@ -129,10 +119,7 @@ function initLogout() {
                 alert('Logged out successfully! We\'ll be waiting for your return!');
                 window.location.href = 'index.html';
             }
-        };
-        
-        // Add the new listener
-        logoutBtn.addEventListener('click', logoutBtn._clickHandler);
+        });
     }
 }
 
@@ -154,28 +141,21 @@ function updateAuthUI() {
     // Update main nav login/logout button
     const mainNavLogin = document.querySelector('.nav-links a[href="login.html"]');
     if (mainNavLogin) {
-        // Remove any existing listeners
-        mainNavLogin.removeEventListener('click', mainNavLogin._clickHandler);
-        
         if (isLoggedIn) {
             mainNavLogin.textContent = 'Logout';
             mainNavLogin.href = '#';
-            
-            // Create new handler
-            mainNavLogin._clickHandler = function(e) {
+            mainNavLogin.addEventListener('click', function(e) {
                 e.preventDefault();
                 if (confirm('Are you sure you want to log out?')) {
                     localStorage.removeItem('currentUser');
                     updateAuthUI();
                     window.location.href = 'index.html';
                 }
-            };
-            
-            // Add the new listener
-            mainNavLogin.addEventListener('click', mainNavLogin._clickHandler);
+            });
         } else {
             mainNavLogin.textContent = 'Login';
             mainNavLogin.href = 'login.html';
+            mainNavLogin.removeEventListener('click', null);
         }
     }
     
@@ -233,20 +213,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Protect purchase buttons
     document.querySelectorAll('.purchase-btn').forEach(btn => {
-        // Remove any existing listeners
-        btn.removeEventListener('click', btn._clickHandler);
-        
-        // Create new handler
-        btn._clickHandler = function(e) {
+        btn.addEventListener('click', function(e) {
             if (!localStorage.getItem('currentUser')) {
                 e.preventDefault();
                 if (confirm('You need to log in first to make purchases. Go to login page?')) {
                     window.location.href = `login.html?redirect=${window.location.pathname.split('/').pop()}`;
                 }
             }
-        };
-        
-        // Add the new listener
-        btn.addEventListener('click', btn._clickHandler);
+        });
     });
 });
