@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP S/4HANA Quiz System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .quiz-btn {
+            display: block;
+            padding: 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .quiz-btn:hover {
+            background-color: #2980b9;
+        }
+        .instructions {
+            margin: 30px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SAP S/4HANA Quiz System</h1>
+        
+        <div class="instructions">
+            <h3>How to use this quiz:</h3>
+            <ul>
+                <li>Select one of the formative quizzes below</li>
+                <li>Each quiz presents 20 random questions</li>
+                <li>You'll get immediate feedback after each answer</li>
+                <li>Questions won't repeat until you've seen them all</li>
+                <li>Your score will be shown at the end</li>
+            </ul>
+        </div>
+        
+        <div class="quiz-options">
+            <a href="quiz.php?quiz=formative1" class="quiz-btn">Formative 1 Quiz</a>
+            <a href="quiz.php?quiz=formative2" class="quiz-btn">Formative 2 Quiz</a>
+            <a href="quiz.php?quiz=formative3" class="quiz-btn">Formative 3 Quiz</a>
+            <a href="quiz.php?quiz=formative4" class="quiz-btn">Formative 4 Quiz</a>
+            <a href="quiz.php?quiz=formative5" class="quiz-btn">Formative 5 Quiz</a>
+        </div>
+    </div>
+</body>
+</html>
