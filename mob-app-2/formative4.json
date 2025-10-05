@@ -1,0 +1,187 @@
+[
+  {
+    "q": "You can provide ___________________ as part of an initializer's definition, to define the types and names of values that customize the initialization process. Initialization parameters have the same capabilities and syntax as function and method parameters.",
+    "type": "mc",
+    "opts": ["initialization parameters", "object parameters", "function parameters", "constructor parameters"],
+    "a": "initialization parameters"
+  },
+  {
+    "q": "___________ is the act of basing a new class on an existing class. The subclass inherits characteristics from the existing class, which you can then refine. You can also add new characteristics to the subclass.",
+    "type": "mc",
+    "opts": ["Object", "Subclassing", "Class", "SuperClass"],
+    "a": "Subclassing"
+  },
+  {
+    "q": "You can prevent a method, property, or subscript from being overridden by marking it as _________.",
+    "type": "mc",
+    "opts": ["final", "last", "optional", "require"],
+    "a": "final"
+  },
+  {
+    "q": "Initializers are called to create a new instance of a particular type. In its simplest form, an initializer is like an instance method with no parameters, written using the _________ keyword:",
+    "type": "mc",
+    "opts": ["init", "final", "initalizers", "closure"],
+    "a": "init"
+  },
+  {
+    "q": "When one class inherits from another, the inheriting class is known as a ___________.",
+    "type": "mc",
+    "opts": ["Object", "Class", "subclass", "superclass"],
+    "a": "subclass"
+  },
+  {
+    "q": "You implement this initialization process by defining _________, which are like special methods that can be called to create a new instance of a particular type. Unlike Objective-C initializers, Swift initializers don't return a value. Their primary role is to ensure that new instances of a type are correctly initialized before they're used for the first time.",
+    "type": "mc",
+    "opts": ["init", "constructor", "default", "initializers"],
+    "a": "initializers"
+  },
+  {
+    "q": "the class where other classes inherits from is known as ________.",
+    "type": "mc",
+    "opts": ["subclass", "Object", "superclass", "Class"],
+    "a": "superclass"
+  },
+  {
+    "q": "Any class that does not inherit from another class is known as a/an ____________.",
+    "type": "mc",
+    "opts": ["inherited class", "base class", "default class", "class"],
+    "a": "base class"
+  },
+  {
+    "q": "__________ is the process of preparing an instance of a class, structure, or enumeration for use. This process involves setting an initial value for each stored property on that instance and performing any other setup or initialization that is required before the new instance is ready for use.",
+    "type": "mc",
+    "opts": ["Reference Type", "Initialization", "Value Type", "Instantiation"],
+    "a": "Initialization"
+  },
+  {
+    "q": "Properties of optional type are automatically initialized with a value of _________, indicating that the property is deliberately intended to have \"no value yet\" during initialization.",
+    "type": "mc",
+    "opts": ["nil", "empty", "\"\"", "Null"],
+    "a": "nil"
+  },
+  {
+    "q": "When one class inherits from another, the inheriting class is known as a superclass, and the class it inherits from is known as its subclass.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Any class that does not inherit from another class is known as a base class.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A subclass can provide its own custom implementation of an instance method, type method, instance property, type property, or subscript that it would otherwise inherit from a superclass. This is known as overriding.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "When one class inherits from another, the inheriting class is known as a subclass, and the class it inherits from is known as its superclass.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Properties of optional type are automatically initialized with a value of nil, indicating that the property is deliberately intended to have \"no value yet\" during initialization.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Any attempt to override a final method, property, or subscript in a subclass is reported as a compile-time error.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A subclass can provide its own custom implementation of an instance method, type method, instance property, type property, or subscript that it would otherwise inherit from a superclass. This is known as overloading.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When you provide a method, property, or subscript override for a subclass, it's sometimes useful to use the existing superclass implementation as part of your override.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Properties of optional type are automatically initialized with a value of null, indicating that the property is deliberately intended to have \"no value yet\" during initialization.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Subclassing is the act of basing a new class on an existing class.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You can mark an entire class as ___________ by writing the final modifier before the class keyword in its class definition (final class). Any attempt to subclass a final class is reported as a compile-time error.",
+    "type": "mc",
+    "opts": ["last", "final", "latest", "required"],
+    "a": "final"
+  },
+  {
+    "q": "A/an ______ can inherit methods, properties, and other characteristics from another class.",
+    "type": "mc",
+    "opts": ["enumeration", "structure", "class", "object"],
+    "a": "class"
+  },
+  {
+    "q": "You access the superclass version of a method, property, or subscript by using the ________ prefix",
+    "type": "mc",
+    "opts": ["super", "optional", "this", "sub"],
+    "a": "super"
+  },
+  {
+    "q": "A class can inherit methods, properties, and other characteristics from another class.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Any attempt to override a final method, property, or subscript in a subclass is reported as a _______ error. Methods, properties, or subscripts that you add to a class in an extension can also be marked as final within the extension's definition.",
+    "type": "mc",
+    "opts": ["logic", "compile-time", "warning-like", "syntax"],
+    "a": "compile-time"
+  },
+  {
+    "q": "Instantiation is the process of preparing an instance of a class, structure, or enumeration for use. This process involves setting an initial value for each stored property on that instance and performing any other setup or initialization that is required before the new instance is ready for use.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "You access the superclass version of a method, property, or subscript by using the super prefix\n• super.someMethod() //overridden method\n• super.someProperty //overridden property\n• super[someIndex] //overridden subscript",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The subclass inherits characteristics from the existing class, which you can then refine. You can also add new characteristics to the subclass.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A subclass can provide its own custom implementation of an instance method, type method, instance property, type property, or subscript that it would otherwise inherit from a superclass. This is known as _________.",
+    "type": "mc",
+    "opts": ["overloading", "reference type", "overriding", "stackoverflow"],
+    "a": "overriding"
+  },
+  {
+    "q": "You can set the initial value of a stored property from within an initializer, as shown above. Alternatively, specify a default property value as part of the property's declaration. You specify a default property value by assigning an initial value to the property when it's defined.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SuperClassing is the act of basing a new class on an existing class.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "You can prevent a method, property, or subscript from being overridden by marking it as final.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Initialization is the process of preparing an instance of a class, structure, or enumeration for use. This process involves setting an initial value for each stored property on that instance and performing any other setup or initialization that is required before the new instance is ready for use.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Initializers are called to create a new instance of a particular type. In its simplest form, an initializer is like an instance method with no parameters, written using the init keyword:",
+    "type": "tf",
+    "a": "True"
+  }
+]

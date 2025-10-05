@@ -1,0 +1,182 @@
+[
+  {
+    "q": "are closures that have a name and do not capture any values.",
+    "type": "mc",
+    "opts": ["Global functions", "Nested functions", "Unnamed functions", "Private functions"],
+    "a": "Global functions"
+  },
+  {
+    "q": "A ___________ is a type whose value is copied when it is assigned to a variable or constant, or when it is passed to a function.",
+    "type": "mc",
+    "opts": ["value type", "reference type", "loosely type", "strict type"],
+    "a": "value type"
+  },
+  {
+    "q": "are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.",
+    "type": "mc",
+    "opts": ["Closure expressions", "Global Functions", "Nested Functions", "Private Functions"],
+    "a": "Closure expressions"
+  },
+  {
+    "q": "The closure expression examples below illustrate these optimizations by refining a single example of the __________________. method over several iterations, each of which expresses the same functionality in a more succinct way",
+    "type": "mc",
+    "opts": ["sorted(by:)", "sort(by:)", "order(by:)", "sort(By:)"],
+    "a": "sorted(by:)"
+  },
+  {
+    "q": "associate values with a particular class, structure, or enumeration.",
+    "type": "mc",
+    "opts": ["Properties", "Structure", "Class", "Collection"],
+    "a": "Properties"
+  },
+  {
+    "q": "are a convenient means of naming and defining self-contained blocks of code as part of a larger function",
+    "type": "mc",
+    "opts": ["Nested Functions", "Functions", "Library", "Class"],
+    "a": "Nested Functions"
+  },
+  {
+    "q": "In Escaping Closures, if you want to capture ________, write ________ explicitly when you use it, or include ________ in the closure's capture.",
+    "type": "mc",
+    "opts": ["self", "this", "super", "this.self"],
+    "a": "self"
+  },
+  {
+    "q": "is/are general-purpose, flexible constructs that become the building blocks of your program's code",
+    "type": "mc",
+    "opts": ["Classes", "Structure", "Enumaration", "Closure"],
+    "a": "Classes"
+  },
+  {
+    "q": "are not copied when they are assigned to a variable or constant, or when they are passed to a function.",
+    "type": "mc",
+    "opts": ["Reference types", "Value Type", "Loosely Type", "Strict Type"],
+    "a": "Reference types"
+  },
+  {
+    "q": "Is a constant or variable that is stored as part of an instance of a particular class or structure",
+    "type": "mc",
+    "opts": ["Stored property", "Saved property", "Transposed property", "Derived property"],
+    "a": "Stored property"
+  },
+  {
+    "q": "Global functions are closures that have a name and do not capture any values.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You cannot define properties and methods to add functionality to your classes and structures by using exactly the same syntax as for constants, variables, and functions.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Swift's String and Character types provide a fast, Unicode-compliant way to work with text in your code",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In Swift, you define a class or a structure in a single file, and the external interface to that class or structure is automatically made available for other code to use",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Global functions are closures that have a name and can capture values from their enclosing function.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Classes and enumeration are general-purpose, flexible constructs that become the building blocks of your program's code",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Closures are self-contained blocks of functionality that cannot be passed around and used in your code.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Closures can never capture and store references to any constants and variables from the context in which they are defined.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Nested functions are closures that have a name and can capture values from their enclosing function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Swift's String and Character types provide a fast, ASCII-compliant way to work with text in your code",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "are closures that have a name and can capture values from their enclosing function.",
+    "type": "mc",
+    "opts": ["Nested functions", "Unnamed functions", "Global functions", "Private functions"],
+    "a": "Nested functions"
+  },
+  {
+    "q": "It doesn't take any arguments, and when it's called, it returns the value of the expression that's wrapped inside of it",
+    "type": "mc",
+    "opts": ["Autoclosure", "ARC", "AutoReference", "AutoClass"],
+    "a": "Autoclosure"
+  },
+  {
+    "q": "are self-contained blocks of functionality that can be passed around and used in your code.",
+    "type": "mc",
+    "opts": ["Closure", "Lambda", "Swift", "Function"],
+    "a": "Closure"
+  },
+  {
+    "q": "Structures and Enumerations Are Value Types",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Swift strings are represented by the String type.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Closures are self-contained blocks of functionality that can be passed around and used in your code.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Closures can capture and store references to any constants and variables from the context in which they are defined.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Closure expressions are named closures written in a complex syntax that can capture values from their surrounding context.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "can capture and store references to any constants and variables from the context in which they are defined",
+    "type": "mc",
+    "opts": ["Closure", "Function", "Swift", "Lambda"],
+    "a": "Closure"
+  },
+  {
+    "q": "provide several syntax optimizations for writing closures in a shortened form without loss of clarity or intent",
+    "type": "mc",
+    "opts": ["Closure expressions", "Functions", "Class", "Enumeration"],
+    "a": "Closure expressions"
+  },
+  {
+    "q": "Closure expressions are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Closure expressions are a way to write inline closures in a complex, unstructured syntax.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Nested functions, as introduced inNested Functions, are a convenient means of naming and defining self-contained blocks of code as part of a larger function.",
+    "type": "tf",
+    "a": "True"
+  }
+]

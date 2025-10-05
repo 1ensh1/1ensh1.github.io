@@ -1,0 +1,114 @@
+[
+  {
+    "q": "In March 6, 2008, with the release of the iPhone software development kit (iPhone SDK), Apple named it iPhone OS",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "When did Apple introduced the App Store to iOS",
+    "type": "mc",
+    "opts": ["June 2008", "November 2008", "July 2008", "October 2008"],
+    "a": "July 2008"
+  },
+  {
+    "q": "Apple made touch the primary interaction model removing all physical buttons.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In iOS 4.0, Music apps are now able to play in background.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In iOS 1.0, Apple's marketing literature states that iPhone runs a version of Apple's desktop operating system, OS X.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "First OS name for iPhone",
+    "type": "mc",
+    "opts": ["iOperating System", "iPhone OS", "OIOSys", "IPOS"],
+    "a": "iPhone OS"
+  },
+  {
+    "q": "iOS 3.0 supports cut, copy, and paste",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "iPhone 3GS was released in 2007",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The latest iOS version",
+    "type": "mc",
+    "opts": ["11", "13", "12", "14"],
+    "a": "14"
+  },
+  {
+    "q": "Apple's Stephen Jabs introduced the iPhone.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "An analysis tool to assist you both optimize your apps and monitor for memory leaks in real time.",
+    "type": "mc",
+    "opts": ["Debug Area", "Interface Builder", "Utility Area", "Instruments"],
+    "a": "Instruments"
+  },
+  {
+    "q": "Used to jump to a selected files, you can quickly select what information to view in the Assistant editor",
+    "type": "mc",
+    "opts": ["Navigator", "Filter", "Jump Bar", "Goto"],
+    "a": "Jump Bar"
+  },
+  {
+    "q": "An Integrated Development Environment that enables you to manage, edit, and debug you iOS projects.",
+    "type": "mc",
+    "opts": ["Sublime Text", "VSCode", "Xcode", "Eclipse"],
+    "a": "Xcode"
+  },
+  {
+    "q": "iOS version where S iPhone was introduced.",
+    "type": "mc",
+    "opts": ["IOS 5.0", "IOS 3.0", "IOS 4.0", "IOS 1.0"],
+    "a": "IOS 4.0"
+  },
+  {
+    "q": "These are common tools in developing iOS applications.",
+    "type": "mc",
+    "opts": ["Apple HIG", "Provisions", "Instruments", "Xcode", "iOS Simulator"],
+    "a": "Xcode"
+  },
+  {
+    "q": "The iOS version when iPad was unveiled.",
+    "type": "mc",
+    "opts": ["iOS 4", "iOS 10", "iOS 14", "iOS 3.2"],
+    "a": "iOS 3.2"
+  },
+  {
+    "q": "The device that was released where iOS named was officially used.",
+    "type": "mc",
+    "opts": ["iPhone 4S", "iPhone 5S", "iPhone 5", "iPhone 4"],
+    "a": "iPhone 4"
+  },
+  {
+    "q": "The programming languages that is used to develop an iOS applications.",
+    "type": "mc",
+    "opts": ["Java", "Kotlin", "Swift", "Objective-C"],
+    "a": "Swift"
+  },
+  {
+    "q": "It splits the Xcode editor in two, with your primary work document on the left",
+    "type": "mc",
+    "opts": ["Assistant Editor", "Navigator", "Debug", "Jump Bars"],
+    "a": "Assistant Editor"
+  },
+  {
+    "q": "Swift makes programming easier, flexible, and more fun.",
+    "type": "tf",
+    "a": "True"
+  }
+]

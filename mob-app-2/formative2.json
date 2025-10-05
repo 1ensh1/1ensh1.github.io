@@ -1,0 +1,119 @@
+[
+  {
+    "q": "Which of the following produced an error",
+    "type": "mc",
+    "opts": ["let a = 0o88", "let a = 0b1010", "let a = 1234", "let a = 0xff"],
+    "a": "let a = 0o88"
+  },
+  {
+    "q": "Used to group multiple values into a single compound value.",
+    "type": "mc",
+    "opts": ["tuples", "range", "square bracket", "parenthesis"],
+    "a": "tuples"
+  },
+  {
+    "q": "Which of the following is a correct statement",
+    "type": "mc",
+    "opts": ["let a:UInt = -10", "let a = 1_0_1_0", "let a = 1-1-1-1", "let a:Int8 = 130"],
+    "a": "let a = 1_0_1_0"
+  },
+  {
+    "q": "Used to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable.",
+    "type": "mc",
+    "opts": ["Forced unwrapped optional", "conditions", "optional binding", "unwrapped optionals"],
+    "a": "optional binding"
+  },
+  {
+    "q": "Which of the following is a correct statement (2)",
+    "type": "mc",
+    "opts": ["let a:UInt = -10", "let a:Int = Int(\"10\")", "let a = 1_0_1_0", "let a = 1-1-1-1"],
+    "a": "let a = 1_0_1_0"
+  },
+  {
+    "q": "It enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide",
+    "type": "mc",
+    "opts": ["interpolator", "type declaration", "type inference", "type cast"],
+    "a": "type inference"
+  },
+  {
+    "q": "It is the minimum value of UInt8.",
+    "type": "mc",
+    "opts": ["-127", "-255", "0", "-128"],
+    "a": "0"
+  },
+  {
+    "q": "Defines an alternative name for an existing type.",
+    "type": "mc",
+    "opts": ["type definition", "type declaration", "type cast", "type aliases"],
+    "a": "type aliases"
+  },
+  {
+    "q": "Swift provides a simplified memory management with ___________________.",
+    "type": "mc",
+    "opts": ["GIGO", "ARC", "ART", "Garbage Collector"],
+    "a": "ARC"
+  },
+  {
+    "q": "Swift was based on ____________.",
+    "type": "mc",
+    "opts": ["C++ and Objective C", "C and C#", "C and Objective C", "C and C++"],
+    "a": "C and Objective C"
+  },
+  {
+    "q": "A double represent a _____ bit floating-point number.",
+    "type": "mc",
+    "opts": ["32", "16", "64", "8"],
+    "a": "64"
+  },
+  {
+    "q": "In Swift constants and characters can contain unicode characters.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Swift is a type-safe language.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You use optionals in situations where a value may be absent.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Swift 1, 2, 3 and 4 provides same syntax.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Xcode provides a playground for testing some swift syntax.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Write the exact output given the program code below.\nlet (x,y) = (Int(\"123\"),123)\nprint(\"\\(x) and \\(y)\")",
+    "type": "text",
+    "a": "Optional(123) and 123"
+  },
+  {
+    "q": "let abc = (UInt8.max, UInt8.min, Int8.max, Int8.min)\nprint(\"\\(abc.0) \\(abc.2) \\(abc.1) \\(abc.3) \")",
+    "type": "text",
+    "a": "255 127 0 -128"
+  },
+  {
+    "q": "Write the exact output given the statements below.\nvar x = 1\nfor y in 5..<10 {\nx += y\n}\nprint(\"x = \\(x)\")",
+    "type": "text",
+    "a": "x = 36"
+  },
+  {
+    "q": "write the exact output given the statements below\nvar x:String? = \"Swift\"\nprint(x!)",
+    "type": "text",
+    "a": "Swift"
+  },
+  {
+    "q": "Which of the following has the correct syntax.",
+    "type": "mc",
+    "opts": ["var x:Int = 10", "let x:Int = Int(\"123\")", "var x = Int(\"10\")", "var x:Int = Int(\"123\")", "var x:Int? = nil"],
+    "a": "var x:Int? = nil"
+  }
+]
