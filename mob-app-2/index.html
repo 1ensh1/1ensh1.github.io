@@ -59,6 +59,7 @@
             transition: all 0.3s ease;
             text-align: center;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
         }
 
         .formative-card:hover {
@@ -78,6 +79,35 @@
 
         .formative-card p {
             color: #e0e7ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .reset-btn {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            color: white;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+        .reset-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: white;
+        }
+
+        .completed-badge {
+            background: #10b981;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 0.5rem;
         }
 
         .quiz-container {
@@ -372,24 +402,32 @@
             </div>
             <div class="formative-grid">
                 <div class="formative-card" onclick="startQuiz(1)">
-                    <div class="icon">📝</div>
+                    <div class="icon">📱</div>
                     <h2>Formative 1</h2>
                     <p id="f1-count">Loading...</p>
+                    <div id="f1-status"></div>
+                    <button id="f1-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(1)">Reset Quiz</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(2)">
-                    <div class="icon">📝</div>
+                    <div class="icon">📱</div>
                     <h2>Formative 2</h2>
                     <p id="f2-count">Loading...</p>
+                    <div id="f2-status"></div>
+                    <button id="f2-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(2)">Reset Quiz</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(3)">
-                    <div class="icon">📝</div>
+                    <div class="icon">📱</div>
                     <h2>Formative 3</h2>
                     <p id="f3-count">Loading...</p>
+                    <div id="f3-status"></div>
+                    <button id="f3-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(3)">Reset Quiz</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(4)">
-                    <div class="icon">📝</div>
+                    <div class="icon">📱</div>
                     <h2>Formative 4</h2>
                     <p id="f4-count">Loading...</p>
+                    <div id="f4-status"></div>
+                    <button id="f4-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(4)">Reset Quiz</button>
                 </div>
             </div>
         </div>
@@ -432,6 +470,7 @@
     <script>
         let currentFormative = null;
         let allQuestions = {};
+        let answeredQuestions = {1: [], 2: [], 3: [], 4: []};
         let quizQuestions = [];
         let currentQuestionIndex = 0;
         let userAnswer = '';
@@ -444,11 +483,43 @@
                     const response = await fetch(`formative${i}.json`);
                     const data = await response.json();
                     allQuestions[i] = data;
-                    document.getElementById(`f${i}-count`).textContent = `${data.length} questions available`;
+                    updateFormativeDisplay(i);
                 }
             } catch (error) {
                 console.error('Error loading formatives:', error);
                 alert('Error loading quiz data. Please make sure all JSON files are in the same folder as index.html');
+            }
+        }
+
+        function updateFormativeDisplay(formativeNum) {
+            const totalQuestions = allQuestions[formativeNum].length;
+            const answeredCount = answeredQuestions[formativeNum].length;
+            const unansweredCount = totalQuestions - answeredCount;
+            
+            const countElement = document.getElementById(`f${formativeNum}-count`);
+            const statusElement = document.getElementById(`f${formativeNum}-status`);
+            const resetBtn = document.getElementById(`f${formativeNum}-reset`);
+            
+            if (unansweredCount === 0) {
+                countElement.textContent = `All ${totalQuestions} questions answered!`;
+                statusElement.innerHTML = '<span class="completed-badge">✓ Completed</span>';
+                resetBtn.classList.remove('hidden');
+            } else {
+                countElement.textContent = `${unansweredCount} question${unansweredCount !== 1 ? 's' : ''} available`;
+                if (answeredCount > 0) {
+                    statusElement.textContent = `(${answeredCount} answered)`;
+                    statusElement.style.color = '#9ca3af';
+                } else {
+                    statusElement.textContent = '';
+                }
+                resetBtn.classList.add('hidden');
+            }
+        }
+
+        function resetFormative(formativeNum) {
+            if (confirm(`Are you sure you want to reset Formative ${formativeNum}? This will allow you to answer all questions again.`)) {
+                answeredQuestions[formativeNum] = [];
+                updateFormativeDisplay(formativeNum);
             }
         }
 
@@ -463,9 +534,21 @@
 
         function startQuiz(formativeNum) {
             currentFormative = formativeNum;
-            const questions = allQuestions[formativeNum];
-            const shuffled = shuffleArray(questions);
-            quizQuestions = shuffled.slice(0, 20);
+            const allQuestionsForFormative = allQuestions[formativeNum];
+            
+            const unansweredQuestions = allQuestionsForFormative.filter((q, index) => {
+                return !answeredQuestions[formativeNum].includes(index);
+            });
+            
+            if (unansweredQuestions.length === 0) {
+                alert('You have answered all questions in this formative! Click "Reset Quiz" to start over.');
+                return;
+            }
+            
+            const shuffled = shuffleArray(unansweredQuestions);
+            const questionsToTake = Math.min(20, unansweredQuestions.length);
+            quizQuestions = shuffled.slice(0, questionsToTake);
+            
             currentQuestionIndex = 0;
             score = 0;
             userAnswer = '';
@@ -584,6 +667,11 @@
             
             if (isCorrect) score++;
             
+            const originalIndex = allQuestions[currentFormative].findIndex(q => q.q === question.q);
+            if (!answeredQuestions[currentFormative].includes(originalIndex)) {
+                answeredQuestions[currentFormative].push(originalIndex);
+            }
+            
             const feedbackContainer = document.getElementById('feedback-container');
             let feedbackHTML = `
                 <div class="feedback ${isCorrect ? 'correct' : 'incorrect'}">
@@ -638,12 +726,12 @@
             
             if (percentage >= 90) {
                 icon = '🎉';
-                message = 'Outstanding! 🌟';
+                message = 'Outstanding!';
             } else if (percentage >= 75) {
-                icon = '👏';
-                message = 'Great job! 💪';
-            } else if (percentage >= 50) {
                 icon = '👍';
+                message = 'Great job!';
+            } else if (percentage >= 50) {
+                icon = '👏';
                 message = 'Good effort! Keep practicing.';
             }
             
@@ -651,6 +739,8 @@
             document.getElementById('results-score').textContent = `${score} / ${quizQuestions.length}`;
             document.getElementById('results-message').textContent = message;
             showScreen('results');
+            
+            updateFormativeDisplay(currentFormative);
         }
 
         function retakeQuiz() {
@@ -659,6 +749,9 @@
 
         function backToMenu() {
             showScreen('menu');
+            if (currentFormative) {
+                updateFormativeDisplay(currentFormative);
+            }
             currentFormative = null;
         }
 
