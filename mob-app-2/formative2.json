@@ -112,8 +112,8 @@
   },
   {
     "q": "Which of the following has the correct syntax.",
-    "type": "mc",
+    "type": "multi",
     "opts": ["var x:Int = 10", "let x:Int = Int(\"123\")", "var x = Int(\"10\")", "var x:Int = Int(\"123\")", "var x:Int? = nil"],
-    "a": "var x:Int? = nil"
+    "a": ["var x:Int = 10", "var x:Int? = nil", "var x = Int(\"10\")"]
   }
 ]

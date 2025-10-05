@@ -43,9 +43,9 @@
   },
   {
     "q": "is/are general-purpose, flexible constructs that become the building blocks of your program's code",
-    "type": "mc",
+    "type": "multi",
     "opts": ["Classes", "Structure", "Enumaration", "Closure"],
-    "a": "Classes"
+    "a": ["Classes", "Structure"]
   },
   {
     "q": "are not copied when they are assigned to a variable or constant, or when they are passed to a function.",

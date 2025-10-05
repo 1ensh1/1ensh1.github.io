@@ -78,9 +78,9 @@
   },
   {
     "q": "These are common tools in developing iOS applications.",
-    "type": "mc",
+    "type": "multi",
     "opts": ["Apple HIG", "Provisions", "Instruments", "Xcode", "iOS Simulator"],
-    "a": "Xcode"
+    "a": ["Instruments", "Xcode", "iOS Simulator"]
   },
   {
     "q": "The iOS version when iPad was unveiled.",
@@ -96,9 +96,9 @@
   },
   {
     "q": "The programming languages that is used to develop an iOS applications.",
-    "type": "mc",
+    "type": "multi",
     "opts": ["Java", "Kotlin", "Swift", "Objective-C"],
-    "a": "Swift"
+    "a": ["Swift", "Objective-C"]
   },
   {
     "q": "It splits the Xcode editor in two, with your primary work document on the left",
