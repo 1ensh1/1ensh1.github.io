@@ -520,6 +520,12 @@
                     
                     label.appendChild(checkbox);
                     label.appendChild(text);
+                    label.onclick = (e) => {
+                        if (e.target !== checkbox) {
+                            checkbox.checked = !checkbox.checked;
+                            selectMultipleAnswers(label, checkbox);
+                        }
+                    };
                     optionsContainer.appendChild(label);
                 });
             } else if (question.type === 'text') {
