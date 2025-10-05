@@ -74,7 +74,7 @@
     "q": "iOS version where S iPhone was introduced.",
     "type": "mc",
     "opts": ["IOS 5.0", "IOS 3.0", "IOS 4.0", "IOS 1.0"],
-    "a": "IOS 4.0"
+    "a": "IOS 5.0"
   },
   {
     "q": "These are common tools in developing iOS applications.",
