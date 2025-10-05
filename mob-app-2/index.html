@@ -146,6 +146,12 @@
             margin-bottom: 2rem;
         }
 
+        .multi-instruction {
+            color: #9ca3af;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
         .option-btn {
             background: #374151;
             border: 2px solid transparent;
@@ -165,6 +171,33 @@
         .option-btn.selected {
             background: #2563eb;
             border-color: #60a5fa;
+        }
+
+        .checkbox-option {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: #374151;
+            border: 2px solid transparent;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .checkbox-option:hover {
+            background: #4b5563;
+        }
+
+        .checkbox-option.selected {
+            background: #2563eb;
+            border-color: #60a5fa;
+        }
+
+        .checkbox-option input[type="checkbox"] {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-right: 1rem;
+            cursor: pointer;
         }
 
         .text-input {
@@ -332,7 +365,6 @@
 </head>
 <body>
     <div id="app" class="container">
-        <!-- Menu Screen -->
         <div id="menu-screen">
             <div class="header">
                 <h1>Mobile App Development Quiz</h1>
@@ -362,7 +394,6 @@
             </div>
         </div>
 
-        <!-- Quiz Screen -->
         <div id="quiz-screen" class="quiz-container hidden">
             <div class="quiz-card">
                 <div class="quiz-header">
@@ -374,9 +405,7 @@
                 </div>
 
                 <div class="question-text" id="question-text"></div>
-
                 <div id="options-container" class="options"></div>
-
                 <div id="feedback-container"></div>
 
                 <div class="btn-container">
@@ -386,7 +415,6 @@
             </div>
         </div>
 
-        <!-- Results Screen -->
         <div id="results-screen" class="results-container hidden">
             <div class="results-card">
                 <div class="results-icon" id="results-icon">🎉</div>
@@ -407,11 +435,9 @@
         let quizQuestions = [];
         let currentQuestionIndex = 0;
         let userAnswer = '';
-        let userAnswers = []; // For multiple choice questions
+        let userAnswers = [];
         let score = 0;
-        let usedQuestions = [];
 
-        // Load all formative data
         async function loadFormatives() {
             try {
                 for (let i = 1; i <= 4; i++) {
@@ -438,23 +464,18 @@
         function startQuiz(formativeNum) {
             currentFormative = formativeNum;
             const questions = allQuestions[formativeNum];
-            
-            // Get 20 random questions
             const shuffled = shuffleArray(questions);
             quizQuestions = shuffled.slice(0, 20);
-            
             currentQuestionIndex = 0;
             score = 0;
             userAnswer = '';
             userAnswers = [];
-            
             showScreen('quiz');
             displayQuestion();
         }
 
         function displayQuestion() {
             const question = quizQuestions[currentQuestionIndex];
-            
             document.getElementById('current-formative').textContent = currentFormative;
             document.getElementById('current-question').textContent = currentQuestionIndex + 1;
             document.getElementById('total-questions').textContent = quizQuestions.length;
@@ -481,30 +502,18 @@
                 });
             } else if (question.type === 'multi') {
                 const instruction = document.createElement('p');
-                instruction.style.color = '#9ca3af';
-                instruction.style.marginBottom = '1rem';
+                instruction.className = 'multi-instruction';
                 instruction.textContent = '(Select all that apply)';
                 optionsContainer.appendChild(instruction);
                 
                 question.opts.forEach(opt => {
                     const label = document.createElement('label');
-                    label.style.display = 'flex';
-                    label.style.alignItems = 'center';
-                    label.style.padding = '1rem 1.5rem';
-                    label.style.background = '#374151';
-                    label.style.borderRadius = '0.5rem';
-                    label.style.cursor = 'pointer';
-                    label.style.transition = 'all 0.3s';
-                    label.style.border = '2px solid transparent';
+                    label.className = 'checkbox-option';
                     
                     const checkbox = document.createElement('input');
                     checkbox.type = 'checkbox';
                     checkbox.value = opt;
-                    checkbox.style.marginRight = '1rem';
-                    checkbox.style.width = '1.2rem';
-                    checkbox.style.height = '1.2rem';
-                    checkbox.style.cursor = 'pointer';
-                    checkbox.onchange = () => selectMultipleAnswers();
+                    checkbox.onchange = () => selectMultipleAnswers(label, checkbox);
                     
                     const text = document.createElement('span');
                     text.textContent = opt;
@@ -512,17 +521,6 @@
                     label.appendChild(checkbox);
                     label.appendChild(text);
                     optionsContainer.appendChild(label);
-                    
-                    label.onmouseover = () => {
-                        if (!checkbox.checked) {
-                            label.style.background = '#4b5563';
-                        }
-                    };
-                    label.onmouseout = () => {
-                        if (!checkbox.checked) {
-                            label.style.background = '#374151';
-                        }
-                    };
                 });
             } else if (question.type === 'text') {
                 const input = document.createElement('input');
@@ -544,22 +542,17 @@
             userAnswers = [];
         }
 
-        function selectMultipleAnswers() {
+        function selectMultipleAnswers(label, checkbox) {
+            if (checkbox.checked) {
+                label.classList.add('selected');
+            } else {
+                label.classList.remove('selected');
+            }
+            
             const checkboxes = document.querySelectorAll('#options-container input[type="checkbox"]');
             userAnswers = Array.from(checkboxes)
                 .filter(cb => cb.checked)
                 .map(cb => cb.value);
-            
-            checkboxes.forEach(cb => {
-                const label = cb.parentElement;
-                if (cb.checked) {
-                    label.style.background = '#2563eb';
-                    label.style.borderColor = '#60a5fa';
-                } else {
-                    label.style.background = '#374151';
-                    label.style.borderColor = 'transparent';
-                }
-            });
             
             document.getElementById('submit-btn').disabled = userAnswers.length === 0;
         }
@@ -576,8 +569,8 @@
             let isCorrect = false;
             
             if (question.type === 'multi') {
-                const correctAnswers = question.a.sort();
-                const userSorted = userAnswers.sort();
+                const correctAnswers = [...question.a].sort();
+                const userSorted = [...userAnswers].sort();
                 isCorrect = JSON.stringify(correctAnswers) === JSON.stringify(userSorted);
             } else {
                 isCorrect = userAnswer.trim() === question.a;
@@ -586,7 +579,6 @@
             if (isCorrect) score++;
             
             const feedbackContainer = document.getElementById('feedback-container');
-            
             let feedbackHTML = `
                 <div class="feedback ${isCorrect ? 'correct' : 'incorrect'}">
                     <div class="feedback-header">
@@ -652,7 +644,6 @@
             document.getElementById('results-icon').textContent = icon;
             document.getElementById('results-score').textContent = `${score} / ${quizQuestions.length}`;
             document.getElementById('results-message').textContent = message;
-            
             showScreen('results');
         }
 
@@ -672,7 +663,6 @@
             document.getElementById(`${screen}-screen`).classList.remove('hidden');
         }
 
-        // Load formatives on page load
         loadFormatives();
     </script>
 </body>
