@@ -479,6 +479,9 @@
 
         async function loadFormatives() {
             try {
+                // Load saved progress first
+                loadProgress();
+                
                 for (let i = 1; i <= 4; i++) {
                     const response = await fetch(`formative${i}.json`);
                     const data = await response.json();
@@ -520,6 +523,7 @@
             if (confirm(`Are you sure you want to reset Formative ${formativeNum}? This will allow you to answer all questions again.`)) {
                 answeredQuestions[formativeNum] = [];
                 updateFormativeDisplay(formativeNum);
+                saveProgress();
             }
         }
 
@@ -556,7 +560,6 @@
             showScreen('quiz');
             displayQuestion();
         }
-
         function displayQuestion() {
             const question = quizQuestions[currentQuestionIndex];
             document.getElementById('current-formative').textContent = currentFormative;
@@ -667,9 +670,15 @@
             
             if (isCorrect) score++;
             
+            // Find the original index of this question in the formative
             const originalIndex = allQuestions[currentFormative].findIndex(q => q.q === question.q);
-            if (!answeredQuestions[currentFormative].includes(originalIndex)) {
+            
+            // Only add to answered questions if not already there
+            if (originalIndex !== -1 && !answeredQuestions[currentFormative].includes(originalIndex)) {
                 answeredQuestions[currentFormative].push(originalIndex);
+                
+                // Save to localStorage to persist across page refreshes
+                saveProgress();
             }
             
             const feedbackContainer = document.getElementById('feedback-container');
@@ -753,6 +762,17 @@
                 updateFormativeDisplay(currentFormative);
             }
             currentFormative = null;
+        }
+
+        function saveProgress() {
+            localStorage.setItem('quizProgress', JSON.stringify(answeredQuestions));
+        }
+
+        function loadProgress() {
+            const saved = localStorage.getItem('quizProgress');
+            if (saved) {
+                answeredQuestions = JSON.parse(saved);
+            }
         }
 
         function showScreen(screen) {
