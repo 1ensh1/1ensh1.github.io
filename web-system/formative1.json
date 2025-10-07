@@ -24,7 +24,7 @@
     "q": "Which one is the business logic in CodeIgniter?",
     "type": "mc",
     "opts": ["model", "view", "controller", "helper"],
-    "a": "model"
+    "a": "controller"
   },
   {
     "q": ".NET is an example of:",
@@ -53,8 +53,8 @@
   {
     "q": "The following are popular programming language that have MVC frameworks for web or mobile application development straight out of the box except for?",
     "type": "mc",
-    "opts": ["PHP", "Java", "Python", "C++"],
-    "a": "C++"
+    "opts": ["PHP", "Java", "Python", "C"],
+    "a": "C"
   },
   {
     "q": "CodeIgniter does come with a simple template parser that can be optionally used, so it does require a template engine.",
@@ -294,9 +294,9 @@
     "a": "Plugins live inside the system/application/plugins folder."
   },
   {
-    "q": "XML-RPC Library is one of the features of CodeIgniter",
+    "q": "XTML-RPC Library is one of the features of CodeIgniter",
     "type": "tf",
-    "a": "True"
+    "a": "False"
   },
   {
     "q": "Popular programming languages like JavaScript, Python, Ruby, PHP, Java, C#, and Swift have MVC frameworks that are used for web or mobile application development straight out of the box.",
@@ -521,5 +521,17 @@
     "q": "HMVC stands for highest model-view-controller?",
     "type": "tf",
     "a": "False"
+  },
+  {
+    "q": "Java Swing is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "Eiffel is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
   }
 ]

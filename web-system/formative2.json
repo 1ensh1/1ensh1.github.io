@@ -1,0 +1,121 @@
+[
+  {
+    "q": "The model represents the data structures in which model classes contains functions such as retrieve, insert, and update information in database.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the software requirements for CodeIgniter installation is operating system",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In URI segment, the first segment represents the ______ that should be invoked.",
+    "type": "mc",
+    "opts": ["controller class", "class function or method", "ID and any variables"],
+    "a": "controller class"
+  },
+  {
+    "q": "The third, and any additional segments in URI segments, represent the ______ that will be passed to the controller.",
+    "type": "mc",
+    "opts": ["controller class", "class function or method", "ID and any variables"],
+    "a": "ID and any variables"
+  },
+  {
+    "q": "By default, the index.php file will be included in your URLs: example.com/index.php/news/article/my_article",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In URI segment, the first segment represents the controller class that should be invoked.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "'/' is the segment delimiter.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "To dynamically set a config item or change an existing one, you can do so using:",
+    "type": "mc",
+    "opts": [
+      "$this->config->item('item_name');",
+      "$this->config->retrieve('item_name');",
+      "$this->config->set_item('item_name', 'item_value');",
+      "None of the above"
+    ],
+    "a": "$this->config->set_item('item_name', 'item_value');"
+  },
+  {
+    "q": "One of the software requirements for CodeIgniter installation is web browser",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the software requirements for CodeIgniter installation is web server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The first step for CodeIgniter installation is to Download CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In a route, the array key contains the URI to be matched, while the array value contains the destination it should be re-routed to.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In URI segment, the second segment represents the ______ that should be called.",
+    "type": "mc",
+    "opts": ["controller class", "class function or method", "ID and any variables"],
+    "a": "class function or method"
+  },
+  {
+    "q": "URLs in CodeIgniter are search-engine and human friendly. CodeIgniter uses a segment-based approach.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Routing rules are defined in your application/config/routes.php file.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Model-View-Controller Based System is one features of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter uses a segmented-based approach",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Text editor is one of the requirements for CodeIgniter installation.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Apache is an example of web browser",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The first step for CodeIgniter installation is to unzip the package to your web page root directory",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In URI segment, the second segment represents the class function or method that should be called.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "URLs can be remapped using the URI Routing feature for more flexibility.",
+    "type": "tf",
+    "a": "True"
+  }
+]

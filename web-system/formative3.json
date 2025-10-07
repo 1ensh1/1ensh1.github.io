@@ -1,0 +1,147 @@
+[
+  {
+    "q": "The default controller can be set from which configuration file:",
+    "type": "mc",
+    "opts": ["Config", "autoload", "Routes", "Database"],
+    "a": "Routes"
+  },
+  {
+    "q": "If your URI contains more than two segments they will be passed to your method as functions.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "An example of storing view within sub-directories: $this->load->view('directory_name/file_name');",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter will intelligently handle multiple calls to $this->load->view() from within a controller.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A view is simply a web page, or a page fragment (header, footer) and can be embedded within other views.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter will handle multiple calls to $this->load->view() from within a controller.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is a class file that can be associated with a URI.",
+    "type": "mc",
+    "opts": ["Controller", "Control", "Function"],
+    "a": "Controller"
+  },
+  {
+    "q": "CodeIgniter can load a default controller if only your site root URL is requested.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A Controller is a class file that can be associated with a URI.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The .php file extension does not need to be specified unless you use something other than .php.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Data is passed from the controller to the view by way of an array in the second parameter of the view loading method.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In this example: example.com/class/function/ID/foo/bar, what is the controller class?",
+    "type": "mc",
+    "opts": ["function", "class", "example.com"],
+    "a": "class"
+  },
+  {
+    "q": "Controllers are the heart of your application, as they determine how HTTP requests should be handled.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "This has an invalid class name: <?php class blog extends CL_Controller {}",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "If your URI contains more than two segments they will be passed to your method as function",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Views are never called directly; they must be loaded by a controller.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In an MVC framework, the Controller acts as the orchestrator, so it is responsible for fetching a particular view.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "An example of storing view within subdirectories: $this->load->view('directory_name/file_name');",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In the example: example.com/index.php/blog/, the, CodeIgniter would attempt to?",
+    "type": "mc",
+    "opts": ["Call a function blog", "Find a controller named Blog.php", "Create a class blog"],
+    "a": "Find a controller named Blog.php"
+  },
+  {
+    "q": "Views are called directly and must be loaded by a controller.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "To load a view file you will use the following method:",
+    "type": "mc",
+    "opts": [
+      "$this->load->file('name');",
+      "$this->load->view('name');",
+      "$this->load->data('name');"
+    ],
+    "a": "$this->load->view('name');"
+  },
+  {
+    "q": "______ is an Application Development Framework - a toolkit - for people who build web sites using PHP.",
+    "type": "mc",
+    "opts": ["Wordpress", "Zend", "Joomla", "CodeIgniter"],
+    "a": "CodeIgniter"
+  },
+  {
+    "q": "The application/config/routes.php file determines which controller is called by default",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Controller should extends the parent controller class so that it can inherit all its methods.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "An example of storing view within sub-directories: $this>view('subdirectory_name/file_name');",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "An example of storing view within sub-directories: $this->load->v('subdirectory_name/file_name');",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Class names must start with an uppercase letter.",
+    "type": "tf",
+    "a": "True"
+  }
+]
