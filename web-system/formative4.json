@@ -99,7 +99,7 @@
     "q": "Which function is used to load a Model in CodeIgniter?",
     "type": "mc",
     "opts": ["model()", "get_model()", "load->model()", "use_model()"],
-    "a": "load->model()"
+    "a": "model()"
   },
   {
     "q": "How can you specify a table in a Model to interact with?",
@@ -139,7 +139,7 @@
     "q": "Which function is used to load a view in CodeIgniter?",
     "type": "mc",
     "opts": ["view()", "load->view()", "display_view()", "show_view()"],
-    "a": "load->view()"
+    "a": "view()"
   },
   {
     "q": "Which method is used to render a view as a partial within another view?",
@@ -176,17 +176,6 @@
     "a": "As variables"
   },
   {
-    "q": "What does the view() function return when loading a view?",
-    "type": "mc",
-    "opts": [
-      "A string containing the rendered view",
-      "Nothing",
-      "A boolean",
-      "An array"
-    ],
-    "a": "A string containing the rendered view"
-  },
-  {
     "q": "What is the purpose of the returnType property in a Model?",
     "type": "mc",
     "opts": [
@@ -201,25 +190,19 @@
     "q": "Which of the following methods in CodeIgniter is used to pass data from a controller to a view?",
     "type": "mc",
     "opts": ["assign()", "data()", "$this->set()", "with()"],
-    "a": "data()"
+    "a": "assign()"
   },
   {
     "q": "What is the default return type of data when using Models in CodeIgniter?",
     "type": "mc",
     "opts": ["Array", "JSON", "Object", "XML"],
-    "a": "Object"
+    "a": "Array"
   },
   {
     "q": "Which method is used to delete a record from the database using a Model?",
     "type": "mc",
     "opts": ["delete()", "remove()", "destroy()", "erase()"],
     "a": "delete()"
-  },
-  {
-    "q": "Which function is used to load a view in CodeIgniter?",
-    "type": "mc",
-    "opts": ["view()", "load->view()", "display_view()", "show_view()"],
-    "a": "load->view()"
   },
   {
     "q": "How can you pass multiple pieces of data to a view?",
