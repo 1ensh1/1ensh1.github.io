@@ -114,6 +114,11 @@
     "a": "True"
   },
   {
+    "q": "The second step for CodeIgniter installation is to unzip the package to your web page root directory",
+    "type": "tf",
+    "a": "True"
+  },
+  {
     "q": "URLs can be remapped using the URI Routing feature for more flexibility.",
     "type": "tf",
     "a": "True"
