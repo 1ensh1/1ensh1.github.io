@@ -73,11 +73,6 @@
     "a": "True"
   },
   {
-    "q": "If your URI contains more than two segments they will be passed to your method as function",
-    "type": "tf",
-    "a": "False"
-  },
-  {
     "q": "Views are never called directly; they must be loaded by a controller.",
     "type": "tf",
     "a": "True"
