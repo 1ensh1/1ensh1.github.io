@@ -9,7 +9,7 @@
     "q": "Which method can be used to get the number of affected rows from the last database operation?",
     "type": "mc",
     "opts": ["affectedRows()", "rowCount()", "countRows()", "getRowCount()"],
-    "a": "rowCount()"
+    "a": "affectedRows()"
   },
   {
     "q": "Which method in a Model is used to update an existing record in the database?",
