@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <div id="menu-screen">
+            <div class="header">
+                <h1>Mobile App Development Quiz</h1>
+                <p>Select a formative assessment to begin</p>
+            </div>
+            <div class="formative-grid">
+                <div class="formative-card" onclick="startQuiz(1)">
+                    <div class="icon">📱</div>
+                    <h2>Formative 1</h2>
+                    <p id="f1-count">Loading...</p>
+                    <div id="f1-status"></div>
+                    <button id="f1-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(1)">Reset Quiz</button>
+                </div>
+                <div class="formative-card" onclick="startQuiz(2)">
+                    <div class="icon">📱</div>
+                    <h2>Formative 2</h2>
+                    <p id="f2-count">Loading...</p>
+                    <div id="f2-status"></div>
+                    <button id="f2-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(2)">Reset Quiz</button>
+                </div>
+                <div class="formative-card" onclick="startQuiz(3)">
+                    <div class="icon">📱</div>
+                    <h2>Formative 3</h2>
+                    <p id="f3-count">Loading...</p>
+                    <div id="f3-status"></div>
+                    <button id="f3-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(3)">Reset Quiz</button>
+                </div>
+                <div class="formative-card" onclick="startQuiz(4)">
+                    <div class="icon">📱</div>
+                    <h2>Formative 4</h2>
+                    <p id="f4-count">Loading...</p>
+                    <div id="f4-status"></div>
+                    <button id="f4-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(4)">Reset Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-screen" class="quiz-container hidden">
+            <div class="quiz-card">
+                <div class="quiz-header">
+                    <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+                    <div class="quiz-info">
+                        <span class="formative-label">Formative <span id="current-formative"></span></span>
+                        <span class="question-label">Question <span id="current-question"></span> / <span id="total-questions"></span></span>
+                    </div>
+                </div>
+
+                <div class="question-text" id="question-text"></div>
+                <div id="options-container" class="options"></div>
+                <div id="feedback-container"></div>
+
+                <div class="btn-container">
+                    <button id="submit-btn" class="btn btn-primary" onclick="checkAnswer()">Submit Answer</button>
+                    <button id="next-btn" class="btn btn-success hidden" onclick="nextQuestion()">Next Question →</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="results-screen" class="results-container hidden">
+            <div class="results-card">
+                <div class="results-icon" id="results-icon">🎉</div>
+                <h2 class="results-title">Quiz Complete!</h2>
+                <div class="results-score" id="results-score">0 / 20</div>
+                <p class="results-message" id="results-message">Great job!</p>
+                <div class="results-buttons">
+                    <button class="btn btn-primary" onclick="retakeQuiz()">Take Quiz Again</button>
+                    <button class="btn btn-secondary" onclick="backToMenu()">Choose Another Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

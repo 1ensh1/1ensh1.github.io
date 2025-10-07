@@ -1,0 +1,525 @@
+[
+  {
+    "q": "The introduction of the frameworks Django (for Python) and Rails (for Ruby) was on?",
+    "type": "mc",
+    "opts": ["2004", "2005", "2006", "2007"],
+    "a": "2005"
+  },
+  {
+    "q": "HMVC allows the developers to maintain modular grouping of Controller, Models and View arranged in a sub-directory format.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is zip decoding class",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "CodeIgniter has full featured database classes with support for several platforms.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which one is the business logic in CodeIgniter?",
+    "type": "mc",
+    "opts": ["model", "view", "controller", "helper"],
+    "a": "model"
+  },
+  {
+    "q": ".NET is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "In what year that Jim Althoff and others implemented a version of MVC for the Smalltalk-80 class library?",
+    "type": "mc",
+    "opts": ["1960s", "1970s", "1980s", "1990s"],
+    "a": "1980s"
+  },
+  {
+    "q": "MVC stands for?",
+    "type": "mc",
+    "opts": ["Model-view-control", "Model-view-controller", "Model-view-command", "Model-view-commander"],
+    "a": "Model-view-controller"
+  },
+  {
+    "q": "PERL is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "The following are popular programming language that have MVC frameworks for web or mobile application development straight out of the box except for?",
+    "type": "mc",
+    "opts": ["PHP", "Java", "Python", "C++"],
+    "a": "C++"
+  },
+  {
+    "q": "CodeIgniter does come with a simple template parser that can be optionally used, so it does require a template engine.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "One of the features of CodeIgniter is data encryption",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Base URL can be changed from which configuration file:",
+    "type": "mc",
+    "opts": ["database", "config", "routes", "autoload"],
+    "a": "config"
+  },
+  {
+    "q": "CodeIgniter was created with the following objectives except for:",
+    "type": "mc",
+    "opts": ["Dynamic Instantiation", "Component Singularity", "Template Engine", "Loose Coupling"],
+    "a": "Template Engine"
+  },
+  {
+    "q": "Component Singularity is one of the objectives of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Python is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "Cocoa framework is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "Visual Fox Express is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "It is the application's dynamic data structure, independent of the user interface. It directly manages the data.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "None of the above"],
+    "a": "Model"
+  },
+  {
+    "q": "The following are methods of image manipulation library except for:",
+    "type": "mc",
+    "opts": ["Localization", "Cropping", "Resizing", "Rotating"],
+    "a": "Localization"
+  },
+  {
+    "q": "Which refers to the system of numbering pages-a list of numbered links?",
+    "type": "mc",
+    "opts": ["Rotating", "Pagination", "Cropping", "All of the above"],
+    "a": "Pagination"
+  },
+  {
+    "q": "This refers to information that is being presented to a user.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "All of the above"],
+    "a": "View"
+  },
+  {
+    "q": "Java Swing is an example of MVC as a WEB",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "DOM stands for Document Object Model which makes it an MVC model.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Multiple developers can work simultaneously on the model, controller and views.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Model-View-Controller Based System is one features of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter requires huge libraries.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "One of the features of CodeIgniter is security and XSS filtering",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Is a part of the application that is responsible for retrieving data from the database.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "None of the above"],
+    "a": "Model"
+  },
+  {
+    "q": "MVC enables logical grouping of related actions on a controller together which is commonly known as?",
+    "type": "mc",
+    "opts": ["High cohesion", "Loose coupling", "Code navigability", "Excessive boilerplate"],
+    "a": "High cohesion"
+  },
+  {
+    "q": "GNUstep is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "One of the features of CodeIgniter is traceback class",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Cropping is one methods of image manipulation library",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter can be also modified to use HMVC.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter's goal is to attain maximum performance, capability, and flexibility in the smallest, lightest possible package.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "This components of MVC validates user input and handles data to be displayed.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "None of the above"],
+    "a": "Controller"
+  },
+  {
+    "q": "Flex is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "Later frameworks for Java, such as Spring continued the strong bond between Java and MVC that was released on?",
+    "type": "mc",
+    "opts": ["September 2002", "October 2002", "November 2002", "December 2002"],
+    "a": "October 2002"
+  },
+  {
+    "q": "This mean that the framework navigation can be complex because it introduces new layers of indirection and requires users to adapt to the decomposition criteria of MVC.",
+    "type": "mc",
+    "opts": ["High cohesion", "Loose coupling", "Code navigability", "Excessive boilerplate"],
+    "a": "Code navigability"
+  },
+  {
+    "q": "CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The separation of logic and presentation can be seen in which of the following?",
+    "type": "mc",
+    "opts": ["MVC approach", "Simpletion approach", "Master/Slave Model", "Semaphore Model"],
+    "a": "MVC approach"
+  },
+  {
+    "q": "CodeIgniter is free and fast",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter has form and data validation features.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is any representation of information such as a chart, diagram or table in a particular format.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "None of the above"],
+    "a": "View"
+  },
+  {
+    "q": "What is the correct algorithm of MVC passive view?",
+    "type": "mc",
+    "opts": [
+      "User-controller-view-controller-model-User",
+      "User-model-controller-model-view-User",
+      "User-controller-model-controller-view-User",
+      "User-controller-model-view-User"
+    ],
+    "a": "User-controller-model-controller-view-User"
+  },
+  {
+    "q": "CodeIgniter has session management features",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It represents the data structures in which model classes contains functions such as retrieve, insert, and update information in database.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "All of the above"],
+    "a": "Model"
+  },
+  {
+    "q": "Model refers to information that is being presented to a user.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The very nature of the MVC framework is such that there is low coupling among models, views or controllers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "This kind of pattern is used for designing the layout of the page.",
+    "type": "mc",
+    "opts": ["MVVM", "MVP", "HMVC", "MVC"],
+    "a": "MVC"
+  },
+  {
+    "q": "Which of the following statements about CodeIgniter is TRUE?",
+    "type": "mc",
+    "opts": [
+      "Helpers can only be loaded inside a model.",
+      "Plugins live inside the system/application/plugins folder.",
+      "Codeignitor core libraries do NOT have the CI_prefix.",
+      "Sessions cannot be passed as an array."
+    ],
+    "a": "Plugins live inside the system/application/plugins folder."
+  },
+  {
+    "q": "XML-RPC Library is one of the features of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Popular programming languages like JavaScript, Python, Ruby, PHP, Java, C#, and Swift have MVC frameworks that are used for web or mobile application development straight out of the box.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "ActionScript is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "MVC pattern has become popular for designing web applications.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Microsoft ASP.NET is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "Groovy is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "Ruby is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "This serves as an intermediary between the Model, the View, and any other resources needed to process the HTTP request and generate a web page.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller", "All of the above"],
+    "a": "Controller"
+  },
+  {
+    "q": "CodeIgniter uses a segment-based approach.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is applicable profiling",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "GTK+ is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "PHP is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "C++ is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "Loose Coupling is one of the objectives of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File uploading class is one of the features of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In what year that Trygve Reenskaug introduced MVC into Smalltalk-79 while visiting the Xerox Palo Alto Research Center (PARC)?",
+    "type": "mc",
+    "opts": ["1960s", "1970s", "1980s", "1990s"],
+    "a": "1970s"
+  },
+  {
+    "q": "It is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.",
+    "type": "mc",
+    "opts": ["MVVM", "MVP", "HMVC", "MVC"],
+    "a": "MVC"
+  },
+  {
+    "q": "Dynamic Instantiation is one of the objectives of CodeIgniter",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter has email sending class features",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "MVC permits web pages to contain minimal scripting since the presentation is separate from the PHP scripting.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter has large library of 'helper' functions",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is unit testing class",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter also enables you to incorporate your own scripts, or even develop core libraries for the system, enabling you to work in a way that makes the most sense to you.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "CodeIgniter is a toolkit for people who build web applications using PHP.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is full page caching",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is extremely light weight",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Rotating refers to the system of numbering pages-a list of numbered links?",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "MVA stands for Model-view-accelerator",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "JFace is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "CodeIgniter supports Query Builder Database",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is benchmarking",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "One of the features of CodeIgniter is error loading",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Apache Pivot is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as GUI"
+  },
+  {
+    "q": "It refers to the code-behind that exist only to satisfy the MVC pattern.",
+    "type": "mc",
+    "opts": ["High cohesion", "Loose coupling", "Code navigability", "Excessive boilerplate"],
+    "a": "Excessive boilerplate"
+  },
+  {
+    "q": "In what year that the Journal of Object Technology (JOT) express MVC as a general concept?",
+    "type": "mc",
+    "opts": ["1985", "1986", "1987", "1988"],
+    "a": "1988"
+  },
+  {
+    "q": "Smalltalk is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "It can be web page, but in CodeIgniter, it can be a page fragment like a header or footer. It can also be an RSS page, or any other type of 'page'.",
+    "type": "mc",
+    "opts": ["Model", "View", "Controller"],
+    "a": "View"
+  },
+  {
+    "q": "CodeIgniter strives for simplicity, flexibility, and high performance in a small footprint package.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Web applications that uses the WebForm approach can be?",
+    "type": "mc",
+    "opts": ["Database Code", "Page Code", "Control Code", "All of the above"],
+    "a": "All of the above"
+  },
+  {
+    "q": "CMFL is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "XML is an example of:",
+    "type": "mc",
+    "opts": ["MVC as GUI", "MVC as WEB"],
+    "a": "MVC as WEB"
+  },
+  {
+    "q": "HMVC stands for highest model-view-controller?",
+    "type": "tf",
+    "a": "False"
+  }
+]
