@@ -1,0 +1,568 @@
+[
+  {
+    "q": "Every function has a specific function type, made up of the parameter types and the return type of the function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You access and modify an array through its methods and properties, or by using subscript syntax.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The parameter name is used in the implementation of the function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You can also define functions inside the bodies of other functions.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You give a function a name that identifies what it does, and this name is used to \"call\" the function to perform its task when needed",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "If the entire body of the function is a single expression, the function implicitly returns that expression.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You can return a tuple value using a function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You can iterate over the entire set of values in an array with the for-in loop.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The argument label is used when calling the function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Function parameters are constants by default.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Apple made touch the primary interaction model removing all physical buttons.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Swift automatically provides shorthand argument names to inline closures, which can be used to refer to the values of the closure's arguments by the names $0, $1, $2, and so on.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Function parameters and return values are extremely flexible in Swift.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "If you create an array, a set, or a dictionary, and assign it to a variable, the collection that is created will be mutable.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In function you cannot return an optional tuple.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The iOS version where Google Maps was removed.",
+    "type": "mc",
+    "opts": ["6.0", "7.0", "5.0", "4.0"],
+    "a": "6.0"
+  },
+  {
+    "q": "Used as simplified ternary operator for nil values.",
+    "type": "mc",
+    "opts": ["??", "I=nil", "?:", "?!"],
+    "a": "??"
+  },
+  {
+    "q": "A set method used to create a new set with only the values common to both sets.",
+    "type": "mc",
+    "opts": ["union", "symmetricDifference", "subtracting", "intersection"],
+    "a": "intersection"
+  },
+  {
+    "q": "What will be the exact output given the code\n\nprint(Int(\"32\")!)",
+    "type": "mc",
+    "opts": ["32", "Optional(32)", "Int(\"32\")!", "Program error"],
+    "a": "32"
+  },
+  {
+    "q": "It contains other files, like your documents or apps.",
+    "type": "mc",
+    "opts": ["finder", "folders", "icons", "explorer"],
+    "a": "folders"
+  },
+  {
+    "q": "Which of the following produced some error.",
+    "type": "mc",
+    "opts": ["let a = Double(\"10.25\")", "var a = Double(\"10.25\")", "let a: Double = Double(\"10.25\")", "let a: Double? = Double(\"10.25\")"],
+    "a": "let a: Double = Double(\"10.25\")"
+  },
+  {
+    "q": "Which of the following has the incorrect syntax.",
+    "type": "mc",
+    "opts": ["var x:Int = 10", "var x:Int? = nil", "var x = Int(\"10\")", "var x:Int = Int(\"123\")"],
+    "a": "var x:Int = Int(\"123\")"
+  },
+  {
+    "q": "Which of the programming languages can be used to develop iOS applications.",
+    "type": "mc",
+    "opts": ["Java and Swift", "C++ and Swift", "Objective-C and Swift", "Kottin and Swift"],
+    "a": "Objective-C and Swift"
+  },
+  {
+    "q": "A set operation to create a new set with values in either set, but not both.",
+    "type": "mc",
+    "opts": ["intersection", "symmetricDifference", "subtracting", "union"],
+    "a": "symmetricDifference"
+  },
+  {
+    "q": "Used to display the hierarchy of your folders where each column represents a folder.",
+    "type": "mc",
+    "opts": ["List view", "Column view", "Icon view", "Cover Flow view"],
+    "a": "Column view"
+  },
+  {
+    "q": "A self-contained chunk of code that performs a specific task",
+    "type": "mc",
+    "opts": ["Collection", "Control Flow", "Control Structure", "Function"],
+    "a": "Function"
+  },
+  {
+    "q": "It accepts zero or more values of a specified type.",
+    "type": "mc",
+    "opts": ["tuples", "functions", "variadic", "collections"],
+    "a": "variadic"
+  },
+  {
+    "q": "A statement tells a loop to stop what it's doing and start again at the beginning of the next iteration through the loop.",
+    "type": "mc",
+    "opts": ["return", "break", "fallthrough", "continue"],
+    "a": "continue"
+  },
+  {
+    "q": "It is used as the return type for a function to return multiple values as part of one compound return value.",
+    "type": "mc",
+    "opts": ["Collection", "Void", "Tuple", "inout"],
+    "a": "Tuple"
+  },
+  {
+    "q": "Which of the following does not belong to the group.",
+    "type": "mc",
+    "opts": ["-", "-", "*", "%"],
+    "a": "%"
+  },
+  {
+    "q": "It performs a single pass through the loop block first, before considering the loop's condition",
+    "type": "mc",
+    "opts": ["Do-While", "Repeat-While", "For-In", "While"],
+    "a": "Repeat-While"
+  },
+  {
+    "q": "Which of the following is a correct statement.",
+    "type": "mc",
+    "opts": ["let a = 1-0-1-0", "let a:UInt8 = 1010", "let a:Int8 = 1010", "let a = 1_0_1_0"],
+    "a": "let a = 1_0_1_0"
+  },
+  {
+    "q": "On Mac it represents the files on your computer.",
+    "type": "mc",
+    "opts": ["menus", "folders", "icons", "images"],
+    "a": "icons"
+  },
+  {
+    "q": "He first introduced the iPhone on the market.",
+    "type": "mc",
+    "opts": ["Steve Jobs", "Steve Wozniak", "Mark Zuckerberg", "Tim Cook"],
+    "a": "Steve Jobs"
+  },
+  {
+    "q": "Which of the following does not belong to the group.",
+    "type": "mc",
+    "opts": ["Sets", "Arrays (Lists)", "Dictionaries", "Tuples"],
+    "a": "Tuples"
+  },
+  {
+    "q": "This property is used to check if a given string or collection is empty or not.",
+    "type": "mc",
+    "opts": ["isEmpty", "isempty", "countIsZero", "nil"],
+    "a": "isEmpty"
+  },
+  {
+    "q": "Which of the following is part of iOS Application development.",
+    "type": "mc",
+    "opts": ["Tools", "Design", "Process", "Language", "All of the above"],
+    "a": "All of the above"
+  },
+  {
+    "q": "Swift provides a simplified memory management with ______.",
+    "type": "mc",
+    "opts": ["ART", "Garbage Collector", "ARC", "GIGO"],
+    "a": "ARC"
+  },
+  {
+    "q": "A visual editor for designing user interfaces for your iPhone and iPad apps.",
+    "type": "mc",
+    "opts": ["Views", "Storyboard", "Instruments", "Interface Builder"],
+    "a": "Interface Builder"
+  },
+  {
+    "q": "The latest Xcode version.",
+    "type": "mc",
+    "opts": ["13", "16", "15", "17"],
+    "a": "17"
+  },
+  {
+    "q": "It defines an alternative name for an existing type.",
+    "type": "mc",
+    "opts": ["type declaration", "type definition", "type cast", "type aliases"],
+    "a": "type aliases"
+  },
+  {
+    "q": "These icons generally display a document with an app logo or image that lets you know what application created it or opens it.",
+    "type": "mc",
+    "opts": ["images", "applications", "tools", "files"],
+    "a": "files"
+  },
+  {
+    "q": "These are unordered collections of key-value associations.",
+    "type": "mc",
+    "opts": ["Set", "Range", "Dictionary", "Array (List)"],
+    "a": "Dictionary"
+  },
+  {
+    "q": "An ordered type of collection whose values can be duplicated.",
+    "type": "mc",
+    "opts": ["Dictionary", "Range", "Array (List)", "Set"],
+    "a": "Array (List)"
+  },
+  {
+    "q": "This is used when returning the return type of a function.",
+    "type": "mc",
+    "opts": [", (Comma)", "Void", "-> (a hyphen followed by a right angle bracket)", ": (Colon)"],
+    "a": "-> (a hyphen followed by a right angle bracket)"
+  },
+  {
+    "q": "An analysis tool to assist you to both optimize your apps and monitor for memory leaks in real time.",
+    "type": "mc",
+    "opts": ["Simulator", "Interface Builder", "Instruments", "Xcode"],
+    "a": "Instruments"
+  },
+  {
+    "q": "Used to display the contents of your folder as a series of icons.",
+    "type": "mc",
+    "opts": ["Cover Flow View", "List View", "Icon View", "Column View"],
+    "a": "Icon View"
+  },
+  {
+    "q": "A statement that considers a value and compares it against several possible matching patterns.",
+    "type": "mc",
+    "opts": ["for-in", "if", "while", "switch"],
+    "a": "switch"
+  },
+  {
+    "q": "These are closures that have a name and don't capture any values.",
+    "type": "mc",
+    "opts": ["Local Functions", "Global Functions", "Recursive Functions", "Nested Functions"],
+    "a": "Global Functions"
+  },
+  {
+    "q": "It makes programming easier, flexible, and more fun for iOS development.",
+    "type": "mc",
+    "opts": ["Swift", "Objective-C", "Python", "Java"],
+    "a": "Swift"
+  },
+  {
+    "q": "It provides access to your files and folders.",
+    "type": "mc",
+    "opts": ["Desktop", "Explorer", "Folders", "Finder"],
+    "a": "Finder"
+  },
+  {
+    "q": "A double represents a ____ bit floating-point number.",
+    "type": "mc",
+    "opts": ["32", "64", "128", "16"],
+    "a": "64"
+  },
+  {
+    "q": "It makes it incredibly easy to jump to any test in your project, execute an individual test, or execute a group of tests",
+    "type": "mc",
+    "opts": ["Instruments", "Debugging", "Test Navigator", "Monitor"],
+    "a": "Test Navigator"
+  },
+  {
+    "q": "It is the minimum value of UInt8.",
+    "type": "mc",
+    "opts": ["-128", "-255", "-127", "0"],
+    "a": "0"
+  },
+  {
+    "q": "The iOS version where 3rd party applications became available.",
+    "type": "mc",
+    "opts": ["1.0", "4.0", "2.0", "3.0"],
+    "a": "2.0"
+  },
+  {
+    "q": "Version of iPhone where 'S' iPhone was introduced.",
+    "type": "mc",
+    "opts": ["4.0", "5.0", "7.0", "6.0"],
+    "a": "5.0"
+  },
+  {
+    "q": "First OS name for iPhone.",
+    "type": "mc",
+    "opts": ["iPhone OS", "iPOS", "iOperating System", "OSi"],
+    "a": "iPhone OS"
+  },
+  {
+    "q": "Which of the following will produce an error.",
+    "type": "mc",
+    "opts": ["let a = 1234", "let a = 0xff", "let a = 0b1010", "let a = 0o88"],
+    "a": "let a = 0o88"
+  },
+  {
+    "q": "You \"call\" a function with its name and pass it input values known as ____.",
+    "type": "mc",
+    "opts": ["signature", "parameter", "variadic", "argument"],
+    "a": "argument"
+  },
+  {
+    "q": "Has quick access to Finder functions for highlighted items, such as Get Info, Move to Trash, and Services",
+    "type": "mc",
+    "opts": ["Search Field", "Finder", "Search Field", "Action Menu"],
+    "a": "Action Menu"
+  },
+  {
+    "q": "Are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.",
+    "type": "mc",
+    "opts": ["Closure expressions", "Global functions", "Nested functions", "Anonymous Functions"],
+    "a": "Closure expressions"
+  },
+  {
+    "q": "When did Apple introduce the App Store to iOS?",
+    "type": "mc",
+    "opts": ["June 2008", "July 2008", "October 2008", "November 2008"],
+    "a": "July 2008"
+  },
+  {
+    "q": "The iOS version when iPad was unveiled",
+    "type": "mc",
+    "opts": ["iOS 3.2", "iOS 10", "iOS 4", "iOS 14"],
+    "a": "iOS 3.2"
+  },
+  {
+    "q": "Date when iPhone SDK was released.",
+    "type": "mc",
+    "opts": ["March 6, 2009", "April 6, 2009", "March 6, 2008", "April 6, 2008"],
+    "a": "March 6, 2008"
+  },
+  {
+    "q": "It simulates an iPhone or an iPad on your Mac.",
+    "type": "mc",
+    "opts": ["iOS simulator", "iOS emulator", "iOS virtual machine", "iOS devices"],
+    "a": "iOS simulator"
+  },
+  {
+    "q": "Used to display your folder in a spreadsheet-style manner.",
+    "type": "mc",
+    "opts": ["List view", "Icon view", "Column view", "Cover flow view"],
+    "a": "List view"
+  },
+  {
+    "q": "Used to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable.",
+    "type": "mc",
+    "opts": ["unwrapped optionals", "optional binding", "forced unwrapped", "optional conditions"],
+    "a": "optional binding"
+  },
+  {
+    "q": "Which of the following will produce some error.",
+    "type": "mc",
+    "opts": ["let b:UInt = Int.max + 1", "let b = UInt.max - 1", "let b = Int.max + 1", "let b = UInt.max + 1"],
+    "a": "let b:UInt = Int.max + 1"
+  },
+  {
+    "q": "A statement ends execution of an entire control flow statement immediately.",
+    "type": "mc",
+    "opts": ["stop", "break", "continue", "fallthrough"],
+    "a": "break"
+  },
+  {
+    "q": "Used to mark a loop statement or conditional statement",
+    "type": "mc",
+    "opts": ["goto", "label", "pin", "comment"],
+    "a": "label"
+  },
+  {
+    "q": "It splits the Xcode editor in two.",
+    "type": "mc",
+    "opts": ["Interface Builder", "Assistant Editor", "Code Editor", "Instruments"],
+    "a": "Assistant Editor"
+  },
+  {
+    "q": "The Apple made this as the primary interaction model.",
+    "type": "mc",
+    "opts": ["audio", "camera", "screen", "touch"],
+    "a": "touch"
+  },
+  {
+    "q": "The Xcode version where Swift programming was introduced.",
+    "type": "mc",
+    "opts": ["5.0", "4.0", "6.0", "7.0"],
+    "a": "6.0"
+  },
+  {
+    "q": "When you define a function, you can optionally define one or more named, typed values that the function takes as input, known as ____.",
+    "type": "mc",
+    "opts": ["signature", "argument", "return", "parameter"],
+    "a": "parameter"
+  },
+  {
+    "q": "Used to compare two versions of a file, see commit logs, check who made a code change, and even zoom back through the commit timeline.",
+    "type": "mc",
+    "opts": ["Git Repository and Source Control", "Version Editor and Git Control", "Version Editor and Source Control", "Git Editor and Source Control"],
+    "a": "Version Editor and Source Control"
+  },
+  {
+    "q": "It is used to modify a parameter's value, and you want those changes to persist after the function call has ended.",
+    "type": "mc",
+    "opts": ["var", "tuple", "& (ampersand)", "Inout"],
+    "a": "Inout"
+  },
+  {
+    "q": "Used to jump to a selected file; you can quickly select what information to view in the Assistant Editor",
+    "type": "mc",
+    "opts": ["Step into", "Search", "Gutter", "Jump Bar"],
+    "a": "Jump Bar"
+  },
+  {
+    "q": "You can also initialize an array with an array literal, which is a shorthand way to write one or more values as an array collection.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Functions can have multiple input parameters, which are written within the function's parentheses, separated by commas.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A function always return a non Void value.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "An unordered type of collection whose values are unique.",
+    "type": "mc",
+    "opts": ["Tuple", "Dictionary", "Array (List)", "Set"],
+    "a": "Set"
+  },
+  {
+    "q": "You use this to specify that the parameter can be passed a varying number of input values when the function is called.",
+    "type": "mc",
+    "opts": ["tuple", "variadic parameter", "collection", "array (list)"],
+    "a": "variadic parameter"
+  },
+  {
+    "q": "This character will be able to remove an argument label for a parameter.",
+    "type": "mc",
+    "opts": ["$ (dollar)", ": (colon)", "*(asterisk)", "__(underscore)"],
+    "a": "__(underscore)"
+  },
+  {
+    "q": "Arrays, sets, and dictionaries in Swift are always clear about the types of values and keys that they can store.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Given an array named arr with some integer elements value. Write a statement that will empty the given array. (note: provide proper spacing)",
+    "type": "text",
+    "a": "arr = []"
+  },
+  {
+    "q": "Given a set named items with some String elements value. Write a statement that will empty the given set. (note: provide proper spacing)",
+    "type": "text",
+    "a": "items = []"
+  },
+  {
+    "q": "Write the empty initializer syntax of the following collection using explicit type.\n\n1. Array\n2. Set\n3. Dictionary",
+    "type": "text",
+    "a": "var numbers: [Int] = []\nvar items: Set<String> = []\nvar info: [String: Int] = [:]"
+  },
+  {
+    "q": "Write a function (named remainderOf) that will return the remainder of two numbers name firstNumber and secondNumber that is accessible only inside a given function. Calling the function as written in the example form of remainderOf(10, from: 3)",
+    "type": "text",
+    "a": "func remainderOf(_ firstNumber: Int, from secondNumber: Int) -> Int {\n    return firstNumber % secondNumber\n}"
+  },
+  {
+    "q": "Given the diagram below. Write a code that will return the following values.\n\na. [4,6]\nb. [1,5]\nc. [1,2,3,4,5,6,7]\nd. [2,3,4,6,7]",
+    "type": "text",
+    "image": "diagram.jpg",
+    "a": "let A: Set = [4, 6, 1, 5]\nlet B: Set = [2, 7, 3, 1, 5]\nlet onlyInA = A.subtracting(B).sorted()\nprint(Array(onlyInA))\nlet intersect = A.intersection(B).sorted()\nprint(Array(intersect))\nlet allElements = A.union(B).sorted()\nprint(Array(allElements))\nlet symmetricDiff = A.symmetricDifference(B).sorted()\nprint(Array(symmetricDiff))"
+  },
+  {
+    "q": "Write the exact output given the statements below:\n\nlet abc = (UInt8.max, UInt8.min, Int8.max, Int8.min)\nprint(\"\\(abc.3) \\(abc.1) \\(abc.0) \\(abc.2) \")",
+    "type": "text",
+    "a": "-128 0 255 127"
+  },
+  {
+    "q": "Write the exact output given the statements below:\n\nvar x = 1\nfor y in 5...5 { x *= y % 2 }\nprint(\"x = \\(x)\")",
+    "type": "text",
+    "a": "x = 1"
+  },
+  {
+    "q": "Write the exact output given the statements below:\n\nlet str = \"123\"\nfor ch in str { print(ch,\"*\", separator:\"-\", terminator:\"-\") }",
+    "type": "text",
+    "a": "1-*:2-*:3-*:"
+  },
+  {
+    "q": "Write the exact output given the following Swift statements:\n\nlet x: Int! = 10\nlet y: Int = x\nprint(x!, y)",
+    "type": "text",
+    "a": "10 10"
+  },
+  {
+    "q": "Write the exact output given the code below:\n\nlet A:Set = [1,2,3,4,5]\nlet B:Set = [0,1,2,3,4,5]\nprint(A.isSubset(of: B), A.isStrictSuperset(of: B), A.isStrictSubset(of: B), A.isDisjoint(with: B), separator:\" \")",
+    "type": "text",
+    "a": "true, false, true, false"
+  },
+  {
+    "q": "Given the dictionary below, write a statement that will empty the collection\n\nvar items = [1:\"apple\", 2:\"orange\", 3:\"mango\"]",
+    "type": "text",
+    "a": "items.removeAll()"
+  },
+  {
+    "q": "Write the empty initializer of a mutable set C with String using explicit type.",
+    "type": "text",
+    "a": "var C: Set<String> = []"
+  },
+  {
+    "q": "Given a tuple value (123, 3.14, \"Triangle\"). Declare a tuple variable named shape with explicit type assigning the given values.",
+    "type": "text",
+    "a": "var shape: (Int, Double, String) = (123, 3.14, \"Triangle\")"
+  },
+  {
+    "q": "Given a set named items with some String elements value, write a statement that will empty the given set.\n\nvar items = [\"apple\", \"orange\", \"mango\"]",
+    "type": "text",
+    "a": "items.removeAll()"
+  },
+  {
+    "q": "Apply the (4) four closure optimizations given the following code, then convert it to its equivalent closure method operator:\n\nvar nums: [Int] = [2, 5, 4, 8, 7, 0, 3]\nprint(nums.sorted(by: { (a: Int, b: Int) -> Bool in if(a > b) { return true; } else { return false; } })",
+    "type": "text",
+    "a": "print(nums.sorted(by: >))"
+  }
+]
