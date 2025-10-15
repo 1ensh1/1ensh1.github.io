@@ -507,7 +507,7 @@
   {
     "q": "Write a function (named remainderOf) that will return the remainder of two numbers name firstNumber and secondNumber that is accessible only inside a given function. Calling the function as written in the example form of remainderOf(10, from: 3)",
     "type": "text",
-    "a": "func remainderOf(_ firstNumber: Int, from secondNumber: Int) -> Int {\n    return firstNumber % secondNumber\n}"
+    "a": "func remainderOf(_ firstNumber: Int, from secondNumber: Int) -> Int {\nreturn firstNumber % secondNumber\n}"
   },
   {
     "q": "Given the diagram below. Write a code that will return the following values.\n\na. [4,6]\nb. [1,5]\nc. [1,2,3,4,5,6,7]\nd. [2,3,4,6,7]",
