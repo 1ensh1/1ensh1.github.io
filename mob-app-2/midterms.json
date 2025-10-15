@@ -497,7 +497,7 @@
   {
     "q": "Given a set named items with some String elements value. Write a statement that will empty the given set. (note: provide proper spacing)",
     "type": "text",
-    "a": "items = []"
+    "a": "items.removeAll()"
   },
   {
     "q": "Write the empty initializer syntax of the following collection using explicit type.\n\n1. Array\n2. Set\n3. Dictionary",
