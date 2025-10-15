@@ -89,7 +89,8 @@ function startQuiz(formativeNum) {
     
     if (unansweredQuestions.length === 0) {
         const quizName = typeof formativeNum === 'number' ? `Formative ${formativeNum}` : 'Midterms';
-        alert(`You have answered all questions in ${quizName}! Click "Reset Quiz" to start over.`);
+        alert(`You have answered all questions in ${quizName}! Click "Reset All" to start over.`);
+        showScreen('menu');
         return;
     }
     
@@ -345,7 +346,26 @@ function showResults() {
 }
 
 function retakeQuiz() {
-    startQuiz(currentFormative);
+    const allQuestionsForFormative = allQuestions[currentFormative];
+    const unansweredQuestions = allQuestionsForFormative.filter((q, index) => {
+        return !answeredQuestions[currentFormative].includes(index);
+    });
+    
+    if (unansweredQuestions.length === 0) {
+        const quizName = typeof currentFormative === 'number' ? `Formative ${currentFormative}` : 'Midterms';
+        const choice = confirm(`You have answered all ${allQuestionsForFormative.length} questions in ${quizName}!\n\nClick OK to reset ALL progress and start fresh\nClick Cancel to go back to menu`);
+        
+        if (choice) {
+            answeredQuestions[currentFormative] = [];
+            saveProgress();
+            updateFormativeDisplay(currentFormative);
+            startQuiz(currentFormative);
+        } else {
+            backToMenu();
+        }
+    } else {
+        startQuiz(currentFormative);
+    }
 }
 
 function backToMenu() {
