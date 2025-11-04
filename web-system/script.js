@@ -1,6 +1,6 @@
 let currentFormative = null;
 let allQuestions = {};
-let answeredQuestions = {1: [], 2: [], 3: [], 4: []};
+let answeredQuestions = {1: [], 2: [], 3: [], 4: [], 5: []};
 let quizQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswer = '';
@@ -12,7 +12,7 @@ async function loadFormatives() {
         // Load saved progress first
         loadProgress();
         
-        for (let i = 1; i <= 4; i++) {
+        for (let i = 1; i <= 5; i++) {
             const response = await fetch(`formative${i}.json`);
             const data = await response.json();
             allQuestions[i] = data;
