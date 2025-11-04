@@ -1,0 +1,182 @@
+[
+  {
+    "q": "In Codeigniter 4, What is the default number of links shown in pagination?",
+    "type": "mc",
+    "opts": ["3", "5", "2", "4"],
+    "a": "3"
+  },
+  {
+    "q": "How do you specify the base URL for pagination links?",
+    "type": "mc",
+    "opts": ["By using the url configuration option", "By setting the linkURL option", "By using the siteURL configuration option", "By using the baseURL configuration option"],
+    "a": "By using the baseURL configuration option"
+  },
+  {
+    "q": "What is the primary purpose of pagination in a web application?",
+    "type": "mc",
+    "opts": ["To display all content on a single page", "To increase page load time", "To filter content based on user preferences", "To split content into multiple pages for easier navigation"],
+    "a": "To split content into multiple pages for easier navigation"
+  },
+  {
+    "q": "Which method is used to set the number of items per page in pagination?",
+    "type": "mc",
+    "opts": ["$pager->setPerPage($perPage)", "$pager->settems($perPage)", "$pager->settemsPerPage($perPage)", "$pager->itemsPerPage($perPage)"],
+    "a": "$pager->setPerPage($perPage)"
+  },
+  {
+    "q": "How do you load the Pagination library in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["$pager = \\Config\\Services::pager()", "$this->pager->initialize()", "$this->load->library('pagination')", "$this->pagination->load()"],
+    "a": "$pager = \\Config\\Services::pager()"
+  },
+  {
+    "q": "Which method is used to remove a specific piece of session data?",
+    "type": "mc",
+    "opts": ["remove()", "clear()", "deleteData()", "removeData()"],
+    "a": "remove()"
+  },
+  {
+    "q": "How do you set flashdata in a session in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["addFlashData()", "flashData()", "flash()", "setFlashdata()"],
+    "a": "setFlashdata()"
+  },
+  {
+    "q": "Which function is used to set session data in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["addSessionData()", "set()", "updateSession()", "setSessionData()"],
+    "a": "set()"
+  },
+  {
+    "q": "What is the primary purpose of a session in CodeIgniter?",
+    "type": "mc",
+    "opts": ["Maintain user state and data across different pages", "Generate HTML content", "Handle database queries", "Manage application routing"],
+    "a": "Maintain user state and data across different pages"
+  },
+  {
+    "q": "Which session driver uses the file system for storing session data in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["CodeIgniter\\Session\\Handlers\\DatabaseHandler", "CodeIgniter\\Session\\Handlers\\RedisHandler", "CodeIgniter\\Session\\Handlers\\FileHandler", "CodeIgniter\\Session\\Handlers\\CookieHandler"],
+    "a": "CodeIgniter\\Session\\Handlers\\FileHandler"
+  },
+  {
+    "q": "Which library in CodeIgniter 4 is used to implement pagination?",
+    "type": "mc",
+    "opts": ["Database", "Pagination", "Form Validation", "Session"],
+    "a": "Pagination"
+  },
+  {
+    "q": "Where can you configure the default pagination settings in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["app/Views/Pagination.php", "app/Config/Pager.php", "app/Models/Pagination.php", "app/Config/Pager.php"],
+    "a": "app/Config/Pager.php"
+  },
+  {
+    "q": "Which of the following is a valid configuration option for pagination in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["perPage", "items", "itemsPerPage", "resultsPerPage"],
+    "a": "perPage"
+  },
+  {
+    "q": "How do you retrieve all session data at once in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["getSessionData()", "fetchData()", "retrieveAll()", "get() without any arguments"],
+    "a": "get() without any arguments"
+  },
+  {
+    "q": "Which method is used to start a session in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["beginSession()", "initSession()", "session()", "startSession()"],
+    "a": "session()"
+  },
+  {
+    "q": "What happens to session flashdata after it is retrieved once?",
+    "type": "mc",
+    "opts": ["It is stored permanently", "It is automatically deleted", "It is moved to a new session key", "It is retained for the duration of the session"],
+    "a": "It is automatically deleted"
+  },
+  {
+    "q": "How do you retrieve a specific piece of session data in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["fetch()", "getData()", "retrieve()", "get()"],
+    "a": "get()"
+  },
+  {
+    "q": "How do you pass the pagination links to a view?",
+    "type": "mc",
+    "opts": ["$data['links'] = $pager->generateLinks();", "$data['pager'] = $pager;", "$data['pagination'] = $pager->createLinks();", "$data['pagination'] = $pager->links();"],
+    "a": "$data['pager'] = $pager;"
+  },
+  {
+    "q": "Which of the following is used to set the total number of items in pagination?",
+    "type": "mc",
+    "opts": ["$pager->setItems($totalItems)", "$pager->totalItems($totalItems)", "$pager->setTotalItems($totalItems)", "$pager->setTotal($totalItems)"],
+    "a": "$pager->setTotal($totalItems)"
+  },
+  {
+    "q": "Which of the following is a valid way to destroy a session in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["deleteSession()", "end()", "destroy()", "close()"],
+    "a": "destroy()"
+  },
+  {
+    "q": "What is the purpose of the uriSegment option in pagination?",
+    "type": "mc",
+    "opts": ["To determine the query string structure", "To define the URI structure for the controller", "To determine which URI segment contains the page number", "To define the base URL for pagination"],
+    "a": "To determine which URI segment contains the page number"
+  },
+  {
+    "q": "Which session handler uses a database for storing session data?",
+    "type": "mc",
+    "opts": ["MemcachedHandler", "CodeIgniter\\Session\\Handlers\\DatabaseHandler", "CookieHandler", "FileHandler"],
+    "a": "CodeIgniter\\Session\\Handlers\\DatabaseHandler"
+  },
+  {
+    "q": "Which method in the Pagination library is used to create pagination links?",
+    "type": "mc",
+    "opts": ["createLinks()", "getLinks()", "paginationLinks()", "generateLinks()"],
+    "a": "createLinks()"
+  },
+  {
+    "q": "What does the has() method do in the context of sessions in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["Checks if a session variable exists", "Deletes a session variable", "Retrieves a session variable", "Adds a new session variable"],
+    "a": "Checks if a session variable exists"
+  },
+  {
+    "q": "How do you retrieve the current page number in a controller?",
+    "type": "mc",
+    "opts": ["$this->pager->currentPage()", "$this->pager->getPage()", "$pager->getCurrentPage()", "$pager->getCurrentPage()"],
+    "a": "$pager->getCurrentPage()"
+  },
+  {
+    "q": "Which helper function can be used to create pagination links directly in the view?",
+    "type": "mc",
+    "opts": ["pager->pagination()", "pager->links()", "pager->create()", "pager->generate()"],
+    "a": "pager->links()"
+  },
+  {
+    "q": "What does the getFlashdata() method do in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["Retrieves all session data", "Retrieves a specific piece of session data", "Retrieves temporary session data that is only available for the next request", "Retrieves persistent session data"],
+    "a": "Retrieves temporary session data that is only available for the next request"
+  },
+  {
+    "q": "Which method is used to regenerate the session ID in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["resetID()", "regenerate()", "refreshID()", "newSessionID()"],
+    "a": "regenerate()"
+  },
+  {
+    "q": "How can you customize the pagination view in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["By modifying the baseURL option", "By setting the template option in the pagination configuration", "By editing the Pager.php configuration file directly", "By using the customView method in the controller"],
+    "a": "By setting the template option in the pagination configuration"
+  },
+  {
+    "q": "Where are session configurations typically stored in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["app/Config/App.php", "app/Controllers/SessionConfig.php", "app/Views/SessionConfig.php", "app/Models/Session.php"],
+    "a": "app/Config/App.php"
+  }
+]
