@@ -1,0 +1,152 @@
+[
+  {
+    "q": "Which method is used to check if validation passed or failed?",
+    "type": "mc",
+    "opts": ["passed()", "valid()", "check()", "hasError()"],
+    "a": "hasError()"
+  },
+  {
+    "q": "What is the return type of the validate() method when validation fails?",
+    "type": "mc",
+    "opts": ["String", "Null", "Boolean (False)", "Array"],
+    "a": "Boolean (False)"
+  },
+  {
+    "q": "Which built-in validation rule checks if a value is a valid email address?",
+    "type": "mc",
+    "opts": ["valid_email_address", "email_check", "email_valid", "valid_email"],
+    "a": "valid_email"
+  },
+  {
+    "q": "How can you combine multiple validation rules for a single field?",
+    "type": "mc",
+    "opts": ["Use a comma, between rules", "Use a pipe | between rules", "Use an ampersand & between rules", "Use a plus sign + between rules"],
+    "a": "Use a pipe | between rules"
+  },
+  {
+    "q": "Which of the following is a valid built-in validation rule in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["required", "numeric_only", "valid_date", "is_valid"],
+    "a": "required"
+  },
+  {
+    "q": "Which method retrieves the validation error messages in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["displayErrors()", "showErrors()", "getErrorMessages()", "getErrors()"],
+    "a": "getErrors()"
+  },
+  {
+    "q": "Where can validation rules be defined in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["In the app/Views directory", "In the database schema", "In the view files", "In the controller or a validation configuration file"],
+    "a": "In the controller or a validation configuration file"
+  },
+  {
+    "q": "Which validation rule would you use to check if a date is in the correct format?",
+    "type": "mc",
+    "opts": ["valid_format", "date_format", "valid_date", "correct_date"],
+    "a": "valid_date"
+  },
+  {
+    "q": "How do you apply validation rules to a specific field in a controller?",
+    "type": "mc",
+    "opts": ["Use $this->validate(['field' => 'rules'])", "Use $this->applyRules('field', 'rules')", "Use $this->validation->field('rules')", "Use $this->setRules('field', 'rules')"],
+    "a": "Use $this->validate(['field' => 'rules'])"
+  },
+  {
+    "q": "What does the withInput() method do when validation fails in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["Displays error messages", "Saves the input data to the database", "Redirects back with the old input data", "Clears the input fields"],
+    "a": "Redirects back with the old input data"
+  },
+  {
+    "q": "What is the primary purpose of validation in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["Ensure data integrity before processing", "Generate HTML content", "Handle database queries", "Manage application routing"],
+    "a": "Ensure data integrity before processing"
+  },
+  {
+    "q": "How do you specify validation rules directly in the model for CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["$modelRules property", "$validateRules property", "$rules property", "$validationRules property"],
+    "a": "$validationRules property"
+  },
+  {
+    "q": "What is the purpose of the set_rules() method in CodeIgniter 4 validation?",
+    "type": "mc",
+    "opts": ["Manage sessions", "Configure routing", "Define validation rules for form fields", "Execute database queries"],
+    "a": "Define validation rules for form fields"
+  },
+  {
+    "q": "How do you set custom error messages for validation rules in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["Define them in the view file", "Set them in the database", "Use the errorMessage() method", "Pass an associative array of rules and messages to the validate() method"],
+    "a": "Pass an associative array of rules and messages to the validate() method"
+  },
+  {
+    "q": "Which method is used to retrieve a specific error message for a particular field?",
+    "type": "mc",
+    "opts": ["fetchError('field')", "getError('field')", "retrieveError('field')", "showError('field')"],
+    "a": "getError('field')"
+  },
+  {
+    "q": "How can you set a custom rule in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["Set the rule in the database", "Use the customRule() method", "Define the rule in the view file", "Use the setRule() method or define it in the configuration file"],
+    "a": "Use the setRule() method or define it in the configuration file"
+  },
+  {
+    "q": "Which validation rule would you use to ensure a field is exactly 10 characters long?",
+    "type": "mc",
+    "opts": ["exact_length", "size_10", "fixed_length", "length_exact"],
+    "a": "exact_length"
+  },
+  {
+    "q": "How can you validate if a field matches another field in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["match", "equal_to", "matches", "compare"],
+    "a": "matches"
+  },
+  {
+    "q": "What is the function of the setValidation() method in a model?",
+    "type": "mc",
+    "opts": ["Create a validation object", "Set default form values", "Assign validation rules to the model", "Display validation errors"],
+    "a": "Assign validation rules to the model"
+  },
+  {
+    "q": "How can you validate that a field contains a unique value in the database?",
+    "type": "mc",
+    "opts": ["unique_check", "is_unique_value", "is_unique", "unique_field"],
+    "a": "is_unique"
+  },
+  {
+    "q": "How do you ensure a field is not empty and has a value in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["required", "filled", "mandatory", "non_empty"],
+    "a": "required"
+  },
+  {
+    "q": "Which validation rule would you use to check the minimum length of a string?",
+    "type": "mc",
+    "opts": ["min_length", "min_size", "length_min", "string_length"],
+    "a": "min_length"
+  },
+  {
+    "q": "Which validation rule checks if a field value exists in a set of values?",
+    "type": "mc",
+    "opts": ["allowed_values", "in_set", "exists_in", "in_list"],
+    "a": "in_list"
+  },
+  {
+    "q": "Which method is used to validate data in CodeIgniter 4?",
+    "type": "mc",
+    "opts": ["validate()", "check()", "confirm()", "verify()"],
+    "a": "validate()"
+  },
+  {
+    "q": "Which validation rule would you use to ensure a field contains only numeric values?",
+    "type": "mc",
+    "opts": ["is_integer", "digits_only", "numeric", "is_number"],
+    "a": "numeric"
+  }
+]
