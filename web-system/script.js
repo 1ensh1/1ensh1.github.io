@@ -6,39 +6,68 @@ let currentQuestionIndex = 0;
 let userAnswer = '';
 let userAnswers = [];
 let score = 0;
+let loadedFormatives = new Set();
 
 async function loadFormatives() {
-    try {
-        // Load saved progress first
-        loadProgress();
-        
-        for (let i = 1; i <= 8; i++) {
+    // Load saved progress first
+    loadProgress();
+    
+    for (let i = 1; i <= 8; i++) {
+        try {
             const response = await fetch(`formative${i}.json`);
+            
+            if (!response.ok) {
+                console.error(`Failed to load formative${i}.json: ${response.status} ${response.statusText}`);
+                updateFormativeDisplay(i, true); // Show error state
+                continue;
+            }
+            
             const data = await response.json();
+            
+            if (!Array.isArray(data) || data.length === 0) {
+                console.error(`Invalid data in formative${i}.json`);
+                updateFormativeDisplay(i, true);
+                continue;
+            }
+            
             allQuestions[i] = data;
+            loadedFormatives.add(i);
             updateFormativeDisplay(i);
+            
+        } catch (error) {
+            console.error(`Error loading formative${i}.json:`, error);
+            updateFormativeDisplay(i, true);
         }
-    } catch (error) {
-        console.error('Error loading formatives:', error);
-        alert('Error loading quiz data. Please make sure all JSON files are in the same folder as index.html');
     }
 }
 
-function updateFormativeDisplay(formativeNum) {
+function updateFormativeDisplay(formativeNum, hasError = false) {
+    const countElement = document.getElementById(`f${formativeNum}-count`);
+    const statusElement = document.getElementById(`f${formativeNum}-status`);
+    const resetBtn = document.getElementById(`f${formativeNum}-reset`);
+    const viewBtn = document.getElementById(`f${formativeNum}-view`);
+    
+    if (hasError || !allQuestions[formativeNum]) {
+        countElement.textContent = 'Failed to load';
+        countElement.style.color = '#ef4444';
+        statusElement.innerHTML = '<span style="color: #ef4444; font-size: 0.9rem;">Check if JSON file exists</span>';
+        resetBtn.classList.add('hidden');
+        viewBtn.classList.add('hidden');
+        return;
+    }
+    
     const totalQuestions = allQuestions[formativeNum].length;
     const answeredCount = answeredQuestions[formativeNum].length;
     const unansweredCount = totalQuestions - answeredCount;
     
-    const countElement = document.getElementById(`f${formativeNum}-count`);
-    const statusElement = document.getElementById(`f${formativeNum}-status`);
-    const resetBtn = document.getElementById(`f${formativeNum}-reset`);
-    
     if (unansweredCount === 0) {
         countElement.textContent = `All ${totalQuestions} questions answered!`;
+        countElement.style.color = '#ffffff';
         statusElement.innerHTML = '<span class="completed-badge">✓ Completed</span>';
         resetBtn.classList.remove('hidden');
     } else {
         countElement.textContent = `${unansweredCount} question${unansweredCount !== 1 ? 's' : ''} available`;
+        countElement.style.color = '#ffffff';
         if (answeredCount > 0) {
             statusElement.textContent = `(${answeredCount} answered)`;
             statusElement.style.color = '#9ca3af';
@@ -47,6 +76,8 @@ function updateFormativeDisplay(formativeNum) {
         }
         resetBtn.classList.add('hidden');
     }
+    
+    viewBtn.classList.remove('hidden');
 }
 
 function resetFormative(formativeNum) {
@@ -54,6 +85,14 @@ function resetFormative(formativeNum) {
         answeredQuestions[formativeNum] = [];
         updateFormativeDisplay(formativeNum);
         saveProgress();
+    }
+}
+
+function resetCurrentQuiz() {
+    if (currentFormative && confirm(`Are you sure you want to reset Formative ${currentFormative}? This will exit the current quiz and clear all progress for this formative.`)) {
+        answeredQuestions[currentFormative] = [];
+        saveProgress();
+        backToMenu();
     }
 }
 
@@ -67,6 +106,11 @@ function shuffleArray(array) {
 }
 
 function startQuiz(formativeNum) {
+    if (!loadedFormatives.has(formativeNum)) {
+        alert(`Formative ${formativeNum} failed to load. Please check if formative${formativeNum}.json exists in the same folder as index.html`);
+        return;
+    }
+    
     currentFormative = formativeNum;
     const allQuestionsForFormative = allQuestions[formativeNum];
     
@@ -207,8 +251,6 @@ function checkAnswer() {
     // Only add to answered questions if not already there
     if (originalIndex !== -1 && !answeredQuestions[currentFormative].includes(originalIndex)) {
         answeredQuestions[currentFormative].push(originalIndex);
-        
-        // Save to localStorage to persist across page refreshes
         saveProgress();
     }
     
@@ -266,10 +308,10 @@ function showResults() {
     
     if (percentage >= 90) {
         icon = '🎉';
-        message = 'Outstanding!';
+        message = 'Outstanding! You really know your stuff!';
     } else if (percentage >= 75) {
         icon = '👍';
-        message = 'Great job!';
+        message = 'Great job! You\'re doing well!';
     } else if (percentage >= 50) {
         icon = '👏';
         message = 'Good effort! Keep practicing.';
@@ -296,13 +338,28 @@ function backToMenu() {
 }
 
 function saveProgress() {
-    localStorage.setItem('quizProgress', JSON.stringify(answeredQuestions));
+    try {
+        localStorage.setItem('quizProgress', JSON.stringify(answeredQuestions));
+    } catch (error) {
+        console.error('Failed to save progress:', error);
+    }
 }
 
 function loadProgress() {
-    const saved = localStorage.getItem('quizProgress');
-    if (saved) {
-        answeredQuestions = JSON.parse(saved);
+    try {
+        const saved = localStorage.getItem('quizProgress');
+        if (saved) {
+            const parsed = JSON.parse(saved);
+            // Ensure all formatives have arrays
+            for (let i = 1; i <= 8; i++) {
+                if (Array.isArray(parsed[i])) {
+                    answeredQuestions[i] = parsed[i];
+                }
+            }
+        }
+    } catch (error) {
+        console.error('Failed to load progress:', error);
+        answeredQuestions = {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: []};
     }
 }
 
@@ -310,7 +367,75 @@ function showScreen(screen) {
     document.getElementById('menu-screen').classList.add('hidden');
     document.getElementById('quiz-screen').classList.add('hidden');
     document.getElementById('results-screen').classList.add('hidden');
+    document.getElementById('view-questions-screen').classList.add('hidden');
     document.getElementById(`${screen}-screen`).classList.remove('hidden');
 }
 
+function viewAllQuestions(formativeNum) {
+    if (!loadedFormatives.has(formativeNum)) {
+        alert(`Formative ${formativeNum} failed to load. Please check if formative${formativeNum}.json exists.`);
+        return;
+    }
+    
+    currentFormative = formativeNum;
+    const questions = allQuestions[formativeNum];
+    
+    document.getElementById('view-formative-number').textContent = formativeNum;
+    const questionsList = document.getElementById('questions-list');
+    questionsList.innerHTML = '';
+    
+    questions.forEach((question, index) => {
+        const questionItem = document.createElement('div');
+        questionItem.className = 'question-item';
+        
+        let answerHTML = '';
+        
+        if (question.type === 'tf' || question.type === 'text') {
+            answerHTML = `
+                <div class="answer-section">
+                    <span class="answer-label">Correct Answer:</span>
+                    <div class="answer-text">${question.a}</div>
+                </div>
+            `;
+        } else if (question.type === 'mc') {
+            answerHTML = `
+                <div class="answer-section">
+                    <span class="answer-label">Correct Answer:</span>
+                    <div class="answer-text">${question.a}</div>
+                    <div class="options-list">
+                        ${question.opts.map(opt => 
+                            `<div class="option-item ${opt === question.a ? 'correct-option' : ''}">${opt}</div>`
+                        ).join('')}
+                    </div>
+                </div>
+            `;
+        } else if (question.type === 'multi') {
+            answerHTML = `
+                <div class="answer-section">
+                    <span class="answer-label">Correct Answers:</span>
+                    <div class="answer-text">${question.a.join(', ')}</div>
+                    <div class="options-list">
+                        ${question.opts.map(opt => 
+                            `<div class="option-item ${question.a.includes(opt) ? 'correct-option' : ''}">${opt}</div>`
+                        ).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        questionItem.innerHTML = `
+            <div class="question-header">
+                <div class="question-number">Q${index + 1}</div>
+                <div class="question-text-view">${question.q}</div>
+            </div>
+            ${answerHTML}
+        `;
+        
+        questionsList.appendChild(questionItem);
+    });
+    
+    showScreen('view-questions');
+}
+
+// Initialize on page load
 loadFormatives();

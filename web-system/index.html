@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile App Development Quiz</title>
+    <title>Web System Development Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,6 +20,7 @@
                     <p id="f1-count">Loading...</p>
                     <div id="f1-status"></div>
                     <button id="f1-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(1)">Reset Quiz</button>
+                    <button id="f1-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(1)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(2)">
                     <div class="icon">🖥️</div>
@@ -27,6 +28,7 @@
                     <p id="f2-count">Loading...</p>
                     <div id="f2-status"></div>
                     <button id="f2-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(2)">Reset Quiz</button>
+                    <button id="f2-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(2)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(3)">
                     <div class="icon">🖥️</div>
@@ -34,6 +36,7 @@
                     <p id="f3-count">Loading...</p>
                     <div id="f3-status"></div>
                     <button id="f3-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(3)">Reset Quiz</button>
+                    <button id="f3-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(3)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(4)">
                     <div class="icon">🖥️</div>
@@ -41,6 +44,7 @@
                     <p id="f4-count">Loading...</p>
                     <div id="f4-status"></div>
                     <button id="f4-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(4)">Reset Quiz</button>
+                    <button id="f4-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(4)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(5)">
                     <div class="icon">🖥️</div>
@@ -48,6 +52,7 @@
                     <p id="f5-count">Loading...</p>
                     <div id="f5-status"></div>
                     <button id="f5-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(5)">Reset Quiz</button>
+                    <button id="f5-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(5)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(6)">
                     <div class="icon">🖥️</div>
@@ -55,20 +60,23 @@
                     <p id="f6-count">Loading...</p>
                     <div id="f6-status"></div>
                     <button id="f6-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(6)">Reset Quiz</button>
+                    <button id="f6-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(6)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(7)">
                     <div class="icon">🖥️</div>
                     <h2>Formative 7</h2>
-                    <p id="f6-count">Loading...</p>
-                    <div id="f6-status"></div>
-                    <button id="f6-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(7)">Reset Quiz</button>
+                    <p id="f7-count">Loading...</p>
+                    <div id="f7-status"></div>
+                    <button id="f7-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(7)">Reset Quiz</button>
+                    <button id="f7-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(7)">View All Questions</button>
                 </div>
                 <div class="formative-card" onclick="startQuiz(8)">
                     <div class="icon">🖥️</div>
-                    <h2>Formative 7</h2>
-                    <p id="f6-count">Loading...</p>
-                    <div id="f6-status"></div>
-                    <button id="f6-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(8)">Reset Quiz</button>
+                    <h2>Formative 8</h2>
+                    <p id="f8-count">Loading...</p>
+                    <div id="f8-status"></div>
+                    <button id="f8-reset" class="reset-btn hidden" onclick="event.stopPropagation(); resetFormative(8)">Reset Quiz</button>
+                    <button id="f8-view" class="view-btn" onclick="event.stopPropagation(); viewAllQuestions(8)">View All Questions</button>
                 </div>
             </div>
         </div>
@@ -81,6 +89,7 @@
                         <span class="formative-label">Formative <span id="current-formative"></span></span>
                         <span class="question-label">Question <span id="current-question"></span> / <span id="total-questions"></span></span>
                     </div>
+                    <button class="reset-quiz-btn" onclick="resetCurrentQuiz()">🔄 Reset This Quiz</button>
                 </div>
 
                 <div class="question-text" id="question-text"></div>
@@ -104,6 +113,16 @@
                     <button class="btn btn-primary" onclick="retakeQuiz()">Take Quiz Again</button>
                     <button class="btn btn-secondary" onclick="backToMenu()">Choose Another Quiz</button>
                 </div>
+            </div>
+        </div>
+
+        <div id="view-questions-screen" class="view-questions-container hidden">
+            <div class="view-questions-card">
+                <div class="view-questions-header">
+                    <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+                    <h2>Formative <span id="view-formative-number"></span> - All Questions</h2>
+                </div>
+                <div id="questions-list" class="questions-list"></div>
             </div>
         </div>
     </div>
