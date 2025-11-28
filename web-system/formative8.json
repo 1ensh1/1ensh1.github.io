@@ -220,17 +220,6 @@
     "a": "$file->getTempName();"
   },
   {
-    "q": "What is the default driver used by CodeIgniter 4 for image manipulation?",
-    "type": "mc",
-    "opts": [
-      "GD2",
-      "Imageick",
-      "ImageMagick",
-      "GD"
-    ],
-    "a": "GD2"
-  },
-  {
     "q": "Which service is used to handle image manipulation in CodeIgniter 4?",
     "type": "mc",
     "opts": [
