@@ -3,10 +3,10 @@
     "q": "How do you set the subject of an email in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$email->subject('Subject of Email');",
       "$email->setTitle('Subject of Email');",
       "$email->addSubject('Subject of Email');",
-      "$email->setSubject('Subject of Email');"
+      "$email->setSubject('Subject of Email');",
+      "$email->subject('Subject of Email');"
     ],
     "a": "$email->setSubject('Subject of Email');"
   },
@@ -14,10 +14,10 @@
     "q": "How do you send an email to multiple recipients using CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$email->setTo(['user1@example.com','user2@example.com']);",
+      "$email->setTo('user1@example.com, user2@example.com');",
       "$email->addRecipients(['user1@example.com','user2@example.com']);",
       "$email->setRecipients('user1@example.com, user2@example.com');",
-      "$email->setTo('user1@example.com, user2@example.com');"
+      "$email->setTo(['user1@example.com','user2@example.com']);"
     ],
     "a": "$email->setTo('user1@example.com, user2@example.com');"
   },
@@ -25,10 +25,10 @@
     "q": "What is the default email protocol used by CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "Mail",
-      "Sendmail",
+      "SMTP",
       "IMAP",
-      "SMTP"
+      "Sendmail",
+      "Mail"
     ],
     "a": "SMTP"
   },
@@ -36,10 +36,10 @@
     "q": "What is the primary purpose of the Email class in CodeIgniter 4?",
     "type": "mc",
     "opts": [
+      "Sending emails",
       "Managing file uploads",
-      "Sending HTTP requests",
       "Handling database queries",
-      "Sending emails"
+      "Sending HTTP requests"
     ],
     "a": "Sending emails"
   },
@@ -47,10 +47,10 @@
     "q": "What does the printDebugger() method do in the context of sending emails?",
     "type": "mc",
     "opts": [
-      "Saves the email to a log file",
-      "Sends the email in debug mode",
       "Prints the email body in the browser",
-      "Prints the debugging information of the email sending process"
+      "Saves the email to a log file",
+      "Prints the debugging information of the email sending process",
+      "Sends the email in debug mode"
     ],
     "a": "Prints the debugging information of the email sending process"
   },
@@ -58,10 +58,10 @@
     "q": "Which method allows you to set a custom email header?",
     "type": "mc",
     "opts": [
-      "$email->customHeader('X-Custom-Header','value');",
-      "$email->setCustomHeader('X-Custom-Header','value');",
       "$email->addHeader('X-Custom-Header','value');",
-      "$email->setHeader('X-Custom-Header','value');"
+      "$email->setHeader('X-Custom-Header','value');",
+      "$email->setCustomHeader('X-Custom-Header','value');",
+      "$email->customHeader('X-Custom-Header','value');"
     ],
     "a": "$email->setHeader('X-Custom-Header','value');"
   },
@@ -69,10 +69,10 @@
     "q": "How do you set the email format to HTML in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$email->setFormat('html');",
-      "$email->formatAsHTML();",
+      "$email->setMailType('html');",
       "$email->useHTML();",
-      "$email->setMailType('html');"
+      "$email->formatAsHTML();",
+      "$email->setFormat('html');"
     ],
     "a": "$email->setMailType('html');"
   },
@@ -80,10 +80,10 @@
     "q": "Which method is used to set the email message body in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$email->setMessageBody('Message text');",
       "$email->setContent('Message text');",
-      "$email->body('Message text');",
-      "$email->setMessage('Message text');"
+      "$email->setMessageBody('Message text');",
+      "$email->setMessage('Message text');",
+      "$email->body('Message text');"
     ],
     "a": "$email->setMessage('Message text');"
   },
@@ -92,9 +92,9 @@
     "type": "mc",
     "opts": [
       "$email->addAttachment('path/to/file');",
-      "$email->attachFile('path/to/file');",
+      "$email->attach('path/to/file');",
       "$email->setAttachment('path/to/file');",
-      "$email->attach('path/to/file');"
+      "$email->attachFile('path/to/file');"
     ],
     "a": "$email->attach('path/to/file');"
   },
@@ -102,10 +102,10 @@
     "q": "How do you set the sender's email address in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$email->fromAddress('your@example.com');",
-      "$email->sender('your@example.com');",
       "$email->setSender('your@example.com');",
-      "$email->setFrom('your@example.com');"
+      "$email->fromAddress('your@example.com');",
+      "$email->setFrom('your@example.com');",
+      "$email->sender('your@example.com');"
     ],
     "a": "$email->setFrom('your@example.com');"
   },
@@ -113,10 +113,10 @@
     "q": "How do you set an email to be sent as plain text?",
     "type": "mc",
     "opts": [
-      "$email->setMailType('plain');",
       "$email->setFormat('plain');",
       "$email->usePlainText();",
-      "$email->setMailType('text');"
+      "$email->setMailType('text');",
+      "$email->setMailType('plain');"
     ],
     "a": "$email->setMailType('text');"
   },
@@ -124,10 +124,10 @@
     "q": "Which method is used to set the email priority in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$email->setMailPriority(1);",
       "$email->priority(1);",
-      "$email->setImportance(1);",
-      "$email->setPriority(1);"
+      "$email->setPriority(1);",
+      "$email->setMailPriority(1);",
+      "$email->setImportance(1);"
     ],
     "a": "$email->setPriority(1);"
   },
@@ -135,10 +135,10 @@
     "q": "Which of the following is a valid mail type in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "plain",
+      "html",
       "text/html",
       "xhtml",
-      "html"
+      "plain"
     ],
     "a": "html"
   },
@@ -146,10 +146,10 @@
     "q": "Which method is used to load the Email class in CodeIgniter 4?",
     "type": "mc",
     "opts": [
+      "$email = \\Config\\Services::email();",
       "$this->load->library('email')",
-      "$email = new Email();",
       "$this->email->load();",
-      "$email = \\Config\\Services::email();"
+      "$email = new Email();"
     ],
     "a": "$email = \\Config\\Services::email();"
   },
@@ -158,9 +158,9 @@
     "type": "mc",
     "opts": [
       "$email->recipient('user@example.com');",
+      "$email->setTo('user@example.com');",
       "$email->addRecipient('user@example.com');",
-      "$email->setRecipient('user@example.com');",
-      "$email->setTo('user@example.com');"
+      "$email->setRecipient('user@example.com');"
     ],
     "a": "$email->setTo('user@example.com');"
   },
@@ -168,9 +168,9 @@
     "q": "How do you check if an email was successfully sent in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "if ($email->isSent())",
-      "if ($email->wasSent())",
       "if ($email->sent()",
+      "if ($email->wasSent())",
+      "if ($email->isSent())",
       "if ($email->send())"
     ],
     "a": "if ($email->send())"
@@ -179,10 +179,10 @@
     "q": "Which method would you use to set the email sender's name?",
     "type": "mc",
     "opts": [
+      "$email->setFrom('your@example.com', 'Your Name');",
       "$email->setSender('your@example.com', 'Your Name');",
       "$email->from('your@example.com', 'Your Name');",
-      "$email->setSenderName('your@example.com', 'Your Name');",
-      "$email->setFrom('your@example.com', 'Your Name');"
+      "$email->setSenderName('your@example.com', 'Your Name');"
     ],
     "a": "$email->setFrom('your@example.com', 'Your Name');"
   },
@@ -190,10 +190,10 @@
     "q": "Which configuration file is used to set global email settings in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "app/Config/App.php",
-      "app/Config/Database.php",
+      "app/Config/Email.php",
       "app/Config/Mail.php",
-      "app/Config/Email.php"
+      "app/Config/Database.php",
+      "app/Config/App.php"
     ],
     "a": "app/Config/Email.php"
   },
@@ -202,9 +202,9 @@
     "type": "mc",
     "opts": [
       "$email->customHeader('X-Custom-Header', 'value');",
-      "$email->setCustomHeader('X-Custom-Header', 'value');",
       "$email->addHeader('X-Custom-Header', 'value');",
-      "$email->setHeader('X-Custom-Header', 'value');"
+      "$email->setHeader('X-Custom-Header', 'value');",
+      "$email->setCustomHeader('X-Custom-Header', 'value');"
     ],
     "a": "$email->setHeader('X-Custom-Header', 'value');"
   },
@@ -213,9 +213,9 @@
     "type": "mc",
     "opts": [
       "Defines the format of email content",
-      "Determines how the email body is wrapped",
       "Adds line breaks in the email subject",
-      "Specifies the newline character used in the email headers"
+      "Specifies the newline character used in the email headers",
+      "Determines how the email body is wrapped"
     ],
     "a": "Specifies the newline character used in the email headers"
   }

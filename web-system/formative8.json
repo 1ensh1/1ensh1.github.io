@@ -3,10 +3,10 @@
     "q": "How can you retrieve all uploaded files in a single request?",
     "type": "mc",
     "opts": [
-      "$this->request->getAllFiles();",
-      "$this->input->getFiles();",
       "$this->request->files();",
-      "$this->request->getFiles();"
+      "$this->request->getFiles();",
+      "$this->input->getFiles();",
+      "$this->request->getAllFiles();"
     ],
     "a": "$this->request->getFiles();"
   },
@@ -14,10 +14,10 @@
     "q": "What is the default upload directory in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "assets/uploads/",
+      "writable/uploads/",
       "files/",
       "public/uploads/",
-      "writable/uploads/"
+      "assets/uploads/"
     ],
     "a": "writable/uploads/"
   },
@@ -25,10 +25,10 @@
     "q": "How do you retrieve the extension of an uploaded file?",
     "type": "mc",
     "opts": [
+      "$file->getExtension();",
       "$file->getExt();",
       "$file->getFileExtension();",
-      "$file->extension();",
-      "$file->getExtension();"
+      "$file->extension();"
     ],
     "a": "$file->getExtension();"
   },
@@ -36,10 +36,10 @@
     "q": "What does the isValid() method return if the file is successfully uploaded?",
     "type": "mc",
     "opts": [
-      "False",
       "Null",
-      "An error message",
-      "True"
+      "False",
+      "True",
+      "An error message"
     ],
     "a": "True"
   },
@@ -47,10 +47,10 @@
     "q": "Which service is used to handle file uploads in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "Email",
-      "Validation",
+      "Request",
       "Session",
-      "Request"
+      "Validation",
+      "Email"
     ],
     "a": "Request"
   },
@@ -58,9 +58,9 @@
     "q": "Which of the following methods is used to crop an image?",
     "type": "mc",
     "opts": [
-      "cut()",
       "trim()",
       "slice()",
+      "cut()",
       "crop()"
     ],
     "a": "crop()"
@@ -69,9 +69,9 @@
     "q": "How do you maintain the aspect ratio when resizing an image in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "Use ratioResize()",
       "Set keepAspectRatio to true",
       "maintainRatio()",
+      "Use ratioResize()",
       "It maintains aspect ratio by default"
     ],
     "a": "It maintains aspect ratio by default"
@@ -81,9 +81,9 @@
     "type": "mc",
     "opts": [
       "addMark()",
-      "stamp()",
       "addWatermark()",
-      "watermark()"
+      "watermark()",
+      "stamp()"
     ],
     "a": "watermark()"
   },
@@ -91,10 +91,10 @@
     "q": "How can you flip an image horizontally in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "flipHorizontal()",
+      "flip('horizontal')",
       "flipX()",
       "flip('x')",
-      "flip('horizontal')"
+      "flipHorizontal()"
     ],
     "a": "flip('horizontal')"
   },
@@ -102,10 +102,10 @@
     "q": "How can you get the MIME type of an uploaded file?",
     "type": "mc",
     "opts": [
-      "$file->getType();",
       "$file->getFileType();",
-      "$file->getMIME();",
-      "$file->getMimeType();"
+      "$file->getMimeType();",
+      "$file->getType();",
+      "$file->getMIME();"
     ],
     "a": "$file->getMimeType();"
   },
@@ -113,10 +113,10 @@
     "q": "Which of the following methods will rename the uploaded file when moving it?",
     "type": "mc",
     "opts": [
-      "$file->rename('new_name.ext');",
       "$file->uploadAs('new_name.ext');",
       "$file->saveAs('new_name.ext');",
-      "$file->move('path/to/directory','new_name.ext');"
+      "$file->move('path/to/directory','new_name.ext');",
+      "$file->rename('new_name.ext');"
     ],
     "a": "$file->move('path/to/directory','new_name.ext');"
   },
@@ -124,10 +124,10 @@
     "q": "What method can you use to get the original name of an uploaded file?",
     "type": "mc",
     "opts": [
-      "$file->getName();",
-      "$file->getOriginalName();",
+      "$file->getClientName();",
       "$file->fileName();",
-      "$file->getClientName();"
+      "$file->getName();",
+      "$file->getOriginalName();"
     ],
     "a": "$file->getClientName();"
   },
@@ -135,10 +135,10 @@
     "q": "What method is used to retrieve a file from a form submission in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$this->input->file('userfile');",
-      "$this->upload->getFile('userfile');",
+      "$this->request->getFile('userfile');",
       "$this->file->get('userfile');",
-      "$this->request->getFile('userfile');"
+      "$this->upload->getFile('userfile');",
+      "$this->input->file('userfile');"
     ],
     "a": "$this->request->getFile('userfile');"
   },
@@ -146,10 +146,10 @@
     "q": "Which method would you use to blur an image in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "fuzzy()",
-      "blurImage()",
       "smudge()",
-      "blur()"
+      "blur()",
+      "blurImage()",
+      "fuzzy()"
     ],
     "a": "blur()"
   },
@@ -157,10 +157,10 @@
     "q": "Which method is used to open an image for manipulation?",
     "type": "mc",
     "opts": [
-      "loadImage('path/to/image')",
-      "openImage('path/to/image')",
       "getImage('path/to/image')",
-      "withFile('path/to/image')"
+      "loadImage('path/to/image')",
+      "withFile('path/to/image')",
+      "openImage('path/to/image')"
     ],
     "a": "withFile('path/to/image')"
   },
@@ -168,10 +168,10 @@
     "q": "What is the default driver used by CodeIgniter 4 for image manipulation?",
     "type": "mc",
     "opts": [
-      "GD",
       "ImageMagick",
+      "GD2",
       "ImageIck",
-      "GD2"
+      "GD"
     ],
     "a": "GD2"
   },
@@ -179,10 +179,10 @@
     "q": "How do you specify the quality of an image when saving it in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "setQuality(85)",
+      "save('path/to/file', 85)",
       "quality(85)",
       "setCompression(85)",
-      "save('path/to/file', 85)"
+      "setQuality(85)"
     ],
     "a": "save('path/to/file', 85)"
   },
@@ -190,10 +190,10 @@
     "q": "How do you add text to an image in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "addText('Your Text Here')",
-      "insertText('Your Text Here')",
       "writeText('Your Text Here')",
-      "text('Your Text Here')"
+      "text('Your Text Here')",
+      "addText('Your Text Here')",
+      "insertText('Your Text Here')"
     ],
     "a": "text('Your Text Here')"
   },
@@ -201,10 +201,10 @@
     "q": "How do you move an uploaded file to a new location in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "$file->moveTo('path/to/directory');",
       "$file->uploadTo('path/to/directory');",
-      "$file->relocate('path/to/directory');",
-      "$file->move('path/to/directory');"
+      "$file->move('path/to/directory');",
+      "$file->moveTo('path/to/directory');",
+      "$file->relocate('path/to/directory');"
     ],
     "a": "$file->move('path/to/directory');"
   },
@@ -212,10 +212,10 @@
     "q": "Which method is used to check the temporary file path of the uploaded file?",
     "type": "mc",
     "opts": [
-      "$file->tempName();",
-      "$file->getTemp();",
+      "$file->getTempName();",
       "$file->tempPath();",
-      "$file->getTempName();"
+      "$file->tempName();",
+      "$file->getTemp();"
     ],
     "a": "$file->getTempName();"
   },
@@ -223,10 +223,10 @@
     "q": "What is the default driver used by CodeIgniter 4 for image manipulation?",
     "type": "mc",
     "opts": [
-      "GD",
-      "ImageMagick",
+      "GD2",
       "Imageick",
-      "GD2"
+      "ImageMagick",
+      "GD"
     ],
     "a": "GD2"
   },
@@ -234,10 +234,10 @@
     "q": "Which service is used to handle image manipulation in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "\\Config\\Services::manipulate()",
       "\\Config\\Services::upload()",
       "\\Config\\Services::graphics()",
-      "\\Config\\Services::image()"
+      "\\Config\\Services::image()",
+      "\\Config\\Services::manipulate()"
     ],
     "a": "\\Config\\Services::image()"
   },
@@ -246,9 +246,9 @@
     "type": "mc",
     "opts": [
       "getSize()",
-      "imageSize()",
       "imageDimensions()",
-      "getDimensions()"
+      "getDimensions()",
+      "imageSize()"
     ],
     "a": "getDimensions()"
   },
@@ -256,10 +256,10 @@
     "q": "Which method is used to check if a file has been uploaded successfully?",
     "type": "mc",
     "opts": [
-      "isUploadedFile()",
       "is_uploaded()",
-      "hasFile()",
-      "isValid()"
+      "isUploadedFile()",
+      "isValid()",
+      "hasFile()"
     ],
     "a": "isValid()"
   },
@@ -268,9 +268,9 @@
     "type": "mc",
     "opts": [
       "scale()",
-      "changeSize()",
+      "resize()",
       "alterSize()",
-      "resize()"
+      "changeSize()"
     ],
     "a": "resize()"
   },
@@ -278,10 +278,10 @@
     "q": "Which method is used to save the manipulated image to a file?",
     "type": "mc",
     "opts": [
-      "store()",
       "write()",
-      "export()",
-      "save()"
+      "store()",
+      "save()",
+      "export()"
     ],
     "a": "save()"
   },
@@ -291,8 +291,8 @@
     "opts": [
       "Using $file->setAllowedTypes()",
       "Using $file->restrictTypes()",
-      "Using $file->filterTypes()",
-      "Using $this->validate(['userfile' => 'uploaded[userfile]|mime_in[userfile,image/jpg,image/jpeg]']);"
+      "Using $this->validate(['userfile' => 'uploaded[userfile]|mime_in[userfile,image/jpg,image/jpeg]']);",
+      "Using $file->filterTypes()"
     ],
     "a": "Using $this->validate(['userfile' => 'uploaded[userfile]|mime_in[userfile,image/jpg,image/jpeg]']);"
   },
@@ -300,10 +300,10 @@
     "q": "How do you check for any errors that occurred during the file upload?",
     "type": "mc",
     "opts": [
-      "$file->checkError();",
+      "$file->getError();",
       "$file->hasError();",
-      "$file->getUploadError();",
-      "$file->getError();"
+      "$file->checkError();",
+      "$file->getUploadError();"
     ],
     "a": "$file->getError();"
   },
@@ -311,10 +311,10 @@
     "q": "Which method is used to get the size of an uploaded file?",
     "type": "mc",
     "opts": [
-      "$file->getSizeInBytes();",
-      "$file->getFileSize();",
       "$file->size();",
-      "$file->getSize();"
+      "$file->getSize();",
+      "$file->getFileSize();",
+      "$file->getSizeInBytes();"
     ],
     "a": "$file->getSize();"
   },
@@ -322,10 +322,10 @@
     "q": "Which method is used to convert an image to grayscale in CodeIgniter 4?",
     "type": "mc",
     "opts": [
-      "convertToGray()",
+      "convertToGrayscale()",
       "toGray()",
       "grayscale()",
-      "convertToGrayscale()"
+      "convertToGray()"
     ],
     "a": "convertToGrayscale()"
   }
