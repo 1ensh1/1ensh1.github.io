@@ -198,17 +198,6 @@
     "a": "app/Config/Email.php"
   },
   {
-    "q": "Which method allows you to set a custom email header?",
-    "type": "mc",
-    "opts": [
-      "$email->customHeader('X-Custom-Header', 'value');",
-      "$email->addHeader('X-Custom-Header', 'value');",
-      "$email->setHeader('X-Custom-Header', 'value');",
-      "$email->setCustomHeader('X-Custom-Header', 'value');"
-    ],
-    "a": "$email->setHeader('X-Custom-Header', 'value');"
-  },
-  {
     "q": "What does setting the newline property do in the email configuration?",
     "type": "mc",
     "opts": [
