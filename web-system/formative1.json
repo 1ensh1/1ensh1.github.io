@@ -324,7 +324,7 @@
     "q": "Groovy is an example of:",
     "type": "mc",
     "opts": ["MVC as GUI", "MVC as WEB"],
-    "a": "MVC as GUI"
+    "a": "MVC as WEB"
   },
   {
     "q": "Ruby is an example of:",
@@ -532,6 +532,6 @@
     "q": "Eiffel is an example of:",
     "type": "mc",
     "opts": ["MVC as GUI", "MVC as WEB"],
-    "a": "MVC as WEB"
+    "a": "MVC as GUI"
   }
 ]
