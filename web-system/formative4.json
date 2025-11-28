@@ -2,46 +2,46 @@
   {
     "q": "Where are Model files typically stored in a CodeIgniter application?",
     "type": "mc",
-    "opts": ["app/Models", "app/Controllers", "app/Views", "app/Config"],
+    "opts": ["app/Controllers", "app/Models", "app/Config", "app/Views"],
     "a": "app/Models"
   },
   {
     "q": "Which method can be used to get the number of affected rows from the last database operation?",
     "type": "mc",
-    "opts": ["affectedRows()", "rowCount()", "countRows()", "getRowCount()"],
+    "opts": ["countRows()", "getRowCount()", "affectedRows()", "rowCount()"],
     "a": "affectedRows()"
   },
   {
     "q": "Which method in a Model is used to update an existing record in the database?",
     "type": "mc",
-    "opts": ["update()", "set()", "modify()", "change()"],
+    "opts": ["change()", "set()", "modify()", "update()"],
     "a": "update()"
   },
   {
     "q": "What does the save() method do in a Model?",
     "type": "mc",
     "opts": [
-      "Inserts or updates data based on whether the record exists",
-      "Only inserts data into the database",
       "Only updates data in the database",
-      "Deletes a record if it exists"
+      "Deletes a record if it exists",
+      "Only inserts data into the database",
+      "Inserts or updates data based on whether the record exists"
     ],
     "a": "Inserts or updates data based on whether the record exists"
   },
   {
     "q": "Which property should be defined in a Model to specify the primary key of the table?",
     "type": "mc",
-    "opts": ["protected $primaryKey", "protected $id", "protected $key", "protected $identifier"],
+    "opts": ["protected $key", "protected $identifier", "protected $id", "protected $primaryKey"],
     "a": "protected $primaryKey"
   },
   {
     "q": "Which of the following is true about views in CodeIgniter?",
     "type": "mc",
     "opts": [
-      "Views should only present data, not handle logic",
-      "Views should contain database queries",
+      "Views should handle form validation",
       "Views can directly manipulate session data",
-      "Views should handle form validation"
+      "Views should contain database queries",
+      "Views should only present data, not handle logic"
     ],
     "a": "Views should only present data, not handle logic"
   },
@@ -49,10 +49,10 @@
     "q": "What is the purpose of using layouts in CodeIgniter views?",
     "type": "mc",
     "opts": [
-      "To create a consistent structure across multiple pages",
-      "To load multiple models",
       "To handle database connections",
-      "To route user requests"
+      "To load multiple models",
+      "To route user requests",
+      "To create a consistent structure across multiple pages"
     ],
     "a": "To create a consistent structure across multiple pages"
   },
@@ -60,10 +60,10 @@
     "q": "What is the primary purpose of a View in CodeIgniter?",
     "type": "mc",
     "opts": [
-      "Present data to the user",
       "Handle database queries",
+      "Route HTTP requests",
       "Manage application logic",
-      "Route HTTP requests"
+      "Present data to the user"
     ],
     "a": "Present data to the user"
   },
@@ -71,10 +71,10 @@
     "q": "What does the view() function return when loading a view?",
     "type": "mc",
     "opts": [
-      "A string containing the rendered view",
-      "Nothing",
+      "An array",
       "A boolean",
-      "An array"
+      "Nothing",
+      "A string containing the rendered view"
     ],
     "a": "A string containing the rendered view"
   },
@@ -82,39 +82,39 @@
     "q": "How do you prevent direct access to view files via URL?",
     "type": "mc",
     "opts": [
-      "Use an .htaccess rule",
       "Set permissions on the file",
       "Rename the file to .view",
-      "Load the view using AJAX only"
+      "Load the view using AJAX only",
+      "Use an .htaccess rule"
     ],
     "a": "Use an .htaccess rule"
   },
   {
     "q": "Which method in a Model can be used to insert a new record into the database?",
     "type": "mc",
-    "opts": ["insert()", "add()", "saveData()", "create()"],
+    "opts": ["saveData()", "create()", "add()", "insert()"],
     "a": "insert()"
   },
   {
     "q": "Which function is used to load a Model in CodeIgniter?",
     "type": "mc",
-    "opts": ["model()", "get_model()", "load->model()", "use_model()"],
+    "opts": ["use_model()", "get_model()", "load->model()", "model()"],
     "a": "model()"
   },
   {
     "q": "How can you specify a table in a Model to interact with?",
     "type": "mc",
-    "opts": ["protected $table property", "setTable()", "useTable()", "table()"],
+    "opts": ["table()", "useTable()", "setTable()", "protected $table property"],
     "a": "protected $table property"
   },
   {
     "q": "What is the primary purpose of a Model in CodeIgniter?",
     "type": "mc",
     "opts": [
-      "Interact with the database",
       "Configure routing",
+      "Manage views",
       "Handle user input",
-      "Manage views"
+      "Interact with the database"
     ],
     "a": "Interact with the database"
   },
@@ -122,39 +122,39 @@
     "q": "Which method is used to send data from a view back to the controller?",
     "type": "mc",
     "opts": [
-      "Data is not sent back; it's typically handled via forms",
-      "view->data()",
       "transfer_data()",
-      "return_data()"
+      "return_data()",
+      "view->data()",
+      "Data is not sent back; it's typically handled via forms"
     ],
     "a": "Data is not sent back; it's typically handled via forms"
   },
   {
     "q": "Where are the view files typically stored in a CodeIgniter application?",
     "type": "mc",
-    "opts": ["app/Views", "app/Models", "app/Controllers", "app/Config"],
+    "opts": ["app/Config", "app/Controllers", "app/Models", "app/Views"],
     "a": "app/Views"
   },
   {
     "q": "Which function is used to load a view in CodeIgniter?",
     "type": "mc",
-    "opts": ["view()", "load->view()", "display_view()", "show_view()"],
+    "opts": ["show_view()", "display_view()", "load->view()", "view()"],
     "a": "view()"
   },
   {
     "q": "Which method is used to render a view as a partial within another view?",
     "type": "mc",
-    "opts": ["view()", "include()", "render_partial()", "embed_view()"],
+    "opts": ["embed_view()", "render_partial()", "include()", "view()"],
     "a": "view()"
   },
   {
     "q": "How do you validate data before saving it in a Model?",
     "type": "mc",
     "opts": [
-      "Use the $validationRules property",
-      "validateData()",
+      "validateBeforeSave()",
       "checkData()",
-      "validateBeforeSave()"
+      "validateData()",
+      "Use the $validationRules property"
     ],
     "a": "Use the $validationRules property"
   },
@@ -162,79 +162,79 @@
     "q": "Which of the following functions can be used to include a CSS file in a view?",
     "type": "mc",
     "opts": [
-      "<link rel=\"stylesheet\" href=\"...\">",
-      "<link href=\"...\">",
       "add_css('...')",
-      "load_css('...')"
+      "<link href=\"...\">",
+      "load_css('...')",
+      "<link rel=\"stylesheet\" href=\"...\">"
     ],
     "a": "<link rel=\"stylesheet\" href=\"...\">"
   },
   {
     "q": "How can you access data passed from the controller in a view file?",
     "type": "mc",
-    "opts": ["As variables", "Using $this->data", "Using an array", "Using objects"],
+    "opts": ["Using an array", "Using objects", "Using $this->data", "As variables"],
     "a": "As variables"
   },
   {
     "q": "What is the purpose of the returnType property in a Model?",
     "type": "mc",
     "opts": [
-      "Specifies the format of returned data (e.g., array, object)",
-      "Defines the format for errors",
       "Specifies the data type of the primary key",
-      "Configures the database connection"
+      "Configures the database connection",
+      "Defines the format for errors",
+      "Specifies the format of returned data (e.g., array, object)"
     ],
     "a": "Specifies the format of returned data (e.g., array, object)"
   },
   {
     "q": "Which of the following methods in CodeIgniter is used to pass data from a controller to a view?",
     "type": "mc",
-    "opts": ["assign()", "data()", "$this->set()", "with()"],
+    "opts": ["$this->set()", "with()", "data()", "assign()"],
     "a": "assign()"
   },
   {
     "q": "What is the default return type of data when using Models in CodeIgniter?",
     "type": "mc",
-    "opts": ["Array", "JSON", "Object", "XML"],
+    "opts": ["JSON", "XML", "Object", "Array"],
     "a": "Array"
   },
   {
     "q": "Which method is used to delete a record from the database using a Model?",
     "type": "mc",
-    "opts": ["delete()", "remove()", "destroy()", "erase()"],
+    "opts": ["erase()", "destroy()", "remove()", "delete()"],
     "a": "delete()"
   },
   {
     "q": "How can you pass multiple pieces of data to a view?",
     "type": "mc",
     "opts": [
-      "Using an associative array",
-      "Using JSON",
       "Using multiple arguments",
-      "Using a string"
+      "Using a string",
+      "Using JSON",
+      "Using an associative array"
     ],
     "a": "Using an associative array"
   },
   {
     "q": "What is the file extension typically used for view files in CodeIgniter?",
     "type": "mc",
-    "opts": [".php", ".html", ".xml", ".view"],
+    "opts": [".view", ".xml", ".html", ".php"],
     "a": ".php"
   },
   {
     "q": "Which method in a Model is used to retrieve a single row of data by its primary key?",
     "type": "mc",
-    "opts": ["find()", "fetchRow()", "retrieve()", "getOne()"],
+    "opts": ["getOne()", "retrieve()", "fetchRow()", "find()"],
     "a": "find()"
   },
   {
     "q": "What does the esc() function do in a view?",
     "type": "mc",
     "opts": [
-      "Escapes HTML characters to prevent XSS attacks",
-      "Exits the script",
+      "Creates a new line in the HTML",
       "Includes a JavaScript file",
-      "Creates a new line in the HTML"
+      "Exits the script",
+      "Escapes HTML characters to prevent XSS attacks"
     ],
     "a": "Escapes HTML characters to prevent XSS attacks"
   }
