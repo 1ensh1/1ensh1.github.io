@@ -31,18 +31,21 @@
     "type": "mc",
     "opts": [
       "systems that are marketed and sold to any customer who wishes to buy them.",
-      "The product that software professionals build and then support over the long term."
+      "The product that software professionals build and then support over the long term.",
+      "Software that is not commissioned by a specific customer to meet their own needs.",
+      "Software that is commissioned by a specific customer to meet their own needs."
     ],
     "a": "The product that software professionals build and then support over the long term."
   },
   {
-    "q": "Software that is *not* commissioned by a specific customer to meet their own needs.",
+    "q": "Software that is not commissioned by a specific customer to meet their own needs.",
     "type": "mc",
     "opts": [
       "Generic products",
-      "Customized products"
+      "Customized products",
+      "Data structures"
     ],
-    "a": "Generic products"
+    "a": "Customized products"
   },
   {
     "q": "What is AI?",
@@ -238,7 +241,7 @@
       "Problem Context",
       "Initial Context"
     ],
-    "a": "Problem Context"
+    "a": "Problem"
   },
   {
     "q": "Iterative process flow *cannot* repeat one or more of the activities after proceeding to the next.",
@@ -522,7 +525,7 @@
     "a": "” free” source code opens to the computing community (a blessing, but also a potential curse!)"
   },
   {
-    "q": "Software development is essentially an iterative social learning process, and the outcome is “software design”.",
+    "q": "Software development is essentially an iterative social learning process, and the outcome is “software *design*”.",
     "type": "tf",
     "a": "False"
   },

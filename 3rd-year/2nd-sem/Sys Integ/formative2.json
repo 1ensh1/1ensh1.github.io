@@ -52,9 +52,9 @@
     "a": "Requirements volatility"
   },
   {
-    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in *early 1990*.",
+    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early 1990.",
     "type": "tf",
-    "a": "False"
+    "a": "True"
   },
   {
     "q": "Effective communication in structure and attitudes among all team members, technological and business people, software engineers and managers.",
@@ -285,9 +285,9 @@
     "a": "True"
   },
   {
-    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early 1992.",
+    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early *1992*.",
     "type": "tf",
-    "a": "True"
+    "a": "False"
   },
   {
     "q": "The only really important work product is an operational “software *decrement*” that is *not* delivered.",
