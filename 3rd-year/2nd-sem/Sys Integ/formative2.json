@@ -1,0 +1,640 @@
+[
+  {
+    "q": "Agile processes harness change for the customer's competitive advantage.",
+    "type": "mc",
+    "opts": [
+      "Welcome changing",
+      "satisfies the customer",
+      "deliver working software frequently",
+      "satisfies the employer"
+    ],
+    "a": "Welcome changing"
+  },
+  {
+    "q": "Delivers multiple ‘software *decrements*’, deliver an operational prototype or portion of an OS to collect customer feedback for adaption.",
+    "type": "tf",
+    "a": "False (increments)"
+  },
+  {
+    "q": "“demos” are delivered to the customer with the time-box allocated. May not contain all functionalities.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Conventional wisdom is that the cost of change increases nonlinearly as a project progresses.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Effective *commitment* in structure and attitudes among all team members, technological and business people, software engineers and managers.",
+    "type": "tf",
+    "a": "False (communication)"
+  },
+  {
+    "q": "The most efficient and effective method of conveying information to and within a development team.",
+    "type": "mc",
+    "opts": [
+      "Motivated Individual",
+      "Face-to-face",
+      "satisfy customer"
+    ],
+    "a": "Face-to-face"
+  },
+  {
+    "q": "_________ customer is an active member of XP team, changes to requirements are requested informally and frequently.",
+    "type": "mc",
+    "opts": [
+      "Lack of formal design",
+      "Requirements volatility",
+      "Conflicting customer needs",
+      "Lack of program design"
+    ],
+    "a": "Requirements volatility"
+  },
+  {
+    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in *early 1990*.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Effective communication in structure and attitudes among all team members, technological and business people, software engineers and managers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The process molds to the _______ and team, not the other way around.",
+    "type": "mc",
+    "opts": [
+      "needs of people",
+      "working software",
+      "self–organizing"
+    ],
+    "a": "needs of people"
+  },
+  {
+    "q": "Collaboration and consensus occur when the collective knowledge of members of the team is combined.",
+    "type": "mc",
+    "opts": [
+      "Stay focused, modularize your discussion",
+      "Take notes and document decisions",
+      "Strive for collaboration",
+      "Stay focus on the customer needs"
+    ],
+    "a": "Strive for collaboration"
+  },
+  {
+    "q": "User interface design should be *not* tuned to the needs of the end-user.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The functions that the software performs must be *not* defined.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Design of data is as important as design of processing *non-functions*.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Brad Appleton [App00] suggests that: “The goal of patterns within the software community is to create a body of literature to help software developers resolve recurring problems encountered throughout all of software development.",
+    "type": "mc",
+    "opts": [
+      "Look for patterns.",
+      "Focus on the customer",
+      "Build software that exhibits effective modularity",
+      "Focus on the transfer of information"
+    ],
+    "a": "Look for patterns."
+  },
+  {
+    "q": "The analysis task should move from essential information toward implementation detail.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The more people involved in any communication, the more likely that discussion will bounce from one topic to the next.",
+    "type": "mc",
+    "opts": [
+      "Take notes and document decisions",
+      "Take notes and report",
+      "Stay focused, modularize your discussion",
+      "Strive for collaboration"
+    ],
+    "a": "Stay focused, modularize your discussion"
+  },
+  {
+    "q": "The exit condition for every process activity, action, and task should focus on the quality of the work product that has been produced.",
+    "type": "mc",
+    "opts": [
+      "Be Agile",
+      "be ready to adapt",
+      "Focus on quality at every step"
+    ],
+    "a": "Focus on quality at every step"
+  },
+  {
+    "q": "The construction activity encompasses a set of coding and testing tasks that lead to operational software that is ready for delivery to the customer or end-user.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "______ is a broad array of principles, concepts, methods and tools that you must consider as software is planned and developed.",
+    "type": "mc",
+    "opts": [
+      "Software Practice",
+      "Software Process",
+      "Software Application",
+      "Software Engineer"
+    ],
+    "a": "Software Practice"
+  },
+  {
+    "q": "Speculation project is *not* initiated and adaptive cycle planning is *not* conducted.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Our highest priority is to satisfy the customer through early and continuous delivery of *non-valuable* software.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is from a couple of weeks to a couple of months, with a preference to the shorter timescale.",
+    "type": "mc",
+    "opts": [
+      "satisfies the customer",
+      "deliver working software frequently",
+      "Welcome changing",
+      "satisfies the employer"
+    ],
+    "a": "deliver working software frequently"
+  },
+  {
+    "q": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Encourages _______ an iterative refinement of the internal program design.",
+    "type": "mc",
+    "opts": [
+      "self–organizing",
+      "refactoring",
+      "spike solution"
+    ],
+    "a": "refactoring"
+  },
+  {
+    "q": "It is our highest priority through early and continuous delivery of valuable software.",
+    "type": "mc",
+    "opts": [
+      "deliver working software frequently",
+      "Welcome changing",
+      "satisfies the customer"
+    ],
+    "a": "satisfies the customer"
+  },
+  {
+    "q": "All unit tests are executed daily and ideally should be automated.",
+    "type": "mc",
+    "opts": [
+      "XP Coding",
+      "XP Design",
+      "XP Testing"
+    ],
+    "a": "XP Testing"
+  },
+  {
+    "q": "For difficult design problems, suggests the creation of ______ a design prototype for that portion is implemented and evaluated.",
+    "type": "mc",
+    "opts": [
+      "self-motivating",
+      "refactoring",
+      "spike solution",
+      "self–organizing"
+    ],
+    "a": "spike solution"
+  },
+  {
+    "q": "_________ occurs both before and after coding as refactoring is encouraged",
+    "type": "mc",
+    "opts": [
+      "XP Coding",
+      "XP Program",
+      "XP Testing",
+      "XP Design"
+    ],
+    "a": "XP Design"
+  },
+  {
+    "q": "Components should be loosely coupled to one another and to the external environment.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The design should be developed iteratively. With each iteration, the designer should strive for greater simplicity.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Testing principles and concepts lead to the design of tests that systematically uncover different classes of errors and to do so with a minimum amount of time and effort.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The information domain of a problem must be *not* represented and understood.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Design of data is as important as design of processing functions.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The construction activity encompasses a set of coding and testing tasks that is *not* lead to operational software that is ready for delivery to the customer or end-user.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Design models represent characteristics of the software that help practitioners to construct it effectively.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Conventional wisdom is that the cost of change *decrease linear* as a project progresses.",
+    "type": "tf",
+    "a": "False (increase)"
+  },
+  {
+    "q": "_________ are used to multiply their talent and creative output beyond absolute number (1+1>2).",
+    "type": "mc",
+    "opts": [
+      "Speculation",
+      "Efficiency",
+      "Collaboration",
+      "Learning"
+    ],
+    "a": "Collaboration"
+  },
+  {
+    "q": "Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early 1992.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The only really important work product is an operational “software *decrement*” that is *not* delivered.",
+    "type": "tf",
+    "a": "False (increment)"
+  },
+  {
+    "q": "Emphasize an incremental delivery strategy as opposed to intermediate products that gets working software to the customer as rapidly as feasible.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The process model you choose is prescriptive or agile, the basic tenets of agile development should govern your approach.",
+    "type": "mc",
+    "opts": [
+      "Focus on quality at every step",
+      "be ready to adapt",
+      "Be Agile"
+    ],
+    "a": "Be Agile"
+  },
+  {
+    "q": "Separation of concerns (Principle #1) establishes a philosophy for software.",
+    "type": "mc",
+    "opts": [
+      "Focus on the transfer of information",
+      "Take notes and report",
+      "Look for patterns.",
+      "Build software that exhibits effective modularity"
+    ],
+    "a": "Build software that exhibits effective modularity"
+  },
+  {
+    "q": "The design should be developed iteratively. With each iteration, the designer should *not* strive for greater simplicity.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Design representations (models) should be easily understandable.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Every communication meeting should have a leader (a facilitator) to keep the conversation moving in a productive direction.",
+    "type": "mc",
+    "opts": [
+      "Prepare you communicate",
+      "Prepare for customer needs",
+      "Someone should facilitate the activity",
+      "Listen"
+    ],
+    "a": "Someone should facilitate the activity"
+  },
+  {
+    "q": "Lots of things can go wrong as software is being developed.",
+    "type": "mc",
+    "opts": [
+      "Manage Change",
+      "Build an effective team",
+      "Assess Risk"
+    ],
+    "a": "Assess Risk"
+  },
+  {
+    "q": "Testing principles and concepts lead to the design of tests that systematically cover different classes of *not free for errors* and to do so with a minimum amount of time and effort.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Try to focus on the speaker’s words, rather than formulating your response to those words.",
+    "type": "mc",
+    "opts": [
+      "Prepare for customer needs",
+      "Listen",
+      "Prepare you communicate",
+      "Someone should facilitate the activity"
+    ],
+    "a": "Listen"
+  },
+  {
+    "q": "The most efficient and effective method of conveying information to and within a development team is face–to–face conversation",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ XP deemphasizes the need for architectural design.",
+    "type": "mc",
+    "opts": [
+      "Requirements volatility",
+      "Lack of formal design",
+      "Conflicting customer needs"
+    ],
+    "a": "Lack of formal design"
+  },
+  {
+    "q": "What is “Agility”?",
+    "type": "mc",
+    "opts": [
+      "the cost of change increases nonlinearly as a project progresses.",
+      "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
+      "the art of maximizing the amount of work not done – is essential.",
+      "The modern business environment is fast-paced and ever-changing."
+    ],
+    "a": "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers."
+  },
+  {
+    "q": "Leading a team so that it is in control of the work performed.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Design should be traceable to the requirements model.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The approach may be either formal or informal, but mechanisms must be established to manage the way changes are requested, assessed, approved and implemented.",
+    "type": "mc",
+    "opts": [
+      "Manage Change",
+      "Build an effective team",
+      "Assess Risk"
+    ],
+    "a": "Manage Change"
+  },
+  {
+    "q": "The models that *no information*, *non-function*, and behavior must be partitioned in a manner that uncovers detail in a layered (or hierarchical) fashion.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Components should be loosely coupled to other components and to the *internal* environment.",
+    "type": "tf",
+    "a": "False (external)"
+  },
+  {
+    "q": "Software engineering process and practice are important, but the bottom line is people.",
+    "type": "mc",
+    "opts": [
+      "Build an effective team",
+      "Assess Risk",
+      "Manage Change"
+    ],
+    "a": "Build an effective team"
+  },
+  {
+    "q": "At it core, an abstraction is a simplification of some complex element of a system used to communication meaning in a single phrase.",
+    "type": "mc",
+    "opts": [
+      "Strive for consistency",
+      "Understand the customer",
+      "Divide and conquer",
+      "Understand the use of abstraction"
+    ],
+    "a": "Understand the use of abstraction"
+  },
+  {
+    "q": "Recommends the construction of a unit test for a story before coding commences.",
+    "type": "mc",
+    "opts": [
+      "XP Design",
+      "XP Testing",
+      "XP Coding",
+      "XP Program"
+    ],
+    "a": "XP Coding"
+  },
+  {
+    "q": "Testing and documentation are on-going as the product is constructed.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "This is different customers' needs need to be assimilated. Different vision or beyond their authority.",
+    "type": "mc",
+    "opts": [
+      "Lack of program design",
+      "Requirements volatility",
+      "Conflicting customer needs",
+      "Lack of formal design"
+    ],
+    "a": "Conflicting customer needs"
+  },
+  {
+    "q": "The information domain of a problem must be represented and understood.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A familiar context makes software easier to use.",
+    "type": "mc",
+    "opts": [
+      "Understand the use of abstraction",
+      "Divide and conquer",
+      "Strive for consistency",
+      "Understand the customer"
+    ],
+    "a": "Strive for consistency"
+  },
+  {
+    "q": "Component-level design should be functionally independent.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The functions that the software performs must be defined.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Process is not a religious experience and dogma has no place in it.",
+    "type": "mc",
+    "opts": [
+      "be ready to adapt",
+      "Be Agile",
+      "Focus on quality at every step"
+    ],
+    "a": "be ready to adapt"
+  },
+  {
+    "q": "Someone participating in the communication should serve as a “recorder” and write down all important points and decisions.",
+    "type": "mc",
+    "opts": [
+      "Stay focused, modularize your discussion",
+      "Take notes and document decisions",
+      "Stay focused on the customer needs",
+      "Strive for collaboration"
+    ],
+    "a": "Take notes and document decisions"
+  },
+  {
+    "q": "The best architectures, requirements, and designs emerge from ______ teams.",
+    "type": "mc",
+    "opts": [
+      "working software",
+      "Simplicity",
+      "self–organizing"
+    ],
+    "a": "self–organizing"
+  },
+  {
+    "q": "The most efficient and *ineffective* method of conveying information too and within a development team is *face–to–ear* conversation.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Speculation project is initiated and adaptive cycle planning is conducted.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Spend the time to understand the problem before you meet with others.",
+    "type": "mc",
+    "opts": [
+      "Prepare for customer needs",
+      "Prepare you communicate",
+      "Listen",
+      "Someone should facilitate the activity"
+    ],
+    "a": "Prepare you communicate"
+  },
+  {
+    "q": "Design representations (models) should *not* be *hardly* understandable.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Define Conventional wisdom.",
+    "type": "mc",
+    "opts": [
+      "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
+      "the cost of change increases nonlinearly as a project progresses.",
+      "the art of maximizing the amount of work not done – is essential.",
+      "This is the art of maximizing the amount of work not done – is essential."
+    ],
+    "a": "the cost of change increases nonlinearly as a project progresses."
+  },
+  {
+    "q": "Efficiency and Effectiveness",
+    "type": "mc",
+    "opts": [
+      "Working software",
+      "Self–organizing",
+      "Simplicity"
+    ],
+    "a": "Simplicity"
+  },
+  {
+    "q": "The modern business environment is *slow-paced* and ever-changing.",
+    "type": "tf",
+    "a": "False (fast-paced)"
+  },
+  {
+    "q": "User interface design should be tuned to the needs of the end-user.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "However, in every case, it should stress ease of use.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Testing and documentation are on-going as the product is *not* constructed.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Give them the environment and support they need, and trust them to get the job done.",
+    "type": "mc",
+    "opts": [
+      "Satisfy customer",
+      "Satisfy employer",
+      "Motivated Individual",
+      "Face-to-face"
+    ],
+    "a": "Motivated Individual"
+  },
+  {
+    "q": "This is the primary measure of progress.",
+    "type": "mc",
+    "opts": [
+      "Self–organizing",
+      "Simplicity",
+      "working software",
+      "Efficiency and Effectiveness"
+    ],
+    "a": "working software"
+  },
+  {
+    "q": "Delivers multiple ‘software increments’, deliver an operational prototype or portion of an OS to collect customer feedback for adaption.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Component-level design should be *non-* functionally independent.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Design should *not* be *traceabled* to the requirements model",
+    "type": "tf",
+    "a": "False"
+  }
+]
