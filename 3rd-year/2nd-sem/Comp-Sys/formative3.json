@@ -1,0 +1,916 @@
+[
+  {
+    "q": "What is the maximum number of addressable memory (in English) of a processor that has a 20 bits of address bus lines?",
+    "type": "mc",
+    "opts": [
+      "2MB",
+      "4MB",
+      "8MB",
+      "1MB"
+    ],
+    "a": "1MB"
+  },
+  {
+    "q": "How many memory addresses are needed to store a word of data on 80x86 processor family?",
+    "type": "mc",
+    "opts": [
+      "2",
+      "8",
+      "1",
+      "4"
+    ],
+    "a": "2"
+  },
+  {
+    "q": "It is a collection of wires on which electrical signals pass between components in the system.",
+    "type": "mc",
+    "opts": [
+      "Bus",
+      "cables",
+      "wires",
+      "Lines"
+    ],
+    "a": "Bus"
+  },
+  {
+    "q": "The control bus is an extensive collection of signals that control how the processor communicates with the rest of the system.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "For 8086 processor with address bus size of 20, what is the maximum addressable memory?",
+    "type": "mc",
+    "opts": [
+      "16MB",
+      "1 MB",
+      "64GB",
+      "4GB"
+    ],
+    "a": "1 MB"
+  },
+  {
+    "q": "a word consumes two consecutive memory addresses. Similarly, a double word consumes four consecutive memory locations.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Read operation will transfer the contents of a specific MM location to the CPU. The word in the MM remains unchanged.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The 8088 and 80188 microprocessors have an eight bit data bus. This means that the CPU can transfer 16 bits of data at a time.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "This the first sequence of a write memory operation.",
+    "type": "mc",
+    "opts": [
+      "CPU sends address of the desired location to the MM, together with the data to be stored into that location.",
+      "Data is written at desired location.",
+      "CPU sends address of the desired location.",
+      "2. MM reads the data stored at that address and sends it to the CPU."
+    ],
+    "a": "CPU sends address of the desired location to the MM, together with the data to be stored into that location."
+  },
+  {
+    "q": "To load a word requires two memory operations; to load a double word requires four memory operations in 8088 and 80188 processor.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Write memory operation will transfer a word of information from the CPU to a specific MM location. This overwrites the former contents of that location.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "How many bits are there in a one double word of data?",
+    "type": "mc",
+    "opts": [
+      "16",
+      "32",
+      "64",
+      "8"
+    ],
+    "a": "32"
+  },
+  {
+    "q": "In the Write/Store Cycle the CPU sends address of the desired location to the MM, together with the data to be stored into that location then Data is written at desired location.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In Read/Fetch Cycle: , the CPU sends address of the desired location then the Main Memory reads the data stored at that address and sends it to the CPU.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The 8088 and 80188 can manipulate word and double word values, even with their eight bit data bus.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Most computers follow the _________________ Architecture.",
+    "type": "mc",
+    "opts": [
+      "Processor Array",
+      "Von Neuman",
+      "Multiprocessor",
+      "Pascal’s"
+    ],
+    "a": "Von Neuman"
+  },
+  {
+    "q": "In one of the component of CPU, what does MDR means?",
+    "type": "mc",
+    "opts": [
+      "Main Data Register",
+      "Memory data Record",
+      "Main Data Record",
+      "Memory Data Register"
+    ],
+    "a": "Memory Data Register"
+  },
+  {
+    "q": "In the von neumann architecture the data bus is unidirectional.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is a CPU component which contains the instruction that is being executed.",
+    "type": "mc",
+    "opts": [
+      "MAR",
+      "MDR",
+      "IR",
+      "PC"
+    ],
+    "a": "IR"
+  },
+  {
+    "q": "The PC (Program Counter) contains the instruction to be executed. During execution, the contents of the PC are updated to point to the next instruction.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is a conditional Flag that is set to 1 if the low-order 8 bits of the result of the previous operation contain an even number of 1s. Otherwise it is reset to 0.",
+    "type": "mc",
+    "opts": [
+      "Carry Flag",
+      "Zero Flag",
+      "Sign Flag",
+      "Parity Flag"
+    ],
+    "a": "Parity Flag"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0110 0010 1010 0000 - 1001 1101 0110 0000 = 1100 0101 0100 0000 What is the value of AF?",
+    "type": "mc",
+    "opts": [
+      "x",
+      "Undefined",
+      "0",
+      "1"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "It is a Special Purpose Register that has an extensive collection of one bit values which help determine the current state of the processor. A 16 bits wide register, it uses only nine of those bits.",
+    "type": "mc",
+    "opts": [
+      "accumulator register",
+      "instruction pointer",
+      "Flags register",
+      "stack segment register"
+    ],
+    "a": "Flags register"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0110 0010 1010 0000 - 1001 1101 0110 0000 = 1100 0101 0100 0000 What is the value of CF?",
+    "type": "mc",
+    "opts": [
+      "Undefined",
+      "0",
+      "x",
+      "1"
+    ],
+    "a": "1"
+  },
+  {
+    "q": "It is a special segment register that contains the program or code.",
+    "type": "mc",
+    "opts": [
+      "Extra Segment",
+      "Stack Segment",
+      "Data Segment",
+      "Code Segment"
+    ],
+    "a": "Code Segment"
+  },
+  {
+    "q": "How many memory addresses are needed to store a double word of data on 80x86 processor family?",
+    "type": "mc",
+    "opts": [
+      "1",
+      "2",
+      "8",
+      "4"
+    ],
+    "a": "4"
+  },
+  {
+    "q": "It is the number of address lines required to make 1024 memory addressable locations.",
+    "type": "mc",
+    "opts": [
+      "24 bits",
+      "1024 bits",
+      "20 bits",
+      "10 bits"
+    ],
+    "a": "10 bits"
+  },
+  {
+    "q": "The number of bits on the address bus will determine the maximum number of addressable memory and I/O locations (2*n) n- bit binary number.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In the formula (2^n) to determine the maximum addressable memory, what does n stands for?",
+    "type": "mc",
+    "opts": [
+      "number of bits of data bus",
+      "number of bits of address bus",
+      "number of bits of control bus",
+      "number of bits of central bus"
+    ],
+    "a": "number of bits of address bus"
+  },
+  {
+    "q": "This is the second sequence of a write memory operation.",
+    "type": "mc",
+    "opts": [
+      "CPU sends address of the desired location to the MM, together with the data to be stored into that location.",
+      "MM reads the data stored at that address and sends it to the CPU.",
+      "Data is written at desired location.",
+      "CPU sends address of the desired location."
+    ],
+    "a": "Data is written at desired location."
+  },
+  {
+    "q": "The 8086, 80186, 80286, and 80386sx processors have a 16 bit data bus. This allows these processors to access twice as much memory in the same amount of time as their eight bit brethren.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "To access a word at an odd address requires two memory operations (just like the 8088/80188).",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Write memory operation will transfer a word of information from the CPU to a specific MM location. This will *not* overwrite the former contents of that location.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "How many bits are there in a one word of data?",
+    "type": "mc",
+    "opts": [
+      "64",
+      "8",
+      "16",
+      "32"
+    ],
+    "a": "16"
+  },
+  {
+    "q": "It is the fourth operating steps between the cpu and memory operations.",
+    "type": "mc",
+    "opts": [
+      "The contents of the PC are transferred to the MAR (which are automatically transmitted to the MM) and a Read signal is sent to the MM.",
+      "The addressed word is read out of MM and loaded into the MDR.",
+      "The contents of MDR are transferred to the IR. The instruction is ready to be decoded and executed.",
+      "PC is set to point to the first instruction of the program (the operating system loads the memory address of the first instruction)."
+    ],
+    "a": "The contents of MDR are transferred to the IR. The instruction is ready to be decoded and executed."
+  },
+  {
+    "q": "In the von neumann architecture the address bus is unidirectional.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Von Neumann Architecture It is also known as the Stored Program Architecture or the Fetch-Decode-Execute Architecture.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In the von neumann architecture the data bus is bidirectional.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In one of the component of CPU, what does IR means?",
+    "type": "mc",
+    "opts": [
+      "Instruction Register",
+      "Instruction Registration",
+      "Instructional registration",
+      "Instructional Register"
+    ],
+    "a": "Instruction Register"
+  },
+  {
+    "q": "It is a conditional Flag that is set to 1 if the result of the previous operation is zero and 0 if the result is nonzero.",
+    "type": "mc",
+    "opts": [
+      "Zero Flag",
+      "Sign Flag",
+      "Parity Flag",
+      "Carry Flag"
+    ],
+    "a": "Zero Flag"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0110 0010 1010 0000 - 1001 1101 0110 0000 = 1100 0101 0100 0000 What is the value of OF?",
+    "type": "mc",
+    "opts": [
+      "x",
+      "1",
+      "0",
+      "Undefined"
+    ],
+    "a": "1"
+  },
+  {
+    "q": "These are high speed memory elements that resides inside the Central Processing Unit or CPU",
+    "type": "mc",
+    "opts": [
+      "Storage",
+      "Flags",
+      "Memory",
+      "Registers"
+    ],
+    "a": "Registers"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0010 0011 0100 0101 + 0011 0010 0001 1001 What is the value of SF?",
+    "type": "mc",
+    "opts": [
+      "undefined",
+      "x",
+      "1",
+      "0"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "The read and write control lines control the direction of data on the data bus.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "What is the formula on how to determine the maximum addressable memory and i/o location?",
+    "type": "mc",
+    "opts": [
+      "(2^n)",
+      "(2^n)-1",
+      "(2*n)",
+      "(2^n)+1"
+    ],
+    "a": "(2^n)"
+  },
+  {
+    "q": "What is the data bus size of pentium family processor?",
+    "type": "mc",
+    "opts": [
+      "8",
+      "64",
+      "32",
+      "16"
+    ],
+    "a": "64"
+  },
+  {
+    "q": "It is used to select the desired memory or I/O devices by providing a unique address that corresponds to one of the memory or I/O. It is unidirectional.",
+    "type": "mc",
+    "opts": [
+      "bus",
+      "address bus",
+      "control bus",
+      "data bus"
+    ],
+    "a": "address bus"
+  },
+  {
+    "q": "Accessing 32 bit quantities always takes at least one memory operations on the 16 bit processors.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A word of data will consume two consecutive memory addresses.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "How many bits are there in a one byte of data?",
+    "type": "mc",
+    "opts": [
+      "8",
+      "64",
+      "16",
+      "32"
+    ],
+    "a": "8"
+  },
+  {
+    "q": "It is the first operating steps between the cpu and memory operations.",
+    "type": "mc",
+    "opts": [
+      "PC is set to point to the first instruction of the program (the operating system loads the memory address of the first instruction).",
+      "The contents of the PC are transferred to the MAR (which are automatically transmitted to the MM) and a Read signal is sent to the MM.",
+      "The contents of MDR are transferred to the IR. The instruction is ready to be decoded and executed.",
+      "The addressed word is read out of MM and loaded into the MDR"
+    ],
+    "a": "PC is set to point to the first instruction of the program (the operating system loads the memory address of the first instruction)."
+  },
+  {
+    "q": "In one of the component of CPU, what does MAR means?",
+    "type": "mc",
+    "opts": [
+      "Memory Access Register",
+      "Main Address Register",
+      "Main Access Register",
+      "Memory Address Register"
+    ],
+    "a": "Memory Address Register"
+  },
+  {
+    "q": "It is the third operating steps between the cpu and memory operations.",
+    "type": "mc",
+    "opts": [
+      "The addressed word is read out of MM and loaded into the MDR.",
+      "The contents of MDR are transferred to the IR. The instruction is ready to be decoded and executed.",
+      "The contents of the PC are transferred to the MAR (which are automatically transmitted to the MM) and a Read signal is sent to the MM.",
+      "PC is set to point to the first instruction of the program (the operating system loads the memory address of the first instruction)."
+    ],
+    "a": "The addressed word is read out of MM and loaded into the MDR."
+  },
+  {
+    "q": "In the von neumann architecture the address bus is bidirectional.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "General purpose registers AX,BX, CX and DX can store up ________ bits of data.",
+    "type": "mc",
+    "opts": [
+      "32",
+      "16",
+      "8",
+      "64"
+    ],
+    "a": "16"
+  },
+  {
+    "q": "It is a special purpose register that is also the program counter, it contains the memory address of the instruction to be executed.",
+    "type": "mc",
+    "opts": [
+      "Instruction Register",
+      "instruction pointer",
+      "flags register",
+      "Program counter"
+    ],
+    "a": "instruction pointer"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0010 0011 0100 0101 + 0011 0010 0001 1001 What is the value of OF?",
+    "type": "mc",
+    "opts": [
+      "undefined",
+      "1",
+      "0",
+      "x"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "How many memory addresses are needed to store a one byte of data on 80x86 processor family?",
+    "type": "mc",
+    "opts": [
+      "1",
+      "2",
+      "8",
+      "4"
+    ],
+    "a": "1"
+  },
+  {
+    "q": "A bus is a collection of wires on which electrical signals pass between components in the system.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is an extensive collection of signals that control how the processor communicates with the rest of the system.",
+    "type": "mc",
+    "opts": [
+      "Bus",
+      "Data Bus",
+      "Control Bus",
+      "Address Bus"
+    ],
+    "a": "Control Bus"
+  },
+  {
+    "q": "1 Megabyte is equivalet to ________.",
+    "type": "mc",
+    "opts": [
+      "16,777,216",
+      "4,294,976,296",
+      "1,048,576",
+      "68,719,476,736"
+    ],
+    "a": "1,048,576"
+  },
+  {
+    "q": "It is a memory operation that transfers the contents of a specific MM location to the CPU. The word in the MM remains unchanged.",
+    "type": "mc",
+    "opts": [
+      "buffer",
+      "Flags",
+      "Read",
+      "Write"
+    ],
+    "a": "Read"
+  },
+  {
+    "q": "This the second sequence of a read memory operation.",
+    "type": "mc",
+    "opts": [
+      "Data is written at desired location.",
+      "MM reads the data stored at that address and sends it to the CPU.",
+      "CPU sends address of the desired location.",
+      "CPU sends address of the desired location to the MM, together with the data to be stored into that location."
+    ],
+    "a": "MM reads the data stored at that address and sends it to the CPU."
+  },
+  {
+    "q": "It is the fifth operating steps between the cpu and memory operations.",
+    "type": "mc",
+    "opts": [
+      "The addressed word is read out of MM and loaded into the MDR.",
+      "During execution, the contents of the PC are incremented or updated to point to the next instruction.",
+      "The contents of MDR are transferred to the IR. The instruction is ready to be decoded and executed.",
+      "The contents of the PC are transferred to the MAR (which are automatically transmitted to the MM) and a Read signal is sent to the MM."
+    ],
+    "a": "During execution, the contents of the PC are incremented or updated to point to the next instruction."
+  },
+  {
+    "q": "In one of the component of CPU, what does PC means?",
+    "type": "mc",
+    "opts": [
+      "Program Center",
+      "Program Counter",
+      "Program Control",
+      "Programmable Counter"
+    ],
+    "a": "Program Counter"
+  },
+  {
+    "q": "The 8088 and 80188 *cannot* manipulate word and double word values, even with their eight bit data bus.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0010 0011 0100 0101 + 0011 0010 0001 1001 What is the value of AF?",
+    "type": "mc",
+    "opts": [
+      "0",
+      "1",
+      "x",
+      "undefined"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "It is a general purpose register that has some special purposes as well. This is often used to hold base addresses of data located in the memory.",
+    "type": "mc",
+    "opts": [
+      "DX",
+      "AX",
+      "CX",
+      "BX"
+    ],
+    "a": "BX"
+  },
+  {
+    "q": "In the von neumann architecture the control bus is unidirectional.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is a conditional Flag that is set to 1 if an overflow occurs, i.e., a result is out of range.",
+    "type": "mc",
+    "opts": [
+      "Overflow Flag",
+      "Auxiliary Carry Flag",
+      "Carry Flag",
+      "Sign Flag"
+    ],
+    "a": "Overflow Flag"
+  },
+  {
+    "q": "It is a special segment register that is used for the LIFO stack.",
+    "type": "mc",
+    "opts": [
+      "Data Segment",
+      "Stack Segment",
+      "Extra Segment",
+      "Code Segment"
+    ],
+    "a": "Stack Segment"
+  },
+  {
+    "q": "It is a special segment register that is normally for string instructions.",
+    "type": "mc",
+    "opts": [
+      "Stack Segment",
+      "Code Segment",
+      "Data Segment",
+      "Extra Segment"
+    ],
+    "a": "Extra Segment"
+  },
+  {
+    "q": "What is the data bus size of 80486 processor?",
+    "type": "mc",
+    "opts": [
+      "64",
+      "8",
+      "16",
+      "32"
+    ],
+    "a": "32"
+  },
+  {
+    "q": "What is the data bus size of 8086 processor?",
+    "type": "mc",
+    "opts": [
+      "64",
+      "8",
+      "16",
+      "32"
+    ],
+    "a": "16"
+  },
+  {
+    "q": "It is used to transfer data to and from the memory or I/O devices. It is bi-directional.",
+    "type": "mc",
+    "opts": [
+      "Data bus",
+      "date bus",
+      "adress bus",
+      "address bus"
+    ],
+    "a": "Data bus"
+  },
+  {
+    "q": "This the first sequence of a read memory operation.",
+    "type": "mc",
+    "opts": [
+      "Data is written at desired location",
+      "CPU sends address of the desired location.",
+      "CPU sends address of the desired location to the MM, together with the data to be stored into that location",
+      "MM reads the data stored at that address and sends it to the CPU."
+    ],
+    "a": "CPU sends address of the desired location."
+  },
+  {
+    "q": "The IR ( Instruction Register ) contains the instruction that is being executed.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In the von neumann architecture the control bus is bidirectional.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Von Neuman architecture is also known as Stored Program Architecture or the _____________ architecture.",
+    "type": "mc",
+    "opts": [
+      "Fetch-Decode-Excess",
+      "Fetch-Decoder-Execute",
+      "Fetch-Decode-Execute",
+      "Fetch-Decode-Execution"
+    ],
+    "a": "Fetch-Decode-Execute"
+  },
+  {
+    "q": "It is flag register that reflect the result of the previous operation involving the ALU.",
+    "type": "mc",
+    "opts": [
+      "Computer Flags",
+      "Conditional Flags",
+      "Control Flags",
+      "Contol Flags"
+    ],
+    "a": "Conditional Flags"
+  },
+  {
+    "q": "It is a conditional Flag in addition that causes this flag to be set to 1 if there is a carry out of the MSB, and a subtraction causes it to be set to 1 if a borrow is needed.",
+    "type": "mc",
+    "opts": [
+      "Overflow Flag",
+      "Sign Flag",
+      "Carry Flag",
+      "Auxiliary Carry Flag"
+    ],
+    "a": "Carry Flag"
+  },
+  {
+    "q": "What are the types of buses?",
+    "type": "mc",
+    "opts": [
+      "data, center & address bus",
+      "data, central & address bus",
+      "data, control & address bus",
+      "data, controller & address bus"
+    ],
+    "a": "data, control & address bus"
+  },
+  {
+    "q": "Read operation will transfers the contents of a specific MM location to the CPU. The word in the MM will be changed.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The 80x86 family accesses a word and a double word by storing the low-order byte of a word at the address specified and the high-order byte at the next location.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is a CPU component which holds the address of the location to or from which data are to be transferred.",
+    "type": "mc",
+    "opts": [
+      "MDR",
+      "PC",
+      "IR",
+      "MAR"
+    ],
+    "a": "MAR"
+  },
+  {
+    "q": "The IR ( Instruction Register ) contains the address of the instructions that is being executed.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0110 0010 1010 0000 - 1001 1101 0110 0000 = 1100 0101 0100 0000 What is the value of PF?",
+    "type": "mc",
+    "opts": [
+      "0",
+      "1",
+      "x",
+      "Undefined"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0010 0011 0100 0101 + 0011 0010 0001 1001 What is the value of CF?",
+    "type": "mc",
+    "opts": [
+      "1",
+      "0",
+      "undefined",
+      "x"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "It is a special segment register that contains data referenced by almost all instructions and many addressing modes.",
+    "type": "mc",
+    "opts": [
+      "Stack Segment",
+      "Data Segment",
+      "Code Segment",
+      "Code Segment Data Segment"
+    ],
+    "a": "Data Segment"
+  },
+  {
+    "q": "It is a CPU component which contains the memory address of the instruction to be executed.",
+    "type": "mc",
+    "opts": [
+      "PC",
+      "MDR",
+      "IR",
+      "MAR"
+    ],
+    "a": "PC"
+  },
+  {
+    "q": "It is a CPU component which contains the data to be written or read out of the addressed location",
+    "type": "mc",
+    "opts": [
+      "IR",
+      "MAR",
+      "MDR",
+      "PC"
+    ],
+    "a": "MDR"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0110 0010 1010 0000 - 1001 1101 0110 0000 = 1100 0101 0100 0000 What is the value of SF?",
+    "type": "mc",
+    "opts": [
+      "1",
+      "Undefined",
+      "0",
+      "x"
+    ],
+    "a": "1"
+  },
+  {
+    "q": "What is the data bus size of 8088 processor?",
+    "type": "mc",
+    "opts": [
+      "64",
+      "8",
+      "32",
+      "16"
+    ],
+    "a": "8"
+  },
+  {
+    "q": "How many memory operations are needed to access a 32 bit of data on a 16 bit processors?",
+    "type": "mc",
+    "opts": [
+      "4",
+      "8",
+      "1",
+      "2"
+    ],
+    "a": "2"
+  },
+  {
+    "q": "Fetch instruction is an instruction for transferring the data from CPU to main memory.",
+    "type": "mc",
+    "opts": [
+      "False, it should be main memory to CPU",
+      "This statement is really true.",
+      "False, it should be CPU to accumulator.",
+      "False, it should be execute instruction."
+    ],
+    "a": "False, it should be main memory to CPU"
+  },
+  {
+    "q": "The PC ( Program Counter ) contains the memory address of the instruction to be executed. During execution, the contents of the PC are updated to point to the next instruction.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is a general purpose register where most arithmetic and logical computations take place.",
+    "type": "mc",
+    "opts": [
+      "DX",
+      "CX",
+      "BX",
+      "AX"
+    ],
+    "a": "AX"
+  },
+  {
+    "q": "Perform the operation of the given binary numbers. 0010 0011 0100 0101 + 0011 0010 0001 1001 What is the value of ZF?",
+    "type": "mc",
+    "opts": [
+      "x",
+      "1",
+      "undefined",
+      "0"
+    ],
+    "a": "0"
+  },
+  {
+    "q": "It is a general purpose register that holds the overflow from certain arithmetic operations, and it holds I/O addresses when accessing data on the 80x86 I/O bus.",
+    "type": "mc",
+    "opts": [
+      "DX",
+      "BX",
+      "AX",
+      "CX"
+    ],
+    "a": "DX"
+  },
+  {
+    "q": "It is a Control Flags used for a certain type of interrupt (a maskable interrupt) can be recognized by the CPU; otherwise, these interrupts are ignored.",
+    "type": "mc",
+    "opts": [
+      "Zero Flag",
+      "Direction Flag",
+      "Interrupt Enable Flag",
+      "Sign Flag"
+    ],
+    "a": "Interrupt Enable Flag"
+  }
+]

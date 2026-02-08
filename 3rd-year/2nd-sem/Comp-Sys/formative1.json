@@ -1,0 +1,442 @@
+[
+  {
+    "q": "Convert 8B3F to binary.",
+    "type": "mc",
+    "opts": [
+      "1011 0011 1110 0011",
+      "1000 1011 0011 1111",
+      "0011 0101 0110 0100 0111",
+      "01 1010"
+    ],
+    "a": "1000 1011 0011 1111"
+  },
+  {
+    "q": "A binary number's value changes most drastically when the ________ is changed.",
+    "type": "mc",
+    "opts": [
+      "LSB",
+      "duty cycle",
+      "frequency",
+      "MSB"
+    ],
+    "a": "MSB"
+  },
+  {
+    "q": "Convert the following binary number to decimal. 10011010",
+    "type": "mc",
+    "opts": [
+      "157",
+      "153",
+      "155",
+      "154"
+    ],
+    "a": "154"
+  },
+  {
+    "q": "Convert the following binary number to octal. 001101011",
+    "type": "mc",
+    "opts": [
+      "352",
+      "153",
+      "351",
+      "253"
+    ],
+    "a": "153"
+  },
+  {
+    "q": "Convert decimal 213 to binary.",
+    "type": "mc",
+    "opts": [
+      "11001101",
+      "11010101",
+      "11100011",
+      "01111001"
+    ],
+    "a": "11010101"
+  },
+  {
+    "q": "Convert binary 01001110 to decimal.",
+    "type": "mc",
+    "opts": [
+      "78",
+      "4E",
+      "116",
+      "76"
+    ],
+    "a": "78"
+  },
+  {
+    "q": "Convert hexadecimal value 16 to decimal.",
+    "type": "mc",
+    "opts": [
+      "10",
+      "16",
+      "20",
+      "22"
+    ],
+    "a": "22"
+  },
+  {
+    "q": "Convert the following octal number to decimal 178",
+    "type": "mc",
+    "opts": [
+      "57",
+      "51",
+      "15",
+      "82"
+    ],
+    "a": "15"
+  },
+  {
+    "q": "The decimal number for octal 74 is",
+    "type": "mc",
+    "opts": [
+      "62",
+      "22",
+      "74",
+      "60"
+    ],
+    "a": "60"
+  },
+  {
+    "q": "Convert 527 to binary.",
+    "type": "mc",
+    "opts": [
+      "010100100111",
+      "011100111",
+      "111010101",
+      "343"
+    ],
+    "a": "010100100111"
+  },
+  {
+    "q": "What is the resultant binary of the decimal problem 49 + 01 = ?",
+    "type": "mc",
+    "opts": [
+      "00110010",
+      "00110001",
+      "01010101",
+      "00110101"
+    ],
+    "a": "00110010"
+  },
+  {
+    "q": "The sum of 1111 + 1111 in binary equals?",
+    "type": "mc",
+    "opts": [
+      "11110",
+      "11111",
+      "11101",
+      "11100"
+    ],
+    "a": "11110"
+  },
+  {
+    "q": "When using even parity, where is the party bit placed?",
+    "type": "mc",
+    "opts": [
+      "Before the MSB",
+      "After the LSB",
+      "In the parity word",
+      "After the odd parity bit"
+    ],
+    "a": "Before the MSB"
+  },
+  {
+    "q": "What is the difference between binary coding and binary-coded decimal?",
+    "type": "mc",
+    "opts": [
+      "BCD is pure binary.",
+      "BCD has no decimal format.",
+      "Binary coding has a decimal format.",
+      "Binary coding is pure binary."
+    ],
+    "a": "Binary coding is pure binary."
+  },
+  {
+    "q": "3428 is the decimal value to which of the following binary-coded decimal (BCD) groupings?",
+    "type": "mc",
+    "opts": [
+      "11010000101000",
+      "011010010000010",
+      "110100001101010",
+      "11010001001000"
+    ],
+    "a": "11010000101000"
+  },
+  {
+    "q": "One hex digit is sometimes referred to as a(n):",
+    "type": "mc",
+    "opts": [
+      "byte",
+      "nibble",
+      "grouping",
+      "instruction"
+    ],
+    "a": "nibble"
+  },
+  {
+    "q": "Which of the following is an invalid BCD code?",
+    "type": "mc",
+    "opts": [
+      "0101",
+      "0011",
+      "1101",
+      "1001"
+    ],
+    "a": "1101"
+  },
+  {
+    "q": "Assign the proper odd parity but to the code 111001",
+    "type": "mc",
+    "opts": [
+      "1111001",
+      "0011111",
+      "0111111",
+      "1111011"
+    ],
+    "a": "1111001"
+  },
+  {
+    "q": "Convert decimal 64 to binary.",
+    "type": "mc",
+    "opts": [
+      "00110110",
+      "00100000",
+      "01001000",
+      "0100 0000"
+    ],
+    "a": "0100 0000"
+  },
+  {
+    "q": "The decimal number 188 is equal to the binary number ________.",
+    "type": "mc",
+    "opts": [
+      "1011 1100",
+      "111 1000",
+      "110 0011",
+      "011 1000"
+    ],
+    "a": "1011 1100"
+  },
+  {
+    "q": "Convert the following decimal number to 8-bit binary. 187",
+    "type": "mc",
+    "opts": [
+      "1101 1101",
+      "1011 1101",
+      "1011 1011",
+      "1011 1100"
+    ],
+    "a": "1011 1011"
+  },
+  {
+    "q": "A decimal 11 in BCD is ________.",
+    "type": "mc",
+    "opts": [
+      "00001100",
+      "00001011",
+      "00010001",
+      "00010010"
+    ],
+    "a": "00010001"
+  },
+  {
+    "q": "When using the repeated division by 2 method of converting from decimal to binary, one must write the first remainder as the:",
+    "type": "mc",
+    "opts": [
+      "LSB, provided the final remainder is used to replace the original LSB, which is then moved to the MSB position.",
+      "LSB",
+      "MSB, provided the following sequence of remainders are written in descending order until the final remainder is achieved",
+      "MSB"
+    ],
+    "a": "LSB"
+  },
+  {
+    "q": "The binary-coded decimal (BCD) system can be used to represent each of the 10 decimal digits as a(n):",
+    "type": "mc",
+    "opts": [
+      "4-bit binary code",
+      "8-bit binary code",
+      "16-bit binary code",
+      "ASCII code"
+    ],
+    "a": "4-bit binary code"
+  },
+  {
+    "q": "How many bits are in an ASCII character?",
+    "type": "mc",
+    "opts": [
+      "4",
+      "16",
+      "7",
+      "8"
+    ],
+    "a": "7"
+  },
+  {
+    "q": "The binary number for octal 458 is",
+    "type": "mc",
+    "opts": [
+      "110101",
+      "100100",
+      "100010",
+      "100101"
+    ],
+    "a": "100101"
+  },
+  {
+    "q": "The BCD number for decimal 347 is?",
+    "type": "mc",
+    "opts": [
+      "1100 1011 0110",
+      "0011 0100 0001",
+      "1100 1011 1000",
+      "0011 0100 0111"
+    ],
+    "a": "0011 0100 0111"
+  },
+  {
+    "q": "Convert the binary number 1001.00102 to decimal.",
+    "type": "mc",
+    "opts": [
+      "90.125",
+      "12.5",
+      "125",
+      "9.125"
+    ],
+    "a": "9.125"
+  },
+  {
+    "q": "Convert 59.7210 to BCD.",
+    "type": "mc",
+    "opts": [
+      "01011001.01110010",
+      "0101100101110010",
+      "1110.11",
+      "111011"
+    ],
+    "a": "01011001.01110010"
+  },
+  {
+    "q": "Convert hexadecimal value C1 to binary.",
+    "type": "mc",
+    "opts": [
+      "1000111",
+      "111000001",
+      "111000100",
+      "11000001"
+    ],
+    "a": "11000001"
+  },
+  {
+    "q": "The sum of the two BCD numbers, 0011 + 0011, is ________.",
+    "type": "mc",
+    "opts": [
+      "0111",
+      "1100",
+      "0011",
+      "0110"
+    ],
+    "a": "0110"
+  },
+  {
+    "q": "Convert the Gray code 1011 to binary.",
+    "type": "mc",
+    "opts": [
+      "1101",
+      "1011",
+      "1010",
+      "0100"
+    ],
+    "a": "1101"
+  },
+  {
+    "q": "Convert the binary number 1100 to Gray code.",
+    "type": "mc",
+    "opts": [
+      "1010",
+      "0011",
+      "100",
+      "1001"
+    ],
+    "a": "1010"
+  },
+  {
+    "q": "Convert the following decimal number to BCD. 127",
+    "type": "mc",
+    "opts": [
+      "011100100001",
+      "001010111",
+      "000100100111",
+      "111010001"
+    ],
+    "a": "000100100111"
+  },
+  {
+    "q": "The difference of 111 – 001 equals ________.",
+    "type": "mc",
+    "opts": [
+      "100",
+      "110",
+      "111",
+      "001"
+    ],
+    "a": "110"
+  },
+  {
+    "q": "Convert the following binary number to octal. 010 111 1002",
+    "type": "mc",
+    "opts": [
+      "174",
+      "172",
+      "274",
+      "272"
+    ],
+    "a": "274"
+  },
+  {
+    "q": "Convert binary 111111110010 to hexadecimal.",
+    "type": "mc",
+    "opts": [
+      "FF2",
+      "FD2",
+      "2FE",
+      "EE2"
+    ],
+    "a": "FF2"
+  },
+  {
+    "q": "The difference of 1000 − 100 equals",
+    "type": "mc",
+    "opts": [
+      "111",
+      "110",
+      "101",
+      "100"
+    ],
+    "a": "100"
+  },
+  {
+    "q": "The sum of 11101 + 10111 equals ________.",
+    "type": "mc",
+    "opts": [
+      "110100",
+      "110011",
+      "100100",
+      "100001"
+    ],
+    "a": "110100"
+  },
+  {
+    "q": "Convert 5278 to binary.",
+    "type": "mc",
+    "opts": [
+      "101010111",
+      "011100111",
+      "111010101",
+      "343"
+    ],
+    "a": "101010111"
+  }
+]

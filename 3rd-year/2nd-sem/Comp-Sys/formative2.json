@@ -1,0 +1,253 @@
+[
+  {
+    "q": "you can only use rd command only if the subdirectory is *not* empty.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "xcopy is an external command that lets you copy the all the file inside a subdirectory including the subdirectory to the location you specify.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is an internal DOS command used to create a subdirectory.",
+    "type": "mc",
+    "opts": [
+      "rd",
+      "cd",
+      "md",
+      "dir"
+    ],
+    "a": "md"
+  },
+  {
+    "q": "It is an internal DOS command used to display the list of files in your current working directory.",
+    "type": "mc",
+    "opts": [
+      "md",
+      "rd",
+      "cd",
+      "dir"
+    ],
+    "a": "dir"
+  },
+  {
+    "q": "fruits\nvitc\nmeat\nanimal.txt\napple.txt\nbanana.txt\norange.txt\n-vitc\n-veggies\nsaying.txt\nGiven the directory structure above, in one command line from the root directory, write a command to create the subdirectory vitc (under meat).",
+    "type": "mc",
+    "opts": [
+      "c:\\>md \\meat vitc",
+      "c:\\>md \\meat\\vitc",
+      "c:\\dos>md \\meat\\vitc",
+      "c:\\dos>md \\meat vitc"
+    ],
+    "a": "c:\\>md \\meat\\vitc"
+  },
+  {
+    "q": "in the xcopy dos command, you can use /s switch to copy all the files inside a subdirectory including all the subdirectories even it is *not* empty.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "it is a dos command that lets you display the directory structure in your current working directory",
+    "type": "mc",
+    "opts": [
+      "tree",
+      "move",
+      "ren",
+      "copy"
+    ],
+    "a": "tree"
+  },
+  {
+    "q": "It is the extension name for assembly language program created using DEBUG command.",
+    "type": "mc",
+    "opts": [
+      "com",
+      "txt",
+      "obj",
+      "bat"
+    ],
+    "a": "com"
+  },
+  {
+    "q": "It is the hexadecimal value of (capital letter) A.",
+    "type": "mc",
+    "opts": [
+      "42h",
+      "41h",
+      "61h",
+      "62h"
+    ],
+    "a": "41h"
+  },
+  {
+    "q": "It is a general purpose register used as data register.",
+    "type": "mc",
+    "opts": [
+      "DX",
+      "CX",
+      "AX",
+      "BX"
+    ],
+    "a": "DX"
+  },
+  {
+    "q": "Simulate the given program below:\n0123:0100 mov dl,32\n0123:0102 int 21\n0123:0104 mov dl,30\n0123:0108 int 21\n0123:010A mov dl,32\n0123:010C int 21\n0123:010E mov dl,30\n0123:0110 int 21\n0123:0112 int 20\nWhat is the output?",
+    "type": "mc",
+    "opts": [
+      "ERROR",
+      "no output",
+      "3232",
+      "2020"
+    ],
+    "a": "2020"
+  },
+  {
+    "q": "Simulate the given program below:\n0123:0100 mov ah,02\n0123:0102 mov dl,50\n0123:0104 int 21\n0123:0106 int 20\nWhat is the output?",
+    "type": "mc",
+    "opts": [
+      "p",
+      "P",
+      "o",
+      "O"
+    ],
+    "a": "P"
+  },
+  {
+    "q": "Simulate the given program below:\n0123:0100 mov ah,02\n0123:0102 mov dl,41\n0123:0104 int 21\n0123:0106 int 20\nWhat is the output?",
+    "type": "mc",
+    "opts": [
+      "A",
+      "B",
+      "a",
+      "b"
+    ],
+    "a": "A"
+  },
+  {
+    "q": "It is a general purpose register used as accumulator.",
+    "type": "mc",
+    "opts": [
+      "DX",
+      "BX",
+      "CX",
+      "AX"
+    ],
+    "a": "AX"
+  },
+  {
+    "q": "Simulate the given program below:\n0123:0100 mov ah,02\n0123:0102 mov dl,32\n0123:0104 int 21\n0123:0114 in 20\nWhat is the output?",
+    "type": "mc",
+    "opts": [
+      "no output",
+      "ERROR",
+      "3232",
+      "2020"
+    ],
+    "a": "no output"
+  },
+  {
+    "q": "It is a general purpose register as base register.",
+    "type": "mc",
+    "opts": [
+      "AX",
+      "DX",
+      "CX",
+      "BX"
+    ],
+    "a": "BX"
+  },
+  {
+    "q": "It is a debug command that let you exit from the debug function and go back the the DOS prompt.",
+    "type": "mc",
+    "opts": [
+      "g",
+      "t",
+      "q",
+      "r"
+    ],
+    "a": "q"
+  },
+  {
+    "q": "It is where the execution of most operations takes place.",
+    "type": "mc",
+    "opts": [
+      "ALU",
+      "MU",
+      "CU",
+      "CPU"
+    ],
+    "a": "ALU"
+  },
+  {
+    "q": "What does C mean in CU?",
+    "type": "mc",
+    "opts": [
+      "Central",
+      "Controller",
+      "Center",
+      "Control"
+    ],
+    "a": "Control"
+  },
+  {
+    "q": "It is one of the tangible parts of a computer system.",
+    "type": "mc",
+    "opts": [
+      "Graphical User Interface",
+      "CPU",
+      "Application Swoftware",
+      "Operating System"
+    ],
+    "a": "CPU"
+  },
+  {
+    "q": "It is program that run the computer, designed to perform a particular type of task.",
+    "type": "mc",
+    "opts": [
+      "Operating System",
+      "Software",
+      "Programming Language",
+      "Application Software"
+    ],
+    "a": "Application Software"
+  },
+  {
+    "q": "Software serves as an interpreter between the hardware and the user of the system.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is one of the intangible parts of a computer system",
+    "type": "mc",
+    "opts": [
+      "software",
+      "scanner",
+      "keyboard",
+      "Mouse"
+    ],
+    "a": "software"
+  },
+  {
+    "q": "IT is a program is a sequence of extremely simple instructions in binary which are not easy to understand.",
+    "type": "mc",
+    "opts": [
+      "Programming Language",
+      "Machine Language",
+      "Assembly Language",
+      "High Level Language"
+    ],
+    "a": "Machine Language"
+  },
+  {
+    "q": "It is an electronic device that accepts, processes, stores, and outputs data at high speeds according to programmed instructions.",
+    "type": "mc",
+    "opts": [
+      "Computer",
+      "Hardware",
+      "Buffer",
+      "Register"
+    ],
+    "a": "Computer"
+  }
+]
