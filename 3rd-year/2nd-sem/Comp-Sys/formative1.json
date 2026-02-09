@@ -99,7 +99,7 @@
     "a": "60"
   },
   {
-    "q": "Convert 527 to binary.",
+    "q": "Convert 527(16) to binary.",
     "type": "mc",
     "opts": [
       "010100100111",
@@ -429,7 +429,7 @@
     "a": "110100"
   },
   {
-    "q": "Convert 5278 to binary.",
+    "q": "Convert 527(8) to binary.",
     "type": "mc",
     "opts": [
       "101010111",
