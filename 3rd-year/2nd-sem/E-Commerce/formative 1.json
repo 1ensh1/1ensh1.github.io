@@ -1,0 +1,442 @@
+[
+  {
+    "q": "What does EDI stand for in the history of EC?",
+    "type": "mc",
+    "opts": [
+      "Electronic Data Interchange",
+      "Electronic Digital Integration",
+      "Electronic Document Interface",
+      "Electronic Delivery Information"
+    ],
+    "a": "Electronic Data Interchange"
+  },
+  {
+    "q": "Which EC category refers to transactions among various organizational departments?",
+    "type": "mc",
+    "opts": [
+      "B2E",
+      "Intrabusiness EC",
+      "C2C",
+      "G2B"
+    ],
+    "a": "Intrabusiness EC"
+  },
+  {
+    "q": "Which generation of EC is based on Web 2.0 tools and social media?",
+    "type": "mc",
+    "opts": [
+      "EC 1.0",
+      "EC 2.0",
+      "EC 3.0",
+      "EC Plus"
+    ],
+    "a": "EC 2.0"
+  },
+  {
+    "q": "Which term refers to conducting all kinds of business online, including servicing customers and collaborating with partners?",
+    "type": "mc",
+    "opts": [
+      "E-commerce",
+      "E-business",
+      "Social commerce",
+      "Digital economy"
+    ],
+    "a": "E-business"
+  },
+  {
+    "q": "Which EC transaction type involves retail sales from businesses to individual shoppers?",
+    "type": "mc",
+    "opts": [
+      "B2B",
+      "B2C",
+      "C2B",
+      "C2C"
+    ],
+    "a": "B2C"
+  },
+  {
+    "q": "Which of the following is *NOT* a benefit of EC?",
+    "type": "mc",
+    "opts": [
+      "Increased market reach",
+      "Reduced transaction costs",
+      "Complete elimination of fraud",
+      "Improved customer service"
+    ],
+    "a": "Complete elimination of fraud"
+  },
+  {
+    "q": "Which of the following is an example of C2C e-commerce?",
+    "type": "mc",
+    "opts": [
+      "Dell selling computers to businesses",
+      "Amazon selling books to consumers",
+      "Individuals selling items on eBay",
+      "A government portal providing tax services"
+    ],
+    "a": "Individuals selling items on eBay"
+  },
+  {
+    "q": "What percentage of EC volume is approximately B2B?",
+    "type": "mc",
+    "opts": [
+      "50%",
+      "65%",
+      "85%",
+      "95%"
+    ],
+    "a": "85%"
+  },
+  {
+    "q": "What is a virtual world also known as?",
+    "type": "mc",
+    "opts": [
+      "Social network",
+      "Metaverse",
+      "Digital economy",
+      "Extranet"
+    ],
+    "a": "Metaverse"
+  },
+  {
+    "q": "Which term refers to computing systems involving social interactions and behaviors?",
+    "type": "mc",
+    "opts": [
+      "Social networking",
+      "Social computing",
+      "Digital enterprise",
+      "Virtual world"
+    ],
+    "a": "Social computing"
+  },
+  {
+    "q": "A ride-sharing app like Uber operates on a model where people share services using technology. What is this economic system called?",
+    "type": "mc",
+    "opts": [
+      "Digital enterprise",
+      "Sharing economy",
+      "Social commerce",
+      "Collaborative commerce"
+    ],
+    "a": "Sharing economy"
+  },
+  {
+    "q": "A company pays website owners to display its ads and shares revenue from clicks. Which business model is this?",
+    "type": "mc",
+    "opts": [
+      "Affiliate",
+      "Brokerage",
+      "Merchant",
+      "Advertising"
+    ],
+    "a": "Affiliate"
+  },
+  {
+    "q": "A freelance graphic designer uses an online platform to offer services to companies. Which EC category applies?",
+    "type": "mc",
+    "opts": [
+      "C2C",
+      "C2B",
+      "B2C",
+      "B2E"
+    ],
+    "a": "C2B"
+  },
+  {
+    "q": "A startup creates a social media campaign where customers share posts about its products, generating organic promotion. Which model is this?",
+    "type": "mc",
+    "opts": [
+      "Brokerage",
+      "Viral marketing",
+      "Infomediary",
+      "Merchant"
+    ],
+    "a": "Viral marketing"
+  },
+  {
+    "q": "Maria sells handmade crafts on eBay to other individuals. Which EC category does this represent?",
+    "type": "mc",
+    "opts": [
+      "B2B",
+      "C2C",
+      "B2C",
+      "C2B"
+    ],
+    "a": "C2C"
+  },
+  {
+    "q": "A business uses Web 2.0 tools to allow customers to share reviews and collaborate online. Which generation of EC is this?",
+    "type": "mc",
+    "opts": [
+      "EC 1.0",
+      "EC 2.0",
+      "EC 3.0",
+      "EC Plus"
+    ],
+    "a": "EC 2.0"
+  },
+  {
+    "q": "Which of the following is a major barrier to EC adoption?",
+    "type": "mc",
+    "opts": [
+      "Increased trust in technology",
+      "Resistance to new technology",
+      "Clear regulatory issues",
+      "Abundance of skilled employees"
+    ],
+    "a": "Resistance to new technology"
+  },
+  {
+    "q": "What is an intranet?",
+    "type": "mc",
+    "opts": [
+      "A public network connecting businesses globally",
+      "A corporate internal network using Internet tools",
+      "A network linking multiple organizations securely",
+      "A virtual world for social networking"
+    ],
+    "a": "A corporate internal network using Internet tools"
+  },
+  {
+    "q": "Which EC model involves selling products online directly from manufacturer to customer?",
+    "type": "mc",
+    "opts": [
+      "Group purchasing",
+      "Online direct marketing",
+      "Electronic tendering",
+      "Viral marketing"
+    ],
+    "a": "Online direct marketing"
+  },
+  {
+    "q": "Which EC model uses email and social networks for word-of-mouth advertising?",
+    "type": "mc",
+    "opts": [
+      "Viral marketing",
+      "Group purchasing",
+      "Electronic tendering",
+      "Direct model"
+    ],
+    "a": "Viral marketing"
+  },
+  {
+    "q": "Which term refers to an economic system based on sharing goods and services among participants?",
+    "type": "mc",
+    "opts": [
+      "Digital economy",
+      "Social commerce",
+      "Sharing economy",
+      "Collaborative commerce"
+    ],
+    "a": "Sharing economy"
+  },
+  {
+    "q": "A consumer posts a request for a custom-made product and businesses bid to fulfill it. Which EC category applies?",
+    "type": "mc",
+    "opts": [
+      "B2C",
+      "C2B",
+      "C2C",
+      "B2B"
+    ],
+    "a": "C2B"
+  },
+  {
+    "q": "A government portal allows citizens to pay taxes online. What type of EC transaction is this?",
+    "type": "mc",
+    "opts": [
+      "B2C",
+      "G2C",
+      "C2B",
+      "B2E"
+    ],
+    "a": "G2C"
+  },
+  {
+    "q": "A company uses blogs and wikis to collaborate on product design with its partners online. Which concept is applied?",
+    "type": "mc",
+    "opts": [
+      "Social computing",
+      "Digital economy",
+      "Sharing economy",
+      "Affiliate marketing"
+    ],
+    "a": "Social computing"
+  },
+  {
+    "q": "A retailer partners with a manufacturer to sell products online and share profits. Which EC relationship does this describe?",
+    "type": "mc",
+    "opts": [
+      "Collaborative commerce",
+      "C2C",
+      "B2B2C",
+      "Infomediary"
+    ],
+    "a": "B2B2C"
+  },
+  {
+    "q": "A business uses an extranet to securely share inventory data with suppliers. Which network type is this?",
+    "type": "mc",
+    "opts": [
+      "Internet",
+      "Intranet",
+      "Extranet",
+      "Virtual world"
+    ],
+    "a": "Extranet"
+  },
+  {
+    "q": "A company resists adopting e-commerce due to fear of fraud and lack of skilled employees. What is this an example of?",
+    "type": "mc",
+    "opts": [
+      "EC benefits",
+      "EC barriers",
+      "EC drivers",
+      "EC framework"
+    ],
+    "a": "EC barriers"
+  },
+  {
+    "q": "A local coffee shop wants to sell its products online directly to customers without intermediaries. Which EC model best fits this scenario?",
+    "type": "mc",
+    "opts": [
+      "Brokerage",
+      "Online direct marketing",
+      "Group purchasing",
+      "Infomediary"
+    ],
+    "a": "Online direct marketing"
+  },
+  {
+    "q": "A company uses an internal network to share HR policies and payroll information with employees. What is this network called?",
+    "type": "mc",
+    "opts": [
+      "Internet",
+      "Extranet",
+      "Intranet",
+      "Virtual world"
+    ],
+    "a": "Intranet"
+  },
+  {
+    "q": "Which of the following is a characteristic of the digital economy?",
+    "type": "mc",
+    "opts": [
+      "Offline transactions only",
+      "Based on physical marketplaces",
+      "Economy driven by online transactions",
+      "Excludes wireless communication networks"
+    ],
+    "a": "Economy driven by online transactions"
+  },
+  {
+    "q": "A large corporation invites suppliers to submit bids for a contract through an online platform. Which EC model is being used?",
+    "type": "mc",
+    "opts": [
+      "Viral marketing",
+      "Electronic tendering system",
+      "Group purchasing",
+      "Affiliate marketing"
+    ],
+    "a": "Electronic tendering system"
+  },
+  {
+    "q": "Which category of EC refers to government transactions with businesses or citizens?",
+    "type": "mc",
+    "opts": [
+      "G2B and G2C",
+      "B2E and B2C",
+      "C2B and C2C",
+      "B2B and B2C"
+    ],
+    "a": "G2B and G2C"
+  },
+  {
+    "q": "What does Electronic Commerce (EC) primarily refer to?",
+    "type": "mc",
+    "opts": [
+      "Buying and selling goods offline",
+      "Using the Internet and intranets to trade data, goods, or services",
+      "Conducting face-to-face business transactions",
+      "Delivering physical goods only"
+    ],
+    "a": "Using the Internet and intranets to trade data, goods, or services"
+  },
+  {
+    "q": "A government agency uses an online system to purchase IT equipment from private companies. Which EC type applies?",
+    "type": "mc",
+    "opts": [
+      "G2C",
+      "G2B",
+      "B2E",
+      "C2B"
+    ],
+    "a": "G2B"
+  },
+  {
+    "q": "A company integrates social media tools into its customer service strategy to engage users and resolve issues. Which concept is this?",
+    "type": "mc",
+    "opts": [
+      "Social business",
+      "Digital enterprise",
+      "Social computing",
+      "Collaborative commerce"
+    ],
+    "a": "Social business"
+  },
+  {
+    "q": "A business uses an online platform to buy office supplies from multiple vendors at discounted rates by pooling orders. Which model is this?",
+    "type": "mc",
+    "opts": [
+      "Group purchasing",
+      "Viral marketing",
+      "Direct model",
+      "Infomediary"
+    ],
+    "a": "Group purchasing"
+  },
+  {
+    "q": "A business buys raw materials from another company through an online marketplace. What type of EC transaction is this?",
+    "type": "mc",
+    "opts": [
+      "B2C",
+      "B2B",
+      "C2B",
+      "G2B"
+    ],
+    "a": "B2B"
+  },
+  {
+    "q": "Which of the following is *NOT* a major component of the EC framework?",
+    "type": "mc",
+    "opts": [
+      "People",
+      "Public policy",
+      "Infrastructure",
+      "Physical retail stores"
+    ],
+    "a": "Physical retail stores"
+  },
+  {
+    "q": "A virtual reality platform allows users to create avatars and interact in a simulated environment. What is this called?",
+    "type": "mc",
+    "opts": [
+      "Social commerce,",
+      "Virtual world",
+      "Extranet",
+      "Intranet"
+    ],
+    "a": "Virtual world"
+  },
+  {
+    "q": "Which business model charges a fee for making markets?",
+    "type": "mc",
+    "opts": [
+      "Brokerage",
+      "Merchant",
+      "Affiliate",
+      "Infomediary"
+    ],
+    "a": "Brokerage"
+  }
+]

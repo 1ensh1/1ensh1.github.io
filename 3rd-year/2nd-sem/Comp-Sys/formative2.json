@@ -144,7 +144,7 @@
       "3232",
       "2020"
     ],
-    "a": "no output"
+    "a": "ERROR"
   },
   {
     "q": "It is a general purpose register as base register.",
@@ -215,7 +215,7 @@
   {
     "q": "Software serves as an interpreter between the hardware and the user of the system.",
     "type": "tf",
-    "a": "False"
+    "a": "True"
   },
   {
     "q": "It is one of the intangible parts of a computer system",

@@ -1,0 +1,442 @@
+[
+  {
+    "q": "What is a penny auction?",
+    "type": "mc",
+    "opts": [
+      "An auction where bids are free",
+      "An auction where participants pay a small fee for each bid",
+      "An auction with fixed prices",
+      "An auction limited to one buyer and one seller"
+    ],
+    "a": "An auction where participants pay a small fee for each bid"
+  },
+  {
+    "q": "Which technology supplements real-world environments with computer-generated input?",
+    "type": "mc",
+    "opts": [
+      "Virtual reality",
+      "Augmented reality",
+      "Crowdsourcing",
+      "Semantic Web"
+    ],
+    "a": "Augmented reality"
+  },
+  {
+    "q": "What is the main function of an electronic catalog?",
+    "type": "mc",
+    "opts": [
+      "To process payments",
+      "To advertise and promote products",
+      "To manage inventory",
+      "To provide shipment tracking"
+    ],
+    "a": "To advertise and promote products"
+  },
+  {
+    "q": "What is crowdsourcing primarily used for?",
+    "type": "mc",
+    "opts": [
+      "Selling products directly",
+      "Collective problem-solving and innovation",
+      "Eliminating intermediaries",
+      "Creating virtual worlds"
+    ],
+    "a": "Collective problem-solving and innovation"
+  },
+  {
+    "q": "What is a microsite?",
+    "type": "mc",
+    "opts": [
+      "A small physical store",
+      "A supplementary webpage external to the main website",
+      "A type of search engine",
+      "A payment processing system"
+    ],
+    "a": "A supplementary webpage external to the main website"
+  },
+  {
+    "q": "Which of the following is an example of a public e-marketplace?",
+    "type": "mc",
+    "opts": [
+      "dell.com",
+      "target.com",
+      "Stock exchange",
+      "starbucks.com"
+    ],
+    "a": "Stock exchange"
+  },
+  {
+    "q": "Which of the following refers to prices that fluctuate based on supply and demand?",
+    "type": "mc",
+    "opts": [
+      "Fixed pricing",
+      "Dynamic pricing",
+      "Negotiated pricing",
+      "Discount pricing"
+    ],
+    "a": "Dynamic pricing"
+  },
+  {
+    "q": "Which of the following is NOT a type of portal mentioned in the module?",
+    "type": "mc",
+    "opts": [
+      "Commercial portal",
+      "Corporate portal",
+      "Virtual portal",
+      "Voice portal"
+    ],
+    "a": "Virtual portal"
+  },
+  {
+    "q": "What is the primary role of intermediaries in e-commerce?",
+    "type": "mc",
+    "opts": [
+      "To eliminate sellers",
+      "To manage physical warehouses",
+      "To match buyers and sellers and provide escrow services",
+      "To create product catalogs"
+    ],
+    "a": "To match buyers and sellers and provide escrow services"
+  },
+  {
+    "q": "What is the primary purpose of an e-marketplace?",
+    "type": "mc",
+    "opts": [
+      "To provide physical meeting spaces",
+      "To enable transactions between buyers and sellers online",
+      "To store physical goods",
+      "To eliminate intermediaries completely"
+    ],
+    "a": "To enable transactions between buyers and sellers online"
+  },
+  {
+    "q": "A business wants to provide employees secure access to internal reports through a single web interface. Which portal type is suitable?",
+    "type": "mc",
+    "opts": [
+      "Commercial portal",
+      "Corporate portal",
+      "Mobile portal",
+      "Publishing portal"
+    ],
+    "a": "Corporate portal"
+  },
+  {
+    "q": "A user participates in an auction where each bid requires a small fee. Which auction type is this?",
+    "type": "mc",
+    "opts": [
+      "Reverse auction",
+      "Penny auction",
+      "Dutch auction",
+      "Negotiated auction"
+    ],
+    "a": "Penny auction"
+  },
+  {
+    "q": "A company wants to sell customized laptops directly to consumers through its own website. Which type of e-marketplace is this?",
+    "type": "mc",
+    "opts": [
+      "Public e-marketplace",
+      "Private sell-side e-marketplace",
+      "Buy-side e-marketplace",
+      "Consortium marketplace"
+    ],
+    "a": "Private sell-side e-marketplace"
+  },
+  {
+    "q": "A buyer compares prices of smartphones across multiple websites using a mobile app. Which feature supports this activity?",
+    "type": "mc",
+    "opts": [
+      "Dynamic pricing",
+      "Price comparison service",
+      "Auction engine",
+      "Merchant software"
+    ],
+    "a": "Price comparison service"
+  },
+  {
+    "q": "A company wants to create an online mall where multiple sellers can display their catalogs. Which platform should it build?",
+    "type": "mc",
+    "opts": [
+      "Webstore",
+      "E-mall",
+      "Microsite",
+      "Corporate portal"
+    ],
+    "a": "E-mall"
+  },
+  {
+    "q": "A company plans to build a future platform where machines and humans interact symbiotically. Which web generation does this describe?",
+    "type": "mc",
+    "opts": [
+      "Web 2.0",
+      "Web 3.0",
+      "Web 4.0",
+      "Web 5.0"
+    ],
+    "a": "Web 4.0"
+  },
+  {
+    "q": "A user searches for antique furniture on a site where sellers bid for the buyer’s order. Which auction type is this?",
+    "type": "mc",
+    "opts": [
+      "One seller, many buyers",
+      "One buyer, many sellers",
+      "Many sellers, many buyers",
+      "Penny auction"
+    ],
+    "a": "One buyer, many sellers"
+  },
+  {
+    "q": "A customer uses a site that shows competitor prices alongside its own. Which feature is being used?",
+    "type": "mc",
+    "opts": [
+      "Dynamic pricing",
+      "Price comparison",
+      "Negotiated pricing",
+      "Crowdsourcing"
+    ],
+    "a": "Price comparison"
+  },
+  {
+    "q": "A customer abandons a shopping cart because the site lacks secure payment options. Which component is missing?",
+    "type": "mc",
+    "opts": [
+      "Front end",
+      "Back end",
+      "Payment gateway",
+      "Auction engine"
+    ],
+    "a": "Payment gateway"
+  },
+  {
+    "q": "A social networking site allows users to create profiles, share content, and connect with others. Which type of community is this?",
+    "type": "mc",
+    "opts": [
+      "Transaction community",
+      "Social network",
+      "Fantasy community",
+      "Knowledge portal"
+    ],
+    "a": "Social network"
+  },
+  {
+    "q": "A private e-marketplace owned by a single company is typically used for:",
+    "type": "mc",
+    "opts": [
+      "Government auctions",
+      "Sell-side or buy-side transactions",
+      "Public stock exchanges",
+      "Crowdsourcing activities"
+    ],
+    "a": "Sell-side or buy-side transactions"
+  },
+  {
+    "q": "Which of the following is a key feature of Web 3.0?",
+    "type": "mc",
+    "opts": [
+      "Static web pages",
+      "Intelligent-based powerful search engines",
+      "Limited user interaction",
+      "No semantic understanding"
+    ],
+    "a": "Intelligent-based powerful search engines"
+  },
+  {
+    "q": "Which of the following is considered a front-end component of an e-marketplace?",
+    "type": "mc",
+    "opts": [
+      "Inventory management",
+      "Payment gateway",
+      "Accounting system",
+      "Packaging and delivery"
+    ],
+    "a": "Payment gateway"
+  },
+  {
+    "q": "Which of the following is a limitation of e-auctions?",
+    "type": "mc",
+    "opts": [
+      "Increased participation",
+      "Minimal security",
+      "Guaranteed authenticity",
+      "No fraud risk"
+    ],
+    "a": "Minimal security"
+  },
+  {
+    "q": "A business wants to make its web applications smarter and more interactive using semantic technologies. Which web generation is this?",
+    "type": "mc",
+    "opts": [
+      "Web 2.0",
+      "Web 3.0",
+      "Web 4.0",
+      "Web 5.0"
+    ],
+    "a": "Web 3.0"
+  },
+  {
+    "q": "A customer uses voice commands on a smartphone to search for nearby restaurants. Which search type is this?",
+    "type": "mc",
+    "opts": [
+      "Visual search",
+      "Voice-powered search",
+      "Enterprise search",
+      "Desktop search"
+    ],
+    "a": "Voice-powered search"
+  },
+  {
+    "q": "A buyer joins an online group to discuss camera features before purchasing. What is this group called?",
+    "type": "mc",
+    "opts": [
+      "Virtual community",
+      "Internet mall",
+      "Web portal",
+      "Crowdsourcing platform"
+    ],
+    "a": "Virtual community"
+  },
+  {
+    "q": "A company wants to create a small website to promote a new product line without changing its main site. What should it use?",
+    "type": "mc",
+    "opts": [
+      "Web portal",
+      "Microsite",
+      "Internet mall",
+      "Virtual community"
+    ],
+    "a": "Microsite"
+  },
+  {
+    "q": "Which tool allows customers to accumulate items before checkout?",
+    "type": "mc",
+    "opts": [
+      "Search engine",
+      "Shopping cart",
+      "Auction engine",
+      "Payment gateway"
+    ],
+    "a": "Shopping cart"
+  },
+  {
+    "q": "Which of the following best describes a virtual community?",
+    "type": "mc",
+    "opts": [
+      "A group interacting physically in a store",
+      "A group interacting via computer networks",
+      "A group limited to offline communication",
+      "A group of intermediaries only"
+    ],
+    "a": "A group interacting via computer networks"
+  },
+  {
+    "q": "A business wants to gather innovative ideas for a new product by inviting suggestions from thousands of users online. Which concept applies?",
+    "type": "mc",
+    "opts": [
+      "Augmented reality",
+      "Crowdsourcing",
+      "Dynamic pricing",
+      "Web portal"
+    ],
+    "a": "Crowdsourcing"
+  },
+  {
+    "q": "A company wants to allow customers to design their own sneakers online. Which feature is needed?",
+    "type": "mc",
+    "opts": [
+      "Electronic catalog",
+      "Product configuration (self-customization)",
+      "Auction engine",
+      "Shopping cart"
+    ],
+    "a": "Product configuration (self-customization)"
+  },
+  {
+    "q": "A customer visits an online store, adds items to a virtual basket, and proceeds to checkout. Which tool enables this process?",
+    "type": "mc",
+    "opts": [
+      "Search engine",
+      "Shopping cart",
+      "Auction engine",
+      "Payment gateway"
+    ],
+    "a": "Shopping cart"
+  },
+  {
+    "q": "What is the main feature of avatars in virtual worlds?",
+    "type": "mc",
+    "opts": [
+      "They are static images",
+      "They represent users in 2D or 3D environments",
+      "They cannot move or interact",
+      "They are used only in social networks"
+    ],
+    "a": "They represent users in 2D or 3D environments"
+  },
+  {
+    "q": "Which search type involves looking for documents on the Web?",
+    "type": "mc",
+    "opts": [
+      "Enterprise search",
+      "Desktop search",
+      "Internet/Web search",
+      "Visual search"
+    ],
+    "a": "Internet/Web search"
+  },
+  {
+    "q": "A retailer wants to attract customers by offering prices that change based on demand. Which pricing strategy is used?",
+    "type": "mc",
+    "opts": [
+      "Fixed pricing",
+      "Negotiated pricing",
+      "Dynamic pricing",
+      "Discount pricing"
+    ],
+    "a": "Dynamic pricing"
+  },
+  {
+    "q": "Which of the following is NOT a major electronic commerce activity?",
+    "type": "mc",
+    "opts": [
+      "Information dissemination",
+      "Online trading",
+      "Physical store management",
+      "Collaboration"
+    ],
+    "a": "Physical store management"
+  },
+  {
+    "q": "A business needs to purchase raw materials from multiple suppliers through an online platform. Which model applies?",
+    "type": "mc",
+    "opts": [
+      "Sell-side marketplace",
+      "Buy-side marketplace",
+      "Public auction",
+      "Internet mall"
+    ],
+    "a": "Buy-side marketplace"
+  },
+  {
+    "q": "A company wants to enhance its website with technology that overlays product details on real-world images via a smartphone camera. Which technology applies?",
+    "type": "mc",
+    "opts": [
+      "Virtual reality",
+      "Augmented reality",
+      "Semantic Web",
+      "Crowdsourcing"
+    ],
+    "a": "Augmented reality"
+  },
+  {
+    "q": "What does e-bartering involve?",
+    "type": "mc",
+    "opts": [
+      "Exchange of goods and services online",
+      "Selling goods at fixed prices",
+      "Dynamic pricing through auctions",
+      "Payment through credit cards only"
+    ],
+    "a": "Exchange of goods and services online"
+  }
+]

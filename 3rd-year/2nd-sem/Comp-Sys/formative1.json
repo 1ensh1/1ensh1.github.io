@@ -77,7 +77,7 @@
     "a": "22"
   },
   {
-    "q": "Convert the following octal number to decimal 178",
+    "q": "Convert the following octal number to decimal 17(8)",
     "type": "mc",
     "opts": [
       "57",
@@ -275,7 +275,7 @@
     "a": "7"
   },
   {
-    "q": "The binary number for octal 458 is",
+    "q": "The binary number for octal 45(8) is",
     "type": "mc",
     "opts": [
       "110101",
