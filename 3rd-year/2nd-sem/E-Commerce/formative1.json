@@ -55,7 +55,7 @@
     "a": "B2C"
   },
   {
-    "q": "Which of the following is *NOT* a benefit of EC?",
+    "q": "Which of the following is NOT a benefit of EC?",
     "type": "mc",
     "opts": [
       "Increased market reach",
@@ -407,7 +407,7 @@
     "a": "B2B"
   },
   {
-    "q": "Which of the following is *NOT* a major component of the EC framework?",
+    "q": "Which of the following is NOT a major component of the EC framework?",
     "type": "mc",
     "opts": [
       "People",
