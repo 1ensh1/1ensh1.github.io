@@ -1,0 +1,541 @@
+[
+  {
+    "q": "Which Python function opens a file?",
+    "type": "mc",
+    "opts": [
+      "open()",
+      "import()",
+      "load()",
+      "get()"
+    ],
+    "a": "open()"
+  },
+  {
+    "q": "Which of these is a common use of Linux?",
+    "type": "mc",
+    "opts": [
+      "Only desktop PCs",
+      "Only mobile gaming",
+      "Web browsing",
+      "loT devices and servers"
+    ],
+    "a": "loT devices and servers"
+  },
+  {
+    "q": "Which Linux course is free and self-paced for beginners?",
+    "type": "mc",
+    "opts": [
+      "Linux Pro",
+      "Linux Admin",
+      "Linux Unhatched",
+      "Linux Essentials"
+    ],
+    "a": "Linux Unhatched"
+  },
+  {
+    "q": "Which lab task involves preparing your computer for virtualization?",
+    "type": "mc",
+    "opts": [
+      "Install the Virtual Lab Environment",
+      "Linux Review",
+      "Networking Basics",
+      "Python Programming Review"
+    ],
+    "a": "Install the Virtual Lab Environment"
+  },
+  {
+    "q": "Which of the following is NOT a Python feature mentioned?",
+    "type": "mc",
+    "opts": [
+      "Easy to learn",
+      "Proprietary licensing",
+      "Easy to use",
+      "Free and open"
+    ],
+    "a": "Proprietary licensing"
+  },
+  {
+    "q": "Which Python keyword ends a loop early?",
+    "type": "mc",
+    "opts": [
+      "stop",
+      "end",
+      "exit",
+      "break"
+    ],
+    "a": "break"
+  },
+  {
+    "q": "Which lab reviews file management and regular expressions?",
+    "type": "mc",
+    "opts": [
+      "Python Lab",
+      "API Lab",
+      "Networking Lab",
+      "Linux Review Lab"
+    ],
+    "a": "Linux Review Lab"
+  },
+  {
+    "q": "Python is considered a good starting language because:",
+    "type": "mc",
+    "opts": [
+      "It is expensive to use",
+      "It is complex and detailed",
+      "It only works on Windows",
+      "It is easy to learn, use, and install"
+    ],
+    "a": "It is easy to learn, use, and install"
+  },
+  {
+    "q": "Which free online course is suggested if you struggle with Python?",
+    "type": "mc",
+    "opts": [
+      "DevNet Sandbox",
+      "Webex Essentials",
+      "Python Essentials",
+      "Linux Essentials"
+    ],
+    "a": "Python Essentials"
+  },
+  {
+    "q": "Which Linux command is used to change directories?",
+    "type": "mc",
+    "opts": [
+      "ls",
+      "cd",
+      "chmod",
+      "ps"
+    ],
+    "a": "cd"
+  },
+  {
+    "q": "Which Python loop is often used to iterate over a list?",
+    "type": "mc",
+    "opts": [
+      "if",
+      "def",
+      "for",
+      "while"
+    ],
+    "a": "for"
+  },
+  {
+    "q": "What symbol is used to define a dictionary in Python?",
+    "type": "mc",
+    "opts": [
+      "()",
+      "[]",
+      "<>",
+      "{}"
+    ],
+    "a": "{}"
+  },
+  {
+    "q": "Python is a ______ language.",
+    "type": "mc",
+    "opts": [
+      "High-level",
+      "Low-level",
+      "Machine",
+      "Assembly"
+    ],
+    "a": "High-level"
+  },
+  {
+    "q": "Which of the following is required to run a virtual machine?",
+    "type": "mc",
+    "opts": [
+      "A smartphone",
+      "None of the above",
+      "A modern computer and OS",
+      "A web browser"
+    ],
+    "a": "A modern computer and OS"
+  },
+  {
+    "q": "What does VM stand for?",
+    "type": "mc",
+    "opts": [
+      "Virtual Management",
+      "Virtual Module",
+      "Virtual Model",
+      "Virtual Machine"
+    ],
+    "a": "Virtual Machine"
+  },
+  {
+    "q": "Which of the following is a Python data type?",
+    "type": "mc",
+    "opts": [
+      "GET",
+      "ICMP",
+      "HTML",
+      "Integer"
+    ],
+    "a": "Integer"
+  },
+  {
+    "q": "The DEVASC course prepares learners for:",
+    "type": "mc",
+    "opts": [
+      "Network automation and programmability",
+      "Basic PC repair",
+      "Mobile app development",
+      "Cloud gaming"
+    ],
+    "a": "Network automation and programmability"
+  },
+  {
+    "q": "Which Linux command modifies file permissions?",
+    "type": "mc",
+    "opts": [
+      "pwd",
+      "ps",
+      "chmod",
+      "mkdir"
+    ],
+    "a": "chmod"
+  },
+  {
+    "q": "Webex Teams installation is part of which lab?",
+    "type": "mc",
+    "opts": [
+      "Python Essentials",
+      "Linux Unhatched",
+      "Virtual Lab Environment",
+      "GitHub Setup"
+    ],
+    "a": "Virtual Lab Environment"
+  },
+  {
+    "q": "Which type of VM is used in DEVASC coding labs?",
+    "type": "mc",
+    "opts": [
+      "Android VM",
+      "Windows-based VM",
+      "macOS-based VM",
+      "Linux-based VM"
+    ],
+    "a": "Linux-based VM"
+  },
+  {
+    "q": "In Python, which function displays output?",
+    "type": "mc",
+    "opts": [
+      "print()",
+      "output()",
+      "show()",
+      "display()"
+    ],
+    "a": "print()"
+  },
+  {
+    "q": "Python is described as:",
+    "type": "mc",
+    "opts": [
+      "Only used for mobile apps",
+      "Only used for gaming",
+      "A proprietary language",
+      "Free, open, and multiplatform"
+    ],
+    "a": "Free, open, and multiplatform"
+  },
+  {
+    "q": "The physical computer that hosts a VM is often referred to as:",
+    "type": "mc",
+    "opts": [
+      "Client",
+      "Guest",
+      "Server",
+      "Host"
+    ],
+    "a": "Host"
+  },
+  {
+    "q": "What does the command pwd display?",
+    "type": "mc",
+    "opts": [
+      "List of files",
+      "Permissions of a file",
+      "Current working directory",
+      "System processes"
+    ],
+    "a": "Current working directory"
+  },
+  {
+    "q": "Which Python loop executes as long as a condition is true?",
+    "type": "mc",
+    "opts": [
+      "for",
+      "break",
+      "while",
+      "if"
+    ],
+    "a": "while"
+  },
+  {
+    "q": "Which of the following is part of DevNet Developer Support?",
+    "type": "mc",
+    "opts": [
+      "Game server",
+      "Linux kernel repository",
+      "Knowledge Base",
+      "Docker Hub"
+    ],
+    "a": "Knowledge Base"
+  },
+  {
+    "q": "DevNet Learning Labs tutorials may include topics such as:",
+    "type": "mc",
+    "opts": [
+      "Browser extensions",
+      "REST APIs, Python, and model-driven programmability",
+      "Hardware wiring guides",
+      "Gaming software installation"
+    ],
+    "a": "REST APIs, Python, and model-driven programmability"
+  },
+  {
+    "q": "DevNet Sandboxes are best described as:",
+    "type": "mc",
+    "opts": [
+      "Production-like environments for testing and development",
+      "Cloud-only virtual labs",
+      "A place to store hardware devices",
+      "Cisco's gaming platform"
+    ],
+    "a": "Production-like environments for testing and development"
+  },
+  {
+    "q": "Which online resource provides API documentation for developers?",
+    "type": "mc",
+    "opts": [
+      "DevNet Home page at developer.cisco.com",
+      "DevNet TV",
+      "Cisco Press",
+      "Webex Teams"
+    ],
+    "a": "DevNet Home page at developer.cisco.com"
+  },
+  {
+    "q": "A support case in DevNet provides:",
+    "type": "mc",
+    "opts": [
+      "One-on-one support with a response time of one business day",
+      "Automated responses only",
+      "Social media-based feedback",
+      "24/7 chatbots only"
+    ],
+    "a": "One-on-one support with a response time of one business day"
+  },
+  {
+    "q": "Which DevNet resource is a repository of sample code?",
+    "type": "mc",
+    "opts": [
+      "Automation Exchange",
+      "Learning Labs",
+      "Code Exchange",
+      "Ecosystem Exchange"
+    ],
+    "a": "Code Exchange"
+  },
+  {
+    "q": "Which DevNet resource is most helpful for finding third-party Cisco-related solutions?",
+    "type": "mc",
+    "opts": [
+      "Code Exchange",
+      "Ecosystem Exchange",
+      "Linux Exchange",
+      "Sandbox"
+    ],
+    "a": "Ecosystem Exchange"
+  },
+  {
+    "q": "Which DevNet Exchange provides categorized source code using GitHub APIs?",
+    "type": "mc",
+    "opts": [
+      "Automation Exchange",
+      "Ecosystem Exchange",
+      "Code Exchange",
+      "Sandbox Exchange"
+    ],
+    "a": "Code Exchange"
+  },
+  {
+    "q": "DevNet forums are primarily for:",
+    "type": "mc",
+    "opts": [
+      "Buying Cisco licenses",
+      "Selling routers",
+      "File hosting",
+      "Developer community collaboration and support"
+    ],
+    "a": "Developer community collaboration and support"
+  },
+  {
+    "q": "Which DevNet Exchange is most likely to help in designing solutions with partners?",
+    "type": "mc",
+    "opts": [
+      "Code Exchange",
+      "Sandbox",
+      "Automation Exchange",
+      "Ecosystem Exchange"
+    ],
+    "a": "Ecosystem Exchange"
+  },
+  {
+    "q": "Which DevNet Exchange is directly tied to sharing automation scripts?",
+    "type": "mc",
+    "opts": [
+      "DevNet TV",
+      "Code Exchange",
+      "Ecosystern Exchange",
+      "Automation Exchange"
+    ],
+    "a": "Automation Exchange"
+  },
+  {
+    "q": "A developer can access DevNet forums by visiting:",
+    "type": "mc",
+    "opts": [
+      "devnetsupport.cisco.com",
+      "github.com/devnetcommunity",
+      "dockerhub.com/cisco",
+      "facebook.com/cisco"
+    ],
+    "a": "devnetsupport.cisco.com"
+  },
+  {
+    "q": "A developer can troubleshoot API issues in DevNet by:",
+    "type": "mc",
+    "opts": [
+      "Using DevNet Developer Support",
+      "Buying a Cisco router",
+      "Reading only Linux manuals",
+      "Installing Windows updates"
+    ],
+    "a": "Using DevNet Developer Support"
+  },
+  {
+    "q": "Which of the following is NOT a feature of DevNet?",
+    "type": "mc",
+    "opts": [
+      "Learning Labs",
+      "Code Exchange",
+      "Hardware simulation software",
+      "Sandboxes"
+    ],
+    "a": "Hardware simulation software"
+  },
+  {
+    "q": "The purpose of DevNet Code Exchange is:",
+    "type": "mc",
+    "opts": [
+      "To download IOS images",
+      "To provide categorized sample code and tools",
+      "To run containers",
+      "To configure routers"
+    ],
+    "a": "To provide categorized sample code and tools"
+  },
+  {
+    "q": "DevNet Developer Support provides help for:",
+    "type": "mc",
+    "opts": [
+      "API integrations, connections, and developer use cases",
+      "Windows-only issues",
+      "Consumer hardware troubleshooting",
+      "Gaming configurations"
+    ],
+    "a": "API integrations, connections, and developer use cases"
+  },
+  {
+    "q": "Which DevNet Exchange lists solutions across industries and geographies?",
+    "type": "mc",
+    "opts": [
+      "Code Exchange",
+      "Router Exchange",
+      "Automation Exchange",
+      "Ecosystem Exchange"
+    ],
+    "a": "Ecosystem Exchange"
+  },
+  {
+    "q": "DevNet Learning Labs include tutorials on:",
+    "type": "mc",
+    "opts": [
+      "Networking, IoT, Python, REST APIs",
+      "Microsoft Office",
+      "Video gaming",
+      "Hardware assembly"
+    ],
+    "a": "Networking, IoT, Python, REST APIs"
+  },
+  {
+    "q": "What is the purpose of DevNet Sandboxes?",
+    "type": "mc",
+    "opts": [
+      "Virtualize video games",
+      "Sell Cisco devices",
+      "Provide hands-on exploration of software and APIs",
+      "Build physical networking labs"
+    ],
+    "a": "Provide hands-on exploration of software and APIs"
+  },
+  {
+    "q": "What is Cisco DevNet?",
+    "type": "mc",
+    "opts": [
+      "A social networking platform",
+      "A cloud-only networking service",
+      "An integrated developer program with tools, sandboxes, and community",
+      "A new Cisco hardware line"
+    ],
+    "a": "An integrated developer program with tools, sandboxes, and community"
+  },
+  {
+    "q": "The Ecosystem Exchange provides:",
+    "type": "mc",
+    "opts": [
+      "Over 1,500 solutions across technologies and industries",
+      "Access to Webex Teams support",
+      "Ticketing for developer support",
+      "Only Cisco IOS configurations"
+    ],
+    "a": "Over 1,500 solutions across technologies and industries"
+  },
+  {
+    "q": "What does the Automation Exchange provide?",
+    "type": "mc",
+    "opts": [
+      "Network automation use cases with tools like Ansible and Puppet",
+      "Security-only solutions",
+      "Cisco router firmware updates",
+      "Only sandbox reservations"
+    ],
+    "a": "Network automation use cases with tools like Ansible and Puppet"
+  },
+  {
+    "q": "What is the main benefit of DevNet Sandboxes?",
+    "type": "mc",
+    "opts": [
+      "Buy Cisco gear",
+      "Play network games",
+      "Learn subnetting only",
+      "Test APIs and platforms in safe environments"
+    ],
+    "a": "Test APIs and platforms in safe environments"
+  },
+  {
+    "q": "Which DevNet Exchange provides solutions across geographies and industries?",
+    "type": "mc",
+    "opts": [
+      "Community Exchange",
+      "Code Exchange",
+      "Ecosystem Exchange",
+      "Automation Exchange"
+    ],
+    "a": "Ecosystem Exchange"
+  }
+]

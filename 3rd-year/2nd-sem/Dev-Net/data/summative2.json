@@ -1,0 +1,552 @@
+[
+  {
+    "q": "Which Agile principle emphasizes customer involvement?",
+    "type": "mc",
+    "opts": [
+      "Documentation",
+      "Customer collaboration",
+      "Following a strict plan",
+      "Ignoring change"
+    ],
+    "a": "Customer collaboration"
+  },
+  {
+    "q": "Which Git command shows repository history?",
+    "type": "mc",
+    "opts": [
+      "git status",
+      "git log",
+      "git init",
+      "git commit"
+    ],
+    "a": "git log"
+  },
+  {
+    "q": "Which principle says \"Don't Repeat Yourself\"?",
+    "type": "mc",
+    "opts": [
+      "DRY",
+      "KISS",
+      "SOLID",
+      "Agile"
+    ],
+    "a": "DRY"
+  },
+  {
+    "q": "Which format is lightweight and commonly used in APIs?",
+    "type": "mc",
+    "opts": [
+      "XML",
+      "JSON",
+      "YAML",
+      "HTML"
+    ],
+    "a": "JSON"
+  },
+  {
+    "q": "Which SDLC model uses short, iterative development cycles?",
+    "type": "mc",
+    "opts": [
+      "Waterfall",
+      "Agile",
+      "V-Model",
+      "Spiral"
+    ],
+    "a": "Agile"
+  },
+  {
+    "q": "Which Git command saves changes permanently to history?",
+    "type": "mc",
+    "opts": [
+      "git add",
+      "git commit",
+      "git log",
+      "git branch"
+    ],
+    "a": "git commit"
+  },
+  {
+    "q": "Which practice improves readability?",
+    "type": "mc",
+    "opts": [
+      "Random variable names",
+      "Meaningful variable names",
+      "Long functions",
+      "Inline logic everywhere"
+    ],
+    "a": "Meaningful variable names"
+  },
+  {
+    "q": "Which of the following makes code harder to maintain?",
+    "type": "mc",
+    "opts": [
+      "Modular functions",
+      "Proper naming",
+      "Code duplication",
+      "Clear comments"
+    ],
+    "a": "Code duplication"
+  },
+  {
+    "q": "Which format uses tags to store data?",
+    "type": "mc",
+    "opts": [
+      "XML",
+      "JSON",
+      "YAML",
+      "CSV"
+    ],
+    "a": "XML"
+  },
+  {
+    "q": "Which Python structure stores key-value pairs?",
+    "type": "mc",
+    "opts": [
+      "List",
+      "Tuple",
+      "Dictionary",
+      "Array"
+    ],
+    "a": "Dictionary"
+  },
+  {
+    "q": "Continuous Integration (CI) focuses on:",
+    "type": "mc",
+    "opts": [
+      "Writing documentation",
+      "Frequently merging code changes",
+      "Replacing Agile",
+      "Final deployment"
+    ],
+    "a": "Frequently merging code changes"
+  },
+  {
+    "q": "In MVC, which part handles business logic?",
+    "type": "mc",
+    "opts": [
+      "Model",
+      "View",
+      "Controller",
+      "Database"
+    ],
+    "a": "Model"
+  },
+  {
+    "q": "Which format is indentation-sensitive?",
+    "type": "mc",
+    "opts": [
+      "JSON",
+      "XML",
+      "YAML",
+      "CSV"
+    ],
+    "a": "YAML"
+  },
+  {
+    "q": "Which Git command shows current file states?",
+    "type": "mc",
+    "opts": [
+      "git status",
+      "git log",
+      "git merge",
+      "git push"
+    ],
+    "a": "git status"
+  },
+  {
+    "q": "Which keyword is used for decision-making?",
+    "type": "mc",
+    "opts": [
+      "if",
+      "for",
+      "while",
+      "else"
+    ],
+    "a": "if"
+  },
+  {
+    "q": "Which is the main advantage of YAML?",
+    "type": "mc",
+    "opts": [
+      "Machine efficiency",
+      "Human readability",
+      "Binary storage",
+      "Complexity"
+    ],
+    "a": "Human readability"
+  },
+  {
+    "q": "Which principle says \"Keep It Simple, Stupid\"?",
+    "type": "mc",
+    "opts": [
+      "DRY",
+      "KISS",
+      "SOLID",
+      "Agile"
+    ],
+    "a": "KISS"
+  },
+  {
+    "q": "Which Python structure is immutable?",
+    "type": "mc",
+    "opts": [
+      "List",
+      "Dictionary",
+      "Tuple",
+      "Set"
+    ],
+    "a": "Tuple"
+  },
+  {
+    "q": "JSON arrays are represented with:",
+    "type": "mc",
+    "opts": [
+      "{}",
+      "[]",
+      "<>",
+      "--"
+    ],
+    "a": "[]"
+  },
+  {
+    "q": "In MVC, which part processes input and updates the model?",
+    "type": "mc",
+    "opts": [
+      "Model",
+      "View",
+      "Controller",
+      "Database"
+    ],
+    "a": "Controller"
+  },
+  {
+    "q": "DevOps encourages collaboration between:",
+    "type": "mc",
+    "opts": [
+      "Developers and clients",
+      "Developers and operations",
+      "Customers and testers",
+      "Designers and analysts"
+    ],
+    "a": "Developers and operations"
+  },
+  {
+    "q": "Which Git command creates a new branch?",
+    "type": "mc",
+    "opts": [
+      "git init",
+      "git branch",
+      "git clone",
+      "git log"
+    ],
+    "a": "git branch"
+  },
+  {
+    "q": "Which Git command stages changes for commit?",
+    "type": "mc",
+    "opts": [
+      "git commit",
+      "git add",
+      "git push",
+      "git branch"
+    ],
+    "a": "git add"
+  },
+  {
+    "q": "Which SDLC model delivers software in sequential steps?",
+    "type": "mc",
+    "opts": [
+      "Agile",
+      "Waterfall",
+      "Scrum",
+      "Kanban"
+    ],
+    "a": "Waterfall"
+  },
+  {
+    "q": "Which Agile framework is based on sprints and stand-ups?",
+    "type": "mc",
+    "opts": [
+      "Kanban",
+      "Scrum",
+      "XP",
+      "Lean"
+    ],
+    "a": "Scrum"
+  },
+  {
+    "q": "SOAP uses which format for messaging?",
+    "type": "mc",
+    "opts": [
+      "JSON",
+      "YAM",
+      "XML",
+      "CSV"
+    ],
+    "a": "XML"
+  },
+  {
+    "q": "Authentication proves:",
+    "type": "mc",
+    "opts": [
+      "Identity of the user",
+      "Permissions of the user",
+      "Data encryption",
+      "Server availability"
+    ],
+    "a": "Identity of the user"
+  },
+  {
+    "q": "REST was authored by:",
+    "type": "mc",
+    "opts": [
+      "Roy Thomas Fielding",
+      "Tim Berners-Lee",
+      "Linus Torvalds",
+      "Dennis Ritchie"
+    ],
+    "a": "Roy Thomas Fielding"
+  },
+  {
+    "q": "Which HTTP status code means 'Forbidden'?",
+    "type": "mc",
+    "opts": [
+      "400",
+      "401",
+      "403",
+      "500"
+    ],
+    "a": "403"
+  },
+  {
+    "q": "Which of the following is NOT one of the six REST principles?",
+    "type": "mc",
+    "opts": [
+      "Client-Server",
+      "Stateless",
+      "Cache",
+      "Multi-threading"
+    ],
+    "a": "Multi-threading"
+  },
+  {
+    "q": "Which rate limit algorithm resets requests per fixed time window?",
+    "type": "mc",
+    "opts": [
+      "Leaky Bucket",
+      "Token Bucket",
+      "Fixed Window Counter",
+      "Sliding Window Counter"
+    ],
+    "a": "Fixed Window Counter"
+  },
+  {
+    "q": "Which HTTP method is used to update an existing resource?",
+    "type": "mc",
+    "opts": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "a": "PUT"
+  },
+  {
+    "q": "Which HTTP status code means 'No Content'?",
+    "type": "mc",
+    "opts": [
+      "200",
+      "201",
+      "204",
+      "404"
+    ],
+    "a": "204"
+  },
+  {
+    "q": "Which requirement is necessary to consume a webhook?",
+    "type": "mc",
+    "opts": [
+      "Application must be running to receive HTTP POST",
+      "Application must send a GET request",
+      "Application must disable SSL",
+      "Application must poll the server"
+    ],
+    "a": "Application must be running to receive HTTP POST"
+  },
+  {
+    "q": "Which category of HTTP status codes indicates client error?",
+    "type": "mc",
+    "opts": [
+      "1xx",
+      "2xx",
+      "3xx",
+      "4xx"
+    ],
+    "a": "4xx"
+  },
+  {
+    "q": "Which version of OAuth is not backward compatible?",
+    "type": "mc",
+    "opts": [
+      "OAuth 1.0",
+      "OAuth 2.0",
+      "OAuth 3.0",
+      "None"
+    ],
+    "a": "OAuth 2.0"
+  },
+  {
+    "q": "Which authentication method uses unique alphanumeric keys assigned to users?",
+    "type": "mc",
+    "opts": [
+      "Basic Authentication",
+      "Bearer Token",
+      "API Key",
+      "Certificate"
+    ],
+    "a": "API Key"
+  },
+  {
+    "q": "Which category of HTTP status codes indicates success?",
+    "type": "mc",
+    "opts": [
+      "1xx",
+      "2xx",
+      "3xx",
+      "4xx"
+    ],
+    "a": "2xx"
+  },
+  {
+    "q": "Which HTTP status code means 'Not Found'?",
+    "type": "mc",
+    "opts": [
+      "200",
+      "201",
+      "400",
+      "404"
+    ],
+    "a": "404"
+  },
+  {
+    "q": "Authorization defines:",
+    "type": "mc",
+    "opts": [
+      "Identity of the user",
+      "Permissions of the user",
+      "Encryption standards",
+      "Token format"
+    ],
+    "a": "Permissions of the user"
+  },
+  {
+    "q": "Which status code means 'Internal Server Error'?",
+    "type": "mc",
+    "opts": [
+      "500",
+      "404",
+      "403",
+      "200"
+    ],
+    "a": "500"
+  },
+  {
+    "q": "Which API design style allows execution to continue while waiting for a response?",
+    "type": "mc",
+    "opts": [
+      "Asynchronous",
+      "Synchronous",
+      "REST",
+      "SOAP"
+    ],
+    "a": "Asynchronous"
+  },
+  {
+    "q": "Which HTTP method is used to remove a resource?",
+    "type": "mc",
+    "opts": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "a": "DELETE"
+  },
+  {
+    "q": "Which part of a URI represents the location of the resource?",
+    "type": "mc",
+    "opts": [
+      "Scheme",
+      "Authority",
+      "Path",
+      "Query"
+    ],
+    "a": "Path"
+  },
+  {
+    "q": "Which part of a URI specifies the protocol (http/https)?",
+    "type": "mc",
+    "opts": [
+      "Scheme",
+      "Authority",
+      "Path",
+      "Query"
+    ],
+    "a": "Scheme"
+  },
+  {
+    "q": "Which authentication mechanism transmits Base64 encoded credentials?",
+    "type": "mc",
+    "opts": [
+      "Basic Authentication",
+      "Bearer Token",
+      "API Key",
+      "OAuth"
+    ],
+    "a": "Basic Authentication"
+  },
+  {
+    "q": "What is the primary purpose of an API?",
+    "type": "mc",
+    "opts": [
+      "To allow software to communicate with hardware",
+      "To allow one piece of software to communicate with another",
+      "To replace operating systems",
+      "To configure network devices"
+    ],
+    "a": "To allow one piece of software to communicate with another"
+  },
+  {
+    "q": "Which rate limit algorithm uses a queue and processes at a fixed rate?",
+    "type": "mc",
+    "opts": [
+      "Leaky Bucket",
+      "Token Bucket",
+      "Fixed Window Counter",
+      "Sliding Window Counter"
+    ],
+    "a": "Leaky Bucket"
+  },
+  {
+    "q": "Which HTTP status code means 'OK'?",
+    "type": "mc",
+    "opts": [
+      "200",
+      "201",
+      "400",
+      "404"
+    ],
+    "a": "200"
+  },
+  {
+    "q": "Which API design style waits for a response before continuing execution?",
+    "type": "mc",
+    "opts": [
+      "Asynchronous",
+      "Synchronous",
+      "REST",
+      "RPC"
+    ],
+    "a": "Synchronous"
+  }
+]

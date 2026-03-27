@@ -1,0 +1,816 @@
+[
+  {
+    "q": "Which Python library is used to interact with REST APIs?",
+    "type": "mc",
+    "opts": [
+      "sshlib",
+      "requests",
+      "ncclient",
+      "yangson"
+    ],
+    "a": "requests"
+  },
+  {
+    "q": "Which NETCONF operation confirms applying changes after testing?",
+    "type": "mc",
+    "opts": [
+      "lock",
+      "validate",
+      "confirmed-commit",
+      "delete-config"
+    ],
+    "a": "confirmed-commit"
+  },
+  {
+    "q": "Which NETCONF feature locks configuration to prevent conflicts?",
+    "type": "mc",
+    "opts": [
+      "commit",
+      "get",
+      "lock",
+      "edit-config"
+    ],
+    "a": "lock"
+  },
+  {
+    "q": "Which RESTCONF feature supports event notifications?",
+    "type": "mc",
+    "opts": [
+      "data",
+      "schema",
+      "event-stream",
+      "operations"
+    ],
+    "a": "event-stream"
+  },
+  {
+    "q": "Which HTTP response code indicates successful creation in RESTCONF?",
+    "type": "mc",
+    "opts": [
+      "400",
+      "200",
+      "201",
+      "404"
+    ],
+    "a": "201"
+  },
+  {
+    "q": "RESTCONF is defined in which RFC?",
+    "type": "mc",
+    "opts": [
+      "RFC 6241",
+      "RFC 8040",
+      "RFC 4741",
+      "RFC 6242"
+    ],
+    "a": "RFC 8040"
+  },
+  {
+    "q": "In YANG, namespaces are declared using?",
+    "type": "mc",
+    "opts": [
+      "prefix",
+      "rpc",
+      "namespace",
+      "schema"
+    ],
+    "a": "namespace"
+  },
+  {
+    "q": "Which YANG type represents an integer?",
+    "type": "mc",
+    "opts": [
+      "boolean",
+      "int32",
+      "decimal64",
+      "string"
+    ],
+    "a": "int32"
+  },
+  {
+    "q": "In RESTCONF, what does '/restconf/operations/' access?",
+    "type": "mc",
+    "opts": [
+      "Notifications",
+      "RPC operations",
+      "Schemas",
+      "Data resources"
+    ],
+    "a": "RPC operations"
+  },
+  {
+    "q": "Which NETCONF operation is used to change configuration data?",
+    "type": "mc",
+    "opts": [
+      "get-config",
+      "edit-config",
+      "get",
+      "unlock"
+    ],
+    "a": "edit-config"
+  },
+  {
+    "q": "A YANG 'leaf-list' represents?",
+    "type": "mc",
+    "opts": [
+      "Array of simple data elements",
+      "NETCONF lock state",
+      "Device schema",
+      "Group of containers"
+    ],
+    "a": "Array of simple data elements"
+  },
+  {
+    "q": "In NETCONF, what does the element represent?",
+    "type": "mc",
+    "opts": [
+      "A REST API request",
+      "A remote procedure call message",
+      "A device schema",
+      "A Python function"
+    ],
+    "a": "A remote procedure call message"
+  },
+  {
+    "q": "Which YANG type is used for floating-point numbers?",
+    "type": "mc",
+    "opts": [
+      "decimal64",
+      "string",
+      "boolean",
+      "int32"
+    ],
+    "a": "decimal64"
+  },
+  {
+    "q": "Which YANG keyword is used to include another module?",
+    "type": "mc",
+    "opts": [
+      "load",
+      "use",
+      "prefix",
+      "import"
+    ],
+    "a": "import"
+  },
+  {
+    "q": "In NETCONF, which datastore represents the running configuration?",
+    "type": "mc",
+    "opts": [
+      "startup",
+      "edit",
+      "running",
+      "candidate"
+    ],
+    "a": "running"
+  },
+  {
+    "q": "Which RESTCONF data encoding format is human-friendly?",
+    "type": "mc",
+    "opts": [
+      "CSV",
+      "JSON",
+      "XML",
+      "Binary"
+    ],
+    "a": "JSON"
+  },
+  {
+    "q": "Which NETCONF operation validates configuration data without applying it?",
+    "type": "mc",
+    "opts": [
+      "get-config",
+      "edit-config",
+      "commit",
+      "validate"
+    ],
+    "a": "validate"
+  },
+  {
+    "q": "Which HTTP response code means 'Unauthorized'?",
+    "type": "mc",
+    "opts": [
+      "404",
+      "400",
+      "401",
+      "403"
+    ],
+    "a": "401"
+  },
+  {
+    "q": "Which NETCONF capability allows partial locking?",
+    "type": "mc",
+    "opts": [
+      "candidate",
+      "validate",
+      "partial-lock",
+      "confirmed-commit"
+    ],
+    "a": "partial-lock"
+  },
+  {
+    "q": "Which HTTP method modifies an existing RESTCONF resource?",
+    "type": "mc",
+    "opts": [
+      "PUT",
+      "GET",
+      "HEAD",
+      "POST"
+    ],
+    "a": "PUT"
+  },
+  {
+    "q": "Which HTTP response code means 'Forbidden'?",
+    "type": "mc",
+    "opts": [
+      "401",
+      "403",
+      "500",
+      "400"
+    ],
+    "a": "403"
+  },
+  {
+    "q": "Which YANG type represents a string of text?",
+    "type": "mc",
+    "opts": [
+      "string",
+      "decimal64",
+      "int",
+      "bool"
+    ],
+    "a": "string"
+  },
+  {
+    "q": "What does YANG stand for?",
+    "type": "mc",
+    "opts": [
+      "YAML And Network Grammar",
+      "Yet Another Network Group",
+      "Yet Another Next Generation",
+      "Your API Network Guide"
+    ],
+    "a": "Yet Another Next Generation"
+  },
+  {
+    "q": "Which YANG node holds a single data element?",
+    "type": "mc",
+    "opts": [
+      "container",
+      "leaf",
+      "key",
+      "list"
+    ],
+    "a": "leaf"
+  },
+  {
+    "q": "Which YANG type is used for true/false values?",
+    "type": "mc",
+    "opts": [
+      "int",
+      "boolean",
+      "decimal64",
+      "string"
+    ],
+    "a": "boolean"
+  },
+  {
+    "q": "Which deployment strategy gradually rolls out new code to avoid disruption?",
+    "type": "mc",
+    "opts": [
+      "Rolling upgrade",
+      "Manual testing",
+      "Blue-Green deployment",
+      "Canary pipeline"
+    ],
+    "a": "Rolling upgrade"
+  },
+  {
+    "q": "What is the default public registry for Docker images?",
+    "type": "mc",
+    "opts": [
+      "Jenkins Hub",
+      "Docker Hub",
+      "AWS",
+      "GitHub"
+    ],
+    "a": "Docker Hub"
+  },
+  {
+    "q": "In Jenkins, what is a \"job\"?",
+    "type": "mc",
+    "opts": [
+      "A VM image",
+      "A password hash",
+      "A project that automates tasks like building code",
+      "A Docker container"
+    ],
+    "a": "A project that automates tasks like building code"
+  },
+  {
+    "q": "Which cloud model is managed completely by an organization itself?",
+    "type": "mc",
+    "opts": [
+      "Public Cloud",
+      "Edge Cloud",
+      "Hybrid Cloud",
+      "Private Cloud"
+    ],
+    "a": "Private Cloud"
+  },
+  {
+    "q": "Which device spreads requests across multiple servers?",
+    "type": "mc",
+    "opts": [
+      "Load balancer",
+      "Firewall",
+      "DNS server",
+      "Reverse proxy"
+    ],
+    "a": "Load balancer"
+  },
+  {
+    "q": "What is \"salting\" a password used for?",
+    "type": "mc",
+    "opts": [
+      "Increasing container size",
+      "Adding randomness to hashes to prevent rainbow table attacks",
+      "Encoding data for DNS",
+      "Encrypting at rest"
+    ],
+    "a": "Adding randomness to hashes to prevent rainbow table attacks"
+  },
+  {
+    "q": "Which load balancing method sends requests to the least busy server?",
+    "type": "mc",
+    "opts": [
+      "Round robin",
+      "IP hash",
+      "Least connections",
+      "Persistent session"
+    ],
+    "a": "Least connections"
+  },
+  {
+    "q": "What does XSS stand for?",
+    "type": "mc",
+    "opts": [
+      "Cross-Site Security",
+      "XML Secure Service",
+      "Cross-System Security",
+      "Cross-Site Scripting"
+    ],
+    "a": "Cross-Site Scripting"
+  },
+  {
+    "q": "Which cloud model combines private and public clouds?",
+    "type": "mc",
+    "opts": [
+      "Bare Metal",
+      "Hybrid Cloud",
+      "On-Premises",
+      "Edge Cloud"
+    ],
+    "a": "Hybrid Cloud"
+  },
+  {
+    "q": "Which password storage method cannot be reversed?",
+    "type": "mc",
+    "opts": [
+      "Docker commit",
+      "Hashed password",
+      "Encrypted text",
+      "Plaintext"
+    ],
+    "a": "Hashed password"
+  },
+  {
+    "q": "What is the key role of a load balancer?",
+    "type": "mc",
+    "opts": [
+      "Run CI/CD pipelines",
+      "Provide multi-factor authentication",
+      "Encrypt files at rest",
+      "Distribute traffic evenly to prevent overload"
+    ],
+    "a": "Distribute traffic evenly to prevent overload"
+  },
+  {
+    "q": "Which deployment model starts faster and shares the host operating system?",
+    "type": "mc",
+    "opts": [
+      "Bare Metal",
+      "Edge Cloud",
+      "Containers",
+      "Virtual Machines"
+    ],
+    "a": "Containers"
+  },
+  {
+    "q": "Which parameter maps internal container ports to host ports automatically?",
+    "type": "mc",
+    "opts": [
+      "-P",
+      "-v",
+      "-it",
+      "-name"
+    ],
+    "a": "-P"
+  },
+  {
+    "q": "What does the EXPOSE command in a Dockerfile do?",
+    "type": "mc",
+    "opts": [
+      "Runs the container",
+      "Informs which port should be published",
+      "Logs into container",
+      "Uploads image to registry"
+    ],
+    "a": "Informs which port should be published"
+  },
+  {
+    "q": "What is a Docker image?",
+    "type": "mc",
+    "opts": [
+      "An IDE for developers",
+      "A read-only template containing app code and dependencies",
+      "A VM hypervisor",
+      "A running container instance"
+    ],
+    "a": "A read-only template containing app code and dependencies"
+  },
+  {
+    "q": "Which tool detects SQL injection flaws by analyzing source code?",
+    "type": "mc",
+    "opts": [
+      "DNS",
+      "SAST tools",
+      "Docker Hub",
+      "Hypervisar"
+    ],
+    "a": "SAST tools"
+  },
+  {
+    "q": "Which deployment strategy uses two environments, one for current users and one for new code?",
+    "type": "mc",
+    "opts": [
+      "Canary pipeline",
+      "Blue-Green deployment",
+      "Bare metal",
+      "Rolling upgrade"
+    ],
+    "a": "Blue-Green deployment"
+  },
+  {
+    "q": "Which command starts a Docker container in detached mode?",
+    "type": "mc",
+    "opts": [
+      "docker exec -it",
+      "docker run -d",
+      "docker pull",
+      "docker commit"
+    ],
+    "a": "docker run -d"
+  },
+  {
+    "q": "Which social engineering attack uses SMS messages?",
+    "type": "mc",
+    "opts": [
+      "Impersonation",
+      "Phishing",
+      "Vishing",
+      "Smishing"
+    ],
+    "a": "Smishing"
+  },
+  {
+    "q": "Which deployment strategy tests new code on a small subset of users first?",
+    "type": "mc",
+    "opts": [
+      "Manual deployment",
+      "Rolling upgrade",
+      "Container orchestration",
+      "Canary pipeline"
+    ],
+    "a": "Canary pipeline"
+  },
+  {
+    "q": "Which authentication requires at least two types of evidence?",
+    "type": "mc",
+    "opts": [
+      "MFA",
+      "Hypervisor security",
+      "Password manager",
+      "SFA"
+    ],
+    "a": "MFA"
+  },
+  {
+    "q": "What does the FROM command in a Dockerfile specify?",
+    "type": "mc",
+    "opts": [
+      "Container name",
+      "Base image to install",
+      "Port number",
+      "Registry URL"
+    ],
+    "a": "Base image to install"
+  },
+  {
+    "q": "Which structure is commonly used by large organizations for code quality?",
+    "type": "mc",
+    "opts": [
+      "Single production environment",
+      "Development, testing, staging, production tiers",
+      "Continuous Delivery only",
+      "Serverless only"
+    ],
+    "a": "Development, testing, staging, production tiers"
+  },
+  {
+    "q": "What command does Jenkins use in a build step to execute shell scripts?",
+    "type": "mc",
+    "opts": [
+      "Hypervisor start",
+      "docker run",
+      "Execute shell",
+      "Build pipeline"
+    ],
+    "a": "Execute shell"
+  },
+  {
+    "q": "What is the main purpose of saving a Docker image to a registry?",
+    "type": "mc",
+    "opts": [
+      "To encrypt code",
+      "To delete containers",
+      "To monitor logs",
+      "To share images for deployment or reuse"
+    ],
+    "a": "To share images for deployment or reuse"
+  },
+  {
+    "q": "Which YANG statement defines a key for list uniqueness?",
+    "type": "mc",
+    "opts": [
+      "leaf",
+      "type",
+      "key",
+      "must"
+    ],
+    "a": "key"
+  },
+  {
+    "q": "RESTCONF resources are identified by?",
+    "type": "mc",
+    "opts": [
+      "Port Number",
+      "URI",
+      "IP Address",
+      "Schema ID"
+    ],
+    "a": "URI"
+  },
+  {
+    "q": "Which HTTP method deletes a RESTCONF resource?",
+    "type": "mc",
+    "opts": [
+      "PUT",
+      "GET",
+      "DELETE",
+      "POST"
+    ],
+    "a": "DELETE"
+  },
+  {
+    "q": "Which HTTP method retrieves resource data in RESTCONF?",
+    "type": "mc",
+    "opts": [
+      "GET",
+      "POST",
+      "DELETE",
+      "PUT"
+    ],
+    "a": "GET"
+  },
+  {
+    "q": "Which Python module parses XML to dictionary format?",
+    "type": "mc",
+    "opts": [
+      "requests",
+      "ncclient",
+      "yangson",
+      "xmltodict"
+    ],
+    "a": "xmltodict"
+  },
+  {
+    "q": "Which encoding format is mandatory in NETCONF messages?",
+    "type": "mc",
+    "opts": [
+      "YAML",
+      "JSON",
+      "CSV",
+      "XML"
+    ],
+    "a": "XML"
+  },
+  {
+    "q": "RESTCONF uses which transport protocol?",
+    "type": "mc",
+    "opts": [
+      "Telnet",
+      "SSH",
+      "FTP",
+      "HTTP/HTTPS"
+    ],
+    "a": "HTTP/HTTPS"
+  },
+  {
+    "q": "Which transport protocol does NETCONF typically run over?",
+    "type": "mc",
+    "opts": [
+      "SSH",
+      "FTP",
+      "HTTP",
+      "HTTPS"
+    ],
+    "a": "SSH"
+  },
+  {
+    "q": "Which Python library is often used for NETCONF communication?",
+    "type": "mc",
+    "opts": [
+      "xmltodict",
+      "ncclient",
+      "requests",
+      "paramiko"
+    ],
+    "a": "ncclient"
+  },
+  {
+    "q": "Which HTTP response code means 'Bad Request'?",
+    "type": "mc",
+    "opts": [
+      "400",
+      "401",
+      "500",
+      "403"
+    ],
+    "a": "400"
+  },
+  {
+    "q": "What does NETCONF stand for?",
+    "type": "mc",
+    "opts": [
+      "Network Central Function",
+      "Network Connectivity Format",
+      "Network Configuration Protocol",
+      "Network Control Framework"
+    ],
+    "a": "Network Configuration Protocol"
+  },
+  {
+    "q": "Which data modeling language is most associated with NETCONF?",
+    "type": "mc",
+    "opts": [
+      "YAML",
+      "JSON",
+      "XML",
+      "YANG"
+    ],
+    "a": "YANG"
+  },
+  {
+    "q": "Which protocol provides a REST-like interface to YANG-based data?",
+    "type": "mc",
+    "opts": [
+      "SOAP",
+      "gRPC",
+      "RESTCONF",
+      "NETCONF"
+    ],
+    "a": "RESTCONF"
+  },
+  {
+    "q": "Which load balancing method sends requests in order?",
+    "type": "mc",
+    "opts": [
+      "Least connections",
+      "Persistent session",
+      "IP hash",
+      "Round robin"
+    ],
+    "a": "Round robin"
+  },
+  {
+    "q": "What is the main function of a firewall?",
+    "type": "mc",
+    "opts": [
+      "Storing Docker images",
+      "Allowing or blocking network packets based on rules",
+      "Encrypting user passwords",
+      "Balancing server traffic"
+    ],
+    "a": "Allowing or blocking network packets based on rules"
+  },
+  {
+    "q": "What software manages virtual machines?",
+    "type": "mc",
+    "opts": [
+      "Kernel",
+      "Hypervisor",
+      "Jenkins",
+      "Docker"
+    ],
+    "a": "Hypervisor"
+  },
+  {
+    "q": "Which deployment model gives direct access to specialized hardware?",
+    "type": "mc",
+    "opts": [
+      "Containers",
+      "Virtual Machines",
+      "Serverless Computing",
+      "Bare Metal"
+    ],
+    "a": "Bare Metal"
+  },
+  {
+    "q": "Which project provides education and tools for web security?",
+    "type": "mc",
+    "opts": [
+      "OWASP",
+      "Hypervisor",
+      "Docker",
+      "DNS"
+    ],
+    "a": "OWASP"
+  },
+  {
+    "q": "Which Dockerfile command copies files into the image?",
+    "type": "mc",
+    "opts": [
+      "RUN",
+      "COPY",
+      "WORKDIR",
+      "CMD"
+    ],
+    "a": "COPY"
+  },
+  {
+    "q": "What is Continuous Deployment?",
+    "type": "mc",
+    "opts": [
+      "Always writing new features",
+      "Building Docker images locally",
+      "Automatically deploying every version marked production-ready",
+      "Using only staging environments"
+    ],
+    "a": "Automatically deploying every version marked production-ready"
+  },
+  {
+    "q": "What prevents CSRF attacks by validating a hidden token?",
+    "type": "mc",
+    "opts": [
+      "Hash salting",
+      "DNS server",
+      "CSRFToken",
+      "Jump box"
+    ],
+    "a": "CSRFToken"
+  },
+  {
+    "q": "What does Continuous Integration (CI) involve?",
+    "type": "mc",
+    "opts": [
+      "Deploying to production automatically",
+      "Using only Docker",
+      "Merging developer changes frequently into a main branch",
+      "Encrypting source code"
+    ],
+    "a": "Merging developer changes frequently into a main branch"
+  },
+  {
+    "q": "What does encrypting data at rest ensure?",
+    "type": "mc",
+    "opts": [
+      "No one can transmit it",
+      "It cannot be stored in the cloud",
+      "It is deleted automatically",
+      "Unauthorized access won't reveal readable data"
+    ],
+    "a": "Unauthorized access won't reveal readable data"
+  },
+  {
+    "q": "Which service translates hostnames into IP addresses?",
+    "type": "mc",
+    "opts": [
+      "Reverse proxy",
+      "Firewall",
+      "Jenkins",
+      "DNS"
+    ],
+    "a": "DNS"
+  }
+]

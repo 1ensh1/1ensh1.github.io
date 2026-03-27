@@ -1,0 +1,968 @@
+[
+  {
+    "q": "A pharmaceutical company wants secure cloud storage. Which cloud type is best?",
+    "type": "mc",
+    "opts": [
+      "Community",
+      "Public",
+      "Hybrid",
+      "Private"
+    ],
+    "a": "Private"
+  },
+  {
+    "q": "What does a read-only automation solution do?",
+    "type": "mc",
+    "opts": [
+      "Configures devices automatically",
+      "Retrieves and audits configurations",
+      "Deploys updates",
+      "Controls network traffic"
+    ],
+    "a": "Retrieves and audits configurations"
+  },
+  {
+    "q": "Which three describe TCP/UDP? (Choose three)",
+    "type": "multi",
+    "opts": [
+      "UDP encapsulated in IP",
+      "UDP uses ports for applications",
+      "Source port identifies return traffic",
+      "TCP used for low overhead"
+    ],
+    "a": [
+      "UDP encapsulated in IP",
+      "UDP uses ports for applications",
+      "Source port identifies return traffic"
+    ]
+  },
+  {
+    "q": "What attack injects SQL commands?",
+    "type": "mc",
+    "opts": [
+      "Buffer overflow",
+      "SQL injection",
+      "XSS",
+      "XML injection"
+    ],
+    "a": "SQL injection"
+  },
+  {
+    "q": "Linux/Mac command for IP?",
+    "type": "mc",
+    "opts": [
+      "ipconfig",
+      "ip address",
+      "ifconfig",
+      "netstat"
+    ],
+    "a": "ifconfig"
+  },
+  {
+    "q": "Why use Layer 2 switch segmentation? (Choose two)",
+    "type": "multi",
+    "opts": [
+      "Reduce collisions",
+      "Improve bandwidth",
+      "Isolate traffic",
+      "Increase broadcasts"
+    ],
+    "a": [
+      "Improve bandwidth",
+      "Isolate traffic"
+    ]
+  },
+  {
+    "q": "CI tool for build/test?",
+    "type": "mc",
+    "opts": [
+      "SQL",
+      "REST",
+      "Docker",
+      "Jenkins"
+    ],
+    "a": "Jenkins"
+  },
+  {
+    "q": "Port 8008 corresponds to?",
+    "type": "mc",
+    "opts": [
+      "SSH",
+      "RESTCONF",
+      "HTTP",
+      "NETCONF"
+    ],
+    "a": "HTTP"
+  },
+  {
+    "q": "VLAN broadcast behavior?",
+    "type": "mc",
+    "opts": [
+      "All VLANs",
+      "Same VLAN only",
+      "Same switch only",
+      "Routed"
+    ],
+    "a": "Same VLAN only"
+  },
+  {
+    "q": "VM management software?",
+    "type": "mc",
+    "opts": [
+      "OS",
+      "Hypervisor",
+      "Kernel",
+      "CLI"
+    ],
+    "a": "Hypervisor"
+  },
+  {
+    "q": "MAC address structure?",
+    "type": "mc",
+    "opts": [
+      "Network + host",
+      "Vendor OUI + unique ID",
+      "Serial + random",
+      "IP + port"
+    ],
+    "a": "Vendor OUI + unique ID"
+  },
+  {
+    "q": "Cisco ACI SDK?",
+    "type": "mc",
+    "opts": [
+      "Cobra",
+      "UCS",
+      "IMC",
+      "CLI"
+    ],
+    "a": "Cobra"
+  },
+  {
+    "q": "DevNet sharing platform?",
+    "type": "mc",
+    "opts": [
+      "Forums",
+      "Sandbox",
+      "Exchange",
+      "Zone"
+    ],
+    "a": "Exchange"
+  },
+  {
+    "q": "RESTCONF formats? (Choose two)",
+    "type": "multi",
+    "opts": [
+      "JSON",
+      "XML",
+      "YAML",
+      "HTML"
+    ],
+    "a": [
+      "JSON",
+      "XML"
+    ]
+  },
+  {
+    "q": "DevNet code repository?",
+    "type": "mc",
+    "opts": [
+      "Labs",
+      "Sandbox",
+      "Code Exchange",
+      "Support"
+    ],
+    "a": "Code Exchange"
+  },
+  {
+    "q": "Dev + Ops role?",
+    "type": "mc",
+    "opts": [
+      "Agile",
+      "SRE",
+      "DevOps",
+      "Scrum"
+    ],
+    "a": "SRE"
+  },
+  {
+    "q": "Ansible inventory file?",
+    "type": "mc",
+    "opts": [
+      "playbook",
+      "hosts",
+      "config",
+      "vars"
+    ],
+    "a": "hosts"
+  },
+  {
+    "q": "DevNet testing environment?",
+    "type": "mc",
+    "opts": [
+      "Labs",
+      "Sandbox",
+      "CLI",
+      "Exchange"
+    ],
+    "a": "Sandbox"
+  },
+  {
+    "q": "Reverse proxy purpose?",
+    "type": "mc",
+    "opts": [
+      "DNS mapping",
+      "Mask backend servers",
+      "Encrypt traffic",
+      "Route traffic"
+    ],
+    "a": "Mask backend servers"
+  },
+  {
+    "q": "Agile characteristic?",
+    "type": "mc",
+    "opts": [
+      "Sequential",
+      "Iterative delivery",
+      "Fixed plan",
+      "Rigid"
+    ],
+    "a": "Iterative delivery"
+  },
+  {
+    "q": "Docker default tag?",
+    "type": "mc",
+    "opts": [
+      "default",
+      "latest",
+      "tag",
+      "none"
+    ],
+    "a": "latest"
+  },
+  {
+    "q": "pyATS job runner?",
+    "type": "mc",
+    "opts": [
+      "Genie",
+      "EasyPy",
+      "AETest",
+      "API"
+    ],
+    "a": "EasyPy"
+  },
+  {
+    "q": "DevNet support? (Choose three)",
+    "type": "multi",
+    "opts": [
+      "Forum",
+      "Webex",
+      "Cisco Learning Network",
+      "FTP"
+    ],
+    "a": [
+      "Forum",
+      "Webex",
+      "Cisco Learning Network"
+    ]
+  },
+  {
+    "q": "Hands-on DevNet resource?",
+    "type": "mc",
+    "opts": [
+      "Zone",
+      "Labs",
+      "Sandbox",
+      "Support"
+    ],
+    "a": "Labs"
+  },
+  {
+    "q": "Default Linux shell?",
+    "type": "mc",
+    "opts": [
+      "tcsh",
+      "bash",
+      "zsh",
+      "sh"
+    ],
+    "a": "bash"
+  },
+  {
+    "q": "Immutable infrastructure?",
+    "type": "mc",
+    "opts": [
+      "Manual config allowed",
+      "Code-only changes",
+      "Containers only",
+      "VM only"
+    ],
+    "a": "Code-only changes"
+  },
+  {
+    "q": "Main cause of outages?",
+    "type": "mc",
+    "opts": [
+      "Cyberattack",
+      "Human error",
+      "Hardware failure",
+      "Software bug"
+    ],
+    "a": "Human error"
+  },
+  {
+    "q": "YAML document separator?",
+    "type": "mc",
+    "opts": [
+      "//",
+      "---",
+      "###",
+      "**"
+    ],
+    "a": "---"
+  },
+  {
+    "q": "Function vs method?",
+    "type": "mc",
+    "opts": [
+      "Same",
+      "Methods belong to objects",
+      "Functions use classes",
+      "Methods standalone"
+    ],
+    "a": "Methods belong to objects"
+  },
+  {
+    "q": "Git init does?",
+    "type": "mc",
+    "opts": [
+      "Clone repo",
+      "Create repo",
+      "Push code",
+      "Pull code"
+    ],
+    "a": "Create repo"
+  },
+  {
+    "q": "Lean prioritizes?",
+    "type": "mc",
+    "opts": [
+      "Speed",
+      "Customer value",
+      "Documentation",
+      "Testing"
+    ],
+    "a": "Customer value"
+  },
+  {
+    "q": "YAML separator?",
+    "type": "mc",
+    "opts": [
+      ":",
+      ";",
+      "/",
+      "_"
+    ],
+    "a": ":"
+  },
+  {
+    "q": "Compare files in Git?",
+    "type": "mc",
+    "opts": [
+      "git diff",
+      "git log",
+      "git pull",
+      "git add"
+    ],
+    "a": "git diff"
+  },
+  {
+    "q": "UCS purpose?",
+    "type": "mc",
+    "opts": [
+      "Routing",
+      "Server mgmt",
+      "Switching",
+      "Security"
+    ],
+    "a": "Server mgmt"
+  },
+  {
+    "q": "Webex API user lookup?",
+    "type": "mc",
+    "opts": [
+      "Email",
+      "Person ID",
+      "Name",
+      "Org"
+    ],
+    "a": "Person ID"
+  },
+  {
+    "q": "NETCONF Python library?",
+    "type": "mc",
+    "opts": [
+      "ncclient",
+      "pip",
+      "json",
+      "rest"
+    ],
+    "a": "ncclient"
+  },
+  {
+    "q": "Port 443?",
+    "type": "mc",
+    "opts": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "DNS"
+    ],
+    "a": "HTTPS"
+  },
+  {
+    "q": "Data plane function?",
+    "type": "mc",
+    "opts": [
+      "Routing",
+      "Forwarding packets",
+      "Monitoring",
+      "Config"
+    ],
+    "a": "Forwarding packets"
+  },
+  {
+    "q": "Dockerfile is used to?",
+    "type": "mc",
+    "opts": [
+      "Run containers",
+      "Build images",
+      "Monitor containers",
+      "Store data"
+    ],
+    "a": "Build images"
+  },
+  {
+    "q": "VM characteristics? (Choose three)",
+    "type": "multi",
+    "opts": [
+      "Guest OS",
+      "Hypervisor",
+      "Self-contained",
+      "Shares OS"
+    ],
+    "a": [
+      "Guest OS",
+      "Hypervisor",
+      "Self-contained"
+    ]
+  },
+  {
+    "q": "Staging environment? (Choose two)",
+    "type": "multi",
+    "opts": [
+      "Realistic",
+      "Production use",
+      "Testing",
+      "User access"
+    ],
+    "a": [
+      "Realistic",
+      "Testing"
+    ]
+  },
+  {
+    "q": "Jenkins run pipeline?",
+    "type": "mc",
+    "opts": [
+      "Build Now",
+      "Configure",
+      "Workspace",
+      "Changes"
+    ],
+    "a": "Build Now"
+  },
+  {
+    "q": "Password salting?",
+    "type": "mc",
+    "opts": [
+      "Encryp",
+      "Randomize hash",
+      "Validate",
+      "Store"
+    ],
+    "a": "Randomize hash"
+  },
+  {
+    "q": "Self-service IT?",
+    "type": "mc",
+    "opts": [
+      "Manual setup",
+      "Automated provisioning",
+      "Hardware config",
+      "Monitoring"
+    ],
+    "a": "Automated provisioning"
+  },
+  {
+    "q": "Orchestration means?",
+    "type": "mc",
+    "opts": [
+      "Provision hardware",
+      "Automate workflows",
+      "Monitor systems",
+      "Deploy code"
+    ],
+    "a": "Automate workflows"
+  },
+  {
+    "q": "Read-only automation?",
+    "type": "mc",
+    "opts": [
+      "Configure",
+      "Audit only",
+      "Deploy",
+      "Delete"
+    ],
+    "a": "Audit only"
+  },
+  {
+    "q": "SSL warning cause?",
+    "type": "mc",
+    "opts": [
+      "Expired cert",
+      "Self-signed cert",
+      "No encryption",
+      "Weak key"
+    ],
+    "a": "Self-signed cert"
+  },
+  {
+    "q": "API benefit?",
+    "type": "mc",
+    "opts": [
+      "Faster CPU",
+      "Automation",
+      "Storage",
+      "Hardware"
+    ],
+    "a": "Automation"
+  },
+  {
+    "q": "DNS port?",
+    "type": "mc",
+    "opts": [
+      "80",
+      "443",
+      "53",
+      "22"
+    ],
+    "a": "53"
+  },
+  {
+    "q": "Traceroute does?",
+    "type": "mc",
+    "opts": [
+      "Ping",
+      "Show path",
+      "DNS lookup",
+      "Route config"
+    ],
+    "a": "Show path"
+  },
+  {
+    "q": "HTTP update methods?",
+    "type": "mc",
+    "opts": [
+      "POST",
+      "GET",
+      "PUT/PATCH",
+      "DELETE"
+    ],
+    "a": "PUT/PATCH"
+  },
+  {
+    "q": "HTTP 4xx? ",
+    "type": "mc",
+    "opts": [
+      "Success",
+      "Server error",
+      "Client error",
+      "Redirect"
+    ],
+    "a": "Client error"
+  },
+  {
+    "q": "Webhook requirement? (Choose two)",
+    "type": "multi",
+    "opts": [
+      "Always running",
+      "Registered URL",
+      "SSH required",
+      "DNS required"
+    ],
+    "a": [
+      "Always running",
+      "Registered URL"
+    ]
+  },
+  {
+    "q": "HTTP 202?",
+    "type": "mc",
+    "opts": [
+      "Success",
+      "Accepted processing",
+      "Error",
+      "Redirect"
+    ],
+    "a": "Accepted processing"
+  },
+  {
+    "q": "Stateless app? (Choose two)",
+    "type": "multi",
+    "opts": [
+      "Scalable",
+      "No memory",
+      "External DB",
+      "Fixed"
+    ],
+    "a": [
+      "Scalable",
+      "External DB"
+    ]
+  },
+  {
+    "q": "CI characteristic?",
+    "type": "mc",
+    "opts": [
+      "Deploy to prod",
+      "Merge frequently",
+      "Manual test",
+      "Slow dev"
+    ],
+    "a": "Merge frequently"
+  },
+  {
+    "q": "Waterfall?",
+    "type": "mc",
+    "opts": [
+      "Iterative",
+      "Sequential",
+      "Agile",
+      "Fast"
+    ],
+    "a": "Sequential"
+  },
+  {
+    "q": "Deployment phase?",
+    "type": "mc",
+    "opts": [
+      "Code",
+      "Install prod",
+      "Test",
+      "Design"
+    ],
+    "a": "Install prod"
+  },
+  {
+    "q": "Python private variable?",
+    "type": "mc",
+    "opts": [
+      "_var",
+      "__var",
+      "var_",
+      "#var"
+    ],
+    "a": "_var"
+  },
+  {
+    "q": "Port 80?",
+    "type": "mc",
+    "opts": [
+      "HTTP",
+      "HTTPS",
+      "SSH",
+      "FTP"
+    ],
+    "a": "HTTP"
+  },
+  {
+    "q": "Webex xAPI protocols? (Choose three)",
+    "type": "multi",
+    "opts": [
+      "HTTP",
+      "Telnet",
+      "RS-232",
+      "FTP"
+    ],
+    "a": [
+      "HTTP",
+      "Telnet",
+      "RS-232"
+    ]
+  },
+  {
+    "q": "Webex API message?",
+    "type": "mc",
+    "opts": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "a": "POST"
+  },
+  {
+    "q": "Invalid subnet?",
+    "type": "mc",
+    "opts": [
+      "/26 overlap",
+      "/27 error",
+      "Overlapping range",
+      "Valid"
+    ],
+    "a": "Overlapping range"
+  },
+  {
+    "q": "Stateful firewall? ",
+    "type": "mc",
+    "opts": [
+      "Tracks sessions",
+      "Only L3",
+      "NAT",
+      "DNS"
+    ],
+    "a": "Tracks sessions"
+  },
+   {
+    "q": "Lean characteristic?",
+    "type": "mc",
+    "opts": [
+      "Sequential",
+      "Optimize flow",
+      "Waterfall",
+      "Fixed"
+    ],
+    "a": "Optimize flow"
+  },
+  {
+    "q": "Valid URI?",
+    "type": "mc",
+    "opts": [
+      "Proper encoding",
+      "Invalid",
+      "Missing key",
+      "Wrong format"
+    ],
+    "a": "Proper encoding"
+  },
+  {
+    "q": "REST constraint?",
+    "type": "mc",
+    "opts": [
+      "Stateful",
+      "Stateless",
+      "Local",
+      "Static"
+    ],
+    "a": "Stateless"
+  },
+  {
+    "q": "Dynamic NAT?",
+    "type": "mc",
+    "opts": [
+      "Static mapping",
+      "Dynamic mapping",
+      "DNS",
+      "DHCP"
+    ],
+    "a": "Dynamic mapping"
+  },
+  {
+    "q": "Port 830?",
+    "type": "mc",
+    "opts": [
+      "HTTP",
+      "NETCONF",
+      "SSH",
+      "FTP"
+    ],
+    "a": "NETCONF"
+  },
+  {
+    "q": "Webex macro language?",
+    "type": "mc",
+    "opts": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C++"
+    ],
+    "a": "JavaScript"
+  },
+  {
+    "q": "SDN platform (Nexus)?",
+    "type": "mc",
+    "opts": [
+      "ACI",
+      "IOS",
+      "CLI",
+      "UCS"
+    ],
+    "a": "ACI"
+  },
+  {
+    "q": "Python venv command?",
+    "type": "mc",
+    "opts": [
+      "Install",
+      "Create env",
+      "Run",
+      "Delete"
+    ],
+    "a": "Create env"
+  },
+  {
+    "q": "SSH is used by?",
+    "type": "mc",
+    "opts": [
+      "Ansible",
+      "Docker",
+      "REST",
+      "SNMP"
+    ],
+    "a": "Ansible"
+  },
+  {
+    "q": "NAT process?",
+    "type": "mc",
+    "opts": [
+      "Translate IP",
+      "Route",
+      "Encrypt",
+      "Filter"
+    ],
+    "a": "Translate IP"
+  },
+  {
+    "q": "Control plane?",
+    "type": "mc",
+    "opts": [
+      "Forward",
+      "Routing logic",
+      "Monitor",
+      "CLI"
+    ],
+    "a": "Routing logic"
+  },
+  {
+    "q": "TCP/IP layer for ports?",
+    "type": "mc",
+    "opts": [
+      "Network",
+      "Transport",
+      "Physical",
+      "Session"
+    ],
+    "a": "Transport"
+  },
+  {
+    "q": "Cisco ISE function?",
+    "type": "mc",
+    "opts": [
+      "Routing",
+      "Identity control",
+      "Switching",
+      "Storage"
+    ],
+    "a": "Identity control"
+  },
+  {
+    "q": "DHCP ACK?",
+    "type": "mc",
+    "opts": [
+      "Offer",
+      "Confirm lease",
+      "Request",
+      "Discover"
+    ],
+    "a": "Confirm lease"
+  },
+  {
+    "q": "MapQuest URI component?",
+    "type": "mc",
+    "opts": [
+      "Path",
+      "Query",
+      "Scheme",
+      "Authority"
+    ],
+    "a": "Query"
+  },
+  {
+    "q": "Management plane?",
+    "type": "mc",
+    "opts": [
+      "Forward",
+      "Monitor",
+      "Route",
+      "Encrypt"
+    ],
+    "a": "Monitor"
+  },
+  {
+    "q": "RESTCONF formats?",
+    "type": "mc",
+    "opts": [
+      "JSON/XML",
+      "CSV",
+      "TXT",
+      "HTML"
+    ],
+    "a": "JSON/XML"
+  },
+  {
+    "q": "Switching method?",
+    "type": "mc",
+    "opts": [
+      "Store-forward",
+      "Cut-through",
+      "Both",
+      "Routing"
+    ],
+    "a": "Both"
+  },
+  {
+    "q": "Social engineering example?",
+    "type": "mc",
+    "opts": [
+      "Phishing",
+      "Survey imitation",
+      "Password attack",
+      "Virus"
+    ],
+    "a": "Survey imitation"
+  },
+  {
+    "q": "SQL defense last resort?",
+    "type": "mc",
+    "opts": [
+      "Escaping input",
+      "Parameterized queries",
+      "Firewall",
+      "Validation"
+    ],
+    "a": "Escaping input"
+  },
+  {
+    "q": "Container orchestration?",
+    "type": "mc",
+    "opts": [
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "API"
+    ],
+    "a": "Kubernetes"
+  }
+]

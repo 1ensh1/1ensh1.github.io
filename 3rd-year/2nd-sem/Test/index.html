@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Network Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <div id="menu-screen">
+            <div class="header">
+                <h1>Development Network</h1>
+                <p>Select a formative assessment to begin</p>
+            </div>
+            <div class="formative-grid">
+                </div>
+        </div>
+
+        <div id="quiz-screen" class="quiz-container hidden">
+            <div class="canvas-layout">
+                
+                <div class="quiz-sidebar">
+                    <div class="sidebar-header">
+                        <button class="back-btn" onclick="backToMenu()">← Exit Quiz</button>
+                        <h3>Formative <span id="current-formative"></span></h3>
+                        <p id="answered-status">0 / 0 Answered</p>
+                    </div>
+                    <div id="question-nav-grid" class="nav-grid"></div>
+                    <button id="submit-quiz-btn" class="btn btn-success full-width" onclick="submitQuiz()">Submit Quiz</button>
+                </div>
+
+                <div class="quiz-main">
+                    <div class="quiz-header">
+                        <h2 class="question-label">Question <span id="current-question"></span></h2>
+                    </div>
+                    
+                    <div class="question-content">
+                        <div class="question-text" id="question-text"></div>
+                        <div id="image-container"></div>
+                        <div id="options-container" class="options"></div>
+                    </div>
+
+                    <div class="canvas-nav-controls">
+                        <button id="next-btn" class="btn btn-primary" onclick="navigateQuestion(1)">Next →</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="results-screen" class="results-container hidden">
+            <div class="results-card">
+                <div class="results-icon" id="results-icon">🎉</div>
+                <h2 class="results-title">Quiz Submitted!</h2>
+                <div class="results-score" id="results-score">0 / 20</div>
+                <p class="results-message" id="results-message"></p>
+                <div class="results-buttons">
+                    <button class="btn btn-primary" onclick="backToMenu()">Return to Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

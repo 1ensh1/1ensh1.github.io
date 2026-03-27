@@ -1,0 +1,416 @@
+[
+  {
+    "q": "________ is available as open source, and in a version with added features from IBM/Red Hat",
+    "type": "mc",
+    "opts": [
+      "Puppet",
+      "Chef",
+      "Ansible",
+      "Salt"
+    ],
+    "a": "Ansible"
+  },
+  {
+    "q": "Procedural code cannot achieve idempotency.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Its products and solutions enable infra-as-code creation, testing, organization, repository storage, and execution on remote targets",
+    "type": "mc",
+    "opts": [
+      "Chef",
+      "Puppet",
+      "Ansible",
+      "Salt"
+    ],
+    "a": "Chef"
+  },
+  {
+    "q": "It enables you to provision virtualized hosts, configure virtual networks and other connectivity, requisition services, and then deploy applications on this infrastructure.",
+    "type": "mc",
+    "opts": [
+      "Infrastructure as a Service",
+      "Cloud Computing",
+      "Software as a Service",
+      "Cloud Automation"
+    ],
+    "a": "Cloud Automation"
+  },
+  {
+    "q": "What is the most common cause of IT outages?",
+    "type": "mc",
+    "opts": [
+      "a threat actor targeting the enterprise equipment",
+      "an experienced engineer implementing a configuration using automation",
+      "an engineer misconfiguring a device or network with manual changes",
+      "an experienced engineer using an open source product"
+    ],
+    "a": "an engineer misconfiguring a device or network with manual changes"
+  },
+  {
+    "q": "What is an unopinionated component in a software ecosystem?",
+    "type": "mc",
+    "opts": [
+      "a component that does not show an increased preference for specific companion components or architectures unless those components or architectures are necessary",
+      "a component that is classified as open source and does not require the implementation of specific vendor products",
+      "a component that may function in a limited ability in order to compensate for the selection of companion components or architectures",
+      "a component that requires a specific companion component in order to provide full stack implementation"
+    ],
+    "a": "a component that does not show an increased preference for specific companion components or architectures unless those components or architectures are necessary"
+  },
+  {
+    "q": "In the use of container technologies, what is a function of platform abstraction when considering the deployment of a product in a cloud environment?",
+    "type": "mc",
+    "opts": [
+      "Traditional complementary software components such as a database server and web server would be implemented as a single containerized application.",
+      "Applications require re-engineering in order to implement scalability and consolidation.",
+      "A containerized app can run on a generically-specified host environment.",
+      "Applications are aware of underlying hardware configurations and are customized to provide increased functionality."
+    ],
+    "a": "A containerized app can run on a generically-specified host environment."
+  },
+  {
+    "q": "A student is setting up the DEVASC-LAB VM and CSR1000v VM in VirtualBox that is installed on the local computer. Both VMs are imported to the VirtualBox successfully. The student starts both VMs and tries to verify communications to the CSR1000v VM by opening a web browser on the local computer and enters the URL https://192.168.56.101. After a few seconds, an error message displays that \"The connection has timed out\". How can the student verify the IP address assigned by DHCP to the CSR1000v virtual router?",
+    "type": "mc",
+    "opts": [
+      "Issue the ping 192.168.56.101 command on the local computer.",
+      "Issue the show ip interface brief command in the CSR1000v VM.",
+      "Issue the show running-config command in the CSR1000v VM.",
+      "Issue the ifconfig command in the CSR1000v VM."
+    ],
+    "a": "Issue the show ip interface brief command in the CSR1000v VM."
+  },
+  {
+    "q": "What is the historical correlation between software developers and IT operations?",
+    "type": "mc",
+    "opts": [
+      "Developers had the job of creating applications. Operations had the job of verifying that these applications work for users.",
+      "Operations had the job of brainstorming applications. Developers had the job of testing that these applications work for users and the business.",
+      "Operations had the job of testing applications. Developers had the job of implementing these applications for clients.",
+      "Developers had the job of testing applications. Operations had the job of implementing these applications for clients."
+    ],
+    "a": "Developers had the job of creating applications. Operations had the job of verifying that these applications work for users."
+  },
+  {
+    "q": "How is an error budget calculated in the DevOps/SRE culture?",
+    "type": "mc",
+    "opts": [
+      "An error budget is the difference between the SLO and the SLI.",
+      "An error budget is the difference between the SLO and 100% availability.",
+      "An error budget is the difference between the SLO and the SLA.",
+      "An error budget is the difference between the and 100% availability."
+    ],
+    "a": "An error budget is the difference between the SLO and 100% availability."
+  },
+  {
+    "q": "In reviewing a formalized agreement between an organization and a customer, what is the purpose of an SLI?",
+    "type": "mc",
+    "opts": [
+      "An SLI is a specific set of steps for slowing releases as errors occur.",
+      "An SLI is an easy to complete, external agreement that is set between the organization and the customer.",
+      "An SLI is a benchmark metric used to determine and describe SLOs.",
+      "An SLI is an agreed-upon number of errors per unit time."
+    ],
+    "a": "An SLI is a benchmark metric used to determine and describe SLOs."
+  },
+  {
+    "q": "What is the default shell commonly used on macOS and Linux?",
+    "type": "mc",
+    "opts": [
+      "Bash",
+      "csh",
+      "tcsh",
+      "Bourne"
+    ],
+    "a": "Bash"
+  },
+  {
+    "q": "Which type of automation includes scripting that may be dangerous if the starting state is not completely known and controlled?",
+    "type": "mc",
+    "opts": [
+      "stateful",
+      "stateless",
+      "declarative",
+      "procedural"
+    ],
+    "a": "procedural"
+  },
+  {
+    "q": "What is an imperative procedure?",
+    "type": "mc",
+    "opts": [
+      "An ordered sequence of commands that is used to reach a specific end state.",
+      "A set of commands that require administrator privileges and can only be executed on a local system.",
+      "A set of commands that is piped to a remote host and immediately executed.",
+      "A set of commands that examines a target and only performs the tasks needed to achieve the desired state."
+    ],
+    "a": "An ordered sequence of commands that is used to reach a specific end state."
+  },
+  {
+    "q": "Which statement describes the declarative static model?",
+    "type": "mc",
+    "opts": [
+      "A declarative model will examine present circumstances and bring real infrastructure into alignment in order to reach a desired state.",
+      "A declarative model will execute code that is sequentially task-driven instead of focusing on deployment-specific details.",
+      "A declarative model will follow a specific order of sequential steps in order to effect changes on a target system.",
+      "A declarative model will subdivide code into top-down sections and condition-driven handlers."
+    ],
+    "a": "A declarative model will examine present circumstances and bring real infrastructure into alignment in order to reach a desired state."
+  },
+  {
+    "q": "Which component in the pyATS ecology handles bundling and running jobs?",
+    "type": "mc",
+    "opts": [
+      "EasyPy",
+      "AEtest",
+      "Genie",
+      "Clover"
+    ],
+    "a": "EasyPy"
+  },
+  {
+    "q": "An engineer has just created a backup file of a Cisco VIRL network simulation. Which command should be used to compare the most recent .virl file with the previous backup file?",
+    "type": "mc",
+    "opts": [
+      "diff",
+      "pyats",
+      "knife",
+      "source",
+      "list"
+    ],
+    "a": "diff"
+  },
+  {
+    "q": "While working in the Ansible code structure, which type of file contains a sequence of tasks, executed in top-down order?",
+    "type": "mc",
+    "opts": [
+      ".virl",
+      ".yml",
+      ".py",
+      ".txt"
+    ],
+    "a": ".yml"
+  },
+  {
+    "q": "What is a standard command to create a Python virtual environment?",
+    "type": "mc",
+    "opts": [
+      "sudo apt-get install python3-pip",
+      "pip install [options] [package-index-options]...",
+      "python3 -m venv /path/to/new/virtual/environment",
+      "source bin/activate"
+    ],
+    "a": "python3 -m venv /path/to/new/virtual/environment"
+  },
+  {
+    "q": "What is the average cost per hour of an enterprise outage for the largest enterprises?",
+    "type": "mc",
+    "opts": [
+      "$700,000.00 per hour",
+      "$500,000.00 per hour",
+      "$300,000.00 per hour",
+      "$100,000.00 per hour"
+    ],
+    "a": "$300,000.00 per hour"
+  },
+  {
+    "q": "What is idempotency in IT automation?",
+    "type": "mc",
+    "opts": [
+      "the quality of software",
+      "the reusing of shell commands",
+      "the security level of software",
+      "the scripting of shell commands"
+    ],
+    "a": "the quality of software"
+  },
+  {
+    "q": "A student is creating an Ansible playbook to practice management automation of a Cisco router. Which command should the student add to the playbook to find the interface names, assigned IP addresses, and status of interfaces on the router?",
+    "type": "mc",
+    "opts": [
+      "show running-config",
+      "show ip interface brief",
+      "show ip route",
+      "ip address"
+    ],
+    "a": "show ip interface brief"
+  },
+  {
+    "q": "When following the best practices and core principles of DevOps, how is failure considered?",
+    "type": "mc",
+    "opts": [
+      "Failure is normal.",
+      "Failure is simply \"repair work\".",
+      "Failure should only occur in Ops.",
+      "Failure should not influence software design methodology."
+    ],
+    "a": "Failure is normal."
+  },
+  {
+    "q": "What is a canary deployment?",
+    "type": "mc",
+    "opts": [
+      "the switchover of selected users to a new release deployment",
+      "a production test using a chaos tool to inject random failures with a limited blast-radius",
+      "a server-by-server switchover to a new release deployment",
+      "the use of two identical servers with load balancers to redirect traffic for an entire server as needed"
+    ],
+    "a": "the switchover of selected users to a new release deployment"
+  },
+  {
+    "q": "What are two challenges of cloud computing technologies? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "utilizing generic host environments",
+      "maintaining access control",
+      "maintaining configurational consistency of platforms",
+      "managing costs",
+      "requesting additional resources"
+    ],
+    "a": [
+      "maintaining access control",
+      "managing costs"
+    ]
+  },
+  {
+    "q": "Which technology can run on bare metal or on large virtual machines to simulate Cisco networks and utilities?",
+    "type": "mc",
+    "opts": [
+      "Git",
+      "VIRL",
+      "Puppet",
+      "Ansible"
+    ],
+    "a": "VIRL"
+  },
+  {
+    "q": "An analyst is using Ansible to perform remote management tasks on network devices. Which file type is in the Ansible file structure that describes the devices under management?",
+    "type": "mc",
+    "opts": [
+      "role folders and files",
+      "variable file",
+      "inventory file",
+      "playbook file"
+    ],
+    "a": "inventory file"
+  },
+  {
+    "q": "What is an error budget in the DevOps/SRE culture?",
+    "type": "mc",
+    "opts": [
+      "It is the planned percentage of a monetary contract that is given back to a customer when an SLO is not met.",
+      "It is a best-practice metric for availability, equivalent to only six minutes of unplanned offline time per year.",
+      "It is an internal-only metric for calculating the actual availability of a service.",
+      "It is a method for measuring allowable errors as a gate on release speed."
+    ],
+    "a": "It is a method for measuring allowable errors as a gate on release speed."
+  },
+  {
+    "q": "Which programming language is used by Chef to execute the recipes?",
+    "type": "mc",
+    "opts": [
+      "Bash",
+      "Python",
+      "Ruby",
+      "Javascript"
+    ],
+    "a": "Ruby"
+  },
+  {
+    "q": "A developer issues a Linux command python3 -m venv devenv. What is the developer trying to achieve?",
+    "type": "mc",
+    "opts": [
+      "to install the devnet tool sets in the Python 3 virtual environment named venv",
+      "to activate the Python 3 virtual environment named devenv",
+      "to enter the Python 3 virtual environment named venv using the devnet tool sets",
+      "to create a Python 3 virtual environment named devenv"
+    ],
+    "a": "to create a Python 3 virtual environment named devenv"
+  },
+  {
+    "q": "It is founded as an open source in 2005 and commercialized, with modules enabling connections for cloud APIs and hardware that cannot run an agent.",
+    "type": "mc",
+    "opts": [
+      "Chef",
+      "Puppet",
+      "Ansible",
+      "Salt"
+    ],
+    "a": "Puppet"
+  },
+  {
+    "q": "It can be used to script access to the AWS CLI, you can use the built-in features and libraries of more sophisticated languages to parse complex returned datasets",
+    "type": "mc",
+    "opts": [
+      "IOS",
+      "Command Prompt",
+      "Bash",
+      "Terminal"
+    ],
+    "a": "Bash"
+  },
+  {
+    "q": "It lets developers and operators use software to requisition, configure, deploy, and manage bare-metal and virtualized compute, storage, and network resources.",
+    "type": "mc",
+    "opts": [
+      "DevNet",
+      "Cloud computing",
+      "DevOps",
+      "Network Automation"
+    ],
+    "a": "Cloud computing"
+  },
+  {
+    "q": "It enables you to define simulations as code, enabling both-ways integration with other software platforms for network management and testing.",
+    "type": "mc",
+    "opts": [
+      "VIRL",
+      "JSON",
+      "YAML",
+      "ANSIBLE"
+    ],
+    "a": "VIRL"
+  },
+  {
+    "q": "________ is using code to configure, deploy, and manage applications together with the compute, storage, and network infrastructures and services on which they run.",
+    "type": "mc",
+    "opts": [
+      "Cybernetics",
+      "Application",
+      "Automation",
+      "Mechanization"
+    ],
+    "a": "Automation"
+  },
+  {
+    "q": "An Idempotent software produces the same desirable result each time that it is run.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Refer to the exhibit. A user is working on Ansible on the local NMS to manage remote network devices. The user issues the ansible webservers -m ping command to test the communication. However, an error message returns. What are two possible causes for the error? (Choose two.)",
+    "img": "fa7_image1.png",
+    "type": "multi",
+    "opts": [
+      "The SSH credential is wrong.",
+      "The destination host IP address is wrong.",
+      "The switch -m should be -M",
+      "The SSH client is not installed.",
+      "The destination host alias is wrong.",
+      "The SSH service does not start on the host."
+    ],
+    "a": [
+      "The destination host IP address is wrong.",
+      "The SSH service does not start on the host."
+    ]
+  }
+]

@@ -1,0 +1,805 @@
+[
+  {
+    "q": "Which device is commonly used to protect internal networks from unauthorized access?",
+    "type": "mc",
+    "opts": [
+      "Hub",
+      "Router",
+      "Firewall",
+      "Switch"
+    ],
+    "a": "Firewall"
+  },
+  {
+    "q": "Which network topology connects each device to a central hub or switch?",
+    "type": "mc",
+    "opts": [
+      "Bus",
+      "Star",
+      "Mesh",
+      "Ring"
+    ],
+    "a": "Star"
+  },
+  {
+    "q": "Which device operates at Layer 1 of the OSI model?",
+    "type": "mc",
+    "opts": [
+      "Firewall",
+      "Router",
+      "Hub",
+      "Switch"
+    ],
+    "a": "Hub"
+  },
+  {
+    "q": "Which protocol is used for retrieving email?",
+    "type": "mc",
+    "opts": [
+      "SNMP",
+      "IMAP",
+      "SMTP",
+      "FTP"
+    ],
+    "a": "IMAP"
+  },
+  {
+    "q": "Which cable type is immune to electromagnetic interference?",
+    "type": "mc",
+    "opts": [
+      "UTP",
+      "STP",
+      "Coaxial",
+      "Fiber optic"
+    ],
+    "a": "Fiber optic"
+  },
+  {
+    "q": "Which IPv4 address block is reserved for APIPA?",
+    "type": "mc",
+    "opts": [
+      "172.16.0.0/12",
+      "10.0.0.0/8",
+      "192.168.0.0/16",
+      "169.254.0.0/16"
+    ],
+    "a": "169.254.0.0/16"
+  },
+  {
+    "q": "Which IPv6 address type delivers to the nearest device in a group?",
+    "type": "mc",
+    "opts": [
+      "Anycast",
+      "Link Local",
+      "Multicast",
+      "Unicast"
+    ],
+    "a": "Anycast"
+  },
+  {
+    "q": "Which protocol is used for sending email?",
+    "type": "mc",
+    "opts": [
+      "IMAP",
+      "SNMP",
+      "POP3",
+      "SMTP"
+    ],
+    "a": "SMTP"
+  },
+  {
+    "q": "Which command displays the routing table on a Cisco device?",
+    "type": "mc",
+    "opts": [
+      "show version",
+      "ping",
+      "show ip route",
+      "traceroute"
+    ],
+    "a": "show ip route"
+  },
+  {
+    "q": "What is the primary function of ARP?",
+    "type": "mc",
+    "opts": [
+      "Resolve IP addresses to MAC addresses",
+      "Encrypt network traffic",
+      "Assign IP addresses automatically",
+      "Resolve hostnames to IP addresses"
+    ],
+    "a": "Resolve IP addresses to MAC addresses"
+  },
+  {
+    "q": "Which frequency band is used by 802.11b Wi-Fi?",
+    "type": "mc",
+    "opts": [
+      "60 GHz",
+      "2.4 GHz",
+      "5 GHz",
+      "900 MHz"
+    ],
+    "a": "2.4 GHz"
+  },
+  {
+    "q": "Which device operates primarily at Layer 2 of the OSI model?",
+    "type": "mc",
+    "opts": [
+      "Router",
+      "Server",
+      "Firewall",
+      "Switch"
+    ],
+    "a": "Switch"
+  },
+  {
+    "q": "Which protocol uses port 23 by default?",
+    "type": "mc",
+    "opts": [
+      "FTP",
+      "Telnet",
+      "SNMP",
+      "SSH"
+    ],
+    "a": "Telnet"
+  },
+  {
+    "q": "Which IPv6 address is automatically assigned to interfaces?",
+    "type": "mc",
+    "opts": [
+      "Anycast",
+      "Unique Local",
+      "Link Local",
+      "Multicast"
+    ],
+    "a": "Link Local"
+  },
+  {
+    "q": "What is the default port number for HTTPS?",
+    "type": "mc",
+    "opts": [
+      "21",
+      "443",
+      "22",
+      "20"
+    ],
+    "a": "443"
+  },
+  {
+    "q": "Which address is used by a device to communicate with all devices on a subnet?",
+    "type": "mc",
+    "opts": [
+      "Anycast address",
+      "Gateway address",
+      "Broadcast address",
+      "Loopback address"
+    ],
+    "a": "Broadcast address"
+  },
+  {
+    "q": "Which routing protocol is distance-vector based?",
+    "type": "mc",
+    "opts": [
+      "RIP",
+      "EIGRP",
+      "OSPF",
+      "IS-IS"
+    ],
+    "a": "RIP"
+  },
+  {
+    "q": "Which layer uses IP addresses to route packets?",
+    "type": "mc",
+    "opts": [
+      "Application",
+      "Data Link",
+      "Network",
+      "Physical"
+    ],
+    "a": "Network"
+  },
+  {
+    "q": "Which command tests end-to-end reachability on a network?",
+    "type": "mc",
+    "opts": [
+      "arp",
+      "ipconfig",
+      "ping",
+      "nslookup"
+    ],
+    "a": "ping"
+  },
+  {
+    "q": "Which protocol enables file transfers between network devices?",
+    "type": "mc",
+    "opts": [
+      "SNMP",
+      "SMTP",
+      "NTP",
+      "FTP"
+    ],
+    "a": "FTP"
+  },
+  {
+    "q": "Which term describes a network that spans a single building?",
+    "type": "mc",
+    "opts": [
+      "MAN",
+      "Internet",
+      "WAN",
+      "LAN"
+    ],
+    "a": "LAN"
+  },
+  {
+    "q": "What is the purpose of a default gateway?",
+    "type": "mc",
+    "opts": [
+      "To assign IP addresses",
+      "To forward traffic to remote networks",
+      "To provide DNS resolution",
+      "To filter traffic"
+    ],
+    "a": "To forward traffic to remote networks"
+  },
+  {
+    "q": "Which IP protocol provides connectionless service?",
+    "type": "mc",
+    "opts": [
+      "TCP",
+      "HTTP",
+      "UDP",
+      "ICMP"
+    ],
+    "a": "UDP"
+  },
+  {
+    "q": "Which device is used to divide a network into multiple collision domains?",
+    "type": "mc",
+    "opts": [
+      "Hub",
+      "Bridge",
+      "Repeater",
+      "Switch"
+    ],
+    "a": "Switch"
+  },
+  {
+    "q": "Which Cisco command verifies interface status?",
+    "type": "mc",
+    "opts": [
+      "show ip interface brief",
+      "show vlan brief",
+      "show running-config",
+      "show version"
+    ],
+    "a": "show ip interface brief"
+  },
+  {
+    "q": "Which feature allows adding buttons or widgets to Webex Touch 10?",
+    "type": "mc",
+    "opts": [
+      "xAPI only",
+      "UCS Profiles",
+      "UI Extensions",
+      "Cobra SDK"
+    ],
+    "a": "UI Extensions"
+  },
+  {
+    "q": "In Cisco SD-WAN, which component provides centralized management?",
+    "type": "mc",
+    "opts": [
+      "vBond",
+      "vManage",
+      "vEdge",
+      "vSmart"
+    ],
+    "a": "vManage"
+  },
+  {
+    "q": "Cisco AMP provides protection against:",
+    "type": "mc",
+    "opts": [
+      "Malware on endpoints",
+      "UCS failures",
+      "API errors",
+      "SD-WAN misconfiguration"
+    ],
+    "a": "Malware on endpoints"
+  },
+  {
+    "q": "Which Cisco solution provides cloud-managed networking with wireless, switching, and security?",
+    "type": "mc",
+    "opts": [
+      "ACI",
+      "Meraki",
+      "UCS",
+      "NSO"
+    ],
+    "a": "Meraki"
+  },
+  {
+    "q": "NETCONF uses which encoding format?",
+    "type": "mc",
+    "opts": [
+      "JSON only",
+      "Binary",
+      "XML",
+      "YAML"
+    ],
+    "a": "XML"
+  },
+  {
+    "q": "Cisco Webex Teams provides:",
+    "type": "mc",
+    "opts": [
+      "Malware scanning",
+      "Compute virtualization",
+      "Messaging and meetings",
+      "Router provisioning"
+    ],
+    "a": "Messaging and meetings"
+  },
+  {
+    "q": "AXL in Unified CM is based on:",
+    "type": "mc",
+    "opts": [
+      "NETCONF",
+      "GraphQL",
+      "REST",
+      "SOAP/XML"
+    ],
+    "a": "SOAP/XML"
+  },
+  {
+    "q": "Cisco Umbrella enforces security using:",
+    "type": "mc",
+    "opts": [
+      "IP blocking",
+      "UCS profiles",
+      "DNS",
+      "API tokens"
+    ],
+    "a": "DNS"
+  },
+  {
+    "q": "Which UCS API method is used for authentication?",
+    "type": "mc",
+    "opts": [
+      "configConfMo",
+      "netconf-yang",
+      "aaaLogin",
+      "configResolveClass"
+    ],
+    "a": "aaaLogin"
+  },
+  {
+    "q": "RESTCONF is easier to learn for engineers with experience in which technology?",
+    "type": "mc",
+    "opts": [
+      "REST APIs",
+      "NETCONF",
+      "CLI",
+      "Python SDKs"
+    ],
+    "a": "REST APIs"
+  },
+  {
+    "q": "Cisco Intersight is delivered as:",
+    "type": "mc",
+    "opts": [
+      "VM-only software",
+      "On-premises hardware",
+      "CLI-only toolkit",
+      "SaaS (cloud-based) platform"
+    ],
+    "a": "SaaS (cloud-based) platform"
+  },
+  {
+    "q": "The Meraki Location Scanning API is often used in:",
+    "type": "mc",
+    "opts": [
+      "Routing protocols",
+      "Retail and conference deployments",
+      "SD-WAN controllers",
+      "UCS servers"
+    ],
+    "a": "Retail and conference deployments"
+  },
+  {
+    "q": "Which Cisco platform provides centralized management and analytics for enterprises?",
+    "type": "mc",
+    "opts": [
+      "DNA Center",
+      "UCS",
+      "Webex",
+      "ACI"
+    ],
+    "a": "DNA Center"
+  },
+  {
+    "q": "Cisco Finesse is a:",
+    "type": "mc",
+    "opts": [
+      "Browser-based contact center desktop",
+      "Security platform",
+      "UCS automation toolkit",
+      "SD-WAN orchestrator"
+    ],
+    "a": "Browser-based contact center desktop"
+  },
+  {
+    "q": "Which command enables RESTCONF on IOS XE devices?",
+    "type": "mc",
+    "opts": [
+      "restconf",
+      "http rest",
+      "restconf-yang",
+      "enable-rest"
+    ],
+    "a": "restconf"
+  },
+  {
+    "q": "Which UCS API method retrieves objects by Distinguished Name (DN)?",
+    "type": "mc",
+    "opts": [
+      "configResolveDn",
+      "queryDN",
+      "configScope",
+      "aaaLogin"
+    ],
+    "a": "configResolveDn"
+  },
+  {
+    "q": "Which API is used to customize Cisco Webex devices?",
+    "type": "mc",
+    "opts": [
+      "UDS",
+      "AXL",
+      "xAPI",
+      "DNA Intent API"
+    ],
+    "a": "xAPI"
+  },
+  {
+    "q": "Cisco UCS Director provides which feature for users?",
+    "type": "mc",
+    "opts": [
+      "Intersight Ansible",
+      "API Inspector",
+      "Self-service catalog",
+      "UI Extensions"
+    ],
+    "a": "Self-service catalog"
+  },
+  {
+    "q": "Cisco Intersight provides integrations with:",
+    "type": "mc",
+    "opts": [
+      "UCS PowerTool",
+      "Terraform only",
+      "DNA SDK",
+      "Ansible modules"
+    ],
+    "a": "Ansible modules"
+  },
+  {
+    "q": "Which NX-OS feature must be enabled to install RPMs?",
+    "type": "mc",
+    "opts": [
+      "NETCONF",
+      "restconf-yang",
+      "snmp-server",
+      "bash-shell"
+    ],
+    "a": "bash-shell"
+  },
+  {
+    "q": "Cisco UCS is described as:",
+    "type": "mc",
+    "opts": [
+      "Hyperconverged infrastructure",
+      "Malware protection",
+      "Collaboration-only",
+      "WAN monitoring system"
+    ],
+    "a": "Hyperconverged infrastructure"
+  },
+  {
+    "q": "Cisco Threat Grid specializes in:",
+    "type": "mc",
+    "opts": [
+      "Call routing",
+      "Cloud management",
+      "Malware analysis",
+      "UCS orchestration"
+    ],
+    "a": "Malware analysis"
+  },
+  {
+    "q": "Cisco Meraki Dashboard API uses:",
+    "type": "mc",
+    "opts": [
+      "REST over HTTPS with JSON",
+      "SOAP/XML",
+      "gRPC",
+      "NX-API"
+    ],
+    "a": "REST over HTTPS with JSON"
+  },
+  {
+    "q": "Which Cisco SDK is used to automate UCS Manager?",
+    "type": "mc",
+    "opts": [
+      "Webex SDK",
+      "DNA Center SDK",
+      "Meraki SDK",
+      "UCS Python SDK"
+    ],
+    "a": "UCS Python SDK"
+  },
+  {
+    "q": "Webex Board, Room, and Desk devices belong to which family?",
+    "type": "mc",
+    "opts": [
+      "ACI",
+      "UCS",
+      "Webex Devices",
+      "Meraki"
+    ],
+    "a": "Webex Devices"
+  },
+  {
+    "q": "Which IPv4 address is reserved for loopback testing?",
+    "type": "mc",
+    "opts": [
+      "192.168.1.1",
+      "127.0.0.1",
+      "224.0.0.1",
+      "10.0.0.1"
+    ],
+    "a": "127.0.0.1"
+  },
+  {
+    "q": "Which device learns MAC addresses and forwards frames accordingly?",
+    "type": "mc",
+    "opts": [
+      "Hub",
+      "Switch",
+      "Router",
+      "Firewall"
+    ],
+    "a": "Switch"
+  },
+  {
+    "q": "Which wireless security protocol is considered most secure?",
+    "type": "mc",
+    "opts": [
+      "WPA",
+      "WPA2",
+      "WEP",
+      "None"
+    ],
+    "a": "WPA2"
+  },
+  {
+    "q": "Which type of IPv6 address begins with FE80?",
+    "type": "mc",
+    "opts": [
+      "Unique Local",
+      "Multicast",
+      "Anycast",
+      "Link Local"
+    ],
+    "a": "Link Local"
+  },
+  {
+    "q": "Which layer of the OSI model is responsible for reliable delivery using acknowledgements?",
+    "type": "mc",
+    "opts": [
+      "Data Link",
+      "Network",
+      "Transport",
+      "Application"
+    ],
+    "a": "Transport"
+  },
+  {
+    "q": "Which routing protocol uses link-state advertisements?",
+    "type": "mc",
+    "opts": [
+      "BGP",
+      "RIP",
+      "OSPF",
+      "EIGRP"
+    ],
+    "a": "OSPF"
+  },
+  {
+    "q": "Which layer of the OSI model defines cable types and connectors?",
+    "type": "mc",
+    "opts": [
+      "Network",
+      "Physical",
+      "Transport",
+      "Data Link"
+    ],
+    "a": "Physical"
+  },
+  {
+    "q": "Which IPv4 address class supports 16 million hosts?",
+    "type": "mc",
+    "opts": [
+      "Class D",
+      "Class B",
+      "Class C",
+      "Class A"
+    ],
+    "a": "Class A"
+  },
+  {
+    "q": "Which device forwards packets between networks based on IP addresses?",
+    "type": "mc",
+    "opts": [
+      "Hub",
+      "Router",
+      "Switch",
+      "Firewall"
+    ],
+    "a": "Router"
+  },
+  {
+    "q": "Which protocol is used to translate human-readable names to IP addresses?",
+    "type": "mc",
+    "opts": [
+      "DHCP",
+      "DNS",
+      "NTP",
+      "SNMP"
+    ],
+    "a": "DNS"
+  },
+  {
+    "q": "Which protocol is primarily used for secure network device management?",
+    "type": "mc",
+    "opts": [
+      "SMTP",
+      "SSH",
+      "Telnet",
+      "FTP"
+    ],
+    "a": "SSH"
+  },
+  {
+    "q": "Which tool traces the path packets take through a network?",
+    "type": "mc",
+    "opts": [
+      "ipconfig",
+      "traceroute",
+      "ping",
+      "nslookup"
+    ],
+    "a": "traceroute"
+  },
+  {
+    "q": "In SD-WAN, which component authenticates new devices?",
+    "type": "mc",
+    "opts": [
+      "vBond",
+      "vSmart",
+      "vManage",
+      "UCS Manager"
+    ],
+    "a": "vBond"
+  },
+  {
+    "q": "Cisco Firepower Management Center integrates with:",
+    "type": "mc",
+    "opts": [
+      "UCS",
+      "DNA Center",
+      "ISE",
+      "Meraki"
+    ],
+    "a": "ISE"
+  },
+  {
+    "q": "Which Umbrella API provides threat intelligence lookups?",
+    "type": "mc",
+    "opts": [
+      "Devices API",
+      "Enforcement API",
+      "Reporting API",
+      "Investigate API"
+    ],
+    "a": "Investigate API"
+  },
+  {
+    "q": "What does SDK stand for?",
+    "type": "mc",
+    "opts": [
+      "Secure Data Kernel",
+      "System Deployment Kit",
+      "Server Development Key",
+      "Software Development Kit"
+    ],
+    "a": "Software Development Kit"
+  },
+  {
+    "q": "Which operating system runs on Nexus switches?",
+    "type": "mc",
+    "opts": [
+      "Linux only",
+      "IOS XE",
+      "NX-OS",
+      "IOS XR"
+    ],
+    "a": "NX-OS"
+  },
+  {
+    "q": "Cisco Unified CM is also known as:",
+    "type": "mc",
+    "opts": [
+      "CallManager",
+      "DNA Manager",
+      "Webex Manager",
+      "UCS Manager"
+    ],
+    "a": "CallManager"
+  },
+  {
+    "q": "Which tool allows UCS automation using PowerShell cmdlets?",
+    "type": "mc",
+    "opts": [
+      "Cobra SDK",
+      "UCS PowerTool",
+      "UCS Director",
+      "UCS Ansible"
+    ],
+    "a": "UCS PowerTool"
+  },
+  {
+    "q": "Cisco NSO uses which modeling language?",
+    "type": "mc",
+    "opts": [
+      "YANG",
+      "OpenAPI",
+      "XML",
+      "JSON Schema"
+    ],
+    "a": "YANG"
+  },
+  {
+    "q": "Which command enables NETCONF on IOS XE devices?",
+    "type": "mc",
+    "opts": [
+      "enable-netconf",
+      "config netconf",
+      "netconf-yang",
+      "restconf enable"
+    ],
+    "a": "netconf-yang"
+  },
+  {
+    "q": "Which Cisco platform provides WAN transport independence and embedded security?",
+    "type": "mc",
+    "opts": [
+      "Meraki",
+      "UCS",
+      "SD-WAN",
+      "ACI"
+    ],
+    "a": "SD-WAN"
+  },
+  {
+    "q": "What Cisco APIC feature lets you view API messages generated by the GUI?",
+    "type": "mc",
+    "opts": [
+      "Command Inspector",
+      "REST Analyzer",
+      "API Inspector",
+      "Policy Viewer"
+    ],
+    "a": "API Inspector"
+  }
+]

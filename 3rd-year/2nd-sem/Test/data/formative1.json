@@ -1,0 +1,19 @@
+[
+  {
+    "q": "Identify the component shown in the diagram.",
+    "img": "motherboard-diagram.png",
+    "type": "mc",
+    "opts": ["CPU", "RAM", "GPU", "PSU"],
+    "a": "CPU"
+  },
+  {
+    "q": "Match the Python data types to their descriptions.",
+    "type": "matching",
+    "pairs": [
+      { "term": "String", "match": "Text data wrapped in quotes" },
+      { "term": "Integer", "match": "Whole numbers without decimals" },
+      { "term": "Boolean", "match": "True or False values" },
+      { "term": "List", "match": "Ordered, mutable array of items" }
+    ]
+  }
+]

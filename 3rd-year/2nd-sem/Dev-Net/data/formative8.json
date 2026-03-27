@@ -1,0 +1,464 @@
+[
+  {
+    "q": "It is a Software as a Service (SaaS) systems management platform capable of managing infrastructure at the edge and remote locations as well as in the data center.",
+    "type": "mc",
+    "opts": [
+      "Cisco SD WAN",
+      "Cisco Unified Computing System",
+      "Cisco Application Centric Infrastructure",
+      "Cisco Intersight"
+    ],
+    "a": "Cisco Intersight"
+  },
+  {
+    "q": "It contains a set of software development tools integrated for developing applications for a specific device or system.",
+    "type": "mc",
+    "opts": [
+      "IDK",
+      "JDK",
+      "TDK",
+      "SDK"
+    ],
+    "a": "SDK"
+  },
+  {
+    "q": "It is a protocol designed to install, manipulate, and delete the configuration of network devices.",
+    "type": "mc",
+    "opts": [
+      "CONFT",
+      "NEXTCONF",
+      "NETCONF",
+      "RESTCONF"
+    ],
+    "a": "NETCONF"
+  },
+  {
+    "q": "A platform that runs on Nexus 9000 hardware is the Cisco solution for Software-Defined Networking (SDN).",
+    "type": "mc",
+    "opts": [
+      "Cisco Application Centric Infrastructure",
+      "Cisco Application Central Infrastructure",
+      "Cisco Application Centric Industrialization",
+      "Cisco Appliance Centric Infrastructure"
+    ],
+    "a": "Cisco Application Centric Infrastructure"
+  },
+  {
+    "q": "Cisco has developed ________ which is a robust Python library for the APIC REST API which is used to simplify application development with ACI",
+    "type": "mc",
+    "opts": [
+      "Viper",
+      "Cobra",
+      "Anaconda",
+      "Mamba"
+    ],
+    "a": "Cobra"
+  },
+  {
+    "q": "It provides a complete physical and logical plant for computing, networking, and storage in the modern data center.",
+    "type": "mc",
+    "opts": [
+      "UCS",
+      "Finesse",
+      "SaaS",
+      "Intersight"
+    ],
+    "a": "UCS"
+  },
+  {
+    "q": "It is a suite of cloud-managed network solutions that enables a single source of management for infrastructure, locations, and devices",
+    "type": "mc",
+    "opts": [
+      "Finesse",
+      "Cisco UCI",
+      "Cisco Application Centric Infrastructure",
+      "Cisco Meraki"
+    ],
+    "a": "Cisco Meraki"
+  },
+  {
+    "q": "It enables operators to adopt the service configuration solution dynamically, according to changes in the offered service portfolio",
+    "type": "mc",
+    "opts": [
+      "UCS",
+      "NSO",
+      "ICS",
+      "UCI"
+    ],
+    "a": "NSO"
+  },
+  {
+    "q": "The ________ RFC 8040 defines a protocol and mechanism for ________-like access to configuration information and control",
+    "type": "mc",
+    "opts": [
+      "NETCONF",
+      "RESTCONF",
+      "NESTCONF",
+      "NETCONFT"
+    ],
+    "a": "RESTCONF"
+  },
+  {
+    "q": "A Cisco ________ is a foundational controller and analytics platform for large and midsize organizations",
+    "type": "mc",
+    "opts": [
+      "UCS",
+      "DataCom Network",
+      "DNA Center",
+      "IaaS"
+    ],
+    "a": "DNA Center"
+  },
+  {
+    "q": "Internetwork Operating System (IOS) was the original operating system and ________ is the next-generation programmable platform.",
+    "type": "mc",
+    "opts": [
+      "IOS-EX",
+      "IOS-BP",
+      "IOS-XE",
+      "IOS-NG"
+    ],
+    "a": "IOS-XE"
+  },
+  {
+    "q": "It is a data center operating system for the Nexus switch.",
+    "type": "mc",
+    "opts": [
+      "NXT-OS",
+      "NX-OS",
+      "NXS-OS",
+      "NT-OS"
+    ],
+    "a": "NX-OS"
+  },
+  {
+    "q": "It is a data modeling language used to model configuration and state data manipulated by the Network Configuration Protocol (NETCONF), NETCONF remote procedure calls, and NETCONF notifications",
+    "type": "mc",
+    "opts": [
+      "JSON",
+      "Ansible",
+      "Chef",
+      "YANG"
+    ],
+    "a": "YANG"
+  },
+  {
+    "q": "Which underlying technology makes it possible for Cisco Umbrella to prevent a user from accessing a blocked site?",
+    "type": "mc",
+    "opts": [
+      "DNS",
+      "HTTP and HTTPS",
+      "Cisco Firewall",
+      "DHCP"
+    ],
+    "a": "DNS"
+  },
+  {
+    "q": "Which language is used by the NETCONF protocol to encode both the configuration data and protocol messages?",
+    "type": "mc",
+    "opts": [
+      "XML",
+      "YAML",
+      "HTML",
+      "JSON"
+    ],
+    "a": "XML"
+  },
+  {
+    "q": "What are the three main capabilities provided by Cisco AMP? (Choose three.)",
+    "type": "multi",
+    "opts": [
+      "annihilation",
+      "detection",
+      "responses and automation",
+      "redirection",
+      "relaying",
+      "prevention"
+    ],
+    "a": [
+      "detection",
+      "responses and automation",
+      "prevention"
+    ]
+  },
+  {
+    "q": "Which three functions are provided by Cisco Finesse REST APIS? (Choose three.)",
+    "type": "multi",
+    "opts": [
+      "They can be used to integrate into existing applications to add contact center functionality.",
+      "They can be used to get termination call detail (TCD) reports.",
+      "They can be used to get the call history of an agent.",
+      "They can be used to build a fully functioning agent desktop.",
+      "They can be used to build custom OpenSocial gadgets.",
+      "They can be used to build a script to automate tasks."
+    ],
+    "a": [
+      "They can be used to integrate into existing applications to add contact center functionality.",
+      "They can be used to build a fully functioning agent desktop.",
+      "They can be used to build a script to automate tasks."
+    ]
+  },
+  {
+    "q": "Which two benefits are provided by the Python-based WebEx Teams SDK? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "It integrates with the Webex Devices API.",
+      "It provides error reporting.",
+      "It provides access to more API calls within Webex Teams.",
+      "It manages requests with pagination.",
+      "It is better supported than the Webex Teams APIs."
+    ],
+    "a": [
+      "It provides error reporting.",
+      "It manages requests with pagination."
+    ]
+  },
+  {
+    "q": "Which two statements describe the usage of Cisco Finesse JavaScript APIs? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "They can be used to get the call history of an agent.",
+      "They can be used to build custom gadgets to be placed into applications other than Finesse.",
+      "They can be used to embed existing web pages into a custom gadget.",
+      "They can be used to build a custom gadget for the agent state workflow.",
+      "They can be used to build a fully functioning agent desktop."
+    ],
+    "a": [
+      "They can be used to embed existing web pages into a custom gadget.",
+      "They can be used to build a custom gadget for the agent state workflow."
+    ]
+  },
+  {
+    "q": "Why does the Meraki dashboard API return a 404 rather than a 403 code in response to a request with an invalid API key?",
+    "type": "mc",
+    "opts": [
+      "The 404 return code determines whether unauthorized users will try again.",
+      "The 403 return code would indicate that the client definitely has an invalid API key.",
+      "The 404 return code prevents the system from indicating the existence of resources to unauthorized users.",
+      "The 403 return code would indicate that there are no resources at that endpoint but the API key could be correct."
+    ],
+    "a": "The 404 return code prevents the system from indicating the existence of resources to unauthorized users."
+  },
+  {
+    "q": "What does Cisco ISE do when it identifies a user or device accessing the network?",
+    "type": "mc",
+    "opts": [
+      "It logs the access attempt.",
+      "It automatically and securely places the device and user into the right part of the network.",
+      "It processes the originating IP address according to a whitelist.",
+      "It quarantines the device and user until an administrator releases the quarantine."
+    ],
+    "a": "It automatically and securely places the device and user into the right part of the network."
+  },
+  {
+    "q": "How are service profiles used by Cisco UCS Manager?",
+    "type": "mc",
+    "opts": [
+      "Cisco USC Manager uses an assigned service profile to each instance to define network policy.",
+      "Cisco UCS Manager uses service profiles to assign a unique identity to the server associated with each profile.",
+      "Cisco UCS Manager saves service profiles to recover servers in case of data loss.",
+      "Cisco UCS Manager uses service profiles as templates to provision policies to multiple versions of the same server."
+    ],
+    "a": "Cisco UCS Manager uses service profiles to assign a unique identity to the server associated with each profile."
+  },
+  {
+    "q": "Which function does the AXL interface provide for users?",
+    "type": "mc",
+    "opts": [
+      "provisions and manages objects in the Unified Communication Management Administration Console",
+      "looks up the top ten OWASP vulnerabilities and identifies which endpoints are vulnerable",
+      "updates network device configurations with a rollback mechanism",
+      "provisions Webex Devices and customizes each display"
+    ],
+    "a": "provisions and manages objects in the Unified Communication Management Administration Console"
+  },
+  {
+    "q": "What are three primary YANG sources in Cisco NSO? (Choose three.)",
+    "type": "multi",
+    "opts": [
+      "mapping model",
+      "data models from devices",
+      "NSO data model",
+      "configuration models",
+      "communication model",
+      "YANG service models"
+    ],
+    "a": [
+      "data models from devices",
+      "NSO data model",
+      "YANG service models"
+    ]
+  },
+  {
+    "q": "What are two tasks a network administrator can perform with Cisco UCS Director? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "Manage multiple Cisco UCS Manager appliances.",
+      "Deploy and add capacity to converged infrastructures in a consistent and repeatable manner.",
+      "Load-balance data traffic.",
+      "Create, clone, and deploy service profiles and templates for all Cisco UCS servers and compute applications.",
+      "Create a direct line of communication between Cisco and non-Cisco components."
+    ],
+    "a": [
+      "Deploy and add capacity to converged infrastructures in a consistent and repeatable manner.",
+      "Create, clone, and deploy service profiles and templates for all Cisco UCS servers and compute applications."
+    ]
+  },
+  {
+    "q": "What are two actions taken by Firepower for traffic control? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "using security intelligence data to filter traffic, including IP addresses, address blocks, domain names, and URLs",
+      "controlling which websites are available to the users on the network",
+      "shutting down the network in the event of a DDOS attack",
+      "directing heavy data traffic to free servers",
+      "load balancing during high-traffic time periods"
+    ],
+    "a": [
+      "using security intelligence data to filter traffic, including IP addresses, address blocks, domain names, and URLs",
+      "controlling which websites are available to the users on the network"
+    ]
+  },
+  {
+    "q": "What are two types of YANG models? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "native model",
+      "vendor model",
+      "private model",
+      "hybrid model",
+      "open model"
+    ],
+    "a": [
+      "native model",
+      "open model"
+    ]
+  },
+  {
+    "q": "What is a characteristic of the Yet Another Next Generation (YANG) data model?",
+    "type": "mc",
+    "opts": [
+      "It uses a MIBs structure.",
+      "It uses a tree structure.",
+      "It uses the JSON data format.",
+      "It uses a list structure."
+    ],
+    "a": "It uses a tree structure."
+  },
+  {
+    "q": "Which two application-specific media types can be used for RESTCONF to identify a YANG construct? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "application/yang+json+xml",
+      "application/yang-data+xml",
+      "application/yang-data+json",
+      "application/yang+xml",
+      "application/yang+json"
+    ],
+    "a": [
+      "application/yang-data+xml",
+      "application/yang-data+json"
+    ]
+  },
+  {
+    "q": "What is the name of the Cisco SD-WAN dashboard?",
+    "type": "mc",
+    "opts": [
+      "vEdge",
+      "vManage",
+      "vBond",
+      "vSmart"
+    ],
+    "a": "vManage"
+  },
+  {
+    "q": "What is Cisco Finesse?",
+    "type": "mc",
+    "opts": [
+      "an easy-to-use collaboration solution that keeps individuals and teams connected anytime and anywhere",
+      "a network management and analytics platform for Cisco Digital Network Architecture",
+      "a browser-based contact center agent and supervisor desktop",
+      "an application to manage phone users, phones, directory numbers, and to connect and manage calls to the desired destinations"
+    ],
+    "a": "a browser-based contact center agent and supervisor desktop"
+  },
+  {
+    "q": "Which Software as a Service (SaaS) management platform offers API keys for remote or service access?",
+    "type": "mc",
+    "opts": [
+      "YANG Explorer",
+      "Management Information Tree",
+      "Cisco Intersight",
+      "APIC"
+    ],
+    "a": "Cisco Intersight"
+  },
+  {
+    "q": "Which Cisco SDK is primarily a call widget that is embedded in an iframe within another web page for Cisco UCS application?",
+    "type": "mc",
+    "opts": [
+      "Jabber Guest SDK for Web",
+      "Jabber Guest SDK for iOS",
+      "Jabber Guest SDK for Android",
+      "Jabber Web SDK"
+    ],
+    "a": "Jabber Guest SDK for Web"
+  },
+  {
+    "q": "A developer is using a REST API to develop an application to communicate with a Webex Teams server. What is the default maximum number of items that can be returned by the Webex Teams API prior to using pagination?",
+    "type": "mc",
+    "opts": [
+      "100",
+      "150",
+      "25",
+      "50"
+    ],
+    "a": "100"
+  },
+  {
+    "q": "What is the default TCP port assigned for NETCONF over SSH?",
+    "type": "mc",
+    "opts": [
+      "22",
+      "1080",
+      "443",
+      "830"
+    ],
+    "a": "830"
+  },
+  {
+    "q": "Where can a corporate developer access the API Explorer with the Firepower Threat Defense API?",
+    "type": "mc",
+    "opts": [
+      "the URL address of the device itself",
+      "the domain name of the company",
+      "the local computer of the developer",
+      "on the DevNet web site"
+    ],
+    "a": "the URL address of the device itself"
+  },
+  {
+    "q": "Refer to the exhibit. Which data format is used to describe the list of interfaces?",
+    "img": "fa8_image1.png",
+    "type": "mc",
+    "opts": [
+      "JSON",
+      "YANG",
+      "XML",
+      "YAML"
+    ],
+    "a": "YANG"
+  },
+  {
+    "q": "Refer to the exhibit. A network administrator is developing an application that communicates with Cisco AMP using an AMP API. A response from an AMP service shows the API rate limits information. What is the unit of value indicated under the item x-ratelimit-limit?",
+    "img": "fa8_image2.png",
+    "type": "mc",
+    "opts": [
+      "responses",
+      "requests",
+      "bytes",
+      "seconds"
+    ],
+    "a": "requests"
+  }
+]
