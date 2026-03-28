@@ -11,23 +11,39 @@
     "a": "Welcome changing"
   },
   {
-    "q": "Delivers multiple ‘software *decrements*’, deliver an operational prototype or portion of an OS to collect customer feedback for adaption.",
-    "type": "tf",
-    "a": "False (increments)"
+    "q": "Delivers multiple 'software decrements', deliver an operational prototype or portion of an OS to collect customer feedback for adaption.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (increment)"
+    ],
+    "a": "False (increment)"
   },
   {
-    "q": "“demos” are delivered to the customer with the time-box allocated. May not contain all functionalities.",
-    "type": "tf",
+    "q": "\"demos\" are delivered to the customer with the time-box allocated. May not contain all functionalities.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Conventional wisdom is that the cost of change increases nonlinearly as a project progresses.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Effective *commitment* in structure and attitudes among all team members, technological and business people, software engineers and managers.",
-    "type": "tf",
+    "q": "Effective commitment in structure and attitudes among all team members, technological and business people, software engineers and managers.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (communication)"
+    ],
     "a": "False (communication)"
   },
   {
@@ -36,7 +52,8 @@
     "opts": [
       "Motivated Individual",
       "Face-to-face",
-      "satisfy customer"
+      "satisfy customer",
+      "Working software"
     ],
     "a": "Face-to-face"
   },
@@ -53,21 +70,30 @@
   },
   {
     "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early 1990.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Effective communication in structure and attitudes among all team members, technological and business people, software engineers and managers.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "The process molds to the _______ and team, not the other way around.",
+    "q": "The process molds to the _________ and team, not the other way around.",
     "type": "mc",
     "opts": [
       "needs of people",
       "working software",
-      "self–organizing"
+      "self--organizing",
+      "customer requirements"
     ],
     "a": "needs of people"
   },
@@ -83,22 +109,34 @@
     "a": "Strive for collaboration"
   },
   {
-    "q": "User interface design should be *not* tuned to the needs of the end-user.",
-    "type": "tf",
+    "q": "User interface design should be not tuned to the needs of the end-user. However, in every case, it should distress ease of use.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "The functions that the software performs must be *not* defined.",
-    "type": "tf",
+    "q": "The functions that the software performs must be not defined.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Design of data is as important as design of processing *non-functions*.",
-    "type": "tf",
+    "q": "Design of data is as important as design of processing non-functions.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Brad Appleton [App00] suggests that: “The goal of patterns within the software community is to create a body of literature to help software developers resolve recurring problems encountered throughout all of software development.",
+    "q": "Brad Appleton [App00] suggests that: \"The goal of patterns within the software community is to create a body of literature to help software developers resolve recurring problems encountered throughout all of software development.",
     "type": "mc",
     "opts": [
       "Look for patterns.",
@@ -110,7 +148,11 @@
   },
   {
     "q": "The analysis task should move from essential information toward implementation detail.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -130,17 +172,22 @@
     "opts": [
       "Be Agile",
       "be ready to adapt",
-      "Focus on quality at every step"
+      "Focus on quality at every step",
+      "Manage Change"
     ],
     "a": "Focus on quality at every step"
   },
   {
     "q": "The construction activity encompasses a set of coding and testing tasks that lead to operational software that is ready for delivery to the customer or end-user.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "______ is a broad array of principles, concepts, methods and tools that you must consider as software is planned and developed.",
+    "q": "_________ is a broad array of principles, concepts, methods and tools that you must consider as software is planned and developed.",
     "type": "mc",
     "opts": [
       "Software Practice",
@@ -151,13 +198,21 @@
     "a": "Software Practice"
   },
   {
-    "q": "Speculation project is *not* initiated and adaptive cycle planning is *not* conducted.",
-    "type": "tf",
+    "q": "Speculation project is not initiated and adaptive cycle planning is not conducted.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Our highest priority is to satisfy the customer through early and continuous delivery of *non-valuable* software.",
-    "type": "tf",
+    "q": "Our highest priority is to satisfy the customer through early and continuous delivery of non-valuable software.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
@@ -173,16 +228,21 @@
   },
   {
     "q": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Encourages _______ an iterative refinement of the internal program design.",
+    "q": "Encourages _________ an iterative refinement of the internal program design.",
     "type": "mc",
     "opts": [
-      "self–organizing",
+      "self--organizing",
       "refactoring",
-      "spike solution"
+      "spike solution",
+      "iteration"
     ],
     "a": "refactoring"
   },
@@ -192,7 +252,8 @@
     "opts": [
       "deliver working software frequently",
       "Welcome changing",
-      "satisfies the customer"
+      "satisfies the customer",
+      "motivated individuals"
     ],
     "a": "satisfies the customer"
   },
@@ -202,18 +263,19 @@
     "opts": [
       "XP Coding",
       "XP Design",
-      "XP Testing"
+      "XP Testing",
+      "XP Program"
     ],
     "a": "XP Testing"
   },
   {
-    "q": "For difficult design problems, suggests the creation of ______ a design prototype for that portion is implemented and evaluated.",
+    "q": "For difficult design problems, suggests the creation of _________ a design prototype for that portion is implemented and evaluated.",
     "type": "mc",
     "opts": [
       "self-motivating",
       "refactoring",
       "spike solution",
-      "self–organizing"
+      "self--organizing"
     ],
     "a": "spike solution"
   },
@@ -230,42 +292,74 @@
   },
   {
     "q": "Components should be loosely coupled to one another and to the external environment.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "The design should be developed iteratively. With each iteration, the designer should strive for greater simplicity.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Testing principles and concepts lead to the design of tests that systematically uncover different classes of errors and to do so with a minimum amount of time and effort.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "The information domain of a problem must be *not* represented and understood.",
-    "type": "tf",
+    "q": "The information domain of a problem must be not represented and understood.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Design of data is as important as design of processing functions.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "The construction activity encompasses a set of coding and testing tasks that is *not* lead to operational software that is ready for delivery to the customer or end-user.",
-    "type": "tf",
+    "q": "The construction activity encompasses a set of coding and testing tasks that is not lead to operational software that is ready for delivery to the customer or end-user.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Design models represent characteristics of the software that help practitioners to construct it effectively.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Conventional wisdom is that the cost of change *decrease linear* as a project progresses.",
-    "type": "tf",
+    "q": "Conventional wisdom is that the cost of change decrease linear as a project progresses.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (increase)"
+    ],
     "a": "False (increase)"
   },
   {
@@ -281,27 +375,47 @@
   },
   {
     "q": "Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early *1992*.",
-    "type": "tf",
+    "q": "A software development method Originally proposed by Schwaber and Beedle (an activity occurs during a rugby match) in early 1992.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (1990)"
+    ],
+    "a": "False (1990)"
+  },
+  {
+    "q": "The only really important work product is an operational \"software decrement\" that is not delivered.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "The only really important work product is an operational “software *decrement*” that is *not* delivered.",
-    "type": "tf",
-    "a": "False (increment)"
-  },
-  {
     "q": "Emphasize an incremental delivery strategy as opposed to intermediate products that gets working software to the customer as rapidly as feasible.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -310,7 +424,8 @@
     "opts": [
       "Focus on quality at every step",
       "be ready to adapt",
-      "Be Agile"
+      "Be Agile",
+      "Manage Change"
     ],
     "a": "Be Agile"
   },
@@ -326,13 +441,21 @@
     "a": "Build software that exhibits effective modularity"
   },
   {
-    "q": "The design should be developed iteratively. With each iteration, the designer should *not* strive for greater simplicity.",
-    "type": "tf",
+    "q": "The design should be developed iteratively. With each iteration, the designer should not strive for greater simplicity.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Design representations (models) should be easily understandable.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -352,17 +475,22 @@
     "opts": [
       "Manage Change",
       "Build an effective team",
-      "Assess Risk"
+      "Assess Risk",
+      "Be Agile"
     ],
     "a": "Assess Risk"
   },
   {
-    "q": "Testing principles and concepts lead to the design of tests that systematically cover different classes of *not free for errors* and to do so with a minimum amount of time and effort.",
-    "type": "tf",
+    "q": "Testing principles and concepts lead to the design of tests that systematically cover different classes of not free for errors and to do so with a minimum amount of time and effort.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Try to focus on the speaker’s words, rather than formulating your response to those words.",
+    "q": "Try to focus on the speaker's words, rather than formulating your response to those words.",
     "type": "mc",
     "opts": [
       "Prepare for customer needs",
@@ -373,8 +501,12 @@
     "a": "Listen"
   },
   {
-    "q": "The most efficient and effective method of conveying information to and within a development team is face–to–face conversation",
-    "type": "tf",
+    "q": "The most efficient and effective method of conveying information to and within a development team is face--to--face conversation",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -383,29 +515,47 @@
     "opts": [
       "Requirements volatility",
       "Lack of formal design",
-      "Conflicting customer needs"
+      "Conflicting customer needs",
+      "Lack of program design"
     ],
     "a": "Lack of formal design"
   },
   {
-    "q": "What is “Agility”?",
+    "q": "What is \"Agility\"?",
     "type": "mc",
     "opts": [
       "the cost of change increases nonlinearly as a project progresses.",
       "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
-      "the art of maximizing the amount of work not done – is essential.",
-      "The modern business environment is fast-paced and ever-changing."
+      "the art of maximizing the amount of work not done -- is essential.",
+      "iterative development"
     ],
     "a": "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers."
   },
   {
+    "q": "The modern business environment is fast-paced and ever-changing.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
     "q": "Leading a team so that it is in control of the work performed.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Design should be traceable to the requirements model.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -414,18 +564,27 @@
     "opts": [
       "Manage Change",
       "Build an effective team",
-      "Assess Risk"
+      "Assess Risk",
+      "Be Agile"
     ],
     "a": "Manage Change"
   },
   {
-    "q": "The models that *no information*, *non-function*, and behavior must be partitioned in a manner that uncovers detail in a layered (or hierarchical) fashion.",
-    "type": "tf",
+    "q": "The models that no information, non-function, and behavior must be partitioned in a manner that uncovers detail in a layered (or hierarchical) fashion.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Components should be loosely coupled to other components and to the *internal* environment.",
-    "type": "tf",
+    "q": "Components should be loosely coupled to other components and to the internal environment.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (external)"
+    ],
     "a": "False (external)"
   },
   {
@@ -434,7 +593,8 @@
     "opts": [
       "Build an effective team",
       "Assess Risk",
-      "Manage Change"
+      "Manage Change",
+      "Be Agile"
     ],
     "a": "Build an effective team"
   },
@@ -462,7 +622,11 @@
   },
   {
     "q": "Testing and documentation are on-going as the product is constructed.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -478,7 +642,11 @@
   },
   {
     "q": "The information domain of a problem must be represented and understood.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -494,12 +662,20 @@
   },
   {
     "q": "Component-level design should be functionally independent.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "The functions that the software performs must be defined.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -508,12 +684,13 @@
     "opts": [
       "be ready to adapt",
       "Be Agile",
-      "Focus on quality at every step"
+      "Focus on quality at every step",
+      "Manage Change"
     ],
     "a": "be ready to adapt"
   },
   {
-    "q": "Someone participating in the communication should serve as a “recorder” and write down all important points and decisions.",
+    "q": "Someone participating in the communication should serve as a \"recorder\" and write down all important points and decisions.",
     "type": "mc",
     "opts": [
       "Stay focused, modularize your discussion",
@@ -524,23 +701,32 @@
     "a": "Take notes and document decisions"
   },
   {
-    "q": "The best architectures, requirements, and designs emerge from ______ teams.",
+    "q": "The best architectures, requirements, and designs emerge from _________ teams.",
     "type": "mc",
     "opts": [
       "working software",
       "Simplicity",
-      "self–organizing"
+      "self--organizing",
+      "motivated"
     ],
-    "a": "self–organizing"
+    "a": "self--organizing"
   },
   {
-    "q": "The most efficient and *ineffective* method of conveying information too and within a development team is *face–to–ear* conversation.",
-    "type": "tf",
+    "q": "The most efficient and ineffective method of conveying information too and within a development team is face--to--ear conversation.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Speculation project is initiated and adaptive cycle planning is conducted.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -555,9 +741,13 @@
     "a": "Prepare you communicate"
   },
   {
-    "q": "Design representations (models) should *not* be *hardly* understandable.",
-    "type": "tf",
-    "a": "True"
+    "q": "Design representations (models) should not be hardly understandable.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
   },
   {
     "q": "Define Conventional wisdom.",
@@ -565,39 +755,47 @@
     "opts": [
       "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
       "the cost of change increases nonlinearly as a project progresses.",
-      "the art of maximizing the amount of work not done – is essential.",
-      "This is the art of maximizing the amount of work not done – is essential."
+      "the art of maximizing the amount of work not done -- is essential.",
+      "iterative development"
     ],
     "a": "the cost of change increases nonlinearly as a project progresses."
   },
   {
-    "q": "Efficiency and Effectiveness",
+    "q": "This is the art of maximizing the amount of work not done -- is essential.",
     "type": "mc",
     "opts": [
+      "Efficiency and Effectiveness",
       "Working software",
-      "Self–organizing",
+      "Self--organizing",
       "Simplicity"
     ],
     "a": "Simplicity"
   },
   {
-    "q": "The modern business environment is *slow-paced* and ever-changing.",
-    "type": "tf",
+    "q": "The modern business environment is slow-paced and ever-changing.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (fast-paced)"
+    ],
     "a": "False (fast-paced)"
   },
   {
-    "q": "User interface design should be tuned to the needs of the end-user.",
-    "type": "tf",
+    "q": "User interface design should be tuned to the needs of the end-user. However, in every case, it should stress ease of use.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "However, in every case, it should stress ease of use.",
-    "type": "tf",
-    "a": "True"
-  },
-  {
-    "q": "Testing and documentation are on-going as the product is *not* constructed.",
-    "type": "tf",
+    "q": "Testing and documentation are on-going as the product is not constructed.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
@@ -615,7 +813,7 @@
     "q": "This is the primary measure of progress.",
     "type": "mc",
     "opts": [
-      "Self–organizing",
+      "Self--organizing",
       "Simplicity",
       "working software",
       "Efficiency and Effectiveness"
@@ -623,18 +821,126 @@
     "a": "working software"
   },
   {
-    "q": "Delivers multiple ‘software increments’, deliver an operational prototype or portion of an OS to collect customer feedback for adaption.",
-    "type": "tf",
+    "q": "Delivers multiple 'software increments', deliver an operational prototype or portion of an OS to collect customer feedback for adaption.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Component-level design should be *non-* functionally independent.",
-    "type": "tf",
+    "q": "Component-level design should be non- functionally independent.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Design should *not* be *traceabled* to the requirements model",
-    "type": "tf",
+    "q": "Design should not be traceabled to the requirements model",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Pay special attention to the analysis, design, construction, and testing of interfaces.",
+    "type": "mc",
+    "opts": [
+      "Build software that exhibits effective modularity",
+      "Focus on the customer",
+      "Look for patterns.",
+      "Focus on the transfer of information"
+    ],
+    "a": "Focus on the transfer of information"
+  },
+  {
+    "q": "\"demos\" are not delivered to the customer with the time-box allocated. May not contain all functionalities.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Deliver working software frequently, from a couple of days to a couple of months, with no preference to the shorter timescale.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Emphasize an incremental delivery strategy as opposed to intermediate products that did not get working software to the customer as rapidly as feasible.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "The development guidelines stress delivery over analysis and design although these activates are not discouraged, and active and continuous communication between developers and customers.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "The development guidelines stress delivery over analysis and design although these activates are discouraged, and active and has no continuous communication between developers and customers",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Design models represent characteristics of the software that will not help practitioners to construct it effectively.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "_________ provides everyone with a road map for getting to a successful destination.",
+    "type": "mc",
+    "opts": [
+      "Software Process",
+      "Software Application",
+      "Software Practice",
+      "Software Engineer"
+    ],
+    "a": "Software Process"
+  },
+  {
+    "q": "Stated in a more technical manner, analysis and design should always emphasize separation of concerns (SoC).",
+    "type": "mc",
+    "opts": [
+      "Divide and conquer",
+      "Understand the use of abstraction",
+      "Strive for consistency",
+      "Focus on quality"
+    ],
+    "a": "Divide and conquer"
+  },
+  {
+    "q": "The analysis task should not move from essential information toward implementation detail",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   }
 ]

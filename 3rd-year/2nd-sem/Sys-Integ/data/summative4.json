@@ -1,0 +1,368 @@
+[
+  {
+    "q": "The functionality that failed in this component was not required in Ariane 5.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Components for use may be specially constructed by generalising existing components.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "The component model specifies how the interfaces should be defined and the elements, such as operation names, parameters and exceptions, which should be included in the interface definition.",
+    "type": "mc",
+    "opts": [
+      "Usage",
+      "Interfaces",
+      "Deployment",
+      "Implementation"
+    ],
+    "a": "Interfaces"
+  },
+  {
+    "q": "It can a component with no available source code be trusted.",
+    "type": "mc",
+    "opts": [
+      "Component standards",
+      "Component trustworthiness",
+      "Component Certification",
+      "Component validation"
+    ],
+    "a": "Component trustworthiness"
+  },
+  {
+    "q": "A unit of composition with contractually specified interfaces and explicit context dependencies only.",
+    "type": "mc",
+    "opts": [
+      "Councill and Heinmann",
+      "Szyperski",
+      "Emergent Property Prediction",
+      "Component definition"
+    ],
+    "a": "Szyperski"
+  },
+  {
+    "q": "In 1996, the 1st test flight of the Ariane 5 rocket ended in disaster when the launcher went out of control 47 seconds after take off.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Certification means that someone apart from the developer checks the quality of the component.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "When using components, it is essential to make trade-offs between ideal requirements and the services actually provided by available components.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Database extensions, where each organization defines how the generic service data model is extended to meet its specific needs.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "More processing is delegated to the client as the application processing is locally not executed.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Sharing of hardware and software resources.",
+    "type": "mc",
+    "opts": [
+      "Resource sharing",
+      "Concurrency",
+      "Openness",
+      "Scalability"
+    ],
+    "a": "Resource sharing"
+  },
+  {
+    "q": "This avoids problems with scalability and performance if a fat-client two-tier model is chosen, or problems of system management if a fat-client model is used.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "Increased throughput by adding new resources.",
+    "type": "mc",
+    "opts": [
+      "Resource sharing",
+      "Scalability",
+      "Openness",
+      "Performance"
+    ],
+    "a": "Scalability"
+  },
+  {
+    "q": "What is Quality of Service?",
+    "type": "mc",
+    "opts": [
+      "should include mechanisms for discovering if a component of the system has failed.",
+      "it is inevitable that failures will occur, so the system has to be designed to be resilient to these failures.",
+      "offered by a distributed system reflects the system's ability to deliver its services dependably and with a response time and throughput that is acceptable to its users.",
+      "a measure of system reliability"
+    ],
+    "a": "offered by a distributed system reflects the system's ability to deliver its services dependably and with a response time and throughput that is acceptable to its users."
+  },
+  {
+    "q": "More processing is delegated to the client as the application processing is locally executed.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Database extensions, where each organization defines how the generic service data model is not extended to meet its specific needs.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "The overall system is designed to take advantage of the computational power and storage of a large number of networked computers.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "It is where the presentation layer is implemented on the client and all other layers (data management, application processing and database) are implemented on a server.",
+    "type": "mc",
+    "opts": [
+      "Failure management",
+      "Fat-client model",
+      "Thin-client model",
+      "Two-tier model"
+    ],
+    "a": "Thin-client model"
+  },
+  {
+    "q": "Graphical workflow notations, such as BPMN, are more readable and WS-BPEL can be generated from them.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Test completed service or application the process of testing the completed, composite service is more complex than component testing in situations where external services are used.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Service testing is difficult as (external) services are 'black-boxes'.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "This standard allows a service interface and its bindings to be defined",
+    "type": "mc",
+    "opts": [
+      "SOAP",
+      "WS-BPEL",
+      "WSDL",
+      "REST"
+    ],
+    "a": "WSDL"
+  },
+  {
+    "q": "Testing is intended to find defects and demonstrate that a system meets its functional and non-functional requirements.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Coordination Services that support composite processes such as ordering.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "WSDL description The logical specification is not converted to a WSDL description.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "External services may not have modified by the service provider thus invalidating tests which have been completed.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "WS-BPEL is an XML-standard for workflow specification.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "WS-BPEL is an XML-standard for over workflow specification.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Estimates are made to discover the cost, to the developer, of producing a software system.",
+    "type": "mc",
+    "opts": [
+      "Project Planning",
+      "Software Pricing",
+      "project startup",
+      "Cost estimation"
+    ],
+    "a": "Software Pricing"
+  },
+  {
+    "q": "Used to compute the effort of integrating reusable components.",
+    "type": "mc",
+    "opts": [
+      "Reuse model",
+      "Early design model",
+      "Application composition model",
+      "Post-architecture model"
+    ],
+    "a": "Reuse model"
+  },
+  {
+    "q": "A company takes on a project in a new domain. The client has not defined the process to be used and has not allowed time for risk analysis. The company has a CMM level 3 rating.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "ASLOC is the number of lines of generated code.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Computer attributes Constraints imposed on the software by the software platform.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "Describes the configuration management procedures and structures to be used.",
+    "type": "mc",
+    "opts": [
+      "Configuration management plan",
+      "Validation plan",
+      "Quality plan",
+      "Project plan"
+    ],
+    "a": "Configuration management plan"
+  },
+  {
+    "q": "Estimate of equivalent number of lines of new code computed using the reuse model.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "The time required is independent of the number of people working on the project.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "False"
+  },
+  {
+    "q": "A company takes on a project in a new domain. The client has not defined the process to be used and has not allowed time for risk analysis. The company has a CMM level 2 rating.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
+    "a": "True"
+  },
+  {
+    "q": "The estimate of future effort requirements is based on the manager's experience of past projects and the application domain.",
+    "type": "mc",
+    "opts": [
+      "Algorithmic cost modeling",
+      "Experience-based techniques",
+      "Story-based planning",
+      "Expert judgment"
+    ],
+    "a": "Experience-based techniques"
+  }
+]

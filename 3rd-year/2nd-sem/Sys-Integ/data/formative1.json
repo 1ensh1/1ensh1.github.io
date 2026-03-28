@@ -1,11 +1,15 @@
 [
   {
-    "q": "Risk management: assesses risks that may *not* affect the outcome and quality.",
-    "type": "tf",
+    "q": "Risk management: assesses risks that may not affect the outcome and quality.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Characterized by “number crunching” algorithms such as automotive stress analysis, molecular biology, orbital dynamics etc.",
+    "q": "Characterized by \"number crunching\" algorithms such as automotive stress analysis, molecular biology, orbital dynamics etc.",
     "type": "mc",
     "opts": [
       "System Software",
@@ -38,33 +42,32 @@
     "a": "The product that software professionals build and then support over the long term."
   },
   {
-    "q": "Software that is not commissioned by a specific customer to meet their own needs.",
-    "type": "mc",
-    "opts": [
-      "Generic products",
-      "Customized products",
-      "Data structures"
-    ],
-    "a": "Customized products"
-  },
-  {
     "q": "What is AI?",
     "type": "mc",
     "opts": [
       "stand-alone programs for specific needs",
       "software uses non-numerical algorithm to solve complex problem.",
-      "focus on a limited marketplace to address mass consumer market."
+      "focus on a limited marketplace to address mass consumer market.",
+      "network centric software"
     ],
     "a": "software uses non-numerical algorithm to solve complex problem."
   },
   {
-    "q": "Maintainability: Software should be written in such a way so that it can evolve to meet the changing needs of customers",
-    "type": "tf",
+    "q": "Maintainability Software should be written in such a way so that it can evolve to meet the changing needs of customers",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "*Planning*: creates a “Sketch” defines the work by describing the tasks, risks and resources, work products and work schedule.",
-    "type": "tf",
+    "q": "Planning: creates a \"Sketch\" defines the work by describing the tasks, risks and resources, work products and work schedule.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (Modeling)"
+    ],
     "a": "False (Modeling)"
   },
   {
@@ -73,18 +76,19 @@
     "opts": [
       "executed provide desired features, function, and performance",
       "describes the operation and use of the programs.",
-      "enable the programs to adequately store and manipulate information"
+      "enable the programs to adequately store and manipulate information",
+      "A stand-alone programs for specific needs."
     ],
     "a": "enable the programs to adequately store and manipulate information"
   },
   {
-    "q": "A stand-alone programs for specific needs.",
+    "q": "Engineering/scientific software",
     "type": "mc",
     "opts": [
-      "Engineering/scientific software",
       "System software",
       "Mobile Software",
-      "Application software"
+      "Application software",
+      "Embedded software"
     ],
     "a": "Application software"
   },
@@ -105,13 +109,18 @@
     "opts": [
       "evolutionary process",
       "linear process",
-      "iterative process"
+      "iterative process",
+      "parallel process"
     ],
     "a": "iterative process"
   },
   {
     "q": "Software is embodied knowledge that is initially dispersed, tacit and incomplete.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -120,24 +129,37 @@
     "opts": [
       "Good to develop large-scale system as software evolves as the process progresses and risk should be understood and properly reacted to",
       "controllable as it demands considerable risk assessment expertise",
-      "applicable to all types of software development and provides an accurate picture of the current state of a project."
+      "applicable to all types of software development and provides an accurate picture of the current state of a project.",
+      "a linear sequential approach"
     ],
     "a": "applicable to all types of software development and provides an accurate picture of the current state of a project."
   },
   {
-    "q": "Planning: this activity carry the requirements and create both size and resource are *not* estimates. In addition, a defect estimate (the number of defects projected for the work) is made.",
-    "type": "tf",
+    "q": "Planning this activity carry the requirements and create both size and resource are not estimates. In addition, a defect estimate (the number of defects projected for the work) is made.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "High-level design is an internal requirement specification for each component to be constructed are developed and a component design is *not* created.",
-    "type": "tf",
+    "q": "High-level design is an internal requirement specification for each component to be constructed are developed and a component design is not created.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "A road map that helps you create a timely, *low-quality* results.",
-    "type": "tf",
-    "a": "False"
+    "q": "A road map that helps you create a timely, low-quality results.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (high)"
+    ],
+    "a": "False (high)"
   },
   {
     "q": "Defines the sequence of framework activities that occur with the process, even when the overall flow of activities is iterative in nature.",
@@ -151,23 +173,39 @@
     "a": "Phase patterns"
   },
   {
-    "q": "Linear process flow executes each of the *four* activities in sequence",
-    "type": "tf",
-    "a": "False"
+    "q": "Linear process flow executes each of the four activities in sequence",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (five)"
+    ],
+    "a": "False (five)"
   },
   {
     "q": "Software quality assurance: defines and conduct activities to ensure quality.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Software Process is a collection of the *unfamiliar* activities, actions and tasks that are *not* performed when some work product is to be created.",
-    "type": "tf",
+    "q": "Software Process is a collection of the unfamiliar activities, actions and tasks that are not performed when some work product is to be created.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Risk management: assesses risks that may affect the outcome and quality.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -175,8 +213,9 @@
     "type": "mc",
     "opts": [
       "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network.",
-      "” free” source code opens to the computing community (a blessing, but also a potential curse!)",
-      "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide."
+      "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)",
+      "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide.",
+      "distributed computing for enterprise systems"
     ],
     "a": "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network."
   },
@@ -185,8 +224,9 @@
     "type": "mc",
     "opts": [
       "The economies of ALL developed nations are dependent on software.",
-      "More and more systems are software not controlled",
-      "Software engineering is concerned without theories, methods and tools for professional software development."
+      "More and more systems are software not controlled (transportation, medical, telecommunications, military, industrial, entertainment,)",
+      "Software engineering is concerned without theories, methods and tools for professional software development.",
+      "Both A and B"
     ],
     "a": "The economies of ALL developed nations are dependent on software."
   },
@@ -195,19 +235,28 @@
     "type": "mc",
     "opts": [
       "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide.",
-      "” free” source code opens to the computing community (a blessing, but also a potential curse!)",
-      "pervasive, ubiquitous, distributed computing due to wireless networking."
+      "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)",
+      "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network.",
+      "cloud-based software delivery"
     ],
     "a": "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide."
   },
   {
-    "q": "Modeling: Create a “map”, what it looks like architecturally, how the constituent parts fit together and other characteristics.",
-    "type": "tf",
+    "q": "Modeling: Create a \"map\", what it looks like architecturally, how the constituent parts fit together and other characteristics.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (sketch)"
+    ],
     "a": "False (sketch)"
   },
   {
-    "q": "Measurement: define and collects process, project, and product *not* measures to ensure stakeholder’s needs are met.",
-    "type": "tf",
+    "q": "Measurement: define and collects process, project, and product not measures to ensure stakeholder's needs are met.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
@@ -244,19 +293,31 @@
     "a": "Problem"
   },
   {
-    "q": "Iterative process flow *cannot* repeat one or more of the activities after proceeding to the next.",
-    "type": "tf",
+    "q": "Iterative process flow cannot repeat one or more of the activities after proceeding to the next.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (before)"
+    ],
+    "a": "False (before)"
+  },
+  {
+    "q": "Parallel process flow is not executes one or more activities in parallel without other activities.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Parallel process flow is *not* executes one or more activities in parallel without other activities.",
-    "type": "tf",
-    "a": "False"
-  },
-  {
-    "q": "Stage patterns defines a problem associated *without* a framework activity for the process.",
-    "type": "tf",
-    "a": "False"
+    "q": "Stage patterns defines a problem associated without a framework activity for the process.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (with)"
+    ],
+    "a": "False (with)"
   },
   {
     "q": "Defines a problem associated with a software engineering action or work task and relevant to successful software engineering practice",
@@ -275,13 +336,18 @@
     "opts": [
       "Task patterns",
       "Stage Patterns",
-      "Phase patterns"
+      "Phase patterns",
+      "Process Patterns"
     ],
     "a": "Stage Patterns"
   },
   {
-    "q": "Measures and centimeter should *not* provide guidance for modifying the process to improve its effectiveness.",
-    "type": "tf",
+    "q": "Measures and centimeter should not provide guidance for modifying the process to improve its effectiveness.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
@@ -290,18 +356,27 @@
     "opts": [
       "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)",
       "ISO 9001:2000 for Software",
-      "SPICE—The SPICE (ISO/IEC15504)"
+      "SPICE---The SPICE (ISO/IEC15504)",
+      "All of the above"
     ],
-    "a": "SPICE—The SPICE (ISO/IEC15504)"
+    "a": "SPICE---The SPICE (ISO/IEC15504)"
   },
   {
-    "q": "Method *cannot* provides technical how-to’s for building software.",
-    "type": "tf",
+    "q": "Method cannot provides technical how-to's for building software.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Planning: creates a “map” defines the work by describing the tasks, risks and resources, work products and work schedule.",
-    "type": "tf",
+    "q": "Planning: creates a \"map\" defines the work by describing the tasks, risks and resources, work products and work schedule.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -316,27 +391,43 @@
     "a": "Product-line software"
   },
   {
-    "q": "Acceptability software must be acceptable to the type of users for which it is *not*-designed.",
-    "type": "tf",
+    "q": "Acceptability software must be acceptable to the type of users for which it is not-designed.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Technical reviews: assesses will *not* work products to uncover and remove errors before going to the next activity.",
-    "type": "tf",
+    "q": "Technical reviews: assesses will not work products to uncover and remove errors before going to the next activity.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "Modeling: Create a “sketch”, what it looks like architecturally, how the constituent parts fit together and other characteristics.",
-    "type": "tf",
+    "q": "Modeling: Create a \"sketch\", what it looks like architecturally, how the constituent parts fit together and other characteristics.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Software quality assurance: *cannot* define and conduct activities to ensure quality.",
-    "type": "tf",
+    "q": "Software quality assurance: cannot define and conduct activities to ensure quality.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "A software prototype that identifies basic requirements (modes of interaction, computational features, processing functions) is approved by stakeholders.",
+    "q": "A software prototype that identifies basic requirements. (modes of interaction, computational features, processing functions) is approved by stakeholders.",
     "type": "mc",
     "opts": [
       "Resulting context",
@@ -348,7 +439,11 @@
   },
   {
     "q": "SP defines the approach that is taken as software is engineered.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -357,7 +452,8 @@
     "opts": [
       "evolutionary process",
       "linear process",
-      "iterative process"
+      "iterative process",
+      "parallel process"
     ],
     "a": "linear process"
   },
@@ -366,19 +462,28 @@
     "type": "mc",
     "opts": [
       "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment.",
-      "a set of umbrella activities- project tracking and control, risk management, quality assurance...",
-      "A framework for the activities, actions, and tasks that are required to build high-quality software."
+      "a set of umbrella activities- project tracking and control, risk management, quality assurance, configuration management, technical reviews, and others are applied throughout the process",
+      "A framework for the activities, actions, and tasks that are required to build high-quality software.",
+      "Both A and B"
     ],
     "a": "A framework for the activities, actions, and tasks that are required to build high-quality software."
   },
   {
     "q": "The component level design is refined and reviewed. Code is generated, reviewed, compiled, and tested",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Parallel process flow executes one or more activities in parallel with other activities.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -394,32 +499,56 @@
   },
   {
     "q": "Stage patterns defines a problem associated with a framework activity for the process.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Process layer as the foundation defines a framework with activities for effective delivery of software engineering technology.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Technical reviews: assesses work products to uncover and remove errors before going to the next activity.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Risk management: assesses risks that may affect the outcome and quality.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Software project *non-* tracking and *uncontrol*: assess progress against the plan and take actions to maintain the schedule.",
-    "type": "tf",
+    "q": "Software project non- tracking and uncontrol: assess progress against the plan and take actions to maintain the schedule.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Measures and metrics should provide guidance for modifying the process to improve its effectiveness.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -428,37 +557,58 @@
     "opts": [
       "ISO 9001:2000 for Software",
       "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)",
-      "SPICE—The SPICE (ISO/IEC15504"
+      "SPICE---The SPICE (ISO/IEC15504)",
+      "All of the above"
     ],
     "a": "ISO 9001:2000 for Software"
   },
   {
     "q": "Linear process flow executes each of the five activities in sequence.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Acceptability software must be acceptable to the type of users for which it is designed.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Deployment: Delivered to the customer who *not* evaluates the products and will *not* provide feedback based on the evaluation.",
-    "type": "tf",
+    "q": "Deployment: Delivered to the customer who not evaluates the products and will not provide feedback based on the evaluation.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "High-level design is an External specification for each component to be constructed are developed and a component design is created.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Iterative process flow repeats one or more of the activities before proceeding to the next.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "This activity isolates requirements and develops both size and resource estimates.",
+    "q": "This activity isolates requirements and develops both size and resource estimates. In addition, a defect estimate (the number of defects projected for the work) is made.",
     "type": "mc",
     "opts": [
       "Development",
@@ -469,13 +619,21 @@
     "a": "Planning"
   },
   {
-    "q": "Software is embodied knowledge that is initially *disappeared*, tacit and *complete*.",
-    "type": "tf",
-    "a": "False (disperesed, incomplete)"
+    "q": "Software is embodied knowledge that is initially disappeared, tacit and complete.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (incomplete)"
+    ],
+    "a": "False (incomplete)"
   },
   {
     "q": "Deployment: Delivered to the customer who evaluates the products and provides feedback based on the evaluation.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -495,7 +653,8 @@
     "opts": [
       "System costs",
       "Software engineering",
-      "Software costs"
+      "Software costs",
+      "Hardware costs"
     ],
     "a": "Software costs"
   },
@@ -505,68 +664,96 @@
     "opts": [
       "Generic products",
       "Data structures",
-      "Customized products"
+      "Customized products",
+      "System software"
     ],
     "a": "Customized products"
   },
   {
-    "q": "Tools *cannot* provide automated or semi-automated *not* support for the process and methods.",
-    "type": "tf",
+    "q": "Tools cannot provide automated or semi-automated not support for the process and methods.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "Define Open source?",
     "type": "mc",
     "opts": [
-      "” free” source code opens to the computing community (a blessing, but also a potential curse!)",
+      "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)",
       "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide.",
-      "pervasive, ubiquitous, distributed computing due to wireless networking."
+      "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network.",
+      "proprietary software with closed source"
     ],
-    "a": "” free” source code opens to the computing community (a blessing, but also a potential curse!)"
+    "a": "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)"
   },
   {
-    "q": "Software development is essentially an iterative social learning process, and the outcome is “software *design*”.",
-    "type": "tf",
-    "a": "False"
-  },
-  {
-    "q": "It provides a diagnostic technique for assessing the relative maturity of a software organization; uses the SEI CMM as the basis for the assessment",
+    "q": "Software development is essentially an iterative social learning process, and the outcome is \"software design\".",
     "type": "mc",
     "opts": [
-      "SPICE—The SPICE (ISO/IEC15504)",
+      "True",
+      "False (capital)"
+    ],
+    "a": "False (capital)"
+  },
+  {
+    "q": "It provides a diagnostic technique for assessing the relative maturity of a software organization; uses the SEI CMM as the basis for the assessment [Dun01]",
+    "type": "mc",
+    "opts": [
+      "SPICE---The SPICE (ISO/IEC15504)",
       "ISO 9001:2000 for Software",
-      "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)"
+      "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)",
+      "All of the above"
     ],
     "a": "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)"
   },
   {
-    "q": "The component sub-level design is *non-*refined and reviewed. Code is generated, reviewed, compiled, and tested",
-    "type": "tf",
+    "q": "The component sub-level design is non-refined and reviewed. Code is generated, reviewed, compiled, and tested",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
     "q": "What is Generic Process Model?",
     "type": "mc",
     "opts": [
-      "It is not set of umbrella activities...",
-      ". A framework for the activities, actions, and tasks that are required to build high-quality software.",
-      "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment."
+      "It is not set of umbrella activities- project tracking and control, risk management, quality assurance, configuration management, technical reviews, and others are applied throughout the process.",
+      "A framework for the activities, actions, and tasks that are required to build high-quality software.",
+      "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment.",
+      "Both B and C"
     ],
     "a": "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment."
   },
   {
     "q": "Tools provide automated or semi-automated support for the process and methods.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Software project tracking and control: assess progress against the plan and take actions to maintain the schedule.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Method provides technical how-to’s for building software.",
-    "type": "tf",
+    "q": "Method provides technical how-to's for building software.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
@@ -581,18 +768,30 @@
     "a": "Generic products"
   },
   {
-    "q": "Evolutionary process flow executes the activities in a *non-*circular manner.",
-    "type": "tf",
+    "q": "Evolutionary process flow executes the activities in a non-circular manner.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
-    "q": "A number of software process re-assessment mechanisms that enable us to determine the *immaturity* of the software process.",
-    "type": "tf",
+    "q": "A number of software process re-assessment mechanisms that enable us to determine the immaturity of the software process.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (maturity)"
+    ],
     "a": "False (maturity)"
   },
   {
-    "q": "SP defines the approach that is *not* taken as software is engineered system.",
-    "type": "tf",
+    "q": "SP defines the approach that is not taken as software is engineered system.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
@@ -607,9 +806,13 @@
     "a": "Software engineering"
   },
   {
-    "q": "Formal user verification methods are applied to *cover* errors in the design.",
-    "type": "tf",
-    "a": "False"
+    "q": "Formal user verification methods are applied to cover errors in the design.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False (uncover)"
+    ],
+    "a": "False (uncover)"
   },
   {
     "q": "A description of the prototyping process would be presented here.",
@@ -617,23 +820,36 @@
     "opts": [
       "Solution",
       "Initial Context",
-      "Problem"
+      "Problem",
+      "Resulting Context"
     ],
     "a": "Solution"
   },
   {
-    "q": "Software development is essentially an iterative social learning process, and the outcome is “software capital”.",
-    "type": "tf",
+    "q": "Software development is essentially an iterative social learning process, and the outcome is \"software capital\".",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
     "q": "Evolutionary process flow executes the activities in a circular manner.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   },
   {
-    "q": "Communication: will *not* communicate with customer to understand objectives and gather requirements.",
-    "type": "tf",
+    "q": "Communication: will not communicate with customer to understand objectives and gather requirements.",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "False"
   },
   {
@@ -642,13 +858,18 @@
     "opts": [
       "iterative process",
       "evolutionary process",
-      "linear process"
+      "linear process",
+      "parallel process"
     ],
     "a": "evolutionary process"
   },
   {
     "q": "A number of software process assessment mechanisms that enable us to determine the maturity of the software process.",
-    "type": "tf",
+    "type": "mc",
+    "opts": [
+      "True",
+      "False"
+    ],
     "a": "True"
   }
 ]
