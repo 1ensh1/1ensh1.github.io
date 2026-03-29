@@ -1,0 +1,54 @@
+[
+  {
+    "q": "Identify the component shown in the diagram.",
+    "img": "fa4.png",
+    "type": "mc",
+    "opts": [
+      "CPU",
+      "RAM",
+      "GPU",
+      "PSU"
+    ],
+    "a": "CPU"
+  },
+  {
+    "q": "What are the three states of a Git file? (Choose three.)",
+    "type": "mc",
+    "opts": [
+      "locked",
+      "deleted",
+      "staged",
+      "committed",
+      "modified",
+      "secured"
+    ],
+    "a": "staged,committed,modified"
+  },
+  {
+    "q": "RAM stands for Random Access Memory.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Match each network device to its function.",
+    "type": "matching",
+    "pairs": [
+      {
+        "term": "Router",
+        "match": "Directs traffic between networks"
+      },
+      {
+        "term": "Switch",
+        "match": "Connects devices within a LAN"
+      },
+      {
+        "term": "Modem",
+        "match": "Converts digital to analog signals"
+      },
+      {
+        "term": "Firewall",
+        "match": "Monitors and filters network traffic"
+      }
+    ]
+    }
+]

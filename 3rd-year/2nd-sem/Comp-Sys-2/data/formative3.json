@@ -1,0 +1,315 @@
+[
+  {
+    "q": "A developer is constructing some functions in Python. When is a function referred to as a module in Python?",
+    "type": "mc",
+    "opts": [
+      "when the function is packaged in a single Python file",
+      "when the function is declared during the execution of a Python program",
+      "when the function is used for the first time",
+      "when the function is initiated during the execution of a Python program"
+    ],
+    "a": "when the function is packaged in a single Python file"
+  },
+  {
+    "q": "Which fundamental Lean principle forms the basis from which all other Lean principles flow?",
+    "type": "mc",
+    "opts": [
+      "amplify learning",
+      "build integrity in",
+      "eliminate waste",
+      "deliver as fast as possible"
+    ],
+    "a": "eliminate waste"
+  },
+  {
+    "q": "A developer issues a Linux command python3 -m venv devenv . What is the developer trying to achieve?",
+    "type": "mc",
+    "opts": [
+      "to enter the Python 3 virtual environment named veny using the devnet tool sets",
+      "to activate the Python 3 virtual environment named devenv",
+      "to install the devnet tool sets in the Python 3 virtual environment named veny",
+      "to create a Python 3 virtual environment named devenv"
+    ],
+    "a": "to create a Python 3 virtual environment named devenv"
+  },
+  {
+    "q": "What special characters are used to enclose JSON objects?",
+    "type": "mc",
+    "opts": [
+      "forward slash /",
+      "parenthesis ()",
+      "square brackets []",
+      "curly braces {}"
+    ],
+    "a": "curly braces {}"
+  },
+  {
+    "q": "What is the role of the view component in the Model-View-Controller (MVC) flow?",
+    "type": "mc",
+    "opts": [
+      "It accepts selected data and displays the visual representation to the user.",
+      "It accepts the input and applies the required rules to format the data.",
+      "It requests user input and manipulates it to fit the format for the model.",
+      "It manages the data, logic and rules of the application."
+    ],
+    "a": "It accepts selected data and displays the visual representation to the user."
+  },
+  {
+    "q": "What characteristic describes a formal code review?",
+    "type": "mc",
+    "opts": [
+      "It provides direct interaction between the review team and the code author.",
+      "The entire code base is reviewed in a series of meetings.",
+      "Code is automatically sent for review by source code management systems once it is checked in.",
+      "It utilizes a peer code review tool to identify code that needs retesting."
+    ],
+    "a": "The entire code base is reviewed in a series of meetings."
+  },
+  {
+    "q": "A student is learning Python using the interactive interpreter mode. The student issues these commands:",
+    "img": "fa3_image1.png",
+    "type": "mc",
+    "opts": [
+      "url2 = Url('http', '://', 'www.cisco.com')",
+      "url2 = Url('www.cisco.com', 'http')",
+      "url2 = Url(URL, 'http://', 'www.cisco.com')",
+      "url2 = Url('http', 'www.cisco.com')"
+    ],
+    "a": "url2 = Url('www.cisco.com', 'http')"
+  },
+  {
+    "q": "How does an application use a module in Python?",
+    "type": "mc",
+    "opts": [
+      "by calling the module name",
+      "through the import statement",
+      "through the include statement",
+      "by using an assignment statement with a variable"
+    ],
+    "a": "through the import statement"
+  },
+  {
+    "q": "When a unified diff file is being reviewed, which symbol is used to indicate that a line has been added?",
+    "type": "mc",
+    "opts": [
+      "@@",
+      "+",
+      "/dev/null",
+      "---"
+    ],
+    "a": "+"
+  },
+  {
+    "q": "A developer issues the Linux command pip3 freeze in an activated Python 3 virtual environment. What is the function that is provided by the command?",
+    "type": "mc",
+    "opts": [
+      "to output a list of installed Python packages",
+      "to deactivate the current virtual environment",
+      "to lock the current virtual environment",
+      "to prepare the environment before installing a Python package"
+    ],
+    "a": "to output a list of installed Python packages"
+  },
+  {
+    "q": "What are two characteristics of the Git version control system? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "It is a distributed VCS.",
+      "It is Cisco proprietary.",
+      "It is open source",
+      "It is a centralized VCS.",
+      "It is Microsoft proprietary.",
+      "It is a local vcs."
+    ],
+    "a": [
+      "It is a distributed VCS.",
+      "It is open source"
+    ]
+  },
+  {
+    "q": "Which statement describes the Waterfall methodology of software development?",
+    "type": "mc",
+    "opts": [
+      "Process tasks are broken up into time-boxed iterations called sprints.",
+      "Multiple steps in the process are started simultaneously",
+      "Each step in the process must be completed before the next step starts",
+      "It emphasizes elimination of wasted effort and maximizes customer value"
+    ],
+    "a": "Each step in the process must be completed before the next step starts"
+  },
+  {
+    "q": "What is clean code?",
+    "type": "mc",
+    "opts": [
+      "code that has no reviewer comments",
+      "code that has passed functional testing",
+      "code that performs a discrete task",
+      "code that is easy to read and understand"
+    ],
+    "a": "code that is easy to read and understand"
+  },
+  {
+    "q": "Which SDLC phase concludes with functional code that satisfies customer requirements and is ready to be tested?",
+    "type": "mc",
+    "opts": [
+      "deployment",
+      "maintenance",
+      "testing",
+      "implementation"
+    ],
+    "a": "implementation"
+  },
+  {
+    "q": "Which term is used to describe the first line of an XML document?",
+    "type": "mc",
+    "opts": [
+      "preamble",
+      "opening",
+      "introduction",
+      "prologue"
+    ],
+    "a": "prologue"
+  },
+  {
+    "q": "What are two features of the formal code review? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "It involves a review of the entire code base in a series of meetings.",
+      "It involves the developer going through code with the reviewer line-by-line.",
+      "For a quicker turnaround, it involves only one reviewer",
+      "It allows the developer to make changes on the spot.",
+      "It promotes discussion among all of the reviewers."
+    ],
+    "a": [
+      "It involves a review of the entire code base in a series of meetings.",
+      "It promotes discussion among all of the reviewers."
+    ]
+  },
+  {
+    "q": "What is the role of the controller component in the Model-View-Controller (MVC) flow?",
+    "type": "mc",
+    "opts": [
+      "It takes in user input and manipulates it to fit the format for the model or view.",
+      "It takes user input and manipulates it to the proper format for the model.",
+      "It accepts selected data and displays it to the user.",
+      "It provides visual representations and presentations of the data."
+    ],
+    "a": "It takes user input and manipulates it to the proper format for the model."
+  },
+  {
+    "q": "Which code review method involves the developer going through the code line-by-line with the reviewer, allowing the developer to make changes on the spot?",
+    "type": "mc",
+    "opts": [
+      "over-the-shoulder",
+      "formal",
+      "change-based",
+      "email pass-around"
+    ],
+    "a": "over-the-shoulder"
+  },
+  {
+    "q": "A developer wants to find the location of the Python 3 executable file. Which command should the developer use?",
+    "type": "mc",
+    "opts": [
+      "where python3",
+      "which python3",
+      "find python3",
+      "locate python3"
+    ],
+    "a": "which python3"
+  },
+  {
+    "q": "Which software development methodology prescribes that developers follow a strict process order by completing one step in the SDLC process before proceeding to the next step.",
+    "type": "mc",
+    "opts": [
+      "Waterfall",
+      "Lean",
+      "Scrum",
+      "Agile"
+    ],
+    "a": "Waterfall"
+  },
+  {
+    "q": "Which two programming components are defined as blocks of code that perform tasks when executed? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "objects",
+      "parameters",
+      "functions",
+      "arguments",
+      "methods"
+    ],
+    "a": [
+      "functions",
+      "methods"
+    ]
+  },
+  {
+    "q": "Which SDLC development methodology employs many quick iterations known as sprints?",
+    "type": "mc",
+    "opts": [
+      "Lean",
+      "Agile",
+      "Waterfall",
+      "Extreme Programming"
+    ],
+    "a": "Agile"
+  },
+  {
+    "q": "What are the three states of a Git file? (Choose three.)",
+    "type": "multi",
+    "opts": [
+      "locked",
+      "deleted",
+      "staged",
+      "committed",
+      "modified",
+      "secured"
+    ],
+    "a": [
+      "staged",
+      "committed",
+      "modified"
+    ]
+  },
+  {
+    "q": "Match the Lean term with a description.",
+    "type": "matching",
+    "pairs": [
+      {
+        "term": "sprint",
+        "match": "a time-boxed period where working software is developed"
+      },
+      {
+        "term": "backlog",
+        "match": "a prioritized list of all the features for the software being developed"
+      },
+      {
+        "term": "story",
+        "match": "a simple statement of what a user needs and why"
+      },
+      {
+        "term": "Scrum team",
+        "match": "uses standup meetings to review progress"
+      }
+    ]
+  },
+  {
+    "q": "Match the Git command with its function.",
+    "type": "matching",
+    "pairs": [
+      {
+        "term": "git init",
+        "match": "creates an empty Git repository or makes an existing folder a Git repository"
+      },
+      {
+        "term": "git pull",
+        "match": "updates the local copy of that Git repository with the content of the remote Git repository"
+      },
+      {
+        "term": "git push",
+        "match": "updates the remote Git repository with the content changes from the local Git repository"
+      }
+    ]
+  }
+]

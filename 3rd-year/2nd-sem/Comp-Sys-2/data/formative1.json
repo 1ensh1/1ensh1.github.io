@@ -1,0 +1,310 @@
+[
+  {
+    "q": "A student is learning Python in the interactive interpreter mode. The student issues the commands: >>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"] >>> devicenames[-1] What is the result?",
+    "type": "mc",
+    "opts": [
+      "an error message",
+      "SW2",
+      "SW1",
+      "['RT2', 'SW1', 'SW2']",
+      "RT1"
+    ],
+    "a": "SW2"
+  },
+  {
+    "q": "A developer needs to check the version of the running Python package. Which command should the developer use?",
+    "type": "mc",
+    "opts": [
+      "python3-q",
+      "python3 -V",
+      "python3 -v",
+      "python3 -i"
+    ],
+    "a": "python3 -V"
+  },
+  {
+    "q": "A user issues the apt-get upgrade command to update system files in a Ubuntu Linux system and receives an error message of \"permission denied.\" What should the user do to complete the task?",
+    "type": "mc",
+    "opts": [
+      "Issue the apt-get install -allow command.",
+      "Issue the sudo apt-get install command.",
+      "Issue the allow apt-get upgrade command.",
+      "Issue the sudo apt-get upgrade command"
+    ],
+    "a": "Issue the sudo apt-get upgrade command"
+  },
+  {
+    "q": "What command is used to rename a file in a Linux system?",
+    "type": "mc",
+    "opts": [
+      "rm",
+      "cp",
+      "dd",
+      "mv"
+    ],
+    "a": "mv"
+  },
+  {
+    "q": "A network engineer needs to review the status of all network interfaces of a server running a Linux operating system. The engineer enters the command ifconfig -a. What is the result of this command?",
+    "type": "mc",
+    "opts": [
+      "The ARP table of the computer will be displayed.",
+      "Both active and inactive interfaces will display information.",
+      "All active interfaces will display information.",
+      "The host routing table will be displayed."
+    ],
+    "a": "Both active and inactive interfaces will display information."
+  },
+  {
+    "q": "A user issues a series of Linux commands as shown. (omitted)$ pwd /home/devasc/labs/ansible/backups (omitted)$ cd ../.. Which directory is the current directory after the cd command is entered?",
+    "type": "mc",
+    "opts": [
+      "/home",
+      "/home/devasc/labs/ansible",
+      "/home/devasc/labs",
+      "/home/devasc/"
+    ],
+    "a": "/home/devasc/labs"
+  },
+  {
+    "q": "A student new to Python is working in the interactive interpreter mode. The student issues the commands: >>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"] >>> hostnames=devicenames + [\"RT3\", \"SW3\"] >>> del hostnames[3] >>> hostnames What is the result?",
+    "type": "mc",
+    "opts": [
+      "['RT1', 'RT2', 'RT3', 'SW2', 'SW3']",
+      "['RT1', 'RT2', 'SW2', 'RT3', 'SW3']",
+      "['RT1', 'RT2', 'SW1', 'RT3', 'SW3']",
+      "['RT1', 'RT2', 'SW1', 'SW2', 'SW3']"
+    ],
+    "a": "['RT1', 'RT2', 'SW1', 'RT3', 'SW3']"
+  },
+  {
+    "q": "A student new to Python is working in the interactive interpreter mode. The student issues the command: >>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"} Which Python expression can be used to retrieve the IP address of R2?",
+    "type": "mc",
+    "opts": [
+      "ipAddress[R2]",
+      "ipAddress['R2']",
+      "ipAddress{\"R2\"}",
+      "ipAddress{'R2'}"
+    ],
+    "a": "ipAddress['R2']"
+  },
+  {
+    "q": "A student is learning Python in the interactive interpreter mode. The student issues the command: >>> type(True) What is the data type reported by Python?",
+    "type": "mc",
+    "opts": [
+      "string",
+      "integer",
+      "float",
+      "Boolean"
+    ],
+    "a": "Boolean"
+  },
+  {
+    "q": "A Linux system administrator is searching the passwd file for any username that starts with a digit. Which grep command should the administrator use?",
+    "type": "mc",
+    "opts": [
+      "grep '_[0-9]' /etc/passwd",
+      "grep '[0-9]' /etc/passwd",
+      "grep '(0-9}' /etc/passwd",
+      "grep '^[0-9]' /etc/passwd"
+    ],
+    "a": "grep '^[0-9]' /etc/passwd"
+  },
+  {
+    "q": "What is displayed after the following code is entered into a Python interpreter? addition = 22 +10 print(addition)",
+    "type": "mc",
+    "opts": [
+      "nothing ( because the print command is wrong)",
+      "[22]+[10]",
+      "32",
+      "(syntaxerror)-...as there should not be a space between the numerical values"
+    ],
+    "a": "32"
+  },
+  {
+    "q": "Which Python programming function is used to display output?",
+    "type": "mc",
+    "opts": [
+      "while",
+      "print",
+      "if",
+      "for"
+    ],
+    "a": "print"
+  },
+    {
+    "q": "A user issues a Linux command and the result is shown: ",
+    "img": "fa1_image1.png",
+    "type": "mc",
+    "opts": [
+      "ls -a",
+      "ls -l",
+      "ls",
+      "ls -lr"
+    ],
+    "a": "ls -l"
+  },
+  {
+    "q": "A student is learning Python in the interactive interpreter mode. The student issues the commands: >>> y=2 >>> y*3 6 >>> 'Test'*y What is the result?",
+    "type": "mc",
+    "opts": [
+      "'Test6'",
+      "'Test2'",
+      "TypeError: A string type cannot be multiplied by an integer.",
+      "'TestTest'",
+      "'TestTestTestTestTestTest'"
+    ],
+    "a": "'TestTest'"
+  },
+  {
+    "q": "What is the output when the following code is entered into a Python program interpreter? [1,2,4,5] + [3,6]",
+    "type": "mc",
+    "opts": [
+      "[12]+[9]",
+      "[1,2,3,4,5,6]",
+      "[21]",
+      "[1,2,4,5,3,6]"
+    ],
+    "a": "[1,2,4,5,3,6]"
+  },
+  {
+    "q": "A student is learning Python using the interactive interpreter mode. The student issues the commands: >>> routers=[] >>> switches=[] >>> devices=[\"RT1\", \"RT2\", \"RT3\", \"SW1\", \"SW2\", \"SW3\"] >>> devices=devices + [\"RT4\", \"SW4\"] >>> for i in devices: if \"R\" in i: routers.append(i) else: switches.append(i) >>> switches What is the result?",
+    "type": "mc",
+    "opts": [
+      "['SW1', 'SW2', 'SW3']",
+      "['SW4']",
+      "['SW4', 'SW1', 'SW2', 'SW3']",
+      "['SW1', 'SW2', 'SW3', 'SW4']",
+      "['SW4', 'SW3', 'SW2', 'SW1']"
+    ],
+    "a": "['SW1', 'SW2', 'SW3', 'SW4']"
+  },
+  {
+    "q": "A system administrator issues the apt-get upgrade command on a Linux operating system. What is the purpose of this command?",
+    "type": "mc",
+    "opts": [
+      "A specific application named upgrade will be installed.",
+      "The remote repository of applications and dependencies will be updated to the latest version.",
+      "Every application installed will update itself to the latest version.",
+      "Operating system updates are downloaded and will be installed."
+    ],
+    "a": "Every application installed will update itself to the latest version."
+  },
+  {
+    "q": "A user enters the commands as shown. What is the result after the mv command is entered? devasc@labvm:~/Documents$ pwd /home/devasc/Documents devasc@labvm:~/Documents$ mv myfile.sh ../Desktop/myfile2.sh",
+    "type": "mc",
+    "opts": [
+      "The file myfile.sh is copied and renamed to myfile2.sh in the current directory.",
+      "The file myfile.sh is copied to the /home/devasc/Desktop directory and renamed as myfile2.sh.",
+      "The file myfile.sh is moved to the /home/devasc/Desktop directory and renamed as myfile2.sh.",
+      "The file myfile.sh is copied to the /home/devasc/Desktop directory and replaces the file myfile2.sh."
+    ],
+    "a": "The file myfile.sh is moved to the /home/devasc/Desktop directory and renamed as myfile2.sh."
+  },
+  {
+    "q": "A system administrator of a Linux server is searching the passwd file for the username taylor that appears at the beginning of the line. Which grep command should the administrator use?",
+    "type": "mc",
+    "opts": [
+      "grep '.taylor' /etc/passwd",
+      "grep '[taylor]' /etc/passwd",
+      "grep '^taylor' /etc/passwd",
+      "grep taylor /etc/passwd"
+    ],
+    "a": "grep '^taylor' /etc/passwd"
+  },
+  {
+    "q": "A system administrator attempts to determine what is causing a computer to perform slower than normal. The administrator issues the ps command. What is displayed by this command?",
+    "type": "mc",
+    "opts": [
+      "current NIC status",
+      "active processes using CPU time",
+      "current HDD usage",
+      "current RAM usage"
+    ],
+    "a": "active processes using CPU time"
+  },
+  {
+    "q": "A student is learning Python and is reviewing a Python script as follows:",
+    "img": "fa1_image3.png",
+    "type": "mc",
+    "opts": [
+      "when the input is a string",
+      "when the input is a float number",
+      "when the if statement is false",
+      "when the first print statement fails"
+    ],
+    "a": "when the if statement is false"
+  },
+  {
+    "q": "Which Python command creates a conditional control structure?",
+    "type": "mc",
+    "opts": [
+      "if",
+      "def",
+      "from",
+      "delay"
+    ],
+    "a": "if"
+  },
+  {
+    "q": "A Linux administrator is attempting to use a terminal to configure the network interface card on a computer. The administrator receives a message that the administrator does not have necessary permissions to perform the configuration. What should be done prior to the configuration command?",
+    "type": "mc",
+    "opts": [
+      "identify a different network interface",
+      "use the sudo command",
+      "change the chmod permissions on the network configuration file",
+      "use a different user account"
+    ],
+    "a": "use the sudo command"
+  },
+  {
+    "q": "What Linux command is used to display the contents of the current directory?",
+    "type": "mc",
+    "opts": [
+      "ln",
+      "ls",
+      "pwd",
+      "cat"
+    ],
+    "a": "ls"
+  },
+  {
+    "q": "A user issues the Linux command ls -l myfile.sh to check the permission of the file myfile.sh. Which two statements describe the permissions assigned to the file? (Choose two.)",
+    "img": "fa1_image4.png",
+    "type": "multi",
+    "opts": [
+      "Any user in the self group can read, modify, and execute the file.",
+      "The user with the user ID of self can modify the file.",
+      "The user with the user ID of devasc can modify the file.",
+      "All users can execute the file.",
+      "Any user in the test group can execute the file."
+    ],
+    "a": [
+      "The user with the user ID of self can modify the file.",
+      "Any user in the test group can execute the file."
+    ]
+  },
+  {
+    "q": "A student new to Python is working in the interactive interpreter mode. The student issues the commands: >>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"} Which data type is used to represent the variable ipAddress?",
+    "type": "mc",
+    "opts": [
+      "list",
+      "array",
+      "tuple",
+      "dictionary"
+    ],
+    "a": "dictionary"
+  },
+  {
+    "q": "A user issues a Linux command and the result is shown:",
+    "img": "fa1_image2.png",
+    "type": "mc",
+    "opts": [
+      "ls -l",
+      "ls -a",
+      "ls -lr",
+      "ln"
+    ],
+    "a": "ls -lr"
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "q": "Which link is used from the Cisco DevNet Learning Labs to access the largest collections of labs?",
+    "type": "mc",
+    "opts": [
+      "Sections",
+      "Modules",
+      "Bookends",
+      "Tracks"
+    ],
+    "a": "Tracks"
+  },
+  {
+    "q": "What is contained within a DevNet Sandbox?",
+    "type": "mc",
+    "opts": [
+      "a collection of self-paced tutorials using REST APIs",
+      "instructor-led videos focusing on hands-on exercises",
+      "a collection of Cisco developer API documentation",
+      "a preconfigured environment already installed with Cisco platforms"
+    ],
+    "a": "a preconfigured environment already installed with Cisco platforms"
+  },
+  {
+    "q": "Which DevNet event is provided by Cisco partners and Cisco offices?",
+    "type": "mc",
+    "opts": [
+      "DevNet Learn In",
+      "DevNet Express",
+      "DevNet Hackathon",
+      "DevNet Codearama"
+    ],
+    "a": "DevNet Express"
+  },
+  {
+    "q": "What is the contracted response time after a developer opens a case-based ticket with the DevNet support service?",
+    "type": "mc",
+    "opts": [
+      "one week",
+      "one business day",
+      "one hour",
+      "five business days"
+    ],
+    "a": "one business day"
+  },
+  {
+    "q": "What type of learner should take the DevNet Associate course?",
+    "type": "mc",
+    "opts": [
+      "anyone interested in network automation and programmability",
+      "only new network engineers",
+      "anyone that does not like working in teams and is a software developer",
+      "only new software developers"
+    ],
+    "a": "anyone interested in network automation and programmability"
+  },
+  {
+    "q": "What are two benefits of using APIs and integrations between applications? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "Integrations enable the applications to request actions from each other.",
+      "Integrations enable the applications to run a Docker instance using Hyper-V.",
+      "Integrations enable the applications to be installed on any operating system type.",
+      "Integrations are used to verify compatibility between different applications.",
+      "Integrations are used to provide applications the ability to notify each other when a specific event happens."
+    ],
+    "a": [
+      "Integrations enable the applications to request actions from each other.",
+      "Integrations are used to provide applications the ability to notify each other when a specific event happens."
+    ]
+  },
+  {
+    "q": "Which Cisco DevNet online resource provides use cases for network automation, including listing data and activating policies across domains?",
+    "type": "mc",
+    "opts": [
+      "Automation Exchange",
+      "Code Exchange",
+      "DevNet Learning Labs",
+      "DevNet Sandbox"
+    ],
+    "a": "Automation Exchange"
+  },
+  {
+    "q": "Which Cisco DevNet developer support option provides 1-on-1 support to the members of the Solution Partner program?",
+    "type": "mc",
+    "opts": [
+      "community forum",
+      "knowledge base",
+      "case-based ticket",
+      "chat with DevNet"
+    ],
+    "a": "case-based ticket"
+  },
+  {
+    "q": "What is the purpose of Cisco DevNet?",
+    "type": "mc",
+    "opts": [
+      "to be the central resource for everything about networking at Cisco",
+      "to teach specific coding courses such as advanced Python and implementing REST APIs",
+      "to teach everyone about the different Cisco API offerings and how to use them",
+      "to be the central resource for advanced software developers and the use of Cisco APIs"
+    ],
+    "a": "to teach everyone about the different Cisco API offerings and how to use them"
+  },
+  {
+    "q": "Which website provides the entry point for Cisco DevNet?",
+    "type": "mc",
+    "opts": [
+      "developer.cisco.com",
+      "devnet.com",
+      "cisco.com",
+      "talosintelligence.com"
+    ],
+    "a": "developer.cisco.com"
+  },
+  {
+    "q": "Which DevNet resource would a developer use if the developer is using a Cisco API and needs help understanding the error message received?",
+    "type": "mc",
+    "opts": [
+      "DevNet Learning Labs",
+      "Code Exchange",
+      "DevNet Sandbox",
+      "DevNet Support"
+    ],
+    "a": "DevNet Support"
+  },
+  {
+    "q": "Which two DevNet resources are available online? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "Python Exchange",
+      "Code Exchange",
+      "Automation Exchange",
+      "DevNet Zone",
+      "API Tokens"
+    ],
+    "a": [
+      "Code Exchange",
+      "Automation Exchange"
+    ]
+  },
+  {
+    "q": "What is Cisco DevNet?",
+    "type": "mc",
+    "opts": [
+      "a Cisco-proprietary virtual network",
+      "a way to create networks using software alone",
+      "a developer program",
+      "a vendor-neutral type of virtual networking"
+    ],
+    "a": "a developer program"
+  },
+  {
+    "q": "What resources are available in the Cisco DevNet sandboxes?",
+    "type": "mc",
+    "opts": [
+      "self-paced tutorials that cover a wide range of automation and integration topics",
+      "support for developer-related issues through the use of forums and live chats",
+      "a repository of sample code writen by developers",
+      "production-like development and code testing environments"
+    ],
+    "a": "production-like development and code testing environments"
+  },
+  {
+    "q": "What are two requirements when participating in the DevNet Learning Labs? (Choose two.)",
+    "type": "multi",
+    "opts": [
+      "The user must have an active internet connection.",
+      "The user must install a developer environment on a local computer.",
+      "The user must have purchased the DevNet Learning Labs activation license.",
+      "The user must have successfully passed the 200-901 DEVASC exam.",
+      "The user must successfully log in with a DevNet account."
+    ],
+    "a": [
+      "The user must have an active internet connection.",
+      "The user must successfully log in with a DevNet account."
+    ]
+  },
+  {
+    "q": "What are three major areas that comprise DevNet? (Choose three.)",
+    "type": "multi",
+    "opts": [
+      "automation and programmability standards development area",
+      "integrated community forums",
+      "interactive and collaborative developer community",
+      "providing support for website creation and maintenance",
+      "on-line training site for various technology vendors",
+      "coordinated developer tools"
+    ],
+    "a": [
+      "integrated community forums",
+      "interactive and collaborative developer community",
+      "coordinated developer tools"
+    ]
+  },
+  {
+    "q": "Which technology trend enables an industry shift towards automation, applications, and integrations?",
+    "type": "mc",
+    "opts": [
+      "smaller and faster CPUs",
+      "advanced API capabilities",
+      "increased storage and RAM",
+      "increased internet connection bandwidth"
+    ],
+    "a": "advanced API capabilities"
+  },
+  {
+    "q": "What is required in order to ensure that clients are able to talk to applications that are outside a local system?",
+    "type": "mc",
+    "opts": [
+      "a network",
+      "an API",
+      "an application",
+      "a script"
+    ],
+    "a": "a network"
+  },
+  {
+    "q": "What is network programmability?",
+    "type": "mc",
+    "opts": [
+      "the ability to configure virtualized networks and deploy virtualized services in real time",
+      "the ability to program network devices using repetitive manual configuration via a terminal and command sets",
+      "the ability to configure, monitor, and react to events in the network in real time",
+      "the ability to easily monitor network devices using traditional network protocols"
+    ],
+    "a": "the ability to configure, monitor, and react to events in the network in real time"
+  },
+  {
+    "q": "What resources are available in the Cisco DevNet Code Exchange?",
+    "type": "mc",
+    "opts": [
+      "support for developer-related issues using forums and live chats",
+      "production-like development and code testing environments",
+      "a repository of sample code written by other developers",
+      "self-paced tutorials that cover a wide range of automation and integration topics"
+    ],
+    "a": "a repository of sample code written by other developers"
+  },
+  {
+    "q": "What is the purpose of the Cisco DevNet Learning Labs?",
+    "type": "mc",
+    "opts": [
+      "They allow participants to add their own labs as long as the labs relate to any type of coding.",
+      "They provide self-paced tutorials including coding.",
+      "They provide a space for game development, interaction, and learning based on coding.",
+      "They allow participants to add their own Python labs."
+    ],
+    "a": "They provide self-paced tutorials including coding."
+  },
+  {
+    "q": "What is a requirement when creating a Cisco DevNet account for accessing educational resources, such as Learning Labs and the DevNet Sandbox?",
+    "type": "mc",
+    "opts": [
+      "The account must contain a purchased license.",
+      "The account holder must share personally created code before access is allowed.",
+      "The account must be created using an existing online identity or via a new Cisco account.",
+      "The account must be registered using a Cisco email address."
+    ],
+    "a": "The account must be created using an existing online identity or via a new Cisco account."
+  }
+]
