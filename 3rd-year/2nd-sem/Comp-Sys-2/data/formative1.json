@@ -1,310 +1,442 @@
 [
   {
-    "q": "A student is learning Python in the interactive interpreter mode. The student issues the commands: >>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"] >>> devicenames[-1] What is the result?",
+    "q": "Convert 8B3F to binary.",
     "type": "mc",
     "opts": [
-      "an error message",
-      "SW2",
-      "SW1",
-      "['RT2', 'SW1', 'SW2']",
-      "RT1"
+      "1011 0011 1110 0011",
+      "1000 1011 0011 1111",
+      "0011 0101 0110 0100 0111",
+      "01 1010"
     ],
-    "a": "SW2"
+    "a": "1000 1011 0011 1111"
   },
   {
-    "q": "A developer needs to check the version of the running Python package. Which command should the developer use?",
+    "q": "A binary number's value changes most drastically when the ________ is changed.",
     "type": "mc",
     "opts": [
-      "python3-q",
-      "python3 -V",
-      "python3 -v",
-      "python3 -i"
+      "LSB",
+      "duty cycle",
+      "frequency",
+      "MSB"
     ],
-    "a": "python3 -V"
+    "a": "MSB"
   },
   {
-    "q": "A user issues the apt-get upgrade command to update system files in a Ubuntu Linux system and receives an error message of \"permission denied.\" What should the user do to complete the task?",
+    "q": "Convert the following binary number to decimal. 10011010",
     "type": "mc",
     "opts": [
-      "Issue the apt-get install -allow command.",
-      "Issue the sudo apt-get install command.",
-      "Issue the allow apt-get upgrade command.",
-      "Issue the sudo apt-get upgrade command"
+      "157",
+      "153",
+      "155",
+      "154"
     ],
-    "a": "Issue the sudo apt-get upgrade command"
+    "a": "154"
   },
   {
-    "q": "What command is used to rename a file in a Linux system?",
+    "q": "Convert the following binary number to octal. 001101011",
     "type": "mc",
     "opts": [
-      "rm",
-      "cp",
-      "dd",
-      "mv"
+      "352",
+      "153",
+      "351",
+      "253"
     ],
-    "a": "mv"
+    "a": "153"
   },
   {
-    "q": "A network engineer needs to review the status of all network interfaces of a server running a Linux operating system. The engineer enters the command ifconfig -a. What is the result of this command?",
+    "q": "Convert decimal 213 to binary.",
     "type": "mc",
     "opts": [
-      "The ARP table of the computer will be displayed.",
-      "Both active and inactive interfaces will display information.",
-      "All active interfaces will display information.",
-      "The host routing table will be displayed."
+      "11001101",
+      "11010101",
+      "11100011",
+      "01111001"
     ],
-    "a": "Both active and inactive interfaces will display information."
+    "a": "11010101"
   },
   {
-    "q": "A user issues a series of Linux commands as shown. (omitted)$ pwd /home/devasc/labs/ansible/backups (omitted)$ cd ../.. Which directory is the current directory after the cd command is entered?",
+    "q": "Convert binary 01001110 to decimal.",
     "type": "mc",
     "opts": [
-      "/home",
-      "/home/devasc/labs/ansible",
-      "/home/devasc/labs",
-      "/home/devasc/"
+      "78",
+      "4E",
+      "116",
+      "76"
     ],
-    "a": "/home/devasc/labs"
+    "a": "78"
   },
   {
-    "q": "A student new to Python is working in the interactive interpreter mode. The student issues the commands: >>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"] >>> hostnames=devicenames + [\"RT3\", \"SW3\"] >>> del hostnames[3] >>> hostnames What is the result?",
+    "q": "Convert hexadecimal value 16 to decimal.",
     "type": "mc",
     "opts": [
-      "['RT1', 'RT2', 'RT3', 'SW2', 'SW3']",
-      "['RT1', 'RT2', 'SW2', 'RT3', 'SW3']",
-      "['RT1', 'RT2', 'SW1', 'RT3', 'SW3']",
-      "['RT1', 'RT2', 'SW1', 'SW2', 'SW3']"
+      "10",
+      "16",
+      "20",
+      "22"
     ],
-    "a": "['RT1', 'RT2', 'SW1', 'RT3', 'SW3']"
+    "a": "22"
   },
   {
-    "q": "A student new to Python is working in the interactive interpreter mode. The student issues the command: >>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"} Which Python expression can be used to retrieve the IP address of R2?",
+    "q": "Convert the following octal number to decimal 17(8)",
     "type": "mc",
     "opts": [
-      "ipAddress[R2]",
-      "ipAddress['R2']",
-      "ipAddress{\"R2\"}",
-      "ipAddress{'R2'}"
+      "57",
+      "51",
+      "15",
+      "82"
     ],
-    "a": "ipAddress['R2']"
+    "a": "15"
   },
   {
-    "q": "A student is learning Python in the interactive interpreter mode. The student issues the command: >>> type(True) What is the data type reported by Python?",
+    "q": "The decimal number for octal 74 is",
     "type": "mc",
     "opts": [
-      "string",
-      "integer",
-      "float",
-      "Boolean"
+      "62",
+      "22",
+      "74",
+      "60"
     ],
-    "a": "Boolean"
+    "a": "60"
   },
   {
-    "q": "A Linux system administrator is searching the passwd file for any username that starts with a digit. Which grep command should the administrator use?",
+    "q": "Convert 527(16) to binary.",
     "type": "mc",
     "opts": [
-      "grep '_[0-9]' /etc/passwd",
-      "grep '[0-9]' /etc/passwd",
-      "grep '(0-9}' /etc/passwd",
-      "grep '^[0-9]' /etc/passwd"
+      "010100100111",
+      "011100111",
+      "111010101",
+      "343"
     ],
-    "a": "grep '^[0-9]' /etc/passwd"
+    "a": "010100100111"
   },
   {
-    "q": "What is displayed after the following code is entered into a Python interpreter? addition = 22 +10 print(addition)",
+    "q": "What is the resultant binary of the decimal problem 49 + 01 = ?",
     "type": "mc",
     "opts": [
-      "nothing ( because the print command is wrong)",
-      "[22]+[10]",
-      "32",
-      "(syntaxerror)-...as there should not be a space between the numerical values"
+      "00110010",
+      "00110001",
+      "01010101",
+      "00110101"
     ],
-    "a": "32"
+    "a": "00110010"
   },
   {
-    "q": "Which Python programming function is used to display output?",
+    "q": "The sum of 1111 + 1111 in binary equals?",
     "type": "mc",
     "opts": [
-      "while",
-      "print",
-      "if",
-      "for"
+      "11110",
+      "11111",
+      "11101",
+      "11100"
     ],
-    "a": "print"
-  },
-    {
-    "q": "A user issues a Linux command and the result is shown: ",
-    "img": "fa1_image1.png",
-    "type": "mc",
-    "opts": [
-      "ls -a",
-      "ls -l",
-      "ls",
-      "ls -lr"
-    ],
-    "a": "ls -l"
+    "a": "11110"
   },
   {
-    "q": "A student is learning Python in the interactive interpreter mode. The student issues the commands: >>> y=2 >>> y*3 6 >>> 'Test'*y What is the result?",
+    "q": "When using even parity, where is the party bit placed?",
     "type": "mc",
     "opts": [
-      "'Test6'",
-      "'Test2'",
-      "TypeError: A string type cannot be multiplied by an integer.",
-      "'TestTest'",
-      "'TestTestTestTestTestTest'"
+      "Before the MSB",
+      "After the LSB",
+      "In the parity word",
+      "After the odd parity bit"
     ],
-    "a": "'TestTest'"
+    "a": "Before the MSB"
   },
   {
-    "q": "What is the output when the following code is entered into a Python program interpreter? [1,2,4,5] + [3,6]",
+    "q": "What is the difference between binary coding and binary-coded decimal?",
     "type": "mc",
     "opts": [
-      "[12]+[9]",
-      "[1,2,3,4,5,6]",
-      "[21]",
-      "[1,2,4,5,3,6]"
+      "BCD is pure binary.",
+      "BCD has no decimal format.",
+      "Binary coding has a decimal format.",
+      "Binary coding is pure binary."
     ],
-    "a": "[1,2,4,5,3,6]"
+    "a": "Binary coding is pure binary."
   },
   {
-    "q": "A student is learning Python using the interactive interpreter mode. The student issues the commands: >>> routers=[] >>> switches=[] >>> devices=[\"RT1\", \"RT2\", \"RT3\", \"SW1\", \"SW2\", \"SW3\"] >>> devices=devices + [\"RT4\", \"SW4\"] >>> for i in devices: if \"R\" in i: routers.append(i) else: switches.append(i) >>> switches What is the result?",
+    "q": "3428 is the decimal value to which of the following binary-coded decimal (BCD) groupings?",
     "type": "mc",
     "opts": [
-      "['SW1', 'SW2', 'SW3']",
-      "['SW4']",
-      "['SW4', 'SW1', 'SW2', 'SW3']",
-      "['SW1', 'SW2', 'SW3', 'SW4']",
-      "['SW4', 'SW3', 'SW2', 'SW1']"
+      "11010000101000",
+      "011010010000010",
+      "110100001101010",
+      "11010001001000"
     ],
-    "a": "['SW1', 'SW2', 'SW3', 'SW4']"
+    "a": "11010000101000"
   },
   {
-    "q": "A system administrator issues the apt-get upgrade command on a Linux operating system. What is the purpose of this command?",
+    "q": "One hex digit is sometimes referred to as a(n):",
     "type": "mc",
     "opts": [
-      "A specific application named upgrade will be installed.",
-      "The remote repository of applications and dependencies will be updated to the latest version.",
-      "Every application installed will update itself to the latest version.",
-      "Operating system updates are downloaded and will be installed."
+      "byte",
+      "nibble",
+      "grouping",
+      "instruction"
     ],
-    "a": "Every application installed will update itself to the latest version."
+    "a": "nibble"
   },
   {
-    "q": "A user enters the commands as shown. What is the result after the mv command is entered? devasc@labvm:~/Documents$ pwd /home/devasc/Documents devasc@labvm:~/Documents$ mv myfile.sh ../Desktop/myfile2.sh",
+    "q": "Which of the following is an invalid BCD code?",
     "type": "mc",
     "opts": [
-      "The file myfile.sh is copied and renamed to myfile2.sh in the current directory.",
-      "The file myfile.sh is copied to the /home/devasc/Desktop directory and renamed as myfile2.sh.",
-      "The file myfile.sh is moved to the /home/devasc/Desktop directory and renamed as myfile2.sh.",
-      "The file myfile.sh is copied to the /home/devasc/Desktop directory and replaces the file myfile2.sh."
+      "0101",
+      "0011",
+      "1101",
+      "1001"
     ],
-    "a": "The file myfile.sh is moved to the /home/devasc/Desktop directory and renamed as myfile2.sh."
+    "a": "1101"
   },
   {
-    "q": "A system administrator of a Linux server is searching the passwd file for the username taylor that appears at the beginning of the line. Which grep command should the administrator use?",
+    "q": "Assign the proper odd parity but to the code 111001",
     "type": "mc",
     "opts": [
-      "grep '.taylor' /etc/passwd",
-      "grep '[taylor]' /etc/passwd",
-      "grep '^taylor' /etc/passwd",
-      "grep taylor /etc/passwd"
+      "1111001",
+      "0011111",
+      "0111111",
+      "1111011"
     ],
-    "a": "grep '^taylor' /etc/passwd"
+    "a": "1111001"
   },
   {
-    "q": "A system administrator attempts to determine what is causing a computer to perform slower than normal. The administrator issues the ps command. What is displayed by this command?",
+    "q": "Convert decimal 64 to binary.",
     "type": "mc",
     "opts": [
-      "current NIC status",
-      "active processes using CPU time",
-      "current HDD usage",
-      "current RAM usage"
+      "00110110",
+      "00100000",
+      "01001000",
+      "0100 0000"
     ],
-    "a": "active processes using CPU time"
+    "a": "0100 0000"
   },
   {
-    "q": "A student is learning Python and is reviewing a Python script as follows:",
-    "img": "fa1_image3.png",
+    "q": "The decimal number 188 is equal to the binary number ________.",
     "type": "mc",
     "opts": [
-      "when the input is a string",
-      "when the input is a float number",
-      "when the if statement is false",
-      "when the first print statement fails"
+      "1011 1100",
+      "111 1000",
+      "110 0011",
+      "011 1000"
     ],
-    "a": "when the if statement is false"
+    "a": "1011 1100"
   },
   {
-    "q": "Which Python command creates a conditional control structure?",
+    "q": "Convert the following decimal number to 8-bit binary. 187",
     "type": "mc",
     "opts": [
-      "if",
-      "def",
-      "from",
-      "delay"
+      "1101 1101",
+      "1011 1101",
+      "1011 1011",
+      "1011 1100"
     ],
-    "a": "if"
+    "a": "1011 1011"
   },
   {
-    "q": "A Linux administrator is attempting to use a terminal to configure the network interface card on a computer. The administrator receives a message that the administrator does not have necessary permissions to perform the configuration. What should be done prior to the configuration command?",
+    "q": "A decimal 11 in BCD is ________.",
     "type": "mc",
     "opts": [
-      "identify a different network interface",
-      "use the sudo command",
-      "change the chmod permissions on the network configuration file",
-      "use a different user account"
+      "00001100",
+      "00001011",
+      "00010001",
+      "00010010"
     ],
-    "a": "use the sudo command"
+    "a": "00010001"
   },
   {
-    "q": "What Linux command is used to display the contents of the current directory?",
+    "q": "When using the repeated division by 2 method of converting from decimal to binary, one must write the first remainder as the:",
     "type": "mc",
     "opts": [
-      "ln",
-      "ls",
-      "pwd",
-      "cat"
+      "LSB, provided the final remainder is used to replace the original LSB, which is then moved to the MSB position.",
+      "LSB",
+      "MSB, provided the following sequence of remainders are written in descending order until the final remainder is achieved",
+      "MSB"
     ],
-    "a": "ls"
+    "a": "LSB"
   },
   {
-    "q": "A user issues the Linux command ls -l myfile.sh to check the permission of the file myfile.sh. Which two statements describe the permissions assigned to the file? (Choose two.)",
-    "img": "fa1_image4.png",
-    "type": "multi",
-    "opts": [
-      "Any user in the self group can read, modify, and execute the file.",
-      "The user with the user ID of self can modify the file.",
-      "The user with the user ID of devasc can modify the file.",
-      "All users can execute the file.",
-      "Any user in the test group can execute the file."
-    ],
-    "a": [
-      "The user with the user ID of self can modify the file.",
-      "Any user in the test group can execute the file."
-    ]
-  },
-  {
-    "q": "A student new to Python is working in the interactive interpreter mode. The student issues the commands: >>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"} Which data type is used to represent the variable ipAddress?",
+    "q": "The binary-coded decimal (BCD) system can be used to represent each of the 10 decimal digits as a(n):",
     "type": "mc",
     "opts": [
-      "list",
-      "array",
-      "tuple",
-      "dictionary"
+      "4-bit binary code",
+      "8-bit binary code",
+      "16-bit binary code",
+      "ASCII code"
     ],
-    "a": "dictionary"
+    "a": "4-bit binary code"
   },
   {
-    "q": "A user issues a Linux command and the result is shown:",
-    "img": "fa1_image2.png",
+    "q": "How many bits are in an ASCII character?",
     "type": "mc",
     "opts": [
-      "ls -l",
-      "ls -a",
-      "ls -lr",
-      "ln"
+      "4",
+      "16",
+      "7",
+      "8"
     ],
-    "a": "ls -lr"
+    "a": "7"
+  },
+  {
+    "q": "The binary number for octal 45(8) is",
+    "type": "mc",
+    "opts": [
+      "110101",
+      "100100",
+      "100010",
+      "100101"
+    ],
+    "a": "100101"
+  },
+  {
+    "q": "The BCD number for decimal 347 is?",
+    "type": "mc",
+    "opts": [
+      "1100 1011 0110",
+      "0011 0100 0001",
+      "1100 1011 1000",
+      "0011 0100 0111"
+    ],
+    "a": "0011 0100 0111"
+  },
+  {
+    "q": "Convert the binary number 1001.00102 to decimal.",
+    "type": "mc",
+    "opts": [
+      "90.125",
+      "12.5",
+      "125",
+      "9.125"
+    ],
+    "a": "9.125"
+  },
+  {
+    "q": "Convert 59.7210 to BCD.",
+    "type": "mc",
+    "opts": [
+      "01011001.01110010",
+      "0101100101110010",
+      "1110.11",
+      "111011"
+    ],
+    "a": "01011001.01110010"
+  },
+  {
+    "q": "Convert hexadecimal value C1 to binary.",
+    "type": "mc",
+    "opts": [
+      "1000111",
+      "111000001",
+      "111000100",
+      "11000001"
+    ],
+    "a": "11000001"
+  },
+  {
+    "q": "The sum of the two BCD numbers, 0011 + 0011, is ________.",
+    "type": "mc",
+    "opts": [
+      "0111",
+      "1100",
+      "0011",
+      "0110"
+    ],
+    "a": "0110"
+  },
+  {
+    "q": "Convert the Gray code 1011 to binary.",
+    "type": "mc",
+    "opts": [
+      "1101",
+      "1011",
+      "1010",
+      "0100"
+    ],
+    "a": "1101"
+  },
+  {
+    "q": "Convert the binary number 1100 to Gray code.",
+    "type": "mc",
+    "opts": [
+      "1010",
+      "0011",
+      "100",
+      "1001"
+    ],
+    "a": "1010"
+  },
+  {
+    "q": "Convert the following decimal number to BCD. 127",
+    "type": "mc",
+    "opts": [
+      "011100100001",
+      "001010111",
+      "000100100111",
+      "111010001"
+    ],
+    "a": "000100100111"
+  },
+  {
+    "q": "The difference of 111 – 001 equals ________.",
+    "type": "mc",
+    "opts": [
+      "100",
+      "110",
+      "111",
+      "001"
+    ],
+    "a": "110"
+  },
+  {
+    "q": "Convert the following binary number to octal. 010 111 100",
+    "type": "mc",
+    "opts": [
+      "174",
+      "172",
+      "274",
+      "272"
+    ],
+    "a": "274"
+  },
+  {
+    "q": "Convert binary 111111110010 to hexadecimal.",
+    "type": "mc",
+    "opts": [
+      "FF2",
+      "FD2",
+      "2FE",
+      "EE2"
+    ],
+    "a": "FF2"
+  },
+  {
+    "q": "The difference of 1000 − 100 equals",
+    "type": "mc",
+    "opts": [
+      "111",
+      "110",
+      "101",
+      "100"
+    ],
+    "a": "100"
+  },
+  {
+    "q": "The sum of 11101 + 10111 equals ________.",
+    "type": "mc",
+    "opts": [
+      "110100",
+      "110011",
+      "100100",
+      "100001"
+    ],
+    "a": "110100"
+  },
+  {
+    "q": "Convert 527(8) to binary.",
+    "type": "mc",
+    "opts": [
+      "101010111",
+      "011100111",
+      "111010101",
+      "343"
+    ],
+    "a": "101010111"
   }
 ]

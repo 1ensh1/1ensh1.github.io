@@ -1,262 +1,253 @@
 [
   {
-    "q": "Which link is used from the Cisco DevNet Learning Labs to access the largest collections of labs?",
+    "q": "you can only use rd command only if the subdirectory is *not* empty.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "xcopy is an external command that lets you copy the all the file inside a subdirectory including the subdirectory to the location you specify.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is an internal DOS command used to create a subdirectory.",
     "type": "mc",
     "opts": [
-      "Sections",
-      "Modules",
-      "Bookends",
-      "Tracks"
+      "rd",
+      "cd",
+      "md",
+      "dir"
     ],
-    "a": "Tracks"
+    "a": "md"
   },
   {
-    "q": "What is contained within a DevNet Sandbox?",
+    "q": "It is an internal DOS command used to display the list of files in your current working directory.",
     "type": "mc",
     "opts": [
-      "a collection of self-paced tutorials using REST APIs",
-      "instructor-led videos focusing on hands-on exercises",
-      "a collection of Cisco developer API documentation",
-      "a preconfigured environment already installed with Cisco platforms"
+      "md",
+      "rd",
+      "cd",
+      "dir"
     ],
-    "a": "a preconfigured environment already installed with Cisco platforms"
+    "a": "dir"
   },
   {
-    "q": "Which DevNet event is provided by Cisco partners and Cisco offices?",
+    "q": "fruits\nvitc\nmeat\nanimal.txt\napple.txt\nbanana.txt\norange.txt\n-vitc\n-veggies\nsaying.txt\nGiven the directory structure above, in one command line from the root directory, write a command to create the subdirectory vitc (under meat).",
     "type": "mc",
     "opts": [
-      "DevNet Learn In",
-      "DevNet Express",
-      "DevNet Hackathon",
-      "DevNet Codearama"
+      "c:\\>md \\meat vitc",
+      "c:\\>md \\meat\\vitc",
+      "c:\\dos>md \\meat\\vitc",
+      "c:\\dos>md \\meat vitc"
     ],
-    "a": "DevNet Express"
+    "a": "c:\\>md \\meat\\vitc"
   },
   {
-    "q": "What is the contracted response time after a developer opens a case-based ticket with the DevNet support service?",
+    "q": "in the xcopy dos command, you can use /s switch to copy all the files inside a subdirectory including all the subdirectories even it is *not* empty.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "it is a dos command that lets you display the directory structure in your current working directory",
     "type": "mc",
     "opts": [
-      "one week",
-      "one business day",
-      "one hour",
-      "five business days"
+      "tree",
+      "move",
+      "ren",
+      "copy"
     ],
-    "a": "one business day"
+    "a": "tree"
   },
   {
-    "q": "What type of learner should take the DevNet Associate course?",
+    "q": "It is the extension name for assembly language program created using DEBUG command.",
     "type": "mc",
     "opts": [
-      "anyone interested in network automation and programmability",
-      "only new network engineers",
-      "anyone that does not like working in teams and is a software developer",
-      "only new software developers"
+      "com",
+      "txt",
+      "obj",
+      "bat"
     ],
-    "a": "anyone interested in network automation and programmability"
+    "a": "com"
   },
   {
-    "q": "What are two benefits of using APIs and integrations between applications? (Choose two.)",
-    "type": "multi",
-    "opts": [
-      "Integrations enable the applications to request actions from each other.",
-      "Integrations enable the applications to run a Docker instance using Hyper-V.",
-      "Integrations enable the applications to be installed on any operating system type.",
-      "Integrations are used to verify compatibility between different applications.",
-      "Integrations are used to provide applications the ability to notify each other when a specific event happens."
-    ],
-    "a": [
-      "Integrations enable the applications to request actions from each other.",
-      "Integrations are used to provide applications the ability to notify each other when a specific event happens."
-    ]
-  },
-  {
-    "q": "Which Cisco DevNet online resource provides use cases for network automation, including listing data and activating policies across domains?",
+    "q": "It is the hexadecimal value of (capital letter) A.",
     "type": "mc",
     "opts": [
-      "Automation Exchange",
-      "Code Exchange",
-      "DevNet Learning Labs",
-      "DevNet Sandbox"
+      "42h",
+      "41h",
+      "61h",
+      "62h"
     ],
-    "a": "Automation Exchange"
+    "a": "41h"
   },
   {
-    "q": "Which Cisco DevNet developer support option provides 1-on-1 support to the members of the Solution Partner program?",
+    "q": "It is a general purpose register used as data register.",
     "type": "mc",
     "opts": [
-      "community forum",
-      "knowledge base",
-      "case-based ticket",
-      "chat with DevNet"
+      "DX",
+      "CX",
+      "AX",
+      "BX"
     ],
-    "a": "case-based ticket"
+    "a": "DX"
   },
   {
-    "q": "What is the purpose of Cisco DevNet?",
+    "q": "Simulate the given program below:\n0123:0100 mov dl,32\n0123:0102 int 21\n0123:0104 mov dl,30\n0123:0108 int 21\n0123:010A mov dl,32\n0123:010C int 21\n0123:010E mov dl,30\n0123:0110 int 21\n0123:0112 int 20\nWhat is the output?",
     "type": "mc",
     "opts": [
-      "to be the central resource for everything about networking at Cisco",
-      "to teach specific coding courses such as advanced Python and implementing REST APIs",
-      "to teach everyone about the different Cisco API offerings and how to use them",
-      "to be the central resource for advanced software developers and the use of Cisco APIs"
+      "ERROR",
+      "no output",
+      "3232",
+      "2020"
     ],
-    "a": "to teach everyone about the different Cisco API offerings and how to use them"
+    "a": "2020"
   },
   {
-    "q": "Which website provides the entry point for Cisco DevNet?",
+    "q": "Simulate the given program below:\n0123:0100 mov ah,02\n0123:0102 mov dl,50\n0123:0104 int 21\n0123:0106 int 20\nWhat is the output?",
     "type": "mc",
     "opts": [
-      "developer.cisco.com",
-      "devnet.com",
-      "cisco.com",
-      "talosintelligence.com"
+      "p",
+      "P",
+      "o",
+      "O"
     ],
-    "a": "developer.cisco.com"
+    "a": "P"
   },
   {
-    "q": "Which DevNet resource would a developer use if the developer is using a Cisco API and needs help understanding the error message received?",
+    "q": "Simulate the given program below:\n0123:0100 mov ah,02\n0123:0102 mov dl,41\n0123:0104 int 21\n0123:0106 int 20\nWhat is the output?",
     "type": "mc",
     "opts": [
-      "DevNet Learning Labs",
-      "Code Exchange",
-      "DevNet Sandbox",
-      "DevNet Support"
+      "A",
+      "B",
+      "a",
+      "b"
     ],
-    "a": "DevNet Support"
+    "a": "A"
   },
   {
-    "q": "Which two DevNet resources are available online? (Choose two.)",
-    "type": "multi",
-    "opts": [
-      "Python Exchange",
-      "Code Exchange",
-      "Automation Exchange",
-      "DevNet Zone",
-      "API Tokens"
-    ],
-    "a": [
-      "Code Exchange",
-      "Automation Exchange"
-    ]
-  },
-  {
-    "q": "What is Cisco DevNet?",
+    "q": "It is a general purpose register used as accumulator.",
     "type": "mc",
     "opts": [
-      "a Cisco-proprietary virtual network",
-      "a way to create networks using software alone",
-      "a developer program",
-      "a vendor-neutral type of virtual networking"
+      "DX",
+      "BX",
+      "CX",
+      "AX"
     ],
-    "a": "a developer program"
+    "a": "AX"
   },
   {
-    "q": "What resources are available in the Cisco DevNet sandboxes?",
+    "q": "Simulate the given program below:\n0123:0100 mov ah,02\n0123:0102 mov dl,32\n0123:0104 int 21\n0123:0114 in 20\nWhat is the output?",
     "type": "mc",
     "opts": [
-      "self-paced tutorials that cover a wide range of automation and integration topics",
-      "support for developer-related issues through the use of forums and live chats",
-      "a repository of sample code writen by developers",
-      "production-like development and code testing environments"
+      "no output",
+      "ERROR",
+      "3232",
+      "2020"
     ],
-    "a": "production-like development and code testing environments"
+    "a": "ERROR"
   },
   {
-    "q": "What are two requirements when participating in the DevNet Learning Labs? (Choose two.)",
-    "type": "multi",
-    "opts": [
-      "The user must have an active internet connection.",
-      "The user must install a developer environment on a local computer.",
-      "The user must have purchased the DevNet Learning Labs activation license.",
-      "The user must have successfully passed the 200-901 DEVASC exam.",
-      "The user must successfully log in with a DevNet account."
-    ],
-    "a": [
-      "The user must have an active internet connection.",
-      "The user must successfully log in with a DevNet account."
-    ]
-  },
-  {
-    "q": "What are three major areas that comprise DevNet? (Choose three.)",
-    "type": "multi",
-    "opts": [
-      "automation and programmability standards development area",
-      "integrated community forums",
-      "interactive and collaborative developer community",
-      "providing support for website creation and maintenance",
-      "on-line training site for various technology vendors",
-      "coordinated developer tools"
-    ],
-    "a": [
-      "integrated community forums",
-      "interactive and collaborative developer community",
-      "coordinated developer tools"
-    ]
-  },
-  {
-    "q": "Which technology trend enables an industry shift towards automation, applications, and integrations?",
+    "q": "It is a general purpose register as base register.",
     "type": "mc",
     "opts": [
-      "smaller and faster CPUs",
-      "advanced API capabilities",
-      "increased storage and RAM",
-      "increased internet connection bandwidth"
+      "AX",
+      "DX",
+      "CX",
+      "BX"
     ],
-    "a": "advanced API capabilities"
+    "a": "BX"
   },
   {
-    "q": "What is required in order to ensure that clients are able to talk to applications that are outside a local system?",
+    "q": "It is a debug command that let you exit from the debug function and go back the the DOS prompt.",
     "type": "mc",
     "opts": [
-      "a network",
-      "an API",
-      "an application",
-      "a script"
+      "g",
+      "t",
+      "q",
+      "r"
     ],
-    "a": "a network"
+    "a": "q"
   },
   {
-    "q": "What is network programmability?",
+    "q": "It is where the execution of most operations takes place.",
     "type": "mc",
     "opts": [
-      "the ability to configure virtualized networks and deploy virtualized services in real time",
-      "the ability to program network devices using repetitive manual configuration via a terminal and command sets",
-      "the ability to configure, monitor, and react to events in the network in real time",
-      "the ability to easily monitor network devices using traditional network protocols"
+      "ALU",
+      "MU",
+      "CU",
+      "CPU"
     ],
-    "a": "the ability to configure, monitor, and react to events in the network in real time"
+    "a": "ALU"
   },
   {
-    "q": "What resources are available in the Cisco DevNet Code Exchange?",
+    "q": "What does C mean in CU?",
     "type": "mc",
     "opts": [
-      "support for developer-related issues using forums and live chats",
-      "production-like development and code testing environments",
-      "a repository of sample code written by other developers",
-      "self-paced tutorials that cover a wide range of automation and integration topics"
+      "Central",
+      "Controller",
+      "Center",
+      "Control"
     ],
-    "a": "a repository of sample code written by other developers"
+    "a": "Control"
   },
   {
-    "q": "What is the purpose of the Cisco DevNet Learning Labs?",
+    "q": "It is one of the tangible parts of a computer system.",
     "type": "mc",
     "opts": [
-      "They allow participants to add their own labs as long as the labs relate to any type of coding.",
-      "They provide self-paced tutorials including coding.",
-      "They provide a space for game development, interaction, and learning based on coding.",
-      "They allow participants to add their own Python labs."
+      "Graphical User Interface",
+      "CPU",
+      "Application Swoftware",
+      "Operating System"
     ],
-    "a": "They provide self-paced tutorials including coding."
+    "a": "CPU"
   },
   {
-    "q": "What is a requirement when creating a Cisco DevNet account for accessing educational resources, such as Learning Labs and the DevNet Sandbox?",
+    "q": "It is program that run the computer, designed to perform a particular type of task.",
     "type": "mc",
     "opts": [
-      "The account must contain a purchased license.",
-      "The account holder must share personally created code before access is allowed.",
-      "The account must be created using an existing online identity or via a new Cisco account.",
-      "The account must be registered using a Cisco email address."
+      "Operating System",
+      "Software",
+      "Programming Language",
+      "Application Software"
     ],
-    "a": "The account must be created using an existing online identity or via a new Cisco account."
+    "a": "Application Software"
+  },
+  {
+    "q": "Software serves as an interpreter between the hardware and the user of the system.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is one of the intangible parts of a computer system",
+    "type": "mc",
+    "opts": [
+      "software",
+      "scanner",
+      "keyboard",
+      "Mouse"
+    ],
+    "a": "software"
+  },
+  {
+    "q": "IT is a program is a sequence of extremely simple instructions in binary which are not easy to understand.",
+    "type": "mc",
+    "opts": [
+      "Programming Language",
+      "Machine Language",
+      "Assembly Language",
+      "High Level Language"
+    ],
+    "a": "Machine Language"
+  },
+  {
+    "q": "It is an electronic device that accepts, processes, stores, and outputs data at high speeds according to programmed instructions.",
+    "type": "mc",
+    "opts": [
+      "Computer",
+      "Hardware",
+      "Buffer",
+      "Register"
+    ],
+    "a": "Computer"
   }
 ]

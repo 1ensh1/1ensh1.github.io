@@ -20,16 +20,7 @@ const ASSESSMENTS = [
     { key: 'f2', label: 'Formative 2', file: 'data/formative2.json', icon: '📝', type: 'formative' },
     { key: 'f3', label: 'Formative 3', file: 'data/formative3.json', icon: '📝', type: 'formative' },
     { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
-    { key: 'f5', label: 'Formative 5', file: 'data/formative5.json', icon: '📝', type: 'formative' },
-    { key: 'f6', label: 'Formative 6', file: 'data/formative6.json', icon: '📝', type: 'formative' },
-    { key: 'f7', label: 'Formative 7', file: 'data/formative7.json', icon: '📝', type: 'formative' },
-    { key: 'f8', label: 'Formative 8', file: 'data/formative8.json', icon: '📝', type: 'formative' },
-    { key: 's1', label: 'Summative 1', file: 'data/summative1.json', icon: '📋', type: 'summative' },
-    { key: 's2', label: 'Summative 2', file: 'data/summative2.json', icon: '📋', type: 'summative' },
-    { key: 's3', label: 'Summative 3', file: 'data/summative3.json', icon: '📋', type: 'summative' },
-    { key: 's4', label: 'Summative 4', file: 'data/summative4.json', icon: '📋', type: 'summative' },
     { key: 'mt', label: 'Midterm Exam', file: 'data/midterm.json', icon: '📄', type: 'midterm' },
-    { key: 'fe', label: 'Final Exam',  file: 'data/finalexam.json',  icon: '🏆', type: 'final'     },
 ];
 
 // Section definitions — order and labels for the menu
