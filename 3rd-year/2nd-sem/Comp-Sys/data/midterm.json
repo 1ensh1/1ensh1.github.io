@@ -1,0 +1,956 @@
+[
+  {
+    "q": "What is the base or radix of the octal number?",
+    "type": "mc",
+    "opts": [
+      "2",
+      "10",
+      "8",
+      "16"
+    ],
+    "a": "8"
+  },
+  {
+    "q": "What is the highest value in the octal number?",
+    "type": "mc",
+    "opts": [
+      "2",
+      "10",
+      "7",
+      "16"
+    ],
+    "a": "7"
+  },
+  {
+    "q": "The decimal equivalent of the octal number 465 is",
+    "type": "mc",
+    "opts": [
+      "306",
+      "307",
+      "308",
+      "309"
+    ],
+    "a": "309"
+  },
+  {
+    "q": "The hexadecimal equivalent of the octal number 465 is",
+    "type": "mc",
+    "opts": [
+      "136",
+      "135",
+      "13A",
+      "153"
+    ],
+    "a": "135"
+  },
+  {
+    "q": "The binary equivalent of the hexadecimal number EA is",
+    "type": "mc",
+    "opts": [
+      "11101111",
+      "11101011",
+      "11101010",
+      "10101011"
+    ],
+    "a": "11101010"
+  },
+  {
+    "q": "The decimal equivalent of the hexadecimal number EA is",
+    "type": "mc",
+    "opts": [
+      "236",
+      "235",
+      "234",
+      "237"
+    ],
+    "a": "234"
+  },
+  {
+    "q": "Convert hexadecimal value 16 to decimal",
+    "type": "mc",
+    "opts": [
+      "22 10",
+      "16 10",
+      "10 10",
+      "20 10"
+    ],
+    "a": "22 10"
+  },
+  {
+    "q": "Convert binary 111111110010 to hexadecimal",
+    "type": "mc",
+    "opts": [
+      "FF2 16",
+      "2FE 16",
+      "$FD2_{16}$",
+      "$EE2_{16}$"
+    ],
+    "a": "FF2 16"
+  },
+  {
+    "q": "Convert binary number to decimal $01011_{2}$",
+    "type": "mc",
+    "opts": [
+      "11 10",
+      "35 10",
+      "15 10",
+      "10 10"
+    ],
+    "a": "11 10"
+  },
+  {
+    "q": "Convert the binary number 1001.0010 to decimal",
+    "type": "mc",
+    "opts": [
+      "9.125",
+      "90.125",
+      "125 10",
+      "12.5 10"
+    ],
+    "a": "9.125"
+  },
+  {
+    "q": "$36_{8}+25_{8}=$",
+    "type": "mc",
+    "opts": [
+      "73 8",
+      "63 8",
+      "${64}_{8}$",
+      "${74}_{8}$"
+    ],
+    "a": "63 8"
+  },
+  {
+    "q": "$IA_{16}+IB_{16}=$",
+    "type": "mc",
+    "opts": [
+      "32 16",
+      "35 16",
+      "34 16",
+      "33 16"
+    ],
+    "a": "35 16"
+  },
+  {
+    "q": "$4005_{8}-356_{8}=$",
+    "type": "mc",
+    "opts": [
+      "3227 8",
+      "3427 8",
+      "3527 8",
+      "3437 8"
+    ],
+    "a": "3427 8"
+  },
+  {
+    "q": "1200718 - FACE18 =",
+    "type": "mc",
+    "opts": [
+      "243916",
+      "253918",
+      "254916",
+      "252916"
+    ],
+    "a": "254916"
+  },
+  {
+    "q": "100102 x 1012 =",
+    "type": "mc",
+    "opts": [
+      "10110102",
+      "10110002",
+      "1100102",
+      "1000112"
+    ],
+    "a": "10110102"
+  },
+  {
+    "q": "6578 x 12 =",
+    "type": "mc",
+    "opts": [
+      "12326",
+      "11326",
+      "10326",
+      "13026"
+    ],
+    "a": "10326"
+  },
+  {
+    "q": "ABC16 X 1216 =",
+    "type": "mc",
+    "opts": [
+      "CA2816",
+      "C13816",
+      "B12816",
+      "B13816"
+    ],
+    "a": "C13816"
+  },
+  {
+    "q": "11012/1012 =",
+    "type": "mc",
+    "opts": [
+      "112 r 102",
+      "102 r 112",
+      "112",
+      "112 r 112"
+    ],
+    "a": "102 r 112"
+  },
+  {
+    "q": "6578/12 =",
+    "type": "mc",
+    "opts": [
+      "538 r 28",
+      "538 r 08",
+      "538 r 18",
+      "538 r 78"
+    ],
+    "a": "538 r 78"
+  },
+  {
+    "q": "ABC16/1216 =",
+    "type": "mc",
+    "opts": [
+      "$93_{16}r~C_{16}$",
+      "$98_{16}r~C_{16}$",
+      "9816",
+      "9818 r A16"
+    ],
+    "a": "$98_{16}r~C_{16}$"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the binary value?",
+    "type": "mc",
+    "opts": [
+      "0110 0001",
+      "0101 0011",
+      "0101 0001",
+      "0101 1010"
+    ],
+    "a": "0110 0001"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the Hexadecimal value?",
+    "type": "mc",
+    "opts": [
+      "61",
+      "97",
+      "28",
+      "88"
+    ],
+    "a": "61"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the Binary Coded Decimal value?",
+    "type": "mc",
+    "opts": [
+      "0101 0010",
+      "1001 0111",
+      "1010 0101",
+      "1000 0110"
+    ],
+    "a": "1001 0111"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the Excess 3 value?",
+    "type": "mc",
+    "opts": [
+      "0101 0010",
+      "1000 0010",
+      "1100 1010",
+      "1000 0110"
+    ],
+    "a": "1100 1010"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the 8 4-2-1 value?",
+    "type": "mc",
+    "opts": [
+      "0101 0010",
+      "1000 0010",
+      "0101 0101",
+      "1111 1001"
+    ],
+    "a": "0101 0101"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the 2421 value?",
+    "type": "mc",
+    "opts": [
+      "1111 1101",
+      "1110 0011",
+      "1110 0001",
+      "1110 0110"
+    ],
+    "a": "1111 1101"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. It is the biquinary value?",
+    "type": "mc",
+    "opts": [
+      "10 00010 01 00010",
+      "10 00010 01 00011",
+      "10 00011 01 00010",
+      "10 00011 01 00011"
+    ],
+    "a": "10 00010 01 00010"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the equivalent ascii character?",
+    "type": "mc",
+    "opts": [
+      "A",
+      "a",
+      "j",
+      "J"
+    ],
+    "a": "a"
+  },
+  {
+    "q": "Given: Gray code value 0101 0001. What is the odd parity?",
+    "type": "mc",
+    "opts": [
+      "00110 0001",
+      "10110 0001",
+      "01001 0111",
+      "11001 0111"
+    ],
+    "a": "10110 0001"
+  },
+  {
+    "q": "It is an electronic device that is capable of accepting data or information, performs arithmetic and logical operation and supplies the result in an acceptable form.",
+    "type": "mc",
+    "opts": [
+      "Hardware",
+      "Software",
+      "Computer",
+      "Peopleware"
+    ],
+    "a": "Computer"
+  },
+  {
+    "q": "It is considered as the brain of the computer system.",
+    "type": "mc",
+    "opts": [
+      "CPU",
+      "ALU",
+      "CU",
+      "MU"
+    ],
+    "a": "CPU"
+  },
+  {
+    "q": "What does C mean in CPU?",
+    "type": "mc",
+    "opts": [
+      "Center",
+      "Central",
+      "Computer",
+      "Counter"
+    ],
+    "a": "Central"
+  },
+  {
+    "q": "It is a type of memory that is directly accessible by the CPU.",
+    "type": "mc",
+    "opts": [
+      "Primary Memory",
+      "Secondary Memory",
+      "Memory Unit",
+      "Storage Unit"
+    ],
+    "a": "Primary Memory"
+  },
+  {
+    "q": "It is a type of memory that is external memory for storing data.",
+    "type": "mc",
+    "opts": [
+      "Primary Memory",
+      "Secondary Memory",
+      "Memory Unit",
+      "Storage Unit"
+    ],
+    "a": "Secondary Memory"
+  },
+  {
+    "q": "These are the physical components of a computer system, such as the circuit boards, chassis, enclosures, peripherals, cables, etc.",
+    "type": "mc",
+    "opts": [
+      "Hardware",
+      "Software",
+      "Computer",
+      "Peopleware"
+    ],
+    "a": "Hardware"
+  },
+  {
+    "q": "It is a part of the CPU that controls the different components of the system and is responsible for fetching, decoding and executing the instruction of a program.",
+    "type": "mc",
+    "opts": [
+      "CPU",
+      "ALU",
+      "CU",
+      "MU"
+    ],
+    "a": "CU"
+  },
+  {
+    "q": "It is a part of the CPU that performs arithmetic and logical operations.",
+    "type": "mc",
+    "opts": [
+      "CPU",
+      "ALU",
+      "CU",
+      "MU"
+    ],
+    "a": "ALU"
+  },
+  {
+    "q": "What is C in CU?",
+    "type": "mc",
+    "opts": [
+      "Central",
+      "Computer",
+      "Control",
+      "Center"
+    ],
+    "a": "Control"
+  },
+  {
+    "q": "What is L in ALU?",
+    "type": "mc",
+    "opts": [
+      "Logical",
+      "Logic",
+      "List",
+      "Line"
+    ],
+    "a": "Logic"
+  },
+  {
+    "q": "It contains the series of commands that create software, all other programming languages must be converted to machine code for them to be understood because a CPU has a limited set of instructions known as machine code that it is capable of understanding.",
+    "type": "mc",
+    "opts": [
+      "Software",
+      "Logic",
+      "Programming Language",
+      "Application Software"
+    ],
+    "a": "Programming Language"
+  },
+  {
+    "q": "It is a program is a sequence of extremely simple instructions in binary which are not easy to understand.",
+    "type": "mc",
+    "opts": [
+      "Programming Language",
+      "Machine Language",
+      "Assembly Language",
+      "High Level Language"
+    ],
+    "a": "Machine Language"
+  },
+  {
+    "q": "It is a programming language that were developed because of the difficulty of programming using assembly languages and is easier to use than machine and assembly languages because their commands are closer to natural human language.",
+    "type": "mc",
+    "opts": [
+      "Programming Language",
+      "Machine Language",
+      "Assembly Language",
+      "High Level Language"
+    ],
+    "a": "High Level Language"
+  },
+  {
+    "q": "It turns a high-level program into a CPU-specific machine language.",
+    "type": "mc",
+    "opts": [
+      "Linker",
+      "Assembler",
+      "Interpreter",
+      "Compiler"
+    ],
+    "a": "Compiler"
+  },
+  {
+    "q": "It is a programming language that uses easy-to-remember commands or mnemonics in place of binary patterns in order to make the task of programming easier.",
+    "type": "mc",
+    "opts": [
+      "Programming Language",
+      "Machine Language",
+      "Assembly Language",
+      "High Level Language"
+    ],
+    "a": "Assembly Language"
+  },
+  {
+    "q": "It is used to convert assembly language program to a machine-language program.",
+    "type": "mc",
+    "opts": [
+      "Linker",
+      "Assembler",
+      "Interpreter",
+      "Compiler"
+    ],
+    "a": "Assembler"
+  },
+  {
+    "q": "It is one of the intangible parts of a computer system.",
+    "type": "mc",
+    "opts": [
+      "Software",
+      "Keyboard",
+      "Mouse",
+      "Scanner"
+    ],
+    "a": "Software"
+  },
+  {
+    "q": "It is one of the advantage of using high-level languages over low-level languages.",
+    "type": "mc",
+    "opts": [
+      "Easy to Learn",
+      "speed",
+      "compact code",
+      "Flexibility"
+    ],
+    "a": "Easy to Learn"
+  },
+  {
+    "q": "It is one of the Advantages of using low-level languages over high-level languages.",
+    "type": "mc",
+    "opts": [
+      "Easy to Learn",
+      "speed",
+      "compact code",
+      "Flexibility"
+    ],
+    "a": "speed"
+  },
+  {
+    "q": "[Referring to the directory structure] write the command from the root directory that will copy all the files inside meat including veggies subdirectory.",
+    "img": "directory_structure.png",
+    "type": "matching",
+    "pairs": [
+      { "term": "Command", "match": "xcopy meat veggies /s" }
+    ]
+  },
+  {
+    "q": "It is the symbol used to indicate path or root directory",
+    "type": "mc",
+    "opts": [
+      "/",
+      "\\",
+      "*",
+      "-"
+    ],
+    "a": "\\"
+  },
+  {
+    "q": "It is the symbol used to indicate a switch in DOS commands.",
+    "type": "mc",
+    "opts": [
+      "/",
+      "\\",
+      "*",
+      "-"
+    ],
+    "a": "/"
+  },
+  {
+    "q": "It is a dos command that would let you go back to your previous directory.",
+    "type": "mc",
+    "opts": [
+      "cd\\cd",
+      "cd..",
+      "cd",
+      "cd."
+    ],
+    "a": "cd.."
+  },
+  {
+    "q": "It is a dos command that would let you go back to the root directory.",
+    "type": "mc",
+    "opts": [
+      "cd\\cd",
+      "cd..",
+      "cd",
+      "cd."
+    ],
+    "a": "cd\\cd"
+  },
+  {
+    "q": "It is a dos command used to change the name of a subdirectory.",
+    "type": "mc",
+    "opts": [
+      "md",
+      "move",
+      "ren",
+      "copy"
+    ],
+    "a": "ren"
+  },
+  {
+    "q": "It is a dos command that lets you display the directory structure in your current working directory.",
+    "type": "mc",
+    "opts": [
+      "tree",
+      "tree/p",
+      "tree/f",
+      "del"
+    ],
+    "a": "tree"
+  },
+  {
+    "q": "It is a dos command that lets you change the directory structure in your current working directory and the files inside a subdirectory.",
+    "type": "mc",
+    "opts": [
+      "tree/f",
+      "tree/p",
+      "tree/s",
+      "tree/d"
+    ],
+    "a": "tree/f"
+  },
+  {
+    "q": "What is the hex value of newline and carriage return to be stored in register dl to have the next character displayed on the next line?",
+    "type": "mc",
+    "opts": [
+      "10,0d",
+      "10 and 13",
+      "0a and Od",
+      "0a, 13"
+    ],
+    "a": "0a and Od"
+  },
+  {
+    "q": "It is a special DOS command that provides a single-step mode, which allows you to execute a program one instruction at a time, so that you can view the effect of each instruction on memory locations and registers?",
+    "type": "mc",
+    "opts": [
+      "TASM",
+      "TLINK",
+      "DEBUG",
+      "MSDOS"
+    ],
+    "a": "DEBUG"
+  },
+  {
+    "q": "It is the extension name for assembly language program created using DEBUG command.",
+    "type": "mc",
+    "opts": [
+      ".txt",
+      ".com",
+      ".bat",
+      ".asm"
+    ],
+    "a": ".com"
+  },
+  {
+    "q": "It is the symbol used as prompt for DEBUG programs.",
+    "type": "mc",
+    "opts": [
+      "+",
+      "-",
+      ">",
+      "?"
+    ],
+    "a": "-"
+  },
+  {
+    "q": "The first four hexadecimal value seen in the logical address is the",
+    "type": "mc",
+    "opts": [
+      "base address",
+      "offset address",
+      "physical address",
+      "memory address"
+    ],
+    "a": "base address"
+  },
+  {
+    "q": "By default, the starting offset address to write an assembly language program is",
+    "type": "mc",
+    "opts": [
+      "0123H",
+      "0100H",
+      "0200H",
+      "1234H"
+    ],
+    "a": "0100H"
+  },
+  {
+    "q": "It is the service number used to display a single character store in registered dl in assembly language.",
+    "type": "mc",
+    "opts": [
+      "mov ah,02 & int 21h",
+      "mov ah, 01 & int 21h",
+      "mov ah,02 & int 20h",
+      "mov ah,01 & int 20h"
+    ],
+    "a": "mov ah,02 & int 21h"
+  },
+  {
+    "q": "It is the only number system that is recognized and accepted in DEBUG.",
+    "type": "mc",
+    "opts": [
+      "hexadecimal",
+      "binary",
+      "octal",
+      "decimal"
+    ],
+    "a": "hexadecimal"
+  },
+  {
+    "q": "It is an instruction set that is used to terminate an assembly language program properly.",
+    "type": "mc",
+    "opts": [
+      "int 21h",
+      "int 20h",
+      "int 10h",
+      "int 30h"
+    ],
+    "a": "int 20h"
+  },
+  {
+    "q": "It is a debug command that lets you give a filename to a program.",
+    "type": "mc",
+    "opts": [
+      "n",
+      "w",
+      "r",
+      "l"
+    ],
+    "a": "n"
+  },
+  {
+    "q": "It is a debug command that lets you assign the number of byte or size of the memory to store your program in assembly language.",
+    "type": "mc",
+    "opts": [
+      "mx",
+      "r bx",
+      "r cx",
+      "r dx"
+    ],
+    "a": "r cx"
+  },
+  {
+    "q": "It is a debug command that lets you write or store the program on the cpu memory.",
+    "type": "mc",
+    "opts": [
+      "q",
+      "w",
+      "r",
+      "t"
+    ],
+    "a": "w"
+  },
+  {
+    "q": "It is a debug command that lets you execute the program line per line and view the current content of the cpu registers.",
+    "type": "mc",
+    "opts": [
+      "q",
+      "g",
+      "t",
+      "u"
+    ],
+    "a": "t"
+  },
+  {
+    "q": "Simulate the given program below:\nCode snippet\n0123:0100 mov ah,02\n0123:0102 mov dl,50\n0123:0104 int 21\n0123:0106 int 20\nWhat is the output",
+    "type": "mc",
+    "opts": [
+      "0",
+      "o",
+      "P",
+      "p"
+    ],
+    "a": "P"
+  },
+  {
+    "q": "What is the output?",
+    "type": "mc",
+    "opts": [
+      "3232",
+      "No output",
+      "2020",
+      "error"
+    ],
+    "a": "2020"
+  },
+  {
+    "q": "Simulate the given program below:\nCode snippet\n0123:0100 mov dl,32\n0123:0102 int 21\n0123:0104 mov dl,30\n0123:0106 int 21\n0123:0108 mov dl,32\n0123:010A int 21\n0123:010C int 20\nWhat is the output?",
+    "type": "mc",
+    "opts": [
+      "3232",
+      "no output",
+      "2020",
+      "error"
+    ],
+    "a": "2020"
+  },
+  {
+    "q": "It is one of the major units of CPU that keeps track of the address of the memory location containing the next instruction.",
+    "type": "mc",
+    "opts": [
+      "Program Counter",
+      "Memory Data Register",
+      "Instruction Register",
+      "Memory Address Register"
+    ],
+    "a": "Program Counter"
+  },
+  {
+    "q": "Von Neumann architecture is also known as Stored Program Architecture or the ________ architecture.",
+    "type": "mc",
+    "opts": [
+      "Fetch-Decode-Execute",
+      "Fetch-Decode-Excess",
+      "Fetch-Decode-Execution",
+      "Fetch-Decoder-Execute"
+    ],
+    "a": "Fetch-Decode-Execute"
+  },
+  {
+    "q": "It is a Central Processing Unit register that contains the data to be written or read out of the addressed location.",
+    "type": "mc",
+    "opts": [
+      "Program Counter",
+      "Memory Data Register",
+      "Memory Address Register",
+      "Instruction Register"
+    ],
+    "a": "Memory Data Register"
+  },
+  {
+    "q": "It is one of the major buses that is considered as an extensive collection of signal that control how the processor communicates with the rest of the system.",
+    "type": "mc",
+    "opts": [
+      "System Bus",
+      "Control bus",
+      "Data bus",
+      "Address bus"
+    ],
+    "a": "Control bus"
+  },
+  {
+    "q": "It is one of the major buses which specifies the location of a data in a memory.",
+    "type": "mc",
+    "opts": [
+      "16MB",
+      "1 MB",
+      "4GB",
+      "64GB"
+    ],
+    "a": "4GB"
+  },
+  {
+    "q": "24 Megabyte is equivalent to",
+    "type": "mc",
+    "opts": [
+      "24,048,576",
+      "25,165,824",
+      "24,000,000",
+      "25,048,576"
+    ],
+    "a": "25,165,824"
+  },
+  {
+    "q": "For a processor with 24 bits address bus size, what is the maximum addressable memory?",
+    "type": "mc",
+    "opts": [
+      "1,048,576",
+      "4,294,976,296",
+      "16,777,216",
+      "68,719,476,736"
+    ],
+    "a": "16,777,216"
+  },
+  {
+    "q": "What is the maximum number of addressable memory (in English) of a processor that has a 20 bits of address bus lines?",
+    "type": "mc",
+    "opts": [
+      "2MB",
+      "1MB",
+      "4MB",
+      "8MB"
+    ],
+    "a": "1MB"
+  },
+  {
+    "q": "It is a memory operation that transfers the contents of a specific Main Memory location to the CPU.",
+    "type": "mc",
+    "opts": [
+      "fetch and store",
+      "fetch or read",
+      "store or write",
+      "execute and store"
+    ],
+    "a": "fetch or read"
+  },
+  {
+    "q": "It is a general purpose register where its function is to store the result of an arithmetic operation.",
+    "type": "mc",
+    "opts": [
+      "AX",
+      "BX",
+      "CX",
+      "DX"
+    ],
+    "a": "AX"
+  },
+  {
+    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the parity flag?",
+    "type": "mc",
+    "opts": [
+      "PF=0",
+      "PF=1",
+      "PF=+",
+      "PF=-"
+    ],
+    "a": "PF=0"
+  },
+  {
+    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the zero flag?",
+    "type": "mc",
+    "opts": [
+      "ZF=0",
+      "ZF=1",
+      "ZF=+",
+      "ZF=-"
+    ],
+    "a": "ZF=0"
+  },
+  {
+    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the auxiliary flag?",
+    "type": "mc",
+    "opts": [
+      "AF=0",
+      "AF=1",
+      "AF=+",
+      "AF=-"
+    ],
+    "a": "AF=0"
+  },
+  {
+    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the carry flag?",
+    "type": "mc",
+    "opts": [
+      "CF=1",
+      "CF=0",
+      "CF=+",
+      "CF=-"
+    ],
+    "a": "CF=0"
+  },
+  {
+    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the overflow flag?",
+    "type": "mc",
+    "opts": [
+      "OF=0",
+      "OF=1",
+      "OF=+",
+      "OF=-"
+    ],
+    "a": "OF=0"
+  }
+]
