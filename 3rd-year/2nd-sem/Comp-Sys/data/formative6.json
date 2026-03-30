@@ -1,0 +1,552 @@
+[
+  {
+    "q": "What is the primary purpose of a text editor in assembly programming?",
+    "type": "mc",
+    "opts": [
+      "To translate code into binary",
+      "To load instructions into memory",
+      "To allow entry and preparation of programs into a computer-readable form",
+      "To execute machine code"
+    ],
+    "a": "To allow entry and preparation of programs into a computer-readable form"
+  },
+  {
+    "q": "Which file extension is the standard convention for programs written in assembly language?",
+    "type": "mc",
+    "opts": [
+      ".TXT",
+      ".ASM",
+      ".OBJ",
+      ".EXE"
+    ],
+    "a": ".ASM"
+  },
+  {
+    "q": "According to the module, which assembler searches for the .ASM extension by default?",
+    "type": "mc",
+    "opts": [
+      "TASM",
+      "TLINK",
+      "MASM",
+      "DOSBox"
+    ],
+    "a": "TASM"
+  },
+  {
+    "q": "What is the function of an Assembler?",
+    "type": "mc",
+    "opts": [
+      "Placing instructions in memory for execution",
+      "Saving ASCII text files to a disk",
+      "Translating assembly language mnemonics into machine code",
+      "Editing pure ASCII text"
+    ],
+    "a": "Translating assembly language mnemonics into machine code"
+  },
+  {
+    "q": "Why is the portability of assembly language mnemonics generally limited?",
+    "type": "mc",
+    "opts": [
+      "Because text editors produce pure ASCII text",
+      "Because they are limited to one particular microprocessor",
+      "Because object code is too complex",
+      "Because of the .ASM file extension"
+    ],
+    "a": "Because they are limited to one particular microprocessor"
+  },
+  {
+    "q": "Which program is responsible for placing machine instructions into memory at a specific starting address?",
+    "type": "mc",
+    "opts": [
+      "The Editor",
+      "The Assembler",
+      "The Loader",
+      "The Linker"
+    ],
+    "a": "The Loader"
+  },
+  {
+    "q": "Which directive indicates how an operand or section of a program is to be processed?",
+    "type": "mc",
+    "opts": [
+      "Instruction",
+      "Loader",
+      "Mnemonic",
+      "Directive"
+    ],
+    "a": "Directive"
+  },
+  {
+    "q": "Which memory model uses 64 KB for both the source code and the data code?",
+    "type": "mc",
+    "opts": [
+      "model tiny",
+      "model small",
+      "model large",
+      "model medium"
+    ],
+    "a": "model tiny"
+  },
+  {
+    "q": "Which memory model uses 64 KB each (separate segments) for source code and data code?",
+    "type": "mc",
+    "opts": [
+      "model tiny",
+      "model small",
+      "model 100h",
+      "model start"
+    ],
+    "a": "model small"
+  },
+  {
+    "q": "What does the org 100h directive represent?",
+    "type": "mc",
+    "opts": [
+      "The end of the program",
+      "The data segment",
+      "The origin, indicating the start of a program",
+      "The model type"
+    ],
+    "a": "The origin, indicating the start of a program"
+  },
+  {
+    "q": "Which segment is used to hold the actual program instructions?",
+    "type": "mc",
+    "opts": [
+      "data",
+      "code",
+      "tiny",
+      "start"
+    ],
+    "a": "code"
+  },
+  {
+    "q": "To display a single character using INT 21h, what value must be placed in the AH register?",
+    "type": "mc",
+    "opts": [
+      "01h",
+      "02h",
+      "09h",
+      "4Ch"
+    ],
+    "a": "02h"
+  },
+  {
+    "q": "When using Service 02h of INT 21h, which register must hold the character to be output?",
+    "type": "mc",
+    "opts": [
+      "AH",
+      "DX",
+      "DL",
+      "AL"
+    ],
+    "a": "DL"
+  },
+  {
+    "q": "What is the service number used to display a string of characters using INT 21h?",
+    "type": "mc",
+    "opts": [
+      "01h",
+      "02h",
+      "09h",
+      "08h"
+    ],
+    "a": "09h"
+  },
+  {
+    "q": "To display a string, the offset address must be stored in which register?",
+    "type": "mc",
+    "opts": [
+      "AX",
+      "DS",
+      "DX",
+      "DL"
+    ],
+    "a": "DX"
+  },
+  {
+    "q": "Service 09h will display characters until it encounters which terminator?",
+    "type": "mc",
+    "opts": [
+      "#",
+      "!",
+      "$ (ASCII 24h)",
+      ".ASM"
+    ],
+    "a": "$ (ASCII 24h)"
+  },
+  {
+    "q": "What is the service number and interrupt used to clear the screen?",
+    "type": "mc",
+    "opts": [
+      "INT 21h, AH=02h",
+      "INT 10h, AX=03h",
+      "INT 20h",
+      "INT 21h, AH=4Ch"
+    ],
+    "a": "INT 10h, AX=03h"
+  },
+  {
+    "q": "Which INT 21h function accepts a character from the keyboard and echoes it on the screen?",
+    "type": "mc",
+    "opts": [
+      "Function 01h",
+      "Function 07h",
+      "Function 08h",
+      "Function 09h"
+    ],
+    "a": "Function 01h"
+  },
+  {
+    "q": "Which function is used for password protection because it does NOT echo the character and ignores Ctrl-Break?",
+    "type": "mc",
+    "opts": [
+      "Function 01h",
+      "Function 07h",
+      "Function 08h",
+      "Function 02h"
+    ],
+    "a": "Function 07h"
+  },
+  {
+    "q": "Function 08h of INT 21h works similarly to 01h, except for what difference?",
+    "type": "mc",
+    "opts": [
+      "It uses register DX",
+      "It terminates the program",
+      "It does not echo the character on the screen",
+      "It clears the screen"
+    ],
+    "a": "It does not echo the character on the screen"
+  },
+  {
+    "q": "What is the decimal value used in register DL for a Carriage Return?",
+    "type": "mc",
+    "opts": [
+      "10",
+      "13",
+      "21",
+      "03"
+    ],
+    "a": "13"
+  },
+  {
+    "q": "What is the decimal value used in register DL to trigger a New Line?",
+    "type": "mc",
+    "opts": [
+      "10",
+      "13",
+      "01",
+      "09"
+    ],
+    "a": "10"
+  },
+  {
+    "q": "In the syntax var_name db \"string$\", what does db stand for?",
+    "type": "mc",
+    "opts": [
+      "Data binary",
+      "Define byte",
+      "Display block",
+      "Direct buffer"
+    ],
+    "a": "Define byte"
+  },
+  {
+    "q": "Which Interrupt is used to terminate a program properly without a specific service number?",
+    "type": "mc",
+    "opts": [
+      "INT 10h",
+      "INT 21h",
+      "INT 20h",
+      "INT 03h"
+    ],
+    "a": "INT 20h"
+  },
+  {
+    "q": "If using INT 21h to terminate a program, what service number must be in AH?",
+    "type": "mc",
+    "opts": [
+      "02h",
+      "09h",
+      "4Ch",
+      "01h"
+    ],
+    "a": "4Ch"
+  },
+  {
+    "q": "Besides TASM, which specific program is mentioned for linking an assembly program?",
+    "type": "mc",
+    "opts": [
+      "TEDIT",
+      "TLINK",
+      "TLOAD",
+      "TCHECK"
+    ],
+    "a": "TLINK"
+  },
+  {
+    "q": "Which editor is explicitly suggested in the module objectives for creating assembly programs?",
+    "type": "mc",
+    "opts": [
+      "Notepad++",
+      "VS Code",
+      "SK editor",
+      "WordPad"
+    ],
+    "a": "Notepad++"
+  },
+  {
+    "q": "According to the text, what is the prerequisite for the assembler and loader to process inputs?",
+    "type": "mc",
+    "opts": [
+      "The inputs must be entered in real-time",
+      "The inputs must be saved files from the disk",
+      "The inputs must be in binary format",
+      "The inputs must be printed on paper"
+    ],
+    "a": "The inputs must be saved files from the disk"
+  },
+  {
+    "q": "What is a text editor capable of producing, as required by assembly programs?",
+    "type": "mc",
+    "opts": [
+      "Rich Text Format (RTF)",
+      "Pure ASCII text",
+      "Encrypted machine code",
+      "Compressed binary files"
+    ],
+    "a": "Pure ASCII text"
+  },
+  {
+    "q": "Today’s assemblers do much more than just translate mnemonics into what?",
+    "type": "mc",
+    "opts": [
+      "ASCII text",
+      "High-level code",
+      "Binary code",
+      "Assembly directives"
+    ],
+    "a": "Binary code"
+  },
+  {
+    "q": "Where must machine instructions be placed before the microprocessor can execute them?",
+    "type": "mc",
+    "opts": [
+      "Only on the hard disk",
+      "Inside the text editor",
+      "In memory accessible to the microprocessor",
+      "Inside the assembler program"
+    ],
+    "a": "In memory accessible to the microprocessor"
+  },
+  {
+    "q": "The loader takes which specific type of code to place in memory?",
+    "type": "mc",
+    "opts": [
+      "Source code",
+      "ASCII code",
+      "Object code",
+      "Assembly code"
+    ],
+    "a": "Object code"
+  },
+  {
+    "q": "What can be said about the range of complexity for loaders?",
+    "type": "mc",
+    "opts": [
+      "They are always extremely complex",
+      "They are always very simple",
+      "They range from very simple to very complex",
+      "They are standardized and never vary"
+    ],
+    "a": "They range from very simple to very complex"
+  },
+  {
+    "q": "Which memory model uses exactly 64 KB total for both source and data?",
+    "type": "mc",
+    "opts": [
+      "model small",
+      "model tiny",
+      "model large",
+      "model compact"
+    ],
+    "a": "model tiny"
+  },
+  {
+    "q": "Which directive indicates the end of a program or a specific section?",
+    "type": "mc",
+    "opts": [
+      "end start",
+      "finish:",
+      "stop:",
+      "org"
+    ],
+    "a": "end start"
+  },
+  {
+    "q": "Why can strings usually NOT fit in a single register?",
+    "type": "mc",
+    "opts": [
+      "Registers are too slow",
+      "Strings are stored in the assembler",
+      "Strings are generally too large for registers",
+      "Registers only hold $AX$ and $BX$"
+    ],
+    "a": "Strings are generally too large for registers"
+  },
+  {
+    "q": "When passing a string address to registers, which register holds the segment address?",
+    "type": "mc",
+    "opts": [
+      "DX",
+      "AX",
+      "DS",
+      "CX"
+    ],
+    "a": "DS"
+  },
+  {
+    "q": "Which register holds the offset address of the first character of a string?",
+    "type": "mc",
+    "opts": [
+      "DS",
+      "DX",
+      "AH",
+      "DL"
+    ],
+    "a": "DX"
+  },
+  {
+    "q": "What is the hexadecimal ASCII value of the string terminator \"$\"?",
+    "type": "mc",
+    "opts": [
+      "09H",
+      "21H",
+      "24H",
+      "4CH"
+    ],
+    "a": "24H"
+  },
+  {
+    "q": "In the syntax var_name db \"string$\", what does the dollar sign ($) represent?",
+    "type": "mc",
+    "opts": [
+      "A currency symbol",
+      "The start of the string",
+      "The string terminator",
+      "A memory address"
+    ],
+    "a": "The string terminator"
+  },
+  {
+    "q": "Which INT 21h function is specifically noted for being useful for entering passwords?",
+    "type": "mc",
+    "opts": [
+      "Function 01h",
+      "Function 02h",
+      "Function 07h",
+      "Function 09h"
+    ],
+    "a": "Function 07h"
+  },
+  {
+    "q": "What is a key difference between Function 01h and Function 07h?",
+    "type": "mc",
+    "opts": [
+      "07h echoes to the screen; 01h does not",
+      "01h echoes to the screen; 07h does not",
+      "01h ignores Ctrl-Break; 07h does not",
+      "07h uses register $AH$; 01h uses $AL$"
+    ],
+    "a": "01h echoes to the screen; 07h does not"
+  },
+  {
+    "q": "Function 08h is described as working like Function 01h, except for which detail?",
+    "type": "mc",
+    "opts": [
+      "It does not respond to mouse clicks",
+      "It requires the $DS$ register",
+      "The entered character does not echo on the screen",
+      "It clears the screen automatically"
+    ],
+    "a": "The entered character does not echo on the screen"
+  },
+  {
+    "q": "To clear the screen using INT 10h, what value is stored in the AX register?",
+    "type": "mc",
+    "opts": [
+      "01",
+      "02",
+      "03",
+      "09"
+    ],
+    "a": "03"
+  },
+  {
+    "q": "Which register is used to hold the service numbers for Carriage Return (13) and New Line (10)?",
+    "type": "mc",
+    "opts": [
+      "AH",
+      "AL",
+      "DL",
+      "DH"
+    ],
+    "a": "DL"
+  },
+  {
+    "q": "Which instruction is mentioned as something students should apply in Module 6.3?",
+    "type": "mc",
+    "opts": [
+      "Add and Subtract",
+      "Jump and Move",
+      "Loop and Call & Return",
+      "Shift and Rotate"
+    ],
+    "a": "Loop and Call & Return"
+  },
+  {
+    "q": "One objective is to create a program that provides a simple screen output using which service?",
+    "type": "mc",
+    "opts": [
+      "Character output service",
+      "String output service",
+      "Keyboard echo service",
+      "Clear screen service"
+    ],
+    "a": "String output service"
+  },
+  {
+    "q": "Service 02h of INT 21H is specifically used for what?",
+    "type": "mc",
+    "opts": [
+      "Reading a string",
+      "Displaying a single character",
+      "Clearing the memory",
+      "Linking object files"
+    ],
+    "a": "Displaying a single character"
+  },
+  {
+    "q": "If a character is not present in the keyboard buffer, what does Function 01h do?",
+    "type": "mc",
+    "opts": [
+      "It crashes the program",
+      "It skips the instruction",
+      "It waits for keyboard entry",
+      "It clears the buffer"
+    ],
+    "a": "It waits for keyboard entry"
+  },
+  {
+    "q": "What is the main purpose of \"Carriage Return\" ($DL=13$) in formatting?",
+    "type": "mc",
+    "opts": [
+      "To move the cursor to the start of the current line",
+      "To move the cursor to the next line",
+      "To delete the previous character",
+      "To terminate the program"
+    ],
+    "a": "To move the cursor to the start of the current line"
+  }
+]

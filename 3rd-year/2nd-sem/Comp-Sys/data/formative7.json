@@ -1,0 +1,321 @@
+[
+  {
+    "q": "Which instruction is similar to a jump but allows the program to return back to the main program?",
+    "type": "mc",
+    "opts": [
+      "JMP",
+      "LOOP",
+      "CALL",
+      "CMP"
+    ],
+    "a": "CALL"
+  },
+  {
+    "q": "What is the specific instruction used to return control back to the main program after a procedure?",
+    "type": "mc",
+    "opts": [
+      "END",
+      "RET",
+      "EXIT",
+      "BACK"
+    ],
+    "a": "RET"
+  },
+  {
+    "q": "Which instruction allows a programmer to skip sections of a program and branch to any part of memory?",
+    "type": "mc",
+    "opts": [
+      "CALL",
+      "CMP",
+      "JMP",
+      "LOOP"
+    ],
+    "a": "JMP"
+  },
+  {
+    "q": "Which conditional jump instruction is used to \"jump if not above\" (equivalent to <=, less than or equal)?",
+    "type": "mc",
+    "opts": [
+      "JA",
+      "JB",
+      "JNA",
+      "JNB"
+    ],
+    "a": "JNA"
+  },
+  {
+    "q": "What does the JE instruction specifically stand for in assembly programming?",
+    "type": "mc",
+    "opts": [
+      "Jump if Every",
+      "Jump if Equal",
+      "Jump if Empty",
+      "Jump if Entered"
+    ],
+    "a": "Jump if Equal"
+  },
+  {
+    "q": "Which instruction is used to compare two numeric data fields contained in registers?",
+    "type": "mc",
+    "opts": [
+      "MOV",
+      "ADD",
+      "CMP",
+      "INT"
+    ],
+    "a": "CMP"
+  },
+  {
+    "q": "In a LOOP instruction, the number of repetitions depends on the value of which register?",
+    "type": "mc",
+    "opts": [
+      "AX",
+      "BX",
+      "CX",
+      "DX"
+    ],
+    "a": "CX"
+  },
+  {
+    "q": "When does looping stop when using the LOOP instruction?",
+    "type": "mc",
+    "opts": [
+      "When CX becomes zero",
+      "When CX reaches one",
+      "When the program hits a RET",
+      "When AX equals DX"
+    ],
+    "a": "When CX becomes zero"
+  },
+  {
+    "q": "Because strings usually cannot fit in a register, where are they placed in memory?",
+    "type": "mc",
+    "opts": [
+      "Inside the AH register",
+      "Inside the DX register",
+      "In the memory segment",
+      "In the instruction pointer"
+    ],
+    "a": "In the memory segment"
+  },
+  {
+    "q": "What is the service number (AH value) used for the \"display string\" function in INT 21h?",
+    "type": "mc",
+    "opts": [
+      "02h",
+      "06h",
+      "01h",
+      "09h"
+    ],
+    "a": "09h"
+  },
+  {
+    "q": "Which register must hold the offset address of the string before calling Service 9?",
+    "type": "mc",
+    "opts": [
+      "AX",
+      "BX",
+      "DS",
+      "DX"
+    ],
+    "a": "DX"
+  },
+  {
+    "q": "What is the required string terminator character for Service 9?",
+    "type": "mc",
+    "opts": [
+      "#",
+      "&",
+      "$",
+      "%"
+    ],
+    "a": "$"
+  },
+  {
+    "q": "In the declaration mess db \"hello$\", what does the db directive stand for?",
+    "type": "mc",
+    "opts": [
+      "Define Block",
+      "Define Byte",
+      "Data Binary",
+      "Display Byte"
+    ],
+    "a": "Define Byte"
+  },
+  {
+    "q": "Which interrupt is used to generate screen attributes or position the cursor?",
+    "type": "mc",
+    "opts": [
+      "INT 21h",
+      "INT 10h",
+      "INT 20h",
+      "INT 13h"
+    ],
+    "a": "INT 10h"
+  },
+  {
+    "q": "To position the cursor using INT 10h Service 02h, the row coordinate is placed in which register?",
+    "type": "mc",
+    "opts": [
+      "DL",
+      "DH",
+      "BH",
+      "AH"
+    ],
+    "a": "DH"
+  },
+  {
+    "q": "What is the valid range for row coordinates (DH register) on the screen?",
+    "type": "mc",
+    "opts": [
+      "0 to 79",
+      "1 to 25",
+      "0 to 24",
+      "0 to 255"
+    ],
+    "a": "0 to 24"
+  },
+  {
+    "q": "What is the valid range for column coordinates (DL register) on the screen?",
+    "type": "mc",
+    "opts": [
+      "0 to 24",
+      "0 to 79",
+      "1 to 80",
+      "0 to 99"
+    ],
+    "a": "0 to 79"
+  },
+  {
+    "q": "Which service of INT 10h is used to generate screen attributes or perform a scroll up/down?",
+    "type": "mc",
+    "opts": [
+      "Service 02h",
+      "Service 09h",
+      "Service 06h",
+      "Service 4Ch"
+    ],
+    "a": "Service 06h"
+  },
+  {
+    "q": "Assembly programs consist of two types of statements: instructions and ________.",
+    "type": "mc",
+    "opts": [
+      "Variables",
+      "Functions",
+      "Directives",
+      "Logic"
+    ],
+    "a": "Directives"
+  },
+  {
+    "q": "Which of the following is a directive that tells the assembler to perform a specific action, like defining data?",
+    "type": "mc",
+    "opts": [
+      "MOV",
+      "ADD",
+      "DB",
+      "INT"
+    ],
+    "a": "DB"
+  },
+  {
+    "q": "Relational operators like EQ, GE, and NE are used for what purpose during assembly?",
+    "type": "mc",
+    "opts": [
+      "Performing math",
+      "Comparing operands",
+      "Defining segments",
+      "Shifting bits"
+    ],
+    "a": "Comparing operands"
+  },
+  {
+    "q": "Which operator provides the facility to return the offset address of a variable?",
+    "type": "mc",
+    "opts": [
+      "SEG",
+      "PTR",
+      "OFFSET",
+      "TYPE"
+    ],
+    "a": "OFFSET"
+  },
+  {
+    "q": "What is the primary advantage of using arithmetic operators during the assembly process?",
+    "type": "mc",
+    "opts": [
+      "Faster execution speed",
+      "Lower memory usage",
+      "Automatic recalculation upon reassembling",
+      "Easier user input"
+    ],
+    "a": "Automatic recalculation upon reassembling"
+  },
+  {
+    "q": "When using INT 10h Service 06h, which register holds the screen attribute (color/background)?",
+    "type": "mc",
+    "opts": [
+      "AH",
+      "BH",
+      "CH",
+      "DX"
+    ],
+    "a": "BH"
+  },
+  {
+    "q": "In Service 06h (scroll window), which registers define the top-left corner of the window?",
+    "type": "mc",
+    "opts": [
+      "DH and DL",
+      "AX and BX",
+      "CH and CL",
+      "BH and BL"
+    ],
+    "a": "CH and CL"
+  },
+  {
+    "q": "Which operator is used to return the segment address of a memory item?",
+    "type": "mc",
+    "opts": [
+      "OFFSET",
+      "SEG",
+      "SIZE",
+      "LENGTH"
+    ],
+    "a": "SEG"
+  },
+  {
+    "q": "If the register CX is set to 3 before a LOOP instruction, how many times will the loop repeat?",
+    "type": "mc",
+    "opts": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "a": "3"
+  },
+  {
+    "q": "In the context of relational operators, what does the abbreviation \"NE\" stand for?",
+    "type": "mc",
+    "opts": [
+      "Next Entry",
+      "Not Equal",
+      "Near End",
+      "Negative Entry"
+    ],
+    "a": "Not Equal"
+  },
+  {
+    "q": "Which service number for INT 10h is used for \"Video Function\" to read attributes or scroll?",
+    "type": "mc",
+    "opts": [
+      "Service 02h",
+      "Service 01h",
+      "Service 06h",
+      "Service 09h"
+    ],
+    "a": "Service 06h"
+  }
+]
