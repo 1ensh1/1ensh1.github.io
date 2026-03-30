@@ -9,50 +9,6 @@
     "a": "False"
   },
   {
-    "q": "Characterized by \"number crunching\" algorithms such as automotive stress analysis, molecular biology, orbital dynamics etc.",
-    "type": "mc",
-    "opts": [
-      "System Software",
-      "Engineering / Scientific Software",
-      "Mobile Software",
-      "Application Software"
-    ],
-    "a": "Engineering / Scientific Software"
-  },
-  {
-    "q": "It concerned with cost-effective software development.",
-    "type": "mc",
-    "opts": [
-      "Software engineering",
-      "System Costs",
-      "Software System",
-      "Software Costs"
-    ],
-    "a": "Software engineering"
-  },
-  {
-    "q": "What is Software?",
-    "type": "mc",
-    "opts": [
-      "systems that are marketed and sold to any customer who wishes to buy them.",
-      "The product that software professionals build and then support over the long term.",
-      "Software that is not commissioned by a specific customer to meet their own needs.",
-      "Software that is commissioned by a specific customer to meet their own needs."
-    ],
-    "a": "The product that software professionals build and then support over the long term."
-  },
-  {
-    "q": "What is AI?",
-    "type": "mc",
-    "opts": [
-      "stand-alone programs for specific needs",
-      "software uses non-numerical algorithm to solve complex problem.",
-      "focus on a limited marketplace to address mass consumer market.",
-      "network centric software"
-    ],
-    "a": "software uses non-numerical algorithm to solve complex problem."
-  },
-  {
     "q": "Maintainability Software should be written in such a way so that it can evolve to meet the changing needs of customers",
     "type": "mc",
     "opts": [
@@ -71,50 +27,6 @@
     "a": "False (Modeling)"
   },
   {
-    "q": "What is data structures?",
-    "type": "mc",
-    "opts": [
-      "executed provide desired features, function, and performance",
-      "describes the operation and use of the programs.",
-      "enable the programs to adequately store and manipulate information",
-      "A stand-alone programs for specific needs."
-    ],
-    "a": "enable the programs to adequately store and manipulate information"
-  },
-  {
-    "q": "Engineering/scientific software",
-    "type": "mc",
-    "opts": [
-      "System software",
-      "Mobile Software",
-      "Application software",
-      "Embedded software"
-    ],
-    "a": "Application software"
-  },
-  {
-    "q": "Network centric software. As web 2.0 emerges, more sophisticated computing environments is supported integrated with remote database and business applications.",
-    "type": "mc",
-    "opts": [
-      "WebApps",
-      "Application software",
-      "Embedded software",
-      "Product-line software"
-    ],
-    "a": "WebApps"
-  },
-  {
-    "q": "Flow repeats one or more of the activities before proceeding to the next.",
-    "type": "mc",
-    "opts": [
-      "evolutionary process",
-      "linear process",
-      "iterative process",
-      "parallel process"
-    ],
-    "a": "iterative process"
-  },
-  {
     "q": "Software is embodied knowledge that is initially dispersed, tacit and incomplete.",
     "type": "mc",
     "opts": [
@@ -122,17 +34,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "What is Concurrent Model?",
-    "type": "mc",
-    "opts": [
-      "Good to develop large-scale system as software evolves as the process progresses and risk should be understood and properly reacted to",
-      "controllable as it demands considerable risk assessment expertise",
-      "applicable to all types of software development and provides an accurate picture of the current state of a project.",
-      "a linear sequential approach"
-    ],
-    "a": "applicable to all types of software development and provides an accurate picture of the current state of a project."
   },
   {
     "q": "Planning this activity carry the requirements and create both size and resource are not estimates. In addition, a defect estimate (the number of defects projected for the work) is made.",
@@ -160,17 +61,6 @@
       "False (high)"
     ],
     "a": "False (high)"
-  },
-  {
-    "q": "Defines the sequence of framework activities that occur with the process, even when the overall flow of activities is iterative in nature.",
-    "type": "mc",
-    "opts": [
-      "Stage Patterns",
-      "Task patterns",
-      "Phase patterns",
-      "Process Patterns"
-    ],
-    "a": "Phase patterns"
   },
   {
     "q": "Linear process flow executes each of the four activities in sequence",
@@ -209,39 +99,6 @@
     "a": "True"
   },
   {
-    "q": "What is Open world computing?",
-    "type": "mc",
-    "opts": [
-      "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network.",
-      "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)",
-      "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide.",
-      "distributed computing for enterprise systems"
-    ],
-    "a": "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network."
-  },
-  {
-    "q": "Why Software is Important?",
-    "type": "mc",
-    "opts": [
-      "The economies of ALL developed nations are dependent on software.",
-      "More and more systems are software not controlled (transportation, medical, telecommunications, military, industrial, entertainment,)",
-      "Software engineering is concerned without theories, methods and tools for professional software development.",
-      "Both A and B"
-    ],
-    "a": "The economies of ALL developed nations are dependent on software."
-  },
-  {
-    "q": "What is Net sourcing?",
-    "type": "mc",
-    "opts": [
-      "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide.",
-      "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)",
-      "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network.",
-      "cloud-based software delivery"
-    ],
-    "a": "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide."
-  },
-  {
     "q": "Modeling: Create a \"map\", what it looks like architecturally, how the constituent parts fit together and other characteristics.",
     "type": "mc",
     "opts": [
@@ -258,39 +115,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "Its characteristics that make it different from other things human being build.",
-    "type": "mc",
-    "opts": [
-      "Featured Hardware",
-      "Featured Costs",
-      "Featured Software",
-      "Featured System"
-    ],
-    "a": "Featured Software"
-  },
-  {
-    "q": "It resides within a product or system. (key pad control of a microwave oven, digital function of dashboard displays in a car)",
-    "type": "mc",
-    "opts": [
-      "Embedded software",
-      "System software",
-      "Application Software",
-      "Engineering/scientific software"
-    ],
-    "a": "Embedded software"
-  },
-  {
-    "q": "Requirements are hazy or nonexistent. stakeholders are unsure of what they want.",
-    "type": "mc",
-    "opts": [
-      "Solution",
-      "Problem",
-      "Problem Context",
-      "Initial Context"
-    ],
-    "a": "Problem"
   },
   {
     "q": "Iterative process flow cannot repeat one or more of the activities after proceeding to the next.",
@@ -320,28 +144,6 @@
     "a": "False (with)"
   },
   {
-    "q": "Defines a problem associated with a software engineering action or work task and relevant to successful software engineering practice",
-    "type": "mc",
-    "opts": [
-      "Phase patterns",
-      "Process Patterns",
-      "Task patterns",
-      "Stage Patterns"
-    ],
-    "a": "Task patterns"
-  },
-  {
-    "q": "Defines a problem associated with a framework activity for the process. It includes multiple task patterns as well.",
-    "type": "mc",
-    "opts": [
-      "Task patterns",
-      "Stage Patterns",
-      "Phase patterns",
-      "Process Patterns"
-    ],
-    "a": "Stage Patterns"
-  },
-  {
     "q": "Measures and centimeter should not provide guidance for modifying the process to improve its effectiveness.",
     "type": "mc",
     "opts": [
@@ -349,17 +151,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "A standard defines a set of requirements for software process assessment.",
-    "type": "mc",
-    "opts": [
-      "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)",
-      "ISO 9001:2000 for Software",
-      "SPICE---The SPICE (ISO/IEC15504)",
-      "All of the above"
-    ],
-    "a": "SPICE---The SPICE (ISO/IEC15504)"
   },
   {
     "q": "Method cannot provides technical how-to's for building software.",
@@ -378,17 +169,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "It focus on a limited marketplace to address mass consumer market. (word processing, graphics, database management)",
-    "type": "mc",
-    "opts": [
-      "Embedded software",
-      "Application software",
-      "Product-line software",
-      "System software"
-    ],
-    "a": "Product-line software"
   },
   {
     "q": "Acceptability software must be acceptable to the type of users for which it is not-designed.",
@@ -427,17 +207,6 @@
     "a": "False"
   },
   {
-    "q": "A software prototype that identifies basic requirements. (modes of interaction, computational features, processing functions) is approved by stakeholders.",
-    "type": "mc",
-    "opts": [
-      "Resulting context",
-      "Problem Context",
-      "Solution Context",
-      "Related Patterns"
-    ],
-    "a": "Resulting context"
-  },
-  {
     "q": "SP defines the approach that is taken as software is engineered.",
     "type": "mc",
     "opts": [
@@ -445,28 +214,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Flow executes each of the five activities in sequence.",
-    "type": "mc",
-    "opts": [
-      "evolutionary process",
-      "linear process",
-      "iterative process",
-      "parallel process"
-    ],
-    "a": "linear process"
-  },
-  {
-    "q": "What is a Definition of Software Process?",
-    "type": "mc",
-    "opts": [
-      "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment.",
-      "a set of umbrella activities- project tracking and control, risk management, quality assurance, configuration management, technical reviews, and others are applied throughout the process",
-      "A framework for the activities, actions, and tasks that are required to build high-quality software.",
-      "Both A and B"
-    ],
-    "a": "A framework for the activities, actions, and tasks that are required to build high-quality software."
   },
   {
     "q": "The component level design is refined and reviewed. Code is generated, reviewed, compiled, and tested",
@@ -485,17 +232,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "External specifications for each component to be constructed are developed and a component design is created.",
-    "type": "mc",
-    "opts": [
-      "Planning",
-      "Low-Level Design",
-      "High-Level Design",
-      "Development"
-    ],
-    "a": "High-Level Design"
   },
   {
     "q": "Stage patterns defines a problem associated with a framework activity for the process.",
@@ -525,15 +261,6 @@
     "a": "True"
   },
   {
-    "q": "Risk management: assesses risks that may affect the outcome and quality.",
-    "type": "mc",
-    "opts": [
-      "True",
-      "False"
-    ],
-    "a": "True"
-  },
-  {
     "q": "Software project non- tracking and uncontrol: assess progress against the plan and take actions to maintain the schedule.",
     "type": "mc",
     "opts": [
@@ -550,17 +277,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "A generic standard that applies to any organization that wants to improve the overall quality of the products, systems, or services that it provides.",
-    "type": "mc",
-    "opts": [
-      "ISO 9001:2000 for Software",
-      "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)",
-      "SPICE---The SPICE (ISO/IEC15504)",
-      "All of the above"
-    ],
-    "a": "ISO 9001:2000 for Software"
   },
   {
     "q": "Linear process flow executes each of the five activities in sequence.",
@@ -608,17 +324,6 @@
     "a": "True"
   },
   {
-    "q": "This activity isolates requirements and develops both size and resource estimates. In addition, a defect estimate (the number of defects projected for the work) is made.",
-    "type": "mc",
-    "opts": [
-      "Development",
-      "Low-Level Design",
-      "Planning",
-      "High-Level Design"
-    ],
-    "a": "Planning"
-  },
-  {
     "q": "Software is embodied knowledge that is initially disappeared, tacit and complete.",
     "type": "mc",
     "opts": [
@@ -637,39 +342,6 @@
     "a": "True"
   },
   {
-    "q": "It such as compilers, editors, file management utilities",
-    "type": "mc",
-    "opts": [
-      "Scientific Software",
-      "System Software",
-      "Application Software",
-      "Engineering Software"
-    ],
-    "a": "System Software"
-  },
-  {
-    "q": "The costs of software on a PC are often greater than the hardware cost.",
-    "type": "mc",
-    "opts": [
-      "System costs",
-      "Software engineering",
-      "Software costs",
-      "Hardware costs"
-    ],
-    "a": "Software costs"
-  },
-  {
-    "q": "Software that is commissioned by a specific customer to meet their own needs.",
-    "type": "mc",
-    "opts": [
-      "Generic products",
-      "Data structures",
-      "Customized products",
-      "System software"
-    ],
-    "a": "Customized products"
-  },
-  {
     "q": "Tools cannot provide automated or semi-automated not support for the process and methods.",
     "type": "mc",
     "opts": [
@@ -677,17 +349,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "Define Open source?",
-    "type": "mc",
-    "opts": [
-      "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)",
-      "the Web as a computing engine. How to architect simple and sophisticated applications to target end-users worldwide.",
-      "pervasive, ubiquitous, distributed computing due to wireless networking. How to allow mobile devices, personal computer, enterprise system to communicate across vast network.",
-      "proprietary software with closed source"
-    ],
-    "a": "\"free\" source code opens to the computing community (a blessing, but also a potential curse!)"
   },
   {
     "q": "Software development is essentially an iterative social learning process, and the outcome is \"software design\".",
@@ -699,17 +360,6 @@
     "a": "False (capital)"
   },
   {
-    "q": "It provides a diagnostic technique for assessing the relative maturity of a software organization; uses the SEI CMM as the basis for the assessment [Dun01]",
-    "type": "mc",
-    "opts": [
-      "SPICE---The SPICE (ISO/IEC15504)",
-      "ISO 9001:2000 for Software",
-      "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)",
-      "All of the above"
-    ],
-    "a": "CMM-Based Appraisal for Internal Process Improvement (CBA IPI)"
-  },
-  {
     "q": "The component sub-level design is non-refined and reviewed. Code is generated, reviewed, compiled, and tested",
     "type": "mc",
     "opts": [
@@ -717,17 +367,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "What is Generic Process Model?",
-    "type": "mc",
-    "opts": [
-      "It is not set of umbrella activities- project tracking and control, risk management, quality assurance, configuration management, technical reviews, and others are applied throughout the process.",
-      "A framework for the activities, actions, and tasks that are required to build high-quality software.",
-      "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment.",
-      "Both B and C"
-    ],
-    "a": "process framework for software engineering defines five framework activities-communication, planning, modeling, construction, and deployment."
   },
   {
     "q": "Tools provide automated or semi-automated support for the process and methods.",
@@ -757,17 +396,6 @@
     "a": "True"
   },
   {
-    "q": "Systems that are marketed and sold to any customer who wishes to buy them.",
-    "type": "mc",
-    "opts": [
-      "Data consolidation",
-      "Customized products",
-      "Generic products",
-      "Data structures"
-    ],
-    "a": "Generic products"
-  },
-  {
     "q": "Evolutionary process flow executes the activities in a non-circular manner.",
     "type": "mc",
     "opts": [
@@ -795,17 +423,6 @@
     "a": "False"
   },
   {
-    "q": "The establishment and use of sound engineering principles in order to obtain economically software that is reliable and works efficiently on real machines.",
-    "type": "mc",
-    "opts": [
-      "Software engineering",
-      "Software Programming",
-      "System Programming",
-      "System Engineering"
-    ],
-    "a": "Software engineering"
-  },
-  {
     "q": "Formal user verification methods are applied to cover errors in the design.",
     "type": "mc",
     "opts": [
@@ -813,17 +430,6 @@
       "False (uncover)"
     ],
     "a": "False (uncover)"
-  },
-  {
-    "q": "A description of the prototyping process would be presented here.",
-    "type": "mc",
-    "opts": [
-      "Solution",
-      "Initial Context",
-      "Problem",
-      "Resulting Context"
-    ],
-    "a": "Solution"
   },
   {
     "q": "Software development is essentially an iterative social learning process, and the outcome is \"software capital\".",
@@ -851,17 +457,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "Flow executes the activities in a circular manner.",
-    "type": "mc",
-    "opts": [
-      "iterative process",
-      "evolutionary process",
-      "linear process",
-      "parallel process"
-    ],
-    "a": "evolutionary process"
   },
   {
     "q": "A number of software process assessment mechanisms that enable us to determine the maturity of the software process.",

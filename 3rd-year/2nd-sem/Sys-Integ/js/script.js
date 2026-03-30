@@ -16,13 +16,20 @@ let matchingUserPairs = {};
 // type must be: 'formative' | 'summative' | 'final'
 // To add/remove assessments, just edit this array. The UI builds itself.
 const ASSESSMENTS = [
-    { key: 'f1', label: 'Formative 1', file: 'data/formative1.json', icon: '📝', type: 'formative' },
-    { key: 'f2', label: 'Formative 2', file: 'data/formative2.json', icon: '📝', type: 'formative' },
-    { key: 'f3', label: 'Formative 3', file: 'data/formative3.json', icon: '📝', type: 'formative' },
-    { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
-    { key: 'f5', label: 'Formative 5', file: 'data/formative5.json', icon: '📝', type: 'formative' },
-    { key: 'f6', label: 'Formative 6', file: 'data/formative6.json', icon: '📝', type: 'formative' },
-    { key: 'f7', label: 'Formative 7', file: 'data/formative7.json', icon: '📝', type: 'formative' },
+    { key: 'f1', label: 'Formative 1 (T/F)', file: 'data/formative1.json', icon: '📝', type: 'formative' },
+    { key: 'f1b', label: 'Formative 1.2 (MC)', file: 'data/formative1b.json', icon: '📝', type: 'formative' },
+    { key: 'f2', label: 'Formative 2 (T/F)', file: 'data/formative2.json', icon: '📝', type: 'formative' },
+    { key: 'f2b', label: 'Formative 2.2 (MC)', file: 'data/formative2b.json', icon: '📝', type: 'formative' },
+    { key: 'f3', label: 'Formative 3 (T/F)', file: 'data/formative3.json', icon: '📝', type: 'formative' },
+    { key: 'f3b', label: 'Formative 3.2 (MC)', file: 'data/formative3b.json', icon: '📝', type: 'formative' },
+    { key: 'f4', label: 'Formative 4 (T/F)', file: 'data/formative4.json', icon: '📝', type: 'formative' },
+    { key: 'f4b', label: 'Formative 4.2 (MC)', file: 'data/formative4b.json', icon: '📝', type: 'formative' },
+    { key: 'f5', label: 'Formative 5 (T/F)', file: 'data/formative5.json', icon: '📝', type: 'formative' },
+    { key: 'f5b', label: 'Formative 5.2 (MC)', file: 'data/formative5b.json', icon: '📝', type: 'formative' },
+    { key: 'f6', label: 'Formative 6 (T/F)', file: 'data/formative6.json', icon: '📝', type: 'formative' },
+    { key: 'f6b', label: 'Formative 6.2 (MC)', file: 'data/formative6b.json', icon: '📝', type: 'formative' },
+    { key: 'f7', label: 'Formative 7 (T/F)', file: 'data/formative7.json', icon: '📝', type: 'formative' },
+    { key: 'f7b', label: 'Formative 7.2 (MC)', file: 'data/formative7b.json', icon: '📝', type: 'formative' },
     { key: 's4', label: 'Summative 4', file: 'data/summative4.json', icon: '📋', type: 'summative' },
 ];
 

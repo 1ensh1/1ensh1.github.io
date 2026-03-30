@@ -1,0 +1,497 @@
+[
+  {
+    "q": "A _____ is a package of software controlled instruments which collects data, performs some data processing and transmits this data for further processing.",
+    "type": "mc",
+    "opts": [
+      "Forecast Station",
+      "Class Station",
+      "Object Station",
+      "Weather Station"
+    ],
+    "a": "Weather Station"
+  },
+  {
+    "q": "_______ show the objects and object classes and relationships between these entities.",
+    "type": "mc",
+    "opts": [
+      "Grand Model",
+      "Design Model",
+      "Class Model",
+      "Sample Model"
+    ],
+    "a": "Class Model"
+  },
+  {
+    "q": "A ______ is a way of reusing abstract knowledge about a problem and its solution.",
+    "type": "mc",
+    "opts": [
+      "System Pattern",
+      "Object Pattern",
+      "Design Pattern",
+      "Class Pattern"
+    ],
+    "a": "Design Pattern"
+  },
+  {
+    "q": "One of pattern elements is the results and trade-offs of applying the pattern.",
+    "type": "mc",
+    "opts": [
+      "Problem Description",
+      "Solution Description",
+      "Consequences",
+      "Name"
+    ],
+    "a": "Consequences"
+  },
+  {
+    "q": "Encapsulates the summarized data from the instruments.",
+    "type": "mc",
+    "opts": [
+      "System Data",
+      "Forecast Data",
+      "Application Data",
+      "Weather Data"
+    ],
+    "a": "Weather Data"
+  },
+  {
+    "q": "Concerned with analysis of the static system representation to discover problems  (static verification)",
+    "type": "mc",
+    "opts": [
+      "User expectations",
+      "Software Testing",
+      "Software Inspections"
+    ],
+    "a": "Software Inspections"
+  },
+  {
+    "q": "It is where you identify groups of inputs that have common characteristics and should be processed in the same way.",
+    "type": "mc",
+    "opts": [
+      "Unit testing",
+      "Partition Testing",
+      "System Testing"
+    ],
+    "a": "Partition Testing"
+  },
+  {
+    "q": "It concern with rooting out undesirable system behavior such as system crashes, unwanted interactions with other systems, incorrect computations and data corruption.",
+    "type": "mc",
+    "opts": [
+      "Defect testing",
+      "Test software",
+      "Custom software"
+    ],
+    "a": "Defect testing"
+  },
+  {
+    "q": "____ is the most modern software is constructed by reusing existing components or systems.",
+    "type": "mc",
+    "opts": [
+      "Host-Target Development",
+      "Reuse",
+      "Management Development",
+      "Configuration Management"
+    ],
+    "a": "Reuse"
+  },
+  {
+    "q": "It Provides a standard way of accessing the elements in a collection, irrespective of how that collection is implemented (Iterator pattern).",
+    "type": "mc",
+    "opts": [
+      "Object Problems",
+      "System Problems",
+      "Design Problems",
+      "Class Problems"
+    ],
+    "a": "Design Problems"
+  },
+  {
+    "q": "One of the observer patterns is used when multiple displays of state are needed.",
+    "type": "mc",
+    "opts": [
+      "Name",
+      "Consequences",
+      "Problem Description",
+      "Solution Description"
+    ],
+    "a": "Problem Description"
+  },
+  {
+    "q": "Application domain objects that are ‘_____’ objects related to the instruments in the system.",
+    "type": "mc",
+    "opts": [
+      "Software",
+      "System",
+      "Hardware",
+      "Object"
+    ],
+    "a": "Hardware"
+  },
+  {
+    "q": "Users may have low expectations of certain kinds of software.",
+    "type": "mc",
+    "opts": [
+      "User expectations",
+      "Software purpose",
+      "Marketing environment"
+    ],
+    "a": "User expectations"
+  },
+  {
+    "q": "What is Program Testing?",
+    "type": "mc",
+    "opts": [
+      "intended to show that a program does what it is intended to do and to discover program defects before it is put into use.",
+      "defect testing can be deliberately obscure and need not reflect how the system is normally used.",
+      "the system to perform correctly using a given set of test cases that reflect the system’s expected use."
+    ],
+    "a": "intended to show that a program does what it is intended to do and to discover program defects before it is put into use."
+  },
+  {
+    "q": "It is where the system is tested during development to discover bugs and defects.",
+    "type": "mc",
+    "opts": [
+      "User Testing",
+      "Development testing",
+      "Release Testing"
+    ],
+    "a": "Development testing"
+  },
+  {
+    "q": "It is where individual program units or object classes are tested.",
+    "type": "mc",
+    "opts": [
+      "Unit testing",
+      "System Testing",
+      "Component Testing"
+    ],
+    "a": "Unit testing"
+  },
+  {
+    "q": "It is where several individual units are integrated to create composite components.",
+    "type": "mc",
+    "opts": [
+      "Component Testing",
+      "System Testing",
+      "Unit testing"
+    ],
+    "a": "Component Testing"
+  },
+  {
+    "q": "At this level, you directly reuse objects from a library rather than writing the code yourself.",
+    "type": "mc",
+    "opts": [
+      "The component level",
+      "The system level",
+      "The object level",
+      "The abstraction level"
+    ],
+    "a": "The object level"
+  },
+  {
+    "q": "_________ is the name given to the general process of managing a changing software system.",
+    "type": "mc",
+    "opts": [
+      "Management Development",
+      "Configuration Management",
+      "Host-Target Development",
+      "Reuse"
+    ],
+    "a": "Configuration Management"
+  },
+  {
+    "q": "This is the basic interface of the weather station to its environment.",
+    "type": "mc",
+    "opts": [
+      "Weather Station",
+      "Forecast Station",
+      "Subsystem Station",
+      "System Station"
+    ],
+    "a": "Weather Station"
+  },
+  {
+    "q": "At this level, you reuse entire application systems.",
+    "type": "mc",
+    "opts": [
+      "The system level",
+      "The object level",
+      "The abstraction level",
+      "The component level"
+    ],
+    "a": "The system level"
+  },
+  {
+    "q": "_______ describe the dynamic interactions between objects.",
+    "type": "mc",
+    "opts": [
+      "Class Model",
+      "Design Model",
+      "System Model",
+      "Dynamic Model"
+    ],
+    "a": "Dynamic Model"
+  },
+  {
+    "q": "It is where you initialize the system with the test case, namely the inputs and expected outputs.",
+    "type": "mc",
+    "opts": [
+      "Call Part",
+      "Setup Part",
+      "Assertion Part"
+    ],
+    "a": "Setup Part"
+  },
+  {
+    "q": "It is where you compare the result of the call with the expected result.",
+    "type": "mc",
+    "opts": [
+      "Setup Part",
+      "Call Part",
+      "Assertion Part"
+    ],
+    "a": "Assertion Part"
+  },
+  {
+    "q": "The test cases in defect testing can be deliberately obscure and need not reflect how the system is normally used.",
+    "type": "mc",
+    "opts": [
+      "Custom Testing",
+      "Validating Testing",
+      "Defect Testing"
+    ],
+    "a": "Defect Testing"
+  },
+  {
+    "q": "Concerned with exercising and observing product behaviour (dynamic verification)",
+    "type": "mc",
+    "opts": [
+      "Software Testing",
+      "User expectations",
+      "Software Inspections"
+    ],
+    "a": "Software Testing"
+  },
+  {
+    "q": "It is where a separate testing team test a complete version of the system before it is released to users.",
+    "type": "mc",
+    "opts": [
+      "Development testing",
+      "User Testing",
+      "Release Testing"
+    ],
+    "a": "Release Testing"
+  },
+  {
+    "q": "The most software is developed on one computer (the host), but runs on a separate machine (the target).",
+    "type": "mc",
+    "opts": [
+      "Configuration Management",
+      "Management Development",
+      "Host-Target Development",
+      "Reuse"
+    ],
+    "a": "Host-Target Development"
+  },
+  {
+    "q": "At this level the collections of objects and object classes that you reuse in application systems.",
+    "type": "mc",
+    "opts": [
+      "The abstraction level",
+      "The object level",
+      "The system level",
+      "The component level"
+    ],
+    "a": "The component level"
+  },
+  {
+    "q": "It is show the sequence of object interactions that take place",
+    "type": "mc",
+    "opts": [
+      "Dynamic Model",
+      "Sequence Model",
+      "System Model",
+      "Subsystem Model"
+    ],
+    "a": "Sequence Model"
+  },
+  {
+    "q": "It is where a separate testing team test a complete version of the system before it is released to users.",
+    "type": "mc",
+    "opts": [
+      "Release Testing",
+      "User Testing",
+      "Development testing"
+    ],
+    "a": "Release Testing"
+  },
+  {
+    "q": "The test cases in defect testing can be deliberately obscure and need not reflect how the system is normally used.",
+    "type": "mc",
+    "opts": [
+      "Custom Testing",
+      "Validating Testing",
+      "Defect Testing"
+    ],
+    "a": "Defect Testing"
+  },
+  {
+    "q": "When a test fails or unexpected behavior occurs this capture and show it to the user later?",
+    "type": "mc",
+    "opts": [
+      "Test Cases",
+      "Track and Verify Defects",
+      "Test Plan",
+      "Log and Report Defects"
+    ],
+    "a": "Log and Report Defects"
+  },
+  {
+    "q": "At this level, you reuse entire application systems.",
+    "type": "mc",
+    "opts": [
+      "The component level",
+      "The abstraction level",
+      "The system level",
+      "The object level"
+    ],
+    "a": "The system level"
+  },
+  {
+    "q": "At this level, you don’t reuse software directly but use knowledge of successful abstractions in the design of your software.",
+    "type": "mc",
+    "opts": [
+      "The abstraction level",
+      "The component level",
+      "The object level",
+      "The system level"
+    ],
+    "a": "The abstraction level"
+  },
+  {
+    "q": "The test expect the system to perform correctly using a given set of test cases that reflect the system’s expected use.",
+    "type": "mc",
+    "opts": [
+      "Custom testing",
+      "Validating Testing",
+      "Defect testing"
+    ],
+    "a": "Validating Testing"
+  },
+  {
+    "q": "It is where you initialize the system with the test case, namely the inputs and expected outputs.",
+    "type": "mc",
+    "opts": [
+      "Setup Part",
+      "Call Part",
+      "Assertion Part"
+    ],
+    "a": "Setup Part"
+  },
+  {
+    "q": "At this level, you directly reuse objects from a library rather than writing the code yourself.",
+    "type": "mc",
+    "opts": [
+      "The component level",
+      "The system level",
+      "The object level",
+      "The abstraction level"
+    ],
+    "a": "The object level"
+  },
+  {
+    "q": "This technique, the tester or the QA analyst will only check the functionality of the particular module or particular method or sometimes the entire application by providing the different test cases manually.\nHere, the tester will give the input for the application and test it manually",
+    "type": "mc",
+    "opts": [
+      "Gray Box Testing",
+      "Black Box Testing",
+      "White Box Testing",
+      "White Hat Testing"
+    ],
+    "a": "Black Box Testing"
+  },
+  {
+    "q": "It shows how the design is organized into logically related groups of objects.",
+    "type": "mc",
+    "opts": [
+      "Subsystem Model",
+      "Design Model",
+      "Dynamic Model",
+      "System Model"
+    ],
+    "a": "Subsystem Model"
+  },
+  {
+    "q": "It is where some or all of the components in a system are integrated and the system is tested as a whole.",
+    "type": "mc",
+    "opts": [
+      "Component Testing",
+      "System Testing",
+      "Unit testing"
+    ],
+    "a": "System Testing"
+  },
+  {
+    "q": "It is where you call the object or method to be tested.",
+    "type": "mc",
+    "opts": [
+      "Setup Part",
+      "Call Part",
+      "Assertion Part"
+    ],
+    "a": "Call Part"
+  },
+  {
+    "q": "The test environment copy the production setup where the software will run. This step involves",
+    "type": "mc",
+    "opts": [
+      "Ensuring access to test data which is need for the project verification.",
+      "Configuring settings according to your project.",
+      "Verifying hardware/software requirements.",
+      "Installing the applications which is need for the testing purpose."
+    ],
+    "a": "Ensuring access to test data which is need for the project verification."
+  },
+  {
+    "q": "Getting a product to market early may be more important than finding defects in the program.",
+    "type": "mc",
+    "opts": [
+      "User expectations",
+      "Marketing environment",
+      "Software purpose"
+    ],
+    "a": "Marketing environment"
+  },
+  {
+    "q": "It is where users or potential users of a system test the system in their own environment.",
+    "type": "mc",
+    "opts": [
+      "Release Testing",
+      "User Testing",
+      "Development testing"
+    ],
+    "a": "User Testing"
+  },
+  {
+    "q": "This means that there should be at least one test for every requirement in the requirements document.",
+    "type": "mc",
+    "opts": [
+      "Custom software",
+      "Program Testing",
+      "Test Software"
+    ],
+    "a": "Program Testing"
+  },
+  {
+    "q": "_____ are used to show how objects respond to different service requests and the state transitions triggered by these requests.",
+    "type": "mc",
+    "opts": [
+      "State Diagram",
+      "System Diagram",
+      "Subsystem Diagram",
+      "File Diagram"
+    ],
+    "a": "State Diagram"
+  }
+]

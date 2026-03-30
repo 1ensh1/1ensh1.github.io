@@ -1,0 +1,402 @@
+[
+  {
+    "q": "A model the organization of a system or the structure of the data that is processed by the system.",
+    "type": "mc",
+    "opts": [
+      "interaction perspective",
+      "structural perspective",
+      "external perspective"
+    ],
+    "a": "structural perspective"
+  },
+  {
+    "q": "What is System modeling?",
+    "type": "mc",
+    "opts": [
+      "a model the dynamic behavior of the system and how it responds to events.",
+      "a model the context or environment of the system",
+      "is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system."
+    ],
+    "a": "is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system."
+  },
+  {
+    "q": "These are established to define what is inside and what is outside the system.",
+    "type": "mc",
+    "opts": [
+      "System boundaries",
+      "Interaction models",
+      "Process perspective"
+    ],
+    "a": "System boundaries"
+  },
+  {
+    "q": "It show the interactions between a system and its environment.",
+    "type": "mc",
+    "opts": [
+      "Activity diagrams",
+      "Case diagrams",
+      "Sequence diagrams"
+    ],
+    "a": "Case diagrams"
+  },
+  {
+    "q": "It helps us understand if a proposed system structure is likely to deliver the required system performance and dependability",
+    "type": "mc",
+    "opts": [
+      "Modeling user interaction",
+      "Modeling component interaction",
+      "Modeling system-to-system interaction"
+    ],
+    "a": "Modeling component interaction"
+  },
+  {
+    "q": "It shows the system hardware and how software components are distributed across the processors in the system.",
+    "type": "mc",
+    "opts": [
+      "physical view",
+      "logical view",
+      "process view"
+    ],
+    "a": "physical view"
+  },
+  {
+    "q": "Means that analysis of whether the system can meet its non-functional requirements is possible.",
+    "type": "mc",
+    "opts": [
+      "Large-scale reuse",
+      "System analysis",
+      "Stakeholder communication"
+    ],
+    "a": "System analysis"
+  },
+  {
+    "q": "Data-centred applications that process user requests and update information in a system database.",
+    "type": "mc",
+    "opts": [
+      "Transaction processing applications",
+      "Event processing systems",
+      "Data processing applications"
+    ],
+    "a": "Transaction processing applications"
+  },
+  {
+    "q": "What is Context Models?",
+    "type": "mc",
+    "opts": [
+      "they show what lies outside the system boundaries.",
+      "Models should be an accurate representation of the system but need not be complete.",
+      "Models have to be both correct and complete."
+    ],
+    "a": "they show what lies outside the system boundaries."
+  },
+  {
+    "q": "It helps the analyst to understand the functionality of the system and models are used to communicate with customers.",
+    "type": "mc",
+    "opts": [
+      "Graphical models",
+      "System modeling",
+      "System perspectives"
+    ],
+    "a": "Graphical models"
+  },
+  {
+    "q": "A model the interactions between a system and its environment, or between the components of a system.",
+    "type": "mc",
+    "opts": [
+      "structural perspective",
+      "interaction perspective",
+      "external perspective"
+    ],
+    "a": "interaction perspective"
+  },
+  {
+    "q": "A model the context or environment of the system.",
+    "type": "mc",
+    "opts": [
+      "interaction perspective",
+      "external perspective",
+      "structural perspective"
+    ],
+    "a": "external perspective"
+  },
+  {
+    "q": "What is Software Architecture?",
+    "type": "mc",
+    "opts": [
+      "is concerned with the way that an individual program is decomposed into components.",
+      "The output of design process",
+      "The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication"
+    ],
+    "a": "The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication"
+  },
+  {
+    "q": "What is Layered architecture?",
+    "type": "mc",
+    "opts": [
+      "Distributed system model which shows how data and processing is distributed across a range of components.",
+      "Organises the system into a set of layers (or abstract machines) each of which provide a set of services.",
+      "is a stylized description of good design practice, which has been tried and tested in different environments."
+    ],
+    "a": "Organises the system into a set of layers (or abstract machines) each of which provide a set of services."
+  },
+  {
+    "q": "Is concerned with the architecture of complex enterprise systems that include other systems, programs, and program components.",
+    "type": "mc",
+    "opts": [
+      "Architecture in the large",
+      "Architecture in the medium",
+      "Architecture in the small"
+    ],
+    "a": "Architecture in the large"
+  },
+  {
+    "q": "It shows how the software is decomposed for development.",
+    "type": "mc",
+    "opts": [
+      "logical view",
+      "development view",
+      "physical view"
+    ],
+    "a": "development view"
+  },
+  {
+    "q": "The architecture may be reusable across a range of systems.",
+    "type": "mc",
+    "opts": [
+      "Stakeholder communication",
+      "System analysis",
+      "Large-scale reuse"
+    ],
+    "a": "Large-scale reuse"
+  },
+  {
+    "q": "This software display the organization of a system in terms of the components that make up that system and their relationships",
+    "type": "mc",
+    "opts": [
+      "Structural models",
+      "Sequence diagrams",
+      "System Structure"
+    ],
+    "a": "Structural models"
+  },
+  {
+    "q": "It simply show the other systems in the environment, not how the system being developed is used in that environment.",
+    "type": "mc",
+    "opts": [
+      "Context Models",
+      "Process models",
+      "UML activity diagrams"
+    ],
+    "a": "Context Models"
+  },
+  {
+    "q": "What is Sequence diagrams?",
+    "type": "mc",
+    "opts": [
+      "use case may be people or other systems.",
+      "is part of the UML and are used to model the interactions between the actors and the objects within a system.",
+      "Use cases were developed originally to support requirements elicitation and now incorporated into the UML."
+    ],
+    "a": "is part of the UML and are used to model the interactions between the actors and the objects within a system."
+  },
+  {
+    "q": "Include redundant components and mechanisms for fault tolerance.",
+    "type": "mc",
+    "opts": [
+      "Safety",
+      "Availability",
+      "Maintainability"
+    ],
+    "a": "Availability"
+  },
+  {
+    "q": "Localise safety-critical features in a small number of sub-systems.",
+    "type": "mc",
+    "opts": [
+      "Security",
+      "Safety",
+      "Performance"
+    ],
+    "a": "Safety"
+  },
+  {
+    "q": "These reveal how the system being developed is used in broader business processes.",
+    "type": "mc",
+    "opts": [
+      "Process models",
+      "Context Models",
+      "UML activity diagrams"
+    ],
+    "a": "Process models"
+  },
+  {
+    "q": "It highlights the communication problems that may arise.",
+    "type": "mc",
+    "opts": [
+      "Modeling system-to-system interaction",
+      "Modeling user interaction",
+      "Modeling component interaction"
+    ],
+    "a": "Modeling system-to-system interaction"
+  },
+  {
+    "q": "It show the object classes in the system and the associations between these classes.",
+    "type": "mc",
+    "opts": [
+      "State diagrams",
+      "Activity diagrams",
+      "Class Diagrams"
+    ],
+    "a": "Class Diagrams"
+  },
+  {
+    "q": "Architecture may be used as a focus of discussion by system stakeholders.",
+    "type": "mc",
+    "opts": [
+      "Large-scale reuse",
+      "System analysis",
+      "Stakeholder communication"
+    ],
+    "a": "Stakeholder communication"
+  },
+  {
+    "q": "At this level, we are concerned with the way that an individual program is decomposed into components",
+    "type": "mc",
+    "opts": [
+      "Architecture in the small",
+      "Architecture in the large",
+      "Architecture in the medium"
+    ],
+    "a": "Architecture in the small"
+  },
+  {
+    "q": "This is important as it helps to identify user requirements.",
+    "type": "mc",
+    "opts": [
+      "Modeling user interaction",
+      "Modeling system-to-system interaction",
+      "Modeling component interaction"
+    ],
+    "a": "Modeling user interaction"
+  },
+  {
+    "q": "It shows interactions between actors and the system and between system components.",
+    "type": "mc",
+    "opts": [
+      "Activity diagrams",
+      "Sequence Diagrams",
+      "State diagrams"
+    ],
+    "a": "Sequence Diagrams"
+  },
+  {
+    "q": "It shows the key abstractions in the system as objects or object classes.",
+    "type": "mc",
+    "opts": [
+      "physical view",
+      "logical view",
+      "process view"
+    ],
+    "a": "logical view"
+  },
+  {
+    "q": "This show the activities involved in a process or in data processing.",
+    "type": "mc",
+    "opts": [
+      "Case diagrams",
+      "Sequence diagrams",
+      "Activity diagrams"
+    ],
+    "a": "Activity diagrams"
+  },
+  {
+    "q": "Use fine-grain, replaceable components.",
+    "type": "mc",
+    "opts": [
+      "Safety",
+      "Availability",
+      "Maintainability"
+    ],
+    "a": "Maintainability"
+  },
+  {
+    "q": "What is Architectural Patterns?",
+    "type": "mc",
+    "opts": [
+      "Distributed system model which shows how data and processing is distributed across a range of components.",
+      "is a stylized description of good design practice, which has been tried and tested in different environments.",
+      "Used to model the interfacing of sub-systems."
+    ],
+    "a": "is a stylized description of good design practice, which has been tried and tested in different environments."
+  },
+  {
+    "q": "It may be used to define business process models.",
+    "type": "mc",
+    "opts": [
+      "Context Models",
+      "UML activity diagrams",
+      "Process models"
+    ],
+    "a": "UML activity diagrams"
+  },
+  {
+    "q": "It shows how, at run-time, the system is composed of interacting processes.",
+    "type": "mc",
+    "opts": [
+      "logical view",
+      "process view",
+      "physical view"
+    ],
+    "a": "process view"
+  },
+  {
+    "q": "It show how the system reacts to internal and external events",
+    "type": "mc",
+    "opts": [
+      "Class Diagrams",
+      "State diagrams",
+      "Activity diagrams"
+    ],
+    "a": "State diagrams"
+  },
+  {
+    "q": "That process data in batches without explicit user intervention during the processing.",
+    "type": "mc",
+    "opts": [
+      "Event processing systems",
+      "Transaction processing applications",
+      "Data processing applications"
+    ],
+    "a": "Data processing applications"
+  },
+  {
+    "q": "Use a layered architecture with critical assets in the inner layers.",
+    "type": "mc",
+    "opts": [
+      "Security",
+      "Performance",
+      "Safety"
+    ],
+    "a": "Security"
+  },
+  {
+    "q": "What is Architectural Design?",
+    "type": "mc",
+    "opts": [
+      "The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication",
+      "An early stage of the system design process.",
+      "is concerned with the way that an individual program is decomposed into components."
+    ],
+    "a": "The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication"
+  },
+  {
+    "q": "Localize critical operations and minimize communications. Use large rather than fine-grain components.",
+    "type": "mc",
+    "opts": [
+      "Performance",
+      "Security",
+      "Safety"
+    ],
+    "a": "Performance"
+  }
+]

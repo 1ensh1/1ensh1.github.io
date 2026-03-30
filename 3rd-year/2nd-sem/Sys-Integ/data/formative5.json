@@ -1,16 +1,5 @@
 [
   {
-    "q": "A _______ is a package of software controlled instruments which collects data, performs some data processing and transmits this data for further processing.",
-    "type": "mc",
-    "opts": [
-      "Forecast Station",
-      "Class Station",
-      "Object Station",
-      "Weather Station"
-    ],
-    "a": "Weather Station"
-  },
-  {
     "q": "Once interactions between the system and its environment have been understood, you use this information for designing the system architecture.",
     "type": "mc",
     "opts": [
@@ -20,28 +9,6 @@
     "a": "True"
   },
   {
-    "q": "_________ show the objects and object classes and relationships between these entities.",
-    "type": "mc",
-    "opts": [
-      "Grand Model",
-      "Design Model",
-      "Class Model",
-      "Sample Model"
-    ],
-    "a": "Design Model"
-  },
-  {
-    "q": "A _______ is a way of reusing abstract knowledge about a problem and its solution.",
-    "type": "mc",
-    "opts": [
-      "System Pattern",
-      "Object Pattern",
-      "Design Pattern",
-      "Class Pattern"
-    ],
-    "a": "Design Pattern"
-  },
-  {
     "q": "System design and implementation is the stage in the software engineering process at which an executable software system is not developed.",
     "type": "mc",
     "opts": [
@@ -49,17 +16,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "One of pattern elements is the results and trade-offs of applying the pattern.",
-    "type": "mc",
-    "opts": [
-      "Problem Description",
-      "Solution Description",
-      "Consequences",
-      "Name"
-    ],
-    "a": "Consequences"
   },
   {
     "q": "They require a lot of effort for testing and maintenance of these models and, for small systems, this may not be cost-effective.",
@@ -89,17 +45,6 @@
     "a": "True"
   },
   {
-    "q": "Encapsulates the summarized data from the instruments.",
-    "type": "mc",
-    "opts": [
-      "System Data",
-      "Forecast Data",
-      "Application Data",
-      "Weather Data"
-    ],
-    "a": "Weather Data"
-  },
-  {
     "q": "Parameter interfaces Data passed from one method or procedure to another.",
     "type": "mc",
     "opts": [
@@ -107,17 +52,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Concerned with analysis of the static system representation to discover problems (static verification)",
-    "type": "mc",
-    "opts": [
-      "User expectations",
-      "Software Testing",
-      "Software Inspections",
-      "Static Analysis"
-    ],
-    "a": "Software Inspections"
   },
   {
     "q": "Force invalid inputs to be generated",
@@ -147,17 +81,6 @@
     "a": "False"
   },
   {
-    "q": "It is where you identify groups of inputs that have common characteristics and should be processed in the same way.",
-    "type": "mc",
-    "opts": [
-      "Unit testing",
-      "Partition Testing",
-      "System Testing",
-      "Integration Testing"
-    ],
-    "a": "Partition Testing"
-  },
-  {
     "q": "Test software with sequences which have only a single value.",
     "type": "mc",
     "opts": [
@@ -185,28 +108,6 @@
     "a": "True"
   },
   {
-    "q": "It concern with rooting out undesirable system behavior such as system crashes, unwanted interactions with other systems, incorrect computations and data corruption.",
-    "type": "mc",
-    "opts": [
-      "Defect testing",
-      "Test software",
-      "Custom software",
-      "Validation Testing"
-    ],
-    "a": "Defect testing"
-  },
-  {
-    "q": "_______ is the most modern software is constructed by reusing existing components or systems.",
-    "type": "mc",
-    "opts": [
-      "Host-Target Development",
-      "Reuse",
-      "Management Development",
-      "Configuration Management"
-    ],
-    "a": "Reuse"
-  },
-  {
     "q": "Software design and implementation activities are invariably outerwear-leaved.",
     "type": "mc",
     "opts": [
@@ -216,17 +117,6 @@
     "a": "False"
   },
   {
-    "q": "It Provides a standard way of accessing the elements in a collection, irrespective of how that collection is implemented (Iterator pattern).",
-    "type": "mc",
-    "opts": [
-      "Object Problems",
-      "System Problems",
-      "Design Problems",
-      "Class Problems"
-    ],
-    "a": "Design Problems"
-  },
-  {
     "q": "Implementation is the process of realizing the design as a program",
     "type": "mc",
     "opts": [
@@ -234,17 +124,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "One of the observer patterns is used when multiple displays of state are needed.",
-    "type": "mc",
-    "opts": [
-      "Name",
-      "Consequences",
-      "Problem Description",
-      "Solution Description"
-    ],
-    "a": "Problem Description"
   },
   {
     "q": "Object identification is an looping process. You are unlikely to get it right second time.",
@@ -265,39 +144,6 @@
     "a": "False"
   },
   {
-    "q": "Application domain objects that are '_______' objects related to the instruments in the system.",
-    "type": "mc",
-    "opts": [
-      "Software",
-      "System",
-      "Hardware",
-      "Object"
-    ],
-    "a": "Hardware"
-  },
-  {
-    "q": "Users may have low expectations of certain kinds of software.",
-    "type": "mc",
-    "opts": [
-      "User expectations",
-      "Software purpose",
-      "Marketing environment",
-      "User acceptance"
-    ],
-    "a": "User expectations"
-  },
-  {
-    "q": "What is Program Testing?",
-    "type": "mc",
-    "opts": [
-      "intended to show that a program does what it is intended to do and to discover program defects before it is put into use.",
-      "defect testing can be deliberately obscure and need not reflect how the system is normally used.",
-      "the system to perform correctly using a given set of test cases that reflect the system's expected use.",
-      "a process of debugging code"
-    ],
-    "a": "intended to show that a program does what it is intended to do and to discover program defects before it is put into use."
-  },
-  {
     "q": "Parameter interfaces Data passed from two method or procedure to another.",
     "type": "mc",
     "opts": [
@@ -307,28 +153,6 @@
     "a": "False"
   },
   {
-    "q": "It is where the system is tested during development to discover bugs and defects.",
-    "type": "mc",
-    "opts": [
-      "User Testing",
-      "Development testing",
-      "Release Testing",
-      "Acceptance Testing"
-    ],
-    "a": "Development testing"
-  },
-  {
-    "q": "It is where individual program units or object classes are tested.",
-    "type": "mc",
-    "opts": [
-      "Unit testing",
-      "System Testing",
-      "Component Testing",
-      "Integration Testing"
-    ],
-    "a": "Unit testing"
-  },
-  {
     "q": "Every code segment that you write has at least one associated test so all code written has at least one test.",
     "type": "mc",
     "opts": [
@@ -336,17 +160,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "It is where several individual units are integrated to create composite components.",
-    "type": "mc",
-    "opts": [
-      "Component Testing",
-      "System Testing",
-      "Unit testing",
-      "Integration Testing"
-    ],
-    "a": "Component Testing"
   },
   {
     "q": "The weather forecast system is not establishing a satellite communication link with the weather station and requests transmission of the data.",
@@ -376,17 +189,6 @@
     "a": "True"
   },
   {
-    "q": "At this level, you directly reuse objects from a library rather than writing the code yourself.",
-    "type": "mc",
-    "opts": [
-      "The component level",
-      "The system level",
-      "The object level",
-      "The abstraction level"
-    ],
-    "a": "The object level"
-  },
-  {
     "q": "Implementation is not the process of realizing the design as a program.",
     "type": "mc",
     "opts": [
@@ -414,17 +216,6 @@
     "a": "False"
   },
   {
-    "q": "___________ is the name given to the general process of managing a changing software system.",
-    "type": "mc",
-    "opts": [
-      "Management Development",
-      "Configuration Management",
-      "Host-Target Development",
-      "Reuse"
-    ],
-    "a": "Configuration Management"
-  },
-  {
     "q": "They require a lot of effort for development and maintenance of these models and, for small systems, this may not be cost-effective.",
     "type": "mc",
     "opts": [
@@ -432,28 +223,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "This is the basic interface of the weather station to its environment.",
-    "type": "mc",
-    "opts": [
-      "Weather Station",
-      "Forecast Station",
-      "Subsystem Station",
-      "System Station"
-    ],
-    "a": "Weather Station"
-  },
-  {
-    "q": "At this level, you reuse entire application systems.",
-    "type": "mc",
-    "opts": [
-      "The system level",
-      "The object level",
-      "The abstraction level",
-      "The component level"
-    ],
-    "a": "The system level"
   },
   {
     "q": "Response is the maximised the data is not sent to the weather information system.",
@@ -465,17 +234,6 @@
     "a": "False"
   },
   {
-    "q": "_________ describe the dynamic interactions between objects.",
-    "type": "mc",
-    "opts": [
-      "Class Model",
-      "Design Model",
-      "System Model",
-      "Dynamic Model"
-    ],
-    "a": "Dynamic Model"
-  },
-  {
     "q": "Object identification is an iterative process. You are unlikely to get it right first time.",
     "type": "mc",
     "opts": [
@@ -483,17 +241,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "It is where you initialize the system with the test case, namely the inputs and expected outputs.",
-    "type": "mc",
-    "opts": [
-      "Call Part",
-      "Setup Part",
-      "Assertion Part",
-      "Initialization Part"
-    ],
-    "a": "Setup Part"
   },
   {
     "q": "The sequence diagrams associated with the use case documents the components and interactions that are being tested.",
@@ -523,28 +270,6 @@
     "a": "False"
   },
   {
-    "q": "It is where you compare the result of the call with the expected result.",
-    "type": "mc",
-    "opts": [
-      "Setup Part",
-      "Call Part",
-      "Assertion Part",
-      "Verification Part"
-    ],
-    "a": "Assertion Part"
-  },
-  {
-    "q": "The test cases in defect testing can be deliberately obscure and need not reflect how the system is normally used.",
-    "type": "mc",
-    "opts": [
-      "Custom Testing",
-      "Validating Testing",
-      "Defect Testing",
-      "Unit Testing"
-    ],
-    "a": "Defect Testing"
-  },
-  {
     "q": "System testing during development involves integrating components not to create a version of the system and then testing the integrated system.",
     "type": "mc",
     "opts": [
@@ -561,28 +286,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Concerned with exercising and observing product behaviour (dynamic verification)",
-    "type": "mc",
-    "opts": [
-      "Software Testing",
-      "User expectations",
-      "Software Inspections",
-      "Dynamic Analysis"
-    ],
-    "a": "Software Testing"
-  },
-  {
-    "q": "It is where a separate testing team test a complete version of the system before it is released to users.",
-    "type": "mc",
-    "opts": [
-      "Development testing",
-      "User Testing",
-      "Release Testing",
-      "Acceptance Testing"
-    ],
-    "a": "Release Testing"
   },
   {
     "q": "Test-driven development (TDD) is an approach to program development in which you inter-leave testing and code development.",
@@ -612,17 +315,6 @@
     "a": "False"
   },
   {
-    "q": "The most software is developed on one computer (the host), but runs on a separate machine (the target).",
-    "type": "mc",
-    "opts": [
-      "Configuration Management",
-      "Management Development",
-      "Host-Target Development",
-      "Reuse"
-    ],
-    "a": "Host-Target Development"
-  },
-  {
     "q": "An interaction application is a dynamic model that not shows how the system interacts with its environment as it is used.",
     "type": "mc",
     "opts": [
@@ -632,28 +324,6 @@
     "a": "False"
   },
   {
-    "q": "_________ describe the dynamic interactions between objects.",
-    "type": "mc",
-    "opts": [
-      "Design Model",
-      "Dynamic Model",
-      "Class Model",
-      "System Model"
-    ],
-    "a": "Dynamic Model"
-  },
-  {
-    "q": "At this level the collections of objects and object classes that you reuse in application systems.",
-    "type": "mc",
-    "opts": [
-      "The abstraction level",
-      "The object level",
-      "The system level",
-      "The component level"
-    ],
-    "a": "The component level"
-  },
-  {
     "q": "The weather station is composed of independent subsystems that communicate by broadcasting messages on a common infrastructure",
     "type": "mc",
     "opts": [
@@ -661,17 +331,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "It is show the sequence of object interactions that take place",
-    "type": "mc",
-    "opts": [
-      "Dynamic Model",
-      "Sequence Model",
-      "System Model",
-      "Subsystem Model"
-    ],
-    "a": "Sequence Model"
   },
   {
     "q": "Guideline-based testing, where you use testing guidelines to choose test cases.",
@@ -701,17 +360,6 @@
     "a": "False"
   },
   {
-    "q": "When a test fails or unexpected behavior occurs this capture and show it to the user later?",
-    "type": "mc",
-    "opts": [
-      "Test Cases",
-      "Track and Verify Defects",
-      "Test Plan",
-      "Log and Report Defects"
-    ],
-    "a": "Log and Report Defects"
-  },
-  {
     "q": "The weather information system establishes a satellite communication link with the weather station and requests transmission of the data.",
     "type": "mc",
     "opts": [
@@ -719,28 +367,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "At this level, you don't reuse software directly but use knowledge of successful abstractions in the design of your software.",
-    "type": "mc",
-    "opts": [
-      "The abstraction level",
-      "The component level",
-      "The object level",
-      "The system level"
-    ],
-    "a": "The abstraction level"
-  },
-  {
-    "q": "The test expect the system to perform correctly using a given set of test cases that reflect the system's expected use.",
-    "type": "mc",
-    "opts": [
-      "Custom testing",
-      "Validating Testing",
-      "Defect testing",
-      "Acceptance Testing"
-    ],
-    "a": "Validating Testing"
   },
   {
     "q": "Response is the summarized data is sent to the weather information system.",
@@ -761,17 +387,6 @@
     "a": "True"
   },
   {
-    "q": "This technique, the tester or the QA analyst will only check the functionality of the particular module or particular method or sometimes the entire application by providing the different test cases manually. Here, the tester will give the input for the application and test it manually",
-    "type": "mc",
-    "opts": [
-      "Gray Box Testing",
-      "Black Box Testing",
-      "White Box Testing",
-      "White Hat Testing"
-    ],
-    "a": "Black Box Testing"
-  },
-  {
     "q": "Once interactions between the system and it is local source have been not understood, you use this information for designing the system architecture.",
     "type": "mc",
     "opts": [
@@ -790,17 +405,6 @@
     "a": "True"
   },
   {
-    "q": "It shows how the design is organized into logically related groups of objects.",
-    "type": "mc",
-    "opts": [
-      "Subsystem Model",
-      "Design Model",
-      "Dynamic Model",
-      "System Model"
-    ],
-    "a": "Subsystem Model"
-  },
-  {
     "q": "Use a behavioural approach and identify objects based on what participates in what behaviour.",
     "type": "mc",
     "opts": [
@@ -808,28 +412,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "It is where some or all of the components in a system are integrated and the system is tested as a whole.",
-    "type": "mc",
-    "opts": [
-      "Component Testing",
-      "System Testing",
-      "Unit testing",
-      "Integration Testing"
-    ],
-    "a": "System Testing"
-  },
-  {
-    "q": "It is where you call the object or method to be tested.",
-    "type": "mc",
-    "opts": [
-      "Setup Part",
-      "Call Part",
-      "Assertion Part",
-      "Execution Part"
-    ],
-    "a": "Call Part"
   },
   {
     "q": "TDD was introduced as part of agile methods such as Extreme Programming.",
@@ -848,17 +430,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "The test environment copy the production setup where the software will run. This step involves",
-    "type": "mc",
-    "opts": [
-      "Ensuring access to test data which is need for the project verification.",
-      "Configuring settings according to your project.",
-      "Verifying hardware/software requirements.",
-      "Installing the applications which is need for the testing purpose."
-    ],
-    "a": "Verifying hardware/software requirements."
   },
   {
     "q": "Regression test suite is not developed incrementally as a program is developed.",
@@ -888,17 +459,6 @@
     "a": "True"
   },
   {
-    "q": "Getting a product to market early may be more important than finding defects in the program.",
-    "type": "mc",
-    "opts": [
-      "User expectations",
-      "Marketing environment",
-      "Software purpose",
-      "Time to market"
-    ],
-    "a": "Marketing environment"
-  },
-  {
     "q": "User testing is essential, even when comprehensive system and release testing have been carried out.",
     "type": "mc",
     "opts": [
@@ -917,17 +477,6 @@
     "a": "True"
   },
   {
-    "q": "It is where users or potential users of a system test the system in their own environment.",
-    "type": "mc",
-    "opts": [
-      "Release Testing",
-      "User Testing",
-      "Development testing",
-      "Acceptance Testing"
-    ],
-    "a": "User Testing"
-  },
-  {
     "q": "Input data and output results often fall into similar classes where all members of a class are related.",
     "type": "mc",
     "opts": [
@@ -935,27 +484,5 @@
       "False (into different classes)"
     ],
     "a": "False (into different classes)"
-  },
-  {
-    "q": "This means that there should be at least one test for every requirement in the requirements document.",
-    "type": "mc",
-    "opts": [
-      "Custom software",
-      "Program Testing",
-      "Test Software",
-      "Requirements Testing"
-    ],
-    "a": "Program Testing"
-  },
-  {
-    "q": "_______ are used to show how objects respond to different service requests and the state transitions triggered by these requests.",
-    "type": "mc",
-    "opts": [
-      "State Diagram",
-      "System Diagram",
-      "Subsystem Diagram",
-      "File Diagram"
-    ],
-    "a": "State Diagram"
   }
 ]

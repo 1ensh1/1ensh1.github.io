@@ -9,17 +9,6 @@
     "a": "False"
   },
   {
-    "q": "It is where you design the logical and WSDL service interfaces.",
-    "type": "mc",
-    "opts": [
-      "Service implementation and deployment",
-      "Service design",
-      "Service candidate identification",
-      "Service specification"
-    ],
-    "a": "Service design"
-  },
-  {
     "q": "Refine workflow this involves adding detail to the abstract description and perhaps not adding or removing workflow activities.",
     "type": "mc",
     "opts": [
@@ -56,17 +45,6 @@
     "a": "True"
   },
   {
-    "q": "Starts with the service requirements and defines the operation names and parameters associated with the service.",
-    "type": "mc",
-    "opts": [
-      "Logical interface design",
-      "Message design",
-      "WSDL description",
-      "Service specification"
-    ],
-    "a": "Logical interface design"
-  },
-  {
     "q": "It may be easy to invoke compensating actions in external services as these may rely on the failure of other services which cannot be simulated.",
     "type": "mc",
     "opts": [
@@ -76,17 +54,6 @@
     "a": "False"
   },
   {
-    "q": "Design the structure and organisation of the input and output messages. Notations such as the UML are a more abstract representation than XML",
-    "type": "mc",
-    "opts": [
-      "Logical interface design",
-      "Message design",
-      "WSDL description",
-      "Interface specification"
-    ],
-    "a": "Message design"
-  },
-  {
     "q": "Dynamic binding means that the service used in an application may vary - the application tests are not, therefore, reliable.",
     "type": "mc",
     "opts": [
@@ -94,50 +61,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Which has a shorter term outlook, and focuses on planning the next increment of a system.",
-    "type": "mc",
-    "opts": [
-      "Release Planning",
-      "Validation Planning",
-      "Iteration Planning",
-      "Project Planning"
-    ],
-    "a": "Iteration Planning"
-  },
-  {
-    "q": "The estimate of future effort requirements is based on the manager's experience of past projects and the application domain.",
-    "type": "mc",
-    "opts": [
-      "Experience-based techniques",
-      "Story-based planning",
-      "Algorithmic cost modeling",
-      "Expert judgment"
-    ],
-    "a": "Experience-based techniques"
-  },
-  {
-    "q": "This are normally used to illustrate the project schedule.",
-    "type": "mc",
-    "opts": [
-      "graphical Notation",
-      "validation plan",
-      "bar chart",
-      "Gantt chart"
-    ],
-    "a": "bar chart"
-  },
-  {
-    "q": "In this approach, a formulaic approach is used to compute the project effort based on estimates of product attributes, such as size, and process characteristics, such as experience of staff involved.",
-    "type": "mc",
-    "opts": [
-      "Algorithmic cost modeling",
-      "Story-based planning",
-      "Experience-based techniques",
-      "Parametric estimation"
-    ],
-    "a": "Algorithmic cost modeling"
   },
   {
     "q": "A company takes on a project in a new domain. The client has not defined the process to be used and has not allowed time for risk analysis. The company has a CMM level 2 rating.",
@@ -158,17 +81,6 @@
     "a": "False"
   },
   {
-    "q": "There are points in the schedule against which you can assess progress.",
-    "type": "mc",
-    "opts": [
-      "Milestones",
-      "Quality plan",
-      "Deliverables",
-      "Checkpoints"
-    ],
-    "a": "Milestones"
-  },
-  {
     "q": "PM = (ASLOC * AT/100)/ATPROD.",
     "type": "mc",
     "opts": [
@@ -176,28 +88,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Describes the approach, resources, and schedule used for system validation.",
-    "type": "mc",
-    "opts": [
-      "Quality plan",
-      "Validation plan",
-      "Configuration management plan",
-      "Test plan"
-    ],
-    "a": "Validation plan"
-  },
-  {
-    "q": "It is where code is modified a size estimate equivalent to the number of lines of new source code is computed.",
-    "type": "mc",
-    "opts": [
-      "Green-box",
-      "White-box",
-      "Black-box",
-      "Reuse model"
-    ],
-    "a": "White-box"
   },
   {
     "q": "In inter-organisational systems, separate workflows are created for each organisation and linked through message exchange.",
@@ -236,17 +126,6 @@
     "a": "True"
   },
   {
-    "q": "This is associated with a specific business function e.g., in a university, student registration.",
-    "type": "mc",
-    "opts": [
-      "Coordination Services",
-      "Business Services",
-      "Utility Services",
-      "Task-oriented Services"
-    ],
-    "a": "Business Services"
-  },
-  {
     "q": "External services may not have modified by the service provider thus invalidating tests which have been completed.",
     "type": "mc",
     "opts": [
@@ -274,17 +153,6 @@
     "a": "True"
   },
   {
-    "q": "Describes the quality procedures and standards that will be used in a project.",
-    "type": "mc",
-    "opts": [
-      "Configuration management plan",
-      "Validation plan",
-      "Quality plan",
-      "Project plan"
-    ],
-    "a": "Quality plan"
-  },
-  {
     "q": "Personnel attributes Multipliers that take the experience and capabilities of the people working on the project into account.",
     "type": "mc",
     "opts": [
@@ -294,39 +162,6 @@
     "a": "True"
   },
   {
-    "q": "There are work products that are delivered to the customer, e.g. a requirements document for the system.",
-    "type": "mc",
-    "opts": [
-      "Milestones",
-      "Quality plan",
-      "Deliverables",
-      "Artifacts"
-    ],
-    "a": "Deliverables"
-  },
-  {
-    "q": "What is Project Planning?",
-    "type": "mc",
-    "opts": [
-      "has to plan who will work on the project, how the project will be broken down into increments, how resources will be allocated across your company, etc.",
-      "when you modify your plan in the light of experience gained and information from monitoring the progress of the work.",
-      "involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems.",
-      "the process of defining project objectives and creating a roadmap"
-    ],
-    "a": "involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems."
-  },
-  {
-    "q": "It is where code is not modified an effort estimate (PM) is computed.",
-    "type": "mc",
-    "opts": [
-      "Black-box",
-      "White-box",
-      "Green-box",
-      "Reuse model"
-    ],
-    "a": "Black-box"
-  },
-  {
     "q": "Estimate of equivalent number of lines of new code computed using the reuse model.",
     "type": "mc",
     "opts": [
@@ -334,28 +169,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "It looks ahead for several months and decides on the features that should be included in a release of a system.",
-    "type": "mc",
-    "opts": [
-      "Validation Planning",
-      "Iteration Planning",
-      "Release Planning",
-      "Project Planning"
-    ],
-    "a": "Release Planning"
-  },
-  {
-    "q": "This services may be entity- or task-oriented, coordination services are always task-oriented.",
-    "type": "mc",
-    "opts": [
-      "Task-oriented Services",
-      "Entity-oriented Services",
-      "Utility or business Services",
-      "Coordination Services"
-    ],
-    "a": "Utility or business Services"
   },
   {
     "q": "Create workflow program during this stage, the abstract workflow design is not-transformed to an executable program and the service interface is defined.",
@@ -394,28 +207,6 @@
     "a": "False"
   },
   {
-    "q": "That implement general functionality used by different business processes.",
-    "type": "mc",
-    "opts": [
-      "Coordination Services",
-      "Business Services",
-      "Utility Services",
-      "Infrastructure Services"
-    ],
-    "a": "Utility Services"
-  },
-  {
-    "q": "In this initial stage of service design, you use the requirements for the composite service as a basis for creating an 'ideal' service design.",
-    "type": "mc",
-    "opts": [
-      "Select possible services",
-      "Discover services",
-      "Formulate outline workflow",
-      "Service specification"
-    ],
-    "a": "Formulate outline workflow"
-  },
-  {
     "q": "The time required is independent of the number of people working on the project.",
     "type": "mc",
     "opts": [
@@ -432,17 +223,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "When you are bidding for a contract to develop or provide a software system.",
-    "type": "mc",
-    "opts": [
-      "proposal stage",
-      "project startup",
-      "Project Planning",
-      "Bidding phase"
-    ],
-    "a": "proposal stage"
   },
   {
     "q": "Do not estimate of equivalent number of lines of new code computed using the reuse model.",
@@ -490,17 +270,6 @@
     "a": "True"
   },
   {
-    "q": "A standard for workflow languages used to define service composition",
-    "type": "mc",
-    "opts": [
-      "WS-BPEL",
-      "SOAP",
-      "WSDL (Web Service Definition Language)",
-      "BPMN"
-    ],
-    "a": "WS-BPEL"
-  },
-  {
     "q": "WSDL description The logical specification is converted to a WSDL description.",
     "type": "mc",
     "opts": [
@@ -508,39 +277,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "This standard allows a service interface and its bindings to be defined",
-    "type": "mc",
-    "opts": [
-      "WS-BPEL",
-      "WSDL (Web Service Definition Language)",
-      "SOAP",
-      "REST"
-    ],
-    "a": "WSDL (Web Service Definition Language)"
-  },
-  {
-    "q": "Estimates are made to discover the cost, to the developer, of producing a software system.",
-    "type": "mc",
-    "opts": [
-      "Project Planning",
-      "Software Pricing",
-      "project startup",
-      "Cost estimation"
-    ],
-    "a": "Software Pricing"
-  },
-  {
-    "q": "Used when requirements are available but design has not yet started",
-    "type": "mc",
-    "opts": [
-      "Reuse model",
-      "Application composition model",
-      "Early design model",
-      "Post-architecture model"
-    ],
-    "a": "Early design model"
   },
   {
     "q": "ETPROD is the productivity of engineers in integrating this code.",
@@ -568,28 +304,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "Describes the configuration management procedures and structures to be used.",
-    "type": "mc",
-    "opts": [
-      "Quality plan",
-      "Validation plan",
-      "Configuration management plan",
-      "Project plan"
-    ],
-    "a": "Configuration management plan"
-  },
-  {
-    "q": "Those associated with some activity.",
-    "type": "mc",
-    "opts": [
-      "Utility or business Services",
-      "Task-oriented Services",
-      "Entity-oriented Services",
-      "Coordination Services"
-    ],
-    "a": "Task-oriented Services"
   },
   {
     "q": "The non-functional behavior of the service is unpredictable because it depends on load.",
@@ -628,17 +342,6 @@
     "a": "True"
   },
   {
-    "q": "The most commonly used representation for project schedules.",
-    "type": "mc",
-    "opts": [
-      "bar chart",
-      "graphical Notation",
-      "validation plan",
-      "Gantt chart"
-    ],
-    "a": "bar chart"
-  },
-  {
     "q": "ESLOC = ASLOC * (1-AT/100) * AAP.",
     "type": "mc",
     "opts": [
@@ -646,17 +349,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "Used to compute the effort of integrating reusable components.",
-    "type": "mc",
-    "opts": [
-      "Reuse model",
-      "Application composition model",
-      "Early design model",
-      "Post-architecture model"
-    ],
-    "a": "Reuse model"
   },
   {
     "q": "EAM is the adaptation adjustment multiplier computed from the costs of changing the reused code.",
@@ -677,28 +369,6 @@
     "a": "True"
   },
   {
-    "q": "Used when software is composed from existing parts.",
-    "type": "mc",
-    "opts": [
-      "Application composition model",
-      "Early design model",
-      "Reuse model",
-      "Post-architecture model"
-    ],
-    "a": "Application composition model"
-  },
-  {
-    "q": "Your selection criteria will obviously include the functionality of the services offered. They may also include the cost of the services and the quality of service (responsiveness, availability, etc.) offered.",
-    "type": "mc",
-    "opts": [
-      "Select possible services",
-      "Formulate outline workflow",
-      "Discover services",
-      "Service evaluation"
-    ],
-    "a": "Select possible services"
-  },
-  {
     "q": "Dynamic binding means that the service used in an application may vary - the application tests are not, therefore, unreliable.",
     "type": "mc",
     "opts": [
@@ -706,17 +376,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "They are associated with a business entity such as a job application form.",
-    "type": "mc",
-    "opts": [
-      "Utility or business Services",
-      "Entity-oriented Services",
-      "Task-oriented Services",
-      "Business Services"
-    ],
-    "a": "Entity-oriented Services"
   },
   {
     "q": "WS-BPEL is an XML-standard for over workflow specification.",
@@ -764,17 +423,6 @@
     "a": "False"
   },
   {
-    "q": "What is Web Services?",
-    "type": "mc",
-    "opts": [
-      "an instance of a more general notion of a service",
-      "Standard protocols have been developed to support service communication and information exchange",
-      "may execute on different computers from different service providers",
-      "All of the above"
-    ],
-    "a": "Standard protocols have been developed to support service communication and information exchange"
-  },
-  {
     "q": "External services may be modified by the service provider thus invalidating tests which have been completed.",
     "type": "mc",
     "opts": [
@@ -820,28 +468,6 @@
     "a": "True"
   },
   {
-    "q": "Used once the system architecture has been designed and more information about the system is available.",
-    "type": "mc",
-    "opts": [
-      "Reuse model",
-      "Early design model",
-      "Post-architecture model",
-      "Application composition model"
-    ],
-    "a": "Post-architecture model"
-  },
-  {
-    "q": "It is where you implement and test the service and make it available for use.",
-    "type": "mc",
-    "opts": [
-      "Service candidate identification",
-      "Service implementation and deployment",
-      "Service design",
-      "Service testing"
-    ],
-    "a": "Service implementation and deployment"
-  },
-  {
     "q": "This depends on 5 scale factors (see next slide). Their sum/100 is added to 1.01.",
     "type": "mc",
     "opts": [
@@ -869,28 +495,6 @@
     "a": "False"
   },
   {
-    "q": "During this stage of the process, you search service registries or catalogs to discover what services exist, who provides these services and the details of the service provision.",
-    "type": "mc",
-    "opts": [
-      "Discover services",
-      "Formulate outline workflow",
-      "Select possible services",
-      "Service discovery"
-    ],
-    "a": "Discover services"
-  },
-  {
-    "q": "An architectural style based on transferring representations of resources from a server to a client.",
-    "type": "mc",
-    "opts": [
-      "REST (REpresentational State Transfer)",
-      "SOAP",
-      "WSDL (Web Service Definition Language)",
-      "HTTP"
-    ],
-    "a": "REST (REpresentational State Transfer)"
-  },
-  {
     "q": "Graphical workflow notations, such as BPMN, are more readable and WS-BPEL can be generated from them.",
     "type": "mc",
     "opts": [
@@ -900,17 +504,6 @@
     "a": "True"
   },
   {
-    "q": "It support composite processes such as ordering.",
-    "type": "mc",
-    "opts": [
-      "Coordination Services",
-      "Utility Services",
-      "Business Services",
-      "Composite Services"
-    ],
-    "a": "Coordination Services"
-  },
-  {
     "q": "WSDL description The logical specification is converted to a WSDL description.",
     "type": "mc",
     "opts": [
@@ -918,17 +511,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "A message exchange standard that supports service communication.",
-    "type": "mc",
-    "opts": [
-      "WS-BPEL",
-      "WSDL (Web Service Definition Language)",
-      "SOAP",
-      "REST"
-    ],
-    "a": "SOAP"
   },
   {
     "q": "Product attributes Concerned with required characteristics of the software product being developed.",

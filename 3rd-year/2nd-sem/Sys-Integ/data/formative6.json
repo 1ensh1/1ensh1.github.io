@@ -27,17 +27,6 @@
     "a": "True"
   },
   {
-    "q": "It specified by their interfaces.",
-    "type": "mc",
-    "opts": [
-      "Middleware",
-      "Independent components",
-      "Component standards",
-      "Component models"
-    ],
-    "a": "Independent components"
-  },
-  {
     "q": "Generic components may be less space-efficient and may have no longer execution times than their specific equivalents.",
     "type": "mc",
     "opts": [
@@ -65,17 +54,6 @@
     "a": "False (reuse)"
   },
   {
-    "q": "It can a component with no available source code be trusted.",
-    "type": "mc",
-    "opts": [
-      "Component standards",
-      "Component trustworthiness",
-      "Component Certification",
-      "Component validation"
-    ],
-    "a": "Component trustworthiness"
-  },
-  {
     "q": "Components developed for a specific application usually have to be generalised to make them usable.",
     "type": "mc",
     "opts": [
@@ -85,17 +63,6 @@
     "a": "False"
   },
   {
-    "q": "What is Component-based development?",
-    "type": "mc",
-    "opts": [
-      "is an approach to software development that relies on the reuse of entities called 'software components.'",
-      "provides a service without regard to where the component is executing or its programming language",
-      "components developed using different approaches to work together.",
-      "a method for building systems from scratch"
-    ],
-    "a": "is an approach to software development that relies on the reuse of entities called 'software components.'"
-  },
-  {
     "q": "Software as a service is a way of providing functionality on a remote server with client access through a web browser.",
     "type": "mc",
     "opts": [
@@ -103,39 +70,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "The ability to continue in operation after a fault has occurred.",
-    "type": "mc",
-    "opts": [
-      "Openness",
-      "Resource sharing",
-      "Fault Tolerance",
-      "Reliability"
-    ],
-    "a": "Fault Tolerance"
-  },
-  {
-    "q": "It should be possible to manage a system as it increases in size, even if parts of the system are located in independent organizations.",
-    "type": "mc",
-    "opts": [
-      "Distribution",
-      "Size",
-      "Manageability",
-      "Scalability"
-    ],
-    "a": "Manageability"
-  },
-  {
-    "q": "It is where an attacker generates information that should not exist and then uses this to gain some privileges.",
-    "type": "mc",
-    "opts": [
-      "Modification",
-      "Fabrication",
-      "Interception",
-      "Interruption"
-    ],
-    "a": "Fabrication"
   },
   {
     "q": "More complex than a fat client model especially for management.",
@@ -154,28 +88,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Where data or services in the system are changed by an attacker.",
-    "type": "mc",
-    "opts": [
-      "Interception",
-      "Modification",
-      "Interruption",
-      "Fabrication"
-    ],
-    "a": "Modification"
-  },
-  {
-    "q": "It is where the presentation layer is implemented on the client and all other layers (data management, application processing and database) are implemented on a server.",
-    "type": "mc",
-    "opts": [
-      "Thin-client model",
-      "Fat-client model",
-      "Failure management",
-      "Two-tier model"
-    ],
-    "a": "Thin-client model"
   },
   {
     "q": "A major disadvantage is that it places a heavy processing load on both the server and the network.",
@@ -205,39 +117,6 @@
     "a": "True"
   },
   {
-    "q": "This is geared to reuse.",
-    "type": "mc",
-    "opts": [
-      "Development Process",
-      "Component standards",
-      "Independent components",
-      "Component-based development"
-    ],
-    "a": "Development Process"
-  },
-  {
-    "q": "Specifies how interfaces should be defined and the elements that should be included in an interface definition.",
-    "type": "mc",
-    "opts": [
-      "distributed model",
-      "component model",
-      "service model",
-      "interface model"
-    ],
-    "a": "component model"
-  },
-  {
-    "q": "The emergent properties of component compositions be predicted",
-    "type": "mc",
-    "opts": [
-      "Component trustworthiness",
-      "Component Certification",
-      "Emergent Property Prediction",
-      "Component validation"
-    ],
-    "a": "Emergent Property Prediction"
-  },
-  {
     "q": "Different types of adaptor are required depending on the type of composition.",
     "type": "mc",
     "opts": [
@@ -245,17 +124,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "It concern with managing a company's reusable components, ensuring that they are properly catalogued, stored and made available for reuse.",
-    "type": "mc",
-    "opts": [
-      "Component certification",
-      "Component management",
-      "Component acquisition",
-      "Component repository"
-    ],
-    "a": "Component management"
   },
   {
     "q": "The functionality that failed in this component was required in Ariane 5.",
@@ -267,39 +135,6 @@
     "a": "False"
   },
   {
-    "q": "Do trade-off analysis between the features of one component and another",
-    "type": "mc",
-    "opts": [
-      "Component Certification",
-      "Szyperski",
-      "Councill and Heinmann",
-      "Component evaluation"
-    ],
-    "a": "Councill and Heinmann"
-  },
-  {
-    "q": "Sharing of hardware and software resources.",
-    "type": "mc",
-    "opts": [
-      "Concurrency",
-      "Openness",
-      "Resource sharing",
-      "Scalability"
-    ],
-    "a": "Resource sharing"
-  },
-  {
-    "q": "To what extent should the distributed system appear to the user as a single system?",
-    "type": "mc",
-    "opts": [
-      "Openness",
-      "Scalability",
-      "Transparency",
-      "Manageability"
-    ],
-    "a": "Transparency"
-  },
-  {
     "q": "Branding, where users from each organization, are not presented with an interface that reflects their own organization.",
     "type": "mc",
     "opts": [
@@ -307,28 +142,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "It is where system services are attacked and cannot be delivered as expected.",
-    "type": "mc",
-    "opts": [
-      "Modification",
-      "Interruption",
-      "Interception",
-      "Fabrication"
-    ],
-    "a": "Interruption"
-  },
-  {
-    "q": "It is where one computer calls on a known service offered by another computer and waits for a response.",
-    "type": "mc",
-    "opts": [
-      "Message-based interaction",
-      "Procedural interaction",
-      "Failure management",
-      "Remote procedure call"
-    ],
-    "a": "Procedural interaction"
   },
   {
     "q": "A major advantage is that it places a heavy processing load on both the server and the network.",
@@ -349,17 +162,6 @@
     "a": "True"
   },
   {
-    "q": "Involves the sending computer sending information about what is required to another computer.",
-    "type": "mc",
-    "opts": [
-      "Procedural interaction",
-      "Failure management",
-      "Message-based interaction",
-      "Remote invocation"
-    ],
-    "a": "Message-based interaction"
-  },
-  {
     "q": "Certification means that someone apart from the developer checks the inequality of the component.",
     "type": "mc",
     "opts": [
@@ -367,17 +169,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "A unit of composition with contractually specified interfaces and explicit context dependencies only.",
-    "type": "mc",
-    "opts": [
-      "Councill and Heinmann",
-      "Emergent Property Prediction",
-      "Szyperski",
-      "Component definition"
-    ],
-    "a": "Szyperski"
   },
   {
     "q": "The operation of the component may not depend on local exception handling, and changing this may have serious implications for the functionality of the component.",
@@ -396,17 +187,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "The component model specifies how the interfaces should be defined and the elements, such as operation names, parameters and exceptions, which should be included in the interface definition.",
-    "type": "mc",
-    "opts": [
-      "Deployment",
-      "Usage",
-      "Interfaces",
-      "Implementation"
-    ],
-    "a": "Interfaces"
   },
   {
     "q": "The component specification maybe detailed enough to allow comprehensive tests to be developed.",
@@ -436,17 +216,6 @@
     "a": "True"
   },
   {
-    "q": "What is Quality of Service?",
-    "type": "mc",
-    "opts": [
-      "should include mechanisms for discovering if a component of the system has failed.",
-      "it is inevitable that failures will occur, so the system has to be designed to be resilient to these failures.",
-      "offered by a distributed system reflects the system's ability to deliver its services dependably and with a response time and throughput that is acceptable to its users.",
-      "a measure of system performance"
-    ],
-    "a": "offered by a distributed system reflects the system's ability to deliver its services dependably and with a response time and throughput that is acceptable to its users."
-  },
-  {
     "q": "Business rules and workflows, where each organization is not defining its own rules that govern the use of the service and its data.",
     "type": "mc",
     "opts": [
@@ -474,17 +243,6 @@
     "a": "True"
   },
   {
-    "q": "Defines the services that are provided by the component to other components.",
-    "type": "mc",
-    "opts": [
-      "Provides interface",
-      "Emergent Property Prediction",
-      "Requires interface",
-      "Service interface"
-    ],
-    "a": "Provides interface"
-  },
-  {
     "q": "The Object Constraint Language (OCL) has been not designed to define constraints that are associated with UML models.",
     "type": "mc",
     "opts": [
@@ -501,17 +259,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "The process of checking a component and certifying that it meets its specification.",
-    "type": "mc",
-    "opts": [
-      "Component management",
-      "Component acquisition",
-      "Component certification",
-      "Component validation"
-    ],
-    "a": "Component certification"
   },
   {
     "q": "When using components, it is essential to make trade-offs between ideal requirements and the services actually provided by available components.",
@@ -539,28 +286,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Increased throughput by adding new resources.",
-    "type": "mc",
-    "opts": [
-      "Scalability",
-      "Openness",
-      "Resource sharing",
-      "Performance"
-    ],
-    "a": "Scalability"
-  },
-  {
-    "q": "It is where some or all of the application processing is carried out on the client.",
-    "type": "mc",
-    "opts": [
-      "Thin-client model",
-      "Fat-client model",
-      "Failure management",
-      "Client-server model"
-    ],
-    "a": "Fat-client model"
   },
   {
     "q": "The overall system is not designed to take advantage of the computational power and storage of a large number of networked computers.",
@@ -599,17 +324,6 @@
     "a": "False (thin-client)"
   },
   {
-    "q": "This is will certify the quality of components",
-    "type": "mc",
-    "opts": [
-      "Component standards",
-      "Component Certification",
-      "Component trustworthiness",
-      "Component validation"
-    ],
-    "a": "Component Certification"
-  },
-  {
     "q": "Components for reuse may be specially constructed by generalising existing components.",
     "type": "mc",
     "opts": [
@@ -635,28 +349,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "That provides support for component inter-operability.",
-    "type": "mc",
-    "opts": [
-      "Middleware",
-      "Independent components",
-      "Component standards",
-      "Component framework"
-    ],
-    "a": "Middleware"
-  },
-  {
-    "q": "Can usable security policies be defined and implemented",
-    "type": "mc",
-    "opts": [
-      "Security",
-      "Transparency",
-      "Scalability",
-      "Manageability"
-    ],
-    "a": "Security"
   },
   {
     "q": "Users may not pay for the software according to the amount of use they make of it or through an annual or monthly subscription.",
@@ -686,28 +378,6 @@
     "a": "True"
   },
   {
-    "q": "In order for components to be distributed and accessed remotely, they need to have a unique name or handle associated with them.",
-    "type": "mc",
-    "opts": [
-      "Deployment",
-      "Usage",
-      "Interface",
-      "Naming"
-    ],
-    "a": "Usage"
-  },
-  {
-    "q": "It should be possible to geographically disperse the components of a system without degrading its performance.",
-    "type": "mc",
-    "opts": [
-      "Manageability",
-      "Distribution",
-      "Size",
-      "Scalability"
-    ],
-    "a": "Distribution"
-  },
-  {
     "q": "More processing is delegated to the client as the application processing is locally not executed.",
     "type": "mc",
     "opts": [
@@ -726,28 +396,6 @@
     "a": "True"
   },
   {
-    "q": "The component model includes a specification of how components should be packaged for deployment as independent, executable entities.",
-    "type": "mc",
-    "opts": [
-      "Interface",
-      "Usage",
-      "Deployment",
-      "Packaging"
-    ],
-    "a": "Deployment"
-  },
-  {
-    "q": "Can system failures be detected, contained and repaired",
-    "type": "mc",
-    "opts": [
-      "Security",
-      "Failure management",
-      "Scalability",
-      "Reliability"
-    ],
-    "a": "Failure management"
-  },
-  {
     "q": "Service-oriented architecture is not an approach to structuring a software system as a set of separate, stateless services.",
     "type": "mc",
     "opts": [
@@ -755,17 +403,6 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "It should be possible to add more resources to a system to cope with increasing numbers of users.",
-    "type": "mc",
-    "opts": [
-      "Manageability",
-      "Distribution",
-      "Size",
-      "Scalability"
-    ],
-    "a": "Size"
   },
   {
     "q": "More complex than a thin client model especially for management.",
@@ -795,28 +432,6 @@
     "a": "False"
   },
   {
-    "q": "This is to facilitate component integration.",
-    "type": "mc",
-    "opts": [
-      "Component standards",
-      "Middleware",
-      "Independent components",
-      "Component framework"
-    ],
-    "a": "Component standards"
-  },
-  {
-    "q": "Concurrent processing to enhance performance.",
-    "type": "mc",
-    "opts": [
-      "Openness",
-      "Resource sharing",
-      "Concurrency",
-      "Scalability"
-    ],
-    "a": "Concurrency"
-  },
-  {
     "q": "The server no maintains the user's data and state during an interaction session.",
     "type": "mc",
     "opts": [
@@ -842,28 +457,6 @@
       "False"
     ],
     "a": "True"
-  },
-  {
-    "q": "Where communications between parts of the system are intercepted by an attacker so that there is a loss of confidentiality",
-    "type": "mc",
-    "opts": [
-      "Interruption",
-      "Interception",
-      "Modification",
-      "Fabrication"
-    ],
-    "a": "Interception"
-  },
-  {
-    "q": "The process of acquiring components for reuse or development into a reusable component.",
-    "type": "mc",
-    "opts": [
-      "Component acquisition",
-      "Component management",
-      "Component certification",
-      "Component procurement"
-    ],
-    "a": "Component acquisition"
   },
   {
     "q": "There is no distinction in a distributed component architecture between clients and servers.",
@@ -911,16 +504,5 @@
       "False"
     ],
     "a": "False"
-  },
-  {
-    "q": "Use of equipment and software from different vendors.",
-    "type": "mc",
-    "opts": [
-      "Openness",
-      "Resource sharing",
-      "Concurrency",
-      "Interoperability"
-    ],
-    "a": "Openness"
   }
 ]

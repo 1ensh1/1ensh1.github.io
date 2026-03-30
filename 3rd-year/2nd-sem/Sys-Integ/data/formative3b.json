@@ -1,0 +1,352 @@
+[
+  {
+    "q": "Several different requirements may be expressed together.",
+    "type": "mc",
+    "opts": [
+      "Requirements confusion",
+      "Lack of clarity",
+      "Requirements amalgamation"
+    ],
+    "a": "Requirements amalgamation"
+  },
+  {
+    "q": "Developing tests for requirements to check testability.",
+    "type": "mc",
+    "opts": [
+      "Requirements review",
+      "Prototyping",
+      "Test-case generation"
+    ],
+    "a": "Test-case generation"
+  },
+  {
+    "q": "What is Ethnography?",
+    "type": "mc",
+    "opts": [
+      "A social scientist spends a considerable time observing and analysing how people actually work.",
+      "Sequence diagrams may be used to add detail to use-cases by showing the sequence of event processing in the system.",
+      "A set of use cases should describe all possible interactions with the system"
+    ],
+    "a": "A social scientist spends a considerable time observing and analysing how people actually work."
+  },
+  {
+    "q": "Requirements are documented and input into the next round of the spiral.",
+    "type": "mc",
+    "opts": [
+      "Requirements Elicitation",
+      "Requirements Discovery",
+      "Requirements Specification"
+    ],
+    "a": "Requirements Specification"
+  },
+  {
+    "q": "The process of gathering information about the required and existing systems and distilling the user and system requirements from this information.",
+    "type": "mc",
+    "opts": [
+      "Requirements Specification",
+      "Requirements Elicitation",
+      "Requirements discovery"
+    ],
+    "a": "Requirements discovery"
+  },
+  {
+    "q": "All functions required by the customer included.",
+    "type": "mc",
+    "opts": [
+      "Completeness",
+      "Consistency",
+      "Validity"
+    ],
+    "a": "Completeness"
+  },
+  {
+    "q": "These interviews are based on pre-determined list of questions",
+    "type": "mc",
+    "opts": [
+      "Closed interviews",
+      "Effective interview",
+      "Open interviews"
+    ],
+    "a": "Closed interviews"
+  },
+  {
+    "q": "What is Scenarios?",
+    "type": "mc",
+    "opts": [
+      "Interaction is with system stakeholders from managers to external regulators.",
+      "are real-life examples of how a system can be used.",
+      "Prompt the interviewee to get discussions going using a springboard question, a requirements proposal, or by working together on a prototype system."
+    ],
+    "a": "are real-life examples of how a system can be used."
+  },
+  {
+    "q": "Checking there any requirements conflicts.",
+    "type": "mc",
+    "opts": [
+      "Completeness",
+      "Consistency",
+      "Validity"
+    ],
+    "a": "Consistency"
+  },
+  {
+    "q": "The requirements be implemented given available budget and technology.",
+    "type": "mc",
+    "opts": [
+      "Completeness",
+      "Validity",
+      "Realism"
+    ],
+    "a": "Realism"
+  },
+  {
+    "q": "The requirements can be checked.",
+    "type": "mc",
+    "opts": [
+      "Validity",
+      "Realism",
+      "Verifiability"
+    ],
+    "a": "Verifiability"
+  },
+  {
+    "q": "During this stage, the problem or the change proposal is analyzed to check that it is valid.",
+    "type": "mc",
+    "opts": [
+      "Change analysis and costing",
+      "Problem analysis and change specification",
+      "Change implementation"
+    ],
+    "a": "Problem analysis and change specification"
+  },
+  {
+    "q": "This might include graphical system models showing the relationships between the system components and the system and its environment.",
+    "type": "mc",
+    "opts": [
+      "System models",
+      "System Index",
+      "System evolution"
+    ],
+    "a": "System models"
+  },
+  {
+    "q": "Requirements which are a consequence of organisational policies and procedures e.g. process standards used, implementation requirements, etc.",
+    "type": "mc",
+    "opts": [
+      "External requirements",
+      "Product requirements",
+      "Organisational requirements"
+    ],
+    "a": "Organisational requirements"
+  },
+  {
+    "q": "Be open-minded, avoid pre-conceived ideas about the requirements and are willing to listen to stakeholders.",
+    "type": "mc",
+    "opts": [
+      "Open interviews",
+      "Effective interview",
+      "Closed interviews"
+    ],
+    "a": "Effective interview"
+  },
+  {
+    "q": "Prioritising requirements and resolving requirements conflicts.",
+    "type": "mc",
+    "opts": [
+      "Prioritisation and negotiation",
+      "Requirements classification and organisation",
+      "Requirements discovery"
+    ],
+    "a": "Prioritisation and negotiation"
+  },
+  {
+    "q": "Using an executable model of the system to check requirements.",
+    "type": "mc",
+    "opts": [
+      "Test-case generation",
+      "Requirements review",
+      "Prototyping"
+    ],
+    "a": "Prototyping"
+  },
+  {
+    "q": "What is Scope of Ethnography?",
+    "type": "mc",
+    "opts": [
+      "The problem with ethnography is that it studies existing practices which may have some historical basis which is no longer relevant.",
+      "Requirements that are derived from the way that people actually work rather than the way I which process definitions suggest that they ought to work.",
+      "Social and organisational factors of importance may be observed"
+    ],
+    "a": "Requirements that are derived from the way that people actually work rather than the way I which process definitions suggest that they ought to work."
+  },
+  {
+    "q": "Precision is difficult without making the document difficult to read.",
+    "type": "mc",
+    "opts": [
+      "Lack of clarity",
+      "Requirements confusion",
+      "Requirements amalgamation"
+    ],
+    "a": "Lack of clarity"
+  },
+  {
+    "q": "What is Software Requirements document?",
+    "type": "mc",
+    "opts": [
+      "Applies to the system as a whole rather than individual features or services.",
+      "Defines what should be implemented so may be part of a contract between client and contractor.",
+      "Is the official statement of what is required of the system developers"
+    ],
+    "a": "Is the official statement of what is required of the system developers"
+  },
+  {
+    "q": "What is Functional Requirements?",
+    "type": "mc",
+    "opts": [
+      "Defines what should be implemented so may be part of a contract between client and contractor.",
+      "Often apply to the system as a whole rather than individual features or services.",
+      "Describe functionality or system services."
+    ],
+    "a": "Describe functionality or system services."
+  },
+  {
+    "q": "The effect of the proposed change is assessed using traceability information and general knowledge of the system requirements.",
+    "type": "mc",
+    "opts": [
+      "Problem analysis and change specification",
+      "Change implementation",
+      "Change analysis and costing"
+    ],
+    "a": "Change analysis and costing"
+  },
+  {
+    "q": "This should describe the functional and nonfunctional requirements in more detail.",
+    "type": "mc",
+    "opts": [
+      "User requirements definition",
+      "Introduction",
+      "System requirements specification"
+    ],
+    "a": "System requirements specification"
+  },
+  {
+    "q": "The requirements document and, where necessary, the system design and implementation, are modified.",
+    "type": "mc",
+    "opts": [
+      "Change analysis and costing",
+      "Change implementation",
+      "Problem analysis and change specification"
+    ],
+    "a": "Change implementation"
+  },
+  {
+    "q": "These define system properties and constraints e.g. reliability, response time and storage requirements. Constraints are I/O device capability, system representations, etc.",
+    "type": "mc",
+    "opts": [
+      "Non-Functional Requirements",
+      "Functional Requirements",
+      "System Requirements"
+    ],
+    "a": "Non-Functional Requirements"
+  },
+  {
+    "q": "Groups related requirements and organises them into coherent clusters.",
+    "type": "mc",
+    "opts": [
+      "Requirements classification and organisation",
+      "Requirements discovery",
+      "Prioritisation and negotiation"
+    ],
+    "a": "Requirements classification and organisation"
+  },
+  {
+    "q": "Ambiguous requirements may be interpreted in different ways by developers and users.",
+    "type": "mc",
+    "opts": [
+      "Requirements imprecision",
+      "Requirements engineering",
+      "System Requirement"
+    ],
+    "a": "Requirements imprecision"
+  },
+  {
+    "q": "A statement using some measure that can be objectively tested.",
+    "type": "mc",
+    "opts": [
+      "Non-Functional Requirement",
+      "Functional Requirement",
+      "Verifiable non-functional requirement"
+    ],
+    "a": "Verifiable non-functional requirement"
+  },
+  {
+    "q": "Systematic manual analysis of the requirements.",
+    "type": "mc",
+    "opts": [
+      "Test-case generation",
+      "Requirements review",
+      "Prototyping"
+    ],
+    "a": "Requirements review"
+  },
+  {
+    "q": "Domain specialists understand the area so well that they do not think of making the domain requirements explicit.",
+    "type": "mc",
+    "opts": [
+      "Product requirements",
+      "Understandability",
+      "Implicitness"
+    ],
+    "a": "Implicitness"
+  },
+  {
+    "q": "The system provides the functions which best support the customer’s needs.",
+    "type": "mc",
+    "opts": [
+      "Consistency",
+      "Validity",
+      "Completeness"
+    ],
+    "a": "Validity"
+  },
+  {
+    "q": "Requirements which arise from factors which are external to the system and its development process e.g. interoperability requirements, legislative requirements, etc",
+    "type": "mc",
+    "opts": [
+      "Product requirements",
+      "Organisational requirements",
+      "External requirements"
+    ],
+    "a": "External requirements"
+  },
+  {
+    "q": "Requirements which specify that the delivered product must behave in a particular way e.g. execution speed, reliability, etc.",
+    "type": "mc",
+    "opts": [
+      "Product requirements",
+      "External requirements",
+      "Organisational requirements"
+    ],
+    "a": "Product requirements"
+  },
+  {
+    "q": "Requirements are expressed in the language of the application domain",
+    "type": "mc",
+    "opts": [
+      "Product requirements",
+      "Understandability",
+      "Implicitness"
+    ],
+    "a": "Understandability"
+  },
+  {
+    "q": "These interviews where various issues are explored with stakeholders.",
+    "type": "mc",
+    "opts": [
+      "Open interviews",
+      "Closed interviews",
+      "Effective interview"
+    ],
+    "a": "Open interviews"
+  }
+]
