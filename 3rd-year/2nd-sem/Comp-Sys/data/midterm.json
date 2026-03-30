@@ -836,17 +836,6 @@
     "a": "P"
   },
   {
-    "q": "What is the output?",
-    "type": "mc",
-    "opts": [
-      "3232",
-      "No output",
-      "2020",
-      "error"
-    ],
-    "a": "2020"
-  },
-  {
     "q": "Simulate the given program below:\nCode snippet\n0123:0100 mov dl,32\n0123:0102 int 21\n0123:0104 mov dl,30\n0123:0106 int 21\n0123:0108 mov dl,32\n0123:010A int 21\n0123:010C int 20\nWhat is the output?",
     "type": "mc",
     "opts": [
@@ -866,7 +855,7 @@
       "2020",
       "error"
     ],
-    "a": "2020"
+    "a": "error"
   },
   {
     "q": "It is one of the major units of CPU that keeps track of the address of the memory location containing the next instruction.",
@@ -979,16 +968,16 @@
     "a": "AX"
   },
   {
-    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the parity flag?",
+    "q": "Perform the addition on the given binary numbers below.\n    0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the parity flag?",
     "type": "mc",
     "opts": [
       "PF=0",
       "PF=1"
     ],
-    "a": "PF=0"
+    "a": "PF=1"
   },
   {
-    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the zero flag?",
+    "q": "Perform the addition on the given binary numbers below.\n    0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the zero flag?",
     "type": "mc",
     "opts": [
       "ZF=0",
@@ -996,10 +985,10 @@
       "ZF=+",
       "ZF=-"
     ],
-    "a": "ZF=0"
+    "a": "ZF=1"
   },
   {
-    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the auxiliary flag?",
+    "q": "Perform the addition on the given binary numbers below.\n    0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the auxiliary flag?",
     "type": "mc",
     "opts": [
       "AF=0",
@@ -1010,7 +999,7 @@
     "a": "AF=0"
   },
   {
-    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the carry flag?",
+    "q": "Perform the addition on the given binary numbers below.\n    0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the carry flag?",
     "type": "mc",
     "opts": [
       "CF=1",
@@ -1021,7 +1010,7 @@
     "a": "CF=0"
   },
   {
-    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the overflow flag?",
+    "q": "Perform the subtraction on the given binary numbers below.\n    1001 1101 0110 0000 \n-  0110 0010 1011 1000\nWhat is the value of the overflow flag?",
     "type": "mc",
     "opts": [
       "OF=0",
@@ -1029,10 +1018,10 @@
       "OF=+",
       "OF=-"
     ],
-    "a": "OF=0"
+    "a": "OF=1"
   },
   {
-    "q": "What is the value of the sign flag?",
+    "q": "Perform the subtraction on the given binary numbers below.\n    1001 1101 0110 0000 \n-  0110 0010 1011 1000\nWhat is the value of the sign flag?",
     "type": "mc",
     "opts": [
       "SF=-",
@@ -1040,10 +1029,10 @@
       "SF=0",
       "SF=1"
     ],
-    "a": "SF=1"
+    "a": "SF=0"
   },
   {
-    "q": "What is the value of the zero flag?",
+    "q": "Perform the subtraction on the given binary numbers below.\n    1001 1101 0110 0000 \n-  0110 0010 1011 1000\nWhat is the value of the zero flag?",
     "type": "mc",
     "opts": [
       "ZF=1",
@@ -1054,7 +1043,7 @@
     "a": "ZF=0"
   },
   {
-    "q": "What is the value of the auxiliary flag?",
+    "q": "Perform the subtraction on the given binary numbers below.\n    1001 1101 0110 0000 \n-  0110 0010 1011 1000\nWhat is the value of the auxiliary flag?",
     "type": "mc",
     "opts": [
       "AF=1",
@@ -1062,10 +1051,10 @@
       "AF=+",
       "AF=-"
     ],
-    "a": "AF=0"
+    "a": "AF=1"
   },
   {
-    "q": "What is the value of the carry flag?",
+    "q": "Perform the subtraction on the given binary numbers below.\n    1001 1101 0110 0000 \n-  0110 0010 1011 1000\nWhat is the value of the carry flag?",
     "type": "mc",
     "opts": [
       "CF=1",
@@ -1074,16 +1063,5 @@
       "CF=-"
     ],
     "a": "CF=0"
-  },
-  {
-    "q": "What is the value of the overflow flag?",
-    "type": "mc",
-    "opts": [
-      "OF=1",
-      "OF=0",
-      "OF=+",
-      "OF=-"
-    ],
-    "a": "OF=0"
   }
 ]
