@@ -69,34 +69,34 @@
     "q": "Convert hexadecimal value 16 to decimal",
     "type": "mc",
     "opts": [
-      "22 10",
-      "16 10",
-      "10 10",
-      "20 10"
+      "22",
+      "16",
+      "10",
+      "20"
     ],
-    "a": "22 10"
+    "a": "22"
   },
   {
     "q": "Convert binary 111111110010 to hexadecimal",
     "type": "mc",
     "opts": [
-      "FF2 16",
-      "2FE 16",
-      "$FD2_{16}$",
-      "$EE2_{16}$"
+      "FF2",
+      "2FE",
+      "FD2",
+      "EE2"
     ],
-    "a": "FF2 16"
+    "a": "FF2"
   },
   {
-    "q": "Convert binary number to decimal $01011_{2}$",
+    "q": "Convert binary number to decimal 01011 2",
     "type": "mc",
     "opts": [
-      "11 10",
-      "35 10",
-      "15 10",
-      "10 10"
+      "11",
+      "35",
+      "15",
+      "10"
     ],
-    "a": "11 10"
+    "a": "11"
   },
   {
     "q": "Convert the binary number 1001.0010 to decimal",
@@ -104,68 +104,68 @@
     "opts": [
       "9.125",
       "90.125",
-      "125 10",
-      "12.5 10"
+      "125",
+      "12.5"
     ],
     "a": "9.125"
   },
   {
-    "q": "$36_{8}+25_{8}=$",
+    "q": "36(8) + 25(8) =",
     "type": "mc",
     "opts": [
-      "73 8",
-      "63 8",
-      "${64}_{8}$",
-      "${74}_{8}$"
+      "73(8)",
+      "63(8)",
+      "64(8)",
+      "74(8)"
     ],
-    "a": "63 8"
+    "a": "63(8)"
   },
   {
-    "q": "$IA_{16}+IB_{16}=$",
+    "q": "IA(16) + IB(16) =",
     "type": "mc",
     "opts": [
-      "32 16",
-      "35 16",
-      "34 16",
-      "33 16"
+      "32(16)",
+      "35(16)",
+      "34(16)",
+      "33(16)"
     ],
-    "a": "35 16"
+    "a": "35(16)"
   },
   {
-    "q": "$4005_{8}-356_{8}=$",
+    "q": "4005(8) - 356(8) =",
     "type": "mc",
     "opts": [
-      "3227 8",
-      "3427 8",
-      "3527 8",
-      "3437 8"
+      "3227(8)",
+      "3427(8)",
+      "3527(8)",
+      "3437(8)"
     ],
-    "a": "3427 8"
+    "a": "3427(8)"
   },
   {
-    "q": "1200718 - FACE18 =",
+    "q": "12007(16) - FACE(16) =",
     "type": "mc",
     "opts": [
-      "243916",
-      "253918",
-      "254916",
-      "252916"
+      "2439(16)",
+      "2539(16)",
+      "2549(16)",
+      "2529(16)"
     ],
-    "a": "254916"
+    "a": "2539(16)"
   },
   {
-    "q": "100102 x 1012 =",
+    "q": "10010(2) x 101(2) =",
     "type": "mc",
     "opts": [
-      "10110102",
-      "10110002",
-      "1100102",
-      "1000112"
+      "1011010(2)",
+      "1011000(2)",
+      "110010(2)",
+      "100011(2)"
     ],
-    "a": "10110102"
+    "a": "1011010(2)"
   },
   {
-    "q": "6578 x 12 =",
+    "q": "657(8) x 12(8) =",
     "type": "mc",
     "opts": [
       "12326",
@@ -176,48 +176,48 @@
     "a": "10326"
   },
   {
-    "q": "ABC16 X 1216 =",
+    "q": "ABC(16) X 12(16) =",
     "type": "mc",
     "opts": [
-      "CA2816",
-      "C13816",
-      "B12816",
-      "B13816"
+      "CA28(16)",
+      "C138(16)",
+      "B128(16)",
+      "B138(16)"
     ],
-    "a": "C13816"
+    "a": "C138(16)"
   },
   {
-    "q": "11012/1012 =",
+    "q": "1101(2) / 101(2) =",
     "type": "mc",
     "opts": [
-      "112 r 102",
-      "102 r 112",
-      "112",
-      "112 r 112"
+      "11(2) r 10(2)",
+      "10(2) r 11(2)",
+      "11(2) r 11(2)",
+      "10(2) r 10(2)"
     ],
-    "a": "102 r 112"
+    "a": "10(2) r 11(2)"
   },
   {
-    "q": "6578/12 =",
+    "q": "657(8) / 12(8) =",
     "type": "mc",
     "opts": [
-      "538 r 28",
-      "538 r 08",
-      "538 r 18",
-      "538 r 78"
+      "53(8) r 2(8)",
+      "53(8) r 0(8)",
+      "53(8) r 1(8)",
+      "53(8) r 7(8)"
     ],
-    "a": "538 r 78"
+    "a": "53(8) r 7(8)"
   },
   {
-    "q": "ABC16/1216 =",
+    "q": "ABC(16) / 12(16) =",
     "type": "mc",
     "opts": [
-      "$93_{16}r~C_{16}$",
-      "$98_{16}r~C_{16}$",
-      "9816",
-      "9818 r A16"
+      "93(16) r C(16)",
+      "98(16) r C(16)",
+      "98(16)",
+      "98(16) r A(16)"
     ],
-    "a": "$98_{16}r~C_{16}$"
+    "a": "98(16) r C(16)"
   },
   {
     "q": "Given: Gray code value 0101 0001. What is the binary value?",
@@ -272,7 +272,7 @@
       "0101 0101",
       "1111 1001"
     ],
-    "a": "0101 0101"
+    "a": "1111 1001"
   },
   {
     "q": "Given: Gray code value 0101 0001. What is the 2421 value?",
@@ -294,7 +294,7 @@
       "10 00011 01 00010",
       "10 00011 01 00011"
     ],
-    "a": "10 00010 01 00010"
+    "a": "10 00010 01 00011"
   },
   {
     "q": "Given: Gray code value 0101 0001. What is the equivalent ascii character?",
@@ -528,12 +528,81 @@
     "a": "speed"
   },
   {
-    "q": "[Referring to the directory structure] write the command from the root directory that will copy all the files inside meat including veggies subdirectory.",
-    "img": "directory_structure.png",
-    "type": "matching",
-    "pairs": [
-      { "term": "Command", "match": "xcopy meat veggies /s" }
-    ]
+    "q": "It is the software that makes the computer work.",
+    "type": "mc",
+    "opts": [
+      "programming language",
+      "system software",
+      "application software",
+      "electronic spreadsheet"
+    ],
+    "a": "system software"
+  },
+  {
+    "q": "Given the directory structure below, in one command line from the root directory, write a command to create the subdirectory vitc\nC:\\\n├── fruits\n│   └── vitc\n├── meat\n│   ├── animal.txt\n│   ├── apple.txt\n│   ├── banana.txt\n│   ├── orange.txt\n│   └── vitc\n└── veggies\n    └── saying.txt",
+    "type": "mc",
+    "opts": [
+      "c:\\>md \\meat\\vitc",
+      "c:\\>md \\meat vitc",
+      "c:\\dos>md \\meat\\vitc",
+      "c:\\dos>md \\meat vitc"
+    ],
+    "a": "c:\\>md \\meat\\vitc"
+  },
+  {
+    "q": "Given the directory structure below, what is the command to create a text file animal.txt in one command line.\nC:\\\n├── fruits\n│   └── vitc\n├── meat\n│   ├── animal.txt\n│   ├── apple.txt\n│   ├── banana.txt\n│   ├── orange.txt\n│   └── vitc\n└── veggies\n    └── saying.txt",
+    "type": "mc",
+    "opts": [
+      "c:\\>copy con meat\\animal.txt",
+      "c:\\>copy con meat animal.txt",
+      "c:\\dos>copy con meat\\animal.txt",
+      "c:\\dos>copy con meat animal.txt"
+    ],
+    "a": "c:\\>copy con meat\\animal.txt"
+  },
+  {
+    "q": "It is the command to save a text file created using copy con command",
+    "type": "mc",
+    "opts": [
+      "ctrl+z",
+      "ctrl+c",
+      "ctrl+d",
+      "ctrl+x"
+    ],
+    "a": "ctrl+z"
+  },
+  {
+    "q": "Given the directory structure below, write a dos command from the root directory to display the content of animal.txt\nC:\\\n├── fruits\n│   └── vitc\n├── meat\n│   ├── animal.txt\n│   ├── apple.txt\n│   ├── banana.txt\n│   ├── orange.txt\n│   └── vitc\n└── veggies\n    └── saying.txt",
+    "type": "mc",
+    "opts": [
+      "c:\\>type meat animal.txt",
+      "c:\\>type meat\\animal.txt",
+      "c:\\dos>type meat\\animal.txt",
+      "c:\\dos>type meat animal.txt"
+    ],
+    "a": "c:\\>type meat\\animal.txt"
+  },
+  {
+    "q": "Given the directory structure below, write a command from the root directory to move all the files form meat to fruits subdirectory\nC:\\\n├── fruits\n│   └── vitc\n├── meat\n│   ├── animal.txt\n│   ├── apple.txt\n│   ├── banana.txt\n│   ├── orange.txt\n│   └── vitc\n└── veggies\n    └── saying.txt",
+    "type": "mc",
+    "opts": [
+      "c:\\> move meat \\*.* fruits",
+      "c:\\> move meat\\*.* fruits",
+      "c:\\dos move meat \\*.* fruits",
+      "c:\\dos> move meat\\*.* fruits"
+    ],
+    "a": "c:\\> move meat\\*.* fruits"
+  },
+  {
+    "q": "Write the command from the root directory that will copy all the files inside meat including veggies subdirectory.\nC:\\\n├── fruits\n│   └── vitc\n├── meat\n│   ├── animal.txt\n│   ├── apple.txt\n│   ├── banana.txt\n│   ├── orange.txt\n│   └── vitc\n└── veggies\n    └── saying.txt",
+    "type": "mc",
+    "opts": [
+      "xcopy meat veggies /s",
+      "xcopy meat veggies /e",
+      "copy meat veggies /e",
+      "copy meat veggies /s"
+    ],
+    "a": "xcopy meat veggies /s"
   },
   {
     "q": "It is the symbol used to indicate path or root directory",
@@ -789,6 +858,17 @@
     "a": "2020"
   },
   {
+    "q": "Simulate the given program below:\n0123:0100 mov ah, 02\n0123:0102 mov dl, 32\n0123:0104 int 21\n0123:0114 int 20\nWhat is the output?",
+    "type": "mc",
+    "opts": [
+      "3232",
+      "no output",
+      "2020",
+      "error"
+    ],
+    "a": "2020"
+  },
+  {
     "q": "It is one of the major units of CPU that keeps track of the address of the memory location containing the next instruction.",
     "type": "mc",
     "opts": [
@@ -899,18 +979,16 @@
     "a": "AX"
   },
   {
-    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the parity flag?",
+    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the parity flag?",
     "type": "mc",
     "opts": [
       "PF=0",
-      "PF=1",
-      "PF=+",
-      "PF=-"
+      "PF=1"
     ],
     "a": "PF=0"
   },
   {
-    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the zero flag?",
+    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the zero flag?",
     "type": "mc",
     "opts": [
       "ZF=0",
@@ -921,7 +999,7 @@
     "a": "ZF=0"
   },
   {
-    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the auxiliary flag?",
+    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the auxiliary flag?",
     "type": "mc",
     "opts": [
       "AF=0",
@@ -932,7 +1010,7 @@
     "a": "AF=0"
   },
   {
-    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the carry flag?",
+    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the carry flag?",
     "type": "mc",
     "opts": [
       "CF=1",
@@ -943,11 +1021,66 @@
     "a": "CF=0"
   },
   {
-    "q": "Perform the addition: 0110 0010 1010 0000 + 1001 1101 0110 0000. What is the value of the overflow flag?",
+    "q": "Perform the addition on the given binary numbers below.\n0110 0010 1010 0000\n+ 1001 1101 0110 0000\nWhat is the value of the overflow flag?",
     "type": "mc",
     "opts": [
       "OF=0",
       "OF=1",
+      "OF=+",
+      "OF=-"
+    ],
+    "a": "OF=0"
+  },
+  {
+    "q": "What is the value of the sign flag?",
+    "type": "mc",
+    "opts": [
+      "SF=-",
+      "SF=+",
+      "SF=0",
+      "SF=1"
+    ],
+    "a": "SF=1"
+  },
+  {
+    "q": "What is the value of the zero flag?",
+    "type": "mc",
+    "opts": [
+      "ZF=1",
+      "ZF=0",
+      "ZF=+",
+      "ZF=-"
+    ],
+    "a": "ZF=0"
+  },
+  {
+    "q": "What is the value of the auxiliary flag?",
+    "type": "mc",
+    "opts": [
+      "AF=1",
+      "AF=0",
+      "AF=+",
+      "AF=-"
+    ],
+    "a": "AF=0"
+  },
+  {
+    "q": "What is the value of the carry flag?",
+    "type": "mc",
+    "opts": [
+      "CF=1",
+      "CF=0",
+      "CF=+",
+      "CF=-"
+    ],
+    "a": "CF=0"
+  },
+  {
+    "q": "What is the value of the overflow flag?",
+    "type": "mc",
+    "opts": [
+      "OF=1",
+      "OF=0",
       "OF=+",
       "OF=-"
     ],

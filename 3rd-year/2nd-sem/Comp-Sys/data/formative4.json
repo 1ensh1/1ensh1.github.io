@@ -285,7 +285,7 @@
   },
   {
     "q": "given:\nALPHA=0010h; SS=8002h; DS=8001h\nDetermine the value of the destination operand of the following instruction sets.\nNote: the instructions are dependent from each other.\nfor the PUSH instructions indicate the address and the data to be stored on the computed address.",
-    "img": "instruction_set_image_1.png",
+    "img": "fa4_image1.png",
     "type": "matching",
     "pairs": [
       { "term": "MOV AX, ALPHA", "match": "AX=1F31H" },
@@ -302,7 +302,7 @@
   },
   {
     "q": "given:\nALPHA=0030h; SS=8001h; DS=8002h\nDetermine the value of the destination operand of the following instruction sets.\nNote: the instructions are dependent from each other.\nfor the PUSH instructions indicate the address and the data to be stored on the computed address.",
-    "img": "instruction_set_image_2.png",
+    "img": "fa4_image2.png",
     "type": "matching",
     "pairs": [
       { "term": "MOV AX, ALPHA", "match": "AX=1F31H" },
@@ -319,7 +319,7 @@
   },
   {
     "q": "given:\nALPHA=0020h; SS=8003h; DS=8000h\nDetermine the value of the destination operand of the following instruction sets.\nNote: the instructions are dependent from each other.\nfor the PUSH instructions indicate the address and the data to be stored on the computed address.",
-    "img": "instruction_set_image_3.png",
+    "img": "fa4_image3.png",
     "type": "matching",
     "pairs": [
       { "term": "MOV AX, ALPHA", "match": "AX=0050H" },
@@ -336,7 +336,7 @@
   },
   {
     "q": "Determine content of the destination operand & the status flags for the following instructions. Note: series of instructions would be executed in sequence. Use the Memory Map.",
-    "img": "memory_map.png",
+    "img": "fa4_image4.png",
     "type": "matching",
     "pairs": [
       { "term": "1. MOV AX,CDEF", "match": "Ax = CDFE; SF = O; ZF = O; AF = O; PF = O; CF = O; OF = O;" },

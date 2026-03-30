@@ -66,12 +66,10 @@ function buildMenu() {
         const sectionAssessments = ASSESSMENTS.filter(a => a.type === section.type);
         if (sectionAssessments.length === 0) return;
 
-        const isFinal   = section.type === 'final';
-        const isMidterm = section.type === 'midterm';
-        const isCentered = isFinal || isMidterm;
+        const isFinal = section.type === 'final';
 
         const sectionEl = document.createElement('div');
-        sectionEl.className = `assessment-section${isCentered ? ' section-final' : ''}`;
+        sectionEl.className = `assessment-section${isFinal ? ' section-final' : ''}`;
 
         sectionEl.innerHTML = `
             <div class="section-header">
@@ -81,11 +79,11 @@ function buildMenu() {
                 </div>
                 <div class="section-line"></div>
             </div>
-            <div class="formative-grid${isCentered ? ' grid-final' : ''}">
+            <div class="formative-grid${isFinal ? ' grid-final' : ''}">
                 ${sectionAssessments.map(a => {
                     if (!answeredQuestions[a.key]) answeredQuestions[a.key] = [];
                     return `
-                        <div class="formative-card${isFinal ? ' card-final' : isMidterm ? ' card-midterm' : ''}" onclick="startQuiz('${a.key}')">
+                        <div class="formative-card${isFinal ? ' card-final' : ''}" onclick="startQuiz('${a.key}')">
                             <div class="icon">${a.icon}</div>
                             <h2>${a.label}</h2>
                             <p id="${a.key}-count">Loading...</p>
@@ -609,6 +607,15 @@ function backToMenu() {
 }
 
 // ─── View all questions ───────────────────────────────────────────────────────
+function escapeHtml(str) {
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function formatQuestionText(str) {
+    // Preserve \n as line breaks
+    return escapeHtml(str).replace(/\n/g, '<br>');
+}
+
 function viewAllQuestions(key) {
     if (!loadedFormatives.has(key)) {
         alert('Failed to load. Check if the JSON file exists in the data/ folder.');
@@ -637,55 +644,71 @@ function viewAllQuestions(key) {
         if (question.type === 'tf' || question.type === 'text') {
             answerHTML = `
                 <div class="answer-section">
-                    <span class="answer-label">Correct Answer:</span>
-                    <div class="answer-text">${question.a}</div>
+                    <span class="answer-label">Answer:</span>
+                    <div class="answer-text">${escapeHtml(question.a)}</div>
                 </div>`;
         } else if (question.type === 'mc') {
             answerHTML = `
                 <div class="answer-section">
-                    <span class="answer-label">Correct Answer:</span>
-                    <div class="answer-text">${question.a}</div>
                     <div class="options-list">
                         ${question.opts.map(opt =>
-                            `<div class="option-item ${opt === question.a ? 'correct-option' : ''}">${opt}</div>`
+                            `<div class="option-item ${opt === question.a ? 'correct-option' : ''}">
+                                ${opt === question.a ? '<span class="correct-tick">✓</span>' : '<span class="correct-tick-placeholder"></span>'}
+                                ${escapeHtml(opt)}
+                            </div>`
                         ).join('')}
                     </div>
                 </div>`;
         } else if (question.type === 'multi') {
             answerHTML = `
                 <div class="answer-section">
-                    <span class="answer-label">Correct Answers:</span>
-                    <div class="answer-text">${question.a.join(', ')}</div>
                     <div class="options-list">
                         ${question.opts.map(opt =>
-                            `<div class="option-item ${question.a.includes(opt) ? 'correct-option' : ''}">${opt}</div>`
+                            `<div class="option-item ${question.a.includes(opt) ? 'correct-option' : ''}">
+                                ${question.a.includes(opt) ? '<span class="correct-tick">✓</span>' : '<span class="correct-tick-placeholder"></span>'}
+                                ${escapeHtml(opt)}
+                            </div>`
                         ).join('')}
                     </div>
                 </div>`;
         } else if (question.type === 'matching') {
             answerHTML = `
                 <div class="answer-section">
-                    <span class="answer-label">Correct Pairs:</span>
+                    <span class="answer-label">Pairs:</span>
                     <div class="matching-view-pairs">
                         ${question.pairs.map(p => `
                             <div class="matching-view-row">
-                                <span class="matching-view-term">${p.term}</span>
+                                <span class="matching-view-term">${escapeHtml(p.term)}</span>
                                 <span class="matching-view-arrow">→</span>
-                                <span class="matching-view-def">${p.match}</span>
+                                <span class="matching-view-def">${escapeHtml(p.match)}</span>
                             </div>`).join('')}
                     </div>
                 </div>`;
         }
 
-        item.innerHTML = `
-            <div class="question-header">
-                <div class="question-number">Q${index + 1}</div>
-                <div class="question-text-view">${question.q}</div>
-            </div>
-            ${imgHTML}
-            ${answerHTML}
+        const itemEl = document.createElement('div');
+        itemEl.className = 'question-item';
+
+        const header = document.createElement('div');
+        header.className = 'question-header';
+        header.innerHTML = `
+            <div class="question-number">Q${index + 1}</div>
+            <div class="question-text-view">${formatQuestionText(question.q)}</div>
         `;
-        list.appendChild(item);
+
+        itemEl.appendChild(header);
+        if (imgHTML) {
+            const imgDiv = document.createElement('div');
+            imgDiv.innerHTML = imgHTML;
+            itemEl.appendChild(imgDiv.firstElementChild);
+        }
+        if (answerHTML) {
+            const ansDiv = document.createElement('div');
+            ansDiv.innerHTML = answerHTML;
+            itemEl.appendChild(ansDiv.firstElementChild);
+        }
+
+        list.appendChild(itemEl);
     });
 
     showScreen('view-questions');
