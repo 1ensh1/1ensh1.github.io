@@ -20,11 +20,6 @@
     "a": "False"
   },
   {
-    "q": "IT infrastructure encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment.",
-    "type": "tf",
-    "a": "TRUE"
-  },
-  {
     "q": "As a SysAdmin, you don't have think before you type",
     "type": "tf",
     "a": "False"
@@ -756,7 +751,7 @@
   {
     "q": "Communications infrastructure encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment.",
     "type": "tf",
-    "a": "TRUE"
+    "a": "False"
   },
   {
     "q": "SysAdmins are responsible for user machines",

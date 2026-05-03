@@ -7,6 +7,9 @@ let userAnswer = '';
 let userAnswers = [];
 let score = 0;
 let loadedFormatives = new Set();
+const wrongQuestionsMap = {};
+let isPracticeMode = false;
+let practiceWrongBuffer = [];
 
 // Matching state
 let matchingSelected = null;
@@ -23,7 +26,7 @@ const ASSESSMENTS = [
     //{ key: 'f5', label: 'Formative 6', file: 'data/formative6.json', icon: '📝', type: 'formative' },
     //{ key: 'f6', label: 'Formative 7', file: 'data/formative7.json', icon: '📝', type: 'formative' },
     //{ key: 'mt', label: 'Midterm Exam', file: 'data/midterm.json', icon: '📄', type: 'midterm' },
-    //{key: 'sw1', label: 'Seatwork 1', file: 'data/seatwork1.json', icon: '📝', type: 'seatwork'}
+    //{ key: 'sw1', label: 'Seatwork 1', file: 'data/seatwork1.json', icon: '📝', type: 'seatwork' }
 ];
 
 // Section definitions — order and labels for the menu
@@ -96,6 +99,8 @@ function buildMenu() {
                                 onclick="event.stopPropagation(); resetFormative('${a.key}')">Reset Quiz</button>
                             <button id="${a.key}-view" class="view-btn hidden"
                                 onclick="event.stopPropagation(); viewAllQuestions('${a.key}')">View All Questions</button>
+                            <button id="${a.key}-practice" class="practice-btn hidden"
+                                onclick="event.stopPropagation(); practiceWrongAnswers('${a.key}')">Practice Wrong Answers</button>
                         </div>`;
                 }).join('')}
             </div>
@@ -107,10 +112,11 @@ function buildMenu() {
 
 // ─── Display helpers ──────────────────────────────────────────────────────────
 function updateFormativeDisplay(key, hasError = false) {
-    const countEl  = document.getElementById(`${key}-count`);
-    const statusEl = document.getElementById(`${key}-status`);
-    const resetBtn = document.getElementById(`${key}-reset`);
-    const viewBtn  = document.getElementById(`${key}-view`);
+    const countEl      = document.getElementById(`${key}-count`);
+    const statusEl     = document.getElementById(`${key}-status`);
+    const resetBtn     = document.getElementById(`${key}-reset`);
+    const viewBtn      = document.getElementById(`${key}-view`);
+    const practiceBtn  = document.getElementById(`${key}-practice`);
 
     if (hasError || !allQuestions[key]) {
         countEl.textContent   = 'Failed to load';
@@ -118,6 +124,7 @@ function updateFormativeDisplay(key, hasError = false) {
         statusEl.innerHTML    = '<span style="color:#ef4444;font-size:0.9rem;">Check if JSON file exists</span>';
         resetBtn.classList.add('hidden');
         viewBtn.classList.add('hidden');
+        if (practiceBtn) practiceBtn.classList.add('hidden');
         return;
     }
 
@@ -131,13 +138,23 @@ function updateFormativeDisplay(key, hasError = false) {
         statusEl.innerHTML  = '<span class="completed-badge">✓ Completed</span>';
         resetBtn.classList.remove('hidden');
     } else {
-        countEl.textContent = `${unanswered} question${unanswered !== 1 ? 's' : ''} available`;
-        countEl.style.color = '#ffffff';
+        countEl.textContent  = `${unanswered} question${unanswered !== 1 ? 's' : ''} available`;
+        countEl.style.color  = '#ffffff';
         statusEl.textContent = answered > 0 ? `(${answered} answered)` : '';
         statusEl.style.color = '#9ca3af';
         resetBtn.classList.add('hidden');
     }
     viewBtn.classList.remove('hidden');
+
+    if (practiceBtn) {
+        const wrong = wrongQuestionsMap[key] || [];
+        if (wrong.length > 0) {
+            practiceBtn.textContent = `Practice ${wrong.length} Wrong Answer${wrong.length !== 1 ? 's' : ''}`;
+            practiceBtn.classList.remove('hidden');
+        } else {
+            practiceBtn.classList.add('hidden');
+        }
+    }
 }
 
 // ─── Quiz flow ────────────────────────────────────────────────────────────────
@@ -171,6 +188,9 @@ function startQuiz(key) {
     score = 0;
     userAnswer = '';
     userAnswers = [];
+    wrongQuestionsMap[key] = [];
+    isPracticeMode = false;
+    practiceWrongBuffer = [];
     showScreen('quiz');
     displayQuestion();
 }
@@ -522,6 +542,12 @@ function checkAnswer() {
     }
 
     if (isCorrect) score++;
+    else if (isPracticeMode) {
+        practiceWrongBuffer.push(question);
+    } else {
+        if (!wrongQuestionsMap[currentFormative]) wrongQuestionsMap[currentFormative] = [];
+        wrongQuestionsMap[currentFormative].push(question);
+    }
 
     // Mark as answered
     const originalIndex = allQuestions[currentFormative].findIndex(q => q.q === question.q);
@@ -597,14 +623,45 @@ function showResults() {
     document.getElementById('results-icon').textContent    = icon;
     document.getElementById('results-score').textContent   = `${score} / ${quizQuestions.length}`;
     document.getElementById('results-message').textContent = message;
+
+    if (isPracticeMode) {
+        wrongQuestionsMap[currentFormative] = practiceWrongBuffer;
+        practiceWrongBuffer = [];
+        isPracticeMode = false;
+    }
+
+    const wrong = wrongQuestionsMap[currentFormative] || [];
+    const wrongBtn = document.getElementById('practice-wrong-btn');
+    if (wrong.length > 0) {
+        wrongBtn.textContent = `⚡ Practice ${wrong.length} Wrong Answer${wrong.length !== 1 ? 's' : ''}`;
+        wrongBtn.classList.remove('hidden');
+    } else {
+        wrongBtn.classList.add('hidden');
+    }
+
     showScreen('results');
     updateFormativeDisplay(currentFormative);
+}
+
+function practiceWrongAnswers(key) {
+    currentFormative = key;
+    quizQuestions = shuffleArray(wrongQuestionsMap[key] || []);
+    isPracticeMode = true;
+    practiceWrongBuffer = [];
+    currentQuestionIndex = 0;
+    score = 0;
+    userAnswer = '';
+    userAnswers = [];
+    showScreen('quiz');
+    displayQuestion();
 }
 
 function retakeQuiz() { startQuiz(currentFormative); }
 
 function backToMenu() {
     window.removeEventListener('resize', redrawMatchingLines);
+    isPracticeMode = false;
+    practiceWrongBuffer = [];
     showScreen('menu');
     if (currentFormative) updateFormativeDisplay(currentFormative);
     currentFormative = null;
@@ -635,9 +692,6 @@ function viewAllQuestions(key) {
     list.innerHTML = '';
 
     questions.forEach((question, index) => {
-        const item = document.createElement('div');
-        item.className = 'question-item';
-
         let imgHTML    = '';
         let answerHTML = '';
 
