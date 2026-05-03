@@ -54,7 +54,10 @@
                     <button class="btn btn-secondary" onclick="backToMenu()">Choose Another Quiz</button>
                 </div>
             </div>
-            <button id="practice-wrong-btn" class="practice-results-btn hidden" onclick="practiceWrongAnswers(currentFormative)">Practice Wrong Answers</button>
+            <div class="practice-results-group">
+                <button id="practice-session-btn" class="practice-results-btn hidden" onclick="practiceSessionWrong(currentFormative)">Practice From This Quiz</button>
+                <button id="practice-wrong-btn" class="practice-results-btn hidden" onclick="practiceWrongAnswers(currentFormative)">Practice All Wrong Answers</button>
+            </div>
         </div>
 
         <!-- ── View All Questions ── -->
