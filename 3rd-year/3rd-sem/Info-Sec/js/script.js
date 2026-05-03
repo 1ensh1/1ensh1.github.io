@@ -9,7 +9,6 @@ let score = 0;
 let loadedFormatives = new Set();
 const wrongQuestionsMap = {};
 let isPracticeMode = false;
-let practiceWrongBuffer = [];
 
 // Matching state
 let matchingSelected = null;
@@ -41,6 +40,7 @@ const SECTIONS = [
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function loadFormatives() {
     loadProgress();
+    loadWrongQuestions();
     buildMenu();
 
     for (const assessment of ASSESSMENTS) {
@@ -188,9 +188,7 @@ function startQuiz(key) {
     score = 0;
     userAnswer = '';
     userAnswers = [];
-    wrongQuestionsMap[key] = [];
     isPracticeMode = false;
-    practiceWrongBuffer = [];
     showScreen('quiz');
     displayQuestion();
 }
@@ -199,8 +197,10 @@ function resetFormative(key) {
     const a = ASSESSMENTS.find(x => x.key === key);
     if (confirm(`Reset ${a ? a.label : key}? This will allow you to answer all questions again.`)) {
         answeredQuestions[key] = [];
+        wrongQuestionsMap[key] = [];
         updateFormativeDisplay(key);
         saveProgress();
+        saveWrongQuestions();
     }
 }
 
@@ -223,6 +223,7 @@ function displayQuestion() {
     document.getElementById('current-question').textContent  = currentQuestionIndex + 1;
     document.getElementById('total-questions').textContent   = quizQuestions.length;
     document.getElementById('question-text').textContent     = question.q;
+    document.getElementById('reset-quiz-btn').classList.toggle('hidden', isPracticeMode);
 
     // Image support
     const imgContainer = document.getElementById('question-image-container');
@@ -541,12 +542,18 @@ function checkAnswer() {
         isCorrect = userAnswer.trim() === question.a;
     }
 
-    if (isCorrect) score++;
-    else if (isPracticeMode) {
-        practiceWrongBuffer.push(question);
-    } else {
+    if (isCorrect) {
+        score++;
+        if (isPracticeMode) {
+            wrongQuestionsMap[currentFormative] = (wrongQuestionsMap[currentFormative] || [])
+                .filter(q => q.q !== question.q);
+            saveWrongQuestions();
+            updateFormativeDisplay(currentFormative);
+        }
+    } else if (!isPracticeMode) {
         if (!wrongQuestionsMap[currentFormative]) wrongQuestionsMap[currentFormative] = [];
         wrongQuestionsMap[currentFormative].push(question);
+        saveWrongQuestions();
     }
 
     // Mark as answered
@@ -624,11 +631,7 @@ function showResults() {
     document.getElementById('results-score').textContent   = `${score} / ${quizQuestions.length}`;
     document.getElementById('results-message').textContent = message;
 
-    if (isPracticeMode) {
-        wrongQuestionsMap[currentFormative] = practiceWrongBuffer;
-        practiceWrongBuffer = [];
-        isPracticeMode = false;
-    }
+    isPracticeMode = false;
 
     const wrong = wrongQuestionsMap[currentFormative] || [];
     const wrongBtn = document.getElementById('practice-wrong-btn');
@@ -647,7 +650,6 @@ function practiceWrongAnswers(key) {
     currentFormative = key;
     quizQuestions = shuffleArray(wrongQuestionsMap[key] || []);
     isPracticeMode = true;
-    practiceWrongBuffer = [];
     currentQuestionIndex = 0;
     score = 0;
     userAnswer = '';
@@ -661,7 +663,6 @@ function retakeQuiz() { startQuiz(currentFormative); }
 function backToMenu() {
     window.removeEventListener('resize', redrawMatchingLines);
     isPracticeMode = false;
-    practiceWrongBuffer = [];
     showScreen('menu');
     if (currentFormative) updateFormativeDisplay(currentFormative);
     currentFormative = null;
@@ -792,6 +793,28 @@ function loadProgress() {
     } catch (e) {
         console.error('Failed to load progress:', e);
         ASSESSMENTS.forEach(a => { answeredQuestions[a.key] = []; });
+    }
+}
+
+function saveWrongQuestions() {
+    try { localStorage.setItem('quizWrongQuestions_v1', JSON.stringify(wrongQuestionsMap)); }
+    catch (e) { console.error('Failed to save wrong questions:', e); }
+}
+
+function loadWrongQuestions() {
+    try {
+        const saved = localStorage.getItem('quizWrongQuestions_v1');
+        if (saved) {
+            const parsed = JSON.parse(saved);
+            ASSESSMENTS.forEach(a => {
+                wrongQuestionsMap[a.key] = Array.isArray(parsed[a.key]) ? parsed[a.key] : [];
+            });
+        } else {
+            ASSESSMENTS.forEach(a => { wrongQuestionsMap[a.key] = []; });
+        }
+    } catch (e) {
+        console.error('Failed to load wrong questions:', e);
+        ASSESSMENTS.forEach(a => { wrongQuestionsMap[a.key] = []; });
     }
 }
 
