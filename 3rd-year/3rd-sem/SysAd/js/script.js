@@ -9,6 +9,7 @@ let score = 0;
 let loadedFormatives = new Set();
 const wrongQuestionsMap = {};
 let isPracticeMode = false;
+let sessionWrongQuestions = [];
 
 // Matching state
 let matchingSelected = null;
@@ -189,6 +190,7 @@ function startQuiz(key) {
     userAnswer = '';
     userAnswers = [];
     isPracticeMode = false;
+    sessionWrongQuestions = [];
     showScreen('quiz');
     displayQuestion();
 }
@@ -553,6 +555,7 @@ function checkAnswer() {
     } else if (!isPracticeMode) {
         if (!wrongQuestionsMap[currentFormative]) wrongQuestionsMap[currentFormative] = [];
         wrongQuestionsMap[currentFormative].push(question);
+        sessionWrongQuestions.push(question);
         saveWrongQuestions();
     }
 
@@ -604,9 +607,7 @@ function checkAnswer() {
     document.getElementById('submit-btn').classList.add('hidden');
     const nextBtn = document.getElementById('next-btn');
     nextBtn.classList.remove('hidden');
-    if (currentQuestionIndex === quizQuestions.length - 1) {
-        nextBtn.textContent = 'View Results';
-    }
+    nextBtn.textContent = currentQuestionIndex === quizQuestions.length - 1 ? 'View Results' : 'Next Question →';
 }
 
 function nextQuestion() {
@@ -631,12 +632,21 @@ function showResults() {
     document.getElementById('results-score').textContent   = `${score} / ${quizQuestions.length}`;
     document.getElementById('results-message').textContent = message;
 
+    const wasPractice = isPracticeMode;
     isPracticeMode = false;
+
+    const sessionBtn = document.getElementById('practice-session-btn');
+    if (!wasPractice && sessionWrongQuestions.length > 0) {
+        sessionBtn.textContent = `⚡ Practice ${sessionWrongQuestions.length} From This Quiz`;
+        sessionBtn.classList.remove('hidden');
+    } else {
+        sessionBtn.classList.add('hidden');
+    }
 
     const wrong = wrongQuestionsMap[currentFormative] || [];
     const wrongBtn = document.getElementById('practice-wrong-btn');
     if (wrong.length > 0) {
-        wrongBtn.textContent = `⚡ Practice ${wrong.length} Wrong Answer${wrong.length !== 1 ? 's' : ''}`;
+        wrongBtn.textContent = `⚡ Practice ${wrong.length} All Wrong Answers`;
         wrongBtn.classList.remove('hidden');
     } else {
         wrongBtn.classList.add('hidden');
@@ -644,6 +654,19 @@ function showResults() {
 
     showScreen('results');
     updateFormativeDisplay(currentFormative);
+}
+
+function practiceSessionWrong(key) {
+    currentFormative = key;
+    quizQuestions = shuffleArray([...sessionWrongQuestions]);
+    sessionWrongQuestions = [];
+    isPracticeMode = true;
+    currentQuestionIndex = 0;
+    score = 0;
+    userAnswer = '';
+    userAnswers = [];
+    showScreen('quiz');
+    displayQuestion();
 }
 
 function practiceWrongAnswers(key) {
