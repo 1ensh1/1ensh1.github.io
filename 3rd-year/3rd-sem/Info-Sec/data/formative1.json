@@ -1041,12 +1041,6 @@
 "a": "Session hijacking"
 },
 {
-"q": "Which of the following describes how an attacker can send unwanted advertisements to a mobile device?",
-"type": "mc",
-"opts": ["Bluesnarfing", "Bluejacking", "Man-in-the-middle", "Packet sniffing"],
-"a": "Bluejacking"
-},
-{
 "q": "It may be a Trojan that's planned to accumulate data from a system.",
 "type": "mc",
 "opts": ["Account phishing", "Spamming", "Clickjacking", "Password stealer"],
@@ -1537,12 +1531,6 @@
 "type": "mc",
 "opts": ["Software attacks", "Backdoor Attacks", "Spyware Attacks", "Password attacks"],
 "a": "Password attacks"
-},
-{
-"q": "Joe, a user, in a coffee shop is checking his email over a wireless network. An attacker records the temporary credentials being passed to Joe's browser. The attacker later uses the credentials to impersonate Joe and creates SPAM messages. Which of the following attacks allows for this impersonation?",
-"type": "mc",
-"opts": ["Directory traversal", "XML injection", "Session hijacking", "Header manipulation"],
-"a": "Session hijacking"
 },
 {
 "q": "It takes advantage of the specific capacity limits that apply to any network resources -- such as the infrastructure that enables a company's website.",
