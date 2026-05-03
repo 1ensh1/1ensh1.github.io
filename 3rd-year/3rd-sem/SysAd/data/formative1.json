@@ -1,0 +1,1062 @@
+[
+  {
+    "q": "Reproduction case is creating a roadmap to retrace the steps that led the user to an unexpected outcome",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A drawback of Cloud Computing is Dependency",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Dependency is not a drawback of Cloud Computing",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is advisable to use administrator rights for tasks that don't require them",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "IT infrastructure encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment.",
+    "type": "tf",
+    "a": "TRUE"
+  },
+  {
+    "q": "As a SysAdmin, you don't have think before you type",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Avoid using administrator rights for tasks that don't require them",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is a virtual machine running the same configuration as a production environment",
+    "type": "mc",
+    "opts": ["Geographical environment", "Test environment", "Live environment", "IT infrastructure"],
+    "a": "Test environment"
+  },
+  {
+    "q": "____________ lists company's policies, routine procedures, and more",
+    "type": "mc",
+    "opts": ["Documentation", "Conjectures", "Presumptions", "Assumptions"],
+    "a": "Documentation"
+  },
+  {
+    "q": "SysAdmins need to document what they do and have a way to revert to the previous state",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The key to safely making changes is to always run them through a test environment first.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "__________ is where users can request help on an issue and then you can track your troubleshooting work",
+    "type": "mc",
+    "opts": ["Database system", "Ordering system", "Ticketing system", "Reporting system"],
+    "a": "Ticketing system"
+  },
+  {
+    "q": "Deployment is where hardware is set up so that the employee can do their job.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SysAdmins are responsible for managing users and hardware",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Slaves request the services from a server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Directory as a Service centralizes your organizations users and computers in one location so that you can add, update, and remove users and computers",
+    "type": "mc",
+    "opts": ["Directory as a Service", "Networking as a Service", "Platform as a Service", "Software as a Service", "Infrastructure as a Service"],
+    "a": "Directory as a Service"
+  },
+  {
+    "q": "DNS leases IP addresses to clients",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When you imitate a server, you're putting lots of virtual instances on one server. Each instance contains a service.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Postboot Execution allows you to boot into a software that's available over the network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "FTP doesn't handle data encryption",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which of these is considered a software service? Check all that apply.",
+    "type": "multi",
+    "opts": ["Chat applications", "Email applications", "Word processors", "Wireless Internet"],
+    "a": ["Chat applications", "Email applications", "Word processors"]
+  },
+  {
+    "q": "In SFTP, data is sent through SSH and is encrypted",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Infrastructure as a Service centralizes your organizations users and computers in one location so that you can add, update, and remove users and computers",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is used to keep the clock synchronized on machines connected to a network",
+    "type": "mc",
+    "opts": ["TFTP", "FTP", "SFTP", "NTP"],
+    "a": "NTP"
+  },
+  {
+    "q": "Networking as a Service gives a pre-configured virtual machines that you can use just as if you had a physical server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is an internal network inside a company",
+    "type": "mc",
+    "opts": ["Outernet", "Intranet", "Extranet", "Internet"],
+    "a": "Intranet"
+  },
+  {
+    "q": "Which of the following is considered a physical infrastructure service? Check all that apply.",
+    "type": "multi",
+    "opts": ["Rack server", "Desktop", "Laptop", "Operating systems"],
+    "a": ["Rack server", "Desktop", "Laptop"]
+  },
+  {
+    "q": "TFTP doesn't require user authentication",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NTP is used to host installation files",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It's more expensive to run several services on one machine than it is to run many services on multiple machines",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______________ is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.",
+    "type": "mc",
+    "opts": ["Cluster Computing", "Client Server Computing", "Personal Computing", "Cloud computing"],
+    "a": "Cloud computing"
+  },
+  {
+    "q": "A KVM switch is used to:",
+    "type": "mc",
+    "opts": ["switch between multiple computers using one monitor, keyboard, and mouse", "enable you to receive incoming SSH connections.", "mount multiple servers into one server rack.", "allow you to serve web content to many clients."],
+    "a": "switch between multiple computers using one monitor, keyboard, and mouse"
+  },
+  {
+    "q": "Test environment is a virtual machine running the same configuration as a production environment",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Deployment is the stage where hardware is purchased or re-used for any employee.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Live Testing is a way to reduce risk and validate new software by releasing software to a small percentage of users",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Cloud computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A computer center is a physical facility that enterprises use to house their business- critical applications and information.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is creating a roadmap to retrace the steps that led the user to an unexpected outcome",
+    "type": "mc",
+    "opts": ["Repeating case", "Testing case", "Maintaining case", "Reproduction case"],
+    "a": "Reproduction case"
+  },
+  {
+    "q": "A Universal Switch looks like a hub that you can connect multiple computers to and control them using one keyboard, mouse and monitor.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins constantly don't have to troubleshoot problems and find solutions for your IT needs",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Vendors can't provide a broad range of hardware, software and services",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Live Network is the part of the infrastructure where certain services are executed and serve its users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_____________ are services that you can purchase that allow you to edit word documents, process spreadsheets, make presentations and more, all from a web browser",
+    "type": "mc",
+    "opts": ["Software as a Service", "Infrastructure as a Service", "Networking as a Service", "Directory as a Service", "Platform as a Service"],
+    "a": "Software as a Service"
+  },
+  {
+    "q": "_____________ gives a pre-configured virtual machines that you can use just as if you had a physical server",
+    "type": "mc",
+    "opts": ["Software as a Service", "Platform as a Service", "Networking as a Service", "Directory as a Service", "Infrastructure as a Service"],
+    "a": "Infrastructure as a Service"
+  },
+  {
+    "q": "Simulation is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ doesn't require user authentication",
+    "type": "mc",
+    "opts": ["FTP", "TFTP", "NTP", "SFTP"],
+    "a": "TFTP"
+  },
+  {
+    "q": "Software as a Service allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "DHCP leases IP addresses to clients",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Management infrastructure services are what allows an organization to function.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "DHCP leases IP addresses to clients",
+    "type": "mc",
+    "opts": ["DNS", "FTP", "HTTP", "DHCP"],
+    "a": "DHCP"
+  },
+  {
+    "q": "When you virtualize a server, you're putting lots of virtual instances on one server. Each instance contains a service.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "With virtualized service, you can't quickly stop your service or migrate them to another physical server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In TFTP, data is sent through SSH and is encrypted",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It's cheaper to run several services on one machine than it is to run many services on multiple machines",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Platform as a Service are services that you can purchase that allow you to edit word documents, process spreadsheets, make presentations and more, all from a web browser",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins are not responsible for managing users and hardware",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Reverting to the previous state is called a flashback",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Communicating with customer service is the process of asking questions, isolating the problem and reading logs",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is a stripped-down server computer with a modular design optimized to minimize the use of physical space and energy",
+    "type": "mc",
+    "opts": ["Blade server", "Vertical server", "Tower server", "Rack server"],
+    "a": "Blade server"
+  },
+  {
+    "q": "SysAdmins is not responsible in ensuring a user is able to log in and that the computer has the necessary software that a user needs to be productive",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Clients request the services from a server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Canary Testing is a way to reduce risk and validate new software by releasing software to a small percentage of users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "As a SysAdmin, you don't think through what you're doing and don't rush.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Documentation lists company's policies, routine procedures, and more",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Maintenance is the stage where software is updated and hardware issues are fixed if and when they occur",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Production servers are the service that deliver the website content to the users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Tower servers are built in an upright cabinet that stands alone.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Ordering system is where users can request help on an issue and then you can track your troubleshooting work",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Intranet is an internal network inside a company",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "as a Service includes an entire platform that allows you to build code, store information in a database, and serve your application from a single platform",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "I.T. infrastructure services are what allows an organization to function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In a smaller company, a single person could be responsible for all these services.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "TFTP is used to host installation files",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In a larger company, a single person could be responsible for all these services.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "NTP is used to keep the clock synchronized on machines connected to a network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "KVM stands for keyboard, video and mouse",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A _________ looks like a hub that you can connect multiple computers to and control them using one keyboard, mouse and monitor.",
+    "type": "mc",
+    "opts": ["Hybrid hub", "Cisco 2960 Switch", "KVM Switch", "Universal Switch"],
+    "a": "KVM Switch"
+  },
+  {
+    "q": "Tower server is a stripped-down server computer with a modular design optimized to minimize the use of physical space and energy",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins are not responsible for user machines",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "System administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
+    "type": "tf",
+    "a": "TRUE"
+  },
+  {
+    "q": "A client is essentially software or a machine that provides services to other software or machines.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A _________ is essentially software or a machine that provides services to other software or machines.",
+    "type": "mc",
+    "opts": ["server", "unit", "client", "master"],
+    "a": "server"
+  },
+  {
+    "q": "A server can provide services to multiple clients at once and the client can use multiple servers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Database Admins have to be able to create new users and give them access to their company's resources",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ which lay flat and are usually mounted in a 90\" wide server rack",
+    "type": "mc",
+    "opts": ["Tower server", "Rack server", "Blade server", "Vertical server"],
+    "a": "Rack server"
+  },
+  {
+    "q": "With great power comes great responsibility.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ allows you to boot into a software that's available over the network",
+    "type": "mc",
+    "opts": ["Postboot Execution", "Preboot Execution", "In-demand Execution", "On-demand Execution"],
+    "a": "Preboot Execution"
+  },
+  {
+    "q": "TFTP does require user authentication",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Networking as a Service allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File Transfer Protocol is a legacy way to transfer files from one computer to another over the Internet",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Directory as a Service centralizes your organizations users and computers in one location so that you can add, update, and remove users and computers",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "____________ allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
+    "type": "mc",
+    "opts": ["Platform as a Service", "Networking as a Service", "Software as a Service", "Infrastructure as a Service", "Directory as a Service"],
+    "a": "Networking as a Service"
+  },
+  {
+    "q": "DNS maps human understandable names to IP addresses",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Internet is an internal network inside a company",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "____________ validate users' passwords",
+    "type": "mc",
+    "opts": ["Tunnels Authentication Servers", "Communication Authentication Servers", "Production Authentication Servers", "Bridges Authentication Servers"],
+    "a": "Communication Authentication Servers"
+  },
+  {
+    "q": "What are the benefits of cloud computing over local computing? Check all that apply.",
+    "type": "multi",
+    "opts": ["Software updates are handled by the company providing the service", "There are potential long-term costs associated with cloud computing", "There are smaller starting costs for cloud computing", "Services are accessible from anywhere in the world"],
+    "a": ["Software updates are handled by the company providing the service", "There are smaller starting costs for cloud computing", "Services are accessible from anywhere in the world"]
+  },
+  {
+    "q": "SysAdmins have to troubleshoot and prioritize issues at a larger scale",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The more users your service reaches, the less you'll want to ensure that changes aren't disruptive",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Retirement is where hardware becomes unusable or no longer needed and it needs to be properly removed from the fleet.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Cost is not a drawback of Cloud Computing",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins don't need to document what they do and have a way to revert to the previous state",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Not all computer can be a server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins have to be able to create new users and give them access to their company's resources",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Documenting what you did is not crucial when using administrator rights.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
+    "type": "mc",
+    "opts": ["Simulation", "Imitation", "Realization", "Virtualization"],
+    "a": "Virtualization"
+  },
+  {
+    "q": "___________ maps human understandable names to IP addresses",
+    "type": "mc",
+    "opts": ["FTP", "DNS", "HTTP", "DHCP"],
+    "a": "DNS"
+  },
+  {
+    "q": "____________ , data is sent through SSH and is encrypted",
+    "type": "mc",
+    "opts": ["NTP", "FTP", "TFTP", "SFTP"],
+    "a": "SFTP"
+  },
+  {
+    "q": "Industry Standard Servers are not running 24/7",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Maintenance is the stage where software is updated and hardware issues are fixed if and when they occur",
+    "type": "mc",
+    "opts": ["Maintenance", "Procurement", "Retirement", "Deployment"],
+    "a": "Maintenance"
+  },
+  {
+    "q": "_________ request the services from a server",
+    "type": "mc",
+    "opts": ["Students", "Slaves", "Requestor", "Clients"],
+    "a": "Clients"
+  },
+  {
+    "q": "Retirement is the stage where software is updated and hardware issues are fixed if and when they occur",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Tower server which lay flat and are usually mounted in a 90\" wide server rack",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_____________ are the service that deliver the website content to the users",
+    "type": "mc",
+    "opts": ["Production servers", "Tunnel servers", "Communication servers", "Bridge servers"],
+    "a": "Production servers"
+  },
+  {
+    "q": "Maintenance is where hardware is set up so that the employee can do their job.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Rack server which lay flat and are usually mounted in a 90\" wide server rack",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "___________________ constantly provide updates and maintenance so that they run the latest secure software.",
+    "type": "mc",
+    "opts": ["Routine Management", "IT management", "Routine Maintenance", "IT normalization"],
+    "a": "Routine Maintenance"
+  },
+  {
+    "q": "As a SysAdmin, you have think before you type",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Routine Management constantly provide updates and maintenance so that they run the latest secure software.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins is not responsible in ensuring that the hardware they are provisioning or setting up for users is standardized",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Directory as a Service includes an entire platform that allows you to build code, store information in a database, and serve your application from a single platform",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "You may do Reproduction case in your production",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Production is the part of the infrastructure where certain services are executed and serve its users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Rack servers are built in an upright cabinet that stands alone.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A _________ is a physical facility that enterprises use to house their business- critical applications and information.",
+    "type": "mc",
+    "opts": ["data center", "computer center", "network facility", "management information system"],
+    "a": "data center"
+  },
+  {
+    "q": "A server is essentially software or a machine that provides services to other software or machines.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Procurement is the stage where hardware is purchased or re-used for any employee.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Server operating systems are usually more secure and come with additional services already built in",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is used to host installation files",
+    "type": "mc",
+    "opts": ["SFTP", "FTP", "TFTP", "NTP"],
+    "a": "TFTP"
+  },
+  {
+    "q": "Preboot Execution allows you to boot into a software that's available over the network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Infrastructure as a Service gives a pre-configured virtual machines that you can use just as if you had a physical server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In larger companies, teams assist admins might manage just one service",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Software as a Service are services that you can purchase that allow you to edit word documents, process spreadsheets, make presentations and more, all from a web browser",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Communication Authentication Servers validate users' passwords",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Correct customer service is not showing empathy, not using the right tone of voice and dealing well with difficult situations.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "___________ is where hardware becomes unusable or no longer needed and it needs to be properly removed from the fleet.",
+    "type": "mc",
+    "opts": ["Maintenance", "Procurement", "Deployment", "Retirement"],
+    "a": "Retirement"
+  },
+  {
+    "q": "Documenting what you did is crucial when using administrator rights.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SysAdmins constantly have to troubleshoot problems and find solutions for your IT needs",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "______________ is the stage where hardware is purchased or re-used for any employee.",
+    "type": "mc",
+    "opts": ["Retirement", "Deployment", "Maintenance", "Procurement"],
+    "a": "Procurement"
+  },
+  {
+    "q": "Organizational Policies are general statements of how an organization want to behave and procedures define exactly how to do a task or perform step by step",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Server operating systems are are optimized for server functionality.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "FTP does handle data encryption",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Any computer can be a server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Structural Policies are general statements of how an organization want to behave and procedures define exactly how to do a task or perform step by step",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins ensure that the hardware they are provisioning or setting up for users is standardized",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Communications infrastructure encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment.",
+    "type": "tf",
+    "a": "TRUE"
+  },
+  {
+    "q": "SysAdmins are responsible for user machines",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "As a SysAdmin, you have to respect the privacy of others",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In some companies, sysadmins have to be available around the clock",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "With virtualized service, you can quickly stop your service or migrate them to another physical server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______________ includes an entire platform that allows you to build code, store information in a database, and serve your application from a single platform",
+    "type": "mc",
+    "opts": ["Platform as a Service", "Software as a Service", "Directory as a Service", "Infrastructure as a Service", "Networking as a Service"],
+    "a": "Platform as a Service"
+  },
+  {
+    "q": "As a SysAdmin, you think through what you're doing and don't rush.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Troubleshooting is the process of asking questions, isolating the problem and reading logs",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A server can provide services to multiple clients at once and the server can use multiple servers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The key to safely making changes is to always run them through a production environment first.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Industry Standard Servers are typically running 24/7",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NTP is a legacy way to transfer files from one computer to another over the Internet",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "FTP is used to keep the clock synchronized on machines connected to a network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "After applying your fix, retrace the same steps that took you to the bad experience.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The more you can do with your administrator rights, the less you can mess up",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "With great power comes less accountability.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "KVM in KVM switch stands for kernel-based virtual machine",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Ticketing or bug system is where users can request help on an issue and then you can track your troubleshooting work",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Production Authentication Servers validate users' passwords",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which of these is considered a server? Check all that apply.",
+    "type": "multi",
+    "opts": ["A computer that provides a service to other computers", "Software that provides a service to other machines", "Software that's only available to the computer it's installed on", "A software that provides a service to other software"],
+    "a": ["A computer that provides a service to other computers", "Software that provides a service to other machines", "A software that provides a service to other software"]
+  },
+  {
+    "q": "Reverting to the previous state is called a _________",
+    "type": "mc",
+    "opts": ["backup", "rollback", "rewind", "flashback"],
+    "a": "rollback"
+  },
+  {
+    "q": "A KVM Switch looks like a hub that you can connect multiple computers to and control them using one keyboard, mouse and monitor.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which of these is considered a network service? Check all that apply.",
+    "type": "multi",
+    "opts": ["Ethernet cables", "Blade server", "Wireless Internet", "DNS"],
+    "a": ["Ethernet cables", "Wireless Internet", "DNS"]
+  },
+  {
+    "q": "A client can provide services to multiple clients at once and it can use multiple servers.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The more users your service reaches, the more you'll want to ensure that changes aren't disruptive",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "With _________, you can access your data, use applications, and more from anywhere in the world, as long as you have an Internet connection.",
+    "type": "mc",
+    "opts": ["a PAN", "a LAN", "cloud computing", "a WAN"],
+    "a": "cloud computing"
+  },
+  {
+    "q": "A drawback of Cloud Computing is Cost",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Vendors can provide a broad range of hardware, software and services",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "As a SysAdmin, you don't have to respect the privacy of others",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_____________ works in the background to make sure the IT infrastructure of the company is always working and they prevent IT disasters from happening",
+    "type": "mc",
+    "opts": ["Network Administrators", "Network Engineers", "Database Administrators", "System Administrators"],
+    "a": "System Administrators"
+  },
+  {
+    "q": "Assumptions lists company's policies, routine procedures, and more",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is where hardware is set up so that the employee can do their job.",
+    "type": "mc",
+    "opts": ["Maintenance", "Deployment", "Procurement", "Retirement"],
+    "a": "Deployment"
+  },
+  {
+    "q": "Database Administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
+    "type": "tf",
+    "a": "FALSE"
+  },
+  {
+    "q": "____________ , data is sent through SSH and is encrypted",
+    "type": "mc",
+    "opts": ["TFTP", "NTP", "SFTP", "FTP"],
+    "a": "SFTP"
+  },
+  {
+    "q": "_________ is a legacy way to transfer files from one computer to another over the Internet",
+    "type": "mc",
+    "opts": ["NTP", "FTP", "DNS", "DHCP"],
+    "a": "FTP"
+  },
+  {
+    "q": "DHCP maps human understandable names to IP addresses",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Removing users from an IT infrastructure if users leave the company is not part of user provisioning",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "After applying your fix, you don't have to retrace the same steps that took you to the bad experience.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Reverting to the previous state is called a rollback",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Routine Maintenance constantly provide updates and maintenance so that they run the latest secure software.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Client Server computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Procurement is where hardware becomes unusable or no longer needed and it needs to be properly removed from the fleet.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A data center is a physical facility that enterprises use to house their business- critical applications and information.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is a way to reduce risk and validate new software by releasing software to a small percentage of users",
+    "type": "mc",
+    "opts": ["Canary Testing", "Interface Testing", "Beta/Acceptance Testing", "Integration Testing"],
+    "a": "Canary Testing"
+  },
+  {
+    "q": "Virtualization is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In smaller companies, teams assist admins might manage just one service",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins ensure a user is able to log in and that the computer has the necessary software that a user needs to be productive",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Are built in an upright cabinet that stands alone.",
+    "type": "mc",
+    "opts": ["Vertical server", "Rack server", "Blade server", "Tower server"],
+    "a": "Tower server"
+  },
+  {
+    "q": "SysAdmins don't have to troubleshoot and prioritize issues at a larger scale",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______________ is the part of the infrastructure where certain services are executed and serve its users",
+    "type": "mc",
+    "opts": ["Production", "Bridges", "Communication", "Tunnels"],
+    "a": "Production"
+  },
+  {
+    "q": "Which of these server hardware can you stack on top of each other in a server rack?",
+    "type": "multi",
+    "opts": ["Desktop", "Tower", "Blade", "Rack"],
+    "a": ["Blade", "Rack"]
+  },
+  {
+    "q": "Which of the following make up IT infrastructure?",
+    "type": "mc",
+    "opts": ["All of the above", "Hardware and software", "Network", "Operating systems"],
+    "a": "All of the above"
+  },
+  {
+    "q": "___________ are general statements of how an organization want to behave and procedures define exactly how to do a task or perform step by step.",
+    "type": "mc",
+    "opts": ["Structural Policies", "Organizational Policies", "Economic Policies", "Privacy Policies"],
+    "a": "Organizational Policies"
+  },
+  {
+    "q": "Communication servers are the service that deliver the website content to the users",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Removing users from an IT infrastructure if users leave the company is part of user provisioning",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Always do Reproduction case in your test instance, never in production",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________________ encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment",
+    "type": "mc",
+    "opts": ["Power and Energy Infrastructure", "IT infrastructure", "Database Infrastructure", "Communications Infrastructure"],
+    "a": "IT infrastructure"
+  },
+  {
+    "q": "SysAdmins does not work with vendors or other businesses to buy hardware",
+    "type": "tf",
+    "a": "False"
+  }
+]
