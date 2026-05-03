@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SysAd Quiz</title>
+    <title>Info Sec Quiz</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <!-- ── Menu ── -->
         <div id="menu-screen">
             <div class="header">
-                <h1>SysAd Quiz</h1>
+                <h1>SysAd</h1>
                 <p>Select a formative assessment to begin</p>
             </div>
             <div id="menu-body"></div>
@@ -27,7 +27,7 @@
                         <span class="formative-label"><span id="current-formative"></span></span>
                         <span class="question-label">Question <span id="current-question"></span> / <span id="total-questions"></span></span>
                     </div>
-                    <button class="reset-quiz-btn" onclick="resetCurrentQuiz()">🔄 Reset This Quiz</button>
+                    <button id="reset-quiz-btn" class="reset-quiz-btn" onclick="resetCurrentQuiz()">🔄 Reset This Quiz</button>
                 </div>
 
                 <div class="question-text" id="question-text"></div>
