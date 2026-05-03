@@ -1,1619 +1,2965 @@
 [
-{
-"q": "A security administrator wants to ensure that the message the administrator sends out to their Chief Financial Officer (CFO) does not get changed in route. Which of the following is the administrator MOST concerned with?",
-"type": "mc",
-"opts": ["Business continuity", "Data integrity", "High availability", "Data confidentiality"],
-"a": "Data integrity"
-},
-{
-"q": "Matt, a security administrator, wants to ensure that the message he is sending does not get intercepted or modified in transit. This concern relates to which of the following concepts?",
-"type": "mc",
-"opts": ["Availability", "Integrity", "Accounting", "Confidentiality"],
-"a": "Integrity"
-},
-{
-"q": "Franz is working on her college applications online, when the admissions site crashes. She is incapable to turn in her application on time.",
-"type": "mc",
-"opts": ["Confidentiality", "Integrity", "Availability", "None of the above"],
-"a": "Availability"
-},
-{
-"q": "It is the term used for a broad range of malicious activities accomplished through human interactions.",
-"type": "mc",
-"opts": ["Software-Based Attacks", "Physical Security Attacks", "Network-Based Attacks", "Social Engineering Attacks"],
-"a": "Social Engineering Attacks"
-},
-{
-"q": "It is necessary for a responsible individual or organization to secure confidential information.",
-"type": "mc",
-"opts": ["Information Security", "Information Confidentiality", "Information Privacy", "Information Integrity"],
-"a": "Information Security"
-},
-{
-"q": "Alice is buying books from an online retail site, and she finds that she can change the price of a book from £19.99 to £1.99. Which part of the CIA triad has been broken?",
-"type": "mc",
-"opts": ["Integrity", "None of the above", "Confidentiality", "Availability"],
-"a": "Integrity"
-},
-{
-"q": "What does confidentiality of data imply to",
-"type": "mc",
-"opts": ["Rules which prevent data from being changed", "Rules which hide data", "Rules which restrict access only to those who need to know", "Rules which allow access only to all parties"],
-"a": "Rules which restrict access only to those who need to know"
-},
-{
-"q": "The action or process of identifying someone or something or the fact of being identified.",
-"type": "mc",
-"opts": ["Monitoring", "Running", "Implementation", "Identification"],
-"a": "Identification"
-},
-{
-"q": "The process of putting a decision or plan into effect also known as execution.",
-"type": "mc",
-"opts": ["Monitoring", "Implementation", "Identification", "Running"],
-"a": "Implementation"
-},
-{
-"q": "Are intended to limit the extent of any damage caused by the incident by recovering the organization to normal working status as efficiently as possible",
-"type": "mc",
-"opts": ["Detective controls", "Corrective controls", "Active controls", "Preventive controls"],
-"a": "Corrective controls"
-},
-{
-"q": "It is one way to enable security during the process of message transmission when the message is intended for a recipient only.",
-"type": "mc",
-"opts": ["Symmetric encryption", "encryption key", "Asymmetric encryption", "Hashing"],
-"a": "Hashing"
-},
-{
-"q": "It is defined as the act of determining who someone or what something is.",
-"type": "mc",
-"opts": ["Authorization", "Non-repudiation", "Identification", "Authentication"],
-"a": "Identification"
-},
-{
-"q": "Which of the following is best practice to put at the end of an ACL?",
-"type": "mc",
-"opts": ["Implicit deny", "Time of day restrictions", "Implicit allow", "SNMP string"],
-"a": "Implicit deny"
-},
-{
-"q": "It can only encrypt data; that data cannot be decrypted",
-"type": "mc",
-"opts": ["Hash function", "Steganography", "Block cipher", "Stream ciphers"],
-"a": "Hash function"
-},
-{
-"q": "It is the practice of converting a password to a longer and more random key for cryptographic purposes such as encryption.",
-"type": "mc",
-"opts": ["Key exchange", "Cipher Suites", "Key Stretching", "Session Keys"],
-"a": "Key Stretching"
-},
-{
-"q": "is a physical device that an authorized user of computer services is given to ease authentication.",
-"type": "mc",
-"opts": ["Time of day restrictions", "Security token", "Mandatory vacations", "Biometrics"],
-"a": "Security token"
-},
-{
-"q": "It is the affirmation that somebody cannot deny the legitimacy of something.",
-"type": "mc",
-"opts": ["Authorization", "Authentication", "Identification", "Non-repudiation"],
-"a": "Non-repudiation"
-},
-{
-"q": "During a routine audit a web server is flagged for allowing the use of weak ciphers. Which of the following should be disabled to mitigate this risk? (Select TWO).",
-"type": "multi",
-"opts": ["SSL 1.0", "SSL 3.0", "RC4", "AES"],
-"a": ["SSL 3.0", "RC4"]
-},
-{
-"q": "A security analyst discovered data such as images and word documents hidden within different types of files. Which of the following cryptographic concepts describes what was discovered?",
-"type": "mc",
-"opts": ["Hashing", "Symmetric encryption", "Non-repudiation", "Steganography"],
-"a": "Steganography"
-},
-{
-"q": "It is a security mechanism to determine access levels or user/client privileges related to system resources including files, services, computer programs, data and application features.",
-"type": "mc",
-"opts": ["Identification", "Non-repudiation", "Authentication", "Authorization"],
-"a": "Authorization"
-},
-{
-"q": "These are typically stored in folders, which are kept in filing cabinets.",
-"type": "mc",
-"opts": ["Official information", "Paper documents", "Classification", "Retention Schedules"],
-"a": "Paper documents"
-},
-{
-"q": "Records that are not confidential and do not contain personal/financial identifying information.",
-"type": "mc",
-"opts": ["Delete", "Recycle", "Shred", "Transfer"],
-"a": "Recycle"
-},
-{
-"q": "It is a built up or official way of doing something.",
-"type": "mc",
-"opts": ["Enforcement", "Procedures", "User Access to Computer Resources", "Security policies"],
-"a": "Procedures"
-},
-{
-"q": "It involves first identifying the groups and people who will need to change as the result of the project, and in what ways they will need to change.",
-"type": "mc",
-"opts": ["Enterprise change management", "Change management", "Organizational change management", "Individual change management"],
-"a": "Organizational change management"
-},
-{
-"q": "It could be a set of rules connected by the proprietor, maker or director of a network, site, or service",
-"type": "mc",
-"opts": ["Information Security Auditing", "Information Security Training", "Remote Access", "Acceptable User Policy"],
-"a": "Acceptable User Policy"
-},
-{
-"q": "It is the continued possession, use, or control of documentation",
-"type": "mc",
-"opts": ["disposal", "destruction", "Storage", "Retention"],
-"a": "Retention"
-},
-{
-"q": "It may be an explanation that uncovers a few or all of the ways a party assembles, employments, discloses, and oversees a client or client's information",
-"type": "mc",
-"opts": ["Password policy", "Audit policy", "Extranet policy", "Privacy policy"],
-"a": "Privacy policy"
-},
-{
-"q": "It is a living document that provides guidelines for your organization's social media use.",
-"type": "mc",
-"opts": ["Wireless standards policy", "Extranet policy", "Social media policy", "Password policy"],
-"a": "Social media policy"
-},
-{
-"q": "It gives the IT department a method to review the changes before they are implemented.",
-"type": "mc",
-"opts": ["Organizational change management", "Change management", "Enterprise change management", "Individual change management"],
-"a": "Change management"
-},
-{
-"q": "It incorporates how to handle connections, through sifting, individual utilize of the mail framework, dialect confinements, and authentic necessities",
-"type": "mc",
-"opts": ["Passwords", "Sensitive data", "E-Mail", "Security Profiles"],
-"a": "E-Mail"
-},
-{
-"q": "It is also sometimes considered an act of Internet terrorism where terrorist activities.",
-"type": "mc",
-"opts": ["Cyberterrorism", "Script kiddie", "Electronic vandalism", "Data theft"],
-"a": "Cyberterrorism"
-},
-{
-"q": "It is a type of social engineering technique used to obtain information such as personal identification numbers (PINs), passwords and other confidential data by looking over the victim's shoulder",
-"type": "mc",
-"opts": ["Tailgating", "Spam", "Dumpster diving", "Shoulder surfing"],
-"a": "Shoulder surfing"
-},
-{
-"q": "It is also known as piggybacking",
-"type": "mc",
-"opts": ["Shoulder surfing", "Dumpster diving", "Spam", "Tailgating"],
-"a": "Tailgating"
-},
-{
-"q": "It happens both exterior and interior companies and decreasing the hazard of insider information burglary at the corporate level is anything but simple",
-"type": "mc",
-"opts": ["Malicious insiders", "Hacktivists", "Data theft", "Script kiddie"],
-"a": "Data theft"
-},
-{
-"q": "It may be an amusing or pernicious misdirection.",
-"type": "mc",
-"opts": ["Vishing", "Spoofing", "Hoax", "Phishing"],
-"a": "Hoax"
-},
-{
-"q": "It copies (something) whereas overstating its characteristic highlights for comedian impact",
-"type": "mc",
-"opts": ["Vishing", "Hoax", "Phishing", "Spoofing"],
-"a": "Spoofing"
-},
-{
-"q": "It is often a chain message telling recipients to forward the mail to all their contacts.",
-"type": "mc",
-"opts": ["Hoax", "Spoofing", "Phishing", "Vishing"],
-"a": "Hoax"
-},
-{
-"q": "It can be defined as defacing the digital assets of a company or individual to cause nuisance or permanent damage.",
-"type": "mc",
-"opts": ["Electronic vandalism", "Script kiddie", "Data theft", "Cyberterrorism"],
-"a": "Electronic vandalism"
-},
-{
-"q": "It is the process by which a URL is wrongly removed from the search engine index and replaced by another URL.",
-"type": "mc",
-"opts": ["Spim", "Spam", "whaling", "URL hijacking"],
-"a": "URL hijacking"
-},
-{
-"q": "It is somebody without the right verification takes after a confirmed worker into a limited zone.",
-"type": "mc",
-"opts": ["Dumpster diving", "Spam", "Tailgating", "Shoulder surfing"],
-"a": "Tailgating"
-},
-{
-"q": "It can happen there the hacker uses some website applications to transfer some bad malicious code.",
-"type": "mc",
-"opts": ["LDAP injection", "Cross-site scripting", "SQL injection", "XML injection"],
-"a": "Cross-site scripting"
-},
-{
-"q": "It means attack by Viruses, Worms, Trojan Horses etc. Many users believe that malware, virus, worms, bots are all same things.",
-"type": "mc",
-"opts": ["Botnets", "Polymorphic Malware", "keylogger", "Software attacks"],
-"a": "Software attacks"
-},
-{
-"q": "The string: ' or 1=1-- - Represents which of the following?",
-"type": "mc",
-"opts": ["SQL Injection", "Rogue access point", "Bluejacking", "Client-side attacks"],
-"a": "SQL Injection"
-},
-{
-"q": "Which of the following types of application attacks would be used to identify malware causing security breaches that have NOT yet been identified by any trusted sources?",
-"type": "mc",
-"opts": ["XML injection", "LDAP injection", "Directory traversal", "Zero-day"],
-"a": "Zero-day"
-},
-{
-"q": "It is a threat which can exploit smooth vulnerability which has been known in the past as well.",
-"type": "mc",
-"opts": ["Zero-day", "Integer overflow", "Cookies and attachments", "Buffer overflow"],
-"a": "Zero-day"
-},
-{
-"q": "It does not corrupt or modify files on a target computer.",
-"type": "mc",
-"opts": ["Worms", "Adware", "Viruses", "Spyware"],
-"a": "Worms"
-},
-{
-"q": "It is a software program designed to provide a user with administrator access to a computer without being detected.",
-"type": "mc",
-"opts": ["keylogger", "Rootkits", "Backdoor Attacks", "Trojan Horse"],
-"a": "Rootkits"
-},
-{
-"q": "Which of the following malware types is MOST likely to execute its payload after Jane, an employee, has left the company?",
-"type": "mc",
-"opts": ["Worm", "Logic bomb", "Botnet", "Rootkit"],
-"a": "Logic bomb"
-},
-{
-"q": "A trojan was recently discovered on a server. There are now concerns that there has been a security breach that allows unauthorized people to access data. The administrator should be looking for the presence of a/an:",
-"type": "mc",
-"opts": ["Rootkit.", "Logic bomb", "Backdoor.", "Adware application."],
-"a": "Backdoor."
-},
-{
-"q": "It does this by monitoring a user's input and keeping a log of all keys that are pressed.",
-"type": "mc",
-"opts": ["Trojan Horse", "Backdoor Attack", "keylogger", "Rootkits"],
-"a": "keylogger"
-},
-{
-"q": "It is an attack where the attacker secretly relays and possibly alters the communications between two parties who believe that they are directly communicating with each other.",
-"type": "mc",
-"opts": ["Eavesdropping Attacks", "Replay Attacks", "Man-in-the-Middle Attacks", "Evil twin attack"],
-"a": "Man-in-the-Middle Attacks"
-},
-{
-"q": "It is any Wi-Fi access point that is installed on a network but is not authorized for operation on that network and is not under the management of the network administrator.",
-"type": "mc",
-"opts": ["Rogue Access Points", "Evil Twins", "Wireless security", "Transitive access"],
-"a": "Rogue Access Points"
-},
-{
-"q": "It is the prevention of unauthorized users from accessing your wireless network and stealing the data using your Wi-Fi network.",
-"type": "mc",
-"opts": ["Evil Twins", "Rogue Access Points", "Transitive access", "Wireless security"],
-"a": "Wireless security"
-},
-{
-"q": "It will send multiple requests to the attacked web resource – with the aim of exceeding the website's capacity to handle multiple requests and prevent the website from functioning correctly.",
-"type": "mc",
-"opts": ["Distributed denial of service", "Session hijacking", "ARP poisoning", "Denial-of-service attack"],
-"a": "Distributed denial of service"
-},
-{
-"q": "It could be a program that collects chunks of information that are likely to be account names and their related passwords so that an aggressor can utilize those qualifications to posture as the individual they were stolen from.",
-"type": "mc",
-"opts": ["Spamming", "Account phishing", "Password stealer", "Clickjacking"],
-"a": "Password stealer"
-},
-{
-"q": "A user commuting to work via public transport received an offensive image on their smart phone from another commuter. Which of the following attacks MOST likely took place?",
-"type": "mc",
-"opts": ["Bluesnarfing", "Bluejacking", "War chalking", "War driving"],
-"a": "Bluejacking"
-},
-{
-"q": "It is a device hack performed when a wireless, Bluetooth-enabled device is in discoverable mode.",
-"type": "mc",
-"opts": ["Bluesnarfing", "Evil Twins", "Bluejacking", "Jamming"],
-"a": "Bluesnarfing"
-},
-{
-"q": "All the following are Environmental Threats except",
-"type": "mc",
-"opts": ["Extreme humidity", "Flood", "Assessment", "Extreme temperature"],
-"a": "Assessment"
-},
-{
-"q": "It is also known as black hole DNS",
-"type": "mc",
-"opts": ["War Chalking", "War driving", "Sinkhole Attacks", "Wireless Replay Attacks"],
-"a": "Sinkhole Attacks"
-},
-{
-"q": "Which of the following attacks allows access to contact lists on cellular phones?",
-"type": "mc",
-"opts": ["War chalking", "Blue jacking", "Bluesnarfing", "Packet sniffing"],
-"a": "Bluesnarfing"
-},
-{
-"q": "It is assurance of accessible data or data assets.",
-"type": "mc",
-"opts": ["Information Privacy", "Information Integrity", "Information Confidentiality", "Information Security"],
-"a": "Information Security"
-},
-{
-"q": "What does availability of data refer to?",
-"type": "mc",
-"opts": ["The level of assurance that data exists", 
-"The level of assurance that data will be restricted to people who need it, when they need it", 
-"The level of assurance that data will be accurate and trustworthy (tama sa seatwork)", 
-"The level of assurance that data will be available to people who need it, when they need it"],
-"a": "The level of assurance that data will be available to people who need it, when they need it "
-},
-{
-"q": "Are the countermeasures that you need to put in place to avoid, mitigate, or counteract security risks due to threats or attacks.",
-"type": "mc",
-"opts": ["Integrity", "Control", "Attack", "CIA Triad"],
-"a": "Control"
-},
-{
-"q": "A shortcoming which can be misused by a risk actor, such as an aggressor, to perform unauthorized activities inside a computer system.",
-"type": "mc",
-"opts": ["Threat", "Intrusion", "Prevention", "Vulnerability"],
-"a": "Vulnerability"
-},
-{
-"q": "These are attacks designed to compromise network security by either eavesdropping on or intercepting and manipulating network traffic.",
-"type": "mc",
-"opts": ["Software-Based Attacks", "Physical Security Attacks", "Network-Based Attacks", "Social Engineering Attacks"],
-"a": "Network-Based Attacks"
-},
-{
-"q": "PJ is buying books from an online retail location, and she finds that she can alter the cost of a book from $19.99 to $1.99. Which portion of the CIA set of three has been broken?",
-"type": "mc",
-"opts": ["None of the above", "Confidentiality", "Integrity", "Availability"],
-"a": "Integrity"
-},
-{
-"q": "Franz is working on her university applications online, when the admissions website crashes. She is unable to turn in her application on time.",
-"type": "mc",
-"opts": ["None of the above", "Integrity", "Confidentiality", "Availability"],
-"a": "Availability"
-},
-{
-"q": "A company that purchased an HVAC system for the datacenter is MOST concerned with which of the following?",
-"type": "mc",
-"opts": ["Confidentiality", "Integrity", "Fire suppression", "Availability"],
-"a": "Availability"
-},
-{
-"q": "It is an illegal act of entering, seizing, or taking possession of another's property.",
-"type": "mc",
-"opts": ["Intrusion", "Threats", "Risk", "Vulnerability"],
-"a": "Intrusion"
-},
-{
-"q": "A company is looking to reduce the likelihood of employees in the finance department being involved with money laundering. Which of the following controls would BEST mitigate this risk?",
-"type": "mc",
-"opts": ["Implement privacy policies", "Implement a security policy", "Enforce time of day restrictions", "Enforce mandatory vacations"],
-"a": "Enforce mandatory vacations"
-},
-{
-"q": "Which of the following must a user implement if they want to send a secret message to a coworker by embedding it within an image?",
-"type": "mc",
-"opts": ["Transport encryption", "Digital signature", "Steganography", "Hashing"],
-"a": "Steganography"
-},
-{
-"q": "It is a concept that has employees rotate through different jobs to learn the procedures and processes in each.",
-"type": "mc",
-"opts": ["Access control", "Job rotation", "Separation of duties", "Implicit deny"],
-"a": "Job rotation"
-},
-{
-"q": "It provides two-way authentication",
-"type": "mc",
-"opts": ["Mutual authentication", "Multifactor authentication", "Biometrics", "Single factor authentication"],
-"a": "Multifactor authentication"
-},
-{
-"q": "It is a principle that prevents any single person or entity from being able to have full access or complete all the functions of a critical or sensitive process.",
-"type": "mc",
-"opts": ["Access control", "Implicit deny", "Job rotation", "Separation of duties"],
-"a": "Separation of duties"
-},
-{
-"q": "An administrator notices that former temporary employees' accounts are still active on a domain. Which of the following can be implemented to increase security and prevent this from happening?",
-"type": "mc",
-"opts": ["Run a last logon script to look for inactive accounts.", "Implement an account expiration date for permanent employees.", "Implement a password expiration policy.", "Implement time of day restrictions for all temporary employees."],
-"a": "Run a last logon script to look for inactive accounts."
-},
-{
-"q": "Which of the following security concepts can avoid a client from logging on from home amid the ends of the week?",
-"type": "mc",
-"opts": ["Time of day restrictions", "Common access card", "Implicit deny", "Multifactor authentication"],
-"a": "Time of day restrictions"
-},
-{
-"q": "It only denies a permission until the user or group can perform the permission",
-"type": "mc",
-"opts": ["Job rotation", "Access control", "Separation of duties", "Implicit deny"],
-"a": "Implicit deny"
-},
-{
-"q": "It helps to reduce fraud and discover malicious activities by employees.",
-"type": "mc",
-"opts": ["Mandatory vacations", "Security token", "Biometrics", "Time of day restrictions"],
-"a": "Mandatory vacations"
-},
-{
-"q": "It provides centralized management and configuration of operating systems, applications, and users' settings in an Active Directory environment.",
-"type": "mc",
-"opts": ["System architecture", "Group Policy", "Log", "Change documentation"],
-"a": "Group Policy"
-},
-{
-"q": "could be a living report that gives rules for your organization's social media utilize.",
-"type": "mc",
-"opts": ["System Architecture", "Group Policy", "Social media policy", "Wireless standards policy"],
-"a": "Social media policy"
-},
-{
-"q": "It ought to incorporate data that recognizes how security profiles will be connected consistently over common gadgets",
-"type": "mc",
-"opts": ["Passwords", "Security Profiles", "Sensitive data", "E-Mail"],
-"a": "Security Profiles"
-},
-{
-"q": "It is the conceptual model that defines the structure, behavior, and more views of a system",
-"type": "mc",
-"opts": ["Change documentation", "Group Policy", "Log", "System architecture"],
-"a": "System architecture"
-},
-{
-"q": "Electronic records that are not archival. Click here for tips on identifying and deleting electronic records that have met retention.",
-"type": "mc",
-"opts": ["Recycle", "Shred", "Delete", "Transfer"],
-"a": "Delete"
-},
-{
-"q": "It ought to incorporate a well-defined security vision for the organization.",
-"type": "mc",
-"opts": ["User Access to Computer Resources", "Procedures", "Enforcement", "Security policies"],
-"a": "Security policies"
-},
-{
-"q": "It provides guidelines regarding wireless access points and the management by ITS of 802.11X and related wireless standards access.",
-"type": "mc",
-"opts": ["Extranet policy", "Password policy", "Social media policy", "Wireless standards policy"],
-"a": "Wireless standards policy"
-},
-{
-"q": "It could be a set of rules outlined to upgrade computer security by empowering clients to utilize solid passwords and utilize them appropriately.",
-"type": "mc",
-"opts": ["Password policy", "Audit policy", "Privacy policy", "Extranet policy"],
-"a": "Password policy"
-},
-{
-"q": "It is the use of the Internet to conduct violent acts that result in, or threaten, loss of life or significant bodily harm, in order to achieve political or ideological gains through threat or intimidation.",
-"type": "mc",
-"opts": ["Data theft", "Cyberterrorism", "Electronic vandalism", "Script kiddie"],
-"a": "Cyberterrorism"
-},
-{
-"q": "It is frequently a chain message telling beneficiaries to forward the mail to all their contacts.",
-"type": "mc",
-"opts": ["Hoax", "Vishing", "Phishing", "Spoofing"],
-"a": "Hoax"
-},
-{
-"q": "It is the utilize of informing systems to send a spontaneous message",
-"type": "mc",
-"opts": ["Spam", "Spim", "whaling", "URL hijacking"],
-"a": "Spam"
-},
-{
-"q": "It is a cyber-attack that uses disguised email as a weapon.",
-"type": "mc",
-"opts": ["Spoofing", "Phishing", "Vishing", "Hoax"],
-"a": "Phishing"
-},
-{
-"q": "It could be a developing issue for person computer clients as well as huge organizations and organizations.",
-"type": "mc",
-"opts": ["Malicious insiders", "Script kiddie", "Data theft", "Hacktivists"],
-"a": "Data theft"
-},
-{
-"q": "Which of the following attacks targets high level executives to gain company information?",
-"type": "mc",
-"opts": ["Spoofing", "Whaling", "Vishing", "Phishing"],
-"a": "Whaling"
-},
-{
-"q": "It is a growing problem for individual computer users as well as large corporations and organizations.",
-"type": "mc",
-"opts": ["Malicious insiders", "Hacktivists", "Script kiddie", "Data theft"],
-"a": "Data theft"
-},
-{
-"q": "At the outside break area, an employee, Ann, asked another employee to let her into the building because her badge is missing. Which of the following does this describe?",
-"type": "mc",
-"opts": ["Impersonation", "Shoulder surfing", "Whaling", "Tailgating"],
-"a": "Tailgating"
-},
-{
-"q": "It is a self-replicating program that copies itself to other computers over the network without the need for any user intervention.",
-"type": "mc",
-"opts": ["Viruses", "Spyware", "Worms", "Adware"],
-"a": "Worms"
-},
-{
-"q": "A security administrator is concerned about the strength of user's passwords. The company does not want to implement a password complexity policy. Which of the following can the security Administrator implement to mitigate the risk of an online password attack against users with weak passwords?",
-"type": "mc",
-"opts": ["Decrease the account lockout time", "Increase the password history", "Shorten the password expiration period", "Increase the password length requirements"],
-"a": "Shorten the password expiration period"
-},
-{
-"q": "It is any software package that automatically plays, displays, or downloads advertisements to a computer after the software is installed on it or while the application is being used.",
-"type": "mc",
-"opts": ["Spyware", "Viruses", "Worms", "Adware"],
-"a": "Adware"
-},
-{
-"q": "It is a piece of code intentionally inserted into a software system that will set off a malicious function when specified conditions are met.",
-"type": "mc",
-"opts": ["Polymorphic Malware", "Logic Bombs", "Botnets", "Ransomware"],
-"a": "Logic Bombs"
-},
-{
-"q": "Two programmers write a new secure application for the human resources department to store personal identifiable information. The programmers make the application available to themselves using an uncommon port along with an ID and password only they know. This is an example of which of the following?",
-"type": "mc",
-"opts": ["Root Kit", "Backdoor", "Logic Bomb", "Spyware"],
-"a": "Backdoor"
-},
-{
-"q": "It gathers your personal information and relays it to advertisers, data firms, or external users.",
-"type": "mc",
-"opts": ["Viruses", "Spyware", "Adware", "Worms"],
-"a": "Spyware"
-},
-{
-"q": "A server administrator notes that a legacy application often stops running due to a memory error. When reviewing the debugging logs, they notice code being run calling an internal process to exploit the machine. Which of the following attacks does this describe?",
-"type": "mc",
-"opts": ["Buffer overflow", "Zero-day", "Malicious add-on", "Cross site scripting"],
-"a": "Buffer overflow"
-},
-{
-"q": "These attacks start with commonly used, weak passwords like Password123 and move on from there.",
-"type": "mc",
-"opts": ["Brute force", "Dictionary attack", "Rainbow Table Attack", "Man In the Middle"],
-"a": "Brute force"
-},
-{
-"q": "These were usually some form of executable code that was hidden in the boot sector of a disk or as an executable file",
-"type": "mc",
-"opts": ["Viruses", "Adware", "Spyware", "Worms"],
-"a": "Viruses"
-},
-{
-"q": "Highly sensitive data is stored in a database and is accessed by an application on a DMZ server. The disk drives on all servers are fully encrypted. Communication between the application server and end-users is also encrypted. Network ACLs prevent any connections to the database server except from the application server. Which of the following can still result in exposure of the sensitive data in the database server?",
-"type": "mc",
-"opts": ["SQL Injection", "Cross-site scripting", "Theft of the physical database server", "Cookies"],
-"a": "SQL Injection"
-},
-{
-"q": "It may be a sort of assault where the aggressor breaks into the communication between the endpoints of a arrange association.",
-"type": "mc",
-"opts": ["Man-in-the-Middle Attacks", "Evil twin attack", "Replay Attacks", "Eavesdropping Attacks"],
-"a": "Man-in-the-Middle Attacks"
-},
-{
-"q": "It is an attack whereby the attacker renders a machine or network resource unavailable.",
-"type": "mc",
-"opts": ["ARP poisoning", "Distributed denial of service", "Denial-of-service attack", "Session hijacking"],
-"a": "Denial-of-service attack"
-},
-{
-"q": "It is also called access point mapping",
-"type": "mc",
-"opts": ["War driving", "War Chalking", "Wireless Replay Attacks", "Sinkhole Attacks"],
-"a": "War driving"
-},
-{
-"q": "It is relatively straightforward using an open source tool called Reaver",
-"type": "mc",
-"opts": ["AES", "WPS attack", "WPA", "WEP"],
-"a": "WPS attack"
-},
-{
-"q": "It happens when a cybercriminal listens stealthily on a secure network communication, intervention it, and after that falsely delays or resends it to mislead the collector into doing what the programmer needs",
-"type": "mc",
-"opts": ["Replay Attacks", "Evil twin attack", "Eavesdropping Attacks", "Man-in-the-Middle Attacks"],
-"a": "Replay Attacks"
-},
-{
-"q": "It is a program that collects chunks of data that are likely to be account names and their associated passwords so that an attacker can use those credentials to pose as the person they were stolen from.",
-"type": "mc",
-"opts": ["Account phishing", "Clickjacking", "Spamming", "Password stealer"],
-"a": "Password stealer"
-},
-{
-"q": "It allows hackers to remotely access Bluetooth device data, such as a user's calendar, contact list, emails and text messages.",
-"type": "mc",
-"opts": ["Bluesnarfing", "Jamming", "Bluejacking", "Evil Twins"],
-"a": "Bluesnarfing"
-},
-{
-"q": "It could be a cyber-attack in which the culprit looks for to create a machine or arrange asset inaccessible to its planning clients by incidentally or inconclusively disturbing administrations of a have associated to the Web.",
-"type": "mc",
-"opts": ["Session hijacking", "Distributed denial of service", "Denial-of-service attack", "ARP poisoning"],
-"a": "Denial-of-service attack"
-},
-{
-"q": "It is the unauthorized access of information from a wireless device through a Bluetooth connection, often between phones, desktops, laptops, and PDAs",
-"type": "mc",
-"opts": ["Bluejacking", "Jamming", "Evil Twins", "Bluesnarfing"],
-"a": "Bluesnarfing"
-},
-{
-"q": "Sara, a security administrator, manually hashes all network device configuration files daily and compares them to the previous days' hashes. Which of the following security concept is Sara using?",
-"type": "mc",
-"opts": ["Availability", "Compliance", "Integrity", "Confidentiality"],
-"a": "Integrity"
-},
-{
-"q": "What isn't objective of security?",
-"type": "mc",
-"opts": ["Risk", "Vulnerability", "Intrusion", "Threats"],
-"a": "Intrusion"
-},
-{
-"q": "The characteristic of a resource---ensuring access is restricted to only permitted users, applications, or computer systems.",
-"type": "mc",
-"opts": ["Attack", "Confidentiality", "Availability", "Integrity"],
-"a": "Confidentiality"
-},
-{
-"q": "In cybersecurity, what does CIA stand for?",
-"type": "mc",
-"opts": ["Confidentiality, Integrity, Availability", "Central Intelligence Agency", "Cybersecurity, Internet, Accessibility", "Cybersecurity Investigation Agency"],
-"a": "Confidentiality, Integrity, Availability"
-},
-{
-"q": "What does confidentiality of information allude to?",
-"type": "mc",
-"opts": ["Rules which prevent data from being changed", "Rules which hide data", "Rules which restrict access only to those who need to know", "Rules which allow access only to all parties"],
-"a": "Rules which restrict access only to those who need to know"
-},
-{
-"q": "Facts and statistics collected together for reference or analysis.",
-"type": "mc",
-"opts": ["Data", "IT Resources", "Prevention", "Detection"],
-"a": "Data"
-},
-{
-"q": "It is an authentication method that identifies and recognizes individuals based on voice recognition or physical characteristics such as a fingerprint, face acknowledgment, iris recognition, and retina check",
-"type": "mc",
-"opts": ["Keystroke dynamics", "Biometrics", "Kerberos", "Token"],
-"a": "Biometrics"
-},
-{
-"q": "It is an authentication method that identifies and recognizes people based on voice recognition or physical traits such as a fingerprint, face recognition, iris recognition, and retina scan.",
-"type": "mc",
-"opts": ["Security token", "Time of day restrictions", "Mandatory vacations", "Biometrics"],
-"a": "Biometrics"
-},
-{
-"q": "To ensure compatibility with their flagship product, the security engineer is tasked to recommend an encryption cipher that will be compatible with the majority of third-party software and hardware vendors. Which of the following should be recommended?",
-"type": "mc",
-"opts": ["Blowfish", "MD5", "AES", "SHA"],
-"a": "AES"
-},
-{
-"q": "Ann, a newly hired human resource employee, sent out confidential emails with digital signatures, to an unintended group. Which of the following would prevent her from denying accountability?",
-"type": "mc",
-"opts": ["Non-Repudiation", "Steganography", "Access Control", "Email Encryption"],
-"a": "Non-Repudiation"
-},
-{
-"q": "A policy requires employees to take time away from their job.",
-"type": "mc",
-"opts": ["Security token", "Mandatory vacations", "Biometrics", "Time of day restrictions"],
-"a": "Mandatory vacations"
-},
-{
-"q": "Which of the following BEST describes using a smart card and typing in a PIN to gain access to a system?",
-"type": "mc",
-"opts": ["Biometrics", "PKI", "Single factor authentication", "Multifactor authentication"],
-"a": "Multifactor authentication"
-},
-{
-"q": "It characterizes account limits for a set of clients of one or more assets.",
-"type": "mc",
-"opts": ["Audit policy", "Password policy", "Privacy policy", "Extranet policy"],
-"a": "Audit policy"
-},
-{
-"q": "It ought to recognize the parts and duties of clients getting to assets on the organization's network",
-"type": "mc",
-"opts": ["Procedures", "User Access to Computer Resource", "Enforcement", "Security policies"],
-"a": "User Access to Computer Resource"
-},
-{
-"q": "It talks about what in the event that any Network Security Intrusion Detection or Prevention Framework is utilized and how it is executed.",
-"type": "mc",
-"opts": ["Internet", "Intrusion Detection", "Back-up and Recovery", "Anti-Virus"],
-"a": "Intrusion Detection"
-},
-{
-"q": "It lists the retention period and disposal method for each type of record.",
-"type": "mc",
-"opts": ["Official information", "Classification", "Retention Schedules", "Paper documents"],
-"a": "Retention Schedules"
-},
-{
-"q": "It includes to begin with recognizing the bunches and individuals who will have to be compelled to alter as the result of the project, and in what ways they will ought to change.",
-"type": "mc",
-"opts": ["Change management", "Enterprise change management", "Organizational change management", "Individual change management"],
-"a": "Organizational change management"
-},
-{
-"q": "It could be a level of quality or fulfillment",
-"type": "mc",
-"opts": ["Security policy", "Policy statement", "Standards", "Guidelines"],
-"a": "Standards"
-},
-{
-"q": "A human resources employee receives an email from a family member stating there is a new virus going around. In order to remove the virus, a user must delete the Boot.ini file from the system immediately. This is an example of which of the following?",
-"type": "mc",
-"opts": ["Whaling", "Spam", "Hoax", "Phishing"],
-"a": "Hoax"
-},
-{
-"q": "It is unsolicited usually commercial messages sent to a large number of recipients or posted in a large number of places",
-"type": "mc",
-"opts": ["URL hijacking", "whaling", "Spim", "Spam"],
-"a": "Spam"
-},
-{
-"q": "It is a method used by cybercriminals to masquerade as a senior player at an organization and directly target senior or other important individuals at an organization",
-"type": "mc",
-"opts": ["URL hijacking", "Spim", "Spam", "Whaling"],
-"a": "Whaling"
-},
-{
-"q": "All executive officers have changed their monitor location so it cannot be easily viewed when passing by their offices. Which of the following attacks does this action remediate?",
-"type": "mc",
-"opts": ["Whaling", "Shoulder Surfing", "Dumpster Diving", "Impersonation"],
-"a": "Shoulder Surfing"
-},
-{
-"q": "It may be a strategy utilized by cyber offenders to disguise as a senior player at an organization and straightforwardly target senior or other vital people at an organization",
-"type": "mc",
-"opts": ["URL hijacking", "Spim", "whaling", "Spam"],
-"a": "whaling"
-},
-{
-"q": "It is type of phishing attacks that try to lure victims via voice calls.",
-"type": "mc",
-"opts": ["Spoofing", "Phishing", "Hoax", "Vishing"],
-"a": "Vishing"
-},
-{
-"q": "It Use a program to generate likely passwords or even random character sets.",
-"type": "mc",
-"opts": ["Rainbow Table Attack", "Man In the Middle", "Dictionary attack", "Brute force"],
-"a": "Brute force"
-},
-{
-"q": "It can be used to perform Distributed Denial-of-Service (DDoS) attacks, steal data, send spam, and allows the attacker to access the device and its connection.",
-"type": "mc",
-"opts": ["Botnets", "Logic Bombs", "Ransomware", "Polymorphic Malware"],
-"a": "Botnets"
-},
-{
-"q": "It is a program that can copy itself and infect a computer without the user's consent or knowledge. Early viruses were usually some form of executable code that was hidden in the boot sector of a disk or as an executable file",
-"type": "mc",
-"opts": ["Worms", "Adware", "Viruses", "Spyware"],
-"a": "Viruses"
-},
-{
-"q": "A type of virus that has been designed to thwart attempts by analysts from examining its code by using various methods to make tracing, disassembling and reverse engineering more difficult",
-"type": "mc",
-"opts": ["armored virus", "Polymorphic Malware", "Botnets", "Ransomware"],
-"a": "armored virus"
-},
-{
-"q": "It is a type of malware from cryptology that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid",
-"type": "mc",
-"opts": ["Ransomware", "Botnets", "Polymorphic Malware", "Logic Bombs"],
-"a": "Ransomware"
-},
-{
-"q": "It is an invasion where somebody tries to take data that computers, smartphones, or other gadgets transmit over a organize.",
-"type": "mc",
-"opts": ["Man-in-the-Middle Attacks", "Evil twin attack", "Replay Attacks", "Eavesdropping Attacks"],
-"a": "Eavesdropping Attacks"
-},
-{
-"q": "It is the use of messaging systems to send an unsolicited message (spam), especially advertising, as well as sending messages repeatedly on the same website.",
-"type": "mc",
-"opts": ["Password stealer", "Clickjacking", "Account phishing", "Spamming"],
-"a": "Spamming"
-},
-{
-"q": "It is a wireless access point that has been installed on a secure network without explicit authorization from a local network administrator",
-"type": "mc",
-"opts": ["Wireless security", "Transitive access", "Rogue Access Points", "Evil Twins"],
-"a": "Rogue Access Points"
-},
-{
-"q": "It could be a pernicious strategy of deceiving a client into clicking on something distinctive from what the client sees",
-"type": "mc",
-"opts": ["Password stealer", "Spamming", "Account phishing", "Clickjacking"],
-"a": "Clickjacking"
-},
-{
-"q": "It is the utilize of informing frameworks to send a spontaneous message (spam), particularly promoting, as well as sending messages over and over on the same site",
-"type": "mc",
-"opts": ["Spamming", "Clickjacking", "Password stealer", "Account phishing"],
-"a": "Spamming"
-},
-{
-"q": "A network analyst received several reports that impersonation was taking place on the network. Session tokens were deployed to mitigate this issue and defend against which of the following attacks?",
-"type": "mc",
-"opts": ["Replay", "Ping of Death", "Smurf", "DDoS"],
-"a": "Replay"
-},
-{
-"q": "It is an attack on the protocol used to determine a device's hardware address (MAC address) on the network when the IP address is known.",
-"type": "mc",
-"opts": ["Denial-of-service attack", "Distributed denial of service", "ARP poisoning", "Session hijacking"],
-"a": "ARP poisoning"
-},
-{
-"q": "It is a possible danger that might exploit a vulnerability to breach security and therefore cause possible harm.",
-"type": "mc",
-"opts": ["Vulnerability", "Prevention", "Intrusion", "Threat"],
-"a": "Threat"
-},
-{
-"q": "These are malicious pieces of computer code and applications that can damage your computer, as well as steal your personal or financial information.",
-"type": "mc",
-"opts": ["Software-Based Attacks", "Network-Based Attacks", "Social Engineering Attacks", "Physical Security Attacks"],
-"a": "Software-Based Attacks"
-},
-{
-"q": "It is the state of being whole and undivided.",
-"type": "mc",
-"opts": ["Availability", "Integrity", "Confidentiality", "Attack"],
-"a": "Integrity"
-},
-{
-"q": "What does confidentiality of data refer to?",
-"type": "mc",
-"opts": ["Rules which prevent data from being changed", "Rules which allow access only to all parties", "Rules which hide data", "Rules which restrict access only to those who need to know"],
-"a": "Rules which restrict access only to those who need to know"
-},
-{
-"q": "It is a method in cryptography by which cryptographic keys are exchanged between two parties, allowing use of a cryptographic algorithm.",
-"type": "mc",
-"opts": ["Cipher Suites", "Digital Signature", "Key exchange", "Session Keys"],
-"a": "Key exchange"
-},
-{
-"q": "It can limit access to sensitive environments to normal business hours when. oversight and monitoring can be performed to prevent fraud, abuse, or intrusion.",
-"type": "mc",
-"opts": ["Mandatory vacations", "Time of day restrictions", "Biometrics", "Security token"],
-"a": "Time of day restrictions"
-},
-{
-"q": "A user ID and password together provide which of the following?",
-"type": "mc",
-"opts": ["Auditing", "Identification", "Authentication", "Authorization"],
-"a": "Authentication"
-},
-{
-"q": "Which of the following access controls enforces permissions based on data labeling at specific levels?",
-"type": "mc",
-"opts": ["Separation of duties access control", "Discretionary access control", "Role based access control", "Mandatory access control"],
-"a": "Mandatory access control"
-},
-{
-"q": "A technician is reviewing the logical access control method an organization uses. One of the senior managers requests that the technician prevent staff members from logging on during nonworking days. Which of the following should the technician implement to meet managements request?",
-"type": "mc",
-"opts": ["Enforce Kerberos", "Access control lists", "Deploy smart cards", "Time of day restrictions"],
-"a": "Time of day restrictions"
-},
-{
-"q": "It limits when users can access specific systems based on the time of day or week.",
-"type": "mc",
-"opts": ["Security token", "Mandatory vacations", "Biometrics", "Time of day restrictions"],
-"a": "Time of day restrictions"
-},
-{
-"q": "Paper and electronic records to the University Archives if they have permanent legal, fiscal, administrative, or historical value.",
-"type": "mc",
-"opts": ["Transfer", "Shred", "Recycle", "Delete"],
-"a": "Transfer"
-},
-{
-"q": "It ought to state clearly the prerequisites forced on clients for passwords",
-"type": "mc",
-"opts": ["Security Profiles", "Sensitive data", "Passwords", "E-Mail"],
-"a": "Passwords"
-},
-{
-"q": "is the act or method of storing something for future use.",
-"type": "mc",
-"opts": ["Storage", "retention", "destruction", "disposal"],
-"a": "retention"
-},
-{
-"q": "It ought to clearly recognize how the arrangement will be implemented and how security breaches and/or wrongdoing will be dealt with.",
-"type": "mc",
-"opts": ["Security policies", "Enforcement", "User Access to Computer Resources", "Procedures"],
-"a": "Enforcement"
-},
-{
-"q": "It addresses any data that's secured against ridiculous divulgence.",
-"type": "mc",
-"opts": ["Passwords", "E-Mail", "Sensitive data", "Security Profiles"],
-"a": "Sensitive data"
-},
-{
-"q": "It is the act of taking data put away on computers, servers, or other gadgets from an unconscious casualty with the expectation to compromise protection or get secret data",
-"type": "mc",
-"opts": ["Data theft", "Hacktivists", "Script kiddie", "Malicious insiders"],
-"a": "Data theft"
-},
-{
-"q": "It could be an individual who picks up unauthorized get to to computer records or systems in arrange to encourage social or political closes.",
-"type": "mc",
-"opts": ["Data theft", "Script kiddie", "Malicious insiders", "Hacktivists"],
-"a": "Hacktivists"
-},
-{
-"q": "It may be a strategy utilized to pick up get to to information, frameworks, or systems, basically through deception",
-"type": "mc",
-"opts": ["Cyber Engineering", "Computer Engineering", "Reverse Engineering", "Social Engineering"],
-"a": "Social Engineering"
-},
-{
-"q": "It regularly contains an interface to a Web location that the spimmer is attempting to market.",
-"type": "mc",
-"opts": ["whaling", "URL hijacking", "Spam", "Spim"],
-"a": "Spim"
-},
-{
-"q": "It may be a cyber-attack that employments camouflaged mail as a weapon.",
-"type": "mc",
-"opts": ["Hoax", "Vishing", "Phishing", "Spoofing"],
-"a": "Phishing"
-},
-{
-"q": "An attacker attempted to compromise a web form by inserting the following input into the username field: admin)(|(password=*)) Which of the following types of attacks was attempted?",
-"type": "mc",
-"opts": ["LDAP injection", "Cross-site scripting", "Command injection", "SQL injection"],
-"a": "LDAP injection"
-},
-{
-"q": "The security administrator is observing unusual network behavior from a workstation. The workstation is communicating with a known malicious destination over an encrypted tunnel. A full antivirus scan, with an updated antivirus definition file, does not show any signs of infection. Which of the following has happened on the workstation?",
-"type": "mc",
-"opts": ["Session hijacking", "Known malware infection", "Zero-day attack", "Cookie stealing"],
-"a": "Zero-day attack"
-},
-{
-"q": "A user casually browsing the Internet is redirected to a warez site where a number of pop-ups appear. After clicking on a pop-up to complete a survey, a drive-by download occurs. Which of the following is MOST likely to be contained in the download?",
-"type": "mc",
-"opts": ["Smurf", "Backdoor", "Spyware", "Logic bomb", "DDoS"],
-"a": "Spyware"
-},
-{
-"q": "Joe, a user, in a coffee shop is checking his email over a wireless network. An attacker records the temporary credentials being passed to Joe's browser. The attacker later uses the credentials to impersonate Joe and creates SPAM messages. Which of the following attacks allows for this impersonation?",
-"type": "mc",
-"opts": ["Header manipulation", "Directory traversal", "XML injection", "Session hijacking"],
-"a": "Session hijacking"
-},
-{
-"q": "It may be a Trojan that's planned to accumulate data from a system.",
-"type": "mc",
-"opts": ["Account phishing", "Spamming", "Clickjacking", "Password stealer"],
-"a": "Password stealer"
-},
-{
-"q": "The delay or repeat of the data transmission is carried out by the sender or by the malicious entity, who intercepts the data and retransmits it.",
-"type": "mc",
-"opts": ["War driving", "Sinkhole Attacks", "Wireless Replay Attacks", "War Chalking"],
-"a": "Wireless Replay Attacks"
-},
-{
-"q": "It is a hacking method that allows an individual to send anonymous messages to Bluetooth-enabled devices within a certain radius.",
-"type": "mc",
-"opts": ["Jamming", "Evil Twins", "Bluesnarfing", "Bluejacking"],
-"a": "Bluejacking"
-},
-{
-"q": "It is the state of being protected against the unauthorized use of information, especially electronic data, or the measures taken to achieve this.",
-"type": "mc",
-"opts": ["Information Confidentiality", "Information Integrity", "Information Security", "Information Privacy"],
-"a": "Information Security"
-},
-{
-"q": "It is the third core security principle, and it is defined as a characteristic of a resource being accessible to a user, application, or computer system when required.",
-"type": "mc",
-"opts": ["Confidentiality", "Integrity", "Attack", "Availability"],
-"a": "Availability"
-},
-{
-"q": "Which of the following is a security benefit of providing additional HVAC capacity or increased tonnage in a datacenter?",
-"type": "mc",
-"opts": ["Increased availability of network services due to higher throughput", "Longer UPS run time due to increased airflow", "Higher data integrity due to more efficient SSD cooling", "Longer MTBF of hardware due to lower operating temperatures"],
-"a": "Longer MTBF of hardware due to lower operating temperatures"
-},
-{
-"q": "It is the quality or state of being uncovered to the plausibility of being assaulted or hurt, either physically or candidly.",
-"type": "mc",
-"opts": ["Threats", "Risk", "Intrusion", "Vulnerability"],
-"a": "Threats"
-},
-{
-"q": "A legal concept that is widely used in information security and refers to a service, which provides proof of the origin of data and the integrity of the data.",
-"type": "mc",
-"opts": ["Non-repudiation", "Identification", "Authentication", "Authorization"],
-"a": "Non-repudiation"
-},
-{
-"q": "It is a system that uses two authentication methods such as smart cards and a password",
-"type": "mc",
-"opts": ["Implicit deny", "Common access card", "Multifactor authentication", "Time of day restrictions"],
-"a": "Multifactor authentication"
-},
-{
-"q": "Which of the following security concepts can prevent a user from logging on from home during the weekends?",
-"type": "mc",
-"opts": ["Common access card", "Implicit deny", "Multifactor authentication", "Time of day restrictions"],
-"a": "Time of day restrictions"
-},
-{
-"q": "It uses a single key to encrypt and decrypt data.",
-"type": "mc",
-"opts": ["encryption key", "Symmetric encryption", "Hashing", "Asymmetric encryption"],
-"a": "Symmetric encryption"
-},
-{
-"q": "It establishes secure connections between hosts.",
-"type": "mc",
-"opts": ["Digital Signature", "Session Keys", "Key exchange", "Cipher Suites"],
-"a": "Session Keys"
-},
-{
-"q": "Sara, a security engineer, is testing encryption ciphers for performance. Which of the following ciphers offers strong encryption with the FASTEST speed?",
-"type": "mc",
-"opts": ["Blowfish", "3DES", "AES256", "Serpent"],
-"a": "Blowfish"
-},
-{
-"q": "It is how are all the security programs looked into and how as often as possible",
-"type": "mc",
-"opts": ["Remote Access", "Acceptable User Policy", "Information Security Training", "Information Security Auditing"],
-"a": "Information Security Auditing"
-},
-{
-"q": "It is the action or process of classifying something according to shared qualities or characteristics.",
-"type": "mc",
-"opts": ["Retention Schedules", "Classification", "Paper documents", "Official information"],
-"a": "Classification"
-},
-{
-"q": "It has been determined to require, in the interests of national security, protection against unauthorized disclosure and which has been so designated.",
-"type": "mc",
-"opts": ["Official information", "Paper documents", "Retention Schedules", "Classification"],
-"a": "Official information"
-},
-{
-"q": "Every paper or electronic record has a specific amount of time that it needs to be kept.",
-"type": "mc",
-"opts": ["disposal", "Storage", "retention", "destruction"],
-"a": "retention"
-},
-{
-"q": "It is the false hone of sending emails implying to be from legitimate companies in arrange to actuate people to uncover individual data, such as passwords and credit card numbers.",
-"type": "mc",
-"opts": ["Phishing", "Vishing", "Hoax", "Spoofing"],
-"a": "Phishing"
-},
-{
-"q": "It particularly targets senior administration that hold control in companies, such as the CEO, CFO, or other administrators",
-"type": "mc",
-"opts": ["Spim", "URL hijacking", "Spam", "Whaling"],
-"a": "Whaling"
-},
-{
-"q": "It is the act of disguising a communication from an unknown source as being from a known, trusted source.",
-"type": "mc",
-"opts": ["Vishing", "Spoofing", "Hoax", "Phishing"],
-"a": "Spoofing"
-},
-{
-"q": "It is generally assumed that most of them are juveniles who lack the ability to write sophisticated programs or exploits on their own and that their objective is to try to impress their friends or gain credit in computer-enthusiast communities.",
-"type": "mc",
-"opts": ["Malicious insiders", "Hacktivists", "Data theft", "Script kiddie"],
-"a": "Script kiddie"
-},
-{
-"q": "It may also protect itself from antivirus programs, making it more difficult to trace.",
-"type": "mc",
-"opts": ["Botnets", "Polymorphic Malware", "Ransomware", "armored virus"],
-"a": "armored virus"
-},
-{
-"q": "It is an executable program that appears as a desirable or useful program.",
-"type": "mc",
-"opts": ["keylogger", "Backdoor Attacks", "Rootkits", "Trojan Horse"],
-"a": "Trojan Horse"
-},
-{
-"q": "It could be a false Wi-Fi access point that shows up to be genuine but is set up to spy on remote communications",
-"type": "mc",
-"opts": ["Evil twin attack", "Replay Attacks", "Eavesdropping Attacks", "Man-in-the-Middle Attacks"],
-"a": "Evil twin attack"
-},
-{
-"q": "It usually does not conform to wireless LAN (WLAN) security policies, and additionally can allow anyone with a Wi-Fi device to connect to your network.",
-"type": "mc",
-"opts": ["Evil Twins", "Transitive access", "Rogue Access Points", "Wireless security"],
-"a": "Rogue Access Points"
-},
-{
-"q": "It is an assault that traps a client into clicking a webpage component which is undetectable or masked as another component.",
-"type": "mc",
-"opts": ["Account phishing", "Password stealer", "Spamming", "Clickjacking"],
-"a": "Clickjacking"
-},
-{
-"q": "It is the action of sending promotions by e-mail to individuals who don't need to get them",
-"type": "mc",
-"opts": ["Clickjacking", "Account phishing", "Spamming", "Password stealer"],
-"a": "Spamming"
-},
-{
-"q": "It is the state of being whole and unified.",
-"type": "mc",
-"opts": ["Confidentiality", "Attack", "Availability", "Integrity"],
-"a": "Integrity"
-},
-{
-"q": "It is important to staff who use email messaging to provide PII to others on a regular basis to have confidence that their messages are not intercepted or altered during transmission. They are concerned about which of the following types of security control?",
-"type": "mc",
-"opts": ["Availability", "Safety", "Integrity", "Confidentiality"],
-"a": "Integrity"
-},
-{
-"q": "It is to set upon in a forceful, violent, hostile, or aggressive way, with or without a weapon",
-"type": "mc",
-"opts": ["CIA Triad", "Attack", "Integrity", "Control"],
-"a": "Attack"
-},
-{
-"q": "It is to set upon in a powerful, rough, antagonistic, or forceful way, with or without a weapon",
-"type": "mc",
-"opts": ["Attack", "CIA Triad", "Control", "Integrity"],
-"a": "Attack"
-},
-{
-"q": "Which of the following can hide confidential or malicious data in the whitespace of other files (e.g. JPEGs)?",
-"type": "mc",
-"opts": ["Steganography", "Digital signatures", "Hashing", "Transport encryption"],
-"a": "Steganography"
-},
-{
-"q": "While rarely enforced, mandatory vacation policies are effective at uncovering:",
-"type": "mc",
-"opts": ["Collusion between two employees who perform the same business function.", "Help desk technicians with oversight by multiple supervisors and detailed quality control systems.", "Acts of gross negligence on the part of system administrators with unfettered access to system and no oversight.", "Acts of incompetence by a systems engineer designing complex architectures as a member of a team."],
-"a": "Acts of gross negligence on the part of system administrators with unfettered access to system and no oversight."
-},
-{
-"q": "It distinguishes the recurrence of overhauling the record definitions as well as how detachable media, mail connections and other records are filtered.",
-"type": "mc",
-"opts": ["Intrusion Detection", "Anti-Virus", "Back-up and Recovery", "Internet"],
-"a": "Anti-Virus"
-},
-{
-"q": "It is the discipline that guides how we prepare, equip and support individuals to successfully adopt change in order to drive organizational success and outcomes.",
-"type": "mc",
-"opts": ["Organizational change management", "Change management", "Enterprise change management", "Individual change management"],
-"a": "Change management"
-},
-{
-"q": "It is the act of stealing information stored on computers, servers, or other devices from an unknowing victim with the intent to compromise privacy or obtain confidential information.",
-"type": "mc",
-"opts": ["Malicious insiders", "Script kiddie", "Hacktivists", "Data theft"],
-"a": "Data theft"
-},
-{
-"q": "It is the act of masking a communication from an obscure source as being from a known, trusted source",
-"type": "mc",
-"opts": ["Spoofing", "Hoax", "Vishing", "Phishing"],
-"a": "Spoofing"
-},
-{
-"q": "It is sort of phishing assaults that attempt to bait casualties by means of voice calls",
-"type": "mc",
-"opts": ["Hoax", "Phishing", "Spoofing", "Vishing"],
-"a": "Vishing"
-},
-{
-"q": "He uses the same tools and techniques as a hacker but does so in order to disrupt services and bring attention to a political or social cause.",
-"type": "mc",
-"opts": ["Malicious insiders", "Hacktivists", "Script kiddie", "Data theft"],
-"a": "Hacktivists"
-},
-{
-"q": "These are considered one of the most serious types of malware since they may be used to gain unauthorized access to remote systems and perform malicious operations.",
-"type": "mc",
-"opts": ["Backdoor Attacks", "Rootkits", "Trojan Horse", "Keylogger"],
-"a": "Backdoor Attacks"
-},
-{
-"q": "It is a type of malware that constantly changes its identifiable features in order to evade detection.",
-"type": "mc",
-"opts": ["Botnets", "Polymorphic Malware", "Logic Bombs", "Ransomware"],
-"a": "Polymorphic Malware"
-},
-{
-"q": "Account lockout is a mitigation strategy used by Jane, the administrator, to combat which of the following attacks?",
-"type": "mc",
-"opts": ["Man-in-the-middle", "Brute force", "Privilege escalation", "Spoofing"],
-"a": "Brute force"
-},
-{
-"q": "It can also install additional software, which can redirect your web browser to other sites or change your home page.",
-"type": "mc",
-"opts": ["Adware", "Spyware", "Worms", "Viruses"],
-"a": "Spyware"
-},
-{
-"q": "It may be a program that can duplicate itself and infect a computer without the user's consent or information. Early viruses were usually a few forms of executable code that was hidden within the boot sector of a disk or as an executable file.",
-"type": "mc",
-"opts": ["Worms", "Adware", "Viruses", "Spyware"],
-"a": "Viruses"
-},
-{
-"q": "It is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet.",
-"type": "mc",
-"opts": ["Denial-of-service attack", "Session hijacking", "ARP poisoning", "Distributed denial of service"],
-"a": "Denial-of-service attack"
-},
-{
-"q": "It is an attack that tricks a user into clicking a webpage element which is invisible or disguised as another element.",
-"type": "mc",
-"opts": ["Password stealer", "Spamming", "Account phishing", "Clickjacking"],
-"a": "Clickjacking"
-},
-{
-"q": "JP gets his phone bill in the mail. The bill was supposed to be for $80, but the mail person spilled water on the bill, smearing the ink. The bill now asks for $8.",
-"type": "mc",
-"opts": ["None of the above", "Confidentiality", "Availability", "Integrity"],
-"a": "Integrity"
-},
-{
-"q": "What does integrity of information allude to",
-"type": "mc",
-"opts": ["The level of assurance which can be given as to how structured data is", "The level of assurance which can be given as to how strong data is", "The level of assurance which can be given as to how relevant the data is", "The level of assurance which can be given as to how accurate and trustworthy data is"],
-"a": "The level of assurance which can be given as to how accurate and trustworthy data is"
-},
-{
-"q": "Which of the following should be used when a business needs a block cipher with minimal key size for internal encryption?",
-"type": "mc",
-"opts": ["RC5", "AES", "Blowfish", "3DES"],
-"a": "Blowfish"
-},
-{
-"q": "It requires understanding how people experience change and what they need to change successfully.",
-"type": "mc",
-"opts": ["Organizational change management", "Enterprise change management", "Individual change management", "Change management"],
-"a": "Individual change management"
-},
-{
-"q": "It ought to report what sort of mindfulness program is in put and how is it communicated on a normal premise.",
-"type": "mc",
-"opts": ["Information Security Training", "Remote Access", "Acceptable User Policy", "Information Security Auditing"],
-"a": "Information Security Training"
-},
-{
-"q": "It portrays the approach beneath which third-party organizations connect to your systems for the reason of executing commerce related to your company",
-"type": "mc",
-"opts": ["Extranet policy", "Privacy policy", "Audit policy", "Password policy"],
-"a": "Extranet policy"
-},
-{
-"q": "Which of the following might a security administrator actualize to relieve the hazard of tailgating for a huge organization?",
-"type": "mc",
-"opts": ["Train employees on risks associated with social engineering attacks and enforce policies.", "Only allow employees to go on break one at a time and post security guards 24/7 at each entrance.", "Only allow employees to enter or leave through one door at specified times of the day.", "Train employees on correct data disposal techniques and enforce policies."],
-"a": "Train employees on risks associated with social engineering attacks and enforce policies."
-},
-{
-"q": "This strategy ordinarily depends on the trusting nature of the individual being assaulted.",
-"type": "mc",
-"opts": ["Cyber Engineering", "Reverse Engineering", "Social Engineering", "Computer Engineering"],
-"a": "Social Engineering"
-},
-{
-"q": "These are attacks against an opening left in a functional piece of software that allows access into a system or software application without the owner's knowledge.",
-"type": "mc",
-"opts": ["Trojan Horse", "Rootkits", "keylogger", "Backdoor Attacks"],
-"a": "Backdoor Attacks"
-},
-{
-"q": "It attacks are often facilitated by social engineering attacks which lure the user to a fake site.",
-"type": "mc",
-"opts": ["Man In the Middle", "Brute force", "Rainbow Table Attack", "Dictionary attack"],
-"a": "Man In the Middle"
-},
-{
-"q": "A security administrator examines a network session to a compromised database server with a packet analyzer. Within the session there is a repeated series of the hex character 90 (x90). Which of the following attack types has occurred?",
-"type": "mc",
-"opts": ["Cross-site scripting", "SQL injection", "XML injection", "Buffer overflow"],
-"a": "Buffer overflow"
-},
-{
-"q": "It can be troublesome to distinguish since the network transmissions will show up to be working regularly.",
-"type": "mc",
-"opts": ["Evil twin attack", "Man-in-the-Middle Attacks", "Eavesdropping Attacks", "Replay Attacks"],
-"a": "Eavesdropping Attacks"
-},
-{
-"q": "It ensures protection to a Wi-Fi network from unauthorized access.",
-"type": "mc",
-"opts": ["Wireless security", "Rogue Access Points", "Evil Twins", "Transitive access"],
-"a": "Wireless security"
-},
-{
-"q": "Which of the following describes how an attacker can send unwanted advertisements to a mobile device?",
-"type": "mc",
-"opts": ["Bluejacking", "Packet sniffing", "Bluesnarfing", "Man-in-the-middle"],
-"a": "Bluejacking"
-},
-{
-"q": "JP gets his phone bill within the mail. The charge was assumed to be for $80, but the mail individual spilled water on the charge, spreading the ink. The charge presently inquires for $8",
-"type": "mc",
-"opts": ["Confidentiality", "None of the above", "Availability", "Integrity"],
-"a": "Integrity"
-},
-{
-"q": "A weakness which can be exploited by a threat actor, such as an attacker, to perform unauthorized actions within a computer system.",
-"type": "mc",
-"opts": ["Threat", "Prevention", "Intrusion", "Vulnerability"],
-"a": "Vulnerability"
-},
-{
-"q": "Which of the following concepts describes the use of a one-way transformation in order to validate the integrity of a program?",
-"type": "mc",
-"opts": ["Non-repudiation", "Hashing", "Steganography", "Key escrow"],
-"a": "Hashing"
-},
-{
-"q": "Anything that has personal information like your name, address, phone number, social security number, or bank account information.",
-"type": "mc",
-"opts": ["Recycle", "Delete", "Transfer", "Shred"],
-"a": "Shred"
-},
-{
-"q": "It gives rules with respect to remote access points and the administration by ITS of 802.11X and related remote guidelines get to",
-"type": "mc",
-"opts": ["Social media policy", "Wireless standards policy", "System Architecture", "Group Policy"],
-"a": "Wireless standards policy"
-},
-{
-"q": "It is the teach that guides how we plan, prepare and back people to effectively embrace alter in arrange to drive organizational victory and results.",
-"type": "mc",
-"opts": ["Enterprise change management", "Change management", "Individual change management", "Organizational change management"],
-"a": "Change management"
-},
-{
-"q": "Ann, a software developer, has installed some code to reactivate her account one week after her account has been disabled. Which of the following is this an example of?",
-"type": "mc",
-"opts": ["Spyware", "Botnet", "Backdoor", "Rootkit"],
-"a": "Backdoor"
-},
-{
-"q": "It is a program that records the keystrokes on a computer.",
-"type": "mc",
-"opts": ["keylogger", "Rootkits", "Backdoor Attacks", "Trojan Horse"],
-"a": "keylogger"
-},
-{
-"q": "It will continue to spread and infect devices even if its signature changes to avoid detection",
-"type": "mc",
-"opts": ["Ransomware", "Polymorphic Malware", "Logic Bombs", "Botnets"],
-"a": "Polymorphic Malware"
-},
-{
-"q": "After a user performed a war driving attack, the network administrator noticed several similar markings where WiFi was available throughout the enterprise. Which of the following is the term used to describe these markings?",
-"type": "mc",
-"opts": ["War chalking", "Rogue access points", "IV attack", "War dialing"],
-"a": "War chalking"
-},
-{
-"q": "Which of the following types of wireless attacks would be used specifically to impersonate another WAP in order to gain unauthorized information from mobile users?",
-"type": "mc",
-"opts": ["Rogue access point", "War driving", "IV attack", "Evil twin"],
-"a": "Evil twin"
-},
-{
-"q": "What is not goal of security?",
-"type": "mc",
-"opts": ["Vulnerability", "Intrusion", "Threats", "Risk"],
-"a": "Intrusion"
-},
-{
-"q": "It is the process of verifying the identity of a person or device.",
-"type": "mc",
-"opts": ["Authorization", "Non-repudiation", "Identification", "Authentication"],
-"a": "Authentication"
-},
-{
-"q": "A security technique that regulates who or what can view or use resources in a computing environment",
-"type": "mc",
-"opts": ["Implicit deny", "Separation of duties", "Job rotation", "Access control"],
-"a": "Access control"
-},
-{
-"q": "A company hired Joe, an accountant. The IT administrator will need to create a new account for Joe. The company uses groups for ease of management and administration of user accounts. Joe will need network access to all directories, folders and files within the accounting department. Which of the following configurations will meet the requirements?",
-"type": "mc",
-"opts": ["Create a user account with password reset and notify Joe of the account creation.", "Create two accounts: a user account and an account with full network administration rights.", "Create an account with role-based access control for accounting.", "Create a user account and assign the user account to the accounting group."],
-"a": "Create a user account and assign the user account to the accounting group."
-},
-{
-"q": "A company with a US-based sales force has requested that the VPN system be configured to authenticate the sales team based on their username, password and a client-side certificate. Additionally, the security administrator has restricted the VPN to only allow authentication from the US territory. How many authentication factors are in use by the VPN system?",
-"type": "mc",
-"opts": ["4", "1", "3", "2"],
-"a": "3"
-},
-{
-"q": "It is the conceptual show that characterizes the structure, behavior, and more sees of a system",
-"type": "mc",
-"opts": ["Group Policy", "Social media policy", "Wireless standards policy", "System Architecture"],
-"a": "System Architecture"
-},
-{
-"q": "It may be a common rule, guideline, or piece of counsel.",
-"type": "mc",
-"opts": ["Standards", "Policy statement", "Security policy", "Guidelines"],
-"a": "Guidelines"
-},
-{
-"q": "It is the false hone of making phone calls or clearing out voice messages implying to be from legitimate companies in arrange to initiate people to uncover individual data, such as bank subtle elements and credit card numbers.",
-"type": "mc",
-"opts": ["Spoofing", "Phishing", "Hoax", "Vishing"],
-"a": "Vishing"
-},
-{
-"q": "It is spontaneous as a rule commercial messages sent to a huge number of beneficiaries or posted in an expansive number of places",
-"type": "mc",
-"opts": ["whaling", "Spim", "Spam", "URL hijacking"],
-"a": "Spam"
-},
-{
-"q": "It can be current or previous representatives, temporary workers or trade accomplices that picks up get to an organization arrange, system or information and discharge this data without authorization by the organization.",
-"type": "mc",
-"opts": ["Hacktivists", "Data theft", "Malicious insiders", "Script kiddie"],
-"a": "Malicious insiders"
-},
-{
-"q": "These are a critical segment of a pentest in which preparation can make a major impact on the success of a pentest.",
-"type": "mc",
-"opts": ["Software attacks", "Backdoor Attacks", "Spyware Attacks", "Password attacks"],
-"a": "Password attacks"
-},
-{
-"q": "It takes advantage of the specific capacity limits that apply to any network resources -- such as the infrastructure that enables a company's website.",
-"type": "mc",
-"opts": ["ARP poisoning", "Denial-of-service attack", "Session hijacking", "Distributed denial of service"],
-"a": "Distributed denial of service"
-},
-{
-"q": "A return to a normal state of health, mind, or strength.",
-"type": "mc",
-"opts": ["Recovery", "IT Resources", "Detection", "Prevention"],
-"a": "Recovery"
-},
-{
-"q": "It also known as public key cryptography",
-"type": "mc",
-"opts": ["Asymmetric encryption", "Hashing", "encryption key", "Symmetric encryption"],
-"a": "Asymmetric encryption"
-},
-{
-"q": "Expired credit cards, visas, passports, and IDs.",
-"type": "mc",
-"opts": ["Recycle", "Shred", "Delete", "Transfer"],
-"a": "Shred"
-},
-{
-"q": "Is the act or process of throwing away or getting rid of documentation",
-"type": "mc",
-"opts": ["destruction", "Storage", "retention", "disposal"],
-"a": "disposal"
-},
-{
-"q": "It gives centralized administration and setup of operating systems, applications, and users' settings in an Active Directory environment.",
-"type": "mc",
-"opts": ["Social media policy", "System Architecture", "Wireless standards policy", "Group Policy"],
-"a": "Group Policy"
-},
-{
-"q": "It is perpetuated by bots that harvest IM screen names off of the Internet and simulate a human user by sending spam to the screen names via an instant message.",
-"type": "mc",
-"opts": ["URL hijacking", "Spam", "whaling", "Spim"],
-"a": "Spim"
-},
-{
-"q": "An investigator recently discovered that an attacker placed a remotely accessible CCTV camera in a public area overlooking several Automatic Teller Machines (ATMs). It is also believed that user accounts belonging to ATM operators may have been compromised. Which of the following attacks has MOST likely taken place?",
-"type": "mc",
-"opts": ["Dumpster diving", "Vishing attack", "Whaling attack", "Shoulder surfing"],
-"a": "Shoulder surfing"
-},
-{
-"q": "This technique typically relies on the trusting nature of the person being attacked.",
-"type": "mc",
-"opts": ["Reverse Engineering", "Computer Engineering", "Cyber Engineering", "Social Engineering"],
-"a": "Social Engineering"
-},
-{
-"q": "During a server audit, a security administrator does not notice abnormal activity. However, a network security analyst notices connection to unauthorized ports from outside the corporate network. Using specialized tools, the network security analyst also notices hidden processes running. Which of the following has MOST likely been installed on the server?",
-"type": "mc",
-"opts": ["Backdoor", "SPIM", "Rootkit", "Logic bomb"],
-"a": "Rootkit"
-},
-{
-"q": "It is a software or hardware device designed to gain administrator-level control over a computer system without being detected. Rootkits can target the BIOS, hypervisor, boot loader, kernel or, less commonly, libraries or applications.",
-"type": "mc",
-"opts": ["Rootkits", "keylogger", "Backdoor Attacks", "Trojan Horse"],
-"a": "Rootkits"
-},
-{
-"q": "It is also known as bluehacking.",
-"type": "mc",
-"opts": ["Jamming", "Bluesnarfing", "Evil Twins", "Bluejacking"],
-"a": "Bluejacking"
-},
-{
-"q": "Its marks were conceived by a group of friends in June 2002 and publicized by Matt Jones who designed the set of icons and produced a downloadable document containing them.",
-"type": "mc",
-"opts": ["War Chalking", "Wireless Replay Attacks", "Sinkhole Attacks", "War driving"],
-"a": "War Chalking"
-},
-{
-"q": "It is an assault where the assailant subtly transfers and conceivably modifies the communications between two parties who accept that they are specifically communicating with each other.",
-"type": "mc",
-"opts": ["Evil twin attack", "Replay Attacks", "Man-in-the-Middle Attacks", "Eavesdropping Attacks"],
-"a": "Man-in-the-Middle Attacks"
-}
+  {
+    "q": "A security administrator wants to ensure that the message the administrator sends out to their Chief Financial Officer (CFO) does not get changed in route. Which of the following is the administrator MOST concerned with?",
+    "type": "mc",
+    "opts": [
+      "Business continuity",
+      "Data integrity",
+      "High availability",
+      "Data confidentiality"
+    ],
+    "a": "Data integrity"
+  },
+  {
+    "q": "Matt, a security administrator, wants to ensure that the message he is sending does not get intercepted or modified in transit. This concern relates to which of the following concepts?",
+    "type": "mc",
+    "opts": [
+      "Availability",
+      "Integrity",
+      "Accounting",
+      "Confidentiality"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "Franz is working on her college applications online, when the admissions site crashes. She is incapable to turn in her application on time.",
+    "type": "mc",
+    "opts": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "None of the above"
+    ],
+    "a": "Availability"
+  },
+  {
+    "q": "It is the term used for a broad range of malicious activities accomplished through human interactions.",
+    "type": "mc",
+    "opts": [
+      "Software-Based Attacks",
+      "Physical Security Attacks",
+      "Network-Based Attacks",
+      "Social Engineering Attacks"
+    ],
+    "a": "Social Engineering Attacks"
+  },
+  {
+    "q": "It is necessary for a responsible individual or organization to secure confidential information.",
+    "type": "mc",
+    "opts": [
+      "Information Security",
+      "Information Confidentiality",
+      "Information Privacy",
+      "Information Integrity"
+    ],
+    "a": "Information Security"
+  },
+  {
+    "q": "Alice is buying books from an online retail site, and she finds that she can change the price of a book from £19.99 to £1.99. Which part of the CIA triad has been broken?",
+    "type": "mc",
+    "opts": [
+      "Integrity",
+      "None of the above",
+      "Confidentiality",
+      "Availability"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "What does confidentiality of data imply to",
+    "type": "mc",
+    "opts": [
+      "Rules which prevent data from being changed",
+      "Rules which hide data",
+      "Rules which restrict access only to those who need to know",
+      "Rules which allow access only to all parties"
+    ],
+    "a": "Rules which restrict access only to those who need to know"
+  },
+  {
+    "q": "The action or process of identifying someone or something or the fact of being identified.",
+    "type": "mc",
+    "opts": [
+      "Monitoring",
+      "Running",
+      "Implementation",
+      "Identification"
+    ],
+    "a": "Identification"
+  },
+  {
+    "q": "The process of putting a decision or plan into effect also known as execution.",
+    "type": "mc",
+    "opts": [
+      "Monitoring",
+      "Implementation",
+      "Identification",
+      "Running"
+    ],
+    "a": "Implementation"
+  },
+  {
+    "q": "Are intended to limit the extent of any damage caused by the incident by recovering the organization to normal working status as efficiently as possible",
+    "type": "mc",
+    "opts": [
+      "Detective controls",
+      "Corrective controls",
+      "Active controls",
+      "Preventive controls"
+    ],
+    "a": "Corrective controls"
+  },
+  {
+    "q": "It is one way to enable security during the process of message transmission when the message is intended for a recipient only.",
+    "type": "mc",
+    "opts": [
+      "Symmetric encryption",
+      "encryption key",
+      "Asymmetric encryption",
+      "Hashing"
+    ],
+    "a": "Hashing"
+  },
+  {
+    "q": "It is defined as the act of determining who someone or what something is.",
+    "type": "mc",
+    "opts": [
+      "Authorization",
+      "Non-repudiation",
+      "Identification",
+      "Authentication"
+    ],
+    "a": "Identification"
+  },
+  {
+    "q": "Which of the following is best practice to put at the end of an ACL?",
+    "type": "mc",
+    "opts": [
+      "Implicit deny",
+      "Time of day restrictions",
+      "Implicit allow",
+      "SNMP string"
+    ],
+    "a": "Implicit deny"
+  },
+  {
+    "q": "It can only encrypt data; that data cannot be decrypted",
+    "type": "mc",
+    "opts": [
+      "Hash function",
+      "Steganography",
+      "Block cipher",
+      "Stream ciphers"
+    ],
+    "a": "Hash function"
+  },
+  {
+    "q": "It is the practice of converting a password to a longer and more random key for cryptographic purposes such as encryption.",
+    "type": "mc",
+    "opts": [
+      "Key exchange",
+      "Cipher Suites",
+      "Key Stretching",
+      "Session Keys"
+    ],
+    "a": "Key Stretching"
+  },
+  {
+    "q": "is a physical device that an authorized user of computer services is given to ease authentication.",
+    "type": "mc",
+    "opts": [
+      "Time of day restrictions",
+      "Security token",
+      "Mandatory vacations",
+      "Biometrics"
+    ],
+    "a": "Security token"
+  },
+  {
+    "q": "It is the affirmation that somebody cannot deny the legitimacy of something.",
+    "type": "mc",
+    "opts": [
+      "Authorization",
+      "Authentication",
+      "Identification",
+      "Non-repudiation"
+    ],
+    "a": "Non-repudiation"
+  },
+  {
+    "q": "During a routine audit a web server is flagged for allowing the use of weak ciphers. Which of the following should be disabled to mitigate this risk? (Select TWO).",
+    "type": "multi",
+    "opts": [
+      "SSL 1.0",
+      "SSL 3.0",
+      "RC4",
+      "AES"
+    ],
+    "a": [
+      "SSL 3.0",
+      "RC4"
+    ]
+  },
+  {
+    "q": "A security analyst discovered data such as images and word documents hidden within different types of files. Which of the following cryptographic concepts describes what was discovered?",
+    "type": "mc",
+    "opts": [
+      "Hashing",
+      "Symmetric encryption",
+      "Non-repudiation",
+      "Steganography"
+    ],
+    "a": "Steganography"
+  },
+  {
+    "q": "It is a security mechanism to determine access levels or user/client privileges related to system resources including files, services, computer programs, data and application features.",
+    "type": "mc",
+    "opts": [
+      "Identification",
+      "Non-repudiation",
+      "Authentication",
+      "Authorization"
+    ],
+    "a": "Authorization"
+  },
+  {
+    "q": "These are typically stored in folders, which are kept in filing cabinets.",
+    "type": "mc",
+    "opts": [
+      "Official information",
+      "Paper documents",
+      "Classification",
+      "Retention Schedules"
+    ],
+    "a": "Paper documents"
+  },
+  {
+    "q": "Records that are not confidential and do not contain personal/financial identifying information.",
+    "type": "mc",
+    "opts": [
+      "Delete",
+      "Recycle",
+      "Shred",
+      "Transfer"
+    ],
+    "a": "Recycle"
+  },
+  {
+    "q": "It is a built up or official way of doing something.",
+    "type": "mc",
+    "opts": [
+      "Enforcement",
+      "Procedures",
+      "User Access to Computer Resources",
+      "Security policies"
+    ],
+    "a": "Procedures"
+  },
+  {
+    "q": "It involves first identifying the groups and people who will need to change as the result of the project, and in what ways they will need to change.",
+    "type": "mc",
+    "opts": [
+      "Enterprise change management",
+      "Change management",
+      "Organizational change management",
+      "Individual change management"
+    ],
+    "a": "Organizational change management"
+  },
+  {
+    "q": "It could be a set of rules connected by the proprietor, maker or director of a network, site, or service",
+    "type": "mc",
+    "opts": [
+      "Information Security Auditing",
+      "Information Security Training",
+      "Remote Access",
+      "Acceptable User Policy"
+    ],
+    "a": "Acceptable User Policy"
+  },
+  {
+    "q": "It is the continued possession, use, or control of documentation",
+    "type": "mc",
+    "opts": [
+      "disposal",
+      "destruction",
+      "Storage",
+      "Retention"
+    ],
+    "a": "Retention"
+  },
+  {
+    "q": "It may be an explanation that uncovers a few or all of the ways a party assembles, employments, discloses, and oversees a client or client's information",
+    "type": "mc",
+    "opts": [
+      "Password policy",
+      "Audit policy",
+      "Extranet policy",
+      "Privacy policy"
+    ],
+    "a": "Privacy policy"
+  },
+  {
+    "q": "It is a living document that provides guidelines for your organization's social media use.",
+    "type": "mc",
+    "opts": [
+      "Wireless standards policy",
+      "Extranet policy",
+      "Social media policy",
+      "Password policy"
+    ],
+    "a": "Social media policy"
+  },
+  {
+    "q": "It gives the IT department a method to review the changes before they are implemented.",
+    "type": "mc",
+    "opts": [
+      "Organizational change management",
+      "Change management",
+      "Enterprise change management",
+      "Individual change management"
+    ],
+    "a": "Change management"
+  },
+  {
+    "q": "It incorporates how to handle connections, through sifting, individual utilize of the mail framework, dialect confinements, and authentic necessities",
+    "type": "mc",
+    "opts": [
+      "Passwords",
+      "Sensitive data",
+      "E-Mail",
+      "Security Profiles"
+    ],
+    "a": "E-Mail"
+  },
+  {
+    "q": "It is also sometimes considered an act of Internet terrorism where terrorist activities.",
+    "type": "mc",
+    "opts": [
+      "Cyberterrorism",
+      "Script kiddie",
+      "Electronic vandalism",
+      "Data theft"
+    ],
+    "a": "Cyberterrorism"
+  },
+  {
+    "q": "It is a type of social engineering technique used to obtain information such as personal identification numbers (PINs), passwords and other confidential data by looking over the victim's shoulder",
+    "type": "mc",
+    "opts": [
+      "Tailgating",
+      "Spam",
+      "Dumpster diving",
+      "Shoulder surfing"
+    ],
+    "a": "Shoulder surfing"
+  },
+  {
+    "q": "It is also known as piggybacking",
+    "type": "mc",
+    "opts": [
+      "Shoulder surfing",
+      "Dumpster diving",
+      "Spam",
+      "Tailgating"
+    ],
+    "a": "Tailgating"
+  },
+  {
+    "q": "It happens both exterior and interior companies and decreasing the hazard of insider information burglary at the corporate level is anything but simple",
+    "type": "mc",
+    "opts": [
+      "Malicious insiders",
+      "Hacktivists",
+      "Data theft",
+      "Script kiddie"
+    ],
+    "a": "Data theft"
+  },
+  {
+    "q": "It may be an amusing or pernicious misdirection.",
+    "type": "mc",
+    "opts": [
+      "Vishing",
+      "Spoofing",
+      "Hoax",
+      "Phishing"
+    ],
+    "a": "Hoax"
+  },
+  {
+    "q": "It copies (something) whereas overstating its characteristic highlights for comedian impact",
+    "type": "mc",
+    "opts": [
+      "Vishing",
+      "Hoax",
+      "Phishing",
+      "Spoofing"
+    ],
+    "a": "Spoofing"
+  },
+  {
+    "q": "It is often a chain message telling recipients to forward the mail to all their contacts.",
+    "type": "mc",
+    "opts": [
+      "Hoax",
+      "Spoofing",
+      "Phishing",
+      "Vishing"
+    ],
+    "a": "Hoax"
+  },
+  {
+    "q": "It can be defined as defacing the digital assets of a company or individual to cause nuisance or permanent damage.",
+    "type": "mc",
+    "opts": [
+      "Electronic vandalism",
+      "Script kiddie",
+      "Data theft",
+      "Cyberterrorism"
+    ],
+    "a": "Electronic vandalism"
+  },
+  {
+    "q": "It is the process by which a URL is wrongly removed from the search engine index and replaced by another URL.",
+    "type": "mc",
+    "opts": [
+      "Spim",
+      "Spam",
+      "whaling",
+      "URL hijacking"
+    ],
+    "a": "URL hijacking"
+  },
+  {
+    "q": "It is somebody without the right verification takes after a confirmed worker into a limited zone.",
+    "type": "mc",
+    "opts": [
+      "Dumpster diving",
+      "Spam",
+      "Tailgating",
+      "Shoulder surfing"
+    ],
+    "a": "Tailgating"
+  },
+  {
+    "q": "It can happen there the hacker uses some website applications to transfer some bad malicious code.",
+    "type": "mc",
+    "opts": [
+      "LDAP injection",
+      "Cross-site scripting",
+      "SQL injection",
+      "XML injection"
+    ],
+    "a": "Cross-site scripting"
+  },
+  {
+    "q": "It means attack by Viruses, Worms, Trojan Horses etc. Many users believe that malware, virus, worms, bots are all same things.",
+    "type": "mc",
+    "opts": [
+      "Botnets",
+      "Polymorphic Malware",
+      "keylogger",
+      "Software attacks"
+    ],
+    "a": "Software attacks"
+  },
+  {
+    "q": "The string: ' or 1=1-- - Represents which of the following?",
+    "type": "mc",
+    "opts": [
+      "SQL Injection",
+      "Rogue access point",
+      "Bluejacking",
+      "Client-side attacks"
+    ],
+    "a": "SQL Injection"
+  },
+  {
+    "q": "Which of the following types of application attacks would be used to identify malware causing security breaches that have NOT yet been identified by any trusted sources?",
+    "type": "mc",
+    "opts": [
+      "XML injection",
+      "LDAP injection",
+      "Directory traversal",
+      "Zero-day"
+    ],
+    "a": "Zero-day"
+  },
+  {
+    "q": "It is a threat which can exploit smooth vulnerability which has been known in the past as well.",
+    "type": "mc",
+    "opts": [
+      "Zero-day",
+      "Integer overflow",
+      "Cookies and attachments",
+      "Buffer overflow"
+    ],
+    "a": "Zero-day"
+  },
+  {
+    "q": "It does not corrupt or modify files on a target computer.",
+    "type": "mc",
+    "opts": [
+      "Worms",
+      "Adware",
+      "Viruses",
+      "Spyware"
+    ],
+    "a": "Worms"
+  },
+  {
+    "q": "It is a software program designed to provide a user with administrator access to a computer without being detected.",
+    "type": "mc",
+    "opts": [
+      "keylogger",
+      "Rootkits",
+      "Backdoor Attacks",
+      "Trojan Horse"
+    ],
+    "a": "Rootkits"
+  },
+  {
+    "q": "Which of the following malware types is MOST likely to execute its payload after Jane, an employee, has left the company?",
+    "type": "mc",
+    "opts": [
+      "Worm",
+      "Logic bomb",
+      "Botnet",
+      "Rootkit"
+    ],
+    "a": "Logic bomb"
+  },
+  {
+    "q": "A trojan was recently discovered on a server. There are now concerns that there has been a security breach that allows unauthorized people to access data. The administrator should be looking for the presence of a/an:",
+    "type": "mc",
+    "opts": [
+      "Rootkit.",
+      "Logic bomb",
+      "Backdoor.",
+      "Adware application."
+    ],
+    "a": "Backdoor."
+  },
+  {
+    "q": "It does this by monitoring a user's input and keeping a log of all keys that are pressed.",
+    "type": "mc",
+    "opts": [
+      "Trojan Horse",
+      "Backdoor Attack",
+      "keylogger",
+      "Rootkits"
+    ],
+    "a": "keylogger"
+  },
+  {
+    "q": "It is an attack where the attacker secretly relays and possibly alters the communications between two parties who believe that they are directly communicating with each other.",
+    "type": "mc",
+    "opts": [
+      "Eavesdropping Attacks",
+      "Replay Attacks",
+      "Man-in-the-Middle Attacks",
+      "Evil twin attack"
+    ],
+    "a": "Man-in-the-Middle Attacks"
+  },
+  {
+    "q": "It is any Wi-Fi access point that is installed on a network but is not authorized for operation on that network and is not under the management of the network administrator.",
+    "type": "mc",
+    "opts": [
+      "Rogue Access Points",
+      "Evil Twins",
+      "Wireless security",
+      "Transitive access"
+    ],
+    "a": "Rogue Access Points"
+  },
+  {
+    "q": "It is the prevention of unauthorized users from accessing your wireless network and stealing the data using your Wi-Fi network.",
+    "type": "mc",
+    "opts": [
+      "Evil Twins",
+      "Rogue Access Points",
+      "Transitive access",
+      "Wireless security"
+    ],
+    "a": "Wireless security"
+  },
+  {
+    "q": "It will send multiple requests to the attacked web resource – with the aim of exceeding the website's capacity to handle multiple requests and prevent the website from functioning correctly.",
+    "type": "mc",
+    "opts": [
+      "Distributed denial of service",
+      "Session hijacking",
+      "ARP poisoning",
+      "Denial-of-service attack"
+    ],
+    "a": "Distributed denial of service"
+  },
+  {
+    "q": "It could be a program that collects chunks of information that are likely to be account names and their related passwords so that an aggressor can utilize those qualifications to posture as the individual they were stolen from.",
+    "type": "mc",
+    "opts": [
+      "Spamming",
+      "Account phishing",
+      "Password stealer",
+      "Clickjacking"
+    ],
+    "a": "Password stealer"
+  },
+  {
+    "q": "A user commuting to work via public transport received an offensive image on their smart phone from another commuter. Which of the following attacks MOST likely took place?",
+    "type": "mc",
+    "opts": [
+      "Bluesnarfing",
+      "Bluejacking",
+      "War chalking",
+      "War driving"
+    ],
+    "a": "Bluejacking"
+  },
+  {
+    "q": "It is a device hack performed when a wireless, Bluetooth-enabled device is in discoverable mode.",
+    "type": "mc",
+    "opts": [
+      "Bluesnarfing",
+      "Evil Twins",
+      "Bluejacking",
+      "Jamming"
+    ],
+    "a": "Bluesnarfing"
+  },
+  {
+    "q": "All the following are Environmental Threats except",
+    "type": "mc",
+    "opts": [
+      "Extreme humidity",
+      "Flood",
+      "Assessment",
+      "Extreme temperature"
+    ],
+    "a": "Assessment"
+  },
+  {
+    "q": "It is also known as black hole DNS",
+    "type": "mc",
+    "opts": [
+      "War Chalking",
+      "War driving",
+      "Sinkhole Attacks",
+      "Wireless Replay Attacks"
+    ],
+    "a": "Sinkhole Attacks"
+  },
+  {
+    "q": "Which of the following attacks allows access to contact lists on cellular phones?",
+    "type": "mc",
+    "opts": [
+      "War chalking",
+      "Blue jacking",
+      "Bluesnarfing",
+      "Packet sniffing"
+    ],
+    "a": "Bluesnarfing"
+  },
+  {
+    "q": "It is assurance of accessible data or data assets.",
+    "type": "mc",
+    "opts": [
+      "Information Privacy",
+      "Information Integrity",
+      "Information Confidentiality",
+      "Information Security"
+    ],
+    "a": "Information Security"
+  },
+  {
+    "q": "What does availability of data refer to?",
+    "type": "mc",
+    "opts": [
+      "The level of assurance that data exists",
+      "The level of assurance that data will be restricted to people who need it, when they need it",
+      "The level of assurance that data will be accurate and trustworthy (tama sa seatwork)",
+      "The level of assurance that data will be available to people who need it, when they need it"
+    ],
+    "a": "The level of assurance that data will be available to people who need it, when they need it "
+  },
+  {
+    "q": "Are the countermeasures that you need to put in place to avoid, mitigate, or counteract security risks due to threats or attacks.",
+    "type": "mc",
+    "opts": [
+      "Integrity",
+      "Control",
+      "Attack",
+      "CIA Triad"
+    ],
+    "a": "Control"
+  },
+  {
+    "q": "A shortcoming which can be misused by a risk actor, such as an aggressor, to perform unauthorized activities inside a computer system.",
+    "type": "mc",
+    "opts": [
+      "Threat",
+      "Intrusion",
+      "Prevention",
+      "Vulnerability"
+    ],
+    "a": "Vulnerability"
+  },
+  {
+    "q": "These are attacks designed to compromise network security by either eavesdropping on or intercepting and manipulating network traffic.",
+    "type": "mc",
+    "opts": [
+      "Software-Based Attacks",
+      "Physical Security Attacks",
+      "Network-Based Attacks",
+      "Social Engineering Attacks"
+    ],
+    "a": "Network-Based Attacks"
+  },
+  {
+    "q": "PJ is buying books from an online retail location, and she finds that she can alter the cost of a book from $19.99 to $1.99. Which portion of the CIA set of three has been broken?",
+    "type": "mc",
+    "opts": [
+      "None of the above",
+      "Confidentiality",
+      "Integrity",
+      "Availability"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "Franz is working on her university applications online, when the admissions website crashes. She is unable to turn in her application on time.",
+    "type": "mc",
+    "opts": [
+      "None of the above",
+      "Integrity",
+      "Confidentiality",
+      "Availability"
+    ],
+    "a": "Availability"
+  },
+  {
+    "q": "A company that purchased an HVAC system for the datacenter is MOST concerned with which of the following?",
+    "type": "mc",
+    "opts": [
+      "Confidentiality",
+      "Integrity",
+      "Fire suppression",
+      "Availability"
+    ],
+    "a": "Availability"
+  },
+  {
+    "q": "It is an illegal act of entering, seizing, or taking possession of another's property.",
+    "type": "mc",
+    "opts": [
+      "Intrusion",
+      "Threats",
+      "Risk",
+      "Vulnerability"
+    ],
+    "a": "Intrusion"
+  },
+  {
+    "q": "A company is looking to reduce the likelihood of employees in the finance department being involved with money laundering. Which of the following controls would BEST mitigate this risk?",
+    "type": "mc",
+    "opts": [
+      "Implement privacy policies",
+      "Implement a security policy",
+      "Enforce time of day restrictions",
+      "Enforce mandatory vacations"
+    ],
+    "a": "Enforce mandatory vacations"
+  },
+  {
+    "q": "Which of the following must a user implement if they want to send a secret message to a coworker by embedding it within an image?",
+    "type": "mc",
+    "opts": [
+      "Transport encryption",
+      "Digital signature",
+      "Steganography",
+      "Hashing"
+    ],
+    "a": "Steganography"
+  },
+  {
+    "q": "It is a concept that has employees rotate through different jobs to learn the procedures and processes in each.",
+    "type": "mc",
+    "opts": [
+      "Access control",
+      "Job rotation",
+      "Separation of duties",
+      "Implicit deny"
+    ],
+    "a": "Job rotation"
+  },
+  {
+    "q": "It provides two-way authentication",
+    "type": "mc",
+    "opts": [
+      "Mutual authentication",
+      "Multifactor authentication",
+      "Biometrics",
+      "Single factor authentication"
+    ],
+    "a": "Multifactor authentication"
+  },
+  {
+    "q": "It is a principle that prevents any single person or entity from being able to have full access or complete all the functions of a critical or sensitive process.",
+    "type": "mc",
+    "opts": [
+      "Access control",
+      "Implicit deny",
+      "Job rotation",
+      "Separation of duties"
+    ],
+    "a": "Separation of duties"
+  },
+  {
+    "q": "An administrator notices that former temporary employees' accounts are still active on a domain. Which of the following can be implemented to increase security and prevent this from happening?",
+    "type": "mc",
+    "opts": [
+      "Run a last logon script to look for inactive accounts.",
+      "Implement an account expiration date for permanent employees.",
+      "Implement a password expiration policy.",
+      "Implement time of day restrictions for all temporary employees."
+    ],
+    "a": "Run a last logon script to look for inactive accounts."
+  },
+  {
+    "q": "Which of the following security concepts can avoid a client from logging on from home amid the ends of the week?",
+    "type": "mc",
+    "opts": [
+      "Time of day restrictions",
+      "Common access card",
+      "Implicit deny",
+      "Multifactor authentication"
+    ],
+    "a": "Time of day restrictions"
+  },
+  {
+    "q": "It only denies a permission until the user or group can perform the permission",
+    "type": "mc",
+    "opts": [
+      "Job rotation",
+      "Access control",
+      "Separation of duties",
+      "Implicit deny"
+    ],
+    "a": "Implicit deny"
+  },
+  {
+    "q": "It helps to reduce fraud and discover malicious activities by employees.",
+    "type": "mc",
+    "opts": [
+      "Mandatory vacations",
+      "Security token",
+      "Biometrics",
+      "Time of day restrictions"
+    ],
+    "a": "Mandatory vacations"
+  },
+  {
+    "q": "It provides centralized management and configuration of operating systems, applications, and users' settings in an Active Directory environment.",
+    "type": "mc",
+    "opts": [
+      "System architecture",
+      "Group Policy",
+      "Log",
+      "Change documentation"
+    ],
+    "a": "Group Policy"
+  },
+  {
+    "q": "could be a living report that gives rules for your organization's social media utilize.",
+    "type": "mc",
+    "opts": [
+      "System Architecture",
+      "Group Policy",
+      "Social media policy",
+      "Wireless standards policy"
+    ],
+    "a": "Social media policy"
+  },
+  {
+    "q": "It ought to incorporate data that recognizes how security profiles will be connected consistently over common gadgets",
+    "type": "mc",
+    "opts": [
+      "Passwords",
+      "Security Profiles",
+      "Sensitive data",
+      "E-Mail"
+    ],
+    "a": "Security Profiles"
+  },
+  {
+    "q": "It is the conceptual model that defines the structure, behavior, and more views of a system",
+    "type": "mc",
+    "opts": [
+      "Change documentation",
+      "Group Policy",
+      "Log",
+      "System architecture"
+    ],
+    "a": "System architecture"
+  },
+  {
+    "q": "Electronic records that are not archival. Click here for tips on identifying and deleting electronic records that have met retention.",
+    "type": "mc",
+    "opts": [
+      "Recycle",
+      "Shred",
+      "Delete",
+      "Transfer"
+    ],
+    "a": "Delete"
+  },
+  {
+    "q": "It ought to incorporate a well-defined security vision for the organization.",
+    "type": "mc",
+    "opts": [
+      "User Access to Computer Resources",
+      "Procedures",
+      "Enforcement",
+      "Security policies"
+    ],
+    "a": "Security policies"
+  },
+  {
+    "q": "It provides guidelines regarding wireless access points and the management by ITS of 802.11X and related wireless standards access.",
+    "type": "mc",
+    "opts": [
+      "Extranet policy",
+      "Password policy",
+      "Social media policy",
+      "Wireless standards policy"
+    ],
+    "a": "Wireless standards policy"
+  },
+  {
+    "q": "It could be a set of rules outlined to upgrade computer security by empowering clients to utilize solid passwords and utilize them appropriately.",
+    "type": "mc",
+    "opts": [
+      "Password policy",
+      "Audit policy",
+      "Privacy policy",
+      "Extranet policy"
+    ],
+    "a": "Password policy"
+  },
+  {
+    "q": "It is the use of the Internet to conduct violent acts that result in, or threaten, loss of life or significant bodily harm, in order to achieve political or ideological gains through threat or intimidation.",
+    "type": "mc",
+    "opts": [
+      "Data theft",
+      "Cyberterrorism",
+      "Electronic vandalism",
+      "Script kiddie"
+    ],
+    "a": "Cyberterrorism"
+  },
+  {
+    "q": "It is frequently a chain message telling beneficiaries to forward the mail to all their contacts.",
+    "type": "mc",
+    "opts": [
+      "Hoax",
+      "Vishing",
+      "Phishing",
+      "Spoofing"
+    ],
+    "a": "Hoax"
+  },
+  {
+    "q": "It is the utilize of informing systems to send a spontaneous message",
+    "type": "mc",
+    "opts": [
+      "Spam",
+      "Spim",
+      "whaling",
+      "URL hijacking"
+    ],
+    "a": "Spam"
+  },
+  {
+    "q": "It is a cyber-attack that uses disguised email as a weapon.",
+    "type": "mc",
+    "opts": [
+      "Spoofing",
+      "Phishing",
+      "Vishing",
+      "Hoax"
+    ],
+    "a": "Phishing"
+  },
+  {
+    "q": "It could be a developing issue for person computer clients as well as huge organizations and organizations.",
+    "type": "mc",
+    "opts": [
+      "Malicious insiders",
+      "Script kiddie",
+      "Data theft",
+      "Hacktivists"
+    ],
+    "a": "Data theft"
+  },
+  {
+    "q": "Which of the following attacks targets high level executives to gain company information?",
+    "type": "mc",
+    "opts": [
+      "Spoofing",
+      "Whaling",
+      "Vishing",
+      "Phishing"
+    ],
+    "a": "Whaling"
+  },
+  {
+    "q": "It is a growing problem for individual computer users as well as large corporations and organizations.",
+    "type": "mc",
+    "opts": [
+      "Malicious insiders",
+      "Hacktivists",
+      "Script kiddie",
+      "Data theft"
+    ],
+    "a": "Data theft"
+  },
+  {
+    "q": "At the outside break area, an employee, Ann, asked another employee to let her into the building because her badge is missing. Which of the following does this describe?",
+    "type": "mc",
+    "opts": [
+      "Impersonation",
+      "Shoulder surfing",
+      "Whaling",
+      "Tailgating"
+    ],
+    "a": "Tailgating"
+  },
+  {
+    "q": "It is a self-replicating program that copies itself to other computers over the network without the need for any user intervention.",
+    "type": "mc",
+    "opts": [
+      "Viruses",
+      "Spyware",
+      "Worms",
+      "Adware"
+    ],
+    "a": "Worms"
+  },
+  {
+    "q": "A security administrator is concerned about the strength of user's passwords. The company does not want to implement a password complexity policy. Which of the following can the security Administrator implement to mitigate the risk of an online password attack against users with weak passwords?",
+    "type": "mc",
+    "opts": [
+      "Decrease the account lockout time",
+      "Increase the password history",
+      "Shorten the password expiration period",
+      "Increase the password length requirements"
+    ],
+    "a": "Shorten the password expiration period"
+  },
+  {
+    "q": "It is any software package that automatically plays, displays, or downloads advertisements to a computer after the software is installed on it or while the application is being used.",
+    "type": "mc",
+    "opts": [
+      "Spyware",
+      "Viruses",
+      "Worms",
+      "Adware"
+    ],
+    "a": "Adware"
+  },
+  {
+    "q": "It is a piece of code intentionally inserted into a software system that will set off a malicious function when specified conditions are met.",
+    "type": "mc",
+    "opts": [
+      "Polymorphic Malware",
+      "Logic Bombs",
+      "Botnets",
+      "Ransomware"
+    ],
+    "a": "Logic Bombs"
+  },
+  {
+    "q": "Two programmers write a new secure application for the human resources department to store personal identifiable information. The programmers make the application available to themselves using an uncommon port along with an ID and password only they know. This is an example of which of the following?",
+    "type": "mc",
+    "opts": [
+      "Root Kit",
+      "Backdoor",
+      "Logic Bomb",
+      "Spyware"
+    ],
+    "a": "Backdoor"
+  },
+  {
+    "q": "It gathers your personal information and relays it to advertisers, data firms, or external users.",
+    "type": "mc",
+    "opts": [
+      "Viruses",
+      "Spyware",
+      "Adware",
+      "Worms"
+    ],
+    "a": "Spyware"
+  },
+  {
+    "q": "A server administrator notes that a legacy application often stops running due to a memory error. When reviewing the debugging logs, they notice code being run calling an internal process to exploit the machine. Which of the following attacks does this describe?",
+    "type": "mc",
+    "opts": [
+      "Buffer overflow",
+      "Zero-day",
+      "Malicious add-on",
+      "Cross site scripting"
+    ],
+    "a": "Buffer overflow"
+  },
+  {
+    "q": "These attacks start with commonly used, weak passwords like Password123 and move on from there.",
+    "type": "mc",
+    "opts": [
+      "Brute force",
+      "Dictionary attack",
+      "Rainbow Table Attack",
+      "Man In the Middle"
+    ],
+    "a": "Brute force"
+  },
+  {
+    "q": "These were usually some form of executable code that was hidden in the boot sector of a disk or as an executable file",
+    "type": "mc",
+    "opts": [
+      "Viruses",
+      "Adware",
+      "Spyware",
+      "Worms"
+    ],
+    "a": "Viruses"
+  },
+  {
+    "q": "Highly sensitive data is stored in a database and is accessed by an application on a DMZ server. The disk drives on all servers are fully encrypted. Communication between the application server and end-users is also encrypted. Network ACLs prevent any connections to the database server except from the application server. Which of the following can still result in exposure of the sensitive data in the database server?",
+    "type": "mc",
+    "opts": [
+      "SQL Injection",
+      "Cross-site scripting",
+      "Theft of the physical database server",
+      "Cookies"
+    ],
+    "a": "SQL Injection"
+  },
+  {
+    "q": "It may be a sort of assault where the aggressor breaks into the communication between the endpoints of a arrange association.",
+    "type": "mc",
+    "opts": [
+      "Man-in-the-Middle Attacks",
+      "Evil twin attack",
+      "Replay Attacks",
+      "Eavesdropping Attacks"
+    ],
+    "a": "Man-in-the-Middle Attacks"
+  },
+  {
+    "q": "It is an attack whereby the attacker renders a machine or network resource unavailable.",
+    "type": "mc",
+    "opts": [
+      "ARP poisoning",
+      "Distributed denial of service",
+      "Denial-of-service attack",
+      "Session hijacking"
+    ],
+    "a": "Denial-of-service attack"
+  },
+  {
+    "q": "It is also called access point mapping",
+    "type": "mc",
+    "opts": [
+      "War driving",
+      "War Chalking",
+      "Wireless Replay Attacks",
+      "Sinkhole Attacks"
+    ],
+    "a": "War driving"
+  },
+  {
+    "q": "It is relatively straightforward using an open source tool called Reaver",
+    "type": "mc",
+    "opts": [
+      "AES",
+      "WPS attack",
+      "WPA",
+      "WEP"
+    ],
+    "a": "WPS attack"
+  },
+  {
+    "q": "It happens when a cybercriminal listens stealthily on a secure network communication, intervention it, and after that falsely delays or resends it to mislead the collector into doing what the programmer needs",
+    "type": "mc",
+    "opts": [
+      "Replay Attacks",
+      "Evil twin attack",
+      "Eavesdropping Attacks",
+      "Man-in-the-Middle Attacks"
+    ],
+    "a": "Replay Attacks"
+  },
+  {
+    "q": "It is a program that collects chunks of data that are likely to be account names and their associated passwords so that an attacker can use those credentials to pose as the person they were stolen from.",
+    "type": "mc",
+    "opts": [
+      "Account phishing",
+      "Clickjacking",
+      "Spamming",
+      "Password stealer"
+    ],
+    "a": "Password stealer"
+  },
+  {
+    "q": "It allows hackers to remotely access Bluetooth device data, such as a user's calendar, contact list, emails and text messages.",
+    "type": "mc",
+    "opts": [
+      "Bluesnarfing",
+      "Jamming",
+      "Bluejacking",
+      "Evil Twins"
+    ],
+    "a": "Bluesnarfing"
+  },
+  {
+    "q": "It could be a cyber-attack in which the culprit looks for to create a machine or arrange asset inaccessible to its planning clients by incidentally or inconclusively disturbing administrations of a have associated to the Web.",
+    "type": "mc",
+    "opts": [
+      "Session hijacking",
+      "Distributed denial of service",
+      "Denial-of-service attack",
+      "ARP poisoning"
+    ],
+    "a": "Denial-of-service attack"
+  },
+  {
+    "q": "It is the unauthorized access of information from a wireless device through a Bluetooth connection, often between phones, desktops, laptops, and PDAs",
+    "type": "mc",
+    "opts": [
+      "Bluejacking",
+      "Jamming",
+      "Evil Twins",
+      "Bluesnarfing"
+    ],
+    "a": "Bluesnarfing"
+  },
+  {
+    "q": "Sara, a security administrator, manually hashes all network device configuration files daily and compares them to the previous days' hashes. Which of the following security concept is Sara using?",
+    "type": "mc",
+    "opts": [
+      "Availability",
+      "Compliance",
+      "Integrity",
+      "Confidentiality"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "What isn't objective of security?",
+    "type": "mc",
+    "opts": [
+      "Risk",
+      "Vulnerability",
+      "Intrusion",
+      "Threats"
+    ],
+    "a": "Intrusion"
+  },
+  {
+    "q": "The characteristic of a resource---ensuring access is restricted to only permitted users, applications, or computer systems.",
+    "type": "mc",
+    "opts": [
+      "Attack",
+      "Confidentiality",
+      "Availability",
+      "Integrity"
+    ],
+    "a": "Confidentiality"
+  },
+  {
+    "q": "In cybersecurity, what does CIA stand for?",
+    "type": "mc",
+    "opts": [
+      "Confidentiality, Integrity, Availability",
+      "Central Intelligence Agency",
+      "Cybersecurity, Internet, Accessibility",
+      "Cybersecurity Investigation Agency"
+    ],
+    "a": "Confidentiality, Integrity, Availability"
+  },
+  {
+    "q": "What does confidentiality of information allude to?",
+    "type": "mc",
+    "opts": [
+      "Rules which prevent data from being changed",
+      "Rules which hide data",
+      "Rules which restrict access only to those who need to know",
+      "Rules which allow access only to all parties"
+    ],
+    "a": "Rules which restrict access only to those who need to know"
+  },
+  {
+    "q": "Facts and statistics collected together for reference or analysis.",
+    "type": "mc",
+    "opts": [
+      "Data",
+      "IT Resources",
+      "Prevention",
+      "Detection"
+    ],
+    "a": "Data"
+  },
+  {
+    "q": "It is an authentication method that identifies and recognizes individuals based on voice recognition or physical characteristics such as a fingerprint, face acknowledgment, iris recognition, and retina check",
+    "type": "mc",
+    "opts": [
+      "Keystroke dynamics",
+      "Biometrics",
+      "Kerberos",
+      "Token"
+    ],
+    "a": "Biometrics"
+  },
+  {
+    "q": "It is an authentication method that identifies and recognizes people based on voice recognition or physical traits such as a fingerprint, face recognition, iris recognition, and retina scan.",
+    "type": "mc",
+    "opts": [
+      "Security token",
+      "Time of day restrictions",
+      "Mandatory vacations",
+      "Biometrics"
+    ],
+    "a": "Biometrics"
+  },
+  {
+    "q": "To ensure compatibility with their flagship product, the security engineer is tasked to recommend an encryption cipher that will be compatible with the majority of third-party software and hardware vendors. Which of the following should be recommended?",
+    "type": "mc",
+    "opts": [
+      "Blowfish",
+      "MD5",
+      "AES",
+      "SHA"
+    ],
+    "a": "AES"
+  },
+  {
+    "q": "Ann, a newly hired human resource employee, sent out confidential emails with digital signatures, to an unintended group. Which of the following would prevent her from denying accountability?",
+    "type": "mc",
+    "opts": [
+      "Non-Repudiation",
+      "Steganography",
+      "Access Control",
+      "Email Encryption"
+    ],
+    "a": "Non-Repudiation"
+  },
+  {
+    "q": "A policy requires employees to take time away from their job.",
+    "type": "mc",
+    "opts": [
+      "Security token",
+      "Mandatory vacations",
+      "Biometrics",
+      "Time of day restrictions"
+    ],
+    "a": "Mandatory vacations"
+  },
+  {
+    "q": "Which of the following BEST describes using a smart card and typing in a PIN to gain access to a system?",
+    "type": "mc",
+    "opts": [
+      "Biometrics",
+      "PKI",
+      "Single factor authentication",
+      "Multifactor authentication"
+    ],
+    "a": "Multifactor authentication"
+  },
+  {
+    "q": "It characterizes account limits for a set of clients of one or more assets.",
+    "type": "mc",
+    "opts": [
+      "Audit policy",
+      "Password policy",
+      "Privacy policy",
+      "Extranet policy"
+    ],
+    "a": "Audit policy"
+  },
+  {
+    "q": "It ought to recognize the parts and duties of clients getting to assets on the organization's network",
+    "type": "mc",
+    "opts": [
+      "Procedures",
+      "User Access to Computer Resource",
+      "Enforcement",
+      "Security policies"
+    ],
+    "a": "User Access to Computer Resource"
+  },
+  {
+    "q": "It talks about what in the event that any Network Security Intrusion Detection or Prevention Framework is utilized and how it is executed.",
+    "type": "mc",
+    "opts": [
+      "Internet",
+      "Intrusion Detection",
+      "Back-up and Recovery",
+      "Anti-Virus"
+    ],
+    "a": "Intrusion Detection"
+  },
+  {
+    "q": "It lists the retention period and disposal method for each type of record.",
+    "type": "mc",
+    "opts": [
+      "Official information",
+      "Classification",
+      "Retention Schedules",
+      "Paper documents"
+    ],
+    "a": "Retention Schedules"
+  },
+  {
+    "q": "It includes to begin with recognizing the bunches and individuals who will have to be compelled to alter as the result of the project, and in what ways they will ought to change.",
+    "type": "mc",
+    "opts": [
+      "Change management",
+      "Enterprise change management",
+      "Organizational change management",
+      "Individual change management"
+    ],
+    "a": "Organizational change management"
+  },
+  {
+    "q": "It could be a level of quality or fulfillment",
+    "type": "mc",
+    "opts": [
+      "Security policy",
+      "Policy statement",
+      "Standards",
+      "Guidelines"
+    ],
+    "a": "Standards"
+  },
+  {
+    "q": "A human resources employee receives an email from a family member stating there is a new virus going around. In order to remove the virus, a user must delete the Boot.ini file from the system immediately. This is an example of which of the following?",
+    "type": "mc",
+    "opts": [
+      "Whaling",
+      "Spam",
+      "Hoax",
+      "Phishing"
+    ],
+    "a": "Hoax"
+  },
+  {
+    "q": "It is unsolicited usually commercial messages sent to a large number of recipients or posted in a large number of places",
+    "type": "mc",
+    "opts": [
+      "URL hijacking",
+      "whaling",
+      "Spim",
+      "Spam"
+    ],
+    "a": "Spam"
+  },
+  {
+    "q": "It is a method used by cybercriminals to masquerade as a senior player at an organization and directly target senior or other important individuals at an organization",
+    "type": "mc",
+    "opts": [
+      "URL hijacking",
+      "Spim",
+      "Spam",
+      "Whaling"
+    ],
+    "a": "Whaling"
+  },
+  {
+    "q": "All executive officers have changed their monitor location so it cannot be easily viewed when passing by their offices. Which of the following attacks does this action remediate?",
+    "type": "mc",
+    "opts": [
+      "Whaling",
+      "Shoulder Surfing",
+      "Dumpster Diving",
+      "Impersonation"
+    ],
+    "a": "Shoulder Surfing"
+  },
+  {
+    "q": "It may be a strategy utilized by cyber offenders to disguise as a senior player at an organization and straightforwardly target senior or other vital people at an organization",
+    "type": "mc",
+    "opts": [
+      "URL hijacking",
+      "Spim",
+      "whaling",
+      "Spam"
+    ],
+    "a": "whaling"
+  },
+  {
+    "q": "It is type of phishing attacks that try to lure victims via voice calls.",
+    "type": "mc",
+    "opts": [
+      "Spoofing",
+      "Phishing",
+      "Hoax",
+      "Vishing"
+    ],
+    "a": "Vishing"
+  },
+  {
+    "q": "It Use a program to generate likely passwords or even random character sets.",
+    "type": "mc",
+    "opts": [
+      "Rainbow Table Attack",
+      "Man In the Middle",
+      "Dictionary attack",
+      "Brute force"
+    ],
+    "a": "Brute force"
+  },
+  {
+    "q": "It can be used to perform Distributed Denial-of-Service (DDoS) attacks, steal data, send spam, and allows the attacker to access the device and its connection.",
+    "type": "mc",
+    "opts": [
+      "Botnets",
+      "Logic Bombs",
+      "Ransomware",
+      "Polymorphic Malware"
+    ],
+    "a": "Botnets"
+  },
+  {
+    "q": "It is a program that can copy itself and infect a computer without the user's consent or knowledge. Early viruses were usually some form of executable code that was hidden in the boot sector of a disk or as an executable file",
+    "type": "mc",
+    "opts": [
+      "Worms",
+      "Adware",
+      "Viruses",
+      "Spyware"
+    ],
+    "a": "Viruses"
+  },
+  {
+    "q": "A type of virus that has been designed to thwart attempts by analysts from examining its code by using various methods to make tracing, disassembling and reverse engineering more difficult",
+    "type": "mc",
+    "opts": [
+      "armored virus",
+      "Polymorphic Malware",
+      "Botnets",
+      "Ransomware"
+    ],
+    "a": "armored virus"
+  },
+  {
+    "q": "It is a type of malware from cryptology that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid",
+    "type": "mc",
+    "opts": [
+      "Ransomware",
+      "Botnets",
+      "Polymorphic Malware",
+      "Logic Bombs"
+    ],
+    "a": "Ransomware"
+  },
+  {
+    "q": "It is an invasion where somebody tries to take data that computers, smartphones, or other gadgets transmit over a organize.",
+    "type": "mc",
+    "opts": [
+      "Man-in-the-Middle Attacks",
+      "Evil twin attack",
+      "Replay Attacks",
+      "Eavesdropping Attacks"
+    ],
+    "a": "Eavesdropping Attacks"
+  },
+  {
+    "q": "It is the use of messaging systems to send an unsolicited message (spam), especially advertising, as well as sending messages repeatedly on the same website.",
+    "type": "mc",
+    "opts": [
+      "Password stealer",
+      "Clickjacking",
+      "Account phishing",
+      "Spamming"
+    ],
+    "a": "Spamming"
+  },
+  {
+    "q": "It is a wireless access point that has been installed on a secure network without explicit authorization from a local network administrator",
+    "type": "mc",
+    "opts": [
+      "Wireless security",
+      "Transitive access",
+      "Rogue Access Points",
+      "Evil Twins"
+    ],
+    "a": "Rogue Access Points"
+  },
+  {
+    "q": "It could be a pernicious strategy of deceiving a client into clicking on something distinctive from what the client sees",
+    "type": "mc",
+    "opts": [
+      "Password stealer",
+      "Spamming",
+      "Account phishing",
+      "Clickjacking"
+    ],
+    "a": "Clickjacking"
+  },
+  {
+    "q": "It is the utilize of informing frameworks to send a spontaneous message (spam), particularly promoting, as well as sending messages over and over on the same site",
+    "type": "mc",
+    "opts": [
+      "Spamming",
+      "Clickjacking",
+      "Password stealer",
+      "Account phishing"
+    ],
+    "a": "Spamming"
+  },
+  {
+    "q": "A network analyst received several reports that impersonation was taking place on the network. Session tokens were deployed to mitigate this issue and defend against which of the following attacks?",
+    "type": "mc",
+    "opts": [
+      "Replay",
+      "Ping of Death",
+      "Smurf",
+      "DDoS"
+    ],
+    "a": "Replay"
+  },
+  {
+    "q": "It is an attack on the protocol used to determine a device's hardware address (MAC address) on the network when the IP address is known.",
+    "type": "mc",
+    "opts": [
+      "Denial-of-service attack",
+      "Distributed denial of service",
+      "ARP poisoning",
+      "Session hijacking"
+    ],
+    "a": "ARP poisoning"
+  },
+  {
+    "q": "It is a possible danger that might exploit a vulnerability to breach security and therefore cause possible harm.",
+    "type": "mc",
+    "opts": [
+      "Vulnerability",
+      "Prevention",
+      "Intrusion",
+      "Threat"
+    ],
+    "a": "Threat"
+  },
+  {
+    "q": "These are malicious pieces of computer code and applications that can damage your computer, as well as steal your personal or financial information.",
+    "type": "mc",
+    "opts": [
+      "Software-Based Attacks",
+      "Network-Based Attacks",
+      "Social Engineering Attacks",
+      "Physical Security Attacks"
+    ],
+    "a": "Software-Based Attacks"
+  },
+  {
+    "q": "It is the state of being whole and undivided.",
+    "type": "mc",
+    "opts": [
+      "Availability",
+      "Integrity",
+      "Confidentiality",
+      "Attack"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "What does confidentiality of data refer to?",
+    "type": "mc",
+    "opts": [
+      "Rules which prevent data from being changed",
+      "Rules which allow access only to all parties",
+      "Rules which hide data",
+      "Rules which restrict access only to those who need to know"
+    ],
+    "a": "Rules which restrict access only to those who need to know"
+  },
+  {
+    "q": "It is a method in cryptography by which cryptographic keys are exchanged between two parties, allowing use of a cryptographic algorithm.",
+    "type": "mc",
+    "opts": [
+      "Cipher Suites",
+      "Digital Signature",
+      "Key exchange",
+      "Session Keys"
+    ],
+    "a": "Key exchange"
+  },
+  {
+    "q": "It can limit access to sensitive environments to normal business hours when. oversight and monitoring can be performed to prevent fraud, abuse, or intrusion.",
+    "type": "mc",
+    "opts": [
+      "Mandatory vacations",
+      "Time of day restrictions",
+      "Biometrics",
+      "Security token"
+    ],
+    "a": "Time of day restrictions"
+  },
+  {
+    "q": "A user ID and password together provide which of the following?",
+    "type": "mc",
+    "opts": [
+      "Auditing",
+      "Identification",
+      "Authentication",
+      "Authorization"
+    ],
+    "a": "Authentication"
+  },
+  {
+    "q": "Which of the following access controls enforces permissions based on data labeling at specific levels?",
+    "type": "mc",
+    "opts": [
+      "Separation of duties access control",
+      "Discretionary access control",
+      "Role based access control",
+      "Mandatory access control"
+    ],
+    "a": "Mandatory access control"
+  },
+  {
+    "q": "A technician is reviewing the logical access control method an organization uses. One of the senior managers requests that the technician prevent staff members from logging on during nonworking days. Which of the following should the technician implement to meet managements request?",
+    "type": "mc",
+    "opts": [
+      "Enforce Kerberos",
+      "Access control lists",
+      "Deploy smart cards",
+      "Time of day restrictions"
+    ],
+    "a": "Time of day restrictions"
+  },
+  {
+    "q": "It limits when users can access specific systems based on the time of day or week.",
+    "type": "mc",
+    "opts": [
+      "Security token",
+      "Mandatory vacations",
+      "Biometrics",
+      "Time of day restrictions"
+    ],
+    "a": "Time of day restrictions"
+  },
+  {
+    "q": "Paper and electronic records to the University Archives if they have permanent legal, fiscal, administrative, or historical value.",
+    "type": "mc",
+    "opts": [
+      "Transfer",
+      "Shred",
+      "Recycle",
+      "Delete"
+    ],
+    "a": "Transfer"
+  },
+  {
+    "q": "It ought to state clearly the prerequisites forced on clients for passwords",
+    "type": "mc",
+    "opts": [
+      "Security Profiles",
+      "Sensitive data",
+      "Passwords",
+      "E-Mail"
+    ],
+    "a": "Passwords"
+  },
+  {
+    "q": "is the act or method of storing something for future use.",
+    "type": "mc",
+    "opts": [
+      "Storage",
+      "retention",
+      "destruction",
+      "disposal"
+    ],
+    "a": "retention"
+  },
+  {
+    "q": "It ought to clearly recognize how the arrangement will be implemented and how security breaches and/or wrongdoing will be dealt with.",
+    "type": "mc",
+    "opts": [
+      "Security policies",
+      "Enforcement",
+      "User Access to Computer Resources",
+      "Procedures"
+    ],
+    "a": "Enforcement"
+  },
+  {
+    "q": "It addresses any data that's secured against ridiculous divulgence.",
+    "type": "mc",
+    "opts": [
+      "Passwords",
+      "E-Mail",
+      "Sensitive data",
+      "Security Profiles"
+    ],
+    "a": "Sensitive data"
+  },
+  {
+    "q": "It is the act of taking data put away on computers, servers, or other gadgets from an unconscious casualty with the expectation to compromise protection or get secret data",
+    "type": "mc",
+    "opts": [
+      "Data theft",
+      "Hacktivists",
+      "Script kiddie",
+      "Malicious insiders"
+    ],
+    "a": "Data theft"
+  },
+  {
+    "q": "It could be an individual who picks up unauthorized get to to computer records or systems in arrange to encourage social or political closes.",
+    "type": "mc",
+    "opts": [
+      "Data theft",
+      "Script kiddie",
+      "Malicious insiders",
+      "Hacktivists"
+    ],
+    "a": "Hacktivists"
+  },
+  {
+    "q": "It may be a strategy utilized to pick up get to to information, frameworks, or systems, basically through deception",
+    "type": "mc",
+    "opts": [
+      "Cyber Engineering",
+      "Computer Engineering",
+      "Reverse Engineering",
+      "Social Engineering"
+    ],
+    "a": "Social Engineering"
+  },
+  {
+    "q": "It regularly contains an interface to a Web location that the spimmer is attempting to market.",
+    "type": "mc",
+    "opts": [
+      "whaling",
+      "URL hijacking",
+      "Spam",
+      "Spim"
+    ],
+    "a": "Spim"
+  },
+  {
+    "q": "It may be a cyber-attack that employments camouflaged mail as a weapon.",
+    "type": "mc",
+    "opts": [
+      "Hoax",
+      "Vishing",
+      "Phishing",
+      "Spoofing"
+    ],
+    "a": "Phishing"
+  },
+  {
+    "q": "An attacker attempted to compromise a web form by inserting the following input into the username field: admin)(|(password=*)) Which of the following types of attacks was attempted?",
+    "type": "mc",
+    "opts": [
+      "LDAP injection",
+      "Cross-site scripting",
+      "Command injection",
+      "SQL injection"
+    ],
+    "a": "LDAP injection"
+  },
+  {
+    "q": "The security administrator is observing unusual network behavior from a workstation. The workstation is communicating with a known malicious destination over an encrypted tunnel. A full antivirus scan, with an updated antivirus definition file, does not show any signs of infection. Which of the following has happened on the workstation?",
+    "type": "mc",
+    "opts": [
+      "Session hijacking",
+      "Known malware infection",
+      "Zero-day attack",
+      "Cookie stealing"
+    ],
+    "a": "Zero-day attack"
+  },
+  {
+    "q": "A user casually browsing the Internet is redirected to a warez site where a number of pop-ups appear. After clicking on a pop-up to complete a survey, a drive-by download occurs. Which of the following is MOST likely to be contained in the download?",
+    "type": "mc",
+    "opts": [
+      "Smurf",
+      "Backdoor",
+      "Spyware",
+      "Logic bomb",
+      "DDoS"
+    ],
+    "a": "Spyware"
+  },
+  {
+    "q": "Joe, a user, in a coffee shop is checking his email over a wireless network. An attacker records the temporary credentials being passed to Joe's browser. The attacker later uses the credentials to impersonate Joe and creates SPAM messages. Which of the following attacks allows for this impersonation?",
+    "type": "mc",
+    "opts": [
+      "Header manipulation",
+      "Directory traversal",
+      "XML injection",
+      "Session hijacking"
+    ],
+    "a": "Session hijacking"
+  },
+  {
+    "q": "It may be a Trojan that's planned to accumulate data from a system.",
+    "type": "mc",
+    "opts": [
+      "Account phishing",
+      "Spamming",
+      "Clickjacking",
+      "Password stealer"
+    ],
+    "a": "Password stealer"
+  },
+  {
+    "q": "The delay or repeat of the data transmission is carried out by the sender or by the malicious entity, who intercepts the data and retransmits it.",
+    "type": "mc",
+    "opts": [
+      "War driving",
+      "Sinkhole Attacks",
+      "Wireless Replay Attacks",
+      "War Chalking"
+    ],
+    "a": "Wireless Replay Attacks"
+  },
+  {
+    "q": "It is a hacking method that allows an individual to send anonymous messages to Bluetooth-enabled devices within a certain radius.",
+    "type": "mc",
+    "opts": [
+      "Jamming",
+      "Evil Twins",
+      "Bluesnarfing",
+      "Bluejacking"
+    ],
+    "a": "Bluejacking"
+  },
+  {
+    "q": "It is the state of being protected against the unauthorized use of information, especially electronic data, or the measures taken to achieve this.",
+    "type": "mc",
+    "opts": [
+      "Information Confidentiality",
+      "Information Integrity",
+      "Information Security",
+      "Information Privacy"
+    ],
+    "a": "Information Security"
+  },
+  {
+    "q": "It is the third core security principle, and it is defined as a characteristic of a resource being accessible to a user, application, or computer system when required.",
+    "type": "mc",
+    "opts": [
+      "Confidentiality",
+      "Integrity",
+      "Attack",
+      "Availability"
+    ],
+    "a": "Availability"
+  },
+  {
+    "q": "Which of the following is a security benefit of providing additional HVAC capacity or increased tonnage in a datacenter?",
+    "type": "mc",
+    "opts": [
+      "Increased availability of network services due to higher throughput",
+      "Longer UPS run time due to increased airflow",
+      "Higher data integrity due to more efficient SSD cooling",
+      "Longer MTBF of hardware due to lower operating temperatures"
+    ],
+    "a": "Longer MTBF of hardware due to lower operating temperatures"
+  },
+  {
+    "q": "It is the quality or state of being uncovered to the plausibility of being assaulted or hurt, either physically or candidly.",
+    "type": "mc",
+    "opts": [
+      "Threats",
+      "Risk",
+      "Intrusion",
+      "Vulnerability"
+    ],
+    "a": "Threats"
+  },
+  {
+    "q": "A legal concept that is widely used in information security and refers to a service, which provides proof of the origin of data and the integrity of the data.",
+    "type": "mc",
+    "opts": [
+      "Non-repudiation",
+      "Identification",
+      "Authentication",
+      "Authorization"
+    ],
+    "a": "Non-repudiation"
+  },
+  {
+    "q": "It is a system that uses two authentication methods such as smart cards and a password",
+    "type": "mc",
+    "opts": [
+      "Implicit deny",
+      "Common access card",
+      "Multifactor authentication",
+      "Time of day restrictions"
+    ],
+    "a": "Multifactor authentication"
+  },
+  {
+    "q": "Which of the following security concepts can prevent a user from logging on from home during the weekends?",
+    "type": "mc",
+    "opts": [
+      "Common access card",
+      "Implicit deny",
+      "Multifactor authentication",
+      "Time of day restrictions"
+    ],
+    "a": "Time of day restrictions"
+  },
+  {
+    "q": "It uses a single key to encrypt and decrypt data.",
+    "type": "mc",
+    "opts": [
+      "encryption key",
+      "Symmetric encryption",
+      "Hashing",
+      "Asymmetric encryption"
+    ],
+    "a": "Symmetric encryption"
+  },
+  {
+    "q": "It establishes secure connections between hosts.",
+    "type": "mc",
+    "opts": [
+      "Digital Signature",
+      "Session Keys",
+      "Key exchange",
+      "Cipher Suites"
+    ],
+    "a": "Session Keys"
+  },
+  {
+    "q": "Sara, a security engineer, is testing encryption ciphers for performance. Which of the following ciphers offers strong encryption with the FASTEST speed?",
+    "type": "mc",
+    "opts": [
+      "Blowfish",
+      "3DES",
+      "AES256",
+      "Serpent"
+    ],
+    "a": "Blowfish"
+  },
+  {
+    "q": "It is how are all the security programs looked into and how as often as possible",
+    "type": "mc",
+    "opts": [
+      "Remote Access",
+      "Acceptable User Policy",
+      "Information Security Training",
+      "Information Security Auditing"
+    ],
+    "a": "Information Security Auditing"
+  },
+  {
+    "q": "It is the action or process of classifying something according to shared qualities or characteristics.",
+    "type": "mc",
+    "opts": [
+      "Retention Schedules",
+      "Classification",
+      "Paper documents",
+      "Official information"
+    ],
+    "a": "Classification"
+  },
+  {
+    "q": "It has been determined to require, in the interests of national security, protection against unauthorized disclosure and which has been so designated.",
+    "type": "mc",
+    "opts": [
+      "Official information",
+      "Paper documents",
+      "Retention Schedules",
+      "Classification"
+    ],
+    "a": "Official information"
+  },
+  {
+    "q": "Every paper or electronic record has a specific amount of time that it needs to be kept.",
+    "type": "mc",
+    "opts": [
+      "disposal",
+      "Storage",
+      "retention",
+      "destruction"
+    ],
+    "a": "retention"
+  },
+  {
+    "q": "It is the false hone of sending emails implying to be from legitimate companies in arrange to actuate people to uncover individual data, such as passwords and credit card numbers.",
+    "type": "mc",
+    "opts": [
+      "Phishing",
+      "Vishing",
+      "Hoax",
+      "Spoofing"
+    ],
+    "a": "Phishing"
+  },
+  {
+    "q": "It particularly targets senior administration that hold control in companies, such as the CEO, CFO, or other administrators",
+    "type": "mc",
+    "opts": [
+      "Spim",
+      "URL hijacking",
+      "Spam",
+      "Whaling"
+    ],
+    "a": "Whaling"
+  },
+  {
+    "q": "It is the act of disguising a communication from an unknown source as being from a known, trusted source.",
+    "type": "mc",
+    "opts": [
+      "Vishing",
+      "Spoofing",
+      "Hoax",
+      "Phishing"
+    ],
+    "a": "Spoofing"
+  },
+  {
+    "q": "It is generally assumed that most of them are juveniles who lack the ability to write sophisticated programs or exploits on their own and that their objective is to try to impress their friends or gain credit in computer-enthusiast communities.",
+    "type": "mc",
+    "opts": [
+      "Malicious insiders",
+      "Hacktivists",
+      "Data theft",
+      "Script kiddie"
+    ],
+    "a": "Script kiddie"
+  },
+  {
+    "q": "It may also protect itself from antivirus programs, making it more difficult to trace.",
+    "type": "mc",
+    "opts": [
+      "Botnets",
+      "Polymorphic Malware",
+      "Ransomware",
+      "armored virus"
+    ],
+    "a": "armored virus"
+  },
+  {
+    "q": "It is an executable program that appears as a desirable or useful program.",
+    "type": "mc",
+    "opts": [
+      "keylogger",
+      "Backdoor Attacks",
+      "Rootkits",
+      "Trojan Horse"
+    ],
+    "a": "Trojan Horse"
+  },
+  {
+    "q": "It could be a false Wi-Fi access point that shows up to be genuine but is set up to spy on remote communications",
+    "type": "mc",
+    "opts": [
+      "Evil twin attack",
+      "Replay Attacks",
+      "Eavesdropping Attacks",
+      "Man-in-the-Middle Attacks"
+    ],
+    "a": "Evil twin attack"
+  },
+  {
+    "q": "It usually does not conform to wireless LAN (WLAN) security policies, and additionally can allow anyone with a Wi-Fi device to connect to your network.",
+    "type": "mc",
+    "opts": [
+      "Evil Twins",
+      "Transitive access",
+      "Rogue Access Points",
+      "Wireless security"
+    ],
+    "a": "Rogue Access Points"
+  },
+  {
+    "q": "It is an assault that traps a client into clicking a webpage component which is undetectable or masked as another component.",
+    "type": "mc",
+    "opts": [
+      "Account phishing",
+      "Password stealer",
+      "Spamming",
+      "Clickjacking"
+    ],
+    "a": "Clickjacking"
+  },
+  {
+    "q": "It is the action of sending promotions by e-mail to individuals who don't need to get them",
+    "type": "mc",
+    "opts": [
+      "Clickjacking",
+      "Account phishing",
+      "Spamming",
+      "Password stealer"
+    ],
+    "a": "Spamming"
+  },
+  {
+    "q": "It is the state of being whole and unified.",
+    "type": "mc",
+    "opts": [
+      "Confidentiality",
+      "Attack",
+      "Availability",
+      "Integrity"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "It is important to staff who use email messaging to provide PII to others on a regular basis to have confidence that their messages are not intercepted or altered during transmission. They are concerned about which of the following types of security control?",
+    "type": "mc",
+    "opts": [
+      "Availability",
+      "Safety",
+      "Integrity",
+      "Confidentiality"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "It is to set upon in a forceful, violent, hostile, or aggressive way, with or without a weapon",
+    "type": "mc",
+    "opts": [
+      "CIA Triad",
+      "Attack",
+      "Integrity",
+      "Control"
+    ],
+    "a": "Attack"
+  },
+  {
+    "q": "It is to set upon in a powerful, rough, antagonistic, or forceful way, with or without a weapon",
+    "type": "mc",
+    "opts": [
+      "Attack",
+      "CIA Triad",
+      "Control",
+      "Integrity"
+    ],
+    "a": "Attack"
+  },
+  {
+    "q": "Which of the following can hide confidential or malicious data in the whitespace of other files (e.g. JPEGs)?",
+    "type": "mc",
+    "opts": [
+      "Steganography",
+      "Digital signatures",
+      "Hashing",
+      "Transport encryption"
+    ],
+    "a": "Steganography"
+  },
+  {
+    "q": "While rarely enforced, mandatory vacation policies are effective at uncovering:",
+    "type": "mc",
+    "opts": [
+      "Collusion between two employees who perform the same business function.",
+      "Help desk technicians with oversight by multiple supervisors and detailed quality control systems.",
+      "Acts of gross negligence on the part of system administrators with unfettered access to system and no oversight.",
+      "Acts of incompetence by a systems engineer designing complex architectures as a member of a team."
+    ],
+    "a": "Acts of gross negligence on the part of system administrators with unfettered access to system and no oversight."
+  },
+  {
+    "q": "It distinguishes the recurrence of overhauling the record definitions as well as how detachable media, mail connections and other records are filtered.",
+    "type": "mc",
+    "opts": [
+      "Intrusion Detection",
+      "Anti-Virus",
+      "Back-up and Recovery",
+      "Internet"
+    ],
+    "a": "Anti-Virus"
+  },
+  {
+    "q": "It is the discipline that guides how we prepare, equip and support individuals to successfully adopt change in order to drive organizational success and outcomes.",
+    "type": "mc",
+    "opts": [
+      "Organizational change management",
+      "Change management",
+      "Enterprise change management",
+      "Individual change management"
+    ],
+    "a": "Change management"
+  },
+  {
+    "q": "It is the act of stealing information stored on computers, servers, or other devices from an unknowing victim with the intent to compromise privacy or obtain confidential information.",
+    "type": "mc",
+    "opts": [
+      "Malicious insiders",
+      "Script kiddie",
+      "Hacktivists",
+      "Data theft"
+    ],
+    "a": "Data theft"
+  },
+  {
+    "q": "It is the act of masking a communication from an obscure source as being from a known, trusted source",
+    "type": "mc",
+    "opts": [
+      "Spoofing",
+      "Hoax",
+      "Vishing",
+      "Phishing"
+    ],
+    "a": "Spoofing"
+  },
+  {
+    "q": "It is sort of phishing assaults that attempt to bait casualties by means of voice calls",
+    "type": "mc",
+    "opts": [
+      "Hoax",
+      "Phishing",
+      "Spoofing",
+      "Vishing"
+    ],
+    "a": "Vishing"
+  },
+  {
+    "q": "He uses the same tools and techniques as a hacker but does so in order to disrupt services and bring attention to a political or social cause.",
+    "type": "mc",
+    "opts": [
+      "Malicious insiders",
+      "Hacktivists",
+      "Script kiddie",
+      "Data theft"
+    ],
+    "a": "Hacktivists"
+  },
+  {
+    "q": "These are considered one of the most serious types of malware since they may be used to gain unauthorized access to remote systems and perform malicious operations.",
+    "type": "mc",
+    "opts": [
+      "Backdoor Attacks",
+      "Rootkits",
+      "Trojan Horse",
+      "Keylogger"
+    ],
+    "a": "Backdoor Attacks"
+  },
+  {
+    "q": "It is a type of malware that constantly changes its identifiable features in order to evade detection.",
+    "type": "mc",
+    "opts": [
+      "Botnets",
+      "Polymorphic Malware",
+      "Logic Bombs",
+      "Ransomware"
+    ],
+    "a": "Polymorphic Malware"
+  },
+  {
+    "q": "Account lockout is a mitigation strategy used by Jane, the administrator, to combat which of the following attacks?",
+    "type": "mc",
+    "opts": [
+      "Man-in-the-middle",
+      "Brute force",
+      "Privilege escalation",
+      "Spoofing"
+    ],
+    "a": "Brute force"
+  },
+  {
+    "q": "It can also install additional software, which can redirect your web browser to other sites or change your home page.",
+    "type": "mc",
+    "opts": [
+      "Adware",
+      "Spyware",
+      "Worms",
+      "Viruses"
+    ],
+    "a": "Spyware"
+  },
+  {
+    "q": "It may be a program that can duplicate itself and infect a computer without the user's consent or information. Early viruses were usually a few forms of executable code that was hidden within the boot sector of a disk or as an executable file.",
+    "type": "mc",
+    "opts": [
+      "Worms",
+      "Adware",
+      "Viruses",
+      "Spyware"
+    ],
+    "a": "Viruses"
+  },
+  {
+    "q": "It is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet.",
+    "type": "mc",
+    "opts": [
+      "Denial-of-service attack",
+      "Session hijacking",
+      "ARP poisoning",
+      "Distributed denial of service"
+    ],
+    "a": "Denial-of-service attack"
+  },
+  {
+    "q": "It is an attack that tricks a user into clicking a webpage element which is invisible or disguised as another element.",
+    "type": "mc",
+    "opts": [
+      "Password stealer",
+      "Spamming",
+      "Account phishing",
+      "Clickjacking"
+    ],
+    "a": "Clickjacking"
+  },
+  {
+    "q": "JP gets his phone bill in the mail. The bill was supposed to be for $80, but the mail person spilled water on the bill, smearing the ink. The bill now asks for $8.",
+    "type": "mc",
+    "opts": [
+      "None of the above",
+      "Confidentiality",
+      "Availability",
+      "Integrity"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "What does integrity of information allude to",
+    "type": "mc",
+    "opts": [
+      "The level of assurance which can be given as to how structured data is",
+      "The level of assurance which can be given as to how strong data is",
+      "The level of assurance which can be given as to how relevant the data is",
+      "The level of assurance which can be given as to how accurate and trustworthy data is"
+    ],
+    "a": "The level of assurance which can be given as to how accurate and trustworthy data is"
+  },
+  {
+    "q": "Which of the following should be used when a business needs a block cipher with minimal key size for internal encryption?",
+    "type": "mc",
+    "opts": [
+      "RC5",
+      "AES",
+      "Blowfish",
+      "3DES"
+    ],
+    "a": "Blowfish"
+  },
+  {
+    "q": "It requires understanding how people experience change and what they need to change successfully.",
+    "type": "mc",
+    "opts": [
+      "Organizational change management",
+      "Enterprise change management",
+      "Individual change management",
+      "Change management"
+    ],
+    "a": "Individual change management"
+  },
+  {
+    "q": "It ought to report what sort of mindfulness program is in put and how is it communicated on a normal premise.",
+    "type": "mc",
+    "opts": [
+      "Information Security Training",
+      "Remote Access",
+      "Acceptable User Policy",
+      "Information Security Auditing"
+    ],
+    "a": "Information Security Training"
+  },
+  {
+    "q": "It portrays the approach beneath which third-party organizations connect to your systems for the reason of executing commerce related to your company",
+    "type": "mc",
+    "opts": [
+      "Extranet policy",
+      "Privacy policy",
+      "Audit policy",
+      "Password policy"
+    ],
+    "a": "Extranet policy"
+  },
+  {
+    "q": "Which of the following might a security administrator actualize to relieve the hazard of tailgating for a huge organization?",
+    "type": "mc",
+    "opts": [
+      "Train employees on risks associated with social engineering attacks and enforce policies.",
+      "Only allow employees to go on break one at a time and post security guards 24/7 at each entrance.",
+      "Only allow employees to enter or leave through one door at specified times of the day.",
+      "Train employees on correct data disposal techniques and enforce policies."
+    ],
+    "a": "Train employees on risks associated with social engineering attacks and enforce policies."
+  },
+  {
+    "q": "This strategy ordinarily depends on the trusting nature of the individual being assaulted.",
+    "type": "mc",
+    "opts": [
+      "Cyber Engineering",
+      "Reverse Engineering",
+      "Social Engineering",
+      "Computer Engineering"
+    ],
+    "a": "Social Engineering"
+  },
+  {
+    "q": "These are attacks against an opening left in a functional piece of software that allows access into a system or software application without the owner's knowledge.",
+    "type": "mc",
+    "opts": [
+      "Trojan Horse",
+      "Rootkits",
+      "keylogger",
+      "Backdoor Attacks"
+    ],
+    "a": "Backdoor Attacks"
+  },
+  {
+    "q": "It attacks are often facilitated by social engineering attacks which lure the user to a fake site.",
+    "type": "mc",
+    "opts": [
+      "Man In the Middle",
+      "Brute force",
+      "Rainbow Table Attack",
+      "Dictionary attack"
+    ],
+    "a": "Man In the Middle"
+  },
+  {
+    "q": "A security administrator examines a network session to a compromised database server with a packet analyzer. Within the session there is a repeated series of the hex character 90 (x90). Which of the following attack types has occurred?",
+    "type": "mc",
+    "opts": [
+      "Cross-site scripting",
+      "SQL injection",
+      "XML injection",
+      "Buffer overflow"
+    ],
+    "a": "Buffer overflow"
+  },
+  {
+    "q": "It can be troublesome to distinguish since the network transmissions will show up to be working regularly.",
+    "type": "mc",
+    "opts": [
+      "Evil twin attack",
+      "Man-in-the-Middle Attacks",
+      "Eavesdropping Attacks",
+      "Replay Attacks"
+    ],
+    "a": "Eavesdropping Attacks"
+  },
+  {
+    "q": "It ensures protection to a Wi-Fi network from unauthorized access.",
+    "type": "mc",
+    "opts": [
+      "Wireless security",
+      "Rogue Access Points",
+      "Evil Twins",
+      "Transitive access"
+    ],
+    "a": "Wireless security"
+  },
+  {
+    "q": "Which of the following describes how an attacker can send unwanted advertisements to a mobile device?",
+    "type": "mc",
+    "opts": [
+      "Bluejacking",
+      "Packet sniffing",
+      "Bluesnarfing",
+      "Man-in-the-middle"
+    ],
+    "a": "Bluejacking"
+  },
+  {
+    "q": "JP gets his phone bill within the mail. The charge was assumed to be for $80, but the mail individual spilled water on the charge, spreading the ink. The charge presently inquires for $8",
+    "type": "mc",
+    "opts": [
+      "Confidentiality",
+      "None of the above",
+      "Availability",
+      "Integrity"
+    ],
+    "a": "Integrity"
+  },
+  {
+    "q": "A weakness which can be exploited by a threat actor, such as an attacker, to perform unauthorized actions within a computer system.",
+    "type": "mc",
+    "opts": [
+      "Threat",
+      "Prevention",
+      "Intrusion",
+      "Vulnerability"
+    ],
+    "a": "Vulnerability"
+  },
+  {
+    "q": "Which of the following concepts describes the use of a one-way transformation in order to validate the integrity of a program?",
+    "type": "mc",
+    "opts": [
+      "Non-repudiation",
+      "Hashing",
+      "Steganography",
+      "Key escrow"
+    ],
+    "a": "Hashing"
+  },
+  {
+    "q": "Anything that has personal information like your name, address, phone number, social security number, or bank account information.",
+    "type": "mc",
+    "opts": [
+      "Recycle",
+      "Delete",
+      "Transfer",
+      "Shred"
+    ],
+    "a": "Shred"
+  },
+  {
+    "q": "It gives rules with respect to remote access points and the administration by ITS of 802.11X and related remote guidelines get to",
+    "type": "mc",
+    "opts": [
+      "Social media policy",
+      "Wireless standards policy",
+      "System Architecture",
+      "Group Policy"
+    ],
+    "a": "Wireless standards policy"
+  },
+  {
+    "q": "It is the teach that guides how we plan, prepare and back people to effectively embrace alter in arrange to drive organizational victory and results.",
+    "type": "mc",
+    "opts": [
+      "Enterprise change management",
+      "Change management",
+      "Individual change management",
+      "Organizational change management"
+    ],
+    "a": "Change management"
+  },
+  {
+    "q": "Ann, a software developer, has installed some code to reactivate her account one week after her account has been disabled. Which of the following is this an example of?",
+    "type": "mc",
+    "opts": [
+      "Spyware",
+      "Botnet",
+      "Backdoor",
+      "Rootkit"
+    ],
+    "a": "Backdoor"
+  },
+  {
+    "q": "It is a program that records the keystrokes on a computer.",
+    "type": "mc",
+    "opts": [
+      "keylogger",
+      "Rootkits",
+      "Backdoor Attacks",
+      "Trojan Horse"
+    ],
+    "a": "keylogger"
+  },
+  {
+    "q": "It will continue to spread and infect devices even if its signature changes to avoid detection",
+    "type": "mc",
+    "opts": [
+      "Ransomware",
+      "Polymorphic Malware",
+      "Logic Bombs",
+      "Botnets"
+    ],
+    "a": "Polymorphic Malware"
+  },
+  {
+    "q": "After a user performed a war driving attack, the network administrator noticed several similar markings where WiFi was available throughout the enterprise. Which of the following is the term used to describe these markings?",
+    "type": "mc",
+    "opts": [
+      "War chalking",
+      "Rogue access points",
+      "IV attack",
+      "War dialing"
+    ],
+    "a": "War chalking"
+  },
+  {
+    "q": "Which of the following types of wireless attacks would be used specifically to impersonate another WAP in order to gain unauthorized information from mobile users?",
+    "type": "mc",
+    "opts": [
+      "Rogue access point",
+      "War driving",
+      "IV attack",
+      "Evil twin"
+    ],
+    "a": "Evil twin"
+  },
+  {
+    "q": "What is not goal of security?",
+    "type": "mc",
+    "opts": [
+      "Vulnerability",
+      "Intrusion",
+      "Threats",
+      "Risk"
+    ],
+    "a": "Intrusion"
+  },
+  {
+    "q": "It is the process of verifying the identity of a person or device.",
+    "type": "mc",
+    "opts": [
+      "Authorization",
+      "Non-repudiation",
+      "Identification",
+      "Authentication"
+    ],
+    "a": "Authentication"
+  },
+  {
+    "q": "A security technique that regulates who or what can view or use resources in a computing environment",
+    "type": "mc",
+    "opts": [
+      "Implicit deny",
+      "Separation of duties",
+      "Job rotation",
+      "Access control"
+    ],
+    "a": "Access control"
+  },
+  {
+    "q": "A company hired Joe, an accountant. The IT administrator will need to create a new account for Joe. The company uses groups for ease of management and administration of user accounts. Joe will need network access to all directories, folders and files within the accounting department. Which of the following configurations will meet the requirements?",
+    "type": "mc",
+    "opts": [
+      "Create a user account with password reset and notify Joe of the account creation.",
+      "Create two accounts: a user account and an account with full network administration rights.",
+      "Create an account with role-based access control for accounting.",
+      "Create a user account and assign the user account to the accounting group."
+    ],
+    "a": "Create a user account and assign the user account to the accounting group."
+  },
+  {
+    "q": "A company with a US-based sales force has requested that the VPN system be configured to authenticate the sales team based on their username, password and a client-side certificate. Additionally, the security administrator has restricted the VPN to only allow authentication from the US territory. How many authentication factors are in use by the VPN system?",
+    "type": "mc",
+    "opts": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "a": "3"
+  },
+  {
+    "q": "It is the conceptual show that characterizes the structure, behavior, and more sees of a system",
+    "type": "mc",
+    "opts": [
+      "Group Policy",
+      "Social media policy",
+      "Wireless standards policy",
+      "System Architecture"
+    ],
+    "a": "System Architecture"
+  },
+  {
+    "q": "It may be a common rule, guideline, or piece of counsel.",
+    "type": "mc",
+    "opts": [
+      "Standards",
+      "Policy statement",
+      "Security policy",
+      "Guidelines"
+    ],
+    "a": "Guidelines"
+  },
+  {
+    "q": "It is the false hone of making phone calls or clearing out voice messages implying to be from legitimate companies in arrange to initiate people to uncover individual data, such as bank subtle elements and credit card numbers.",
+    "type": "mc",
+    "opts": [
+      "Spoofing",
+      "Phishing",
+      "Hoax",
+      "Vishing"
+    ],
+    "a": "Vishing"
+  },
+  {
+    "q": "It is spontaneous as a rule commercial messages sent to a huge number of beneficiaries or posted in an expansive number of places",
+    "type": "mc",
+    "opts": [
+      "whaling",
+      "Spim",
+      "Spam",
+      "URL hijacking"
+    ],
+    "a": "Spam"
+  },
+  {
+    "q": "It can be current or previous representatives, temporary workers or trade accomplices that picks up get to an organization arrange, system or information and discharge this data without authorization by the organization.",
+    "type": "mc",
+    "opts": [
+      "Hacktivists",
+      "Data theft",
+      "Malicious insiders",
+      "Script kiddie"
+    ],
+    "a": "Malicious insiders"
+  },
+  {
+    "q": "These are a critical segment of a pentest in which preparation can make a major impact on the success of a pentest.",
+    "type": "mc",
+    "opts": [
+      "Software attacks",
+      "Backdoor Attacks",
+      "Spyware Attacks",
+      "Password attacks"
+    ],
+    "a": "Password attacks"
+  },
+  {
+    "q": "It takes advantage of the specific capacity limits that apply to any network resources -- such as the infrastructure that enables a company's website.",
+    "type": "mc",
+    "opts": [
+      "ARP poisoning",
+      "Denial-of-service attack",
+      "Session hijacking",
+      "Distributed denial of service"
+    ],
+    "a": "Distributed denial of service"
+  },
+  {
+    "q": "A return to a normal state of health, mind, or strength.",
+    "type": "mc",
+    "opts": [
+      "Recovery",
+      "IT Resources",
+      "Detection",
+      "Prevention"
+    ],
+    "a": "Recovery"
+  },
+  {
+    "q": "It also known as public key cryptography",
+    "type": "mc",
+    "opts": [
+      "Asymmetric encryption",
+      "Hashing",
+      "encryption key",
+      "Symmetric encryption"
+    ],
+    "a": "Asymmetric encryption"
+  },
+  {
+    "q": "Expired credit cards, visas, passports, and IDs.",
+    "type": "mc",
+    "opts": [
+      "Recycle",
+      "Shred",
+      "Delete",
+      "Transfer"
+    ],
+    "a": "Shred"
+  },
+  {
+    "q": "Is the act or process of throwing away or getting rid of documentation",
+    "type": "mc",
+    "opts": [
+      "destruction",
+      "Storage",
+      "retention",
+      "disposal"
+    ],
+    "a": "disposal"
+  },
+  {
+    "q": "It gives centralized administration and setup of operating systems, applications, and users' settings in an Active Directory environment.",
+    "type": "mc",
+    "opts": [
+      "Social media policy",
+      "System Architecture",
+      "Wireless standards policy",
+      "Group Policy"
+    ],
+    "a": "Group Policy"
+  },
+  {
+    "q": "It is perpetuated by bots that harvest IM screen names off of the Internet and simulate a human user by sending spam to the screen names via an instant message.",
+    "type": "mc",
+    "opts": [
+      "URL hijacking",
+      "Spam",
+      "whaling",
+      "Spim"
+    ],
+    "a": "Spim"
+  },
+  {
+    "q": "An investigator recently discovered that an attacker placed a remotely accessible CCTV camera in a public area overlooking several Automatic Teller Machines (ATMs). It is also believed that user accounts belonging to ATM operators may have been compromised. Which of the following attacks has MOST likely taken place?",
+    "type": "mc",
+    "opts": [
+      "Dumpster diving",
+      "Vishing attack",
+      "Whaling attack",
+      "Shoulder surfing"
+    ],
+    "a": "Shoulder surfing"
+  },
+  {
+    "q": "This technique typically relies on the trusting nature of the person being attacked.",
+    "type": "mc",
+    "opts": [
+      "Reverse Engineering",
+      "Computer Engineering",
+      "Cyber Engineering",
+      "Social Engineering"
+    ],
+    "a": "Social Engineering"
+  },
+  {
+    "q": "During a server audit, a security administrator does not notice abnormal activity. However, a network security analyst notices connection to unauthorized ports from outside the corporate network. Using specialized tools, the network security analyst also notices hidden processes running. Which of the following has MOST likely been installed on the server?",
+    "type": "mc",
+    "opts": [
+      "Backdoor",
+      "SPIM",
+      "Rootkit",
+      "Logic bomb"
+    ],
+    "a": "Rootkit"
+  },
+  {
+    "q": "It is a software or hardware device designed to gain administrator-level control over a computer system without being detected. Rootkits can target the BIOS, hypervisor, boot loader, kernel or, less commonly, libraries or applications.",
+    "type": "mc",
+    "opts": [
+      "Rootkits",
+      "keylogger",
+      "Backdoor Attacks",
+      "Trojan Horse"
+    ],
+    "a": "Rootkits"
+  },
+  {
+    "q": "It is also known as bluehacking.",
+    "type": "mc",
+    "opts": [
+      "Jamming",
+      "Bluesnarfing",
+      "Evil Twins",
+      "Bluejacking"
+    ],
+    "a": "Bluejacking"
+  },
+  {
+    "q": "Its marks were conceived by a group of friends in June 2002 and publicized by Matt Jones who designed the set of icons and produced a downloadable document containing them.",
+    "type": "mc",
+    "opts": [
+      "War Chalking",
+      "Wireless Replay Attacks",
+      "Sinkhole Attacks",
+      "War driving"
+    ],
+    "a": "War Chalking"
+  },
+  {
+    "q": "It is an assault where the assailant subtly transfers and conceivably modifies the communications between two parties who accept that they are specifically communicating with each other.",
+    "type": "mc",
+    "opts": [
+      "Evil twin attack",
+      "Replay Attacks",
+      "Man-in-the-Middle Attacks",
+      "Eavesdropping Attacks"
+    ],
+    "a": "Man-in-the-Middle Attacks"
+  }
 ]
