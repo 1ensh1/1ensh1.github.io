@@ -372,7 +372,7 @@
 "The level of assurance that data will be restricted to people who need it, when they need it", 
 "The level of assurance that data will be accurate and trustworthy (tama sa seatwork)", 
 "The level of assurance that data will be available to people who need it, when they need it"],
-"a": "The level of assurance that data will be accurate and trustworthy "
+"a": "The level of assurance that data will be available to people who need it, when they need it "
 },
 {
 "q": "Are the countermeasures that you need to put in place to avoid, mitigate, or counteract security risks due to threats or attacks.",
