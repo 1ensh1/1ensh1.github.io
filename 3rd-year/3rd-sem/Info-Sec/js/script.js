@@ -211,7 +211,10 @@ function resetCurrentQuiz() {
     const a = ASSESSMENTS.find(x => x.key === currentFormative);
     if (confirm(`Reset ${a ? a.label : currentFormative}? This will exit and clear all progress.`)) {
         answeredQuestions[currentFormative] = [];
+        wrongQuestionsMap[currentFormative] = [];
+        sessionWrongQuestions = [];
         saveProgress();
+        saveWrongQuestions();
         backToMenu();
     }
 }
