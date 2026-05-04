@@ -409,7 +409,7 @@
   {
     "q": "System administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
     "type": "tf",
-    "a": "TRUE"
+    "a": "True"
   },
   {
     "q": "A client is essentially software or a machine that provides services to other software or machines.",
