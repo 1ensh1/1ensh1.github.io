@@ -489,7 +489,7 @@
     "q": "____________ validate users' passwords",
     "type": "mc",
     "opts": ["Tunnels Authentication Servers", "Communication Authentication Servers", "Production Authentication Servers", "Bridges Authentication Servers"],
-    "a": "Communication Authentication Servers"
+    "a": "Production Authentication Servers"
   },
   {
     "q": "What are the benefits of cloud computing over local computing? Check all that apply.",
@@ -981,7 +981,7 @@
   {
     "q": "Virtualization is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
     "type": "tf",
-    "a": "False"
+    "a": "True"
   },
   {
     "q": "In smaller companies, teams assist admins might manage just one service",
