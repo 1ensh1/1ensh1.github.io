@@ -254,12 +254,6 @@
     "a": "False"
   },
   {
-    "q": "DHCP leases IP addresses to clients",
-    "type": "mc",
-    "opts": ["DNS", "FTP", "HTTP", "DHCP"],
-    "a": "DHCP"
-  },
-  {
     "q": "When you virtualize a server, you're putting lots of virtual instances on one server. Each instance contains a service.",
     "type": "tf",
     "a": "True"
@@ -465,11 +459,6 @@
     "a": "True"
   },
   {
-    "q": "Directory as a Service centralizes your organizations users and computers in one location so that you can add, update, and remove users and computers",
-    "type": "tf",
-    "a": "True"
-  },
-  {
     "q": "____________ allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
     "type": "mc",
     "opts": ["Platform as a Service", "Networking as a Service", "Software as a Service", "Infrastructure as a Service", "Directory as a Service"],
@@ -559,12 +548,6 @@
     "q": "Industry Standard Servers are not running 24/7",
     "type": "tf",
     "a": "False"
-  },
-  {
-    "q": "Maintenance is the stage where software is updated and hardware issues are fixed if and when they occur",
-    "type": "mc",
-    "opts": ["Maintenance", "Procurement", "Retirement", "Deployment"],
-    "a": "Maintenance"
   },
   {
     "q": "_________ request the services from a server",
@@ -919,12 +902,6 @@
     "q": "Database Administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
     "type": "tf",
     "a": "FALSE"
-  },
-  {
-    "q": "____________ , data is sent through SSH and is encrypted",
-    "type": "mc",
-    "opts": ["TFTP", "NTP", "SFTP", "FTP"],
-    "a": "SFTP"
   },
   {
     "q": "_________ is a legacy way to transfer files from one computer to another over the Internet",
