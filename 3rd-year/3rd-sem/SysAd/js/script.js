@@ -177,7 +177,9 @@ function startQuiz(key) {
 
     currentFormative = key;
     const all = allQuestions[key];
-    const unanswered = all.filter((_, i) => !answeredQuestions[key].includes(i));
+    const unanswered = all
+        .map((q, i) => ({ ...q, _origIdx: i }))
+        .filter(q => !answeredQuestions[key].includes(q._origIdx));
 
     if (unanswered.length === 0) {
         alert('You have answered all questions! Click "Reset Quiz" to start over.');
@@ -563,7 +565,9 @@ function checkAnswer() {
     }
 
     // Mark as answered
-    const originalIndex = allQuestions[currentFormative].findIndex(q => q.q === question.q);
+    const originalIndex = question._origIdx !== undefined
+        ? question._origIdx
+        : allQuestions[currentFormative].findIndex(q => q.q === question.q);
     if (originalIndex !== -1 && !answeredQuestions[currentFormative].includes(originalIndex)) {
         answeredQuestions[currentFormative].push(originalIndex);
         saveProgress();

@@ -508,11 +508,6 @@
     "a": "True"
   },
   {
-    "q": "In SaaS, the software is already pre-configured, and the user isn't deeply involved in the cloud configuration",
-    "type": "tf",
-    "a": "True"
-  },
-  {
     "q": "When considering software licenses, it's not important to review the terms and agreement",
     "type": "tf",
     "a": "False"
@@ -833,11 +828,6 @@
   },
   {
     "q": "NAS is a relatively affordable solution for FAT storage hardware",
-    "type": "tf",
-    "a": "True"
-  },
-  {
-    "q": "IMAP keeps messages on the email server.",
     "type": "tf",
     "a": "True"
   },
