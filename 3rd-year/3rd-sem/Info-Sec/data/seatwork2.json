@@ -1,0 +1,956 @@
+[
+  {
+    "q": "Which passwords below would not be strong passwords?",
+    "type": "mc",
+    "opts": ["123456789", "Dannielle456", "S+0pb1t1ngmyn@ils", "jpcuter45"],
+    "a": "123456789"
+  },
+  {
+    "q": "It run on host computers and control network traffic in and out of those machines.",
+    "type": "mc",
+    "opts": ["Anti-spam", "pop-up blocker", "Anti-spyware", "Host-based firewalls"],
+    "a": "Host-based firewalls"
+  },
+  {
+    "q": "It is a hardware-based encryption solution that is embedded in the system's motherboard and is enabled or disable in BIOS.",
+    "type": "mc",
+    "opts": ["Trusted Platform Module", "Hardware Security Module", "Hard Drive", "USB"],
+    "a": "Trusted Platform Module"
+  },
+  {
+    "q": "It is to reduce security risk by eliminating potential attack vectors and condensing the system's attack surface.",
+    "type": "mc",
+    "opts": ["security baseline", "patch", "trusted computing base", "Hardening"],
+    "a": "Hardening"
+  },
+  {
+    "q": "It protects applications from threats and vulnerabilities.",
+    "type": "mc",
+    "opts": ["Patch management", "Application hardening", "Application security", "Configuration baseline"],
+    "a": "Application security"
+  },
+  {
+    "q": "It ensures applications from dangers and vulnerabilities.",
+    "type": "mc",
+    "opts": ["Application security", "Configuration baseline", "Application hardening", "Patch management"],
+    "a": "Application security"
+  },
+  {
+    "q": "The practice is the best defense against this type of attack, especially if coupled with a vulnerability management program.",
+    "type": "mc",
+    "opts": ["Application security", "Application hardening", "Patch management", "Configuration baseline"],
+    "a": "Patch management"
+  },
+  {
+    "q": "It is the device that encourages the trade with respect to information handling whereas putting an extraordinary concern to a few focused-on operations.",
+    "type": "mc",
+    "opts": ["White listing", "Logging", "Auditing", "Blacklisting"],
+    "a": "Auditing"
+  },
+  {
+    "q": "It is a single, cumulative package that includes information that is used to address a problem in a software product.",
+    "type": "mc",
+    "opts": ["service pack", "Rollups", "hotfix", "patch"],
+    "a": "hotfix"
+  },
+  {
+    "q": "It is usually attached to your computer through ethernet port via router or a network switch and allow multiple computers to connect to your NAS device at the same time.",
+    "type": "mc",
+    "opts": ["Data storage", "Direct-attached storage", "Network-Attached Storage", "Storage area network"],
+    "a": "Network-Attached Storage"
+  },
+  {
+    "q": "It is the textual, visual, or aural content that is encountered as part of the user experience on websites.",
+    "type": "mc",
+    "opts": ["fuzzing", "Encryption", "Web content", "Proxy server"],
+    "a": "Web content"
+  },
+  {
+    "q": "It allows only identified programs to run.",
+    "type": "mc",
+    "opts": ["Logging", "White listing", "Blacklisting", "Auditing"],
+    "a": "White listing"
+  },
+  {
+    "q": "It gives guardians the ability to set parameters for what can show up on a browser.",
+    "type": "mc",
+    "opts": ["Defense in depth", "Pop-up blocker", "Site security", "Parental controls"],
+    "a": "Parental controls"
+  },
+  {
+    "q": "It is used to safeguard a user's browser activities regardless of the website being accessed.",
+    "type": "mc",
+    "opts": ["Proxy server", "Encryption", "Web content", "Fuzzing"],
+    "a": "Encryption"
+  },
+  {
+    "q": "It is collection of patches and hotfixes.",
+    "type": "mc",
+    "opts": ["rollups", "service pack", "hotfix", "patch"],
+    "a": "rollups"
+  },
+  {
+    "q": "It could be a collection of patches and hotfixes.",
+    "type": "mc",
+    "opts": ["service pack", "Rollups", "hotfix", "patch"],
+    "a": "Rollups"
+  },
+  {
+    "q": "It is a server application or appliance that acts as an intermediary for requests from clients seeking resources from servers that provide those resources.",
+    "type": "mc",
+    "opts": ["Web content", "Proxy server", "Encryption", "fuzzing"],
+    "a": "Proxy server"
+  },
+  {
+    "q": "It is a process of taking a finished application and making it more difficult to reverse engineer and tamper.",
+    "type": "mc",
+    "opts": ["Patch management", "Configuration baseline", "Application hardening", "Application security"],
+    "a": "Application hardening"
+  },
+  {
+    "q": "It enables the tracking of all interactions through which data, files or applications are stored, accessed or modified on a storage device or application.",
+    "type": "mc",
+    "opts": ["Blacklisting", "White listing", "Auditing", "Logging"],
+    "a": "Logging"
+  },
+  {
+    "q": "It may be a handle of taking a wrapped-up application and making it more troublesome to switch design and alter.",
+    "type": "mc",
+    "opts": ["Application security", "Application hardening", "Configuration baseline", "Patch management"],
+    "a": "Application hardening"
+  },
+  {
+    "q": "These are often necessary in order to fix existing problems with software that are noticed after the initial release.",
+    "type": "mc",
+    "opts": ["Patch management", "Application hardening", "Configuration baseline", "Application security"],
+    "a": "Patch management"
+  },
+  {
+    "q": "It is a software was originally developed to detect and remove computer viruses.",
+    "type": "mc",
+    "opts": ["Antivirus", "Anti-malware", "Anti-spam", "Anti-spyware"],
+    "a": "Antivirus"
+  },
+  {
+    "q": "It is the process of collecting and storing data over a period in order to analyze specific trends or record the data-based events/actions of a system, network or IT environment.",
+    "type": "mc",
+    "opts": ["Logging", "Auditing", "Blacklisting", "White listing"],
+    "a": "Logging"
+  },
+  {
+    "q": "It records either occasions that happen in a working system or other program runs, or messages between distinctive clients of a communication program.",
+    "type": "mc",
+    "opts": ["White listing", "Blacklisting", "Auditing", "Logging"],
+    "a": "Logging"
+  },
+  {
+    "q": "It is a hardware device that connects multiple devices on a computer network.",
+    "type": "mc",
+    "opts": ["firewall", "router", "load balancer", "switch"],
+    "a": "switch"
+  },
+  {
+    "q": "It was included as part of the original IEEE 802.11 standard and was intended to provide privacy.",
+    "type": "mc",
+    "opts": ["WPA2", "WPA", "WPA3", "WEP"],
+    "a": "WEP"
+  },
+  {
+    "q": "It manages the delivery and error checking of data packets.",
+    "type": "mc",
+    "opts": ["Presentation Layer", "Transport Layer", "Physical Layer", "Session Layer"],
+    "a": "Transport Layer"
+  },
+  {
+    "q": "This protocol provides 128-bit encryption and is currently the leading security mechanism for protecting web traffic including banking, e-commerce, secure email, and essentially any other secure website that might be encountered.",
+    "type": "mc",
+    "opts": ["HTTP", "SSL", "TLS", "HTTPS"],
+    "a": "HTTPS"
+  },
+  {
+    "q": "Its security stance treats everything not given specific and selective permission as suspicious.",
+    "type": "mc",
+    "opts": ["Wireless Networks", "VLAN Management", "Implicit deny", "Log analysis"],
+    "a": "Implicit deny"
+  },
+  {
+    "q": "802.11g was adopted.",
+    "type": "mc",
+    "opts": ["2009", "1999", "2003", "2014"],
+    "a": "2003"
+  },
+  {
+    "q": "802.11n Maximum distance.",
+    "type": "mc",
+    "opts": ["200 ft", "150 ft", "100 ft", "225 ft"],
+    "a": "225 ft"
+  },
+  {
+    "q": "It is a network that allows devices to connect and communicate wirelessly.",
+    "type": "mc",
+    "opts": ["802.11a", "802.11g", "wireless standards", "802.11b"],
+    "a": "wireless standards"
+  },
+  {
+    "q": "It is a firewall application installed on a server used to protect network segments from other network segments.",
+    "type": "mc",
+    "opts": ["Host firewall", "Network firewall", "Ingress traffic", "Egress traffic"],
+    "a": "Network firewall"
+  },
+  {
+    "q": "It is the use of various services, such as software development platforms, servers, storage and software, over the internet, often referred to as the \"cloud.\"",
+    "type": "mc",
+    "opts": ["Virtual Private Network", "VPN Concentrator", "Virtualization", "Cloud Computing"],
+    "a": "Cloud Computing"
+  },
+  {
+    "q": "It is used by enterprises to protect their employees/users from accessing and being infected by malicious Web traffic, websites and virus/malware.",
+    "type": "mc",
+    "opts": ["Network Monitoring Systems", "Network Address Translation", "DMZ", "Web Security Gateway"],
+    "a": "Web Security Gateway"
+  },
+  {
+    "q": "It is connection between machines is set up, managed, and terminal at layer 5.",
+    "type": "mc",
+    "opts": ["Physical Layer", "Session Layer", "Presentation Layer", "Transport Layer"],
+    "a": "Session Layer"
+  },
+  {
+    "q": "It is a firewall configuration used to secure hosts on a network segment.",
+    "type": "mc",
+    "opts": ["Network Monitoring Systems", "Network Address Translation", "DMZ", "Web Security Gateway"],
+    "a": "DMZ"
+  },
+  {
+    "q": "It continuously monitors your network, looking for possible malicious incidents and capturing information about them.",
+    "type": "mc",
+    "opts": ["Intrusion Detection Systems", "VLAN", "subnet", "Intrusion Prevention System"],
+    "a": "Intrusion Prevention System"
+  },
+  {
+    "q": "It is the security method added to WPA for wireless networks that provides stronger data protection and network access control.",
+    "type": "mc",
+    "opts": ["WPA2", "WEP", "WPA3", "WPA"],
+    "a": "WPA2"
+  },
+  {
+    "q": "It is a technique used to modify the network address information of a host while traffic is traversing a router or firewall.",
+    "type": "mc",
+    "opts": ["Network Address Translation", "Web Security Gateway", "DMZ", "Network Monitoring Systems"],
+    "a": "Network Address Translation"
+  },
+  {
+    "q": "A security administrator needs to implement a system that detects possible intrusions based upon a vendor provided list. Which of the following BEST describes this type of IDS?",
+    "type": "mc",
+    "opts": ["Behavior-based", "Signature based", "Heuristic", "Anomaly-based"],
+    "a": "Signature based"
+  },
+  {
+    "q": "It can be recognized where several organizations have comparable necessities and very willing to share infrastructure so as to take in the benefits of cloud computing.",
+    "type": "mc",
+    "opts": ["Private", "Community", "Public", "Hybrid"],
+    "a": "Community"
+  },
+  {
+    "q": "It is a firewall application installed on a host, used to protect the host from network-based attacks.",
+    "type": "mc",
+    "opts": ["Network firewall", "Host firewall", "Ingress traffic", "Egress traffic"],
+    "a": "Host firewall"
+  },
+  {
+    "q": "It characterizes computing functions into a universal set of rules and requirements in order to support interoperability between different products and software.",
+    "type": "mc",
+    "opts": ["Network Layer", "OSI Model", "Data Link Layer", "Physical Layer"],
+    "a": "OSI Model"
+  },
+  {
+    "q": "It is a component that provides networking capabilities for a computer.",
+    "type": "mc",
+    "opts": ["Network adapter", "Network operating system", "Device", "Media"],
+    "a": "Network adapter"
+  },
+  {
+    "q": "It implies empowering a individual to find or learn something for themselves.",
+    "type": "mc",
+    "opts": ["Heuristic", "Behavior-based", "Signature-based", "Anomaly-based"],
+    "a": "Heuristic"
+  },
+  {
+    "q": "It was first developed by Netscape in 1995 for the purpose of ensuring privacy, authentication, and data integrity in Internet communications.",
+    "type": "mc",
+    "opts": ["HTTP", "SSL", "TLS", "HTTPS"],
+    "a": "SSL"
+  },
+  {
+    "q": "Which among them has the strongest wireless security?",
+    "type": "mc",
+    "opts": ["WPA2", "WPA", "WEP", "WPA3"],
+    "a": "WPA3"
+  },
+  {
+    "q": "It is the opposite of a whitelist.",
+    "type": "mc",
+    "opts": ["White listing", "Blacklisting", "Auditing", "Logging"],
+    "a": "Blacklisting"
+  },
+  {
+    "q": "It is the proper testing of any input supplied by a user or application.",
+    "type": "mc",
+    "opts": ["Input validation vulnerability", "Server-side validation", "Client-side validation", "Input Validation"],
+    "a": "Input Validation"
+  },
+  {
+    "q": "It may try to close all pop-up windows, some may remove all advertising from a publisher's Web site, and still others may help you choose which pop-up windows you want to be closed with block list feature.",
+    "type": "mc",
+    "opts": ["pop-up blocker", "Anti-spam", "Anti-spyware", "Host-based firewalls"],
+    "a": "pop-up blocker"
+  },
+  {
+    "q": "It is where the malicious script comes from the current HTTP request.",
+    "type": "mc",
+    "opts": ["Cross-Site Request Forgery", "Stored XSS", "Cross-site scripting", "Reflected XSS"],
+    "a": "Reflected XSS"
+  },
+  {
+    "q": "These storage providers are responsible for keeping the data available and accessible, and the physical environment protected and running.",
+    "type": "mc",
+    "opts": ["Direct-attached storage", "Cloud storage", "Network-Attached Storage", "Storage area network"],
+    "a": "Cloud storage"
+  },
+  {
+    "q": "It is the tool that facilitates the business regarding data processing while putting a special concern to some targeted operations.",
+    "type": "mc",
+    "opts": ["White listing", "Blacklisting", "Auditing", "Logging"],
+    "a": "Auditing"
+  },
+  {
+    "q": "These are used to prevent email spam.",
+    "type": "mc",
+    "opts": ["Anti-malware", "Anti-spyware", "Anti-spam", "Antivirus"],
+    "a": "Anti-spam"
+  },
+  {
+    "q": "It is a fixed reference in the development cycle or an agreed-upon specification of a product at a point in time.",
+    "type": "mc",
+    "opts": ["Configuration baseline", "Patch management", "Application security", "Application hardening"],
+    "a": "Configuration baseline"
+  },
+  {
+    "q": "It can also include malware removal capabilities.",
+    "type": "mc",
+    "opts": ["Antivirus", "Anti-spyware", "Anti-malware", "Anti-spam"],
+    "a": "Anti-malware"
+  },
+  {
+    "q": "It is software that prevents pop-up windows from appearing on a website.",
+    "type": "mc",
+    "opts": ["Site security", "Defense in depth", "Parental controls", "Pop-up blocker"],
+    "a": "Pop-up blocker"
+  },
+  {
+    "q": "It is digital storage that is attached directly to a computer or a server.",
+    "type": "mc",
+    "opts": ["Data storage", "Direct-attached storage", "Network-Attached Storage", "Storage area network"],
+    "a": "Direct-attached storage"
+  },
+  {
+    "q": "It is to decrease security hazard by disposing of potential assault vectors and condensing the system's assault surface.",
+    "type": "mc",
+    "opts": ["trusted computing base", "security baseline", "patch", "hardening"],
+    "a": "hardening"
+  },
+  {
+    "q": "It arises when an application receives data in an HTTP request and includes that data within the immediate response in an unsafe way.",
+    "type": "mc",
+    "opts": ["Cross-site scripting", "Stored cross-site scripting", "Reflected cross-site scripting", "Exception"],
+    "a": "Reflected cross-site scripting"
+  },
+  {
+    "q": "It is a set of changes to a computer program or its supporting data designed to update, fix, or improve it.",
+    "type": "mc",
+    "opts": ["patch", "Hardening", "trusted computing base", "security baseline"],
+    "a": "patch"
+  },
+  {
+    "q": "These are primarily used to enhance accessibility of storage devices, such as disk arrays and tape libraries, to servers so that the devices appear to the operating system as locally attached devices.",
+    "type": "mc",
+    "opts": ["Direct-attached storage", "Data storage", "Network-Attached Storage", "Storage area network"],
+    "a": "Storage area network"
+  },
+  {
+    "q": "It directly connected nodes are used to perform node-to-node data transfer where data is packaged into frames.",
+    "type": "mc",
+    "opts": ["OSI Model", "Network Layer", "Data Link Layer", "Physical Layer"],
+    "a": "Data Link Layer"
+  },
+  {
+    "q": "It is a network switch that contains a mapping of device information to VLAN.",
+    "type": "mc",
+    "opts": ["Wireless Networks", "Log analysis", "VLAN Management", "Implicit deny"],
+    "a": "VLAN Management"
+  },
+  {
+    "q": "It allows a user on one system to login to a remote system and issue commands in a command window of the remote system.",
+    "type": "mc",
+    "opts": ["ICMP", "Telnet", "SNMP", "Secure Shell (SSH)"],
+    "a": "Telnet"
+  },
+  {
+    "q": "It means enabling a person to discover or learn something for themselves.",
+    "type": "mc",
+    "opts": ["Heuristic", "Signature-based", "Anomaly-based", "Behavior-based"],
+    "a": "Heuristic"
+  },
+  {
+    "q": "It protects against flooding of the Ethernet switching table, and is enabled on Layer 2 interfaces.",
+    "type": "mc",
+    "opts": ["VLAN Management", "MAC limiting", "MAC Filtering", "Network separation"],
+    "a": "MAC limiting"
+  },
+  {
+    "q": "It is used by network devices, including routers, to send error messages and operational information indicating, for example, that a requested service is not available or that a host or router could not be reached.",
+    "type": "mc",
+    "opts": ["SNMP", "ICMP", "Telnet", "Secure Shell (SSH)"],
+    "a": "ICMP"
+  },
+  {
+    "q": "It is the predecessor to the modern TLS encryption used today.",
+    "type": "mc",
+    "opts": ["SSL", "HTTPS", "HTTP", "TLS"],
+    "a": "SSL"
+  },
+  {
+    "q": "It is designed to monitor and manage the network traffic flow over a network.",
+    "type": "mc",
+    "opts": ["Network Address Translation", "DMZ", "Network Monitoring Systems", "Web Security Gateway"],
+    "a": "Network Monitoring Systems"
+  },
+  {
+    "q": "These are inspections of an area where work is proposed, to gather information for a design or an estimate to complete the initial tasks required for an outdoor activity.",
+    "type": "mc",
+    "opts": ["WPA", "Site Surveys", "Captive Portals", "WEP"],
+    "a": "Site Surveys"
+  },
+  {
+    "q": "It is the one provided for operation in the 5GHz frequency, with data rates up to 54Mbps.",
+    "type": "mc",
+    "opts": ["802.11a", "802.11g", "802.11b", "wireless standards"],
+    "a": "802.11a"
+  },
+  {
+    "q": "It was designed as the interim successor to WEP.",
+    "type": "mc",
+    "opts": ["WPA2", "WPA3", "WPA", "WEP"],
+    "a": "WPA"
+  },
+  {
+    "q": "It provides protection against a multitude of threats without adding to your device-management burden.",
+    "type": "mc",
+    "opts": ["switch", "firewall", "load balancer", "all-in-one security appliance"],
+    "a": "all-in-one security appliance"
+  },
+  {
+    "q": "It enhances port security by limiting the number of MAC addresses that can be learned within a VLAN.",
+    "type": "mc",
+    "opts": ["Network separation", "VLAN Management", "MAC Filtering", "MAC limiting"],
+    "a": "MAC limiting"
+  },
+  {
+    "q": "It is a conceptual framework used to describe the functions of a networking system.",
+    "type": "mc",
+    "opts": ["Data Link Layer", "Network Layer", "Physical Layer", "OSI Model"],
+    "a": "OSI Model"
+  },
+  {
+    "q": "It forwards the packet based on the information available in the routing table.",
+    "type": "mc",
+    "opts": ["load balancer", "switch", "firewall", "router"],
+    "a": "router"
+  },
+  {
+    "q": "It is a file transfer protocol like FTP but is much more limited.",
+    "type": "mc",
+    "opts": ["TFTP", "SFTP", "FTP", "FTPS"],
+    "a": "TFTP"
+  },
+  {
+    "q": "It is a network protocol that provides file transfer and manipulation functionality over any reliable data stream.",
+    "type": "mc",
+    "opts": ["TFTP", "SFTP", "FTP", "FTPS"],
+    "a": "SFTP"
+  },
+  {
+    "q": "It is a general term for archiving data in electromagnetic or other forms for use by a computer or device.",
+    "type": "mc",
+    "opts": ["Direct-attached storage", "Data storage", "Storage area network", "Network-Attached Storage"],
+    "a": "Data storage"
+  },
+  {
+    "q": "A security administrator has been assigned to review the security posture of the standard corporate system image for virtual machines. The security administrator conducts a thorough review of the system logs, installation procedures, and network configuration of the VM image. Upon reviewing the access logs and user accounts, the security administrator determines that several accounts will not be used in production. Which of the following would correct the deficiencies?",
+    "type": "mc",
+    "opts": ["Disable remote login", "Host hardening", "Mandatory access controls", "Disabling services"],
+    "a": "Disabling services"
+  },
+  {
+    "q": "It is list of things, such as usernames or IP addresses, that are denied get to a certain system or convention.",
+    "type": "mc",
+    "opts": ["Logging", "Blacklisting", "White listing", "Auditing"],
+    "a": "Blacklisting"
+  },
+  {
+    "q": "It is a quality assurance technique used to discover coding errors and security loopholes in software, operating systems or networks.",
+    "type": "mc",
+    "opts": ["Encryption", "Proxy server", "Web content", "fuzzing"],
+    "a": "fuzzing"
+  },
+  {
+    "q": "It alludes to all computer system's equipment, firmware and computer program components that combine to supply the system with a secure environment.",
+    "type": "mc",
+    "opts": ["trusted computing base", "patch", "security baseline", "hardening"],
+    "a": "trusted computing base"
+  },
+  {
+    "q": "It indicates serious problems that a reasonable application should not try to catch.",
+    "type": "mc",
+    "opts": ["False", "Exception", "Error", "True"],
+    "a": "Error"
+  },
+  {
+    "q": "It is a collection of updates and fixes, called patches, for an operating system or a software program.",
+    "type": "mc",
+    "opts": ["rollups", "service pack", "patch", "hotfix"],
+    "a": "service pack"
+  },
+  {
+    "q": "It is a phrase that has become widely adopted to refer to employees who bring their own computing devices -- such as smartphones, laptops and tablets -- to the workplace for use and connectivity on the secure corporate network.",
+    "type": "mc",
+    "opts": ["BYOD", "strong password", "Host-based firewalls", "cable lock"],
+    "a": "BYOD"
+  },
+  {
+    "q": "What shouldn't your password consist of?",
+    "type": "mc",
+    "opts": ["Using symbols and characters", "Keeping the password for a very long time.", "Change password frequently", "Very short.", "Personal info"],
+    "a": "Personal info"
+  },
+  {
+    "q": "It is the method of collecting and putting away information over a period in arrange to analyze patterns or record the data-based events/actions of a system, organize or IT environment.",
+    "type": "mc",
+    "opts": ["White listing", "Blacklisting", "Auditing", "Logging"],
+    "a": "Logging"
+  },
+  {
+    "q": "It is a process of protecting files, databases, and accounts on a network.",
+    "type": "mc",
+    "opts": ["Site security", "Defense in depth", "Data Security", "Web content Security"],
+    "a": "Data Security"
+  },
+  {
+    "q": "It is performed to ensure only properly formed data is entering the workflow in an information system, preventing malformed data from persisting in the database and triggering malfunction of various downstream components.",
+    "type": "mc",
+    "opts": ["Server-side validation", "Input validation vulnerability", "Client-side validation", "Input Validation"],
+    "a": "Input Validation"
+  },
+  {
+    "q": "It also known as data validation.",
+    "type": "mc",
+    "opts": ["Server-side validation", "Client-side validation", "Input Validation", "Input validation vulnerability"],
+    "a": "Input Validation"
+  },
+  {
+    "q": "It provides services for computers connected to a network.",
+    "type": "mc",
+    "opts": ["Device", "Network adapter", "Media", "Network operating system"],
+    "a": "Network operating system"
+  },
+  {
+    "q": "These are used to increase capacity (concurrent users) and reliability of applications.",
+    "type": "mc",
+    "opts": ["firewall", "switch", "load balancer", "router"],
+    "a": "load balancer"
+  },
+  {
+    "q": "802.11a was adopted.",
+    "type": "mc",
+    "opts": ["1999", "2009", "2014", "2003"],
+    "a": "1999"
+  },
+  {
+    "q": "It is type of cloud computing model offers users the hardware infrastructure, the software product and interrelates with the users through a front-end gateway or portal.",
+    "type": "mc",
+    "opts": ["DNS", "PaaS", "IaaS", "SaaS"],
+    "a": "SaaS"
+  },
+  {
+    "q": "It includes verifying the access points that are on the network, identifying any that shouldn't be there or have security issues, and detecting attacks on APs/clients.",
+    "type": "mc",
+    "opts": ["Network-based Intrusion Detection System", "Wireless Intrusion Prevention System", "Wireless-based Intrusion Detection System", "Network-based Intrusion Prevention System"],
+    "a": "Wireless-based Intrusion Detection System"
+  },
+  {
+    "q": "It refers to the detection of attacks by looking for specific patterns, such as byte sequences in network traffic, or known malicious instruction sequences used by malware.",
+    "type": "mc",
+    "opts": ["Heuristic", "Behavior-based", "Anomaly-based", "Signature-based"],
+    "a": "Signature-based"
+  },
+  {
+    "q": "It operates in the 2.4GHz frequency and provides a data rate up to 11 Mbps.",
+    "type": "mc",
+    "opts": ["802.11g", "wireless standards", "802.11a", "802.11b"],
+    "a": "802.11b"
+  },
+  {
+    "q": "It is an Internet Standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behavior.",
+    "type": "mc",
+    "opts": ["ICMP", "SNMP", "Secure Shell (SSH)", "Telnet"],
+    "a": "SNMP"
+  },
+  {
+    "q": "The communications between a computing system are split into seven different abstraction layers.",
+    "type": "mc",
+    "opts": ["Network Layer", "Physical Layer", "Data Link Layer", "OSI Model"],
+    "a": "OSI Model"
+  },
+  {
+    "q": "It is a cryptographic network protocol for operating network services securely over an unsecured network.",
+    "type": "mc",
+    "opts": ["ICMP", "Telnet", "Secure Shell (SSH)", "SNMP"],
+    "a": "Secure Shell (SSH)"
+  },
+  {
+    "q": "It is the protocol used to transfer data over the web. It is part of the Internet protocol suite and defines commands and services used for transmitting webpage data.",
+    "type": "mc",
+    "opts": ["HTTPS", "SSL", "HTTP", "TLS"],
+    "a": "HTTP"
+  },
+  {
+    "q": "It enables an administrator to configure individual switch ports to allow only a specified number of source MAC addresses ingress the port.",
+    "type": "mc",
+    "opts": ["Port Security", "Network separation", "Flood guards", "Loop protection"],
+    "a": "Port Security"
+  },
+  {
+    "q": "WPS stands for:",
+    "type": "mc",
+    "opts": ["Wireless Protected Setup", "WiFi Protocol Setup", "WiFi Protected System", "WiFi Protected Setup"],
+    "a": "WiFi Protected Setup"
+  },
+  {
+    "q": "A standard set of rules that allow electronic devices to communicate with each other.",
+    "type": "mc",
+    "opts": ["Media", "Protocol", "Network adapter", "Network operating system"],
+    "a": "Protocol"
+  },
+  {
+    "q": "It is used to transfer files between computers on a network.",
+    "type": "mc",
+    "opts": ["FTP", "NetBIOS", "SFTP", "Internet protocol security"],
+    "a": "FTP"
+  },
+  {
+    "q": "It is a layer two traffic control feature on Cisco Catalyst switches.",
+    "type": "mc",
+    "opts": ["Network separation", "Flood guards", "Loop protection", "Port Security"],
+    "a": "Port Security"
+  },
+  {
+    "q": "How might you be able to fix a weak password?",
+    "type": "mc",
+    "opts": ["Use symbols and different characters.", "All of the above", "Using a mixture of lower case and upper-case letters", "Make it longer"],
+    "a": "All of the above"
+  },
+  {
+    "q": "It refers to all computer system's hardware, firmware and software components that combine to provide the system with a secure environment.",
+    "type": "mc",
+    "opts": ["security baseline", "patch", "Hardening", "trusted computing base"],
+    "a": "trusted computing base"
+  },
+  {
+    "q": "It is a type of software that is designed to detect and remove unwanted spyware programs.",
+    "type": "mc",
+    "opts": ["Antivirus", "Anti-malware", "Anti-spyware", "Anti-spam"],
+    "a": "Anti-spyware"
+  },
+  {
+    "q": "It is an input validation and error recovery at the browser.",
+    "type": "mc",
+    "opts": ["Client-side validation", "Input validation vulnerability", "Input Validation", "Server-side validation"],
+    "a": "Client-side validation"
+  },
+  {
+    "q": "This ensures that if an attacker breaches one layer of defenses, there are additional layers of defense to keep them out of the critical areas of an environment.",
+    "type": "mc",
+    "opts": ["Site security", "Defense in depth", "Web content Security", "Data Security"],
+    "a": "Defense in depth"
+  },
+  {
+    "q": "This is the family of specifications for wireless local area networks (WLANs) developed by a working group of the Institute of Electrical and Electronics Engineers (IEEE).",
+    "type": "mc",
+    "opts": ["802.11", "3G", "802.5", "802.3"],
+    "a": "802.11"
+  },
+  {
+    "q": "It serves as preventive control against denial-of-service (DoS) or distributed denial-of-service (DDoS) attacks.",
+    "type": "mc",
+    "opts": ["Network separation", "Loop protection", "Port Security", "Flood guards"],
+    "a": "Flood guards"
+  },
+  {
+    "q": "802.11ac was adopted.",
+    "type": "mc",
+    "opts": ["2014", "2003", "1999", "2009"],
+    "a": "2014"
+  },
+  {
+    "q": "It is an intrusion detection system for detecting both network and computer intrusions and misuse by monitoring system activity and classifying it as either normal or anomalous.",
+    "type": "mc",
+    "opts": ["Behavior-based", "Signature-based", "Anomaly-based", "Heuristic"],
+    "a": "Anomaly-based"
+  },
+  {
+    "q": "It is a system that is designed to protect a computer or a computer network from network-based attacks.",
+    "type": "mc",
+    "opts": ["load balancer", "all-in-one security appliance", "switch", "firewall"],
+    "a": "firewall"
+  },
+  {
+    "q": "It increases the efficiency of STP, RSTP, and MSTP by preventing ports from moving into a forwarding state that would result in a loop opening in the network.",
+    "type": "mc",
+    "opts": ["Flood guards", "Loop protection", "Port Security", "Network separation"],
+    "a": "Loop protection"
+  },
+  {
+    "q": "The formats or translates data for the application layer based on the syntax or semantics that the application accepts.",
+    "type": "mc",
+    "opts": ["Session Layer", "Presentation Layer", "Transport Layer", "Physical Layer"],
+    "a": "Presentation Layer"
+  },
+  {
+    "q": "It identifies communication partners, resource availability, and synchronizes communication.",
+    "type": "mc",
+    "opts": ["Presentation Layer", "Session Layer", "Transport Layer", "Application Layer"],
+    "a": "Application Layer"
+  },
+  {
+    "q": "It is a type of computer security vulnerability typically found in web applications.",
+    "type": "mc",
+    "opts": ["Cross-site scripting", "Stored cross-site scripting", "Reflected cross-site scripting", "Exception"],
+    "a": "Cross-site scripting"
+  },
+  {
+    "q": "It is a computer program used to prevent, detect, and remove malware.",
+    "type": "mc",
+    "opts": ["Antivirus", "Anti-spyware", "Anti-spam", "Anti-malware"],
+    "a": "Antivirus"
+  },
+  {
+    "q": "It allows access from all items, except those included the list.",
+    "type": "mc",
+    "opts": ["White listing", "Blacklisting", "Auditing", "Logging"],
+    "a": "Blacklisting"
+  },
+  {
+    "q": "It is a secure network protocol suite that authenticates and encrypts the packets of data sent over an Internet Protocol network.",
+    "type": "mc",
+    "opts": ["NetBIOS", "Internet protocol security", "FTP", "SFTP"],
+    "a": "Internet protocol security"
+  },
+  {
+    "q": "It is a device that acts as a reverse proxy and distributes network or application traffic across several servers.",
+    "type": "mc",
+    "opts": ["switch", "firewall", "load balancer", "router"],
+    "a": "load balancer"
+  },
+  {
+    "q": "It is a type of cloud computing distributes a full computer infrastructure via the web or Internet.",
+    "type": "mc",
+    "opts": ["SaaS", "PaaS", "DNS", "IaaS"],
+    "a": "IaaS"
+  },
+  {
+    "q": "It is a type of networking device that provides secure creation of VPN connections and delivery of messages between VPN nodes.",
+    "type": "mc",
+    "opts": ["Virtual Private Network", "Cloud Computing", "VPN Concentrator", "Virtualization"],
+    "a": "VPN Concentrator"
+  },
+  {
+    "q": "It is a type of cloud computing offers a full or partial product development tools or environment that users can access and utilize online.",
+    "type": "mc",
+    "opts": ["DNS", "IaaS", "SaaS", "PaaS"],
+    "a": "PaaS"
+  },
+  {
+    "q": "These rules include what type of data may be transmitted, what commands are used to send and receive data, and how data transfers are confirmed.",
+    "type": "mc",
+    "opts": ["Network operating system", "Network adapter", "Media", "Protocol"],
+    "a": "Protocol"
+  },
+  {
+    "q": "It is basically utilized by arrange directors and security staff to screen the operations of a network.",
+    "type": "mc",
+    "opts": ["Web Security Gateway", "Network Address Translation", "Network Monitoring Systems", "DMZ"],
+    "a": "Network Monitoring Systems"
+  },
+  {
+    "q": "Which of the following is the appropriate network structure used to protect servers and services that must be provided to external clients without eliminating access for internal users?",
+    "type": "mc",
+    "opts": ["NAC", "VLAN", "DMZ", "Subnet"],
+    "a": "DMZ"
+  },
+  {
+    "q": "It should include Microsoft's recommendations for configuring those settings.",
+    "type": "mc",
+    "opts": ["trusted computing base", "Hardening", "security baseline", "patch"],
+    "a": "security baseline"
+  },
+  {
+    "q": "It indicates conditions that a reasonable application might want to catch.",
+    "type": "mc",
+    "opts": ["Exception", "True", "Error", "False"],
+    "a": "Exception"
+  },
+  {
+    "q": "It is a crypto processor that can be used to enhance security.",
+    "type": "mc",
+    "opts": ["Hardware Security Module", "Trusted Platform Module", "USB", "Hard Drive"],
+    "a": "Hardware Security Module"
+  },
+  {
+    "q": "It is malware detection evaluates an object based on its intended actions before it can execute that behavior.",
+    "type": "mc",
+    "opts": ["Behavior-based", "Signature-based", "Heuristic", "Anomaly-based"],
+    "a": "Behavior-based"
+  },
+  {
+    "q": "802.11n was adopted.",
+    "type": "mc",
+    "opts": ["2003", "1999", "2009", "2014"],
+    "a": "2009"
+  },
+  {
+    "q": "It is the combination of public and private cloud where the infrastructure partially hosted inside the organization and externally in a public cloud.",
+    "type": "mc",
+    "opts": ["Public", "Private", "Hybrid", "Community"],
+    "a": "Hybrid"
+  },
+  {
+    "q": "It is comprehensive updates with new features.",
+    "type": "mc",
+    "opts": ["Rollups", "service pack", "hotfix", "patch"],
+    "a": "service pack"
+  },
+  {
+    "q": "It is characterized by the ability to decide at each step of the execution whether the program is in a safe state.",
+    "type": "mc",
+    "opts": ["Input Validation", "Input validation vulnerability", "Server-side validation", "Client-side validation"],
+    "a": "Input validation vulnerability"
+  },
+  {
+    "q": "It is the term used for analysis of computer-generated records for helping organizations, businesses or networks in proactively and reactively mitigating different risks.",
+    "type": "mc",
+    "opts": ["Log analysis", "VLAN Management", "Implicit deny", "Wireless Networks"],
+    "a": "Log analysis"
+  },
+  {
+    "q": "It is a unit of physical hardware or equipment that provides one or more computing functions within a computer system.",
+    "type": "mc",
+    "opts": ["Media", "Network adapter", "Device", "Network operating system"],
+    "a": "Device"
+  },
+  {
+    "q": "It is a network security device that monitors incoming and outgoing network traffic and permits, or blocks data packets based on a set of security rules.",
+    "type": "mc",
+    "opts": ["router", "load balancer", "firewall", "switch"],
+    "a": "firewall"
+  },
+  {
+    "q": "It is the up-to-date encryption protocol that is still being implemented online.",
+    "type": "mc",
+    "opts": ["TLS", "HTTPS", "SSL", "HTTP"],
+    "a": "TLS"
+  },
+  {
+    "q": "It may enable a wired connection (such as Ethernet) or a wireless connection (such as Wi-Fi) to a local area network.",
+    "type": "mc",
+    "opts": ["Network adapter", "Network operating system", "Device", "Media"],
+    "a": "Network adapter"
+  },
+  {
+    "q": "It refers to the act of creating a virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources.",
+    "type": "mc",
+    "opts": ["Cloud Computing", "VPN Concentrator", "Virtualization", "Virtual Private Network"],
+    "a": "Virtualization"
+  },
+  {
+    "q": "It is concerned with electrically or optically transmitting raw unstructured data bits across the network from the physical layer of the sending device to the physical layer of the receiving device.",
+    "type": "mc",
+    "opts": ["Physical Layer", "OSI Model", "Data Link Layer", "Network Layer"],
+    "a": "Physical Layer"
+  },
+  {
+    "q": "It was released in June 2018, is the successor to WPA2, which security experts describe as \"broken.\"",
+    "type": "mc",
+    "opts": ["WPA2", "WEP", "WPA3", "WPA"],
+    "a": "WPA3"
+  },
+  {
+    "q": "Which option is not a good trait for your password?",
+    "type": "mc",
+    "opts": ["Short password", "No personal information", "Long password", "Different symbols within the password."],
+    "a": "Short password"
+  },
+  {
+    "q": "These are commonly used to present a landing or log-in page which may require authentication, payment, acceptance of an end-user license agreement, acceptable use policy, survey completion, or other valid credentials that both the host and user agree to adhere by.",
+    "type": "mc",
+    "opts": ["WEP", "Site Surveys", "Captive Portals", "WPA"],
+    "a": "Captive Portals"
+  },
+  {
+    "q": "It can be used to access region-restricted websites, shield your browsing activity from prying eyes on public Wi-Fi, and more.",
+    "type": "mc",
+    "opts": ["Cloud Computing", "Virtual Private Network", "VPN Concentrator", "Virtualization"],
+    "a": "Virtual Private Network"
+  },
+  {
+    "q": "It is the tool used for dividing a network into smaller parts which are called subnetworks or network segments.",
+    "type": "mc",
+    "opts": ["Network separation", "VLAN Management", "MAC Filtering", "MAC limiting"],
+    "a": "Network separation"
+  },
+  {
+    "q": "802.11ac Maximum distance.",
+    "type": "mc",
+    "opts": ["300 ft", "150 ft", "90 ft", "100 ft"],
+    "a": "300 ft"
+  },
+  {
+    "q": "It referred to as internal cloud or corporate cloud.",
+    "type": "mc",
+    "opts": ["Hybrid", "Community", "Public", "Private"],
+    "a": "Private"
+  },
+  {
+    "q": "It is one base on the usual mainstream model, in which service provider makes resources, such as storage and application, obtainable to the general public over the Internet or via web applications/web services.",
+    "type": "mc",
+    "opts": ["Community", "Private", "Public", "Hybrid"],
+    "a": "Public"
+  },
+  {
+    "q": "It can include specifications such as voltages, pin layout, cabling, and radio frequencies.",
+    "type": "mc",
+    "opts": ["Network Layer", "Physical Layer", "Data Link Layer", "OSI Model"],
+    "a": "Physical Layer"
+  },
+  {
+    "q": "It is a network security/threat prevention technology that examines network traffic flows to detect and prevent vulnerability exploits.",
+    "type": "mc",
+    "opts": ["Wireless-based Intrusion Detection System", "Network-based Intrusion Prevention System", "Wireless Intrusion Prevention System", "Network-based Intrusion Detection System"],
+    "a": "Network-based Intrusion Prevention System"
+  },
+  {
+    "q": "It allows users to connect to a network while allowing them to remain mobile.",
+    "type": "mc",
+    "opts": ["802.11a", "802.11g", "WLAN", "802.11b", "wireless standards"],
+    "a": "WLAN"
+  }
+]
