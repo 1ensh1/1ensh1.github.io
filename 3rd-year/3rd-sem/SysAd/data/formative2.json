@@ -492,11 +492,6 @@
     "a": "True"
   },
   {
-    "q": "Candidate authority gives a certificate to a website saying that it trusts and that you control the web server. It also verifies that you are who you say you are",
-    "type": "tf",
-    "a": "False"
-  },
-  {
     "q": "TLS is the most popular way to keep communications secure over a network",
     "type": "mc",
     "opts": ["HTTP", "TLS", "SSL", "HTTPS"],
