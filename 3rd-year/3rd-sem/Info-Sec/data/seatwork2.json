@@ -222,12 +222,6 @@
     "a": "DMZ"
   },
   {
-    "q": "It continuously monitors your network, looking for possible malicious incidents and capturing information about them.",
-    "type": "mc",
-    "opts": ["Intrusion Detection Systems", "VLAN", "subnet", "Intrusion Prevention System"],
-    "a": "Intrusion Prevention System"
-  },
-  {
     "q": "It is the security method added to WPA for wireless networks that provides stronger data protection and network access control.",
     "type": "mc",
     "opts": ["WPA2", "WEP", "WPA3", "WPA"],
@@ -454,12 +448,6 @@
     "type": "mc",
     "opts": ["Network separation", "VLAN Management", "MAC Filtering", "MAC limiting"],
     "a": "MAC limiting"
-  },
-  {
-    "q": "It is a conceptual framework used to describe the functions of a networking system.",
-    "type": "mc",
-    "opts": ["Data Link Layer", "Network Layer", "Physical Layer", "OSI Model"],
-    "a": "OSI Model"
   },
   {
     "q": "It forwards the packet based on the information available in the routing table.",
@@ -784,12 +772,6 @@
     "type": "mc",
     "opts": ["Network operating system", "Network adapter", "Media", "Protocol"],
     "a": "Protocol"
-  },
-  {
-    "q": "It is basically utilized by arrange directors and security staff to screen the operations of a network.",
-    "type": "mc",
-    "opts": ["Web Security Gateway", "Network Address Translation", "Network Monitoring Systems", "DMZ"],
-    "a": "Network Monitoring Systems"
   },
   {
     "q": "Which of the following is the appropriate network structure used to protect servers and services that must be provided to external clients without eliminating access for internal users?",

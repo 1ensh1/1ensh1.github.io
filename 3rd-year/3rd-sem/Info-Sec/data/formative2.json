@@ -594,12 +594,6 @@
     "a": "White listing"
   },
   {
-    "q": "It could be a collection of security settings.",
-    "type": "mc",
-    "opts": ["trusted computing base", "security baseline", "hardening", "patch"],
-    "a": "security baseline"
-  },
-  {
     "q": "It may be a set of changes to a computer program or its supporting information planned to upgrade, settle, or progress it.",
     "type": "mc",
     "opts": ["hardening", "security baseline", "patch", "trusted computing base"],
@@ -1156,12 +1150,6 @@
     "type": "mc",
     "opts": ["Network-Attached Storage", "Storage area network", "Direct-attached storage", "Cloud storage"],
     "a": "Cloud storage"
-  },
-  {
-    "q": "It is a concept in which multiple layers of security are used to defend assets.",
-    "type": "mc",
-    "opts": ["Site security", "Parental controls", "Defense in depth", "Pop-up blocker"],
-    "a": "Defense in depth"
   },
   {
     "q": "It is a dedicated file storage system which can be connected to many different devices at the same time and allows access to the same disk.",
