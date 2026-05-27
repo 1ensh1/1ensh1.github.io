@@ -9,6 +9,7 @@ let score = 0;
 let loadedFormatives = new Set();
 const wrongQuestionsMap = {};
 let isPracticeMode = false;
+let isAllWrongPractice = false;
 let sessionWrongQuestions = [];
 
 // Matching state
@@ -134,7 +135,7 @@ function updateFormativeDisplay(key, hasError = false) {
     const answered   = answeredQuestions[key].length;
     const unanswered = total - answered;
 
-    if (unanswered === 0) {
+    if (unanswered <= 0) {
         countEl.textContent = `All ${total} questions answered!`;
         countEl.style.color = '#ffffff';
         statusEl.innerHTML  = '<span class="completed-badge">✓ Completed</span>';
@@ -193,6 +194,7 @@ function startQuiz(key) {
     userAnswer = '';
     userAnswers = [];
     isPracticeMode = false;
+    isAllWrongPractice = false;
     sessionWrongQuestions = [];
     showScreen('quiz');
     displayQuestion();
@@ -552,7 +554,7 @@ function checkAnswer() {
 
     if (isCorrect) {
         score++;
-        if (isPracticeMode) {
+        if (isAllWrongPractice) {
             wrongQuestionsMap[currentFormative] = (wrongQuestionsMap[currentFormative] || [])
                 .filter(q => q.q !== question.q);
             saveWrongQuestions();
@@ -640,6 +642,7 @@ function showResults() {
 
     const wasPractice = isPracticeMode;
     isPracticeMode = false;
+    isAllWrongPractice = false;
 
     const sessionBtn = document.getElementById('practice-session-btn');
     if (!wasPractice && sessionWrongQuestions.length > 0) {
@@ -667,6 +670,7 @@ function practiceSessionWrong(key) {
     quizQuestions = shuffleArray([...sessionWrongQuestions]);
     sessionWrongQuestions = [];
     isPracticeMode = true;
+    isAllWrongPractice = false;
     currentQuestionIndex = 0;
     score = 0;
     userAnswer = '';
@@ -679,6 +683,7 @@ function practiceWrongAnswers(key) {
     currentFormative = key;
     quizQuestions = shuffleArray(wrongQuestionsMap[key] || []);
     isPracticeMode = true;
+    isAllWrongPractice = true;
     currentQuestionIndex = 0;
     score = 0;
     userAnswer = '';
