@@ -26,7 +26,7 @@ const ASSESSMENTS = [
    // { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
     //{ key: 'f5', label: 'Formative 6', file: 'data/formative6.json', icon: '📝', type: 'formative' },
     //{ key: 'f6', label: 'Formative 7', file: 'data/formative7.json', icon: '📝', type: 'formative' },
-    //{ key: 'mt', label: 'Midterm Exam', file: 'data/midterm.json', icon: '📄', type: 'midterm' },
+    { key: 'mt', label: 'Midterm Exam', file: 'data/midterm.json', icon: '📄', type: 'midterm' },
     { key: 'sw1', label: 'Seatwork 1', file: 'data/seatwork1.json', icon: '📝', type: 'seatwork' }, 
     { key: 'sw2', label: 'Seatwork 2', file: 'data/seatwork2.json', icon: '📝', type: 'seatwork' },
 ];
