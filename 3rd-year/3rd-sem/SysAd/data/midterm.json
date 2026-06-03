@@ -1,0 +1,2155 @@
+[
+  {
+    "q": "Reproduction case is creating a roadmap to retrace the steps that led the user to an unexpected outcome",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A drawback of Cloud Computing is Dependency",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Dependency is not a drawback of Cloud Computing",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is advisable to use administrator rights for tasks that don't require them",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "As a SysAdmin, you don't have think before you type",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Avoid using administrator rights for tasks that don't require them",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is a virtual machine running the same configuration as a production environment",
+    "type": "mc",
+    "opts": ["Geographical environment", "Test environment", "Live environment", "IT infrastructure"],
+    "a": "Test environment"
+  },
+  {
+    "q": "____________ lists company's policies, routine procedures, and more",
+    "type": "mc",
+    "opts": ["Documentation", "Conjectures", "Presumptions", "Assumptions"],
+    "a": "Documentation"
+  },
+  {
+    "q": "SysAdmins need to document what they do and have a way to revert to the previous state",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The key to safely making changes is to always run them through a test environment first.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "__________ is where users can request help on an issue and then you can track your troubleshooting work",
+    "type": "mc",
+    "opts": ["Database system", "Ordering system", "Ticketing system", "Reporting system"],
+    "a": "Ticketing system"
+  },
+  {
+    "q": "Deployment is where hardware is set up so that the employee can do their job.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SysAdmins are responsible for managing users and hardware",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Slaves request the services from a server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Directory as a Service centralizes your organizations users and computers in one location so that you can add, update, and remove users and computers",
+    "type": "mc",
+    "opts": ["Directory as a Service", "Networking as a Service", "Platform as a Service", "Software as a Service", "Infrastructure as a Service"],
+    "a": "Directory as a Service"
+  },
+  {
+    "q": "DNS leases IP addresses to clients",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When you imitate a server, you're putting lots of virtual instances on one server. Each instance contains a service.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Postboot Execution allows you to boot into a software that's available over the network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "FTP doesn't handle data encryption",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which of these is considered a software service? Check all that apply.",
+    "type": "multi",
+    "opts": ["Chat applications", "Email applications", "Word processors", "Wireless Internet"],
+    "a": ["Chat applications", "Email applications", "Word processors"]
+  },
+  {
+    "q": "In SFTP, data is sent through SSH and is encrypted",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Infrastructure as a Service centralizes your organizations users and computers in one location so that you can add, update, and remove users and computers",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is used to keep the clock synchronized on machines connected to a network",
+    "type": "mc",
+    "opts": ["TFTP", "FTP", "SFTP", "NTP"],
+    "a": "NTP"
+  },
+  {
+    "q": "Networking as a Service gives a pre-configured virtual machines that you can use just as if you had a physical server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is an internal network inside a company",
+    "type": "mc",
+    "opts": ["Outernet", "Intranet", "Extranet", "Internet"],
+    "a": "Intranet"
+  },
+  {
+    "q": "Which of the following is considered a physical infrastructure service? Check all that apply.",
+    "type": "multi",
+    "opts": ["Rack server", "Desktop", "Laptop", "Operating systems"],
+    "a": ["Rack server", "Desktop", "Laptop"]
+  },
+  {
+    "q": "TFTP doesn't require user authentication",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NTP is used to host installation files",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It's more expensive to run several services on one machine than it is to run many services on multiple machines",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______________ is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.",
+    "type": "mc",
+    "opts": ["Cluster Computing", "Client Server Computing", "Personal Computing", "Cloud computing"],
+    "a": "Cloud computing"
+  },
+  {
+    "q": "A KVM switch is used to:",
+    "type": "mc",
+    "opts": ["switch between multiple computers using one monitor, keyboard, and mouse", "enable you to receive incoming SSH connections.", "mount multiple servers into one server rack.", "allow you to serve web content to many clients."],
+    "a": "switch between multiple computers using one monitor, keyboard, and mouse"
+  },
+  {
+    "q": "Test environment is a virtual machine running the same configuration as a production environment",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Deployment is the stage where hardware is purchased or re-used for any employee.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Live Testing is a way to reduce risk and validate new software by releasing software to a small percentage of users",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Cloud computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A computer center is a physical facility that enterprises use to house their business- critical applications and information.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is creating a roadmap to retrace the steps that led the user to an unexpected outcome",
+    "type": "mc",
+    "opts": ["Repeating case", "Testing case", "Maintaining case", "Reproduction case"],
+    "a": "Reproduction case"
+  },
+  {
+    "q": "A Universal Switch looks like a hub that you can connect multiple computers to and control them using one keyboard, mouse and monitor.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins constantly don't have to troubleshoot problems and find solutions for your IT needs",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Vendors can't provide a broad range of hardware, software and services",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Live Network is the part of the infrastructure where certain services are executed and serve its users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_____________ are services that you can purchase that allow you to edit word documents, process spreadsheets, make presentations and more, all from a web browser",
+    "type": "mc",
+    "opts": ["Software as a Service", "Infrastructure as a Service", "Networking as a Service", "Directory as a Service", "Platform as a Service"],
+    "a": "Software as a Service"
+  },
+  {
+    "q": "_____________ gives a pre-configured virtual machines that you can use just as if you had a physical server",
+    "type": "mc",
+    "opts": ["Software as a Service", "Platform as a Service", "Networking as a Service", "Directory as a Service", "Infrastructure as a Service"],
+    "a": "Infrastructure as a Service"
+  },
+  {
+    "q": "Simulation is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ doesn't require user authentication",
+    "type": "mc",
+    "opts": ["FTP", "TFTP", "NTP", "SFTP"],
+    "a": "TFTP"
+  },
+  {
+    "q": "Software as a Service allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "DHCP leases IP addresses to clients",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Management infrastructure services are what allows an organization to function.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When you virtualize a server, you're putting lots of virtual instances on one server. Each instance contains a service.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "With virtualized service, you can't quickly stop your service or migrate them to another physical server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In TFTP, data is sent through SSH and is encrypted",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It's cheaper to run several services on one machine than it is to run many services on multiple machines",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Platform as a Service are services that you can purchase that allow you to edit word documents, process spreadsheets, make presentations and more, all from a web browser",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins are not responsible for managing users and hardware",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Reverting to the previous state is called a flashback",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Communicating with customer service is the process of asking questions, isolating the problem and reading logs",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is a stripped-down server computer with a modular design optimized to minimize the use of physical space and energy",
+    "type": "mc",
+    "opts": ["Blade server", "Vertical server", "Tower server", "Rack server"],
+    "a": "Blade server"
+  },
+  {
+    "q": "SysAdmins is not responsible in ensuring a user is able to log in and that the computer has the necessary software that a user needs to be productive",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Clients request the services from a server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Canary Testing is a way to reduce risk and validate new software by releasing software to a small percentage of users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "As a SysAdmin, you don't think through what you're doing and don't rush.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Documentation lists company's policies, routine procedures, and more",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Maintenance is the stage where software is updated and hardware issues are fixed if and when they occur",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Production servers are the service that deliver the website content to the users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Tower servers are built in an upright cabinet that stands alone.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Ordering system is where users can request help on an issue and then you can track your troubleshooting work",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Intranet is an internal network inside a company",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "as a Service includes an entire platform that allows you to build code, store information in a database, and serve your application from a single platform",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "I.T. infrastructure services are what allows an organization to function.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In a smaller company, a single person could be responsible for all these services.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "TFTP is used to host installation files",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In a larger company, a single person could be responsible for all these services.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "NTP is used to keep the clock synchronized on machines connected to a network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "KVM stands for keyboard, video and mouse",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A _________ looks like a hub that you can connect multiple computers to and control them using one keyboard, mouse and monitor.",
+    "type": "mc",
+    "opts": ["Hybrid hub", "Cisco 2960 Switch", "KVM Switch", "Universal Switch"],
+    "a": "KVM Switch"
+  },
+  {
+    "q": "Tower server is a stripped-down server computer with a modular design optimized to minimize the use of physical space and energy",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins are not responsible for user machines",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "System administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A client is essentially software or a machine that provides services to other software or machines.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A _________ is essentially software or a machine that provides services to other software or machines.",
+    "type": "mc",
+    "opts": ["server", "unit", "client", "master"],
+    "a": "server"
+  },
+  {
+    "q": "A server can provide services to multiple clients at once and the client can use multiple servers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Database Admins have to be able to create new users and give them access to their company's resources",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ which lay flat and are usually mounted in a 90\" wide server rack",
+    "type": "mc",
+    "opts": ["Tower server", "Rack server", "Blade server", "Vertical server"],
+    "a": "Rack server"
+  },
+  {
+    "q": "With great power comes great responsibility.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ allows you to boot into a software that's available over the network",
+    "type": "mc",
+    "opts": ["Postboot Execution", "Preboot Execution", "In-demand Execution", "On-demand Execution"],
+    "a": "Preboot Execution"
+  },
+  {
+    "q": "TFTP does require user authentication",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Networking as a Service allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File Transfer Protocol is a legacy way to transfer files from one computer to another over the Internet",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "____________ allows companies to offshore their networking services so that they don't have to deal with the expensive networking hardware",
+    "type": "mc",
+    "opts": ["Platform as a Service", "Networking as a Service", "Software as a Service", "Infrastructure as a Service", "Directory as a Service"],
+    "a": "Networking as a Service"
+  },
+  {
+    "q": "DNS maps human understandable names to IP addresses",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Internet is an internal network inside a company",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "____________ validate users' passwords",
+    "type": "mc",
+    "opts": ["Tunnels Authentication Servers", "Communication Authentication Servers", "Production Authentication Servers", "Bridges Authentication Servers"],
+    "a": "Production Authentication Servers"
+  },
+  {
+    "q": "What are the benefits of cloud computing over local computing? Check all that apply.",
+    "type": "multi",
+    "opts": ["Software updates are handled by the company providing the service", "There are potential long-term costs associated with cloud computing", "There are smaller starting costs for cloud computing", "Services are accessible from anywhere in the world"],
+    "a": ["Software updates are handled by the company providing the service", "There are smaller starting costs for cloud computing", "Services are accessible from anywhere in the world"]
+  },
+  {
+    "q": "SysAdmins have to troubleshoot and prioritize issues at a larger scale",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The more users your service reaches, the less you'll want to ensure that changes aren't disruptive",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Retirement is where hardware becomes unusable or no longer needed and it needs to be properly removed from the fleet.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Cost is not a drawback of Cloud Computing",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins don't need to document what they do and have a way to revert to the previous state",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Not all computer can be a server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins have to be able to create new users and give them access to their company's resources",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Documenting what you did is not crucial when using administrator rights.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
+    "type": "mc",
+    "opts": ["Simulation", "Imitation", "Realization", "Virtualization"],
+    "a": "Virtualization"
+  },
+  {
+    "q": "___________ maps human understandable names to IP addresses",
+    "type": "mc",
+    "opts": ["FTP", "DNS", "HTTP", "DHCP"],
+    "a": "DNS"
+  },
+  {
+    "q": "____________ , data is sent through SSH and is encrypted",
+    "type": "mc",
+    "opts": ["NTP", "FTP", "TFTP", "SFTP"],
+    "a": "SFTP"
+  },
+  {
+    "q": "Industry Standard Servers are not running 24/7",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ request the services from a server",
+    "type": "mc",
+    "opts": ["Students", "Slaves", "Requestor", "Clients"],
+    "a": "Clients"
+  },
+  {
+    "q": "Retirement is the stage where software is updated and hardware issues are fixed if and when they occur",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Tower server which lay flat and are usually mounted in a 90\" wide server rack",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_____________ are the service that deliver the website content to the users",
+    "type": "mc",
+    "opts": ["Production servers", "Tunnel servers", "Communication servers", "Bridge servers"],
+    "a": "Production servers"
+  },
+  {
+    "q": "Maintenance is where hardware is set up so that the employee can do their job.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Rack server which lay flat and are usually mounted in a 90\" wide server rack",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "___________________ constantly provide updates and maintenance so that they run the latest secure software.",
+    "type": "mc",
+    "opts": ["Routine Management", "IT management", "Routine Maintenance", "IT normalization"],
+    "a": "Routine Maintenance"
+  },
+  {
+    "q": "As a SysAdmin, you have think before you type",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Routine Management constantly provide updates and maintenance so that they run the latest secure software.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins is not responsible in ensuring that the hardware they are provisioning or setting up for users is standardized",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Directory as a Service includes an entire platform that allows you to build code, store information in a database, and serve your application from a single platform",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "You may do Reproduction case in your production",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Production is the part of the infrastructure where certain services are executed and serve its users",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Rack servers are built in an upright cabinet that stands alone.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A _________ is a physical facility that enterprises use to house their business- critical applications and information.",
+    "type": "mc",
+    "opts": ["data center", "computer center", "network facility", "management information system"],
+    "a": "data center"
+  },
+  {
+    "q": "A server is essentially software or a machine that provides services to other software or machines.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Procurement is the stage where hardware is purchased or re-used for any employee.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Server operating systems are usually more secure and come with additional services already built in",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is used to host installation files",
+    "type": "mc",
+    "opts": ["SFTP", "FTP", "TFTP", "NTP"],
+    "a": "TFTP"
+  },
+  {
+    "q": "Preboot Execution allows you to boot into a software that's available over the network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Infrastructure as a Service gives a pre-configured virtual machines that you can use just as if you had a physical server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In larger companies, teams assist admins might manage just one service",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Software as a Service are services that you can purchase that allow you to edit word documents, process spreadsheets, make presentations and more, all from a web browser",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Communication Authentication Servers validate users' passwords",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Correct customer service is not showing empathy, not using the right tone of voice and dealing well with difficult situations.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "___________ is where hardware becomes unusable or no longer needed and it needs to be properly removed from the fleet.",
+    "type": "mc",
+    "opts": ["Maintenance", "Procurement", "Deployment", "Retirement"],
+    "a": "Retirement"
+  },
+  {
+    "q": "Documenting what you did is crucial when using administrator rights.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SysAdmins constantly have to troubleshoot problems and find solutions for your IT needs",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "______________ is the stage where hardware is purchased or re-used for any employee.",
+    "type": "mc",
+    "opts": ["Retirement", "Deployment", "Maintenance", "Procurement"],
+    "a": "Procurement"
+  },
+  {
+    "q": "Organizational Policies are general statements of how an organization want to behave and procedures define exactly how to do a task or perform step by step",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Server operating systems are are optimized for server functionality.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "FTP does handle data encryption",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Any computer can be a server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Structural Policies are general statements of how an organization want to behave and procedures define exactly how to do a task or perform step by step",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins ensure that the hardware they are provisioning or setting up for users is standardized",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Communications infrastructure encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins are responsible for user machines",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "As a SysAdmin, you have to respect the privacy of others",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In some companies, sysadmins have to be available around the clock",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "With virtualized service, you can quickly stop your service or migrate them to another physical server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______________ includes an entire platform that allows you to build code, store information in a database, and serve your application from a single platform",
+    "type": "mc",
+    "opts": ["Platform as a Service", "Software as a Service", "Directory as a Service", "Infrastructure as a Service", "Networking as a Service"],
+    "a": "Platform as a Service"
+  },
+  {
+    "q": "As a SysAdmin, you think through what you're doing and don't rush.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Troubleshooting is the process of asking questions, isolating the problem and reading logs",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A server can provide services to multiple clients at once and the server can use multiple servers.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The key to safely making changes is to always run them through a production environment first.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Industry Standard Servers are typically running 24/7",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NTP is a legacy way to transfer files from one computer to another over the Internet",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "FTP is used to keep the clock synchronized on machines connected to a network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "After applying your fix, retrace the same steps that took you to the bad experience.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The more you can do with your administrator rights, the less you can mess up",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "With great power comes less accountability.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "KVM in KVM switch stands for kernel-based virtual machine",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Ticketing or bug system is where users can request help on an issue and then you can track your troubleshooting work",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Production Authentication Servers validate users' passwords",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which of these is considered a server? Check all that apply.",
+    "type": "multi",
+    "opts": ["A computer that provides a service to other computers", "Software that provides a service to other machines", "Software that's only available to the computer it's installed on", "A software that provides a service to other software"],
+    "a": ["A computer that provides a service to other computers", "Software that provides a service to other machines", "A software that provides a service to other software"]
+  },
+  {
+    "q": "Reverting to the previous state is called a _________",
+    "type": "mc",
+    "opts": ["backup", "rollback", "rewind", "flashback"],
+    "a": "rollback"
+  },
+  {
+    "q": "A KVM Switch looks like a hub that you can connect multiple computers to and control them using one keyboard, mouse and monitor.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Which of these is considered a network service? Check all that apply.",
+    "type": "multi",
+    "opts": ["Ethernet cables", "Blade server", "Wireless Internet", "DNS"],
+    "a": ["Ethernet cables", "Wireless Internet", "DNS"]
+  },
+  {
+    "q": "A client can provide services to multiple clients at once and it can use multiple servers.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The more users your service reaches, the more you'll want to ensure that changes aren't disruptive",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "With _________, you can access your data, use applications, and more from anywhere in the world, as long as you have an Internet connection.",
+    "type": "mc",
+    "opts": ["a PAN", "a LAN", "cloud computing", "a WAN"],
+    "a": "cloud computing"
+  },
+  {
+    "q": "A drawback of Cloud Computing is Cost",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Vendors can provide a broad range of hardware, software and services",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "As a SysAdmin, you don't have to respect the privacy of others",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_____________ works in the background to make sure the IT infrastructure of the company is always working and they prevent IT disasters from happening",
+    "type": "mc",
+    "opts": ["Network Administrators", "Network Engineers", "Database Administrators", "System Administrators"],
+    "a": "System Administrators"
+  },
+  {
+    "q": "Assumptions lists company's policies, routine procedures, and more",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ is where hardware is set up so that the employee can do their job.",
+    "type": "mc",
+    "opts": ["Maintenance", "Deployment", "Procurement", "Retirement"],
+    "a": "Deployment"
+  },
+  {
+    "q": "Database Administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
+    "type": "tf",
+    "a": "FALSE"
+  },
+  {
+    "q": "_________ is a legacy way to transfer files from one computer to another over the Internet",
+    "type": "mc",
+    "opts": ["NTP", "FTP", "DNS", "DHCP"],
+    "a": "FTP"
+  },
+  {
+    "q": "DHCP maps human understandable names to IP addresses",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Removing users from an IT infrastructure if users leave the company is not part of user provisioning",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "After applying your fix, you don't have to retrace the same steps that took you to the bad experience.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Reverting to the previous state is called a rollback",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Routine Maintenance constantly provide updates and maintenance so that they run the latest secure software.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Client Server computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Procurement is where hardware becomes unusable or no longer needed and it needs to be properly removed from the fleet.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A data center is a physical facility that enterprises use to house their business- critical applications and information.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is a way to reduce risk and validate new software by releasing software to a small percentage of users",
+    "type": "mc",
+    "opts": ["Canary Testing", "Interface Testing", "Beta/Acceptance Testing", "Integration Testing"],
+    "a": "Canary Testing"
+  },
+  {
+    "q": "Virtualization is the process of creating a software-based, representation of something, such as virtual applications, servers, storage and networks",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In smaller companies, teams assist admins might manage just one service",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SysAdmins ensure a user is able to log in and that the computer has the necessary software that a user needs to be productive",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Are built in an upright cabinet that stands alone.",
+    "type": "mc",
+    "opts": ["Vertical server", "Rack server", "Blade server", "Tower server"],
+    "a": "Tower server"
+  },
+  {
+    "q": "SysAdmins don't have to troubleshoot and prioritize issues at a larger scale",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______________ is the part of the infrastructure where certain services are executed and serve its users",
+    "type": "mc",
+    "opts": ["Production", "Bridges", "Communication", "Tunnels"],
+    "a": "Production"
+  },
+  {
+    "q": "Which of these server hardware can you stack on top of each other in a server rack?",
+    "type": "multi",
+    "opts": ["Desktop", "Tower", "Blade", "Rack"],
+    "a": ["Blade", "Rack"]
+  },
+  {
+    "q": "Which of the following make up IT infrastructure?",
+    "type": "mc",
+    "opts": ["All of the above", "Hardware and software", "Network", "Operating systems"],
+    "a": "All of the above"
+  },
+  {
+    "q": "___________ are general statements of how an organization want to behave and procedures define exactly how to do a task or perform step by step.",
+    "type": "mc",
+    "opts": ["Structural Policies", "Organizational Policies", "Economic Policies", "Privacy Policies"],
+    "a": "Organizational Policies"
+  },
+  {
+    "q": "Communication servers are the service that deliver the website content to the users",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Removing users from an IT infrastructure if users leave the company is part of user provisioning",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Always do Reproduction case in your test instance, never in production",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________________ encompasses the software, the hardware, network, and services required for an organization to operate in an enterprise IT environment",
+    "type": "mc",
+    "opts": ["Power and Energy Infrastructure", "IT infrastructure", "Database Infrastructure", "Communications Infrastructure"],
+    "a": "IT infrastructure"
+  },
+  {
+    "q": "SysAdmins does not work with vendors or other businesses to buy hardware",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ is used for the mail exchange record",
+    "type": "mc",
+    "opts": ["MZ", "MY", "MX", "MN"],
+    "a": "MX"
+  },
+  {
+    "q": "IMAP keeps messages on the email server.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "An alternative approach to setting up your own email service is to use an email service provider",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "TLS is a way of securing communication between a web server and client which is old and insecure.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "MX is used for the mail exchange record",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A DHCP server contains a lookup service that provides mapping between network resources and then network addresses.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "RBAC stands for replication-based access control",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Active Directory is a free and open source service",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A _______, is only designed to group accounts and contacts for email communication",
+    "type": "mc",
+    "opts": ["active groups", "distribution groups", "security groups", "public groups"],
+    "a": "distribution groups"
+  },
+  {
+    "q": "_______ is an open standards for communication and access for directory services",
+    "type": "mc",
+    "opts": ["LDAP", "ADUC", "OpenLDAP", "AD"],
+    "a": "LDAP"
+  },
+  {
+    "q": "What are the differences between TLS and SSL? Check all that apply.",
+    "type": "multi",
+    "opts": ["TLS is the successor to SSL.", "SSL is more secure than TLS.", "TLS is more secure than SSL.", "SSL is the successor to TLS."],
+    "a": ["TLS is the successor to SSL.", "TLS is more secure than SSL."]
+  },
+  {
+    "q": "_______ allow us to store query, filter, and manage large amounts of data",
+    "type": "mc",
+    "opts": ["Databases", "Forms", "Information sheets", "Libraries"],
+    "a": "Databases"
+  },
+  {
+    "q": "There are three ways to set up email for a company.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ allow us to centrally store files and manage access between files and groups",
+    "type": "mc",
+    "opts": ["File Storage Services", "Mobile Services", "Print Services", "Cloud Services"],
+    "a": "File Storage Services"
+  },
+  {
+    "q": "Productivity Services is used for keeping data encrypted, authentication, etc.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Security Account Manager or SAM, is a database in windows that stores user names and password",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Policies are settings that are reapplied every few minutes, and aren't meant to be changed even by the local administrators",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A distribution group, is only designed to group accounts and contacts for email communication",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Active Directory is the native directory service for Microsoft Windows",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Universal is used to group accounts into a role",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "XMPP can be used in Internet of Things applications",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "HTTPS is the most popular way to keep communications secure over a network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Database servers consist of database software that's running that you're able to read and write from",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "IMAP downloads email from an email server onto your local device, deletes the email from the email server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SASL stands for Simple Authentication and Security Layer",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Replication increases latency when you access the directory service",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Commercial-use and personal-use software licenses are essentially the same thing.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When using __________, you aren't actually authenticating at all, depending on how it's configured anyone could potentially access that directory",
+    "type": "mc",
+    "opts": ["Complex Authentication", "Simple authentication", "SASL", "anonymous binding"],
+    "a": "anonymous binding"
+  },
+  {
+    "q": "_________ provides redundancy by having multiple servers available simultaneously",
+    "type": "mc",
+    "opts": ["Combination", "Replication", "Distribution", "Duplication"],
+    "a": "Replication"
+  },
+  {
+    "q": "A security group, is only designed to group accounts and contacts for email communication",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ is a protocol that enables files to be shared over a network",
+    "type": "mc",
+    "opts": ["NFS", "NTFS", "NTS", "NSF"],
+    "a": "NFS"
+  },
+  {
+    "q": "Communication servers consist of database software that's running that you're able to read and write from",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "FAT16 is a system that's compatible with Windows, Linux, and Mac OSes",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "HTTPS makes sure the communication on the web browser has with the website, is secured through encryption",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "RBAC is a method of restricting network access based on the roles of individual users within an enterprise",
+    "type": "mc",
+    "opts": ["RACB", "RCBA", "RBAC", "RABC"],
+    "a": "RBAC"
+  },
+  {
+    "q": "Directory services provides centralized authentication, authorization, and accounting",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "What's the most popular directory services protocol used today?",
+    "type": "mc",
+    "opts": ["Lightweight Directory Access Protocol", "Directory System Protocol", "Directory Operational Binding Management Protocol", "Directory Access Protocol"],
+    "a": "Lightweight Directory Access Protocol"
+  },
+  {
+    "q": "DSP stands for ____________",
+    "type": "mc",
+    "opts": ["Directory Server Protocol", "Directory System Protocol", "Directory System Portable", "Directory Service Protocol"],
+    "a": "Directory System Protocol"
+  },
+  {
+    "q": "________ means that the stored directory data can be copied and distributed across a number of physically distributed servers but still appear as one unified data store for querying and administering",
+    "type": "mc",
+    "opts": ["Distribution", "Combination", "Replication", "Duplication"],
+    "a": "Replication"
+  },
+  {
+    "q": "What are some communication services you can utilize in your organization? Check all that apply.",
+    "type": "multi",
+    "opts": ["Phones", "Chat applications", "Email", "DNS"],
+    "a": ["Phones", "Chat applications", "Email"]
+  },
+  {
+    "q": "SSD has decreased performance compared with HDD",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ add a layer of security protection to our IT infrastructure.",
+    "type": "mc",
+    "opts": ["Productivity Services", "Communication Services", "Security Services", "Interconnectivity Services"],
+    "a": "Security Services"
+  },
+  {
+    "q": "Databases allow us to store query, filter, and manage large amounts of data",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In IaaS, you're hosting your own services in the cloud",
+    "type": "mc",
+    "opts": ["IaaS", "SaaS", "PaaS", "NaaS"],
+    "a": "IaaS"
+  },
+  {
+    "q": "is an open standards for communication and access for directory services",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "AAA stands for ________________",
+    "type": "mc",
+    "opts": ["authentication, authorization, and accounting", "authentication, accounting, and authorization", "authorization, accounting, and authentication", "accounting, authentication, and authorization"],
+    "a": "authentication, authorization, and accounting"
+  },
+  {
+    "q": "RBAC is a method of restricting network access based on the roles of individual users within an enterprise",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "LDAP stands for ____________",
+    "type": "mc",
+    "opts": ["Lightweight Directory Active Protocol", "Lightweight Directory Access Protocol", "Light Directory Access Protocol", "Lightweight Directive Access Protocol"],
+    "a": "Lightweight Directory Access Protocol"
+  },
+  {
+    "q": "_______ is an email protocol for sending email",
+    "type": "mc",
+    "opts": ["SMTP", "POP3", "IMAP", "PPO3"],
+    "a": "SMTP"
+  },
+  {
+    "q": "A record is used for hostnames",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "POP3 keeps messages on the email server.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Candidate authority gives a certificate to a website saying that it trusts and that you control the web server. It also verifies that you are who you say you are",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The default groups in Active Directory are security groups",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Global is used to group accounts into a role",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "RBAC stands for _______",
+    "type": "mc",
+    "opts": ["role-based access control", "role-based access centralization", "replication-based access control", "role-based active control"],
+    "a": "role-based access control"
+  },
+  {
+    "q": "The default groups in Active Directory are _______",
+    "type": "mc",
+    "opts": ["active groups", "security groups", "public groups", "distribution groups"],
+    "a": "security groups"
+  },
+  {
+    "q": "AD has customization and added features for the Windows platform",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SSL is a way of securing communication between a web server and client which is old and insecure.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Software services provide a platform for developers to code, build and manage software applications.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In a business or commercial setting, most software distributors will have the same agreement from personal setting",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "OpenLDAP supports a wide range of platforms like Windows, Unix, Linux and various Unix derivatives",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is the native directory service for Microsoft Windows",
+    "type": "mc",
+    "opts": ["Directory Server", "OpenLDAP", "Active Directory", "LDAP"],
+    "a": "Active Directory"
+  },
+  {
+    "q": "OpenLDAP is the Microsoft's implementation of LDAP",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Microsoft's implementation of LDAP",
+    "type": "mc",
+    "opts": ["AD", "ADUC", "LDAP", "OpenLDAP"],
+    "a": "AD"
+  },
+  {
+    "q": "XMPP is an open-source protocol used in instant messaging applications and social networking services",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In SaaS, the software is already pre-configured, and the user isn't deeply involved in the cloud configuration",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "POP3 is an email protocol for sending email",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Running your own managed server is the only way in setting up an email for a company.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "File and Print services became an open network standard for interoperability among different software vendors",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "ADAC stands for _________",
+    "type": "mc",
+    "opts": ["Active Directory Account Centralization", "Active Directory Administration Centre", "Active Directory Administrative Center", "Active Directory Administration Center"],
+    "a": "Active Directory Administrative Center"
+  },
+  {
+    "q": "Directory services became an open network standard for interoperability among different software vendors",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_________ is used for keeping data encrypted, authentication, etc.",
+    "type": "mc",
+    "opts": ["User Productivity Services", "Interconnectivity Services", "Security Services", "Communication Services"],
+    "a": "Security Services"
+  },
+  {
+    "q": "FAT32 is a system that's compatible with Windows, Linux, and Mac OSes",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "TLS version 3.0 is essentially SSL version 1.0",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Security Active Manager or SAM, is a database in windows that stores user names and password",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "DAP stands for Directory Active Protocol",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "ADAC stands for Active Directory Administrative Center",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Domain local is used to assign permission to a resource",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "POP3 downloads email from an email server onto your local device, deletes the email from the email server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "TLS is the most popular way to keep communications secure over a network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Information sheets allow us to store query, filter, and manage large amounts of data",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Read-Write Replicas means that each have a complete copy of the AD database and are able to make changes to it. Those changes are then replicated to all other copies of the data basis on other DCs",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Organizational Units are like folders which can contain individual files or objects for a directory service",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Microsoft Office ADUC stands for Active Directory Users and Computers",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Private Cloud is what we call cloud services provided to you by a third party",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Certificate authority gives a certificate to a website saying that it trusts and that you control the web server. It also verifies that you are who you say you are",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Security Services add a layer of security protection to our IT infrastructure.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is what we call cloud services provided to you by a third party",
+    "type": "mc",
+    "opts": ["Custom Cloud", "Public Cloud", "Hybrid Cloud", "Private Cloud"],
+    "a": "Public Cloud"
+  },
+  {
+    "q": "_______ record is used for hostnames",
+    "type": "mc",
+    "opts": ["A", "B", "C", "D"],
+    "a": "A"
+  },
+  {
+    "q": "Security Services enable employees in a company to talk to one another",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SAN is a relatively affordable solution for FAT storage hardware",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "We can have multiple conversations with different people in real time using chat applications",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File storage services allow us to centrally store files and manage access between files and groups",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "TLS is the most popular way to keep communications secure over a network",
+    "type": "mc",
+    "opts": ["HTTP", "TLS", "SSL", "HTTPS"],
+    "a": "TLS"
+  },
+  {
+    "q": "B record is used for hostnames",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Hybrid Cloud is a mixture of both public and private cloud",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "When considering software licenses, it's not important to review the terms and agreement",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ are the services that employees use that allow them to do their daily job functions.",
+    "type": "mc",
+    "opts": ["Infrastructure Services", "Hardware Services", "Software services", "Platform services"],
+    "a": "Software services"
+  },
+  {
+    "q": "DSP stands for Directory Service Protocol",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ provides centralized authentication, authorization, and accounting",
+    "type": "mc",
+    "opts": ["Directory services", "Database services", "Directory servers", "Database servers"],
+    "a": "Directory services"
+  },
+  {
+    "q": "GPO are settings that are reapplied every few minutes, and aren't meant to be changed even by the local administrators",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Active Directory supports a wide range of platforms like Windows, Unix, Linux and various Unix derivatives",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ is a set of policies and preferences that can be applied to a group of objects in the directory",
+    "type": "mc",
+    "opts": ["GOP", "GBLP", "GPO", "GLBP"],
+    "a": "GPO"
+  },
+  {
+    "q": "OpenLDAP is Microsoft's client tools used for accessing and administering a directory server",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "OpenLDAP is a free and open source service",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "DISP stands for Directory Information Shadowing Protocol",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is used to assign permission to a resource",
+    "type": "mc",
+    "opts": ["Domain local", "Global", "Universal", "Universal Groups"],
+    "a": "Domain local"
+  },
+  {
+    "q": "_______ is a network authentication protocol that is used to authenticate user identity, secure the transfer of user credentials, and more",
+    "type": "mc",
+    "opts": ["Cerberus", "Kerberos", "Keroberos", "Cerebro"],
+    "a": "Kerberos"
+  },
+  {
+    "q": "_______ can contain user accounts, computer accounts, or security groups",
+    "type": "mc",
+    "opts": ["Forest", "Security groups", "Distribution groups", "Domain"],
+    "a": "Security groups"
+  },
+  {
+    "q": "DISP stands for Directory Intelligent Shadowing Protocol",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Security groups can contain user accounts, computer accounts or other security groups",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "What does a directory server provide?",
+    "type": "mc",
+    "opts": ["A replication service", "A network time service", "A real-time communication service", "A lookup service for an organization"],
+    "a": "A lookup service for an organization"
+  },
+  {
+    "q": "A _______ contains a lookup service that provides mapping between network resources and then network addresses.",
+    "type": "mc",
+    "opts": ["DNS", "DHCP server", "File Server", "directory server"],
+    "a": "directory server"
+  },
+  {
+    "q": "DOP stands for Directory Operational Protocol",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "IRC is a protocol that's used for chat messages and operates in a client and server model",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A company uses a public cloud for the services their own and the rest of the infrastructure, whether on-site or in a remote data center",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ is a way of securing communication between a web server and client which is old and insecure.",
+    "type": "mc",
+    "opts": ["HTTPS", "TLS", "SSL", "HTTP"],
+    "a": "SSL"
+  },
+  {
+    "q": "A company uses a private cloud for the services their own and the rest of the infrastructure, whether on-site or in a remote data center",
+    "type": "mc",
+    "opts": ["Hybrid Cloud", "Private Cloud", "Public Cloud", "Custom Cloud"],
+    "a": "Private Cloud"
+  },
+  {
+    "q": "Hybrid Cloud is a mixture of both public and private cloud",
+    "type": "mc",
+    "opts": ["Hybrid Cloud", "Mixed Cloud", "Combination Cloud", "Polymerization Cloud"],
+    "a": "Hybrid Cloud"
+  },
+  {
+    "q": "_______ consist of database software that's running that you're able to read and write from",
+    "type": "mc",
+    "opts": ["Database servers", "Communication servers", "Web Servers", "File Servers"],
+    "a": "Database servers"
+  },
+  {
+    "q": "What's the difference between POP3 and IMAP? Check all that apply.",
+    "type": "multi",
+    "opts": ["IMAP can download emails onto multiple devices.", "IMAP can only download email to one local device.", "POP3 is used for sending emails.", "POP3 can only download email to one local device."],
+    "a": ["IMAP can download emails onto multiple devices.", "POP3 can only download email to one local device."]
+  },
+  {
+    "q": "A zone is a geographical location containing a number of data centers",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Platform services are the services that employees use that allow them to do their daily job functions.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ are like folders which can contain individual files or objects for a directory service",
+    "type": "mc",
+    "opts": ["Company units", "File Units", "Organizational Units", "Computer Units"],
+    "a": "Organizational Units"
+  },
+  {
+    "q": "GPO stands for group policy object",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Keroberos is a network authentication protocol that is used to authenticate user identity, secure the transfer of user credentials, and more",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A directory server contains a lookup service that provides mapping between network resources and then network addresses.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "ADAC stands for Active Directory Administration Center",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Microsoft Office ADUC stands for Active Directory Uses and Computers",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SASL stands for ____________",
+    "type": "mc",
+    "opts": ["Simple Authentication and Security Level", "Server Authentication and Security Layer", "Simple Authentication and Secured Layer", "Simple Authentication and Security Layer"],
+    "a": "Simple Authentication and Security Layer"
+  },
+  {
+    "q": "AAA stands for authentication, authorization, and accounting",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Distribution groups can contain user accounts, computer accounts or other security groups",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ are settings that are reapplied every few minutes, and aren't meant to be changed even by the local administrators",
+    "type": "mc",
+    "opts": ["Rules", "Policies", "Standards", "Registry"],
+    "a": "Policies"
+  },
+  {
+    "q": "Domain controllers do not host a replica of the Active Directory database and group policy objects",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "LDAP stands for Lightweight Directory Access Protocol",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "In an enterprise setting, it's important for a sysadmin, or a sole IT support specialist, to be able to configure email services for the company.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "HTTP makes sure the communication on the web browser has with the website, is secured through encryption",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "NTFS is a protocol that enables files to be shared over a network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "In PaaS, the software is already pre-configured, and the user isn't deeply involved in the cloud configuration",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ means the creation of copied materials from digital or hard copy format originals, including printing and distribution of letterhead, envelopes, business cards, carbonless forms, and specialty items",
+    "type": "mc",
+    "opts": ["Production Services", "File Storage Services", "Platform Services", "Print Services"],
+    "a": "Print Services"
+  },
+  {
+    "q": "Communication Services enable employees in a company to talk to one another",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SSD has increased performance compared with HDD",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is a system that's compatible with Windows, Linux, and Mac OSes",
+    "type": "mc",
+    "opts": ["FAT128", "FAT256", "FAT32", "FAT512"],
+    "a": "FAT32"
+  },
+  {
+    "q": "User Productivity Services are software development programs, word processing, graphical editors, finance software, etc.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Security Services is used for keeping data encrypted, authentication, etc.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "AD is the Microsoft's implementation of LDAP",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "LDAP is an open standards for communication and access for directory services",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "DISP stands for ______________",
+    "type": "mc",
+    "opts": ["Directory Intelligent Shadowing Protocol", "Directory Information Service Protocol", "Directory Information Shadowing Protocol", "Directory Information System Protocol"],
+    "a": "Directory Information Shadowing Protocol"
+  },
+  {
+    "q": "ADUC is Microsoft's client tools used for accessing and administering a directory server",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "AAA stands for authorization, authentication, and accounting",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "RBAC stands for role-based access control",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Domain controllers host a replica of the Active Directory database and group policy objects",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Kerberos is a network authentication protocol that is used to authenticate user identity, secure the transfer of user credentials, and more",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "When using simple authentication, you aren't actually authenticating at all, depending on how it's configured anyone could potentially access that directory",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Duplication provides redundancy by having multiple servers available simultaneously",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A region is a geographical location containing a number of data centers",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NAS is a relatively affordable solution for FAT storage hardware",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Running your own managed server is one way in setting up an email for a company.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "DOP stands for ___________",
+    "type": "mc",
+    "opts": ["Directory Operational Bindings Management Protocol", "Directory Operational Protocol", "Directory Open Port", "Directory Operational Port"],
+    "a": "Directory Operational Bindings Management Protocol"
+  },
+  {
+    "q": "DAP stands for ____________",
+    "type": "mc",
+    "opts": ["Directory Active Port", "Directory Access Port", "Directory Access Protocol", "Directory Active Protocol"],
+    "a": "Directory Access Protocol"
+  },
+  {
+    "q": "The default groups in Active Directory are distribution groups",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Database services provides centralized authentication, authorization, and accounting",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "What benefits does replication provide? Check all that apply.",
+    "type": "multi",
+    "opts": ["Enhanced security", "Redundancy", "Increased capacity", "Decreased latency"],
+    "a": ["Redundancy", "Decreased latency"]
+  },
+  {
+    "q": "Global is used to group accounts into a role",
+    "type": "mc",
+    "opts": ["Domain local", "Universal Groups", "Global", "Universal"],
+    "a": "Global"
+  },
+  {
+    "q": "Global is used to assign permission to a resource",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "OpenLDAP has customization and added features for the Windows platform",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Public Cloud is what we call cloud services provided to you by a third party",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "SSL version 3.0 is essentially TLS version 1.0",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "XAMPP is an open-source protocol used in instant messaging applications and social networking services",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When considering software licenses, it's important to review the terms and agreement",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NFS is a protocol that enables files to be shared over a network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Mixed Cloud is a combination of both public and private cloud",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When using simple authentication, you just need the directory entry name and password which is sent in plain text",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "When using anonymous binding, you just need the directory entry name and password which is sent in plain text",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Domain local is used to group global roles in a forest",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "DAP stands for Directory Access Protocol",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ became an open network standard for interoperability among different software vendors",
+    "type": "mc",
+    "opts": ["Directory services", "Print Services", "Cloud Services", "File Services"],
+    "a": "Directory services"
+  },
+  {
+    "q": "SASL stands for Server Authentication and Security Layer",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When using __________, you just need the directory entry name and password which is sent in plain text",
+    "type": "mc",
+    "opts": ["SASL", "anonymous binding", "Complex Authentication", "simple authentication"],
+    "a": "simple authentication"
+  },
+  {
+    "q": "_________ enable employees in a company to talk to one another",
+    "type": "mc",
+    "opts": ["Interconnectivity Services", "Security Services", "Productivity Services", "Communication Services"],
+    "a": "Communication Services"
+  },
+  {
+    "q": "Software services are the services that employees use that allow them to do their daily job functions.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File Storage Services means the creation of copied materials from digital or hard copy format originals, including printing and distribution of letterhead, envelopes, business cards, carbonless forms, and specialty items",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Platform services provide a platform for developers to code, build and manage software applications.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is a free and open source service",
+    "type": "mc",
+    "opts": ["Active Directory", "ADUC", "LDAP", "OpenLDAP"],
+    "a": "OpenLDAP"
+  },
+  {
+    "q": "_________ is used to group global roles in a forest",
+    "type": "mc",
+    "opts": ["Domain local", "Universal", "Universal Groups", "Global"],
+    "a": "Universal"
+  },
+  {
+    "q": "OpenLDAP is the native directory service for Microsoft Windows",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SASL authentication requires the client and the directory server to authenticate using some method like Kerberos",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Web server stores and serves content to clients through the Internet",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Print Services means the creation of copied materials from digital or hard copy format originals, including printing and distribution of letterhead, envelopes, business cards, carbonless forms, and specialty items",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is an open-source protocol used in instant messaging applications and social networking services",
+    "type": "mc",
+    "opts": ["XAMPP", "XMPP", "XAMP", "XMP"],
+    "a": "XMPP"
+  },
+  {
+    "q": "Productivity Services add a layer of security protection to our IT infrastructure.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "There are two ways to set up email for a company.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "LDAP stands for Level Directory Access Protocol",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Company Units are like folders which can contain individual files or objects for a directory service",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "GPO stands for _______",
+    "type": "mc",
+    "opts": ["group policy object", "global provider object", "group provider object", "global policy object"],
+    "a": "group policy object"
+  },
+  {
+    "q": "XMPP can't be used in Internet of Things applications",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ are software development programs, word processing, graphical editors, finance software, etc.",
+    "type": "mc",
+    "opts": ["Communication Services", "Security Services", "User Productivity Services", "Interconnectivity Services"],
+    "a": "User Productivity Services"
+  },
+  {
+    "q": "_______ is a relatively affordable solution for FAT storage hardware",
+    "type": "mc",
+    "opts": ["SAN", "FAT32", "SMB", "NAS"],
+    "a": "NAS"
+  },
+  {
+    "q": "_______ is a protocol that's used for chat messages and operates in a client and server model",
+    "type": "mc",
+    "opts": ["ERC", "IRC", "ORC", "ARC"],
+    "a": "IRC"
+  },
+  {
+    "q": "_______ gives a certificate to a website saying that it trusts and that you control the web server. It also verifies that you are who you say you are",
+    "type": "mc",
+    "opts": ["Certificate authority", "Committee authority", "Candidate authority", "Commission authority"],
+    "a": "Certificate authority"
+  },
+  {
+    "q": "_________ provide a platform for developers to code, build and manage software applications.",
+    "type": "mc",
+    "opts": ["Hardware Services", "Software services", "Platform services", "Infrastructure Services"],
+    "a": "Platform services"
+  },
+  {
+    "q": "_______ is a protocol that Samba implements",
+    "type": "mc",
+    "opts": ["SMB", "NTFS", "NAS", "NFS"],
+    "a": "SMB"
+  },
+  {
+    "q": "SMB is a protocol that Samba implements",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "A company uses a private cloud for the services their own and the rest of the infrastructure, whether on-site or in a remote data center",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ makes sure the communication on the web browser has with the website, is secured through encryption",
+    "type": "mc",
+    "opts": ["HTTP", "HTTPS", "SSL", "TLS"],
+    "a": "HTTPS"
+  },
+  {
+    "q": "AD is an open standards for communication and access for directory services",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "When using anonymous binding, you aren't actually authenticating at all, depending on how it's configured anyone could potentially access that directory",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "GLBP is a set of policies and preferences that can be applied to a group of objects in the directory",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_________ downloads email from an email server onto your local device, deletes the email from the email server",
+    "type": "mc",
+    "opts": ["POP3", "SMTP", "PPO3", "IMAP"],
+    "a": "POP3"
+  },
+  {
+    "q": "Replication provides redundancy by having multiple servers available simultaneously",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Replication decreases latency when you access the directory service",
+    "type": "tf",
+    "a": "True"
+  }
+]
