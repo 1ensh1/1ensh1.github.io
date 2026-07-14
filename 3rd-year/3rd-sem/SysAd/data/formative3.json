@@ -81,8 +81,7 @@
   },
   {
     "q": "_______________ adds a single computer to the directory.",
-    "type": "mc",
-    "opts": ["dsadd computer"],
+    "type": "text",
     "a": "dsadd computer"
   },
   {
@@ -118,20 +117,17 @@
   },
   {
     "q": "Adds a single user to the directory",
-    "type": "mc",
-    "opts": ["dsadd user"],
+    "type": "text",
     "a": "dsadd user"
   },
   {
     "q": "Modifies attributes of one or more existing quota specifications in the directory",
-    "type": "mc",
-    "opts": ["dsmod quota"],
+    "type": "text",
     "a": "dsmod quota"
   },
   {
     "q": "Modifies attributes of one or more existing users in the directory",
-    "type": "mc",
-    "opts": ["dsmod user"],
+    "type": "text",
     "a": "dsmod user"
   },
   {
@@ -234,8 +230,7 @@
   },
   {
     "q": "Modifies attributes of one or more existing contacts in the directory",
-    "type": "mc",
-    "opts": ["dsmod contact"],
+    "type": "text",
     "a": "dsmod contact"
   },
   {
@@ -269,20 +264,23 @@
   },
   {
     "q": "Adds a single organizational unit to the directory",
-    "type": "mc",
-    "opts": ["dsadd ou"],
+    "type": "text",
     "a": "dsadd ou"
   },
   {
-    "q": "Adds a quota specification to a directory partition",
+    "q": "is a command to check the directory of a certain path or location",
     "type": "mc",
-    "opts": ["dsadd quota"],
+    "opts": ["dir", "cd", "cls", "none of the above"],
+    "a": "dir"
+  },
+  {
+    "q": "Adds a quota specification to a directory partition",
+    "type": "text",
     "a": "dsadd quota"
   },
   {
     "q": "Modifies attributes of one or more existing computers in the directory",
-    "type": "mc",
-    "opts": ["dsmod computer"],
+    "type": "text",
     "a": "dsmod computer"
   },
   {
@@ -293,8 +291,7 @@
   },
   {
     "q": "Modifies properties of a domain controller.",
-    "type": "mc",
-    "opts": ["dsmod server"],
+    "type": "text",
     "a": "dsmod server"
   },
   {
@@ -439,26 +436,22 @@
   },
   {
     "q": "Adds a single group to the directory (all lowercase)",
-    "type": "mc",
-    "opts": ["dsadd group"],
+    "type": "text",
     "a": "dsadd group"
   },
   {
     "q": "Modifies attributes of one or more existing groups in the directory (all lowercase)",
-    "type": "mc",
-    "opts": ["dsmod group"],
+    "type": "text",
     "a": "dsmod group"
   },
   {
     "q": "Modifies attributes of one or more existing organizational units (OUs) in the directory (all lowercase)",
-    "type": "mc",
-    "opts": ["dsmod ou"],
+    "type": "text",
     "a": "dsmod ou"
   },
   {
     "q": "Modifies properties of a domain controller. (all lowercase)",
-    "type": "mc",
-    "opts": ["netdom"],
+    "type": "text",
     "a": "netdom"
   },
   {
@@ -474,14 +467,12 @@
   },
   {
     "q": "Modifies attributes of one or more existing partitions in the directory (all lowercase)",
-    "type": "mc",
-    "opts": ["dsmod partition"],
+    "type": "text",
     "a": "dsmod partition"
   },
   {
     "q": "Adds a quota specification to a directory partition (all lowercase)",
-    "type": "mc",
-    "opts": ["dsadd quota"],
+    "type": "text",
     "a": "dsadd quota"
   }
 ]
