@@ -1,0 +1,1640 @@
+[
+  {
+    "q": "Which of the following allows an application to securely authenticate a user by receiving credentials from a web domain?",
+    "type": "mc",
+    "opts": ["TACACS+", "RADIUS", "Kerberos", "SAML"],
+    "a": "SAML"
+  },
+  {
+    "q": "It may be a process by which clients are allowed access and certain benefits to systems, assets or data",
+    "type": "mc",
+    "opts": ["Directory Services", "Access control", "LDAPS", "LDAP"],
+    "a": "Access control"
+  },
+  {
+    "q": "It will only be valid for a predefined time interval.",
+    "type": "mc",
+    "opts": ["SAML", "TACACS", "HOTP", "TOTP"],
+    "a": "TOTP"
+  },
+  {
+    "q": "It may be a farther convention utilized to connect with a server in systems.",
+    "type": "mc",
+    "opts": ["OTP", "SAML", "RADIUS", "TACACS"],
+    "a": "TACACS"
+  },
+  {
+    "q": "It supports both Kerberos and LDAP -- Microsoft Advertisement is by distant the foremost common directory services system in utilize nowadays",
+    "type": "mc",
+    "opts": ["LDAP", "LDAPS", "Active Directory", "Directory Services"],
+    "a": "Active Directory"
+  },
+  {
+    "q": "It could be a secret word that can be as it were utilized one time",
+    "type": "mc",
+    "opts": ["TACACS", "SAML", "RADIUS", "OTP"],
+    "a": "OTP"
+  },
+  {
+    "q": "It is an OTP creation algorithm based on event synchronization, and the client and authentication server share the secret key K.",
+    "type": "mc",
+    "opts": ["TOTP", "TACACS", "SAML", "HOTP"],
+    "a": "HOTP"
+  },
+  {
+    "q": "It grants client anonymous status to LDAP.",
+    "type": "mc",
+    "opts": ["Kerberos", "Unauthenticated authentication", "Anonymous authentication", "Name/Password authentication"],
+    "a": "Anonymous authentication"
+  },
+  {
+    "q": "It could be a brief passcode produced by a calculation that uses the current time of day as one of its verification components",
+    "type": "mc",
+    "opts": ["TOTP", "SAML", "HOTP", "TACACS"],
+    "a": "TOTP"
+  },
+  {
+    "q": "LDAP stands for",
+    "type": "mc",
+    "opts": ["Leader Development Action Plan", "Light Directory Access Protocol", "Lightweight Data Access Protocol", "Legal Deposit Advisory Panel"],
+    "a": "Light Directory Access Protocol"
+  },
+  {
+    "q": "Should you use personal info in your password?",
+    "type": "mc",
+    "opts": ["Maybe", "I don't know", "Yes", "No"],
+    "a": "No"
+  },
+  {
+    "q": "It is one that can be utilized by more than one allotted client.",
+    "type": "mc",
+    "opts": ["User account", "Service accounts", "Shared account", "Account management"],
+    "a": "Shared account"
+  },
+  {
+    "q": "Use your street address as a password",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "A network administrator is brute forcing accounts through a web interface. Which of the following would provide the BEST defense from an account password being discovered?",
+    "type": "mc",
+    "opts": ["Password complexity", "Account lockout", "Password history", "Account expiration"],
+    "a": "Account lockout"
+  },
+  {
+    "q": "This functionality is different than a group policy in Windows systems, which allows for an administrator to maintain consistent configuration and security settings set as group policy objects that activate when users log in.",
+    "type": "mc",
+    "opts": ["Passwords", "Credential management", "Password complexity", "Account Policy"],
+    "a": "Credential management"
+  },
+  {
+    "q": "It is a document which outlines the requirements for requesting and maintaining an account on computer systems or networks, typically within an organization.",
+    "type": "mc",
+    "opts": ["Password complexity", "Credential management", "Account Policy", "Passwords"],
+    "a": "Account Policy"
+  },
+  {
+    "q": "It is an established form of software that is used for issuing and managing credentials as part of public key infrastructure (PKI).",
+    "type": "mc",
+    "opts": ["Complex password", "Group Policy", "Credential Management", "Account lockout"],
+    "a": "Credential Management"
+  },
+  {
+    "q": "It prevents the user from logging onto the network for a period even if the correct password is entered.",
+    "type": "mc",
+    "opts": ["Federated identity", "Account policy", "Account lockout", "Privileged account"],
+    "a": "Account lockout"
+  },
+  {
+    "q": "gRe@tj0b is a",
+    "type": "mc",
+    "opts": ["Weak password", "Strong password"],
+    "a": "Strong password"
+  },
+  {
+    "q": "The applications only have access to specific functions and data based on their function and needs.",
+    "type": "mc",
+    "opts": ["User account", "Service accounts", "Shared account", "Privileged accounts"],
+    "a": "Service accounts"
+  },
+  {
+    "q": "This contrasts with key planning, which regularly alludes to the inner taking care of keys inside the operation of a cipher",
+    "type": "mc",
+    "opts": ["Certificate Authority", "Public Key", "Key Management", "Private Key"],
+    "a": "Key Management"
+  },
+  {
+    "q": "It is an electronic document that contains an identity such as a user or organization and a corresponding public key",
+    "type": "mc",
+    "opts": ["Certificate authentication", "Digital certificate", "CA", "PKI"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "It contributes to managing the complete lifecycle of cryptographic keys, which includes creation, rotation, deletion, auditing, and support for API's to integrate with various applications.",
+    "type": "mc",
+    "opts": ["Certificate Store", "CRL", "HSM", "PKI"],
+    "a": "HSM"
+  },
+  {
+    "q": "PK stands for:",
+    "type": "mc",
+    "opts": ["Public Key", "Private King", "Pirate Key", "Public Kiosk"],
+    "a": "Public Key"
+  },
+  {
+    "q": "It is a substance that issues computerized certificates.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "PKI", "Digital certificate", "CA"],
+    "a": "CA"
+  },
+  {
+    "q": "It incorporates cryptographic protocol plan, key servers, client strategies, and other significant protocols",
+    "type": "mc",
+    "opts": ["Public Key", "Private Key", "Key Management", "Certificate Authority"],
+    "a": "Key Management"
+  },
+  {
+    "q": "They are the default option and are enough for most use cases.",
+    "type": "mc",
+    "opts": ["Intermediate CA", "Private CA", "Public CA", "Root CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "These are the best option if you only need to issue a limited number of certificates.",
+    "type": "mc",
+    "opts": ["Private CA", "Public CA", "Intermediate CA", "Root CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "It is a system consisting of hardware, software, policies, and procedures that create, manage, distribute, use, store, and revoke digital certificates.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "CA", "Digital certificate", "PKI"],
+    "a": "PKI"
+  },
+  {
+    "q": "It may be a set of parts, arrangements, and strategies required to form, oversaw, convey, utilize, store & revoke computerized certificates and oversee public-key encryption",
+    "type": "mc",
+    "opts": ["CA", "Certificate authentication", "PKI", "Digital certificate"],
+    "a": "PKI"
+  },
+  {
+    "q": "Obtain new key pair.",
+    "type": "mc",
+    "opts": ["Private Key Replacement Process", "None of the above", "Private Key Protection Methods", "Private Key Restoration Methods"],
+    "a": "Private Key Replacement Process"
+  },
+  {
+    "q": "Every time the certificate is used to authenticate, the RADIUS server checks with the CA to confirm that the certificate is still valid and hasn't expired or been revoked.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "Instead of naturally being shunted to a CRL, a few CA's have settings that renew certificates upon termination date, although ordinarily they re-verify identity",
+    "type": "mc",
+    "opts": ["Certificate Revocation", "Certificate Issuance", "Certificate Validation", "Certificate Renewal"],
+    "a": "Certificate Renewal"
+  },
+  {
+    "q": "It is a procedure never share.",
+    "type": "mc",
+    "opts": ["Private Key Restoration Methods", "Private Key Replacement Process", "None of the above", "Private Key Protection Methods"],
+    "a": "Private Key Protection Methods"
+  },
+  {
+    "q": "In this stage, by trusting another CA that as of now approved the candidate",
+    "type": "mc",
+    "opts": ["Certificate Issuance", "Certificate Validation", "Certificate Enrollment", "Certificate Life Cycle"],
+    "a": "Certificate Issuance"
+  },
+  {
+    "q": "A Certificate Revocation is a private key compromised.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "You can choose whether to generate a new key pair -- effectively making it a totally new certificate in these phase",
+    "type": "mc",
+    "opts": ["Certificate Validation", "Certificate Renewal", "Certificate Issuance", "Certificate Revocation"],
+    "a": "Certificate Renewal"
+  },
+  {
+    "q": "It is the solution on Private key that had been compromised",
+    "type": "mc",
+    "opts": ["Certificate Chain", "Certificate Revocation", "Certificate Revocation List", "Certificate Trust Chain"],
+    "a": "Certificate Revocation"
+  },
+  {
+    "q": "Destroy original key.",
+    "type": "mc",
+    "opts": ["None of the above", "Private Key Replacement Process", "Private Key Protection Methods", "Private Key Restoration Methods"],
+    "a": "Private Key Replacement Process"
+  },
+  {
+    "q": "Every time the certificate is utilized to confirm in this period.",
+    "type": "mc",
+    "opts": ["Certificate Enrollment", "Certificate Issuance", "Certificate Validation", "Certificate Life Cycle"],
+    "a": "Certificate Validation"
+  },
+  {
+    "q": "An object, quality, or occasion whose presence or event demonstrates the likely presence or event of something else",
+    "type": "mc",
+    "opts": ["Signs", "Mantrap doors", "Bonded personnel", "Security guards"],
+    "a": "Signs"
+  },
+  {
+    "q": "It is measuring a trade or premises put in place to prevent burglary or a breach in protection.",
+    "type": "mc",
+    "opts": ["Identification systems", "Logging and visitor access", "Physical security", "Locks"],
+    "a": "Physical security"
+  },
+  {
+    "q": "It is objective of physical security that center on Client recognizable proof and PIN code access",
+    "type": "mc",
+    "opts": ["Protecting private data", "Regulating access to keys", "Safeguarding physical assets", "Protecting nothing"],
+    "a": "Regulating access to keys"
+  },
+  {
+    "q": "The following are concerns of Compliance Laws and Regulations except",
+    "type": "mc",
+    "opts": ["Deny requirements.", "Review policies and other legal documents.", "Review pertinent law and regulatory documentation.", "Ensuring that the requirements of legislation, regulations, industry codes and standards, and organizational standards are met."],
+    "a": "Deny requirements."
+  },
+  {
+    "q": "It can then be used as an up to date fire list in case of emergency/evacuation",
+    "type": "mc",
+    "opts": ["Logging and visitor access", "Identification systems", "Locks", "Video surveillance"],
+    "a": "Logging and visitor access"
+  },
+  {
+    "q": "It generally describes any authority over a certain area or certain persons.",
+    "type": "mc",
+    "opts": ["Chain of Custody", "Jurisdiction", "Evidence Collection", "Evidence Preservation"],
+    "a": "Jurisdiction"
+  },
+  {
+    "q": "It is goal of physical security that focus on carrying large amounts of cash or jewelry on the premises",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Regulating access to keys", "Protecting private data", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It requires each guest to sign in and out of the building",
+    "type": "mc",
+    "opts": ["Video surveillance", "Logging and visitor access", "Identification systems", "Locks"],
+    "a": "Logging and visitor access"
+  },
+  {
+    "q": "It secures against worker robbery and untruthfulness.",
+    "type": "mc",
+    "opts": ["Signs", "Mantrap doors", "Security guards", "Bonded personnel"],
+    "a": "Bonded personnel"
+  },
+  {
+    "q": "The prepare of distinguishing somebody or something or the reality of being recognized.",
+    "type": "mc",
+    "opts": ["Identification systems", "Video surveillance", "Logging and visitor access", "Locks"],
+    "a": "Identification systems"
+  },
+  {
+    "q": "It replicates the principle teaching method used in primary and secondary education throughout places",
+    "type": "mc",
+    "opts": ["Online security awareness training", "Visual aids (including video)", "Classroom-based training", "Through simulated attacks"],
+    "a": "Classroom-based training"
+  },
+  {
+    "q": "It is all about teaching your colleagues and employees to understand the risks and threats around the ever-evolving cyber world.",
+    "type": "mc",
+    "opts": ["Role-Based Training", "Security awareness", "Rule-Based Training", "Security Policy Awareness"],
+    "a": "Security awareness"
+  },
+  {
+    "q": "In Business Partners. Don't train employees on best social media practices for security.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "These written agreements can help settle conflicts when they arise.",
+    "type": "mc",
+    "opts": ["BPA", "SLA", "ISA", "MOU"],
+    "a": "BPA"
+  },
+  {
+    "q": "The training in the context of a specific role and what it takes to perform in that role.",
+    "type": "mc",
+    "opts": ["Security awareness", "Role-Based Training", "Rule-Based Training", "Security Policy Awareness"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "In Business Partners. Clearly define who owns data.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It is all around instructing your colleagues and workers to get it the dangers and threats around the ever-evolving cyber world.",
+    "type": "mc",
+    "opts": ["Security Policy Awareness", "Security awareness", "Rule-Based Training", "Role-Based Training"],
+    "a": "Security awareness"
+  },
+  {
+    "q": "In Business Partners. Neglect policies outlined in the agreement.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "It guarantees that representatives are completely alert to the consequences of falling flat to secure the organization from exterior assailants",
+    "type": "mc",
+    "opts": ["Security awareness", "Rule-Based Training", "Security Policy Awareness", "Role-Based Training"],
+    "a": "Security awareness"
+  },
+  {
+    "q": "Attendees are taken away from their usual roles and, for at least a few hours, take part in a workshop which sees an instructor lead them through the ins-and-outs of at least one security topic.",
+    "type": "mc",
+    "opts": ["Classroom-based training", "Online security awareness training", "Visual aids (including video)", "Through simulated attacks"],
+    "a": "Classroom-based training"
+  },
+  {
+    "q": "It was accepted by Microsoft as the chosen authentication protocol for Windows 2000 and Active Directory domains that followed.",
+    "type": "mc",
+    "opts": ["Kerberos", "Layer 2 Tunneling Protocol (L2TP)", "Point-to-Point Tunneling Protocol (PPTP)", "Tunneling"],
+    "a": "Kerberos"
+  },
+  {
+    "q": "It makes use of port 389.",
+    "type": "mc",
+    "opts": ["LDAP", "Access control", "Directory Services", "LDAPS"],
+    "a": "LDAP"
+  },
+  {
+    "q": "It was developed by MIT to use SSO.",
+    "type": "mc",
+    "opts": ["Kerberos", "Layer 2 Tunneling Protocol (L2TP)", "Point-to-Point Tunneling Protocol (PPTP)", "Tunneling"],
+    "a": "Kerberos"
+  },
+  {
+    "q": "Which of the following is commonly used for federated identity management across multiple organizations?",
+    "type": "mc",
+    "opts": ["Active Directory", "SAML", "LDAP", "Kerberos"],
+    "a": "SAML"
+  },
+  {
+    "q": "It transmits communications in Clear Text",
+    "type": "mc",
+    "opts": ["LDAPS", "Directory Services", "Access control", "LDAP"],
+    "a": "LDAP"
+  },
+  {
+    "q": "It is an open standard that permits identity providers (IdP) to pass authorization qualifications to service suppliers.",
+    "type": "mc",
+    "opts": ["RADIUS", "OTP", "SAML", "TACACS"],
+    "a": "SAML"
+  },
+  {
+    "q": "It is responsible for verifying the identity of principles and granting and controlling access within a network environment using secure cryptographic keys and tickets.",
+    "type": "mc",
+    "opts": ["Layer 2 Tunneling Protocol (L2TP)", "Tunneling", "Point-to-Point Tunneling Protocol (PPTP)", "Kerberos"],
+    "a": "Kerberos"
+  },
+  {
+    "q": "It is very important for large sites where users typically have accounts on many systems.",
+    "type": "mc",
+    "opts": ["Credential management", "Account Policy", "Passwords", "Password complexity"],
+    "a": "Credential management"
+  },
+  {
+    "q": "These are used for centralized management and configuration of the Active Directory environment.",
+    "type": "mc",
+    "opts": ["Group Policy Object", "Account policy", "Privileged account", "Account lockout"],
+    "a": "Group Policy Object"
+  },
+  {
+    "q": "Telling your password to your parents is a good practice on security",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "Password is a",
+    "type": "mc",
+    "opts": ["Weak password", "Strong password"],
+    "a": "Weak password"
+  },
+  {
+    "q": "It could be a some of the time known as a bland account.",
+    "type": "mc",
+    "opts": ["Shared account", "Account management", "Service accounts", "User account"],
+    "a": "Shared account"
+  },
+  {
+    "q": "It controls the benefits and capacities of an application.",
+    "type": "mc",
+    "opts": ["Service accounts", "Account management", "Shared account", "User account"],
+    "a": "Service accounts"
+  },
+  {
+    "q": "It is a feature of the Microsoft Windows NT family of operating systems that controls the working environment of user accounts and computer accounts.",
+    "type": "mc",
+    "opts": ["Group Policy", "Credential Management", "Complex password", "Account lockout"],
+    "a": "Group Policy"
+  },
+  {
+    "q": "Use any private information in your password.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "It is a set of roles, policies, and procedures needed to create, manage, distribute, use, store & revoke digital certificates and manage public-key encryption",
+    "type": "mc",
+    "opts": ["CA", "Certificate authentication", "Digital certificate", "PKI"],
+    "a": "PKI"
+  },
+  {
+    "q": "It is necessary for some organizations, but it can be difficult to set up and maintain.",
+    "type": "mc",
+    "opts": ["Public CA", "Intermediate CA", "Root CA", "Private CA"],
+    "a": "Private CA"
+  },
+  {
+    "q": "It concerns keys at the client level, either between clients or systems.",
+    "type": "mc",
+    "opts": ["Certificate Authority", "Public Key", "Key Management", "Private Key"],
+    "a": "Key Management"
+  },
+  {
+    "q": "This permits others to depend upon marks or statements made by the private key that corresponds to the open key that's certified.",
+    "type": "mc",
+    "opts": ["Digital certificate", "CA", "PKI", "Certificate authentication"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "It refers to the process by which a user requests a digital certificate.",
+    "type": "mc",
+    "opts": ["certificate enrollment", "Online root CAs", "certificate release", "Offline root CAs"],
+    "a": "certificate enrollment"
+  },
+  {
+    "q": "It is an important part of creating a robust and secure intranet",
+    "type": "mc",
+    "opts": ["Intermediate CA", "Public CA", "Root CA", "Private CA"],
+    "a": "Private CA"
+  },
+  {
+    "q": "Instead of automatically being shunted to a CRL, some CA's have settings that renew certificates upon expiration date, though typically they re-verify identity. At this time, you can choose whether to generate a new key pair -- effectively making it a totally new certificate.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It tries to recover key.",
+    "type": "mc",
+    "opts": ["None of the above", "Private Key Protection Methods", "Private Key Restoration Methods", "Private Key Replacement Process"],
+    "a": "Private Key Replacement Process"
+  },
+  {
+    "q": "In this stage, the server responds by sending its digital certificate and public key to the client.",
+    "type": "mc",
+    "opts": ["Encryption", "Negotiation", "Request", "Response"],
+    "a": "Response"
+  },
+  {
+    "q": "It sends response with certificate's status.",
+    "type": "mc",
+    "opts": ["Certificate Renewal", "Certificate Trust Chain", "OCSP", "Key Escrow"],
+    "a": "OCSP"
+  },
+  {
+    "q": "Encrypt data with new key.",
+    "type": "mc",
+    "opts": ["Private Key Restoration Methods", "Private Key Protection Methods", "Private Key Replacement Process", "None of the above"],
+    "a": "Private Key Replacement Process"
+  },
+  {
+    "q": "Communication in SSL Enrollment Process means",
+    "type": "mc",
+    "opts": ["The server and client then negotiate an encryption level.", "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server", "The server responds by sending its digital certificate and public key to the client.", "The session key then becomes the key used in the conversation."],
+    "a": "The session key then becomes the key used in the conversation."
+  },
+  {
+    "q": "It is a method to delete from insecure media",
+    "type": "mc",
+    "opts": ["Private Key Protection Methods", "Private Key Restoration Methods", "Private Key Replacement Process", "None of the above"],
+    "a": "Private Key Protection Methods"
+  },
+  {
+    "q": "It could be a complex challenge for any security professional.",
+    "type": "mc",
+    "opts": ["Logging and visitor access", "Physical security", "Locks", "Identification systems"],
+    "a": "Physical security"
+  },
+  {
+    "q": "It is objective of physical security that center on businesses managing with pharmaceutical drugs",
+    "type": "mc",
+    "opts": ["Protecting private data", "Protecting nothing", "Regulating access to keys", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "These are used to extinguish or prevent the spread of fire in a building.",
+    "type": "mc",
+    "opts": ["Alarm control panel", "Fire suppression", "Fire detection", "Fire"],
+    "a": "Fire suppression"
+  },
+  {
+    "q": "It is goal of physical security that focus on sensitive patient details",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Safeguarding physical assets", "Protecting private data", "Regulating access to keys"],
+    "a": "Protecting private data"
+  },
+  {
+    "q": "It is goal of physical security that focus on physical assets",
+    "type": "mc",
+    "opts": ["Safeguarding physical assets", "Regulating access to keys", "Protecting nothing", "Protecting private data"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It is objective of physical security that center on web connection",
+    "type": "mc",
+    "opts": ["Protecting private data", "Regulating access to keys", "Protecting nothing", "Safeguarding physical assets"],
+    "a": "Protecting private data"
+  },
+  {
+    "q": "It helps your organization to adjust preparing as per trade process",
+    "type": "mc",
+    "opts": ["Security Policy Awareness", "Rule-Based Training", "Role-Based Training", "Security awareness"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "One of the primary benefits of a BPA is that it can help settle conflicts when they arise",
+    "type": "tf",
+    "opts": ["False", "True"],
+    "a": "True"
+  },
+  {
+    "q": "Participants' responses to the attacks are monitored.",
+    "type": "mc",
+    "opts": ["Online security awareness training", "Classroom-based training", "Simulated attacks", "Visual aids"],
+    "a": "Simulated attacks"
+  },
+  {
+    "q": "It helps your employees to gain a deeper knowledge through practical and relevant information",
+    "type": "mc",
+    "opts": ["Role-Based Training", "Security Policy Awareness", "Rule-Based Training", "Security awareness"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "Agreements is the act of telling someone officially about something",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "A separate individual or organization other than the two principals involved.",
+    "type": "mc",
+    "opts": ["Third party", "Agreements", "Notifications", "Compliance", "Due Diligence"],
+    "a": "Third party"
+  },
+  {
+    "q": "It is ordinarily a staple in a chief data security officer's (CISO's) arms stockpile",
+    "type": "mc",
+    "opts": ["Visual aids", "Online security awareness training", "Classroom-based training", "Simulated attacks"],
+    "a": "Simulated attacks"
+  },
+  {
+    "q": "It stores the users, passwords, and computer accounts, and share that information with other entities on the network.",
+    "type": "mc",
+    "opts": ["Directory Services", "LDAPS", "LDAP", "Access control"],
+    "a": "Directory Services"
+  },
+  {
+    "q": "It gives the communication dialect that applications utilize to communicate with other directory services servers",
+    "type": "mc",
+    "opts": ["Directory Services", "LDAP", "Active Directory", "LDAPS"],
+    "a": "LDAP"
+  },
+  {
+    "q": "It is an OTP creation calculation based on occasion synchronization, and the client and verification server share the mystery key K.",
+    "type": "mc",
+    "opts": ["TACACS", "TOTP", "SAML", "HOTP"],
+    "a": "HOTP"
+  },
+  {
+    "q": "It is considered more secure since the secret word keeps on changing, meaning that it isn't defenseless against replay assaults",
+    "type": "mc",
+    "opts": ["OTP", "RADIUS", "SAML", "TACACS"],
+    "a": "OTP"
+  },
+  {
+    "q": "It is used for locating, managing, and administering common items and network resources, such as volumes, folders, files, printers, users, groups, devices, telephone numbers, and other objects.",
+    "type": "mc",
+    "opts": ["LDAPS", "Directory Services", "Access control", "LDAP"],
+    "a": "Directory Services"
+  },
+  {
+    "q": "These are gadgets that produce passwords based on a non-repeating one-way work.",
+    "type": "mc",
+    "opts": ["TOTP", "SAML", "TACACS", "HOTP"],
+    "a": "HOTP"
+  },
+  {
+    "q": "It makes use of port 88.",
+    "type": "mc",
+    "opts": ["Kerberos", "Point-to-Point Tunneling Protocol (PPTP)", "Layer 2 Tunneling Protocol (L2TP)", "Tunneling"],
+    "a": "Kerberos"
+  },
+  {
+    "q": "It locks the user's account after a defined number of failed password attempts.",
+    "type": "mc",
+    "opts": ["Privileged account", "Account policy", "Account lockout", "Federated identity"],
+    "a": "Account lockout"
+  },
+  {
+    "q": "It is often used by teams that share similar functions -- known as group-based access -- or by casual users that need access to a system in a limited capacity.",
+    "type": "mc",
+    "opts": ["Shared account", "Privileged accounts", "Service accounts", "User account"],
+    "a": "Shared account"
+  },
+  {
+    "q": "Which option is not a good trait for your password?",
+    "type": "mc",
+    "opts": ["Short password", "No personal information", "Long password", "Different symbols within the password."],
+    "a": "Short password"
+  },
+  {
+    "q": "It often prevents the installation of new applications, changes to global settings or rules, and limits other functions or files, focusing on core business functionality.",
+    "type": "mc",
+    "opts": ["Privileged accounts", "Service accounts", "User account", "Shared account"],
+    "a": "User account"
+  },
+  {
+    "q": "Johnnysoccer is a",
+    "type": "mc",
+    "opts": ["Strong password", "Weak password"],
+    "a": "Weak password"
+  },
+  {
+    "q": "It exists in many forms across the enterprise environment and they pose significant security risks if not protected, managed and monitored.",
+    "type": "mc",
+    "opts": ["Federated identity", "Account lockout", "Privileged account", "Account policy"],
+    "a": "Privileged account"
+  },
+  {
+    "q": "It ought to be characterized for each authoritative part and system inside an organization, permitting for partition of obligations and avoiding much control as well being set in as well few accounts",
+    "type": "mc",
+    "opts": ["Service accounts", "User account", "Privileged accounts", "Shared account"],
+    "a": "Privileged accounts"
+  },
+  {
+    "q": "It is the utilize of a Digital Certificate to recognize a client, machine, or gadget before giving access to a asset, network, application, etc.",
+    "type": "mc",
+    "opts": ["CA", "PKI", "Digital certificate", "Certificate authentication"],
+    "a": "Certificate authentication"
+  },
+  {
+    "q": "It is a certificate authority that provides services to the general public.",
+    "type": "mc",
+    "opts": ["Root CA", "Private CA", "Public CA", "Intermediate CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "This device protects and manages digital keys and serves as the groundwork for building a secure enterprise PKI infrastructure.",
+    "type": "mc",
+    "opts": ["PKI", "CRL", "Certificate Store", "HSM"],
+    "a": "HSM"
+  },
+  {
+    "q": "It is an electronic record that contains a character such as a client or organization and a comparing open key",
+    "type": "mc",
+    "opts": ["PKI", "Certificate authentication", "Digital certificate", "CA"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "It is that it uses a pair of keys to achieve the underlying security service. The key pair comprises of private key and public key.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "PKI", "Digital certificate", "CA"],
+    "a": "PKI"
+  },
+  {
+    "q": "They issue most certificates.",
+    "type": "mc",
+    "opts": ["Intermediate CA", "Private CA", "Root CA", "Public CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "In this stage, a substance can be an individual, a gadget, or indeed fair some lines of code",
+    "type": "mc",
+    "opts": ["Certificate Validation", "Certificate Life Cycle", "Certificate Enrollment", "Certificate Issuance"],
+    "a": "Certificate Enrollment"
+  },
+  {
+    "q": "A sort of blacklist that instructs the RADIUS not to authenticate those certificates",
+    "type": "mc",
+    "opts": ["Certificate Revocation", "Certificate Issuance", "Certificate Renewal", "Certificate Validation"],
+    "a": "Certificate Revocation"
+  },
+  {
+    "q": "It checks specific certificate based on request.",
+    "type": "mc",
+    "opts": ["Certificate Trust Chain", "Key Escrow", "OCSP", "Certificate Renewal"],
+    "a": "OCSP"
+  },
+  {
+    "q": "It is a method to use key escrow.",
+    "type": "mc",
+    "opts": ["Private Key Restoration Methods", "Private Key Protection Methods", "Private Key Replacement Process", "None of the above"],
+    "a": "Private Key Protection Methods"
+  },
+  {
+    "q": "In this stage, the CA must approve the character of the candidate, which is regularly done through accreditations credentials",
+    "type": "mc",
+    "opts": ["Certificate Enrollment", "Certificate Validation", "Certificate Issuance", "Certificate Life Cycle"],
+    "a": "Certificate Issuance"
+  },
+  {
+    "q": "OCSP checks based on general certificate based on request",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "An entity can be a person, a device, or even just a few lines of code",
+    "type": "mc",
+    "opts": ["Certificate Life Cycle", "Certificate Issuance", "Certificate Enrollment", "Certificate Validation"],
+    "a": "Certificate Enrollment"
+  },
+  {
+    "q": "It is goal of physical security that focus on with alerts being sent if the key isn't returned within a pre-determined timeframe",
+    "type": "mc",
+    "opts": ["Safeguarding physical assets", "Protecting nothing", "Protecting private data", "Regulating access to keys"],
+    "a": "Regulating access to keys"
+  },
+  {
+    "q": "It is goal of physical security that focus in the best interests of employee safety.",
+    "type": "mc",
+    "opts": ["Protecting private data", "Protecting nothing", "Safeguarding physical assets", "Regulating access to keys"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It is objective of physical security that center on get to your network",
+    "type": "mc",
+    "opts": ["Regulating access to keys", "Safeguarding physical assets", "Protecting private data", "Protecting nothing"],
+    "a": "Protecting private data"
+  },
+  {
+    "q": "It can at that point be utilized as an up to date fire list in case of emergency/evacuation",
+    "type": "mc",
+    "opts": ["Video surveillance", "Identification systems", "Locks", "Logging and visitor access"],
+    "a": "Logging and visitor access"
+  },
+  {
+    "q": "A component for keeping a entryway, cover, etc., affixed, regularly worked as it were by a key of a shape.",
+    "type": "mc",
+    "opts": ["Locks", "Video surveillance", "Identification systems", "Logging and visitor access"],
+    "a": "Locks"
+  },
+  {
+    "q": "It is goal of physical security that focus on real time location tracking of keys",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Safeguarding physical assets", "Regulating access to keys", "Protecting private data"],
+    "a": "Regulating access to keys"
+  },
+  {
+    "q": "In Business Partners. Discourage risk awareness in all levels of the organization.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "It ought to teach representatives about corporate arrangements and strategies for working with information technology (IT",
+    "type": "mc",
+    "opts": ["Rule-Based Training", "Security Policy Awareness", "Role-Based Training", "Security awareness"],
+    "a": "Security awareness"
+  },
+  {
+    "q": "An entity that isn't directly involved in activities between two primary parties.",
+    "type": "mc",
+    "opts": ["Due Diligence", "Compliance", "Agreements", "Third party", "Notifications"],
+    "a": "Third party"
+  },
+  {
+    "q": "They typically take the form of posters on topics such as secure passwords, handouts covering phishing scams or videos explaining things like the dangers of public wi-fi.",
+    "type": "mc",
+    "opts": ["Through simulated attacks", "Visual aids (including video)", "Classroom-based training", "Online security awareness training"],
+    "a": "Visual aids (including video)"
+  },
+  {
+    "q": "It includes task-based and customized training including the workflow and collaboration.",
+    "type": "mc",
+    "opts": ["Security Policy Awareness", "Rule-Based Training", "Security awareness", "Role-Based Training"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "It will as it were be substantial for a predefined time interim.",
+    "type": "mc",
+    "opts": ["SAML", "HOTP", "TACACS", "TOTP"],
+    "a": "TOTP"
+  },
+  {
+    "q": "It is the connect between the verification of a user's personality and the authorization to utilize a service.",
+    "type": "mc",
+    "opts": ["OTP", "RADIUS", "TACACS", "SAML"],
+    "a": "SAML"
+  },
+  {
+    "q": "These are devices that generate passwords based on a nonrepeating one-way function.",
+    "type": "mc",
+    "opts": ["HOTP", "TACACS", "TOTP", "SAML"],
+    "a": "HOTP"
+  },
+  {
+    "q": "Give your passwords to your friends",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "It holds the foremost constrained sum of access to a system, but it is additionally the level that most clients have.",
+    "type": "mc",
+    "opts": ["User account", "Account management", "Service accounts", "Shared account"],
+    "a": "User account"
+  },
+  {
+    "q": "Which one of the following is NOT a weak password?",
+    "type": "mc",
+    "opts": ["Your username", "Your favorite football teams", "An anagram of your favorite film", "Your pet's name"],
+    "a": "An anagram of your favorite film"
+  },
+  {
+    "q": "These are companies that have garnered the trust of the public at large.",
+    "type": "mc",
+    "opts": ["Private CA", "Public CA", "Intermediate CA", "Root CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "It can also be significantly more secure than their public counterparts.",
+    "type": "mc",
+    "opts": ["Private CA", "Public CA", "Root CA", "Intermediate CA"],
+    "a": "Private CA"
+  },
+  {
+    "q": "It is needed for any public-facing product or service",
+    "type": "mc",
+    "opts": ["Root CA", "Public CA", "Private CA", "Intermediate CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "It certifies the ownership of a public key by the named subject of the certificate.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "CA", "PKI", "Digital certificate"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "It certifies the ownership of a open key by the named subject of the certificate.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "CA", "PKI", "Digital certificate"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "Response in SSL Enrollment Process means",
+    "type": "mc",
+    "opts": ["The client requests a session with the server.", "The server and client then negotiate an encryption level.", "The server responds by sending its digital certificate and public key to the client.", "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server."],
+    "a": "The server responds by sending its digital certificate and public key to the client."
+  },
+  {
+    "q": "Negotiation in SSL Enrollment Process means",
+    "type": "mc",
+    "opts": ["The server and client then negotiate an encryption level.", "The client requests a session with the server.", "The server responds by sending its digital certificate and public key to the client.", "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server."],
+    "a": "The server and client then negotiate an encryption level."
+  },
+  {
+    "q": "It restores from backup media.",
+    "type": "mc",
+    "opts": ["Private Key Protection Methods", "Key backup", "None of the above", "Private Key Replacement Process"],
+    "a": "Key backup"
+  },
+  {
+    "q": "Shorter life cycles allow for renewal of more secure certificates in this term.",
+    "type": "mc",
+    "opts": ["Certificate Validation", "Certificate Life Cycle", "Certificate Issuance", "Certificate Enrollment"],
+    "a": "Certificate Life Cycle"
+  },
+  {
+    "q": "The following are concerns of Legal Requirements except",
+    "type": "mc",
+    "opts": ["Consider overall legal obligations.", "Uncooperative with civil authorities.", "Observe legal limitations and civil rights.", "Comply with other departmental policies."],
+    "a": "Uncooperative with civil authorities."
+  },
+  {
+    "q": "The following are concerns of Safety except",
+    "type": "mc",
+    "opts": ["Formulate an escape plan/route and perform drills.", "Protect employees with locks and proper lighting.", "Deter intruders with fencing and CCTV.", "Neglects both personnel and property."],
+    "a": "Neglects both personnel and property."
+  },
+  {
+    "q": "It is objective of physical security that center on physical assets",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Protecting private data", "Regulating access to keys", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It is objective of physical security that center on delicate persistent details",
+    "type": "mc",
+    "opts": ["Safeguarding physical assets", "Regulating access to keys", "Protecting private data", "Protecting nothing"],
+    "a": "Protecting private data"
+  },
+  {
+    "q": "It is goal of physical security that focus on through password hacks",
+    "type": "mc",
+    "opts": ["Protecting private data", "Safeguarding physical assets", "Regulating access to keys", "Protecting nothing"],
+    "a": "Protecting private data"
+  },
+  {
+    "q": "It includes a monetary penalty if the vendor is unable to meet the agreed-upon expectations.",
+    "type": "mc",
+    "opts": ["BPA", "ISA", "MOU", "SLA"],
+    "a": "SLA"
+  },
+  {
+    "q": "A third person or organization less directly involved in a matter than the main people or organizations that are involved",
+    "type": "mc",
+    "opts": ["Compliance", "Third party", "Due Diligence", "Agreements", "Notifications"],
+    "a": "Third party"
+  },
+  {
+    "q": "In Business Partners. Review agreement requirements to verify compliance.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "These are sham assaults pointed at clients, planned to test people's reaction to dangers \"in the field\".",
+    "type": "mc",
+    "opts": ["Online security awareness training", "Visual aids", "Simulated attacks", "Classroom-based training"],
+    "a": "Simulated attacks"
+  },
+  {
+    "q": "They regularly take the form of blurbs on subjects such as secure passwords, handouts covering phishing tricks or recordings clarifying things just like the threats of open wi-fi",
+    "type": "mc",
+    "opts": ["Visual aids", "Classroom-based training", "Online security awareness training", "Simulated attacks"],
+    "a": "Visual aids"
+  },
+  {
+    "q": "It grants a farther access server to associate with a verification server to determine in case the client has get to the system",
+    "type": "mc",
+    "opts": ["OTP", "TACACS", "RADIUS", "SAML"],
+    "a": "TACACS"
+  },
+  {
+    "q": "A company is deploying a file-sharing protocol access a network and needs to select a protocol for authenticating clients. Management requests that the service be configured in the most secure way possible. The protocol must also be capable of mutual authentication, and support SSO and smart card logons. Which of the following would BEST accomplish this task?",
+    "type": "mc",
+    "opts": ["Use MSCHAP authentication", "Use NTLM authentication", "Implement Kerberos", "Store credentials in LDAP"],
+    "a": "Implement Kerberos"
+  },
+  {
+    "q": "Which of the following can be used to control specific commands that can be executed on a network infrastructure device?",
+    "type": "mc",
+    "opts": ["LDAP", "SAML", "TACACS+", "Kerberos"],
+    "a": "TACACS+"
+  },
+  {
+    "q": "It supports both Kerberos and LDAP -- Microsoft AD is by far the most common directory services system in use today.",
+    "type": "mc",
+    "opts": ["Directory Services", "LDAPS", "Active Directory", "LDAP"],
+    "a": "Active Directory"
+  },
+  {
+    "q": "It provides Single-Sign On (SSO) and works well in the office and over VPN.",
+    "type": "mc",
+    "opts": ["Directory Services", "Active Directory", "LDAPS", "LDAP"],
+    "a": "Active Directory"
+  },
+  {
+    "q": "These are software systems that store, organize and give get to directory information in order to bind together network assets.",
+    "type": "mc",
+    "opts": ["LDAP", "LDAPS", "Directory Services", "Access control"],
+    "a": "Directory Services"
+  },
+  {
+    "q": "It was an industry standard for years and is still quite popular",
+    "type": "mc",
+    "opts": ["RADIUS", "PAP", "PGP", "CHAP"],
+    "a": "CHAP"
+  },
+  {
+    "q": "It controls the most extreme period allowed before a client is constrained to reset their password.",
+    "type": "mc",
+    "opts": ["Maximum Password Age", "Password history", "Minimum Password Age", "Password Length"],
+    "a": "Maximum Password Age"
+  },
+  {
+    "q": "Change your password regularly is a good practice on security.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It is the set of practices that an organization uses to issue, track, update, and revoke credentials for identities within their context.",
+    "type": "mc",
+    "opts": ["Complex password", "Credential Management", "Account lockout", "Group Policy"],
+    "a": "Credential Management"
+  },
+  {
+    "q": "It is regularly utilized by groups that share comparative functions -- known as group-based access -- or by casual clients that require access to a system in a restricted capacity",
+    "type": "mc",
+    "opts": ["Shared account", "Privileged accounts", "Service accounts", "User account"],
+    "a": "Shared account"
+  },
+  {
+    "q": "It is an entity that issues digital certificates.",
+    "type": "mc",
+    "opts": ["CA", "Certificate authentication", "PKI", "Digital certificate"],
+    "a": "CA"
+  },
+  {
+    "q": "It is run by the governments as well.",
+    "type": "mc",
+    "opts": ["Root CA", "Intermediate CA", "Public CA", "Private CA"],
+    "a": "Public CA"
+  },
+  {
+    "q": "Users can request a digital certificate from a CA manually or automatically without any interaction on their part",
+    "type": "mc",
+    "opts": ["Offline root CAs", "certificate release", "certificate enrollment", "Online root CAs"],
+    "a": "certificate enrollment"
+  },
+  {
+    "q": "It includes cryptographic protocol design, key servers, user procedures, and other relevant protocols.",
+    "type": "mc",
+    "opts": ["Private Key", "Public Key", "Certificate Authority", "Key Management"],
+    "a": "Key Management"
+  },
+  {
+    "q": "It is the authority responsible for issuing SSL certificates publicly trusted by web browsers.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "CA", "PKI", "Digital certificate"],
+    "a": "CA"
+  },
+  {
+    "q": "It is the beginning of each Certificate Authority (CA) hierarchy",
+    "type": "mc",
+    "opts": ["Public CA", "Root CA", "Intermediate CA", "Private CA"],
+    "a": "Root CA"
+  },
+  {
+    "q": "In these, shorter life cycles permit for reestablishment of more secure certificates.",
+    "type": "mc",
+    "opts": ["Certificate Enrollment", "Certificate Validation", "Certificate Issuance", "Certificate Life Cycle"],
+    "a": "Certificate Life Cycle"
+  },
+  {
+    "q": "Certificates contain an expiration date that's specified when they are first issued, usually for a duration of several years. When that date is reached, the CA automatically adds that certificate to the Certificate Revocation List (CRL), a sort of blacklist that instructs the RADIUS not to authenticate those certificates.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It is the solution if holder no longer trusted",
+    "type": "mc",
+    "opts": ["Certificate Revocation", "Certificate Revocation List", "Certificate Chain", "Certificate Trust Chain"],
+    "a": "Certificate Revocation"
+  },
+  {
+    "q": "The RADIUS server checks with the CA to confirm that the certificate is still valid and hasn't expired been revoked.",
+    "type": "mc",
+    "opts": ["Certificate Validation", "Certificate Life Cycle", "Certificate Enrollment", "Certificate Issuance"],
+    "a": "Certificate Validation"
+  },
+  {
+    "q": "In this stage, the session key then becomes the key used in the conversation.",
+    "type": "mc",
+    "opts": ["Negotiation", "Communication", "Response", "Encryption"],
+    "a": "Communication"
+  },
+  {
+    "q": "It is objective of physical security that center on buildings and staff",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Protecting private data", "Regulating access to keys", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It is goal of physical security that focus on User identification and PIN code access",
+    "type": "mc",
+    "opts": ["Regulating access to keys", "Protecting nothing", "Protecting private data", "Safeguarding physical assets"],
+    "a": "Regulating access to keys"
+  },
+  {
+    "q": "It is objective of physical security that center within the best interface of worker safety.",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Protecting private data", "Regulating access to keys", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "A component that offers control through a fire alarm or notification system.",
+    "type": "mc",
+    "opts": ["Fire detection", "Fire suppression", "Alarm control panel", "Fire"],
+    "a": "Alarm control panel"
+  },
+  {
+    "q": "It is objective of physical security that center on with cautions being sent in case the key isn't returned inside a pre-determined timeframe",
+    "type": "mc",
+    "opts": ["Safeguarding physical assets", "Regulating access to keys", "Protecting nothing", "Protecting private data"],
+    "a": "Regulating access to keys"
+  },
+  {
+    "q": "It includes task-based and customized preparing counting the workflow and collaboration",
+    "type": "mc",
+    "opts": ["Security Policy Awareness", "Rule-Based Training", "Role-Based Training", "Security awareness"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "Compliance it requires personal information controllers to take extra precaution when dealing with third parties",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "The training within the setting of a particular part and what it takes to perform in that part.",
+    "type": "mc",
+    "opts": ["Security Policy Awareness", "Rule-Based Training", "Security awareness", "Role-Based Training"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "In Business Partners. Define clearly who owns what data.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It is like an SLA in that it defines the responsibilities of each of the parties.",
+    "type": "mc",
+    "opts": ["SLA", "MOU", "BPA", "ISA"],
+    "a": "MOU"
+  },
+  {
+    "q": "It is an open standard that allows identity providers (IdP) to pass authorization credentials to service providers (SP).",
+    "type": "mc",
+    "opts": ["RADIUS", "OTP", "SAML", "TACACS"],
+    "a": "SAML"
+  },
+  {
+    "q": "It may be a way of restricting access to a system or to physical or virtual assets.",
+    "type": "mc",
+    "opts": ["LDAP", "Access control", "LDAPS", "Directory Services"],
+    "a": "Access control"
+  },
+  {
+    "q": "These are software systems that store, organize and provide access to directory information in order to unify network resources.",
+    "type": "mc",
+    "opts": ["LDAP", "Access control", "Directory Services", "LDAPS"],
+    "a": "Directory Services"
+  },
+  {
+    "q": "It is one of the foremost imperative viewpoints of an organization's security pose",
+    "type": "mc",
+    "opts": ["Shared account", "Account management", "User account", "Service accounts"],
+    "a": "Account management"
+  },
+  {
+    "q": "June111998 is a",
+    "type": "mc",
+    "opts": ["Maybe", "Weak password", "None of the above", "Strong password"],
+    "a": "Weak password"
+  },
+  {
+    "q": "Use combinations of letters, numbers, and symbols.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It is one that can be utilized by more than one assigned user.",
+    "type": "mc",
+    "opts": ["Shared account", "User account", "Service accounts", "Privileged accounts"],
+    "a": "Shared account"
+  },
+  {
+    "q": "It is the specialist capable for issuing SSL certificates publicly trusted by web browsers.",
+    "type": "mc",
+    "opts": ["PKI", "CA", "Certificate authentication", "Digital certificate"],
+    "a": "CA"
+  },
+  {
+    "q": "It is a scheme that uses a public key cryptography and digital certificate to authenticate a user.",
+    "type": "mc",
+    "opts": ["CA", "Digital certificate", "Certificate authentication", "PKI"],
+    "a": "Certificate authentication"
+  },
+  {
+    "q": "It is a renewal process upholds security and accessibility.",
+    "type": "mc",
+    "opts": ["OCSP", "Certificate Renewal", "Key Escrow", "Certificate Trust Chain"],
+    "a": "Certificate Renewal"
+  },
+  {
+    "q": "It decrypts data.",
+    "type": "mc",
+    "opts": ["Private Key Restoration Methods", "Private Key Replacement Process", "Private Key Protection Methods", "None of the above"],
+    "a": "Private Key Replacement Process"
+  },
+  {
+    "q": "In this stage, once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server.",
+    "type": "mc",
+    "opts": ["Encryption", "Negotiation", "Response", "Request"],
+    "a": "Encryption"
+  },
+  {
+    "q": "It is objective of physical security that center on facial acknowledgment and unique mark scanning",
+    "type": "mc",
+    "opts": ["Regulating access to keys", "Protecting private data", "Protecting nothing", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It is objective of physical security that center on carrying huge sums of cash or gems on the premises",
+    "type": "mc",
+    "opts": ["Safeguarding physical assets", "Regulating access to keys", "Protecting private data", "Protecting nothing"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It means to ensure that the organizations or parties with whom they conduct business with, when processing personal data, also comply with privacy and data protection policies.",
+    "type": "mc",
+    "opts": ["Compliance", "Notifications", "Due Diligence", "Third party", "Agreements"],
+    "a": "Compliance"
+  },
+  {
+    "q": "It ensures that relevant training is delivered for the specific roles.",
+    "type": "mc",
+    "opts": ["Security Policy Awareness", "Security awareness", "Role-Based Training", "Rule-Based Training"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "It ensures that employees are fully awake to the consequences of failing to protect the organization from outside attackers",
+    "type": "mc",
+    "opts": ["Role-Based Training", "Security Policy Awareness", "Security awareness", "Rule-Based Training"],
+    "a": "Security awareness"
+  },
+  {
+    "q": "It helps your organization to align training as per business process",
+    "type": "mc",
+    "opts": ["Rule-Based Training", "Security awareness", "Security Policy Awareness", "Role-Based Training"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "It expresses an understanding between two or more parties indicating their intention to work together toward a common goal.",
+    "type": "mc",
+    "opts": ["ISA", "MOU", "BPA", "SLA"],
+    "a": "MOU"
+  },
+  {
+    "q": "Ik4wLhung\\$4paTn4 is a",
+    "type": "mc",
+    "opts": ["Maybe", "Weak password", "Strong Password", "None of the above"],
+    "a": "Strong Password"
+  },
+  {
+    "q": "It is utilized to demonstrate a person's character; it can be utilized for verification.",
+    "type": "mc",
+    "opts": ["Certificate authentication", "PKI", "Digital certificate", "CA"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "This is only 'trusted' by users within that organization -- and that's okay because it rarely interfaces with outside networks.",
+    "type": "mc",
+    "opts": ["Private CA", "Public CA", "Intermediate CA", "Root CA"],
+    "a": "Private CA"
+  },
+  {
+    "q": "It is the request with a certification authority (CA), an entity which issues and manages digital certificate for use within the public key infrastructure (PKI).",
+    "type": "mc",
+    "opts": ["certificate enrollment", "Online root CAs", "Offline root CAs", "certificate release"],
+    "a": "certificate enrollment"
+  },
+  {
+    "q": "In this stage, the server and client then negotiate an encryption level.",
+    "type": "mc",
+    "opts": ["Negotiation", "Response", "Encryption", "Request"],
+    "a": "Negotiation"
+  },
+  {
+    "q": "In this stage, a substance submits a request for a certificate to the Certificate Authority (CA).",
+    "type": "mc",
+    "opts": ["Certificate Issuance", "Certificate Validation", "Certificate Enrollment", "Certificate Life Cycle"],
+    "a": "Certificate Enrollment"
+  },
+  {
+    "q": "It is goal of physical security that focus on Buildings and staff",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Protecting private data", "Safeguarding physical assets", "Regulating access to keys"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "An individual utilized to secure a building against interlopers or harm.",
+    "type": "mc",
+    "opts": ["Mantrap doors", "Bonded personnel", "Security guards", "Signs"],
+    "a": "Security guards"
+  },
+  {
+    "q": "It senses one or more of the products or phenomena resulting from fire, such as smoke, heat, infrared and/or ultraviolet light radiation, or gas.",
+    "type": "mc",
+    "opts": ["Fire detection", "Fire suppression", "Alarm control panel", "Fire"],
+    "a": "Fire detection"
+  },
+  {
+    "q": "It is a complex challenge for any security professional.",
+    "type": "mc",
+    "opts": ["Logging and visitor access", "Identification systems", "Physical security", "Locks"],
+    "a": "Physical security"
+  },
+  {
+    "q": "Keep informed about day-to-day partner operations.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "It is ordinarily a staple in a chief data security officer's (CISO's) arms stockpile",
+    "type": "mc",
+    "opts": ["Classroom-based training", "Visual aids", "Simulated attacks", "Online security awareness training"],
+    "a": "Online security awareness training"
+  },
+  {
+    "q": "Security awareness includes the taking after except:",
+    "type": "mc",
+    "opts": ["Programs to educate employees", "Measures to audit these efforts", "Latest update about NBA", "Individual responsibility for company security policies"],
+    "a": "Latest update about NBA"
+  },
+  {
+    "q": "In Business Partners. Give total data access to partners.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "False"
+  },
+  {
+    "q": "CHAP stands for",
+    "type": "mc",
+    "opts": ["Challenge-Handshake Authentication Protocol", "Children Have A Potential", "Common Humanitarian Action Plan", "Cadet Harassment and Abuse Prevention"],
+    "a": "Challenge-Handshake Authentication Protocol"
+  },
+  {
+    "q": "It maps the network names of network resources to network addresses and define a naming structure for networks.",
+    "type": "mc",
+    "opts": ["Access control", "LDAPS", "Directory Services", "LDAP"],
+    "a": "Directory Services"
+  },
+  {
+    "q": "It can manage access control to many services using one centralized authentication server.",
+    "type": "mc",
+    "opts": ["Kerberos", "Tunneling", "Point-to-Point Tunneling Protocol (PPTP)", "Layer 2 Tunneling Protocol (L2TP)"],
+    "a": "Kerberos"
+  },
+  {
+    "q": "These are commonly utilized for two-factor confirmation and have seen developing selection by cloud application suppliers.",
+    "type": "mc",
+    "opts": ["TACACS", "TOTP", "HOTP", "SAML"],
+    "a": "TOTP"
+  },
+  {
+    "q": "An organization is providing employees on the shop floor with computers that will log their time based on when they sign on and off the network. Which of the following account types should the employees receive?",
+    "type": "mc",
+    "opts": ["Shared account", "Privileged account", "User account", "Service account"],
+    "a": "User account"
+  },
+  {
+    "q": "A systems administrator is attempting to recover from a catastrophic failure in the datacenter. To recover the domain controller, the systems administrator needs to provide the domain administrator credentials. Which of the following account types is the systems administrator using?",
+    "type": "mc",
+    "opts": ["Service account", "Guest account", "User account", "Shared account"],
+    "a": "Service account"
+  },
+  {
+    "q": "It is very important for large sites where users typically have accounts on many systems.",
+    "type": "mc",
+    "opts": ["Credential management", "Account Policy", "Password complexity", "Passwords"],
+    "a": "Account Policy"
+  },
+  {
+    "q": "It allows for flexibility, they also introduce challenges, including the inability to tie a specific person to an action made while logged in.",
+    "type": "mc",
+    "opts": ["User account", "Privileged accounts", "Shared account", "Service accounts"],
+    "a": "Shared account"
+  },
+  {
+    "q": "PK stands for:",
+    "type": "mc",
+    "opts": ["Pirate Key", "Private Key", "Public Kiosk", "Private King"],
+    "a": "Private Key"
+  },
+  {
+    "q": "These are self-hosted certificate authorities usually meant for internal use.",
+    "type": "mc",
+    "opts": ["Root CA", "Public CA", "Intermediate CA", "Private CA"],
+    "a": "Private CA"
+  },
+  {
+    "q": "It is like a driver's permit or international id that contains a user's photo and thumbprint, so that there's no question about the user's character.",
+    "type": "mc",
+    "opts": ["PKI", "CA", "Certificate authentication", "Digital certificate"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "Certificates contain a termination date that's indicated when they are first issued in this period",
+    "type": "mc",
+    "opts": ["Certificate Issuance", "Certificate Renewal", "Certificate Validation", "Certificate Revocation"],
+    "a": "Certificate Revocation"
+  },
+  {
+    "q": "Request in SSL Enrollment Process means",
+    "type": "mc",
+    "opts": ["The client requests a session with the server.", "The server responds by sending its digital certificate and public key to the client.", "The server and client then negotiate an encryption level.", "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server."],
+    "a": "The client requests a session with the server."
+  },
+  {
+    "q": "It is goal of physical security that focus on businesses dealing with pharmaceutical drugs",
+    "type": "mc",
+    "opts": ["Protecting private data", "Protecting nothing", "Regulating access to keys", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It is objective of physical security that center on substantial assets",
+    "type": "mc",
+    "opts": ["Protecting nothing", "Protecting private data", "Regulating access to keys", "Safeguarding physical assets"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "Developed by us allows you to deliver highly customized training content to your workforce in efficient way.",
+    "type": "mc",
+    "opts": ["Security awareness", "Security Policy Awareness", "Role-Based Training", "Rule-Based Training"],
+    "a": "Role-Based Training"
+  },
+  {
+    "q": "Security awareness involves the following except",
+    "type": "mc",
+    "opts": ["Latest update about NBA", "Programs to educate employees", "Individual responsibility for company security policies", "Measures to audit these efforts"],
+    "a": "Latest update about NBA"
+  },
+  {
+    "q": "Attendees are taken away from their regular parts and, for at least a couple of hours, take portion in a workshop which sees an educator lead them through the ins-and-outs of at slightest one security subject.",
+    "type": "mc",
+    "opts": ["Online security awareness training", "Visual aids", "Simulated attacks", "Classroom-based training"],
+    "a": "Classroom-based training"
+  },
+  {
+    "q": "It is usually a staple in a chief information security officer's (CISO's) arsenal",
+    "type": "mc",
+    "opts": ["Simulated attacks", "Online security awareness training", "Classroom-based training", "Visual aids"],
+    "a": "Simulated attacks"
+  },
+  {
+    "q": "It is the industry standard when setting up secure tunnels.",
+    "type": "mc",
+    "opts": ["Point-to-Point Tunneling Protocol (PPTP)", "Tunneling", "Kerberos", "Layer 2 Tunneling Protocol (L2TP)"],
+    "a": "Layer 2 Tunneling Protocol (L2TP)"
+  },
+  {
+    "q": "It is the least secure authentication and is not recommended.",
+    "type": "mc",
+    "opts": ["PAP", "RADIUS", "CHAP", "PGP"],
+    "a": "PAP"
+  },
+  {
+    "q": "It uses a symmetric encryption strategy",
+    "type": "mc",
+    "opts": ["OTP", "RADIUS", "SAML", "TACACS"],
+    "a": "RADIUS"
+  },
+  {
+    "q": "It is a set of rules which allow an administrator granular control over the configuration of objects in Active Directory (AD), including user accounts, operating systems, applications, and other AD objects.",
+    "type": "mc",
+    "opts": ["Account lockout", "Group Policy Object", "Privileged account", "Account policy"],
+    "a": "Group Policy Object"
+  },
+  {
+    "q": "It provides a nice balance between complete system-wide permission and fine-tuned privileges based on the exact needs of the software by granting access, permissions, and rights in a completely custom fashion.",
+    "type": "mc",
+    "opts": ["Privileged accounts", "Shared account", "User account", "Service accounts"],
+    "a": "Service accounts"
+  },
+  {
+    "q": "Who is it safe to tell your password to?",
+    "type": "mc",
+    "opts": ["Your best friend, just in case you forget it", "Ebay, if they send you an e-mail first", "You should never disclose your password to anyone", "A colleague who needs to send an urgent e-mail"],
+    "a": "You should never disclose your password to anyone"
+  },
+  {
+    "q": "It concerns keys at the user level, either between users or systems.",
+    "type": "mc",
+    "opts": ["Key Management", "Certificate Authority", "Private Key", "Public Key"],
+    "a": "Key Management"
+  },
+  {
+    "q": "They have an intentionally limited scope -- usually only used within an organization such as a very large company or a university.",
+    "type": "mc",
+    "opts": ["Public CA", "Intermediate CA", "Root CA", "Private CA"],
+    "a": "Private CA"
+  },
+  {
+    "q": "It is a method to require restoration password.",
+    "type": "mc",
+    "opts": ["Private Key Restoration Methods", "Private Key Protection Methods", "Private Key Replacement Process", "None of the above"],
+    "a": "Private Key Protection Methods"
+  },
+  {
+    "q": "Encryption in SSL Enrollment Process means",
+    "type": "mc",
+    "opts": ["The server responds by sending its digital certificate and public key to the client.", "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server.", "The client requests a session with the server.", "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server.", "The server and client then negotiate an encryption level."],
+    "a": "Once they agree on an encryption level, the client generates a session key, encrypts it, and sends it with the public key from the server."
+  },
+  {
+    "q": "You can follow the chain from the client's certificate all the way back to a single root CA, and each chain closes in with an individual (or company) from which all the trust is eventually determined.",
+    "type": "mc",
+    "opts": ["Certificate Revocation List", "Certificate Trust Chain", "Certificate Revocation", "Certificate Chain"],
+    "a": "Certificate Trust Chain"
+  },
+  {
+    "q": "It lacks encryption.",
+    "type": "mc",
+    "opts": ["OCSP", "Certificate Renewal", "Certificate Trust Chain", "Key Escrow"],
+    "a": "OCSP"
+  },
+  {
+    "q": "It refers to the order in which items of evidence have been handled during the investigation of a case.",
+    "type": "mc",
+    "opts": ["Chain of Custody", "Evidence Collection", "Evidence Preservation", "Jurisdiction"],
+    "a": "Chain of Custody"
+  },
+  {
+    "q": "It is goal of physical security that focus on storage warehouses or places with a large number of items",
+    "type": "mc",
+    "opts": ["Protecting private data", "Safeguarding physical assets", "Protecting nothing", "Regulating access to keys"],
+    "a": "Safeguarding physical assets"
+  },
+  {
+    "q": "It should educate employees about corporate policies and procedures for working with information technology (IT).",
+    "type": "mc",
+    "opts": ["Security awareness", "Role-Based Training", "Rule-Based Training", "Security Policy Awareness"],
+    "a": "Security awareness"
+  },
+  {
+    "q": "In Business Partners. Exercise discretion with business info on social media.",
+    "type": "tf",
+    "opts": ["True", "False"],
+    "a": "True"
+  },
+  {
+    "q": "K4T2ic9O is a",
+    "type": "mc",
+    "opts": ["Weak password", "Strong password"],
+    "a": "Strong password"
+  },
+  {
+    "q": "It controls how numerous days a client must hold up some time recently they can reset their password",
+    "type": "mc",
+    "opts": ["Minimum Password Age", "Maximum Password Age", "Password Length", "Password history"],
+    "a": "Minimum Password Age"
+  },
+  {
+    "q": "This contrasts with key scheduling, which typically refers to the internal handling of keys within the operation of a cipher.",
+    "type": "mc",
+    "opts": ["Public Key", "Key Management", "Private Key", "Certificate Authority"],
+    "a": "Key Management"
+  },
+  {
+    "q": "It is like a driver's license or passport that contains a user's photograph and thumbprint, so that there is no doubt about the user's identity.",
+    "type": "mc",
+    "opts": ["CA", "Digital certificate", "Certificate authentication", "PKI"],
+    "a": "Digital certificate"
+  },
+  {
+    "q": "You can select whether to produce a modern key pair -- successfully making it a completely new certificate",
+    "type": "mc",
+    "opts": ["Certificate Validation", "Certificate Renewal", "Certificate Revocation", "Certificate Issuance"],
+    "a": "Certificate Renewal"
+  },
+  {
+    "q": "Longer life cycles provide assailants an advantage in these stages.",
+    "type": "mc",
+    "opts": ["Certificate Life Cycle", "Certificate Validation", "Certificate Enrollment", "Certificate Issuance"],
+    "a": "Certificate Life Cycle"
+  },
+  {
+    "q": "In this stage, the client requests a session with the server.",
+    "type": "mc",
+    "opts": ["Request", "Response", "Encryption", "Negotiation"],
+    "a": "Request"
+  },
+  {
+    "q": "It uses a combination of dry chemicals and/or wet agents to suppress equipment fires.",
+    "type": "mc",
+    "opts": ["Fire detection", "Fire suppression", "Fire", "Alarm control panel"],
+    "a": "Fire suppression"
+  },
+  {
+    "q": "Participants' reactions to the assaults are observed.",
+    "type": "mc",
+    "opts": ["Simulated attacks", "Online security awareness training", "Visual aids", "Classroom-based training"],
+    "a": "Simulated attacks"
+  }
+]

@@ -1,0 +1,995 @@
+[
+  {
+    "q": "A chance of exposure to loss or injury that might be undertaken after its advantages and disadvantages have been carefully weighted and considered.",
+    "type": "mc",
+    "opts": ["Qualitative", "Quantitative", "Risk Calculation", "Semi-quantitative"],
+    "a": "Risk Calculation"
+  },
+  {
+    "q": "A program that communicates with a Web application to find potential vulnerabilities within the application or its architecture",
+    "type": "mc",
+    "opts": ["Port Scanner", "Network Enumerator", "Network Vulnerability Scanner", "Web Application Security Scanner", "Computer Worm"],
+    "a": "Web Application Security Scanner"
+  },
+  {
+    "q": "It is a trap for hackers",
+    "type": "mc",
+    "opts": ["honeypot", "honey net", "Hacking", "Hacker"],
+    "a": "honeypot"
+  },
+  {
+    "q": "The quality or state of being exposed to the possibility of being attacked or harmed, either physically or emotionally.",
+    "type": "mc",
+    "opts": ["Risk", "Threat", "Vulnerability", "Attacks"],
+    "a": "Vulnerability"
+  },
+  {
+    "q": "A computer program used to retrieve information about users and groups on networked computers",
+    "type": "mc",
+    "opts": ["Port Scanner", "Network Enumerator", "Network Vulnerability Scanner", "Web Application Security Scanner", "Computer Worm"],
+    "a": "Network Enumerator"
+  },
+  {
+    "q": "It is measuring or measured by the quantity of something rather than its quality.",
+    "type": "mc",
+    "opts": ["Qualitative", "Quantitative", "Risk Calculation", "Semi-quantitative"],
+    "a": "Quantitative"
+  },
+  {
+    "q": "Designed to distract hackers from real targets, detect new vulnerabilities and exploits, and learn about the identity of attackers.",
+    "type": "mc",
+    "opts": ["honeypot", "honey net", "Hacking", "Hacker"],
+    "a": "honeypot"
+  },
+  {
+    "q": "It analyzes a software system for vulnerabilities, examines potential threats associated with those vulnerabilities, and evaluates the resulting security risks.",
+    "type": "mc",
+    "opts": ["Threat and risk management", "Threat Management", "Risk management", "Damage potential"],
+    "a": "Threat and risk management"
+  },
+  {
+    "q": "Data that measures conditions before project start for later comparison.",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Baseline"
+  },
+  {
+    "q": "It is the evaluation or estimation of the nature, quality, or ability of someone.",
+    "type": "mc",
+    "opts": ["Assessment", "Analysis", "Response", "Mitigation"],
+    "a": "Assessment"
+  },
+  {
+    "q": "The process by which an organization introduces specific measures to minimize or eliminate unacceptable risks associated with its operations.",
+    "type": "mc",
+    "opts": ["Risk avoidance", "Risk transference", "Risk acceptance", "Risk mitigation"],
+    "a": "Risk mitigation"
+  },
+  {
+    "q": "We just focus on inputs and output of the software system without bothering about internal knowledge of the software",
+    "type": "mc",
+    "opts": ["BLACK BOX TESTING", "WHITE BOX TESTING", "GRAY BOX TESTING", "RED BOX TESTING"],
+    "a": "BLACK BOX TESTING"
+  },
+  {
+    "q": "A system or plan that comes into operation in the event of something going wrong or that is there to prevent such an occurrence.",
+    "type": "mc",
+    "opts": ["Failsafe", "Fail secure", "Fail open", "Fail over"],
+    "a": "Failsafe"
+  },
+  {
+    "q": "Set of procedures for identifying live hosts, ports, and services, discovering Operating system and architecture of target system.",
+    "type": "mc",
+    "opts": ["Foot Printing", "Scanning", "Enumeration", "Attack"],
+    "a": "Scanning"
+  },
+  {
+    "q": "It is to identify potential problems before they occur, or, in the case of opportunities, to try to leverage them to cause them to occur.",
+    "type": "mc",
+    "opts": ["Threat and risk management", "Threat Management", "Risk management", "Damage potential"],
+    "a": "Risk management"
+  },
+  {
+    "q": "It is defined as the process of extracting usernames, machine names, network resources, shares and services from a system.",
+    "type": "mc",
+    "opts": ["Foot Printing", "Scanning", "Enumeration", "Attack"],
+    "a": "Enumeration"
+  },
+  {
+    "q": "In this type of testing, the code is visible to the tester.",
+    "type": "mc",
+    "opts": ["BLACK BOX TESTING", "WHITE BOX TESTING", "GRAY BOX TESTING", "RED BOX TESTING"],
+    "a": "WHITE BOX TESTING"
+  },
+  {
+    "q": "Crime, arson, civil disorder, terrorism, war, biological / chemical threat, cyber-attacks, are examples of",
+    "type": "mc",
+    "opts": ["Natural disaster", "Man-made disasters", "Asset identification", "Vulnerability identification"],
+    "a": "Man-made disasters"
+  },
+  {
+    "q": "Its aspects are abstract; they either do not require measurement or cannot be measured because the reality they represent can only be approximated.",
+    "type": "mc",
+    "opts": ["Qualitative", "Quantitative", "Risk Calculation", "Semi-quantitative"],
+    "a": "Qualitative"
+  },
+  {
+    "q": "A formal way of collecting data and supposition in support of the pros and cons in any change or disruption to your business.",
+    "type": "mc",
+    "opts": ["Threat assessment", "Probability quantification", "Impact analysis", "Countermeasures determination"],
+    "a": "Impact analysis"
+  },
+  {
+    "q": "Keeping this as small as possible is a basic security measure.",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Attack surface"
+  },
+  {
+    "q": "Copying, distributing, or using software that was not purchased by the user of the software.",
+    "type": "mc",
+    "opts": ["Slander", "Software piracy", "Spamming", "Spoofing"],
+    "a": "Software piracy"
+  },
+  {
+    "q": "Names and phone numbers of last responders is part of \"Guidelines for Recovering from a Security Incident\"",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is a structured methodology for handling security incidents, breaches, and cyber threats.",
+    "type": "mc",
+    "opts": ["Incident Response", "Incident Recovery", "Recovery Methods", "Incident Assessment"],
+    "a": "Incident Response"
+  },
+  {
+    "q": "Is the application of investigation and analysis techniques to gather and preserve evidence from a computing device in a way that is suitable for presentation in a court of law.",
+    "type": "mc",
+    "opts": ["Incident Response Plan", "Incident Recovery Team", "Chain of Custody", "Computer Forensics"],
+    "a": "Computer Forensics"
+  },
+  {
+    "q": "Date and time of event is part of \"Guidelines for Recovering from a Security Incident\"",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Manipulating data, e.g., changing banking records to transfer money to an account or participating in credit card fraud.",
+    "type": "mc",
+    "opts": ["Fraud", "Harvesting", "Human trafficking", "Identity theft"],
+    "a": "Fraud"
+  },
+  {
+    "q": "It's important to gather evidence about the incident to use later both for resolving the incident and in legal proceedings.",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Containment, eradication, and recovery"
+  },
+  {
+    "q": "These are incidents that need to be communicated across an organization to raise awareness of any harm that may happen.",
+    "type": "mc",
+    "opts": ["Sentinel events", "Near misses", "Adverse events", "No harm events"],
+    "a": "No harm events"
+  },
+  {
+    "q": "It should also be able to prioritize an incident according to its impact and recoverability and then notify the proper authorities about the breach.",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Detection and analysis"
+  },
+  {
+    "q": "The following incident report can be used by except",
+    "type": "mc",
+    "opts": ["a person without any idea what happen", "an authority to create a report of an incident;", "an employee to report an incident he/ she has witnessed;", "a member of the organization to raise awareness about an incident that has occurred in the workplace."],
+    "a": "a person without any idea what happen"
+  },
+  {
+    "q": "Is the chronological documentation or paper trail that records the sequence of custody, control, transfer, analysis, and disposition of physical or electronic evidence.",
+    "type": "mc",
+    "opts": ["Incident Response Plan", "Incident Recovery Team", "Chain of Custody", "Computer Forensics"],
+    "a": "Chain of Custody"
+  },
+  {
+    "q": "What steps were taken to resolve the incident is part of \"Guidelines for Recovering from a Security Incident\"",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It must be maintained throughout the evidence's lifecycle because, if the chain is broken, the integrity of the evidence will certainly be compromised.",
+    "type": "mc",
+    "opts": ["Incident Response Plan", "Incident Recovery Team", "Chain of Custody", "Computer Forensics"],
+    "a": "Chain of Custody"
+  },
+  {
+    "q": "It is defined as any event, condition or situation which attracts negative media attention or a negative profile for the workplace",
+    "type": "mc",
+    "opts": ["Incident", "Sentinel", "Adverse events", "Near misses"],
+    "a": "Incident"
+  },
+  {
+    "q": "The following are guidelines for Recovering from a Security Incident (Assess the damage) except",
+    "type": "mc",
+    "opts": ["Replace damaged or stolen cabling.", "Assess the area of damage.", "Determine damage to facilities, hardware, systems, and networks.", "For digital damage, examine log files, identify compromised accounts, and identify modified files."],
+    "a": "Replace damaged or stolen cabling."
+  },
+  {
+    "q": "The effort made by end users or system administrators in recovering and restoring a computer from a problem that has made it inaccessible",
+    "type": "mc",
+    "opts": ["Incident Response", "Incident Recovery", "Recovery Methods", "Incident Assessment"],
+    "a": "Incident Recovery"
+  },
+  {
+    "q": "It is where you break down the deliverables in the high-level.",
+    "type": "mc",
+    "opts": ["Collection Phase", "Examination phase", "Analysis Phase", "Reporting Phase"],
+    "a": "Analysis Phase"
+  },
+  {
+    "q": "The following are guidelines for Recovering from a Security Incident (Assess the damage) except",
+    "type": "mc",
+    "opts": ["Assess the area of damage.", "For physical damage, perform inventory to identify stolen or damaged devices, and areas affected by intruders.", "Verify that the attack has ended.", "Reconnect servers."],
+    "a": "Reconnect servers."
+  },
+  {
+    "q": "The process of identifying, managing, recording and analyzing security threats or incidents in real-time.",
+    "type": "mc",
+    "opts": ["Security Incident Management", "Computer Crime", "Child pornography", "Copyright violation"],
+    "a": "Security Incident Management"
+  },
+  {
+    "q": "It is an integral part of today's disaster relief and recovery.",
+    "type": "mc",
+    "opts": ["Incident report", "Damage Assessment", "Security Incident", "Incident response"],
+    "a": "Damage Assessment"
+  },
+  {
+    "q": "It incorporates arranging what to do to avoid an information breach or attack from happening within the first place",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Preparation"
+  },
+  {
+    "q": "Stealing or using another person's Copyrighted material without permission.",
+    "type": "mc",
+    "opts": ["Security Incident Management", "Computer Crime", "Child pornography", "Copyright violation"],
+    "a": "Copyright violation"
+  },
+  {
+    "q": "It is a business plan that describes how work can be resumed quickly and effectively after a disaster.",
+    "type": "mc",
+    "opts": ["Disaster Recovery Plan", "Fault Tolerance", "High availability", "Disaster Recovery Process"],
+    "a": "Disaster Recovery Plan"
+  },
+  {
+    "q": "Assess impossibility and impact is part of Goals of Business Continuity Plan",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Recovery teams need to know where and how to relocate operations, and with what resources",
+    "type": "mc",
+    "opts": ["Prioritize emergency communications", "Identify back-up locations and resources", "Outline existing preventative measures", "Find weaknesses and propose solutions"],
+    "a": "Identify back-up locations and resources"
+  },
+  {
+    "q": "It contains even fewer facilities than a Warm Site.",
+    "type": "mc",
+    "opts": ["Alternate Site", "Hot Site", "Warm Site", "Cold Site"],
+    "a": "Cold Site"
+  },
+  {
+    "q": "RPO stands for:",
+    "type": "mc",
+    "opts": ["Recovery Point Objective", "Recruitment Process Outsourcing", "Railway Post Office", "Respect Private Officer"],
+    "a": "Recovery Point Objective"
+  },
+  {
+    "q": "It is configured with power, phone, network etc.",
+    "type": "mc",
+    "opts": ["Alternate Site", "Hot Site", "Warm Site", "Cold Site"],
+    "a": "Warm Site"
+  },
+  {
+    "q": "It determines the maximum tolerable amount of time that is needed to verify the system and/or data integrity.",
+    "type": "mc",
+    "opts": ["RTO", "WRT", "MTD", "BIA"],
+    "a": "WRT"
+  },
+  {
+    "q": "It focusses on each BCP phase.",
+    "type": "mc",
+    "opts": ["Paper testing", "Performing walkthroughs", "Parallel testing", "Cutover"],
+    "a": "Performing walkthroughs"
+  },
+  {
+    "q": "It increases the availability of experienced and capable employees that are prepared to assume these roles as they become available.",
+    "type": "mc",
+    "opts": ["continuity of operations plan", "contingency plan", "Succession Planning", "Paper testing"],
+    "a": "Succession Planning"
+  },
+  {
+    "q": "It defines the maximum amount of time that a system resource can remain unavailable before there is an unacceptable impact on other system resources, supported mission/business processes.",
+    "type": "mc",
+    "opts": ["RTO", "WRT", "MTD", "BIA"],
+    "a": "RTO"
+  },
+  {
+    "q": "BIA stands for:",
+    "type": "mc",
+    "opts": ["Business Impact Analysis", "Business Improvement Area", "Building Industry Association", "Business Improvement Association"],
+    "a": "Business Impact Analysis"
+  },
+  {
+    "q": "This value should be defined by the business management team or someone like CTO, CIO or IT manager.",
+    "type": "mc",
+    "opts": ["RTO", "WRT", "MTD", "BIA"],
+    "a": "MTD"
+  },
+  {
+    "q": "It is an information technology term that refers to a system or component that is continuously operational for extended lengths of time.",
+    "type": "mc",
+    "opts": ["Disaster Recovery Plan", "Fault Tolerance", "High availability", "Disaster Recovery Process"],
+    "a": "High availability"
+  },
+  {
+    "q": "It reviews the BCP's contents.",
+    "type": "mc",
+    "opts": ["Paper testing", "Performing walkthroughs", "Parallel testing", "Cutover"],
+    "a": "Paper testing"
+  },
+  {
+    "q": "Any holes in your continuity planning must be addressed",
+    "type": "mc",
+    "opts": ["Prioritize emergency communications", "Identify back-up locations and resources", "Outline existing preventative measures", "Find weaknesses and propose solutions"],
+    "a": "Find weaknesses and propose solutions"
+  },
+  {
+    "q": "It is a commercial disaster recovery service that allows a business to continue computer and network operations in the event of a computer or equipment disaster.",
+    "type": "mc",
+    "opts": ["Alternate Site", "Hot Site", "Warm Site", "Cold Site"],
+    "a": "Alternate Site"
+  },
+  {
+    "q": "Another crucial purpose of creating a BCP is identifying the various threats to your operations",
+    "type": "mc",
+    "opts": ["Guide the company's disaster recovery teams", "Identify disaster recovery personnel", "Assess risks and impact", "Provide the step-by-step protocols", "Identify the location of critical data and assets"],
+    "a": "Assess risks and impact"
+  },
+  {
+    "q": "Planning establishes risk management processes and procedures that aim to prevent interruptions to mission-critical services",
+    "type": "mc",
+    "opts": ["Business Recovery Plans", "Crisis management", "Disaster Recovery", "Emergency response", "Business Continuity"],
+    "a": "Business Continuity"
+  },
+  {
+    "q": "A component of the BCP that provides best practices to mitigate risks, and best measures to recover from the impact of an incident.",
+    "type": "mc",
+    "opts": ["continuity of operations plan", "contingency plan", "Succession Planning", "Paper testing"],
+    "a": "continuity of operations plan"
+  },
+  {
+    "q": "It performs additional analysis to ensure the business continuity solution fulfills organizational recovery requirements.",
+    "type": "mc",
+    "opts": ["Paper testing", "Performing walkthroughs", "Parallel testing", "Cutover"],
+    "a": "Paper testing"
+  },
+  {
+    "q": "This cover, for example, restore data from back-up or fix of a failure",
+    "type": "mc",
+    "opts": ["RTO", "WRT", "MTD", "BIA"],
+    "a": "RTO"
+  },
+  {
+    "q": "It shortens restore time compared to a full back up or an incremental backup.",
+    "type": "mc",
+    "opts": ["Recovery Team", "Full backup", "Differential backup", "Incremental backup"],
+    "a": "Differential backup"
+  },
+  {
+    "q": "It's a step-by-step guide that will be used by your recovery teams during an actual disaster situation.",
+    "type": "mc",
+    "opts": ["Guide the company's disaster recovery teams", "Identify disaster recovery personnel", "Assess risks and impact", "Provide the step-by-step protocols", "Identify the location of critical data and assets"],
+    "a": "Guide the company's disaster recovery teams"
+  },
+  {
+    "q": "It is a document that outlines how a business will continue operating during an unplanned disruption in service",
+    "type": "mc",
+    "opts": ["BCP", "RPO", "RTO", "WRT"],
+    "a": "BCP"
+  },
+  {
+    "q": "It outlines procedures and instructions an organization must follow in the face of disaster, whether fire, flood or cyberattack",
+    "type": "mc",
+    "opts": ["RPO", "RTO", "WRT", "BCP"],
+    "a": "BCP"
+  },
+  {
+    "q": "It must be online and must be available immediately.",
+    "type": "mc",
+    "opts": ["Alternate Site", "Hot Site", "Warm Site", "Cold Site"],
+    "a": "Hot Site"
+  },
+  {
+    "q": "It confirms whether the BCP meets predetermined, documented business needs.",
+    "type": "mc",
+    "opts": ["Paper testing", "Performing walkthroughs", "Parallel testing", "Cutover"],
+    "a": "Paper testing"
+  },
+  {
+    "q": "It is a complete backup of all files on the designated hard drive.",
+    "type": "mc",
+    "opts": ["Recovery Team", "Full backup", "Differential backup", "Incremental backup"],
+    "a": "Full backup"
+  },
+  {
+    "q": "A software quality assurance activity in which one or several people check a program mainly by viewing and reading parts of its source code.",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Code review"
+  },
+  {
+    "q": "A software environment is the whole of the distinctive points where an unauthorized client can attempt to enter information to or extricate information from an environment",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Attack surface"
+  },
+  {
+    "q": "The process of collecting as much as information as possible about the target system to find ways to penetrate the system.",
+    "type": "mc",
+    "opts": ["Foot Printing", "Scanning", "Enumeration", "Attack"],
+    "a": "Foot Printing"
+  },
+  {
+    "q": "Refers to a risk management technique in which risk is transferred to a third party.",
+    "type": "mc",
+    "opts": ["Risk avoidance", "Risk transference", "Risk acceptance", "Risk mitigation"],
+    "a": "Risk transference"
+  },
+  {
+    "q": "Estimates the cost of recovering from a harmful event.",
+    "type": "mc",
+    "opts": ["Threat assessment", "Probability quantification", "Impact analysis", "Countermeasures determination"],
+    "a": "Impact analysis"
+  },
+  {
+    "q": "It could be a very particular sort of hazard, and it is characterized as an activity or occurrence that may result in a breach within the security, blackout, or debasement of a system by abusing known or obscure vulnerabilities",
+    "type": "mc",
+    "opts": ["Risk", "Threat", "Vulnerability", "Attacks"],
+    "a": "Threat"
+  },
+  {
+    "q": "Data that measures conditions some time recently venture begin for later comparison.",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Baseline"
+  },
+  {
+    "q": "Generic term to describe anything that would attract an attacker.",
+    "type": "mc",
+    "opts": ["honeypot", "honey net", "Hacking", "Hacker"],
+    "a": "honeypot"
+  },
+  {
+    "q": "It is using computer skills to find the weaknesses in a computer or a network and then, exploiting those weaknesses by gaining unauthorized access to the system or network.",
+    "type": "mc",
+    "opts": ["honeypot", "honey net", "Hacking", "Hacker"],
+    "a": "Hacking"
+  },
+  {
+    "q": "A program that monitors and analyzes network traffic, detecting bottlenecks and problems.",
+    "type": "mc",
+    "opts": ["Vulnerability Assessment", "Vulnerability Scanners", "Sniffer", "Protocol analyzer"],
+    "a": "Sniffer"
+  },
+  {
+    "q": "It probes a server or host for open ports",
+    "type": "mc",
+    "opts": ["Port Scanner", "Network Enumerator", "Network Vulnerability Scanner", "Web Application Security Scanner", "Computer Worm"],
+    "a": "Port Scanner"
+  },
+  {
+    "q": "The quality of being able to be discovered or found",
+    "type": "mc",
+    "opts": ["Reproducibility", "Exploitability", "Affected users", "Discoverability"],
+    "a": "Discoverability"
+  },
+  {
+    "q": "Keeping this as little as conceivable could be a essential security measure.",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Attack surface"
+  },
+  {
+    "q": "It focuses primarily on verifying the flow of inputs and outputs through the application, improving design and usability, strengthening security.",
+    "type": "mc",
+    "opts": ["BLACK BOX TESTING", "WHITE BOX TESTING", "GRAY BOX TESTING", "RED BOX TESTING"],
+    "a": "WHITE BOX TESTING"
+  },
+  {
+    "q": "This type of testing is based entirely on software requirements and specifications.",
+    "type": "mc",
+    "opts": ["BLACK BOX TESTING", "WHITE BOX TESTING", "GRAY BOX TESTING", "RED BOX TESTING"],
+    "a": "BLACK BOX TESTING"
+  },
+  {
+    "q": "Organization name is part of \"Guidelines for Recovering from a Security Incident\"",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Pretending to be someone you are not.",
+    "type": "mc",
+    "opts": ["Fraud", "Harvesting", "Human trafficking", "Identity theft"],
+    "a": "Identity theft"
+  },
+  {
+    "q": "It includes planning what to do to prevent a data breach or attack from happening in the first place.",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Preparation"
+  },
+  {
+    "q": "It is a formal recording of the facts related to an incident.",
+    "type": "mc",
+    "opts": ["Incident report", "Damage Assessment", "Security Incident", "Incident response"],
+    "a": "Incident report"
+  },
+  {
+    "q": "After effectively handling a security incident, an organization should use the information learned from the incident to improve its current IRP.",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Post-incident activity"
+  },
+  {
+    "q": "An organization ought to be prepared to bargain with a cybersecurity incident some time recently it happens and arrange all vital reaction methods in progress.",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Preparation"
+  },
+  {
+    "q": "An organization must be able to effectively handle an attack, remove the threat, and start recovering affected systems and data.",
+    "type": "mc",
+    "opts": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+    "a": "Containment, eradication, and recovery"
+  },
+  {
+    "q": "The following are guidelines for Recovering from a Security Incident (Recover) except",
+    "type": "mc",
+    "opts": ["Determine damage to facilities, hardware, systems, and networks.", "Restore data and systems from backups.", "Replace compromised data and applications or rebuild the system with a fresh OS installation.", "Harden networks and servers."],
+    "a": "Determine damage to facilities, hardware, systems, and networks."
+  },
+  {
+    "q": "Source and destination of systems and networks is part of \"Guidelines for Recovering from a Security Incident\"",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Stealing practical or conceptual information developed by another person or company.",
+    "type": "mc",
+    "opts": ["Illegal sales", "Intellectual property theft", "IPR violation", "Scam"],
+    "a": "Intellectual property theft"
+  },
+  {
+    "q": "It gives a spoken or written account of something that one has observed, heard, done, or investigated.",
+    "type": "mc",
+    "opts": ["Collection Phase", "Examination phase", "Analysis Phase", "Reporting Phase"],
+    "a": "Reporting Phase"
+  },
+  {
+    "q": "These are situations where the people involved had no injuries but could have been potentially harmed by the risks detected.",
+    "type": "mc",
+    "opts": ["Sentinel events", "Near misses", "Adverse events", "No harm events"],
+    "a": "Near misses"
+  },
+  {
+    "q": "An event that may indicate that an organization's systems or data have been compromised or that measures put in place to protect them have failed.",
+    "type": "mc",
+    "opts": ["Incident report", "Damage Assessment", "Security Incident", "Incident response"],
+    "a": "Security Incident"
+  },
+  {
+    "q": "It can be anything from an active threat to an attempted intrusion to a successful compromise or data breach.",
+    "type": "mc",
+    "opts": ["Security Incident Management", "Computer Crime", "Child pornography", "Copyright violation"],
+    "a": "Security Incident Management"
+  },
+  {
+    "q": "It processes typically starts with an alert that an incident has occurred and engagement of the incident response team.",
+    "type": "mc",
+    "opts": ["Security Incident Management", "Computer Crime", "Child pornography", "Copyright violation"],
+    "a": "Security Incident Management"
+  },
+  {
+    "q": "It is the process of accumulating, categorizing and analyzing large set of data or big data.",
+    "type": "mc",
+    "opts": ["Big Data Analysis", "Chain of custody", "IRP", "Computer Forensics"],
+    "a": "Big Data Analysis"
+  },
+  {
+    "q": "Disable access to user accounts used in the attack and search for backdoor software is part of \"Guidelines for Recovering from a Security Incident\".",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is the methodology an organization uses to respond to and manage a cyberattack",
+    "type": "mc",
+    "opts": ["Incident Response", "Incident Recovery", "Recovery Methods", "Incident Assessment"],
+    "a": "Incident Response"
+  },
+  {
+    "q": "It is the process by which an organization deals with a disruptive and unexpected event that threatens to harm the organization or its stakeholders",
+    "type": "mc",
+    "opts": ["Business Recovery Plans", "Crisis management", "Disaster Recovery", "Emergency response", "Business Continuity"],
+    "a": "Crisis management"
+  },
+  {
+    "q": "It is a course of action designed to help an organization respond effectively to a significant future event or situation that may or may not happen",
+    "type": "mc",
+    "opts": ["continuity of operations plan", "contingency plan", "Succession Planning", "Paper testing"],
+    "a": "contingency plan"
+  },
+  {
+    "q": "It mimics an actual business disruption by shutting down the original site to test transfer and migration procedures to the alternate site.",
+    "type": "mc",
+    "opts": ["Paper testing", "Performing walkthroughs", "Parallel testing", "Cutover"],
+    "a": "Cutover"
+  },
+  {
+    "q": "Onsite storage has access to data from any location, via Internet or FTP",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "All selected files that have changed since the last full backup are backed up.",
+    "type": "mc",
+    "opts": ["Recovery Team", "Full backup", "Differential backup", "Incremental backup"],
+    "a": "Differential backup"
+  },
+  {
+    "q": "These are the plans used by the bronze or operational teams following an incident which affects their ability to operate normally",
+    "type": "mc",
+    "opts": ["Business Recovery Plans", "Crisis management", "Disaster Recovery", "Emergency response", "Business Continuity"],
+    "a": "Business Recovery Plans"
+  },
+  {
+    "q": "This is one of the most fundamental objectives of business continuity management",
+    "type": "mc",
+    "opts": ["Guide the company's disaster recovery teams", "Identify disaster recovery personnel", "Assess risks and impact", "Provide the step-by-step protocols", "Identify the location of critical data and assets"],
+    "a": "Guide the company's disaster recovery teams"
+  },
+  {
+    "q": "It is a plan devised for an outcome other than in the usual (expected) plan",
+    "type": "mc",
+    "opts": ["Backout Contingency Plan", "Backup", "Onsite storage", "Offsite storage"],
+    "a": "Backout Contingency Plan"
+  },
+  {
+    "q": "The following are advantages of Offsite storage has some advantages over onsite storage, except:",
+    "type": "mc",
+    "opts": ["less expensive", "access to data from any location, via Internet or FTP", "data will be preserved in the event of an event taking place within the business", "backup data can be shared with several different remote location"],
+    "a": "less expensive"
+  },
+  {
+    "q": "You will also include the impact of each scenario: how much damage would be caused, how long the recovery would take, the cost of operational losses and so on.",
+    "type": "mc",
+    "opts": ["Guide the company's disaster recovery teams", "Identify disaster recovery personnel", "Assess risks and impact", "Provide the step-by-step protocols", "Identify the location of critical data and assets"],
+    "a": "Assess risks and impact"
+  },
+  {
+    "q": "By having a business continuity management policy in place, recovery personnel will understand their roles for both internal and external emergency communication",
+    "type": "mc",
+    "opts": ["Prioritize emergency communications", "Identify back-up locations and resources", "Outline existing preventative measures", "Find weaknesses and propose solutions"],
+    "a": "Prioritize emergency communications"
+  },
+  {
+    "q": "Onsite storage has immediate access to data",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It may be an office to be occupied within the event that access to the primary location is anticipated.",
+    "type": "mc",
+    "opts": ["Alternate Site", "Hot Site", "Warm Site", "Cold Site"],
+    "a": "Alternate Site"
+  },
+  {
+    "q": "A type of self-replicated computer malware, which can be used to find out vulnerabilities",
+    "type": "mc",
+    "opts": ["Port Scanner", "Network Enumerator", "Network Vulnerability Scanner", "Web Application Security Scanner", "Computer Worm"],
+    "a": "Computer Worm"
+  },
+  {
+    "q": "It is a technique to test the software product or application with partial knowledge of the internal workings of an application.",
+    "type": "mc",
+    "opts": ["BLACK BOX TESTING", "WHITE BOX TESTING", "GRAY BOX TESTING", "RED BOX TESTING"],
+    "a": "GRAY BOX TESTING"
+  },
+  {
+    "q": "The plan standards are detailed clearly, and in-depth security control details are by and large reported in autonomous records",
+    "type": "mc",
+    "opts": ["Baseline", "Code review", "Attack surface", "Security architecture"],
+    "a": "Security architecture"
+  },
+  {
+    "q": "These are automated tools that scan web applications, normally from the outside, to look for security vulnerabilities such as Cross-site scripting, SQL Injection, Command Injection, Path Traversal and insecure server configuration.",
+    "type": "mc",
+    "opts": ["Vulnerability Assessment", "Vulnerability Scanners", "Sniffer", "Protocol analyzer"],
+    "a": "Vulnerability Scanners"
+  },
+  {
+    "q": "Locates weaknesses in a system.",
+    "type": "mc",
+    "opts": ["Natural disaster", "Man-made disasters", "Asset identification", "Vulnerability identification"],
+    "a": "Vulnerability identification"
+  },
+  {
+    "q": "These are how can the attack be reproduced easily",
+    "type": "mc",
+    "opts": ["Reproducibility", "Exploitability", "Affected users", "Discoverability"],
+    "a": "Reproducibility"
+  },
+  {
+    "q": "A program that screens and analyzes network activity, identifying bottlenecks and issues.",
+    "type": "mc",
+    "opts": ["Vulnerability Assessment", "Vulnerability Scanners", "Sniffer", "Protocol analyzer"],
+    "a": "Sniffer"
+  },
+  {
+    "q": "Purchasing insurance is a common example of",
+    "type": "mc",
+    "opts": ["Risk avoidance", "Risk transference", "Risk acceptance", "Risk mitigation"],
+    "a": "Risk transference"
+  },
+  {
+    "q": "It is the action of reducing the severity, or seriousness.",
+    "type": "mc",
+    "opts": ["Assessment", "Analysis", "Response", "Mitigation"],
+    "a": "Mitigation"
+  },
+  {
+    "q": "These are a critical component of the powerlessness administration and IT hazard administration life cycles, making a difference ensure systems and information from unauthorized access and information breaches.",
+    "type": "mc",
+    "opts": ["Vulnerability Assessment", "Vulnerability Scanners", "Sniffer", "Protocol analyzer"],
+    "a": "Vulnerability Assessment"
+  },
+  {
+    "q": "Connecting a device to a phone line to listen to conversations.",
+    "type": "mc",
+    "opts": ["Typosquatting Unauthorized access", "Unauthorized access", "Wiretapping", "Slander"],
+    "a": "Wiretapping"
+  },
+  {
+    "q": "Detect and save malicious code from affected systems and media is part of \"Guidelines for Recovering from a Security Incident\".",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "A good incident report has 4 elements",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Spying on a person or business.",
+    "type": "mc",
+    "opts": ["Creating Malware", "Denial of Service attack", "Doxing", "Espionage"],
+    "a": "Espionage"
+  },
+  {
+    "q": "This is the last procedure to be followed by the computer forensic team",
+    "type": "mc",
+    "opts": ["Big Data Analysis", "Chain of custody", "IRP", "Computer Forensics"],
+    "a": "Big Data Analysis"
+  },
+  {
+    "q": "The following are elements of a Good Incident Report except",
+    "type": "mc",
+    "opts": ["Accurate", "Factual", "Incomplete", "Graphic"],
+    "a": "Incomplete"
+  },
+  {
+    "q": "Deceive officials and stakeholders is part of \"Guidelines for Recovering from a Security Incident\".",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "These are related to medicine, vaccines and medical devices.",
+    "type": "mc",
+    "opts": ["Sentinel events", "Near misses", "Adverse events", "No harm events"],
+    "a": "Adverse events"
+  },
+  {
+    "q": "In IT, an event is anything that has significance for system hardware or software and an incident is an event that disrupts normal operations.",
+    "type": "mc",
+    "opts": ["Incident report", "Damage Assessment", "Security Incident", "Incident response"],
+    "a": "Security Incident"
+  },
+  {
+    "q": "It ensures that systems perform adequately at any alternate offsite facility, without taking the main site offline.",
+    "type": "mc",
+    "opts": ["Paper testing", "Performing walkthroughs", "Parallel testing", "Cutover"],
+    "a": "Parallel testing"
+  },
+  {
+    "q": "It should identify the operational and financial impacts resulting from the disruption of business functions and processes.",
+    "type": "mc",
+    "opts": ["RTO", "WRT", "MTD", "BIA"],
+    "a": "BIA"
+  },
+  {
+    "q": "It involves a set of policies, tools and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster",
+    "type": "mc",
+    "opts": ["Business Recovery Plans", "Crisis management", "Disaster Recovery", "Emergency response", "Business Continuity"],
+    "a": "Disaster Recovery"
+  },
+  {
+    "q": "In a later section, your plan will outline different types of disasters that could disrupt the business",
+    "type": "mc",
+    "opts": ["Guide the company's disaster recovery teams", "Identify disaster recovery personnel", "Assess risks and impact", "Provide the step-by-step protocols", "Identify the location of critical data and assets"],
+    "a": "Assess risks and impact"
+  },
+  {
+    "q": "It refers to the ability of a system (computer, network, cloud cluster, etc.) to continue operating without interruption when one or more of its components fail.",
+    "type": "mc",
+    "opts": ["Disaster Recovery Plan", "Fault Tolerance", "High availability", "Disaster Recovery Process"],
+    "a": "Fault Tolerance"
+  },
+  {
+    "q": "Onsite storage is more expensive",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It will outline the technologies, tools and protocols that are already in place to prevent or mitigate the effects of a disaster.",
+    "type": "mc",
+    "opts": ["Prioritize emergency communications", "Identify back-up locations and resources", "Outline existing preventative measures", "Find weaknesses and propose solutions"],
+    "a": "Outline existing preventative measures"
+  },
+  {
+    "q": "This allows recovery teams to begin recovery even if key IT personnel are unavailable",
+    "type": "mc",
+    "opts": ["Guide the company's disaster recovery teams", "Identify disaster recovery personnel", "Assess risks and impact", "Provide the step-by-step protocols", "Identify the location of critical data and assets"],
+    "a": "Identify the location of critical data and assets"
+  },
+  {
+    "q": "RTO stand for:",
+    "type": "mc",
+    "opts": ["Registered Training Organization", "Real Time Object", "Recovery Time Objective", "Receiver Time Out"],
+    "a": "Recovery Time Objective"
+  },
+  {
+    "q": "It describes the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan's maximum allowable threshold or \"tolerance.\"",
+    "type": "mc",
+    "opts": ["RPO", "RTO", "WRT", "MTD"],
+    "a": "RPO"
+  },
+  {
+    "q": "It is a process for identifying and developing new leaders who can replace old leaders when they leave, retire or die.",
+    "type": "mc",
+    "opts": ["continuity of operations plan", "contingency plan", "Succession Planning", "Paper testing"],
+    "a": "Succession Planning"
+  },
+  {
+    "q": "It is analyzing are the operational and financial impacts of a disruption of business functions and processes.",
+    "type": "mc",
+    "opts": ["BIA", "RTO", "WRT", "MTD"],
+    "a": "BIA"
+  },
+  {
+    "q": "A flaw in hardware or software that is vulnerable to hacking or other cyberattacks",
+    "type": "mc",
+    "opts": ["Reproducibility", "Exploitability", "Affected users", "Discoverability"],
+    "a": "Exploitability"
+  },
+  {
+    "q": "These is made an impact on",
+    "type": "mc",
+    "opts": ["Reproducibility", "Exploitability", "Affected users", "Discoverability"],
+    "a": "Affected users"
+  },
+  {
+    "q": "The process of eliminating a risk by choosing to not engage in an action or activity.",
+    "type": "mc",
+    "opts": ["Risk avoidance", "Risk transference", "Risk acceptance", "Risk mitigation"],
+    "a": "Risk avoidance"
+  },
+  {
+    "q": "The process of identifying, quantifying, and prioritizing (or ranking) the vulnerabilities in a system.",
+    "type": "mc",
+    "opts": ["Vulnerability Assessment", "Vulnerability Scanners", "Sniffer", "Protocol analyzer"],
+    "a": "Vulnerability Assessment"
+  },
+  {
+    "q": "These is how numerous clients will be influenced",
+    "type": "mc",
+    "opts": ["Reproducibility", "Exploitability", "Affected users", "Discoverability"],
+    "a": "Affected users"
+  },
+  {
+    "q": "These is how many users will be affected",
+    "type": "mc",
+    "opts": ["Reproducibility", "Exploitability", "Affected users", "Discoverability"],
+    "a": "Affected users"
+  },
+  {
+    "q": "It should be done assessing the damage",
+    "type": "mc",
+    "opts": ["Incident Response", "Incident Recovery", "Recovery Methods", "Incident Assessment"],
+    "a": "Recovery Methods"
+  },
+  {
+    "q": "The following are guidelines for Recovering from a Security Incident (Recover) except",
+    "type": "mc",
+    "opts": ["Verify that the attack has ended.", "Harden networks and servers.", "Notify officials and stakeholders.", "Document the recovery process."],
+    "a": "Verify that the attack has ended."
+  },
+  {
+    "q": "An act user, sometimes referred to as a hacker that illegally browses or steals a company's or individual's private information",
+    "type": "mc",
+    "opts": ["Security Incident Management", "Computer Crime", "Child pornography", "Copyright violation"],
+    "a": "Computer Crime"
+  },
+  {
+    "q": "Methods used to detect the incident is part of \"Guidelines for Recovering from a Security Incident\"",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Slips, trips and falls, natural disasters, vehicle accidents, disease outbreak are example of what of incidents?",
+    "type": "mc",
+    "opts": ["Sentinel events", "Near misses", "Adverse events", "No harm events"],
+    "a": "Sentinel events"
+  },
+  {
+    "q": "Spread out the necessary evidence.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It is the process involved in creating a system of prevention and recovery from potential threats to a company",
+    "type": "mc",
+    "opts": ["MTD", "BIA", "BCP", "WRT"],
+    "a": "BCP"
+  },
+  {
+    "q": "It can be defined as a backup site, which is up and running continuously.",
+    "type": "mc",
+    "opts": ["Alternate Site", "Hot Site", "Warm Site", "Cold Site"],
+    "a": "Hot Site"
+  },
+  {
+    "q": "It backs up all selected files regardless of the state of the archived bit.",
+    "type": "mc",
+    "opts": ["Recovery Team", "Full backup", "Differential backup", "Incremental backup"],
+    "a": "Full backup"
+  },
+  {
+    "q": "MTD stands for:",
+    "type": "mc",
+    "opts": ["Maximum Tolerable Dose", "Maximum Tolerable Downtime", "Moving Target Director", "Minimum Tolerable Dose"],
+    "a": "Maximum Tolerable Downtime"
+  },
+  {
+    "q": "It includes any systematic response to an unexpected or dangerous occurrence",
+    "type": "mc",
+    "opts": ["Business Recovery Plans", "Crisis management", "Disaster Recovery", "Emergency response", "Business Continuity"],
+    "a": "Emergency response"
+  },
+  {
+    "q": "It determines the maximum acceptable amount of data loss measured in time",
+    "type": "mc",
+    "opts": ["RPO", "RTO", "WRT", "MTD"],
+    "a": "RPO"
+  },
+  {
+    "q": "It usually entails storing important data on a periodic basis on local storage devices, such as hard drives, DVDs, magnetic tapes, or CDs.",
+    "type": "mc",
+    "opts": ["Backout Contingency Plan", "Backup", "Onsite storage", "Offsite storage"],
+    "a": "Onsite storage"
+  },
+  {
+    "q": "It refers to the copying of physical or virtual files or databases to a secondary location for preservation in case of equipment failure or catastrophe",
+    "type": "mc",
+    "opts": ["Backout Contingency Plan", "Backup", "Onsite storage", "Offsite storage"],
+    "a": "Backup"
+  }
+]
