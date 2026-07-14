@@ -21,10 +21,8 @@ let matchingUserPairs = {};
 const ASSESSMENTS = [
     { key: 'f1', label: 'Formative 1', file: 'data/formative1.json', icon: '📝', type: 'formative' },
     { key: 'f2', label: 'Formative 2', file: 'data/formative2.json', icon: '📝', type: 'formative' },
-    //{ key: 'f3', label: 'Formative 3', file: 'data/formative3.json', icon: '📝', type: 'formative' },
-   // { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
-    //{ key: 'f5', label: 'Formative 6', file: 'data/formative6.json', icon: '📝', type: 'formative' },
-    //{ key: 'f6', label: 'Formative 7', file: 'data/formative7.json', icon: '📝', type: 'formative' },
+    { key: 'f3', label: 'Formative 3', file: 'data/formative3.json', icon: '📝', type: 'formative' },
+    { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
     { key: 'mt', label: 'Midterm Exam', file: 'data/midterm.json', icon: '📄', type: 'midterm' },
     //{ key: 'sw1', label: 'Seatwork 1', file: 'data/seatwork1.json', icon: '📝', type: 'seatwork' }
 ];

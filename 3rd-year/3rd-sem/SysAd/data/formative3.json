@@ -1,0 +1,487 @@
+[
+  {
+    "q": "______________ are meant to alert you and your team that a disaster has occurred that can impact operations.",
+    "type": "mc",
+    "opts": ["Corrective measures", "Recovery measures", "Preventative measures", "Detection measures"],
+    "a": "Detection measures"
+  },
+  {
+    "q": "Backup and Restore is the Microsoft's backup solution for Windows",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is used for long term archival purposes",
+    "type": "mc",
+    "opts": ["SATAs", "SANs", "Tape storage", "HDDs"],
+    "a": "Tape storage"
+  },
+  {
+    "q": "Disaster Restoration Plan is a collection of documented procedures and plans on how to react and handle an emergency or disaster scenario, from the operational perspective.",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Determining Detection and Alert Measures involves making sure you have a sound backup and a recovery system, along with a good strategy in place",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "CSVDE is used to extend the schema, export Active Directory user and group information to other applications or services, and populate Active Directory Domain Services (AD DS) with data from other directory services",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It provides an environment in which users can execute scripts in a variety of languages, languages that use a variety of object models to perform tasks",
+    "type": "mc",
+    "opts": ["LDIFDE", "EXE", "CSVDE", "WSCRIPT"],
+    "a": "WSCRIPT"
+  },
+  {
+    "q": "Used to extend the schema, export Active Directory user and group information to other applications or services, and populate Active Directory Domain Services (AD DS) with data from other directory services",
+    "type": "mc",
+    "opts": ["LDIFDE", "WSCRIPT", "EXE", "CSVDE"],
+    "a": "LDIFDE"
+  },
+  {
+    "q": "Data Backup is the process of trying to restore data after an unexpected event that results in data loss or corruption",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Detection measures are meant to alert you and your team that a disaster has occurred that can impact operations.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Incremental Backups determines that only the data that's changed in files is backed up and is more time-consuming",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File Compression is a mechanism of storing the same data while requiring less disk space by using complex algorithms",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "It is a collection of documented procedures and plans on how to react and handle an emergency or disaster scenario, from the operational perspective.",
+    "type": "mc",
+    "opts": ["Damage Restoration Plan", "Disaster Recovery Plan", "Disaster Restoration Plan", "Damage Recovery Plan"],
+    "a": "Disaster Recovery Plan"
+  },
+  {
+    "q": "add_object adds specific types of objects to the directory",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "mod_object is used to modify an existing object of a specific type in the directory",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______________ adds a single computer to the directory.",
+    "type": "mc",
+    "opts": ["dsadd computer"],
+    "a": "dsadd computer"
+  },
+  {
+    "q": "WSCRIPT provides an environment in which users can execute scripts in a variety of languages, languages that use a variety of object models to perform tasks",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Determining Recovery Measures include actions that are taken to restore normal operations and to recover from an incident or outage",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "File decompression is a mechanism of storing the same data while requiring less disk space by using complex algorithms",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Differential Backups determines that only the data that's changed in files is backed up and is more time-consuming",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ cover any procedures or systems in place that will proactively minimize the impact of a disaster",
+    "type": "mc",
+    "opts": ["Corrective measures", "Preventative measures", "Recovery measures", "Detection measures"],
+    "a": "Preventative measures"
+  },
+  {
+    "q": "SATA is used for long term archival purposes",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Adds a single user to the directory",
+    "type": "mc",
+    "opts": ["dsadd user"],
+    "a": "dsadd user"
+  },
+  {
+    "q": "Modifies attributes of one or more existing quota specifications in the directory",
+    "type": "mc",
+    "opts": ["dsmod quota"],
+    "a": "dsmod quota"
+  },
+  {
+    "q": "Modifies attributes of one or more existing users in the directory",
+    "type": "mc",
+    "opts": ["dsmod user"],
+    "a": "dsmod user"
+  },
+  {
+    "q": "This command allows the user create a new folder in its current location.",
+    "type": "mc",
+    "opts": ["rmdir", "mkdir", "move", "copy"],
+    "a": "mkdir"
+  },
+  {
+    "q": "This feature allow the user to remove a directory on a certain location as long as it is empty.",
+    "type": "mc",
+    "opts": ["mkdir", "rmdir", "del", "copy"],
+    "a": "rmdir"
+  },
+  {
+    "q": "Disaster Recovery Plan is a collection of documented procedures and plans on how to react and handle an emergency or disaster scenario, from the operational perspective.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ involve fixing lost data from backups or rebuilding and reconfiguring systems that were damaged",
+    "type": "mc",
+    "opts": ["Preventative measures", "Detection measures", "Recovery measures"],
+    "a": "Recovery measures"
+  },
+  {
+    "q": "Data can be backed up remotely only",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "RAID stands for __________",
+    "type": "mc",
+    "opts": ["Redundant Array of Independent Disks", "Redundant Array of Inclusive Disks", "Repetitive Array of Independent Disks", "Redundant Array of Dependent Disks"],
+    "a": "Redundant Array of Independent Disks"
+  },
+  {
+    "q": "___________ is a mechanism of storing the same data while requiring less disk space by using complex algorithms",
+    "type": "mc",
+    "opts": ["File Compression", "File Decompression", "File Encryption", "File Decryption"],
+    "a": "File Compression"
+  },
+  {
+    "q": "Time Machine is the Microsoft's backup solution for Windows",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Performing a risk assessment include actions that are taken to restore normal operations and to recover from an incident or outage",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "The purpose of a post-mortem is to learn something from an event or project and to punish anyone or highlight mistakes",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "It involves making sure you have a sound backup and a recovery system, along with a good strategy in place",
+    "type": "mc",
+    "opts": ["Perform a risk assessment", "Determine Backup and Recovery Systems", "Determine Detection and Alert Measures", "Determine Recovery Measures"],
+    "a": "Determine Backup and Recovery Systems"
+  },
+  {
+    "q": "Restoration procedures should be documented and accessible so that anyone with the right access can restore operations when needed.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "NTFS is a method of taking multiple physical disks and combining them into one large virtual disk",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "_______ determines how long do you need to hang on to backups",
+    "type": "mc",
+    "opts": ["Backup Time Period", "Backup Time Frame", "Restoration Time Frame", "Backup and Restoration Period"],
+    "a": "Backup Time Period"
+  },
+  {
+    "q": "RAID stands for Redundant Array of Independent Disks",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Recovery Measures involve fixing lost data from backups or rebuilding and reconfiguring systems that were damaged",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is the Apple's first party backup solution available for Mac operating systems",
+    "type": "mc",
+    "opts": ["Time Machine", "Backup and Restore", "Time Virtual Machine", "Time Space Warp"],
+    "a": "Time Machine"
+  },
+  {
+    "q": "The first thing to figure out in backing up is to determine what data you need to backup",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Modifies attributes of one or more existing contacts in the directory",
+    "type": "mc",
+    "opts": ["dsmod contact"],
+    "a": "dsmod contact"
+  },
+  {
+    "q": "LDIFDE provides an environment in which users can execute scripts in a variety of languages, languages that use a variety of object models to perform tasks",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "is a command-line interpreter application available in most Windows operating systems. It allows you to execute commands by typing them, rather than using a graphical user interface (GUI) like clicking icons and menus.",
+    "type": "mc",
+    "opts": ["cmd", "Dfscmd", "Dirquota", "Filescrn"],
+    "a": "cmd"
+  },
+  {
+    "q": "used to rename a file or folder in a directory.",
+    "type": "mc",
+    "opts": ["rename", "dir", "move", "copy"],
+    "a": "rename"
+  },
+  {
+    "q": "is a command in cmd to change your location in the environment.",
+    "type": "mc",
+    "opts": ["dir", "cd", "cls", "none of the above"],
+    "a": "cd"
+  },
+  {
+    "q": "This is used to move a file from one location to another.",
+    "type": "mc",
+    "opts": ["move", "mkdir", "rmdir", "copy"],
+    "a": "move"
+  },
+  {
+    "q": "Adds a single organizational unit to the directory",
+    "type": "mc",
+    "opts": ["dsadd ou"],
+    "a": "dsadd ou"
+  },
+  {
+    "q": "Adds a quota specification to a directory partition",
+    "type": "mc",
+    "opts": ["dsadd quota"],
+    "a": "dsadd quota"
+  },
+  {
+    "q": "Modifies attributes of one or more existing computers in the directory",
+    "type": "mc",
+    "opts": ["dsmod computer"],
+    "a": "dsmod computer"
+  },
+  {
+    "q": "Is a command in cmd that allow the user to clear the information in the screen.",
+    "type": "mc",
+    "opts": ["cls", "dir", "cd", "none of the above"],
+    "a": "cls"
+  },
+  {
+    "q": "Modifies properties of a domain controller.",
+    "type": "mc",
+    "opts": ["dsmod server"],
+    "a": "dsmod server"
+  },
+  {
+    "q": "CSVDE imports and exports data from Active Directory Domain Services (AD DS) using files that store data in the comma-separated value (CSV) format",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "LDIFDE is used to extend the schema, export Active Directory user and group information to other applications or services, and populate Active Directory Domain Services (AD DS) with data from other directory services",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "dsmod is used to modify an existing object of a specific type in the directory",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "_______ is a file transfer utility that's designed to efficiently transfer and synchronize files between locations or computers",
+    "type": "mc",
+    "opts": ["syn", "syncr", "rsyn", "rsync"],
+    "a": "rsync"
+  },
+  {
+    "q": "_________ determines a full unmodified contents of all files to be backed up, whether the data was modified or not",
+    "type": "mc",
+    "opts": ["Full backup", "Incremental backup", "Partial backup", "Differential backup"],
+    "a": "Full backup"
+  },
+  {
+    "q": "_______ only backups files that are changed, or been created since the last full backup",
+    "type": "mc",
+    "opts": ["Full backup", "Differential backup", "Incremental backup", "Partial backup"],
+    "a": "Differential backup"
+  },
+  {
+    "q": "It allows you to prioritize certain aspects of the organizations that are more at danger if there's an unforeseen event",
+    "type": "mc",
+    "opts": ["Perform a risk assessment", "Determine Backup and Recovery Systems", "Determine Detection and Alert Measures", "Determine Recovery Measures"],
+    "a": "Perform a risk assessment"
+  },
+  {
+    "q": "This feature allows the user to copy files from a certain directory towards a desired path.",
+    "type": "mc",
+    "opts": ["copy", "del", "rmdir", "mkdir"],
+    "a": "copy"
+  },
+  {
+    "q": "When an unexpected event occurs, your main objective is to resume normal operations as soon as possible, while minimizing the disruption to your business functions",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "When an unexpected event occurs, your main objective is not to resume normal operations as soon as possible, while maximizing the disruption to your business functions",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "rsync is a file transfer utility that's designed to efficiently transfer and synchronize files between locations or computers",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Data can be backed up locally only",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Backing up data is free",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Backing up data isn't free",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Detection measures cover any procedures or systems in place that will proactively minimize the impact of a disaster",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Post-mortem is a report that documents in detail what exactly happened leading up to, during, and after the event or project",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Pre-mortem is a report that documents in detail what exactly happened leading up to, during, and after the event or project",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "You should only be backing up data that's necessary",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "You should be backing up data that's necessary and not so important",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "SSH is more secured than Telnet.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The purpose of a post-mortem is to learn something from an event or project, not to punish anyone or highlight mistakes",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "The advantage of remote backup solutions is that the data is physically very close",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Offsite backups transmit the data outside of your network",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Onsite backups transmit the data outside of your network",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Preventative Measures involve fixing lost data from backups or rebuilding and reconfiguring systems that were damaged",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Command shell is a software program that provides direct communication between the user and the operating system.",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "WSCIPT imports and exports data from Active Directory Domain Services (AD DS) using files that store data in the comma-separated value (CSV) format",
+    "type": "tf",
+    "a": "False"
+  },
+  {
+    "q": "Adds a single group to the directory (all lowercase)",
+    "type": "mc",
+    "opts": ["dsadd group"],
+    "a": "dsadd group"
+  },
+  {
+    "q": "Modifies attributes of one or more existing groups in the directory (all lowercase)",
+    "type": "mc",
+    "opts": ["dsmod group"],
+    "a": "dsmod group"
+  },
+  {
+    "q": "Modifies attributes of one or more existing organizational units (OUs) in the directory (all lowercase)",
+    "type": "mc",
+    "opts": ["dsmod ou"],
+    "a": "dsmod ou"
+  },
+  {
+    "q": "Modifies properties of a domain controller. (all lowercase)",
+    "type": "mc",
+    "opts": ["netdom"],
+    "a": "netdom"
+  },
+  {
+    "q": "it is a command that allows the user to delete a file from a certain directory.",
+    "type": "mc",
+    "opts": ["del", "rmdir", "copy", "move"],
+    "a": "del"
+  },
+  {
+    "q": "dsadd adds specific types of objects to the directory",
+    "type": "tf",
+    "a": "True"
+  },
+  {
+    "q": "Modifies attributes of one or more existing partitions in the directory (all lowercase)",
+    "type": "mc",
+    "opts": ["dsmod partition"],
+    "a": "dsmod partition"
+  },
+  {
+    "q": "Adds a quota specification to a directory partition (all lowercase)",
+    "type": "mc",
+    "opts": ["dsadd quota"],
+    "a": "dsadd quota"
+  }
+]

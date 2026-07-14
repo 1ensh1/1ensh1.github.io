@@ -1,0 +1,362 @@
+[
+  {
+    "q": "What does DNS stand for?",
+    "type": "mc",
+    "opts": ["Digital Network System", "Data Name Source", "Domain Name System", "Domain Network Service"],
+    "a": "Domain Name System"
+  },
+  {
+    "q": "What is the main purpose of DNS?",
+    "type": "mc",
+    "opts": ["Encrypting internet traffic", "Translating domain names into IP addresses", "Hosting websites", "Providing internet access"],
+    "a": "Translating domain names into IP addresses"
+  },
+  {
+    "q": "Which of the following is considered the \"phonebook\" of the internet?",
+    "type": "mc",
+    "opts": ["HTTP", "DNS", "FTP", "DHCP"],
+    "a": "DNS"
+  },
+  {
+    "q": "What is at the top of the DNS hierarchy?",
+    "type": "mc",
+    "opts": ["TLD servers", "Authoritative servers", "Root servers", "Recursive resolvers"],
+    "a": "Root servers"
+  },
+  {
+    "q": "Which of these is an example of a Top-Level Domain (TLD)?",
+    "type": "mc",
+    "opts": ["google.com", ".org", "mail.google.com", "wikipedia.org"],
+    "a": ".org"
+  },
+  {
+    "q": "Which DNS record type maps a domain name to an IPv4 address?",
+    "type": "mc",
+    "opts": ["A Record", "MX Record", "CNAME Record", "AAAA Record"],
+    "a": "A Record"
+  },
+  {
+    "q": "Which DNS record type is used to define an alias?",
+    "type": "mc",
+    "opts": ["A Record", "CNAME Record", "MX Record", "PTR Record"],
+    "a": "CNAME Record"
+  },
+  {
+    "q": "Which DNS record type specifies the mail server for a domain?",
+    "type": "mc",
+    "opts": ["A Record", "CNAME Record", "MX Record", "SOA Record"],
+    "a": "MX Record"
+  },
+  {
+    "q": "What command is commonly used to test DNS configuration in Windows?",
+    "type": "mc",
+    "opts": ["ping", "nslookup", "ipconfig /all", "tracert"],
+    "a": "nslookup"
+  },
+  {
+    "q": "Which command clears the DNS cache in Windows?",
+    "type": "mc",
+    "opts": ["dns /clear", "ipconfig /flushdns", "nslookup /reset", "cache /reset"],
+    "a": "ipconfig /flushdns"
+  },
+  {
+    "q": "Which benefit is achieved by using local DNS resolution?",
+    "type": "mc",
+    "opts": ["Faster query responses", "Hiding IP addresses", "Encrypting DNS requests", "Blocking malicious sites"],
+    "a": "Faster query responses"
+  },
+  {
+    "q": "Which DNS server type stores the original source of a domain's records?",
+    "type": "mc",
+    "opts": ["Resolver", "TLD Server", "Authoritative Server", "Root Server"],
+    "a": "Authoritative Server"
+  },
+  {
+    "q": "Which Windows tool allows you to configure a DNS server?",
+    "type": "mc",
+    "opts": ["Active Directory Manager", "Control Panel", "DNS Manager", "Network Monitor"],
+    "a": "DNS Manager"
+  },
+  {
+    "q": "Which DNS feature allows users to access local servers by name instead of IP?",
+    "type": "mc",
+    "opts": ["Root Hints", "Local Name Resolution", "Forwarders", "Caching"],
+    "a": "Local Name Resolution"
+  },
+  {
+    "q": "What is the default DNS logging type in Windows Server?",
+    "type": "mc",
+    "opts": ["Debug Logging", "Audit Logging", "Analytical Logging", "Event Tracing"],
+    "a": "Audit Logging"
+  },
+  {
+    "q": "Which logging type captures every DNS query and response?",
+    "type": "mc",
+    "opts": ["Audit Logging", "Analytical Logging", "Debug Logging", "Cache Logging"],
+    "a": "Analytical Logging"
+  },
+  {
+    "q": "Which logging type captures every packet for deep troubleshooting?",
+    "type": "mc",
+    "opts": ["Audit Logging", "Analytical Logging", "Debug Logging", "Forwarder Logs"],
+    "a": "Debug Logging"
+  },
+  {
+    "q": "Which Windows feature enables high-performance event tracing for DNS?",
+    "type": "mc",
+    "opts": ["Netstat", "SNMP", "ETW (Event Tracing for Windows)", "Wireshark"],
+    "a": "ETW (Event Tracing for Windows)"
+  },
+  {
+    "q": "What type of DNS forwarder is configured for specific domains?",
+    "type": "mc",
+    "opts": ["Standard Forwarder", "Conditional Forwarder", "Internal Forwarder", "External Forwarder"],
+    "a": "Conditional Forwarder"
+  },
+  {
+    "q": "Which is an example of an external DNS forwarder?",
+    "type": "mc",
+    "opts": ["fileserver.local", "8.8.8.8", "dns.internal", "localhost"],
+    "a": "8.8.8.8"
+  },
+  {
+    "q": "Which DNSSEC feature prevents cache poisoning attacks?",
+    "type": "mc",
+    "opts": ["Forwarding", "ETW", "Digital Signatures", "Name Aliasing"],
+    "a": "Digital Signatures"
+  },
+  {
+    "q": "Which version of Windows Server simplified DNSSEC management?",
+    "type": "mc",
+    "opts": ["Server 2008", "Server 2010", "Server 2012 R2", "Server 2016"],
+    "a": "Server 2012 R2"
+  },
+  {
+    "q": "Which DNSSEC improvement allows zones to be signed while online?",
+    "type": "mc",
+    "opts": ["Debug Logging", "Online Zone Signing", "Conditional Forwarders", "Non-Responsive Cache"],
+    "a": "Online Zone Signing"
+  },
+  {
+    "q": "Which PowerShell cmdlet lists all DNS zones?",
+    "type": "mc",
+    "opts": ["Get-DnsServerRecord", "Get-DnsServerZone", "List-DnsZones", "Show-DnsRecords"],
+    "a": "Get-DnsServerZone"
+  },
+  {
+    "q": "Which PowerShell cmdlet clears the DNS cache?",
+    "type": "mc",
+    "opts": ["Reset-DnsServer", "Clear-DnsServerCache", "Remove-DnsCache", "Flush-DnsZone"],
+    "a": "Clear-DnsServerCache"
+  },
+  {
+    "q": "What does query coalescing do in DNS?",
+    "type": "mc",
+    "opts": ["Deletes duplicate queries", "Combines multiple identical requests into one", "Splits queries into smaller parts", "Encrypts DNS queries"],
+    "a": "Combines multiple identical requests into one"
+  },
+  {
+    "q": "Which new feature in Windows 8 DNS allows both IPv4 and IPv6 queries at once?",
+    "type": "mc",
+    "opts": ["Adaptive Timeout", "Parallel Queries", "Query Coalescing", "Forwarder Management"],
+    "a": "Parallel Queries"
+  },
+  {
+    "q": "Which DNS log type should be enabled only for troubleshooting?",
+    "type": "mc",
+    "opts": ["Audit Logs", "Forwarder Logs", "Analytical Logs", "Zone Transfer Logs"],
+    "a": "Analytical Logs"
+  },
+  {
+    "q": "Which is a best practice for configuring DNS forwarders?",
+    "type": "mc",
+    "opts": ["Use only one forwarder", "Configure multiple forwarders for redundancy", "Avoid conditional forwarders", "Disable caching"],
+    "a": "Configure multiple forwarders for redundancy"
+  },
+  {
+    "q": "Which PowerShell feature allows administrators to automate DNSSEC tasks?",
+    "type": "mc",
+    "opts": ["nslookup", "Server Manager", "DNSSEC cmdlets", "Event Viewer"],
+    "a": "DNSSEC cmdlets"
+  },
+  {
+    "q": "What does DHCP stand for?",
+    "type": "mc",
+    "opts": ["Dynamic Host Control Program", "Data Handling Communication Protocol", "Dynamic Host Configuration Protocol", "Domain Host Control Protocol"],
+    "a": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "q": "What is the primary function of DHCP?",
+    "type": "mc",
+    "opts": ["Encrypting traffic", "Automatically assigning IP addresses", "Monitoring network activity", "Translating domain names"],
+    "a": "Automatically assigning IP addresses"
+  },
+  {
+    "q": "Without DHCP, what problem is most likely to occur?",
+    "type": "mc",
+    "opts": ["Slow internet speed", "Lost packets", "IP address conflicts", "Weak encryption"],
+    "a": "IP address conflicts"
+  },
+  {
+    "q": "Which of the following is NOT assigned by DHCP?",
+    "type": "mc",
+    "opts": ["IP address", "Subnet mask", "Default gateway", "Domain registration"],
+    "a": "Domain registration"
+  },
+  {
+    "q": "Which process describes how DHCP assigns IPs?",
+    "type": "mc",
+    "opts": ["PING", "DORA", "ARP", "HTTP"],
+    "a": "DORA"
+  },
+  {
+    "q": "In the DORA process, what does \"D\" stand for?",
+    "type": "mc",
+    "opts": ["Discover", "Domain", "Data", "Disconnect"],
+    "a": "Discover"
+  },
+  {
+    "q": "What does the DHCP server send after receiving a Discover message?",
+    "type": "mc",
+    "opts": ["Request", "Offer", "Acknowledge", "Response"],
+    "a": "Offer"
+  },
+  {
+    "q": "Which step comes last in the DORA process?",
+    "type": "mc",
+    "opts": ["Discover", "Offer", "Request", "Acknowledge"],
+    "a": "Acknowledge"
+  },
+  {
+    "q": "What is the DHCP \"lease\"?",
+    "type": "mc",
+    "opts": ["Permanent IP assignment", "The time an IP is valid for a client", "The subnet mask of a client", "The pool of available IPs"],
+    "a": "The time an IP is valid for a client"
+  },
+  {
+    "q": "Which component stores available IP addresses for DHCP assignment?",
+    "type": "mc",
+    "opts": ["Router", "Scope (IP address pool)", "Lease table", "MAC filter"],
+    "a": "Scope (IP address pool)"
+  },
+  {
+    "q": "Which device acts as the DHCP client?",
+    "type": "mc",
+    "opts": ["Router", "Computer requesting IP", "ISP", "Firewall"],
+    "a": "Computer requesting IP"
+  },
+  {
+    "q": "What happens if a lease expires and is not renewed?",
+    "type": "mc",
+    "opts": ["Client keeps the IP permanently", "IP is returned to the pool", "Client disconnects immediately", "Client creates a static IP"],
+    "a": "IP is returned to the pool"
+  },
+  {
+    "q": "Which of these is an advantage of DHCP?",
+    "type": "mc",
+    "opts": ["Static assignment", "Simplified administration", "Higher security encryption", "Blocking malicious traffic"],
+    "a": "Simplified administration"
+  },
+  {
+    "q": "What port does DHCP use for client requests?",
+    "type": "mc",
+    "opts": ["TCP 53", "UDP 68", "UDP 80", "TCP 25"],
+    "a": "UDP 68"
+  },
+  {
+    "q": "What port does DHCP use for server replies?",
+    "type": "mc",
+    "opts": ["UDP 2", "UDP 53", "UDP 67", "TCP 110"],
+    "a": "UDP 67"
+  },
+  {
+    "q": "Which DHCP message type is broadcasted by the client to find a server?",
+    "type": "mc",
+    "opts": ["Offer", "Request", "Discover", "ACK"],
+    "a": "Discover"
+  },
+  {
+    "q": "Which DHCP message confirms the client's acceptance of an IP?",
+    "type": "mc",
+    "opts": ["Offer", "Request", "Discover", "Release"],
+    "a": "Request"
+  },
+  {
+    "q": "Which DHCP message officially gives the client an IP?",
+    "type": "mc",
+    "opts": ["Request", "Acknowledge (ACK)", "Offer", "Discover"],
+    "a": "Acknowledge (ACK)"
+  },
+  {
+    "q": "Which configuration allows DHCP to assign IPs only to specific devices?",
+    "type": "mc",
+    "opts": ["Dynamic allocation", "Reservation", "Scope option", "Relay agent"],
+    "a": "Reservation"
+  },
+  {
+    "q": "What is a DHCP relay agent used for?",
+    "type": "mc",
+    "opts": ["Encrypt DHCP traffic", "Forward requests between clients and servers on different subnets", "Block duplicate IPs", "Extend lease times"],
+    "a": "Forward requests between clients and servers on different subnets"
+  },
+  {
+    "q": "Which is a common DHCP troubleshooting tool?",
+    "type": "mc",
+    "opts": ["tracert", "arp -a", "ipconfig /renew", "netstat -s"],
+    "a": "ipconfig /renew"
+  },
+  {
+    "q": "If a DHCP server is unavailable, what type of IP might a client get?",
+    "type": "mc",
+    "opts": ["Static", "Public", "APIPA (169.254.x.x)", "Broadcast"],
+    "a": "APIPA (169.254.x.x)"
+  },
+  {
+    "q": "What does APIPA stand for?",
+    "type": "mc",
+    "opts": ["Automatic Private Internet Protocol Addressing", "Automatic Private IP Addressing", "Assigned Protocol for Internet Addressing", "Auto Programmed IP Allocation"],
+    "a": "Automatic Private IP Addressing"
+  },
+  {
+    "q": "Which Windows command shows current DHCP leases?",
+    "type": "mc",
+    "opts": ["tracert", "ipconfig /all", "netstat", "nslookup"],
+    "a": "ipconfig /all"
+  },
+  {
+    "q": "Which DHCP allocation method permanently ties an IP to a MAC address?",
+    "type": "mc",
+    "opts": ["Dynamic", "Reservation", "Lease renewal", "Pool binding"],
+    "a": "Reservation"
+  },
+  {
+    "q": "Which layer of the OSI model does DHCP operate at?",
+    "type": "mc",
+    "opts": ["Network", "Application", "Transport", "Data Link"],
+    "a": "Application"
+  },
+  {
+    "q": "Which DHCP option provides the default gateway to clients?",
+    "type": "mc",
+    "opts": ["Option 3", "Option 6", "Option 3 (Router)", "Option 15"],
+    "a": "Option 3 (Router)"
+  },
+  {
+    "q": "Which DHCP option provides DNS server addresses?",
+    "type": "mc",
+    "opts": ["Option 1", "Option 6", "Option 3", "Option 19"],
+    "a": "Option 6"
+  },
+  {
+    "q": "Which DHCP option provides the domain name?",
+    "type": "mc",
+    "opts": ["Option 6", "Option 19", "Option 15", "Option 3"],
+    "a": "Option 15"
+  },
+  {
+    "q": "What happens when multiple DHCP servers exist without coordination?",
+    "type": "mc",
+    "opts": ["Faster assignment", "IP conflicts", "More secure leases", "No leases are assigned"],
+    "a": "IP conflicts"
+  }
+]
