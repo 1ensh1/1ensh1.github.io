@@ -450,11 +450,6 @@
     "a": "dsmod ou"
   },
   {
-    "q": "Modifies properties of a domain controller. (all lowercase)",
-    "type": "text",
-    "a": "netdom"
-  },
-  {
     "q": "it is a command that allows the user to delete a file from a certain directory.",
     "type": "mc",
     "opts": ["del", "rmdir", "copy", "move"],
