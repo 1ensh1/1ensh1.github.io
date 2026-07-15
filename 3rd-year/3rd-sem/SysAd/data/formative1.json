@@ -901,7 +901,7 @@
   {
     "q": "Database Administrators work in the background to make sure a company's IT infrastructure is always working, constantly fighting to prevent IT disasters from happening",
     "type": "tf",
-    "a": "FALSE"
+    "a": "False"
   },
   {
     "q": "_________ is a legacy way to transfer files from one computer to another over the Internet",
