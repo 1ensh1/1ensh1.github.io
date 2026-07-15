@@ -9,6 +9,7 @@ let score = 0;
 let loadedFormatives = new Set();
 const wrongQuestionsMap = {};
 let isPracticeMode = false;
+let isAllWrongPractice = false;
 let sessionWrongQuestions = [];
 
 // Matching state
@@ -22,9 +23,8 @@ const ASSESSMENTS = [
     { key: 'f1', label: 'Formative 1', file: 'data/formative1.json', icon: '📝', type: 'formative' },
     { key: 'f2', label: 'Formative 2', file: 'data/formative2.json', icon: '📝', type: 'formative' },
     { key: 'f3', label: 'Formative 3', file: 'data/formative3.json', icon: '📝', type: 'formative' },
-    { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
+   { key: 'f4', label: 'Formative 4', file: 'data/formative4.json', icon: '📝', type: 'formative' },
     { key: 'mt', label: 'Midterm Exam', file: 'data/midterm.json', icon: '📄', type: 'midterm' },
-    //{ key: 'sw1', label: 'Seatwork 1', file: 'data/seatwork1.json', icon: '📝', type: 'seatwork' }
 ];
 
 // Section definitions — order and labels for the menu
@@ -131,7 +131,7 @@ function updateFormativeDisplay(key, hasError = false) {
     const answered   = answeredQuestions[key].length;
     const unanswered = total - answered;
 
-    if (unanswered === 0) {
+    if (unanswered <= 0) {
         countEl.textContent = `All ${total} questions answered!`;
         countEl.style.color = '#ffffff';
         statusEl.innerHTML  = '<span class="completed-badge">✓ Completed</span>';
@@ -190,6 +190,7 @@ function startQuiz(key) {
     userAnswer = '';
     userAnswers = [];
     isPracticeMode = false;
+    isAllWrongPractice = false;
     sessionWrongQuestions = [];
     showScreen('quiz');
     displayQuestion();
@@ -549,7 +550,7 @@ function checkAnswer() {
 
     if (isCorrect) {
         score++;
-        if (isPracticeMode) {
+        if (isAllWrongPractice) {
             wrongQuestionsMap[currentFormative] = (wrongQuestionsMap[currentFormative] || [])
                 .filter(q => q.q !== question.q);
             saveWrongQuestions();
@@ -563,10 +564,8 @@ function checkAnswer() {
     }
 
     // Mark as answered
-    const originalIndex = question._origIdx !== undefined
-        ? question._origIdx
-        : allQuestions[currentFormative].findIndex(q => q.q === question.q);
-    if (originalIndex !== -1 && !answeredQuestions[currentFormative].includes(originalIndex)) {
+    const originalIndex = question._origIdx;
+    if (originalIndex !== undefined && !answeredQuestions[currentFormative].includes(originalIndex)) {
         answeredQuestions[currentFormative].push(originalIndex);
         saveProgress();
     }
@@ -639,6 +638,7 @@ function showResults() {
 
     const wasPractice = isPracticeMode;
     isPracticeMode = false;
+    isAllWrongPractice = false;
 
     const sessionBtn = document.getElementById('practice-session-btn');
     if (!wasPractice && sessionWrongQuestions.length > 0) {
@@ -666,6 +666,7 @@ function practiceSessionWrong(key) {
     quizQuestions = shuffleArray([...sessionWrongQuestions]);
     sessionWrongQuestions = [];
     isPracticeMode = true;
+    isAllWrongPractice = false;
     currentQuestionIndex = 0;
     score = 0;
     userAnswer = '';
@@ -678,6 +679,7 @@ function practiceWrongAnswers(key) {
     currentFormative = key;
     quizQuestions = shuffleArray(wrongQuestionsMap[key] || []);
     isPracticeMode = true;
+    isAllWrongPractice = true;
     currentQuestionIndex = 0;
     score = 0;
     userAnswer = '';
