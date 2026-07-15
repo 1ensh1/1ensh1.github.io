@@ -579,7 +579,7 @@
   {
     "q": "Rack server which lay flat and are usually mounted in a 90\" wide server rack",
     "type": "tf",
-    "a": "False"
+    "a": "True"
   },
   {
     "q": "___________________ constantly provide updates and maintenance so that they run the latest secure software.",
