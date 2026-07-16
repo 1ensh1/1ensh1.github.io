@@ -66,17 +66,6 @@
     "a": "Integrity"
   },
   {
-    "q": "What does confidentiality of data imply to",
-    "type": "mc",
-    "opts": [
-      "Rules which prevent data from being changed",
-      "Rules which hide data",
-      "Rules which restrict access only to those who need to know",
-      "Rules which allow access only to all parties"
-    ],
-    "a": "Rules which restrict access only to those who need to know"
-  },
-  {
     "q": "The action or process of identifying someone or something or the fact of being identified.",
     "type": "mc",
     "opts": [
@@ -1290,17 +1279,6 @@
     "a": "Confidentiality, Integrity, Availability"
   },
   {
-    "q": "What does confidentiality of information allude to?",
-    "type": "mc",
-    "opts": [
-      "Rules which prevent data from being changed",
-      "Rules which hide data",
-      "Rules which restrict access only to those who need to know",
-      "Rules which allow access only to all parties"
-    ],
-    "a": "Rules which restrict access only to those who need to know"
-  },
-  {
     "q": "Facts and statistics collected together for reference or analysis.",
     "type": "mc",
     "opts": [
@@ -2237,17 +2215,6 @@
     "a": "Attack"
   },
   {
-    "q": "It is to set upon in a powerful, rough, antagonistic, or forceful way, with or without a weapon",
-    "type": "mc",
-    "opts": [
-      "Attack",
-      "CIA Triad",
-      "Control",
-      "Integrity"
-    ],
-    "a": "Attack"
-  },
-  {
     "q": "Which of the following can hide confidential or malicious data in the whitespace of other files (e.g. JPEGs)?",
     "type": "mc",
     "opts": [
@@ -2344,7 +2311,7 @@
       "Trojan Horse",
       "Keylogger"
     ],
-    "a": "Backdoor Attacks"
+    "a": "Rootkits"
   },
   {
     "q": "It is a type of malware that constantly changes its identifiable features in order to evade detection.",
@@ -2686,17 +2653,6 @@
       "Evil twin"
     ],
     "a": "Evil twin"
-  },
-  {
-    "q": "What is not goal of security?",
-    "type": "mc",
-    "opts": [
-      "Vulnerability",
-      "Intrusion",
-      "Threats",
-      "Risk"
-    ],
-    "a": "Intrusion"
   },
   {
     "q": "It is the process of verifying the identity of a person or device.",
