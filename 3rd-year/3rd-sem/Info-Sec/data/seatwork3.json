@@ -600,7 +600,7 @@
     "q": "PKI Components except:",
     "type": "mc",
     "opts": ["Public key", "Certificate Assemble", "Private key", "Hardware Security Module"],
-    "a": "Hardware Security Module"
+    "a": "Certificate Assemble"
   },
   {
     "q": "It is related to single sign-on (SSO), in which a user's single authentication ticket, or token, is trusted across multiple IT systems or even organizations.",

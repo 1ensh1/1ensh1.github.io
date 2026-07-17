@@ -1183,7 +1183,7 @@
       "RED BOX TESTING",
       "WHITE BOX TESTING"
     ],
-    "a": "GRAY BOX TESTING"
+    "a": "BLACK BOX TESTING"
   },
   {
     "q": "It gives security groups and other partners with the data they got to analyze and prioritize dangers for potential remediation within the appropriate setting.",
